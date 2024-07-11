@@ -1,0 +1,496 @@
+
+body {
+	    background: #f0f0f0;
+}
+
+
+
+.metizi {
+width: 88.8px;
+}
+
+.standart {
+width: 342.4px;
+}
+
+.material {
+width: 127.2px;
+}
+
+.diametr {
+width: 72px;
+}
+
+.dlina {
+width: 72px;
+}
+
+.pokr {
+width: 161.6px;
+}
+
+
+.classproch {
+width: 80.8px;
+}
+ 
+
+
+.dsjdjjdjjjjj {
+    background: #333333cf;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;		
+}
+
+
+
+	
+
+
+
+h1 {
+	text-align: CENTER;
+    color: #5c7697;
+    font-family: sans-serif;
+}
+
+.close {
+    color: #f00;
+}
+
+
+.close {
+	color: #f00;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #fff;
+    padding: 0 20px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.plus {
+    display: inline-block;
+    background: #d84040;
+    width: 30px;
+    height: 30px;
+    float: right;
+    color: #fff;
+    text-align: CENTER;
+    border-radius: 28px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 30px;
+    margin-top: -60px;
+    margin-right: -80px;
+}
+
+.calc select {
+    font-size: 16px;
+    font-weight: bold;
+    color: #404040;
+    border-radius: 3px;
+    padding: 5px 5px;
+    //width: unset;
+    min-width: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+#count {
+	font-size: 15px;
+    border-radius: 3px;
+    padding: 5px 5px;
+    border: 1px solid #b1b1b1;
+	width: 75px;
+	font-weight: bold;
+    color: #404040;
+}
+
+
+
+	#result_print {
+	font-family: sans-serif;
+    font-size: 20px;
+    padding: 0 0px;
+    top: 2px;
+    margin-right: -22px;
+    position: relative;
+    left: -1px;
+    width: 114px;
+    background: #e6e6e6;
+    display: inline-block;
+    color: #564e4e;
+    border-radius: 5px;
+    text-align: center;
+	}
+	
+	
+	
+	.calc {
+    display: inline-block;
+    background: #e1e1e1;
+    padding: 20px 5px 10px;
+    position: relative;
+    background-size: contain;
+    width: 1190px;
+    text-align: left;
+	}
+
+	
+	
+	.container_calc {
+	    text-align: center;	
+	}
+	
+	
+    .print_r:hover, .download_calc:hover, .pss:hover {
+            background: #e68a00;
+        }
+	
+	
+	.print_r, .download_calc{
+	background: #ffb017;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 50px;
+	}
+    .download_calc{
+        margin-top: 20px;
+    }
+
+	
+	
+	.r_r {
+    width: 460px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(/local/components/traiv/filter.form/templates/.default/images/bg.png);
+    padding: 42px;
+    margin-top: 5%;
+	color: #fff;
+	padding-bottom: 92px;
+	}
+	
+	
+	.r_r label {
+	display: block;     
+	font-family: sans-serif;
+	}
+	
+	
+	.r_r textarea {
+	width: 100%;
+    border: 1px solid #acacac;
+    resize: none;
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #fbfbfb;
+	}
+	
+	
+	.r_r input {
+	width: 92%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #969696;
+    padding: 6px;
+    font-size: 16px;
+    background: #fbfbfb;
+	}
+	
+	
+	.pss {
+    background: #ffb017;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+	}
+
+
+    .download_calc {
+    background: #ffb017;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    }
+	
+	
+	
+	.label_mark {
+    display: inline-block;
+    margin-top: 20px;
+    background: #e1e1e1; padding: 0px 0px 0px;
+    position: relative;
+    background-size: contain;
+	padding: 5px 5px 0px;
+    position: relative;
+    background-size: contain;
+    width: 1190px;  
+	text-align: left;
+	}
+	
+
+	
+	.label_mark span {
+    font-size: 12px;
+    color: #070707;
+    display: inline-block;
+    text-align: center;
+    padding-top: 14px;
+    padding: 5px 5px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+	}
+	
+.sr7 {
+font-family: sans-serif;
+    padding: 0 0px!important;
+    top: 2px;
+    margin-right: -22px!important;
+    position: relative;
+    left: 0px;
+    width: 114px;
+    display: inline-block;
+}
+	
+	.sadasd {
+	display: none;
+    font-size: 34px;
+    text-align: CENTER;
+    font-family: sans-serif;
+    height: 85px;
+    line-height: 46px;	     
+	color: #fff;
+	}
+	
+	
+	.send_messege {
+	margin-top: 20px;
+    cursor: pointer;
+	}
+	
+	.send_messege:hover {
+		    background: #e9e9e9;
+	}
+	
+	
+	.send_messege {
+    width: 100%!important;
+    margin-top: 21px!important;
+    background-color: #ffb017!important;
+    border-radius: 3px!important;
+    box-sizing: border-box!important;
+    height: 36px!important;
+    color: #fff!important;
+    font-size: 15px!important;
+    padding-top: 9px!important;
+	}
+	
+	
+	
+	
+	
+	.fancybox-content {
+    background: url(/local/components/traiv/filter.form/templates/.default/images/bg.png)!important;
+    padding: 35px 50px 30px!important;
+    position: relative!important;
+    margin-bottom: 30px!important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	@media screen and (max-width: 1175px) {
+		
+		
+		.r_r {
+    width: 220px;
+		}
+		
+		
+		
+		
+		
+		
+		.calc {
+    display: inline-block;
+    margin-top: 20px;
+    background: url(/local/components/traiv/filter.form/templates/.default/images/bg.png);
+    padding: 15px 10px 15px;
+    position: relative;
+    margin-bottom: 30px;
+    background-size: contain;
+	    width: 1000px;
+		}
+		
+		
+		.plus {
+		margin-top: -75px;
+		margin-right: 20px;
+		}
+		
+		
+		
+#result_print {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 0 12px;
+    position: relative;
+    top: 3px;
+    float: right;
+    right: -5px;
+    width: 88px;
+    background: #e6e6e6;
+    color: #564e4e;
+    border-radius: 5px;
+	margin-right: 0;
+    position: relative;
+    left: 0;
+}		
+	
+
+
+
+.label_mark span {
+    display: none;
+}
+
+
+
+
+
+
+
+	
+.calc select {
+    font-size: 13px;
+    color: #777;
+    border-radius: 3px;
+    padding: 5px 5px;
+    width: 100px;
+}		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	@media screen and (max-width: 875px) {
+.calc select {
+    font-size: 15px;
+    color: #777;
+    border-radius: 3px;
+    padding: 5px 5px;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.calc {
+    display: block;
+    margin-top: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+    background: url(/local/components/traiv/filter.form/templates/.default/images/bg.png);
+    padding: 15px 10px 15px;
+    position: relative;
+    margin-bottom: 30px;
+    background-size: contain;
+}
+
+
+.plus {
+    display: block;
+    background: #d84040;
+    width: 30px;
+    height: 30px;
+    float: none;
+    color: #fff;
+    text-align: CENTER;
+    border-radius: 28px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+
+
+   }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

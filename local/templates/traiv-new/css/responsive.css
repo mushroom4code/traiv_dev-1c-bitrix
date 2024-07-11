@@ -1,0 +1,483 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+/*#check_resp {
+	background-color:pink;
+}*/
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+/*#check_resp {
+	background-color:yellow;
+}*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+/*#check_resp {
+	background-color:green;
+}*/
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+/*#check_resp {
+	background-color:blue;
+}*/
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+/*#check_resp {
+	background-color:gray;
+}*/
+}
+
+/*for 1366 * 768*/
+@media  screen and (max-width: 1366px) {
+    html,body {
+    overflow-x:hidden;
+    /*background-color: #f1f1f1;*/
+    }
+    
+    .top-phone i.fa {
+    display:none;
+    }
+    
+.otr-list .posts-i .posts-i-ttl {
+	font: 700 26px/42px 'Gilroy',sans-serif;
+	margin: 0;
+	line-height: 1.2;
+	text-align: center;
+}
+
+#topnav .top_location span {
+	padding:0px 5px;
+	font: 700 12px/24px 'Gilroy',sans-serif;
+}
+
+.map_office_area {
+	width:45%;
+}
+
+}
+
+/*landscape phones, 576px*/
+@media only screen and (max-width : 576px) {
+/*#check_resp {
+	background-color:gray;
+}*/
+
+.map-link-more{
+	display: none;
+}
+
+.eraser-9000 iframe {
+	width: 100%;
+    height: auto;
+}
+
+.logotype-description {
+    border: 0 green solid;
+    font: 700 8px/10px 'Gilroy',sans-serif;
+    position: relative;
+    width: 80%;
+    top: -7px;
+}
+
+.otr-list .posts-i .posts-i-ttl {
+	font: 700 26px/42px 'Gilroy',sans-serif;
+	margin: 0;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.jtline .events-content {
+	width:auto;
+}
+
+.jtline .events-content h2 {
+	font-size: 24px;
+}
+
+.jtline .events-content p {
+	    font-size: 14px;
+}
+
+/*.jtline .events-content li.selected img {
+	outline:0;
+	width:300px;
+}*/
+
+.search-din-gost-area {
+	margin-top:10px;
+}
+
+.up_area {
+		right:0px;
+}
+
+.btn-collapse {
+	right:0px;
+}
+
+.order-table__item {
+	    margin: 10px 0;
+}
+
+/*----------------------------------
+@ MainPageContent
+----------------------------------*/
+#main_page_content {
+	padding:60px 0px;
+	background-color:var(--thBack);
+	display:none;
+}
+
+.direction-item {
+	min-height:320px;
+}
+
+.direction-item-area
+{
+	padding-left:0px;
+	padding-top:30px;
+}
+
+.quicklinks-item-title-big {
+	text-align:center;
+}
+
+/*----------------------------------
+end MainPageContent
+----------------------------------*/
+
+/*----------------------------------
+@ Global
+----------------------------------*/
+
+.sm-nopadding {
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+
+h1 {
+	margin: 0 0 15px;
+}
+
+h1 {
+	font: 700 24px/36px 'Gilroy',sans-serif;
+	color:var(--th-title-color);
+}
+
+/*----------------------------------
+@ end Global
+----------------------------------*/
+
+/*----------------------------------
+@ TopNav
+----------------------------------*/
+
+#topnav {
+	padding-top:5px;
+	border-bottom:0px #c3c5c4 solid;
+}
+
+#topnav .top_location span {
+	padding:0px 0px;
+	font: 400 14px/24px 'Gilroy',sans-serif;
+}
+
+/*----------------------------------
+@ end TopNav
+----------------------------------*/
+
+
+/*----------------------------------
+@ SliderMainPage
+----------------------------------*/
+
+#slider_area {
+	display:none;
+}
+
+#main_page_catalog {
+	display:none;
+}
+
+#main_page_category {
+	/*display:none;*/
+	padding:0px;
+}
+
+#subcategory-area {
+	display:none;
+}
+
+#subcategory-link-more-area {
+	display:none;
+}
+
+/*----------------------------------
+@ end SliderMainPage
+----------------------------------*/
+
+
+
+/*----------------------------------
+@ MainPageMap
+----------------------------------*/
+
+
+#map_mp {
+	min-height:1400px;
+	position:relative;
+}
+
+.map_office_area {
+border: 0 green solid;
+    position: absolute;
+    width: 100%;
+    height: 640px;
+    overflow: hidden;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    z-index: 990;
+    background-color: var(--thWhite);
+    opacity: .8;
+    padding: 10px 10px 0 20px;
+}
+
+.office_menu_mp {
+	width:300px;
+	margin:0px auto;
+}
+
+.office_menu_mp .office_menu_mp_title {
+	padding:10px;
+	font: 900 18px/36px 'Gilroy',sans-serif;
+}
+
+.office_menu_mp .submenu > li {
+	padding:10px;
+	background-color:var(--thWhite);
+	font: 900 12px/36px 'Gilroy',sans-serif;
+}
+
+.bTitle {
+	font: 900 16px/36px 'Gilroy',sans-serif;
+}
+
+.bList {
+	font: 500 12px/36px 'Gilroy',sans-serif;
+}
+
+.bList i {
+	padding:0px 10px 0px 0px;
+}
+
+.bList > li {
+padding:5px 0px;
+	}
+
+/*----------------------------------
+@ end MainPageMap
+----------------------------------*/
+
+    .section-sb .section-filter .section-filter-toggle {
+        display: block;
+    }
+    .section-sb .section-filter .section-filter-cont {
+        display: none;
+        width:100%;
+    }
+    
+    /*filter*/
+   /* .section-sb .section-filter .section-filter-toggle {
+        display: block;
+    }
+    .section-sb .section-filter .section-filter-cont {
+        display: none;
+        width:100%;
+    }*/
+	
+	.f-res {
+	display: block;
+	padding-left:0px;
+	}
+	
+	.f-res .f-res-run {
+	display: block;
+	    -webkit-border-top-left-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+-moz-border-radius-topleft: 0px;
+-moz-border-radius-bottomleft: 0px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+min-width:unset;
+	
+	}
+	
+	.section-filter .section-filter-buttons {
+	text-align: center;
+	padding: 25px 0px;
+}
+
+/*catalog*/
+
+.prodlist-i-info .prodlist-i-favorites {
+	font: 500 12px/28px 'Gilroy',sans-serif;
+}
+
+/*catalog*/
+
+/*articles*/
+
+div.news-detail img.detail_picture {
+	float:none;
+}
+
+.news-date-time
+{
+	right:15px;
+}
+
+.articles-char {
+	display:inline-block;
+	font: 500 14px/28px 'Gilroy',sans-serif;
+}
+
+/*articles*/
+
+/*----------------------------------
+@ BonusItemList
+----------------------------------*/
+
+.bonus-item-area {
+	text-align:center;
+}
+
+.bonus-item {
+	display:inline-block;
+	padding:10px 10px;
+}
+
+.bonus-item:first-child {
+	padding:0px 10px 10px 0px;
+}
+
+.bonus-block-item-area {
+min-width:300px;
+	}
+	
+	/*----------------------------------
+end BonusItemList
+----------------------------------*/
+
+/* --------------------------------- */
+/*@BannerPage*/
+/*-----------------------------------*/
+
+.bp-area {
+	border:0px green solid;
+	overflow:auto;
+	position:relative;
+	width:100%;float:none;
+	margin:5px 5px 10px 10px;
+	background-image: url(/local/templates/traiv-new/images/banner_res_page.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    border-radius: 4px;
+}
+
+/* --------------------------------- */
+/*end BannerPage*/
+/*-----------------------------------*/
+
+/*----------------------------------
+@ MyProfile
+----------------------------------*/
+
+.traiv-new-lk .lk_right_menu .lk-item-block {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin: 0px;
+    padding: 0px;
+}
+
+.traiv-new-lk .lk_left_menu {
+	display: block;
+	padding: 10px 10px 10px 10px;
+	float: left;
+    text-align: center;
+}
+
+/*----------------------------------
+MyProfile
+----------------------------------*/
+
+/*start LK cart*/
+
+.cart-remove-block {
+position: absolute;	
+top: 0px;
+right: 10px;
+}
+
+/*end LK cart*/
+
+/*----------------------------------
+@ ServicePage
+----------------------------------*/
+
+.service-title-back-black {
+	width:90%;
+}
+
+.service-title-back-black .big-title {
+display:block;
+font: 900 28px/32px 'Gilroy',sans-serif;
+}
+
+.service-title-back-black .small-title {
+display:block;
+font: 500 14px/18px 'Gilroy',sans-serif;	
+padding-top:20px;
+}
+
+.is-service-about-area-item {
+	text-align: center;
+	margin-bottom:0px;
+}
+
+.service_title_ecv {
+		font: 700 24px/28px 'Gilroy',sans-serif;
+	color:var(--th-title-color);
+	padding: 20px 0px 10px 0px;
+}
+
+#service-control-item-area2 {
+margin-top:50px;
+	}
+
+.service_quote {
+	font: 100 20px/36px 'Gilroy',sans-serif;
+}
+
+.prod-comment-form.post-form {
+	margin:0px;
+}
+
+/*----------------------------------
+and ServicePage
+----------------------------------*/
+
+}

@@ -1,0 +1,271 @@
+/**Top menu**/
+#horizontal-multilevel-menu,#horizontal-multilevel-menu ul
+{
+	margin:0; padding:0;
+	/*background:#BC262C url(images/header_menu_bg.gif) repeat-x;*/
+	min-height:27px;
+	width:100%;
+	list-style:none;
+	font-size:11px;
+	float:left;
+	/*font-size:90%*/
+}
+
+
+#horizontal-multilevel-menu
+{
+
+}
+
+/*Links*/
+#horizontal-multilevel-menu a
+{
+	display:block;
+	padding:5px 10px;
+	/*padding:0.3em 0.8em;*/
+	text-decoration:none;
+	text-align:center;
+}
+
+#horizontal-multilevel-menu li
+{
+	float:left;	
+	position:relative;
+}
+
+#horizontal-multilevel-menu li:not(:last-child):after {
+	 position: absolute;
+    width: 2px;
+    height: 30px;
+    background: url(/local/templates/traiv-new/images/main_menu_1sep.gif) repeat left bottom;
+    content: " ";
+    top: 50%;
+    transition: all 0.2s;
+    transform: translateY(-50%);
+	right: 0px;
+	padding: 0px;
+}
+
+#horizontal-multilevel-menu li > .main_menu_arrow {
+	background: url(/local/templates/traiv-new/images/main_menu_arrow.gif) no-repeat left bottom;
+	border:0px green solid;
+	width:22px;
+	height:12px;
+		position: absolute;
+	transition: all 0.2s;
+	left: 50%;
+    transform: translateX(-50%);
+	bottom: 0px;
+	padding: 0px;
+	display:none;
+}
+
+/*Root items*/
+#horizontal-multilevel-menu li a.root-item
+{
+	color:#353a40;
+	font: 500 14px/24px 'Gilroy',sans-serif;
+	padding:21px 0px;
+}
+
+#horizontal-multilevel-menu li a.root-item::before {
+    display: block;
+    content: attr(data-link-text);
+    font: 700 14px/24px 'Gilroy',sans-serif;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/*Root menu selected*/
+#horizontal-multilevel-menu li a.root-item-selected
+{
+/*	background:#fc8d3d;
+	color:#353a40;
+	font-weight:bold;
+	padding:21px 0px;*/
+	color: #353a40;
+    font: 700 14px/24px 'Gilroy',sans-serif;
+    padding: 21px 0px;
+}
+
+/*Root items: hover*/
+#horizontal-multilevel-menu li:hover a.root-item, #horizontal-multilevel-menu li.jshover a.root-item
+{
+	/*background:#e26336;*/
+	color:#353a40;
+	font: 700 14px/24px 'Gilroy',sans-serif;
+}
+
+/*Item-parents*/
+#horizontal-multilevel-menu a.parent
+{
+	background: url(images/arrow.gif) center right no-repeat;
+}
+
+/*Denied items*/
+#horizontal-multilevel-menu a.denied
+{
+	background: url(images/lock.gif) center right no-repeat;
+}
+
+/*Child-items: hover*/
+#horizontal-multilevel-menu li:hover, #horizontal-multilevel-menu li.jshover
+{
+	/*background:#D6D6D6;*/
+	color:#fff;
+}
+
+/*Child-items selected*/
+#horizontal-multilevel-menu li.item-selected
+{
+	/*background:#D6D6D6;*/
+	color:#fff;
+}
+
+
+#horizontal-multilevel-menu .root_back
+{
+	/*position:fixed;*/
+	/*top:-999em;*/
+	/*top:auto;*/
+	position:absolute;
+	top:66px;
+	display:none;
+	z-index:500;
+	height:auto;
+	width:100%;
+	background:#ffffff;
+	left:0px;
+	border:0px solid #C1C1C1;
+	height:66px;
+-webkit-box-shadow: 0px 20px 25px 11px rgba(168,165,168,0.17);
+-moz-box-shadow: 0px 20px 25px 11px rgba(168,165,168,0.17);
+box-shadow: 0px 20px 25px 11px rgba(168,165,168,0.17);
+/*border:1px green solid;*/
+}
+
+/*Sub-menu box*/
+#horizontal-multilevel-menu li ul
+{
+	position:absolute;
+	/*top:-999em;*/
+	top:0px;
+	display:none;
+	z-index:500;
+	height:auto;
+	width:auto;
+	/*background:#F5F5F5;*/
+	/*left:0px;*/
+	/*border:1px solid #C1C1C1;*/
+}
+
+/*Sub-menu item box*/
+#horizontal-multilevel-menu li li
+{
+	/*width:100%;*/
+	/*border-bottom:1px solid #DEDEDE;*/
+	float:left;
+}
+
+#horizontal-multilevel-menu li li:not(:first-child)
+{
+	padding:0px 6px;
+}
+
+#horizontal-multilevel-menu li li:first-child
+{
+	padding:0px 10px 0px 0px;
+}
+
+/*Item link*/
+#horizontal-multilevel-menu li ul a
+{
+	text-align:left;
+	font: 500 14px/24px 'Gilroy',sans-serif;
+	padding:21px 10px;
+}
+
+/*Items text color & size */
+#horizontal-multilevel-menu li a,
+#horizontal-multilevel-menu li:hover li a,
+#horizontal-multilevel-menu li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li.jshover li a
+{
+	color:#4F4F4F;
+	/*font-weight:bold;*/
+}
+
+/*Items text color & size: hover*/
+#horizontal-multilevel-menu li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover a,
+#horizontal-multilevel-menu li:hover li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover a,
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover a
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li.jshover a
+#horizontal-multilevel-menu li:hover li:hover li:hover li:hover li:hover li:hover a,
+#horizontal-multilevel-menu li.jshover li.jshover li.jshover li.jshover li.jshover li.jshover a
+{
+	color:#4F4F4F;
+	font: 700 14px/24px 'Gilroy',sans-serif;
+}
+
+#horizontal-multilevel-menu li ul ul
+{
+	margin:-27px 0 0 132px;
+	/*margin:-1.93em 0 0 11.6em;*/
+}
+
+#horizontal-multilevel-menu li:hover ul ul,
+#horizontal-multilevel-menu li.jshover ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul,
+#horizontal-multilevel-menu li.jshover ul ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul ul,
+#horizontal-multilevel-menu li.jshover ul ul ul ul,
+#horizontal-multilevel-menu li:hover ul ul ul ul ul,
+#horizontal-multilevel-menu li.jshover ul ul ul ul ul
+{
+	/*top:-999em;*/
+	display:none;
+}
+
+#horizontal-multilevel-menu li:hover ul,
+#horizontal-multilevel-menu li.jshover ul,
+#horizontal-multilevel-menu li li:hover ul,
+#horizontal-multilevel-menu li li.jshover ul,
+#horizontal-multilevel-menu li li li:hover ul,
+#horizontal-multilevel-menu li li li.jshover ul,
+#horizontal-multilevel-menu li li li li:hover ul,
+#horizontal-multilevel-menu li li li li.jshover ul,
+#horizontal-multilevel-menu li li li li li:hover ul,
+#horizontal-multilevel-menu li li li li li.jshover ul
+{
+	/*z-index:1000;
+	top:auto;*/
+	display:block;
+}
+
+#horizontal-multilevel-menu li:hover .root_back
+{
+	/*z-index:1000;
+	top:auto;*/
+	display:block;
+}
+
+#horizontal-multilevel-menu li:hover .main_menu_arrow {
+display:block;
+	}
+
+div.menu-clear-left
+{
+	clear:left;
+}

@@ -1,0 +1,6 @@
+<?
+$MESS["MENU_MARKETPLACE_ALL"] = "Marketplace";
+$MESS["MENU_MARKETPLACE_HOOK"] = "Web hooks";
+$MESS["MENU_MARKETPLACE_INSTALLED"] = "Instalado";
+$MESS["MENU_MARKETPLACE_LOCAL"] = "Mis Aplicaciones";
+?>

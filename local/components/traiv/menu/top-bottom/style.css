@@ -1,0 +1,34 @@
+.traiv-menu-top-bottom {
+    height: 58px;
+    background: #5a85a7;
+    border-bottom: 2px solid #fff;
+}
+.traiv-menu-top-bottom .menu-table {
+    width: 100%;
+    display: table;
+    padding-top: 10px;
+}
+.traiv-menu-top-bottom .menu-tr {
+    display: table-row;
+}
+.traiv-menu-top-bottom a {
+    display: table-cell;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+}
+.traiv-menu-top-bottom a span {
+    display: block;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 1024px) {
+    .traiv-menu-top-bottom a span {
+        display: none;
+    }
+}

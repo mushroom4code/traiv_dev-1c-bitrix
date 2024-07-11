@@ -1,0 +1,29 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	
+	background: #ffffff;
+	color: white;
+}
+
+html, body, canvas {
+	touch-action: none;
+	touch-action-delay: none;
+}
+
+@font-face {
+	font-family: 'TruthCYR-Medium';
+	src: url('fonts/truthcyr-medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Mont Heavy Demo';
+	src: url('fonts/mont heavy demo.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'CodenameCoderFree4F-Bold';
+	src: url('fonts/codenamecoderfree4f-bold.ttf') format('truetype');
+}
+

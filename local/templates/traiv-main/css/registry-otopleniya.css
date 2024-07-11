@@ -1,0 +1,181 @@
+/*Для страницы регистры отопления*/
+
+
+
+@media only screen and (max-width: 768px) {
+    .col.x1d4.x1d1--s.block_registri {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .col.x1d4.x1d1--s.block_registri {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .col.x1d4.x1d1--s.block_registri {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .col.x124.x1d2--s.block_registri {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .col.x1d2.x1d2--s.block_registri {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .col.x1d2.x1d2--s.block_registri {
+        width: 100%;
+    }
+}
+
+.main_block_registr {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px 25px 0px;
+}
+
+
+.img_registr {
+    margin: 35px 0px;
+}
+
+
+.block_registri {
+    margin-bottom: 10px;
+    padding: 9px;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+
+.block_registri>div {
+    border: 2px solid #5a85a7;
+    padding: 25px 5px;
+    border-radius: 20px;
+}
+
+.block_registri_bg {
+    margin-bottom: 10px;
+    padding: 9px;
+    text-align: left;
+    overflow: hidden;
+    display: inline-grid;
+}
+
+.block_registri_bg>div {
+    border: 2px solid #5a85a7;
+    padding: 25px 50px;
+    border-radius: 20px;
+    background-color: #5a85a7;
+    color: #fff;
+}
+
+.block_registri_size {
+    margin-bottom: 10px;
+    padding: 9px;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+
+.block_registri_size>div {
+    border: 2px solid #5a85a7;
+    padding: 25px 5px;
+    border-radius: 20px;
+}
+
+span.span_zag_bg {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+span.span_zag {
+    color: #5a85a7;
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+span.zagolovok_gl {
+    color: #5a85a7;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .col.x1d3.x1d1--s.block_registri_bg {
+        width: 50%;
+    }
+    .col.x1d3.x1d1--s.block_registri_size {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .col.x1d3.x1d1--s.block_registri_size {
+        width: 100%;
+    }
+        .col.x1d3.x1d1--s.block_registri_bg {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .col.x1d4.x1d1--s.block_registri_bg {
+        width: 50%;
+    }
+    .col.x1d4.x1d1--s.block_registri_size {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .col.x1d4.x1d1--s.block_registri_size {
+        width: 100%;
+    }
+        .col.x1d4.x1d1--s.block_registri_bg {
+        width: 100%;
+    }
+}
+
+.zakazat {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 30px;
+    border: solid 2px #5a86a7;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    font: 17px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #5a86a7;
+
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    margin: 5px 10px 10px 0px;
+    display: inline-block;
+}
+
+.bottom_zakaz {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}

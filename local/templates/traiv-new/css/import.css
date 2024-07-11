@@ -1,0 +1,345 @@
+.import-page {
+	    background-image: url(/local/templates/traiv-new/import-page/pexels-roman-odintsov-4871011.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 650px;
+    overflow: hidden;
+    padding-bottom: 20px;
+        margin-left: -20px;
+    margin-right: -20px;
+    
+}
+
+#is-landing-row-image {
+	background-image: url(/local/templates/traiv-new/import-page/pexels-roman-odintsov-4871011.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:450px;
+}
+
+
+.import-title-back-black {
+	color:#fff;
+    position: absolute;
+    left: 35px;
+    right: 35px;
+    padding: 0;
+    color: #fff;
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in;
+	z-index:100;
+	width:50%;
+}
+
+/*.import-title-back-black span {
+	display:inline-block;
+	padding:40px;
+	position:relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	color:#ffffff;
+}*/
+
+.import-title-back-black .big-title {
+display:block;
+font: 900 48px/60px 'Gilroy',sans-serif;
+}
+
+.import-title-back-black .small-title {
+display:block;
+font: 500 16px/16px 'Gilroy',sans-serif;	
+}
+
+.import-title-cloud-item-area {
+    position:absolute;  
+    top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+}
+
+.import-title-cloud-item-area li {
+    padding: 15px;
+}
+
+.import-title-cloud-item-area li i {
+padding-right: 10px;
+color: #fff;
+    font-size: 20px;
+}
+
+.import-title-cloud-item {
+font: 500 28px/16px 'Gilroy',sans-serif;
+color: #ffffff;
+/*position: absolute;
+    top: 50%;
+    transform: translateY(-50%);*/
+text-shadow: 0px 0px 10px rgba(0,0,0, 1);
+}
+
+.import-page-exp-item:hover {
+background: #006ba4;
+}
+
+.import-page-title {
+	font: 700 30px/36px 'Gilroy',sans-serif;
+}
+
+.import-page-title-white {
+    font: 700 30px/36px 'Gilroy',sans-serif;
+    color:#fff;
+    width: 520px;
+}
+
+.import-page-check-area {
+	width: 450px;
+	text-align: left;
+	opacity: .7;
+}
+
+.import-page-check {
+	font: 500 18px/30px 'Gilroy',sans-serif;
+	display: block;
+}
+
+.import-page-back {
+	background-color: #f5f7f9;
+}
+
+.import-page-back-blue {
+	background-color: #006ba4;
+}
+
+.is-services-back {
+
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    
+}
+
+.is-service-item-area h3 {
+	 color: #ffffff;
+	 padding: 30px 0px 10px 0px;
+}
+
+.is-service-item-area {
+	z-index:100;
+}
+
+.is-services .is-service-item {
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.is-services .is-service-item i {
+font-size: 40px;
+    /* margin-bottom: 15px; */
+    margin-top: 20px;
+}
+
+.is-services .is-service-item .title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.is-services .is-service-item p {
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+.pre-area {
+    color:#ffffff;
+}
+
+.import-page-pre {
+   list-style: none;
+   /* column-count: 2;*/
+}
+
+.import-page-pre-item {
+    padding: 20px;
+    position:relative;
+}
+
+.import-page-pre-item::before {
+    content: "\f06a";
+    font-family: "FontAwesome";
+    position: absolute;
+    left: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 20px;
+    /*text-shadow: 1px 2px 0 white;*/
+}
+
+#partners_icon::before {
+    content: "\f2b5";
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 30px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    padding-top: 28px;
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+}
+
+#q_icon::before {
+content: "\f128";
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 50px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    padding-top: 28px;
+    width: 80px;
+    height: 80px;
+    padding-left: 23px;
+}
+
+.exp-title {
+    	font: 700 18px/30px 'Gilroy',sans-serif;
+}
+
+.exp-note {
+    font: 500 18px/30px 'Gilroy',sans-serif;
+}
+
+.import-page-start {
+    width: 800px;
+    height: 200px;
+    border: 0px green solid;
+    position:relative;
+    margin: 0px auto;
+    background-color: #006ba4;
+    padding: 15px;
+    text-align: left;
+    padding-left: 130px;
+}
+
+.import-page-start::before {
+content: "";
+    width: 200px;
+    height: 200px;
+    left:-100px;
+    top:0px;
+    background-color: #006ba4;
+    border-radius:100px;
+    position:absolute;
+    	    background-image: url(/local/templates/traiv-new/import-page/pexels-fauxels-3183197.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.import-page-start::after {
+content: "";
+    width: 200px;
+    height: 200px;
+    right:-100px;
+    top:0px;
+    background-color: #006ba4;
+    border-radius:100px;
+    position:absolute;
+    	    background-color: #006ba4;
+}
+
+#q_icon .import-page-title {
+    padding-left:100px;
+}
+
+@media only screen and (max-width : 576px) {
+
+#is-landing-row-image {
+    height: auto;
+}
+
+.import-title-back-black {
+ left: 0px;
+    right: 0px;
+    position:relative;
+    top: auto;
+    transform: none;
+    width: 100%;
+    padding: 20px;
+}
+
+.import-title-back-black .big-title {
+font: 900 28px/60px 'Gilroy',sans-serif;
+}
+
+.import-title-cloud-item-area {
+    position:relative;
+    top: unset;
+    transform: none;
+}
+
+.import-title-cloud-item {
+    font: 500 24px/26px 'Gilroy',sans-serif;
+}
+
+.import-page-start::before {
+    display:none;
+}
+
+.import-page-start::after {
+    display:none;
+}
+
+.import-page-start {
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+}
+
+.import-page-title-white {
+    width: auto;
+    font: 700 26px/28px 'Gilroy',sans-serif;
+}
+
+.btn-group-blue-100 .btn-white-border {
+    display: block;
+}
+
+.exp-img {
+    padding: 0px !important;
+}
+
+#q_icon::before {
+    display: none;
+}
+
+#q_icon .import-page-title {
+padding-left: 0px;
+}
+
+}
+
+
+

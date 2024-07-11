@@ -1,0 +1,3 @@
+<?if ($arResult[«allSum»] >= 3000):
+else echo 'Минимальная сумма заказа 3000р'
+<?endif;?>

@@ -1,0 +1,38 @@
+.section_description{
+    margin-bottom: 25px;
+}
+
+.Order_one_click {
+
+    text-align: center;
+
+}
+
+.btn-mfp-dialog {
+    display: inline-block;
+    padding: 4px 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background:linear-gradient(to top, #e38500, #ffb403);
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-mfp-dialog:hover {
+    border-color: #BF8630;
+    background-color: #BF8630;
+    color: #fff;
+}
+
+.counter_one {
+    text-align: right;
+    margin-top: 69px;
+}
+
+
+ .TitleImg {
+float: left;
+margin: 5px 15px 5px 0px;
+}

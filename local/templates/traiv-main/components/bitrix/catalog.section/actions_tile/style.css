@@ -1,0 +1,12 @@
+@media (min-width: 769px) and (max-width: 1024px){
+    .catalog-item {
+        height: 22em !important;
+    }
+}
+
+@media (min-width: 374px) and (max-width: 768px){
+    .u-pull-left{
+        font-size: 10px !important;
+    }
+
+}

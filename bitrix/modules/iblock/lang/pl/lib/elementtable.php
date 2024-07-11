@@ -1,0 +1,3 @@
+<?
+$MESS["ELEMENT_ENTITY_ID_FIELD"] = "ID";
+?>

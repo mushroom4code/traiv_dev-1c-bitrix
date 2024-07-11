@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Импортозамещение";
+$arDirProperties = array(
+
+);
+?>

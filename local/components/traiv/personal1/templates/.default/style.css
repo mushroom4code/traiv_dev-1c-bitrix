@@ -1,0 +1,319 @@
+.traiv-personal-default {
+    background: transparent !important;
+}
+.traiv-personal-default .left {
+    width: 220px;
+    margin-right: 40px;
+    float: left;
+}
+.traiv-personal-default .right {
+    float: left;
+    width: calc(100% - 260px);
+}
+@media (max-width:768px) {
+    .traiv-personal-default .left,
+    .traiv-personal-default .right {
+        width: 100%;
+    }
+
+    .traiv-personal-default:not(.template) .traiv-personal-menu-left a:not(.selected) {
+        display: none;
+    }
+
+}
+
+/* Обзие стили */
+.traiv-personal-default .header-block {
+    font-size: 30px;
+    color: #000;
+    background: #fff;
+    line-height: 110px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.traiv-personal-default .form {
+    background: #fff;
+    padding: 25px;
+}
+
+@media (max-width:768px) {
+    .traiv-personal-default .header-block {
+        padding-left: 0;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    }
+    .traiv-personal-default table tr {
+        border: 0;
+    }
+}
+
+.traiv-personal-default .button-left,
+.traiv-personal-default .button-right {
+    width: calc(50% - 15px);
+    float: left;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    color: #07456b;
+    background: #fff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.traiv-personal-default .button-left {
+    margin-right: 15px;
+}
+.traiv-personal-default .button-right {
+    margin-left: 15px;
+}
+@media (min-width: 769px) and (max-width: 850px) {
+    .traiv-personal-default .button-left,
+    .traiv-personal-default .button-right {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:768px) {
+    .traiv-personal-default .button-left,
+    .traiv-personal-default .button-right {
+        width: 100%;
+        margin: 20px 0 0;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+
+/* Стили корзины */
+.traiv-personal-cart table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.traiv-personal-cart td {
+    text-align: left;
+    vertical-align: top;
+    padding-top: 15px;
+    line-height: 24px;
+}
+.traiv-personal-cart .table-header td {
+    border-bottom: 3px solid #e8e8e8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.traiv-personal-cart td {
+    border-bottom: 3px solid #f4f4f4;
+    padding-bottom: 15px;
+}
+.traiv-personal-cart td.price-td,
+.traiv-personal-cart td.weight,
+.traiv-personal-cart td.quantity,
+.traiv-personal-cart td.total {
+    white-space: nowrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.traiv-personal-cart td.code {
+    padding-right: 10px;
+}
+
+.traiv-personal-cart td.img {
+    padding-right: 5px;
+}
+.traiv-personal-cart td.img img {
+    border: 1px solid #ededed;
+}
+.traiv-personal-cart td.code span {
+    color: #858585;
+}
+.traiv-personal-cart td.quantity .container-count {
+    position: relative;
+}
+.traiv-personal-cart td.quantity .container-count input {
+    width: 46px;
+    height: 18px;
+    border: 2px solid #e8e8e8;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 22px;
+    position: relative;
+    top: -2px;
+}
+.traiv-personal-cart td.quantity .container-count .plus,
+.traiv-personal-cart td.quantity .container-count .minus {
+    position: absolute;
+    top: 0;
+    height: 24px;
+    line-height: 24px;
+    width: 24px;
+    color: #000;
+    background: #e8e8e8;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.traiv-personal-cart td.quantity .container-count .plus {
+    right: 0;
+}
+.traiv-personal-cart td.quantity .container-count .minus {
+    left: 0;
+}
+.traiv-personal-cart .hide-mobile .button-header {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    top: -20px;
+}
+.traiv-personal-cart .button-header a {
+    margin-left: 10px;
+    padding-left: 20px;
+    color: #000;
+    background: url("images/del.png") no-repeat left center;
+}
+.traiv-personal-cart .button-header a:hover {
+    color: #07456b;
+    text-decoration: underline;
+}
+.traiv-personal-cart .del a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: url("images/del.png") no-repeat center;
+    cursor: pointer;
+}
+
+.traiv-personal-cart .total-block {
+    padding-top: 50px;
+}
+
+.traiv-personal-cart .total-block [class*=total] {
+    float: right;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.traiv-personal-cart .total-block .total-summ {
+    width: 230px;
+    text-align: right
+}
+.traiv-personal-cart .total-block a {
+    float: right;
+    line-height: 36px;
+}
+.traiv-personal-cart .button-left {
+    color: red !important;
+    font-weight: normal !important;
+}
+.traiv-personal-cart a.link-order {
+    width: 210px;
+    text-align: center;
+    color: #fff;
+    background: #ffb017;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.traiv-personal-cart a.link-catalog {
+    color: #07456b;
+    font-size: 18px;
+}
+.traiv-personal-cart  a.link-catalog:hover {
+    text-decoration: underline;
+}
+/* Мобильная версия */
+.traiv-personal-default .hide-desctop .form {
+    padding: 0 15px;
+}
+.traiv-personal-cart .hide-desctop .button-header {
+    height: 75px;
+    line-height: 75px;
+    background: #fff;
+    text-align: center;
+}
+
+.traiv-personal-cart .hide-desctop .cart-item {
+    background: #fff;
+    padding: 10px 0;
+    border-top: 3px solid #e8e8e8;
+}
+.traiv-personal-cart .hide-desctop .cart-item .del {
+    text-align: right;
+}
+
+.traiv-personal-cart .hide-desctop table {
+    width: 100%;
+    display: table;
+}
+.traiv-personal-cart .hide-desctop table tbody {
+    display: table-row-group;
+}
+.traiv-personal-cart .hide-desctop table tr {
+    display: table-row;
+}
+.traiv-personal-cart .hide-desctop table td {
+    display: table-cell;
+}
+
+.traiv-personal-cart .hide-desctop .cart-item .name .td-image {
+    width: 38px !important;
+    padding-right: 5px;
+}
+.traiv-personal-cart .hide-desctop .cart-item .name .td-image img {
+    border: 1px solid #ededed;
+}
+.traiv-personal-cart .cart-item td.name,
+.traiv-personal-cart .hide-desctop .cart-item .name .td-name  {
+    line-height: 20px;
+}
+.traiv-personal-cart .cart-item td.name a,
+.traiv-personal-cart .hide-desctop .cart-item .name .td-name a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: underline;
+    position: relative;
+    top: -2px;
+}
+.traiv-personal-cart .hide-desctop .cart-item .prop td {
+    width: 50% !important;
+    text-align: center;
+    font-weight: 500;
+}
+
+.traiv-personal-cart .hide-desctop td.quantity .container-count {
+    display: inline-block;
+}
+
+.traiv-personal-cart .hide-desctop .total-block-mobile {
+    border-top: 3px solid #e8e8e8;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+.traiv-personal-cart .hide-desctop .total-block-mobile .total-weight {
+    font-size: 20px;
+    font-weight: 500;
+}
+.traiv-personal-cart .hide-desctop .total-block-mobile .total-summ {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.traiv-personal-cart .hide-desctop .total-block-mobile  a {
+    display: inline-block;
+    line-height: 36px;
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+.traiv-personal-cart .clear-cart {
+    display: none;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .traiv-personal-cart .hide-mobile td.code,
+    .traiv-personal-cart .hide-mobile td.price-td,
+    .traiv-personal-cart .hide-mobile td.weight {
+        display: none;
+    }
+}

@@ -1,0 +1,98 @@
+#pay_bezn{
+	background-image: url("img/bez_nal.jpg");
+	background-repeat: no-repeat;
+}
+
+#pay_yandex{
+	background-image: url("img/oplata_yandex.jpg");
+	background-repeat: no-repeat;
+}
+
+#pay_nal_bank{
+	background-image: url("img/oplata_karta.jpg");
+	background-repeat: no-repeat;
+}
+
+#pay_nal{
+	background-image: url("img/oplata_nal.jpg");
+	background-repeat: no-repeat;
+}
+
+#deliv_moscow{
+	background-image: url("img/dostavka_moskva.jpg");
+	background-repeat: no-repeat;
+}
+
+#deliv_spb{
+	background-image: url("img/dostavka_spb.jpg");
+	background-repeat: no-repeat;
+}
+
+#deliv_ekb{
+	background-image: url("img/dostavka_sam.jpg");
+	background-repeat: no-repeat;
+}
+
+#deliv_rf{
+	background-image: url("img/dostavka_rf.jpg");
+	background-repeat: no-repeat;
+}
+
+.table_del{
+	border-spacing: 20px 20px;
+}
+
+.table_del td{
+	width: 50%;
+}
+
+/* Style the tab */
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+/*	background-color: #f1f1f1;*/
+	border-radius: 4px;
+
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	width: 50%;
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: #ccc;
+}
+
+/* Style the tab content */
+/*
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}*/
+
+.Order_one_click{
+	text-align: center;
+}
+
+@media (max-width:768px) {
+	.delivery_banner{
+		display: none;
+	}
+
+}

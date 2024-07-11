@@ -1,0 +1,94 @@
+.service-catalog-left-menu {
+	border:0px green solid;
+	
+}
+
+.service-catalog-left-menu ul {
+	border:0px green solid;
+	list-style:none;
+	padding:0px;
+}
+
+.service-catalog-left-menu ul li {
+	border:0px green solid;
+	position:relative;
+}
+
+.service-catalog-left-menu ul li ul.service-catalog-left-submenu {
+display:none;
+position:absolute;
+border: 2px #e4e9ef solid;
+   left: 100%;
+   top: 0px;
+   width: 300px;
+   padding:0px 20px;
+-webkit-border-radius: 5px;
+-webkit-border-top-left-radius: 0;
+-moz-border-radius: 5px;
+-moz-border-radius-topleft: 0;
+border-radius: 5px;
+border-top-left-radius: 0;
+background-color:#ffffff;
+z-index:1000;
+}
+
+.service-catalog-left-menu-list__item {
+	margin:10px 0px 10px 0px;
+}
+
+.service-catalog-submenu-link {
+	/*font-weight:500;*/
+	padding:10px 0px 10px 0px;
+}
+
+.service-catalog-left-menu-item {
+	text-align: left;
+    display: block;
+    border: 2px #e4e9ef solid;
+    /*margin: 10px 10px 10px 0px;*/
+    /*box-shadow: 0 10px 20px rgb(3 27 78 / 8%);*/
+    
+-webkit-border-top-left-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+
+.service-catalog-left-menu-item:hover {
+	    /*background-image: linear-gradient(to bottom, #0098d2, #0084c5, #0070b6, #005da6, #004995);*/
+	    background-color: #e4e9ef;
+	    font-weight:700;
+	    color:#212529;
+}
+
+.service-catalog-left-menu-link {
+	display:block;
+	padding:10px;
+}
+
+.service-catalog-left-menu-link:hover {
+	color:#212529;
+}
+
+.service-catalog-left-menu-link i {
+	padding-right:10px;
+}
+
+.service-pd-left {
+	display:inline-block;
+	padding-right:15px;
+}
+
+.service-catalog-left-menu-item:hover {
+	    /*background-image: linear-gradient(to bottom, #0098d2, #0084c5, #0070b6, #005da6, #004995);*/
+	    background-color: #e4e9ef;
+	    font-weight:700;
+	    color:#212529;
+}
+
+.service-catalog-left-menu-item:hover .service-catalog-left-submenu {
+	display:inline-block;
+}

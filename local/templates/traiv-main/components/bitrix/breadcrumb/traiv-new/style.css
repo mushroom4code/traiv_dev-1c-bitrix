@@ -1,0 +1,17 @@
+h1.crumbs__link{
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.crumbs__item.is-active h1 + a{
+    cursor: pointer;
+    color: #5a85a7;
+}
+
+.crumbs__item.is-active h1 + a:before{
+    content: " ";
+}
+.crumbs__item a{
+    text-decoration: underline;
+}

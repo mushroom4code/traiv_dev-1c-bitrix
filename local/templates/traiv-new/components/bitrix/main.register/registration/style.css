@@ -1,0 +1,110 @@
+.traiv-bitrix-main-register-registration .wrapper {
+    margin: 0 45px; 
+}
+.traiv-bitrix-main-register-registration .header-block {
+    font-size: 30px;
+    color: #000;
+    background: #fff;
+    line-height: 50px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.traiv-bitrix-main-register-registration .form {
+    background: #fff;
+    padding: 25px;
+}
+.traiv-bitrix-main-register-registration .form .description {
+    font-size: 17px;
+    color: #464646;
+    height: 63px;
+    vertical-align: middle;
+    padding-left: 90px;
+    text-align: left;
+    background: url("images/bg.png") no-repeat left center;
+}
+.traiv-bitrix-main-register-registration .form table {
+    width: 50%;
+    margin: 0 25%;
+}
+.traiv-bitrix-main-register-registration .form table td {
+    text-align: left;
+}
+/*.traiv-bitrix-main-register-registration .form table td.license {
+    padding: 20px 0;
+}*/
+.traiv-bitrix-main-register-registration .form table td.license label {
+    color: #9c9c9c;
+    font-weight: normal;
+}
+.traiv-bitrix-main-register-registration .form table td.license input {
+    margin-right: 20px;
+}
+.traiv-bitrix-main-register-registration .form table label {
+    font-size: 14px;
+    color: #464646;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 5px;
+}
+.traiv-bitrix-main-register-registration .form table label span {
+    color: red;
+}
+.traiv-bitrix-main-register-registration .form table .left {
+    width: 60%;
+    padding-top: 15px;
+}
+.traiv-bitrix-main-register-registration .form table .right {
+    width: 40%;
+    color: #9e9e9e;
+    vertical-align: bottom;
+    padding-left: 30px;
+}
+.traiv-bitrix-main-register-registration .form table .wrapper-link {
+    padding-top: 10px;
+    width: 317px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .traiv-bitrix-main-register-registration tr {
+        border: 0;
+    }
+    .traiv-bitrix-main-register-registration .header-block {
+        padding-left: 0;
+        font-size: 18px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .traiv-bitrix-main-register-registration .form table .right {
+        padding-left: 0;
+        padding-top: 5px;
+    }
+    .traiv-bitrix-main-register-registration .form .description {
+        font-size: 14px;
+        color: #464646;
+        padding-left: 0;
+        text-align: left;
+        background: none;
+        height: auto;
+    }
+    .traiv-bitrix-main-register-registration .form td.submit {
+        text-align: center;
+    }
+    .traiv-bitrix-main-register-registration .form table .wrapper-link {
+        text-align: center;
+        width: 100%
+    }
+}
+@media (max-width: 500px) {
+    .traiv-bitrix-main-register-registration .wrapper {
+        margin: 0;
+    }
+    .traiv-bitrix-main-register-registration .form {
+        padding: 15px;
+    }
+    .traiv-bitrix-main-register-registration .form td.submit input {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 22px;
+    }
+}

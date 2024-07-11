@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Транзиты";
+$arDirProperties = Array(
+
+);
+?>

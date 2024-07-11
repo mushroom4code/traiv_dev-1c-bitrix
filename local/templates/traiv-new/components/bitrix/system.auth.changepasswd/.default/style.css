@@ -1,0 +1,22 @@
+.traiv-system-auth-changepasswd-default table {
+    width: 60%;
+}
+.traiv-system-auth-changepasswd-default table td {
+    text-align: left;
+    padding-top: 15px;
+}
+
+.traiv-system-auth-changepasswd-default .traiv-orange-button {
+    width: 300px;
+    margin-top: 30px;
+}
+.traiv-system-auth-changepasswd-default .wrapper-link {
+    padding-top: 10px;
+    width: 300px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .traiv-system-auth-changepasswd-default table {
+        width: 100%;
+    }
+}

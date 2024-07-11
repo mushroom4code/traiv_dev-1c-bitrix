@@ -1,0 +1,42 @@
+.traiv-personal-sale-personal-order-list table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.traiv-personal-sale-personal-order-list .hide-mobile table td {
+    border-right: 3px solid #dddddd;
+    padding: 5px;
+}
+.traiv-personal-sale-personal-order-list .hide-mobile table tr td:last-child {
+    border: none;
+}
+
+.traiv-personal-sale-personal-order-list .hide-mobile table .head-table td {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+.traiv-personal-sale-personal-order-list .hide-desctop table {
+    display: table;
+    margin-bottom: 15px;
+}
+.traiv-personal-sale-personal-order-list .hide-desctop table tbody {
+    display: table-row-group;
+}
+.traiv-personal-sale-personal-order-list .hide-desctop table tr {
+    display: table-row;
+}
+.traiv-personal-sale-personal-order-list .hide-desctop table td {
+    background: #fff;
+    display: table-cell;
+    width: 50% !important;
+    height: 45px;
+    text-align: left;
+    padding: 5px;
+}
+.traiv-personal-sale-personal-order-list .hide-desctop table td.left-td {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+

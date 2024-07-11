@@ -1,0 +1,65 @@
+/* NEW ITEMS STYLE 2020 YOYO */
+
+
+.new-item{
+    border: 2px ridge gray;
+    padding: 4.5%;
+    height: 22.5em!important;
+    margin: 0.4em;
+}
+
+
+.new-item__title{
+    height: 6.5em !important;
+    overflow: auto;
+    text-align: center;
+    font-size: small;
+}
+
+.new-item img {
+    margin: 0 25%;
+}
+
+.slickdiv{
+   /* display: inline-block!important;*/
+    /*align-items: center;*/
+    padding: 0 2% !important;
+}
+
+.slickdiv .slick-list{
+padding-top:20px;
+padding-bottom:50px;
+}
+
+.slickdiv .slick-arrow {
+	width:40px;
+	height:40px;
+}
+
+.slickdiv .fa-angle-right, .fa-angle-left{
+    font-size: 4em!important;
+    cursor: pointer;
+}
+.slickdiv i.fa.fa-angle-left {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    z-index: 1;
+    vertical-align: middle;
+}
+.slickdiv i.fa.fa-angle-right {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    z-index: 1;
+    vertical-align: middle;
+}
+@media (max-width:768px) {
+    .new-item img {
+        margin: 0 10%;
+    }
+
+    .new-item {
+        height: 24em !important;
+    }
+}

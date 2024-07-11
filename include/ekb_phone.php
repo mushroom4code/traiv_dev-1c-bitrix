@@ -1,0 +1,1 @@
+<a onclick='goPage("tel:+73432887940"); return false;' style="cursor: pointer" rel="nofollow">+7 (343) 288-79-40</a>

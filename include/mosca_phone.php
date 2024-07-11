@@ -1,0 +1,1 @@
+<a onclick='goPage("tel:+74953748270"); return false;' style="cursor: pointer" rel="nofollow">+7 (495) 374-82-70</a>

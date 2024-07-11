@@ -1,0 +1,1 @@
+<?require $_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/intervolga.tips/admin/public_list.php";?>

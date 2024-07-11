@@ -1,0 +1,108 @@
+.slam-easyform{ /* TEMP */
+    max-width: 100%!important;
+}
+.slam-row{
+    margin: 0% 10%!important;
+}
+.kzh-w-form-img img{
+    width: 100%
+}
+.kzh-w-form-form{
+    text-align: center;
+}
+.kzh-w-form-title-one, .kzh-w-form-title-two{
+    margin: 0 10% 2% 10%
+}
+.kzh-w-form-title-one{
+    font-size: 22px;
+}
+.kzh-w-form-title-two{
+    font-size: 16px;
+}
+.file-upload-block{
+    margin-top: -10px;
+}
+.slam-easyform .modal {
+    text-align: center;
+}
+#FORM11-captchaContainer div{
+    width: 100%!important;
+}
+.btn.btn-primary{
+    width: 50%!important;
+}
+@media screen and (min-width: 768px) {
+    .slam-easyform  .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+}
+.slam-easyform  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.slam-easyform .modal .modal-header .title {
+    margin: 0;
+    font-size: 20px;
+    display: inline-block;
+}
+.hide-formvalidation small.help-block{
+    display: none!important;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.slam-easyform .spinner,.slam-easyform .spinner:hover {
+    position: relative;
+    color: transparent
+}
+
+.slam-easyform .spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: spinner .6s linear infinite
+}
+
+.col-xs-12{
+    line-height: 12px;
+}
+textarea.form-control{
+    height: 35px!important;
+}
+
+.min-summ-warning{
+    float: left;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: small;
+}
+
+.control-label{
+    font-size: 14px;
+}
+
+.form-control{
+    text-align: center;
+}
+
+.warning-buy{
+    font-size: small;
+     margin-top: 0;
+}

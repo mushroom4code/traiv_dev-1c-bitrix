@@ -1,0 +1,91 @@
+.traiv-personal-profile-default table {
+    width: 100%;
+}
+.traiv-personal-profile-default .user-type {
+    padding-bottom: 20px;
+}
+.traiv-personal-profile-default .container-slide {
+    display: none;
+}
+
+.traiv-personal-profile-default .radio {
+    color: #464646;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+.traiv-personal-profile-default .radio span {
+    height: 14px;
+    width: 14px;
+    border: 2px solid #ffb017;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+.traiv-personal-profile-default .active .radio span {
+    background: #ffb017;
+}
+.traiv-personal-profile-default .form label {
+    font-size: 14px;
+    color: #464646;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 5px;
+}
+.traiv-personal-profile-default .form label span {
+    color: red;
+}
+.traiv-personal-profile-default .form .left {
+    padding-top: 15px;
+    width: 60%;
+    text-align: left;
+    margin-right: 0;
+    float: none;
+}
+.traiv-personal-profile-default .form .right {
+width: 40%;
+    color: #9e9e9e;
+    vertical-align: bottom;
+    padding-left: 30px;
+    float: none;
+    text-align: left;
+}
+.traiv-personal-profile-default .form .change-password {
+    color: #688fad;
+    padding-left: 25px;
+    line-height: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+.traiv-personal-profile-default .user-password {
+    position: relative;
+    padding-bottom: 20px;
+}
+.traiv-personal-profile-default .user-password::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 13px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAZCAYAAADqrKTxAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTczOUU4M0FFRUEwMTFFODkyNzFDMDFCQURCQjU5MzMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTczOUU4M0JFRUEwMTFFODkyNzFDMDFCQURCQjU5MzMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxNzM5RTgzOEVFQTAxMUU4OTI3MUMwMUJBREJCNTkzMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxNzM5RTgzOUVFQTAxMUU4OTI3MUMwMUJBREJCNTkzMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqiGBW0AAADzSURBVHjaYohqXS7z//9/BlIwEwMDw97othXaDCQAkCZBqEZTUjT9A2JxID4C1OhErCYYYAPizUCNnkDMSKwmEOAC4q1AHEeKJhAA2bIAaFssKZpgYDZQYwSpmtiBeDlQYyW6H5mICKwmIC4iVRMLEPcAbZsMxEzEaoKBLJBmmCmkJIRCoG2XSLEJBPYD8TpSNB0F4qClVRGfiNW0AogdgBo+EBsQa4A4CajhD3Jw4gO9QMUlpKSICUBciSvisIHJQBsKSUmwDejJhpBNpUAbeohJVyDwE4jzgRpmMhCZGEHZPAGoYQXR0Qws9+xJLfcAAgwAgvSGeTCpCp4AAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+.traiv-personal-profile-default .user-password.active::before {
+    transform: rotate(90deg);
+    
+}
+.traiv-personal-profile-default .form .container-password {
+    display: none;
+}
+@media (max-width:768px) {
+    .traiv-personal-profile-default .form .right {
+        padding-left: 0;
+        padding-top: 5px;
+    }
+}

@@ -1,0 +1,58 @@
+.traiv-personal-subscribe-edit .header-block2 {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+}
+.traiv-personal-subscribe-edit .autorization {
+    padding-bottom: 30px;
+}
+.traiv-personal-subscribe-edit .autorization .text1 {
+    color: #464646;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.traiv-personal-subscribe-edit .autorization .text2 {
+    color: #9c9c9c;
+    font-size: 14px;
+    padding: 0 0 10px;
+}
+.traiv-personal-subscribe-edit  label {
+    font-size: 14px;
+    color: #464646;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 5px;
+        padding-top: 20px;
+}
+.traiv-personal-subscribe-edit label span {
+    color: red;
+}
+.traiv-personal-subscribe-edit .settings .rubrics {
+    display: none;
+}
+.traiv-personal-subscribe-edit .settings .form-control {
+    width: 70%;
+}
+.traiv-personal-subscribe-edit .settings .text {
+    color: #9c9c9c;
+        font-size: 18px;
+    padding: 15px 0;
+}
+.traiv-personal-subscribe-edit .status {
+    display: none;
+}
+
+.traiv-personal-subscribe-edit .confirmation .form-control {
+    width: 50%;
+    float: left;
+}
+.traiv-personal-subscribe-edit .confirmation .traiv-orange-button {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    padding: 0 15px;
+}
+.traiv-personal-subscribe-edit .traiv-container-checkbox {
+    padding: 10px 0 20px;
+}

@@ -1,0 +1,266 @@
+div.news-detail
+{
+	word-wrap: break-word;
+}
+div.news-detail img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+}
+.news-date-time
+{
+	color:#486DAA;
+}
+
+.is-landing-big-image {
+	    background-image: url(/local/templates/traiv-new/landing/big-img-new.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 650px;
+    overflow: hidden;
+    padding-bottom: 20px;
+        margin-left: -20px;
+    margin-right: -20px;
+    
+}
+
+
+.is-landing-big-image .row-in {
+		/*min-height:450px;
+	display: flex;
+	align-items: center;*/
+	
+	height:650px;
+}
+
+.is-title-area {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background-color:#000000;
+	opacity:.6;
+	height: 650px;
+}
+
+.is-title {
+	font: 700 30px/36px 'Gilroy',sans-serif;
+	color:#fff;
+    position: absolute;
+    left: 35px;
+    right: 35px;
+    padding: 30px 20px;
+    color: #fff;
+    opacity: 1;
+    /*top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in;*/
+    z-index:100;
+}
+
+.is-services-back {
+		    background-image: url(/local/templates/traiv-new/landing/is-service-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    
+}
+
+.is-services-back::before{
+  background-color: rgba(2, 77, 188, 0.5);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.is-service-item-area h3 {
+	 color: #ffffff;
+	 padding: 30px 0px 10px 0px;
+}
+
+.is-service-item-area {
+	z-index:100;
+	 color: #ffffff;
+}
+
+.is-services .is-service-item {
+	text-align: center;
+	padding: 0 10px;
+	margin-bottom: 40px;
+}
+
+.is-services .is-service-item i {
+font-size: 40px;
+    /* margin-bottom: 15px; */
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.is-services .is-service-item .title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	 color: #ffffff;
+}
+
+.is-services .is-service-item p {
+	font-size: 14px;
+	margin-bottom: 0px;
+	display:none;
+}
+
+
+.is-list {
+	list-style:none;
+	padding:0px 10px;
+	margin:0px 10px;
+}
+
+.is-list-block i {
+	padding-right:10px;
+	font-size:18px;
+}
+
+.is-list-block span {
+	font: 500 18px/32px 'Gilroy',sans-serif;
+}
+
+#is-landing-row-image {
+			    background-image: url(/local/templates/traiv-new/landing/big-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:450px;
+}
+
+#is-landing-sklad-image1 {
+	background-image: url(/local/templates/traiv-new/landing/pexels-pixabay-209251.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:450px;
+    border-right: 10px #ffffff solid;
+}
+
+#is-landing-sklad-image2 {
+	background-image: url(/local/templates/traiv-new/landing/pexels-tiger-lily-4483610.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:450px;
+    border-left: 10px #ffffff solid;
+}
+
+@media only screen and (max-width : 576px) {
+	
+			/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr {
+			display: block !important;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+    tr {
+      margin: 0 0 1rem 0;
+    }
+    
+		td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+			white-space: normal;
+		}
+
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 0;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+	
+	#is-landing-sklad-image1 {
+	    border-right: 0px #ffffff solid;
+	}
+	
+	#is-landing-sklad-image2 {
+	
+	    border-left: 0px #ffffff solid;
+	    border-top: 20px #ffffff solid;
+	}
+}
+
+.is-title-back-black {
+	font: 700 30px/36px 'Gilroy',sans-serif;
+	color:#fff;
+    position: absolute;
+    left: 35px;
+    right: 35px;
+    padding: 0;
+    color: #fff;
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in;
+    z-index:100;
+}
+
+.is-title-back-black span {
+	display:inline-block;
+	padding:40px;
+	position:relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	color:#ffffff;
+}
+
+.is-title-back-black-addr {
+	display:block;
+	/*padding:40px;*/
+	position:relative;
+	color:#ffffff;
+		font: 500 22px/36px 'Gilroy',sans-serif;
+	color:#fff;
+    z-index:100;
+}
+
+/*.is-title-back-black a:hover {
+	display:inline-block;
+	padding:40px;
+	position:relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	color:#ffffff;
+}*/

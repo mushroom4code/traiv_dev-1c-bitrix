@@ -1,0 +1,156 @@
+.block_kazakh_port.slider{
+    margin-top: 20px;
+    text-align: center;
+    padding: unset!important;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+.slick-slide {
+    max-height:300px;
+}
+
+.slick-slide img {
+    max-height:300px;
+}
+.block_kazakh_port.slider img{
+    width: 100%;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+.block_kazakh_port.slider img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.your-class > div {
+    width: 200px;
+    height: 150px;
+    background-color: #ccc;
+    border: 2px solid white;
+}
+.fa{
+    /*opacity: 0;*/
+}
+i.fa.fa-angle-right.fa_this, i.fa.fa-angle-left.fa_this{
+    font-size: 4em!important;
+    cursor: pointer;
+    color: lightgray;
+}
+i.fa.fa-angle-left.fa_this {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    z-index: 1;
+    vertical-align: middle;
+}
+i.fa.fa-angle-right.fa_this {
+    position: absolute;
+    top: 40%;
+    right: 2%;
+    z-index: 1;
+    vertical-align: middle;
+}
+
+
+.my-dots {
+    position: absolute;
+    top:90%;
+    /*bottom: -45px;*/
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    /*text-align: center;*/
+}
+
+.my-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.my-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+    outline: none;
+}
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+    opacity: 1;
+}
+
+.my-dots li button:before {
+    font-size: 36px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.btn-download-presentation{
+    background: linear-gradient(#fdc917, #eb6219);
+    border: none;
+    border-radius: 5px;
+    width: 25%;
+    color: white;
+    margin: auto;
+    padding: 1% 2%;
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+}
+.btn-download-presentation:hover{
+    background:#eb6219;
+}
+.btn-download-presentation a{
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .block_kazakh_port.slider{
+        margin: 0!important;
+        padding: 0!important;
+        min-height: unset!important;
+    }
+    .slick-slide {
+        max-height:100px!important;
+    }
+
+    .slick-slide img {
+        max-height:100px!important;
+    }
+    .btn-download-presentation{
+        width: 50%;
+    }
+    .w-form-kzh-block{
+        margin-bottom: -30px;
+    }
+}

@@ -1,0 +1,10 @@
+<?
+$MESS["LANDING_CONNECTOR_INTRANET_MENU_ALERT_BUTTON"] = "Déconnecter";
+$MESS["LANDING_CONNECTOR_INTRANET_MENU_ALERT_MESSAGE"] = "Voulez-vous vraiment déconnecter la base de connaissance ?";
+$MESS["LANDING_CONNECTOR_INTRANET_MENU_ALERT_TITLE"] = "Déconnecter la base de connaissance";
+$MESS["LANDING_CONNECTOR_INTRANET_MENU_BIND_CREATE_TITLE"] = "Créer une base de connaissance";
+$MESS["LANDING_CONNECTOR_INTRANET_MENU_BIND_TITLE"] = "Sélectionner la base de connaissance";
+$MESS["LANDING_CONNECTOR_INTRANET_MENU_BIND_TITLE_NEW"] = "Créer";
+$MESS["LANDING_CONNECTOR_INTRANET_MENU_BIND_TITLE_SELECT"] = "Sélectionner";
+$MESS["LANDING_CONNECTOR_INTRANET_MENU_TITLE"] = "Base de connaissance";
+?>

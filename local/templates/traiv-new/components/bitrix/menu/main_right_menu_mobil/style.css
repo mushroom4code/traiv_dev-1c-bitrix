@@ -1,0 +1,337 @@
+/**Top menu**/
+#horizontal-multilevel-menu-mobil,#horizontal-multilevel-menu-mobil ul.f-level
+{
+	margin:0; padding:0;
+	/*background:#BC262C url(images/header_menu_bg.gif) repeat-x;*/
+	min-height:27px;
+	width:100%;
+	list-style:none;
+	/*font-size:90%*/
+}/*Links*/
+#horizontal-multilevel-menu-mobil a
+{
+	display:block;
+	padding:5px 10px;
+	/*padding:0.3em 0.8em;*/
+	text-decoration:none;
+	/*text-align:center;*/
+}
+
+#horizontal-multilevel-menu-mobil a
+{
+	display:block;
+	padding:5px 10px;
+	/*padding:0.3em 0.8em;*/
+	text-decoration:none;
+	/*text-align:center;*/
+}
+
+#horizontal-multilevel-menu-mobil li.f-level
+{
+	/*float:left;	
+	position:relative;*/
+	
+	padding: 0;
+    margin: 0;
+    font-size: 14px;
+    /* position: relative; */
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin: 2px 0px;
+    position: relative;
+    border-bottom: 1px #339bce solid;
+}
+
+#horizontal-multilevel-menu-mobil .f-level::before {
+   /* position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #339bce;
+    bottom: 0px;
+    content: '';
+    margin: 0px 5px;*/
+}
+
+#horizontal-multilevel-menu-mobil li .main_menu_arrow {
+	border: 0px solid #e1e7eb;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    color: var(--thWhite);
+}
+
+#horizontal-multilevel-menu-mobil li .main_menu_arrow i {
+	line-height: 42px;
+    font-size: 14px;
+}
+
+
+
+/*#horizontal-multilevel-menu-mobil li:not(:last-child):after {
+	 position: absolute;
+    width: 2px;
+    height: 30px;
+    background: url(/local/templates/traiv-new/images/main_menu_1sep.gif) repeat left bottom;
+    content: " ";
+    top: 50%;
+    transition: all 0.2s;
+    transform: translateY(-50%);
+	right: 0px;
+	padding: 0px;
+}
+
+#horizontal-multilevel-menu-mobil li > .main_menu_arrow {
+	background: url(/local/templates/traiv-new/images/main_menu_arrow.gif) no-repeat left bottom;
+	border:0px green solid;
+	width:22px;
+	height:12px;
+		position: absolute;
+	transition: all 0.2s;
+	left: 50%;
+    transform: translateX(-50%);
+	bottom: 0px;
+	padding: 0px;
+	display:none;
+}*/
+
+/*Root items*/
+#horizontal-multilevel-menu-mobil li a.root-item
+{
+	/*color:#353a40;
+	font: 500 14px/24px 'Gilroy',sans-serif;
+	padding:21px 0px;*/
+	
+	padding: 11px 18px 11px 45px;
+    display: block;
+    font: 500 14px/24px 'Gilroy',sans-serif;
+    color: var(--thWhite);
+    background: none;
+    position: relative;
+    border: 0px solid #e1e7eb;
+}
+
+/*Root menu selected*/
+#horizontal-multilevel-menu-mobil li a.root-item-selected
+{
+	/*background-color: rgba(255, 255, 255, 0.7);
+	color:#353a40;
+	font-weight:bold;
+	padding: 11px 18px 11px 45px;*/
+	
+		padding: 11px 18px 11px 45px;
+    display: block;
+    font: 500 14px/24px 'Gilroy',sans-serif;
+    color: var(--thWhite);
+    background: none;
+    position: relative;
+    border: 0px solid #e1e7eb;
+}
+
+/*Root items: hover*/
+#horizontal-multilevel-menu-mobil li:hover a.root-item, #horizontal-multilevel-menu-mobil li.jshover a.root-item
+{
+	/*background:#e26336;*/
+	/*color:#353a40;*/
+	font: 700 14px/24px 'Gilroy',sans-serif;
+}
+
+/*Item-parents*/
+#horizontal-multilevel-menu-mobil a.parent
+{
+	background: url(images/arrow.gif) center right no-repeat;
+}
+
+/*Denied items*/
+#horizontal-multilevel-menu-mobil a.denied
+{
+	background: url(images/lock.gif) center right no-repeat;
+}
+
+/*Child-items: hover*/
+#horizontal-multilevel-menu-mobil li:hover, #horizontal-multilevel-menu-mobil li.jshover
+{
+	/*background:#D6D6D6;*/
+	color:#fff;
+}
+
+/*Child-items selected*/
+#horizontal-multilevel-menu-mobil li.item-selected
+{
+	background:#D6D6D6;
+	color:#fff;
+}
+
+
+#horizontal-multilevel-menu-mobil .root_back
+{
+    position: absolute;
+     top: 0; 
+    z-index: 500;
+    height: auto;
+    width: 100%;
+    border: 0 solid #fff;
+    height: 100%;
+    left: 100%;
+    background-color: #dedede;
+/*-webkit-box-shadow: 0px 20px 25px 11px rgba(168,165,168,0.17);
+-moz-box-shadow: 0px 20px 25px 11px rgba(168,165,168,0.17);
+box-shadow: 0px 20px 25px 11px rgba(168,165,168,0.17);*/
+}
+
+#horizontal-multilevel-menu-mobil .root_back .sic_m_mobil_nav_back {
+	border:0px green solid;
+	    cursor: pointer;
+    display: block;
+    padding: 3px 3px 3px 20px;
+    letter-spacing: 1px;
+    font: 700 14px/36px 'Gilroy',sans-serif;
+    width:100%;
+color:var(--thWhite);
+}
+
+#horizontal-multilevel-menu-mobil .root_back .sic_m_mobil_nav_back i {
+	padding-right:10px;
+}
+
+/*#sic_m0 {
+	border:1px green solid;
+}*/
+
+/*Sub-menu box*/
+#horizontal-multilevel-menu-mobil li ul
+{
+	position:relative;
+	/*top:-999em;*/
+	top:0px;
+	/*display:none;*/
+	z-index:500;
+	height:0px;
+	width:auto;
+	/*background:#F5F5F5;*/
+	/*left:0px;*/
+	/*border:1px solid #C1C1C1;*/
+	list-style: none; 
+     padding: 0px; 
+     display: block;
+}
+
+/*Sub-menu item box*/
+#horizontal-multilevel-menu-mobil li li
+{
+	/*width:100%;*/
+	/*border-bottom:1px solid #DEDEDE;*/
+	/*float:left;*/
+}
+
+#horizontal-multilevel-menu-mobil li li
+{
+	/*padding:0px 10px;*/
+	border-bottom: 1px #339bce solid;
+	
+}
+
+/*#horizontal-multilevel-menu-mobil li li:first-child
+{
+	padding:0px 10px 0px 0px;
+}*/
+
+/*Item link*/
+#horizontal-multilevel-menu-mobil li ul a
+{
+	/*text-align:left;
+	font: 500 14px/24px 'Gilroy',sans-serif;
+	padding:21px 10px;*/
+	
+	padding: 11px 18px 11px 45px;
+    display: block;
+    font: 500 14px/24px 'Gilroy',sans-serif;
+    color: var(--thWhite);
+    background: none;
+    position: relative;
+    border: 0px solid #e1e7eb;
+	
+}
+
+/*
+#horizontal-multilevel-menu-mobil li a,
+#horizontal-multilevel-menu-mobil li:hover li a,
+#horizontal-multilevel-menu-mobil li.jshover li a,
+#horizontal-multilevel-menu-mobil li:hover li:hover li a,
+#horizontal-multilevel-menu-mobil li.jshover li.jshover li a,
+#horizontal-multilevel-menu-mobil li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu-mobil li.jshover li.jshover li.jshover li a,
+#horizontal-multilevel-menu-mobil li:hover li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu-mobil li.jshover li.jshover li.jshover li.jshover li a,
+#horizontal-multilevel-menu-mobil li:hover li:hover li:hover li:hover li:hover li a,
+#horizontal-multilevel-menu-mobil li.jshover li.jshover li.jshover li.jshover li.jshover li a
+{
+	color:#4F4F4F;
+
+}
+
+
+#horizontal-multilevel-menu-mobil li:hover li:hover a,
+#horizontal-multilevel-menu-mobil li.jshover li.jshover a,
+#horizontal-multilevel-menu-mobil li:hover li:hover li:hover a,
+#horizontal-multilevel-menu-mobil li.jshover li.jshover li.jshover a,
+#horizontal-multilevel-menu-mobil li:hover li:hover li:hover li:hover a,
+#horizontal-multilevel-menu-mobil li.jshover li.jshover li.jshover li.jshover a
+#horizontal-multilevel-menu-mobil li:hover li:hover li:hover li:hover li:hover a,
+#horizontal-multilevel-menu-mobil li.jshover li.jshover li.jshover li.jshover li.jshover a
+#horizontal-multilevel-menu-mobil li:hover li:hover li:hover li:hover li:hover li:hover a,
+#horizontal-multilevel-menu-mobil li.jshover li.jshover li.jshover li.jshover li.jshover li.jshover a
+{
+	color:#4F4F4F;
+	font: 700 14px/24px 'Gilroy',sans-serif;
+}
+
+#horizontal-multilevel-menu-mobil li ul ul
+{
+	margin:-27px 0 0 132px;
+}
+
+#horizontal-multilevel-menu-mobil li:hover ul ul,
+#horizontal-multilevel-menu-mobil li.jshover ul ul,
+#horizontal-multilevel-menu-mobil li:hover ul ul ul,
+#horizontal-multilevel-menu-mobil li.jshover ul ul ul,
+#horizontal-multilevel-menu-mobil li:hover ul ul ul ul,
+#horizontal-multilevel-menu-mobil li.jshover ul ul ul ul,
+#horizontal-multilevel-menu-mobil li:hover ul ul ul ul ul,
+#horizontal-multilevel-menu-mobil li.jshover ul ul ul ul ul
+{
+	display:none;
+}
+
+#horizontal-multilevel-menu-mobil li:hover ul,
+#horizontal-multilevel-menu-mobil li.jshover ul,
+#horizontal-multilevel-menu-mobil li li:hover ul,
+#horizontal-multilevel-menu-mobil li li.jshover ul,
+#horizontal-multilevel-menu-mobil li li li:hover ul,
+#horizontal-multilevel-menu-mobil li li li.jshover ul,
+#horizontal-multilevel-menu-mobil li li li li:hover ul,
+#horizontal-multilevel-menu-mobil li li li li.jshover ul,
+#horizontal-multilevel-menu-mobil li li li li li:hover ul,
+#horizontal-multilevel-menu-mobil li li li li li.jshover ul
+{
+	display:block;
+}
+*/
+#horizontal-multilevel-menu-mobil li:hover .root_back
+{
+	/*z-index:1000;
+	top:auto;*/
+	display:block;
+}
+
+/*#horizontal-multilevel-menu-mobil li:hover .main_menu_arrow {
+display:block;
+	}*/
+
+div.menu-clear-left
+{
+	clear:left;
+}

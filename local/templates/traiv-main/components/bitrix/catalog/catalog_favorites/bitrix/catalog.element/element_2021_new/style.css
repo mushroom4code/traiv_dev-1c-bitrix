@@ -1,0 +1,355 @@
+.crumbs__item.is-active,.crumbs__item:nth-last-child(2)::after {
+    display: none !important;
+}
+
+#result-tuning {
+    display: none;
+}
+.product__image{
+    margin-top: 10%;
+}
+.sertimg img {
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.quantity {
+    width: 8.6em;
+}
+
+.btn-mfp-dialog-two, .form-one-click__btn {
+
+    width: 50%;
+}
+
+.btn.buy-detail{
+    background: linear-gradient(#fdc917, #eb6219);
+    padding: unset;
+    border: none;
+    width: 50%;
+    height: 2em;
+    border-radius: 5px;
+}
+.btn.buy-detail:hover{
+    background: #eb6219;
+}
+.btn.buy-detail img{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.buy-btn-label{
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0 10%;
+}
+.btn.opt-detail{
+    background: linear-gradient(#ef7d8c, #e5181d);
+    padding: unset;
+    border: none;
+    width: 50%;
+    height: 2em;
+    border-radius: 5px;
+    margin: 2% 0;
+}
+.btn.opt-detail:hover{
+    background: #e5181d;
+}
+.btn.opt-detail img{
+    display: inline;
+    vertical-align: middle;
+    width: 18%;
+}
+.opt-btn-label{
+    vertical-align: middle;
+    display: inline;
+}
+
+
+
+.u-align-center u-offset-bottom-15 {
+
+    padding-right: 70px;
+}
+
+.footer{
+    margin-top: 0!important;
+}
+
+.pack_notice{
+    text-align: center;
+    font-size: 11px;
+    line-height: 10px;
+    /*width: 120px;*/
+    padding: 0 25%;
+}
+
+dl {
+    display: flex!important;
+    width: 400px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    align-items: flex-end;
+
+    /* Just for resizing
+    position: relative;
+    overflow: hidden;
+    resize: horizontal; */
+}
+
+dt {
+    flex-grow: 1;
+    padding-right: 1em;
+    overflow: hidden;
+    position: relative;
+}
+
+dt::after {
+    content: '​'; /* zero-width space */
+    position: absolute;
+    border-bottom: 1px dotted;
+    margin-left: 1px;
+    margin-top: -0.25em;
+    width: 100%;
+    color: #ccc;
+}
+
+dd {
+    flex-shrink: 0;
+    margin: 0 0 0 0.4em;
+}
+
+.dl dd, .dl dt {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    width: 30%!important;
+}
+
+.product-image{
+    margin-top: 5px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-gallery {
+
+    width: 100%;
+    float: left;
+    margin-top: 10%;
+
+}
+
+.product-gallery .gallery-image {
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 43%;
+    float: left;
+    text-align: center;
+    border: 1px #ccc solid;
+    height: 77px;
+    margin: 7px 5px;
+}
+
+
+.download_excel {
+    display: inline-block;
+    width: 41%;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .3);
+    padding: 6px;
+    font-size: 12px;
+    margin-top: 18%;
+}
+
+.raprodaja_sklad {
+    background: url(/local/templates/traiv-main/img/stick2.png) no-repeat;
+    height: 35px;
+    color: white;
+    text-shadow: 0 2px 0 #ba3434;
+    line-height: 33px;
+    text-align: left;
+    padding-left: 21px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    position: absolute;
+    width: 210px;
+}
+.mash-block, .stroy-block{
+    width: 41%;
+    display: inline-block;
+    background-color: #679ED2;
+    border: 2px solid #679ED2;
+    border-radius: 3px;
+    margin: 7px 5px;
+    background-size: 100%;
+    text-align: center;
+    font-size: smaller;
+    color: white;
+}
+.mash-number, .stroy-number{
+    display: inline;
+}
+.mash-title, .stroy-title{
+    line-height: 1em;
+}
+
+.dl-calc{
+    text-align: center;
+}
+iframe{
+    padding-left: 0.5%;
+}
+.shadow-price{
+    /*    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, .3);*/
+    border-radius: 3px;
+    background-color: #fff;
+    /*width: 125%;*/
+    /*display: table-cell;*/
+    padding: 2%;
+    width: auto;
+}
+.price{
+    color: red;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+.price__units{
+    line-height: 1.4rem;
+    font-size: 32px;
+    padding: 20px 0;
+    margin: 0 10%;
+
+}
+.price-block-two{
+    margin-top: 5%;
+}
+.second-price__units{
+    display: block;
+    padding: 10px 0;
+    margin: 0 10%;
+    font-size: 18px;
+}
+.island .md-title {
+    margin-top: 0;
+}
+.storages-block{
+    white-space: nowrap;
+}
+
+/* ANALOG MATERIALS */
+.analog_materials_block{
+    display: inline-block;
+    width: 94%;
+    margin-left: 7%;
+    padding-bottom: 2%;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+/*.analog_materials_title{
+    margin-left: 7%;
+}*/
+
+.analog-material{
+    box-sizing: border-box;
+    padding: 0 12px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: smaller;
+    font-weight: 400;
+    display: inline-grid;
+    align-items: flex-end;
+    justify-content: center;
+    float: left;
+    height: 6em;
+    max-width: 7.2vh;
+}
+.analog_materials a:hover{
+    transform: scale(1.05);
+}
+.analog_materials_title{
+    display: block;
+}
+/*.analog_materials, #itemid{
+    display: inline;
+}*/
+
+.analog-materials-img{
+    padding-top: 15%;
+    margin: auto;
+}
+.product__title{
+    margin-bottom:20px!important;
+    text-align: unset!important;
+    color: black!important;
+}
+.analog-material-value{
+    vertical-align: bottom;
+    margin-bottom: 10%;
+    line-height: 1em;
+    font-size: 11px;
+}
+
+.element-sale-block{
+    text-align: center;
+    border-left: 2px solid #ccc;
+}
+.element-properties-block{
+    margin: 0 25%;
+}
+
+/*
+.tab.element button{
+    width: 25% !important;
+}
+*/
+
+@media (max-width:640px) {
+    .price, dl{
+    margin-bottom: 0!important;
+  }
+    .element-sale-block {
+        border-left: none;
+    }
+    .analog_materials_block{
+        border-bottom: none;
+    }
+}
+
+
+@media (max-width:768px) {
+.bx_stick{
+        margin-left: 0px!important;
+    }
+.product-gallery {
+    margin-top: 25%;
+}
+    .product__image{
+        margin: auto;
+        padding: 0!important;
+    }
+    .download_excel{
+        width: 27%;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .tab.element {
+        margin-top: 5%;
+    }
+
+    .tablinks strong {
+        font-size: 12px;
+    }
+}
+
+.detail-sale-banner{
+    width: 100%;
+}

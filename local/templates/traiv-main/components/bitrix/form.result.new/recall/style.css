@@ -1,0 +1,21 @@
+#recall-form {
+    display: none;
+		max-width: 450px;
+
+}
+.dialog-opened #recall-form.show {
+    display: block;
+}
+@media (min-width: 1025px) {
+    #recall-form {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -250px;
+        margin-top: -150px;
+    }
+}
+
+#recall-form .col.x1d2.x1d1--m.form-control-row {
+    float: left;
+}

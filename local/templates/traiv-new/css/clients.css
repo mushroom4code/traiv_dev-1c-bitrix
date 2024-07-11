@@ -1,0 +1,135 @@
+#about-row-image {
+	background-image: url(/local/templates/traiv-new/hr/all.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:450px;
+    position:relative;
+}
+
+#about-row-image::before {
+    background-color: rgba(0,0,0,.5);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.about-title-back-black {
+	color:#fff;
+    position: absolute;
+    /*left: 35px;
+    right: 35px;*/
+    padding: 0;
+    color: #fff;
+    opacity: 1;
+    top: 10%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s ease-in;
+	z-index:100;
+	width:60%;
+}
+
+.about-title-back-black .big-title {
+display:block;
+font: 900 48px/60px 'Gilroy',sans-serif;
+}
+
+.about-title-back-black .small-title {
+display:block;
+font: 500 26px/32px 'Gilroy',sans-serif;	
+padding-top:30px;
+}
+
+.about-image {
+	padding-right:0px !important;
+}
+
+.about-big-title {
+	display:block;
+font: 900 48px/60px 'Gilroy',sans-serif;
+}
+
+.about_title {
+font: 700 32px/48px 'Gilroy',sans-serif;	
+}
+
+.about-item-title {
+font: 700 32px/48px 'Gilroy',sans-serif;	
+}
+
+.about-item-title i {
+	padding: 0 10px 0 0;
+}
+
+.about-item-title i:before {
+    background: -webkit-linear-gradient(#1ea4d7,#045199);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-item-content p {
+	    font-size: 17px;
+    color: var(--pColor);
+    line-height: 1.7 !important;
+    font-weight: 300;
+}
+
+.about-p {
+	    font-size: 17px;
+    color: var(--pColor);
+    line-height: 1.7 !important;
+    font-weight: 500;
+}
+
+.about-item-content ul{
+	font-size: 17px;
+    line-height: 1.7 !important;
+    font-weight: 700;
+}
+
+.is-about-back {
+	position:absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+	/*background-color: #f5f7f9;*/
+}
+
+.border-none {
+	border:0px green solid;
+}
+
+.clients-area-item h4 {
+	padding-top: 0px;
+}
+
+.exp-title {
+	font: 700 22px/28px 'Gilroy',sans-serif;
+}
+
+.copy-email {
+	font: 500 20px/20px 'Gilroy',sans-serif;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width : 576px) {
+
+	#about-row-image {
+    height:500px;
+    position:relative;
+    clear:both;
+}
+
+.about-title-back-black .small-title{
+	display:none;
+}
+
+}

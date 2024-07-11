@@ -1,0 +1,13 @@
+#basket_items .btn.btn-mfp-dialog {
+    margin-right: 20px;
+}
+#buy-one-click p.success {
+    color: green;
+    font: 500 22px/36px 'Gilroy',sans-serif;
+    
+}
+
+.md-title {
+		font: 700 24px/28px 'Gilroy',sans-serif;
+	padding: 30px 0px 10px 0px;
+}

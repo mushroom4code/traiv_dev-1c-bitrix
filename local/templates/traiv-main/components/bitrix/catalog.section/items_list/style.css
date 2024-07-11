@@ -1,0 +1,41 @@
+h4 {text-align: center; font-size: medium;
+}
+
+.sertimg img {
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+
+.sertimg {
+    margin-top: 40px;
+}
+
+.catalog-item-rec {
+    position: relative;
+    display: block;
+    margin: 0 0 10px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+h4.analog {
+    font-size: 15px;
+}
+
+
+/*
+.catalog-item__footer{
+    position: absolute;
+}
+*/
+
+.TitleImg {
+    max-width: 130px;
+}
+
+.otho{
+    font-size: large;
+    vertical-align: top;
+}

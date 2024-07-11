@@ -1,0 +1,1 @@
+Каталог <span class="u-none--s">товаров</span>

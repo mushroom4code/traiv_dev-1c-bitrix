@@ -1,0 +1,20 @@
+#traiv-system-pagenavigation-ajax {
+    background: #f90;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0;
+    position: relative;
+    display: block;
+}
+#traiv-system-pagenavigation-ajax:hover {
+    text-decoration: underline;
+}
+
+.row.container-ajax-content {
+    display: flex;
+    flex-wrap: wrap;
+}

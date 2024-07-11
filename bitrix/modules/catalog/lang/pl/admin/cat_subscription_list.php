@@ -1,0 +1,7 @@
+<?
+$MESS["PSL_ACTION_DELETE"] = "Usuń";
+$MESS["PSL_DELETE_SUBSCRIBE"] = "Usuń";
+$MESS["PSL_FILTER_ID"] = "ID";
+$MESS["PSL_FILTER_NO"] = "Nie";
+$MESS["PSL_FILTER_YES"] = "Tak";
+?>

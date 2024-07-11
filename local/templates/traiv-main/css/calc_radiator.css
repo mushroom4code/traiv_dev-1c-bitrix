@@ -1,0 +1,180 @@
+#ajax-calculator-form { width: 100%px; margin: 0 auto 20px; }
+#ajax-calculator-form .form-item {
+    margin-top: 0;
+}
+#ajax-calculator-form .action_message { display: none; float: left; }
+#ajax-calculator-form .form-type-radio input,
+#ajax-calculator-form .form-type-radio label
+{ vertical-align: middle !important; margin-top: 0 !important; }
+
+#ajax-calculator-form *:focus,
+#ajax-calculator-form *:hover{
+    outline: 0;
+}
+#ajax-calculator-form .form-item-type-mounting{ display: none; }
+#ajax-calculator-form .form-item-tube-diameter{ text-align: center; width: 100%; }
+#ajax-calculator-form .form-item-tube-diameter #edit-tube-diameter .form-item-tube-diameter{ display: inline-block; width: 60px; }
+
+#ajax-calculator-form .form-item-tube-diameter #edit-tube-diameter .form-item-tube-diameter input,
+#ajax-calculator-form .form-item-tube-diameter #edit-tube-diameter .form-item-tube-diameter label{
+    margin-top: 0 !important; vertical-align: middle !important;
+}
+
+#ajax-calculator-form .form-item-count-segments{
+    float: right;
+    margin-right: 20px;
+    width: 170px;
+}
+#ajax-calculator-form .form-item-length-register{
+    float: left;
+    margin-left: 40px;
+    width: 270px;
+}
+#ajax-calculator-form .form-item-length-register div.form-item {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    padding: 0 35px 0 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#ajax-calculator-form .form-item-length-register div.form-item .ui-spinner {
+    position: static;
+    width: auto;
+    height: 30px;
+    vertical-align: top;
+    margin-top: 0;
+}
+
+#ajax-calculator-form .form-item-count-segments input,
+#ajax-calculator-form .form-item-length-register input{
+    width: 45px;
+    background: none;
+    line-height: 30px;
+    height: 30px;
+    margin: 0;
+    border: 0;
+    font-weight: bold;
+    box-shadow: none;
+    text-align: center;
+    font-size: 15px;
+}
+#ajax-calculator-form .form-item-length-register input {
+    padding: 0 !important;
+    width: 20px;
+    display: inline-block;
+}
+
+#ajax-calculator-form .form-item-length-register .field-suffix{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#ajax-calculator-form .form-type-radios.form-item-type-gag{
+    float: right;
+    margin-right: 20px;
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+#ajax-calculator-form .form-type-radios.form-item-type-construction{
+    float: left;
+    margin-left: 40px;
+    width: 190px;
+    margin-bottom: 10px;
+}
+#ajax-calculator-form .form-type-radios.form-item-type-gag label,
+#ajax-calculator-form .form-type-radios.form-item-type-construction label,
+#ajax-calculator-form .form-type-radios.form-item-nozzles label,
+#ajax-calculator-form .form-item-count-segments label,
+#ajax-calculator-form .form-item-length-register label {
+    margin-bottom: 0;
+}
+#ajax-calculator-form .form-type-radios.form-item-nozzles{
+    float: right;
+    margin-right: 20px;
+    width: 170px;
+}
+
+
+#ajax-calculator-form .form-item-ground {
+    margin-top: 30px;
+    margin-bottom: 0.4em;
+}
+#ajax-calculator-form .form-item-dyeing{
+    margin-top: 0.4em;
+}
+#ajax-calculator-form .form-item-ground input,
+#ajax-calculator-form .form-item-dyeing input{
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+
+#ajax-calculator-form .total_price_calc{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#ajax-calculator-form .total_price_calc input {
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    width: 150px;
+    height: 35px;
+}
+
+#table-client-info {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.table_diameter_desc {
+    padding-bottom: 0;
+}
+#table_diameter td:hover{
+    background: #5a85a7 !important;
+    color: #fff;
+}
+
+#table_diameter td.td_empty:hover{
+    background: none !important;
+}
+#table_diameter td {
+    position: relative;
+}
+#table_diameter td.td_value {
+    background: #75aad4;
+    height: 20px;
+}
+#table_diameter .form-item{
+    margin-bottom: 0;
+}
+#table_diameter .form-item input {
+    display: none;
+}
+#table_diameter .form-item label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+#table_diameter .form-item label.active {
+    color: #fff;
+    background: #5a85a7 !important;
+}
+
+

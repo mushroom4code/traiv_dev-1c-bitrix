@@ -1,0 +1,5 @@
+<?
+$MESS["INTERVOLGA_TIPS_MODULE_NAME"] = "Intervolga tips";
+$MESS["INTERVOLGA_TIPS_MODULE_DESC"] = "Intervolga tips";
+$MESS["INTERVOLGA_TIPS_PARTNER_NAME"] = "INTERVOLGA";
+$MESS["INTERVOLGA_TIPS_PARTNER_URI"] = "http://www.intervolga.ru/";

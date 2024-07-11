@@ -1,0 +1,44 @@
+.categories__dropdown.dropdown {
+    background: #fff;
+    height: inherit;
+}
+.traiv-catalog-section-headers {
+    padding: 13px;
+}
+
+.traiv-catalog-section-headers a {
+    color: #6c92af;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-top:none!important;
+    height: 6em;
+    vertical-align: middle;
+    text-align: center;
+}
+.traiv-catalog-section-headers a span {
+    display: block;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: normal;
+}
+.traiv-catalog-section-headers .close {
+    height: 35px;
+    width: 35px;
+    background-color: #ffb017;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAYAAAC9+TVUAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6N0YyMDU1MEFCQTdCMTFFOEJFMjFDQzk1NTBFRDhDQjciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6N0YyMDU1MEJCQTdCMTFFOEJFMjFDQzk1NTBFRDhDQjciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3RjIwNTUwOEJBN0IxMUU4QkUyMUNDOTU1MEVEOENCNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3RjIwNTUwOUJBN0IxMUU4QkUyMUNDOTU1MEVEOENCNyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PtDfYXcAAAC8SURBVHjanNRRCoMwDAbg6g4g+L47DHaVgTuB4LunE/a0p8FgVxi7x+j+lMCCJGk08D+01o9Kapucc0IdkG/aWS3SIXdk3PBejyzIqYywkyH/a6SdVdIjT15/K1/CD6YgJIEXj5NcUINUYI14kAloiAa5gIWsobcHeAhlFtDHAiitcw6uYnxELuapCXRhrrU/2ka3/SnaRg+KAho0SSQKmBBNLhsADRpo4sx/YxSQ0APpGr6U9la5zH4CDADIiBnSOIS19wAAAABJRU5ErkJggg==');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.mobile-header-menu-item:hover {
+    background-color: #6c92af;
+    text-align: center;
+    color: white;
+}
+.header-menu-item-fist-txt{
+    margin: 15% 0 0;
+}

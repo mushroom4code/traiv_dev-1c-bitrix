@@ -1,0 +1,164 @@
+.btn[disabled=disabled]{
+    border-color: #eee;
+    background-color: #eee;
+    color: #000;
+    cursor: default;
+}
+
+.empty-cart {
+    background-color: #eee;
+    color: #000;
+    padding: 15px 15px 25px;
+    text-align: center;
+}
+.empty-cart .errortext {
+    color: #9e9e9e !important;
+    font-size: 20px;
+}
+
+.overflow-h{
+    overflow: hidden;
+}
+
+.popup-window-buttons .btn+.btn{
+	margin-left: 10px;
+}
+
+.btn.bx-catalog-subscribe-button {
+	font-size: 17px;
+	padding: 4px 10px;
+}
+
+
+
+/*   */
+.old_table{
+    border-collapse: separate;
+    border-spacing: 3px;
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 5px;
+    width: 100%;
+}
+.old_table caption {
+    color: #5b7696;
+    font-family: Arial;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.old_table thead th {
+    background-color: #83a5cc;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.old_table thead tr {
+
+}
+.old_tabletbody td {
+    text-align: center;
+}
+.old_table tbody td {
+    padding: 5px;
+}
+
+
+.main-block {
+	/*width: 850px;
+	overflow: hidden;*/
+	font-family: arial;
+	margin: 20px auto;
+}
+
+.main-block .head {
+	width: 846px;
+	height: 48px;
+	overflow: hidden;
+	position: relative;
+	background-color: #5B7696;
+	margin-bottom: 15px;
+	border:2px solid #ffffff; border-radius: 10px 10px 0 0; box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
+}
+
+.main-block .head2 {
+	/*width: 850px;*/
+	height: 40px;
+	overflow: hidden;
+	position: relative;
+	//background-color: #5B7696;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border-top: 2px solid #5B7696;
+	border-bottom: 2px solid #5B7696;
+}
+
+.main-block .head h1 {
+	font-size: 25px;
+}
+
+.main-block .head2 h2 {
+	font-size: 20px;
+}
+
+.main-block .head .din {
+	display: block;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 180px;
+	font-weight: bold;
+	text-align: center;
+	color: #000000;
+	background-color: #ffffff;
+	border-radius: 5px 0 0 0;
+	font-family: arial;
+	height: 32px;
+	padding-top: 4px;
+}
+
+.main-block .head .din.gost {
+	width: 210px;
+}
+
+.main-block .head .name1 {
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 200px;
+	width: 600px;
+	font-weight: bold;
+	color: #ffffff;
+	font-family: arial;
+	padding-top: 4px;
+
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+
+.main-block .head .name1.gost {
+	left: 230px;
+	width: 560px;
+}
+
+.main-block .head2 .name2 {
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: 15px;
+	font-weight: bold;
+	color: #5B7696;
+	font-family: arial;
+	padding-top: 4px;
+	width:765px;
+	height:29px;
+	overflow:hidden;
+
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden
+}
+
+
+

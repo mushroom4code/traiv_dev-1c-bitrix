@@ -1,0 +1,95 @@
+
+.wd_marque_07 {
+	overflow:hidden;
+	border:1px solid #ccc;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none;
+}
+
+.wd_marque_07 .wd_str_wrap {
+	overflow:hidden;
+	//zoom:1;
+	width:100%;
+	font-size:12px;
+	line-height:26px;
+	position:relative;
+	white-space:nowrap;
+	-moz-transition:background 0.1s;
+	-webkit-transition:background 0.1s;
+	-o-transition:background 0.1s;
+	-ms-transition:background 0.1s;
+	transition:background 0.1s;
+	
+	background: #f1e666;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YxZTY2NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZWI3NDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #f1e666 0%, #feb746 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1e666), color-stop(100%,#feb746));
+	background: -webkit-linear-gradient(top,  #f1e666 0%,#feb746 100%);
+	background: -o-linear-gradient(top,  #f1e666 0%,#feb746 100%);
+	background: -ms-linear-gradient(top,  #f1e666 0%,#feb746 100%);
+	background: linear-gradient(to bottom,  #f1e666 0%,#feb746 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e666', endColorstr='#feb746',GradientType=0 );
+	
+}
+
+.wd_marque_07 .wd_str_wrap.wd_str_active {
+	background: #efe573;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmZTU3MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmY2JlNjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #efe573 0%, #fcbe62 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efe573), color-stop(100%,#fcbe62));
+	background: -webkit-linear-gradient(top,  #efe573 0%,#fcbe62 100%);
+	background: -o-linear-gradient(top,  #efe573 0%,#fcbe62 100%);
+	background: -ms-linear-gradient(top,  #efe573 0%,#fcbe62 100%);
+	background: linear-gradient(to bottom,  #efe573 0%,#fcbe62 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe573', endColorstr='#fcbe62',GradientType=0 );
+}
+.wd_marque_07 .wd_str_move {
+	color:#000;
+	font-size:120%;
+	white-space:nowrap;
+	position:absolute; 
+	top:0; 
+	left:0;
+	cursor:move;
+}
+.wd_marque_07 .wd_str_move_clone {
+	display:inline-block;
+	//display:inline;
+	//zoom:1;
+	vertical-align:top;
+	position:absolute; 
+	left:100%;
+	top:0;
+}
+.wd_marque_07 .wd_str_vertical .wd_str_move_clone {
+	left:0;
+	top:100%;
+}
+.wd_marque_07 .wd_str_down .wd_str_move_clone {
+	left:0;
+	bottom:100%;
+}
+.wd_marque_07 .wd_str_vertical .wd_str_move,
+.wd_marque_07 .wd_str_down .wd_str_move {
+	white-space:normal;
+	padding:0 10px;
+	width:100%;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.wd_marque_07 .wd_str_static .wd_str_move,
+.wd_marque_07 .no_drag .wd_str_move,
+.wd_marque_07 .noStop .wd_str_move{
+	cursor:inherit;
+}
+.wd_marque_07 .wd_str_wrap img {
+	max-width:none !important;	
+}

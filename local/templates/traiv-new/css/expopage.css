@@ -1,0 +1,342 @@
+#expopage-row-image {
+	background-image: url(/local/templates/traiv-new/expopage/is-service-back.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:450px;
+    position:relative;
+}
+
+#expopage-row-image::before {
+    background-color: rgba(2,77,188,.5);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.expopage-title-back-black {
+	color:#fff;
+    position: absolute;
+    /*left: 35px;
+    right: 35px;*/
+    padding: 0;
+    color: #fff;
+    opacity: 1;
+    top: 10%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s ease-in;
+	z-index:100;
+	width:60%;
+}
+
+.expopage-title-back-black .big-title {
+display:block;
+font: 900 48px/60px 'Gilroy',sans-serif;
+}
+
+.expopage-title-back-black .small-title {
+display:block;
+font: 500 16px/32px 'Gilroy',sans-serif;	
+padding-top:30px;
+}
+
+/*----------------------------------
+@ OtrList
+----------------------------------*/
+
+.expopage-is-item {
+	margin: 0 -15px;
+}
+.expopage-is-item:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+.expopage-is-item .posts-i {
+	color: #373d54;
+	position: relative;
+	/*width: 33.33333%;*/
+	padding: 0 15px;
+	float: left;
+	margin: 0 0 30px;
+	height: 380px;
+	overflow: hidden;
+	
+}
+.expopage-is-item .posts-i .posts-i-img {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+	border: none;
+	position: relative;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.expopage-is-item .posts-i .posts-i-img:after {
+	position: absolute;
+	content: '';
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+	transition: background 0.5s;
+}
+
+.expopage-is-item .posts-i .posts-i-img span {
+	width: 100%;
+	height: 100%;
+	transition: transform 0.6s;
+	display: block;
+	-o-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-webkit-background-size: cover !important;
+	background-size: cover !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	-ms-transform: scale3d(1,1,1);
+	-o-transform: scale3d(1,1,1);
+	-moz-transform: scale3d(1,1,1);
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+.expopage-is-item .posts-i:hover .posts-i-img span {
+	-webkit-transform: scale3d(1.05,1.05,1);
+	-moz-transform: scale3d(1.05,1.05,1);
+	-ms-transform: scale3d(1.05,1.05,1);
+	-o-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);
+}
+
+.expopage-is-item .posts-i:hover .posts-i-img:after {
+	background: rgba(255,255,255,0.8);
+}
+
+.expopage-is-item .posts-i .posts-i-ttl {
+	font: 700 24px/42px 'Gilroy',sans-serif;
+	margin: 0;
+	line-height: 1.2;
+	text-align: center;
+}
+.expopage-is-item .posts-i .posts-i-ttl a {
+	border: none;
+	color: #fff;
+	line-height: 1.2;
+	transition: color 0.2s;
+	text-transform:uppercase;
+}
+
+.expopage-is-item .posts-i:hover .posts-i-ttl a {
+	color:#343a40;
+}
+
+.expopage-is-item .posts-i .posts-i-ttl .posts-i-ttl-title {
+	border: none;
+	color: #fff;
+	line-height: 1.2;
+	transition: color 0.2s;
+	text-transform:uppercase;
+}
+
+.expopage-is-item .posts-i:hover .posts-i-ttl .posts-i-ttl-title {
+	color:#343a40;
+}
+
+.expopage-is-item .posts-i .posts-i-ttl a:hover {
+	/*color: #b3bede;*/
+}
+
+.expopage-is-item .posts-i .posts-i-ttl-note {
+	max-height: 0;
+	overflow: hidden;
+	 transition: max-height 0.15s ease-out;
+	 color:#343a40;
+}
+
+.expopage-is-item .posts-i .posts-i-ttl-note p {
+	font: 500 16px/22px 'Gilroy',sans-serif;
+}
+
+.expopage-is-item .posts-i:hover .posts-i-ttl-note { 
+max-height: 500px;
+transition: max-height 0.25s ease-in;
+}
+
+.expopage-slick-arrow {
+	    font-size: 46px !important;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 50px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+}
+
+.expopage-slick-left-arrow
+{
+    left: -25px;
+}
+
+.expopage-slick-right-arrow
+{
+    right: -25px;
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
+.expopage-pro-text {
+	font: 900 22px/24px 'Gilroy',sans-serif !important;
+	text-align: center !important;
+}
+
+.expopage-h {
+	    height: auto!important;
+    /*margin: 10px;*/
+}
+
+@media only screen and (max-width : 576px) {
+	
+	.expopage-title-back-black {
+	color:#fff;
+    position: absolute;
+    /*left: 35px;
+    right: 35px;*/
+    padding: 0;
+    color: #fff;
+    opacity: 1;
+    top: 10%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s ease-in;
+	z-index:100;
+	width:100%;
+}
+	
+	.expopage-title-back-black .big-title {
+	display:block;
+	font: 900 28px/30px 'Gilroy',sans-serif;
+}
+
+.expopage-title-back-black .small-title {
+display:block;
+font: 500 16px/26px 'Gilroy',sans-serif;	
+padding-top:30px;
+}
+
+.expopage-slick-left-arrow
+{
+    left: -15px;
+}
+
+.expopage-slick-right-arrow
+{
+    right: -15px;
+}
+
+}

@@ -1,0 +1,588 @@
+<?
+use Bitrix\Main\Page\Asset;
+
+$asset = Asset::getInstance();
+?>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col x3d4 x1d1--t">
+                <div class="f-categories">
+                    <a href="/"><img src="/local/templates/traiv-main/img/logo-white-s-3.png" alt="Главная страница" title="Главная страница" class="footer-logo"></a>
+                    <a href="/personal/subscribe/" class="subscribe">Подписаться</a>
+                    
+                    
+                    
+                    <div class="hide-desctop telephone">
+                <h4 class="sm-title sm-title--white"><?
+                    // Вставка включаемой области - http://dev.1c-bitrix.ru/user_help/settings/settings/components_2/include_areas/main_include.php
+                    $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        ".default",
+                        array(
+                            "AREA_FILE_SHOW" => "file",
+                            "EDIT_TEMPLATE" => "",
+                            "COMPONENT_TEMPLATE" => ".default",
+                            "PATH" => "/include/cont_header.php"
+                        )
+                    );
+                    ?></h4>
+
+                <ul class="contacts">
+                    <li class="contacts__item">
+                        <h5 class="contacts__title"><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/spb.php"
+                                )
+                            );
+                            ?></h5>
+						<span>
+							<?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/spb_tel_1.php"
+                                )
+                            );
+                            ?>
+
+						</span>
+						<span><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/spb_tel_2.php"
+                                )
+                            );
+                            ?></span>
+						<span><a href="#"><?
+                                $APPLICATION->IncludeComponent(
+                                    "bitrix:main.include",
+                                    ".default",
+                                    array(
+                                        "AREA_FILE_SHOW" => "file",
+                                        "EDIT_TEMPLATE" => "",
+                                        "COMPONENT_TEMPLATE" => ".default",
+                                        "PATH" => "/include/mail.php"
+                                    )
+                                );
+
+                                ?></a></span>
+						<span><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/spb_addr.php"
+                                )
+                            );
+
+                            ?></span>
+                    </li>
+                    <li class="contacts__item">
+                        <h5 class="contacts__title"><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/mosca.php"
+                                )
+                            );
+
+                            ?></h5>
+						<span><?
+								$APPLICATION->IncludeComponent(
+									"bitrix:main.include",
+									".default",
+									array(
+										"AREA_FILE_SHOW"     => "file",
+										"EDIT_TEMPLATE"      => "",
+										"COMPONENT_TEMPLATE" => ".default",
+										"PATH"               => "/include/mosca_phone.php"
+									)
+								);
+                            ?></span>
+                    </li>
+                    <li class="contacts__item">
+                        <h5 class="contacts__title"><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/ekb.php"
+                                )
+                            );
+
+                            ?></h5>
+						<span><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/ekb_phone.php"
+                                )
+                            );
+
+                            ?></span>
+                    </li>
+                    <li class="contacts__item">
+                        <h5 class="contacts__title"><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/russia.php"
+                                )
+                            );
+
+                            ?></h5>
+						<span><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/phone.php"
+                                )
+                            );
+
+                            ?><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/phone_text.php"
+                                )
+                            );
+
+                            ?></span>
+                    </li>
+                </ul>
+            </div>
+                        
+
+                    
+                    <div class="show-desctop">
+                    <?
+
+                    // Меню - http://dev.1c-bitrix.ru/user_help/settings/settings/components_2/navigation/menu.php
+                    $APPLICATION->IncludeComponent(
+	"bitrix:menu", 
+	"catalog-sections-footer", 
+	array(
+		"ROOT_MENU_TYPE" => "left",
+		"MENU_CACHE_TYPE" => "Y",
+		"MENU_CACHE_TIME" => "360000",
+		"MENU_CACHE_USE_GROUPS" => "N",
+		"MENU_CACHE_GET_VARS" => "",
+		"CACHE_SELECTED_ITEMS" => "N",
+		"MAX_LEVEL" => "2",
+		"CHILD_MENU_TYPE" => "left",
+		"USE_EXT" => "Y",
+		"DELAY" => "N",
+		"ALLOW_MULTI_SELECT" => "N",
+		"COMPONENT_TEMPLATE" => "catalog-sections-footer"
+	),
+	false
+);
+
+                    ?>
+
+
+                </div>
+                </div>
+
+                <div class="credits">
+                    <?
+                    // Вставка включаемой области - http://dev.1c-bitrix.ru/user_help/settings/settings/components_2/include_areas/main_include.php
+                    $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        ".default",
+                        array(
+                            "AREA_FILE_SHOW" => "file",
+                            "EDIT_TEMPLATE" => "",
+                            "COMPONENT_TEMPLATE" => ".default",
+                            "PATH" => "/include/credits.php"
+                        ),
+                        false
+                    );
+                    ?>
+
+
+                </div>
+
+ <div class="copi"> 
+                    <?
+                    // Вставка включаемой области - http://dev.1c-bitrix.ru/user_help/settings/settings/components_2/include_areas/main_include.php
+                    $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        ".default",
+                        array(
+                            "AREA_FILE_SHOW" => "file",
+                            "EDIT_TEMPLATE" => "",
+                            "COMPONENT_TEMPLATE" => ".default",
+                            "PATH" => "/include/copi.php"
+                        ),
+                        false
+                    );
+                    ?>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="col x1d4 u-align-right u-none--t">
+                <h4 class="sm-title sm-title--white">
+<?
+                    // Вставка включаемой области - http://dev.1c-bitrix.ru/user_help/settings/settings/components_2/include_areas/main_include.php
+                    $APPLICATION->IncludeComponent(
+                        "bitrix:main.include",
+                        ".default",
+                        array(
+                            "AREA_FILE_SHOW" => "file",
+                            "EDIT_TEMPLATE" => "",
+                            "COMPONENT_TEMPLATE" => ".default",
+                            "PATH" => "/include/cont_header.php"
+                        )
+                    );
+                    ?></h4>
+
+                <ul class="contacts">
+                    <li class="contacts__item">
+                        <div class="contacts__title"><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/spb.php"
+                                )
+                            );
+                            ?></div>
+						<span>
+							<?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/spb_tel_1.php"
+                                )
+                            );
+                            ?>
+
+						</span>
+						<span><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/spb_tel_2.php"
+                                )
+                            );
+                            ?></span>
+						<span><a href="#"><?
+                                $APPLICATION->IncludeComponent(
+                                    "bitrix:main.include",
+                                    ".default",
+                                    array(
+                                        "AREA_FILE_SHOW" => "file",
+                                        "EDIT_TEMPLATE" => "",
+                                        "COMPONENT_TEMPLATE" => ".default",
+                                        "PATH" => "/include/mail.php"
+                                    )
+                                );
+
+                                ?></a></span>
+						<span><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/spb_addr.php"
+                                )
+                            );
+
+                            ?></span>
+                    </li>
+                    <li class="contacts__item">
+                        <div class="contacts__title"><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/mosca.php"
+                                )
+                            );
+
+                            ?></div>
+						<span><?
+								$APPLICATION->IncludeComponent(
+									"bitrix:main.include",
+									".default",
+									array(
+										"AREA_FILE_SHOW"     => "file",
+										"EDIT_TEMPLATE"      => "",
+										"COMPONENT_TEMPLATE" => ".default",
+										"PATH"               => "/include/mosca_phone.php"
+									)
+								);
+                            ?></span>
+                    </li>
+                    <li class="contacts__item">
+                        <div class="contacts__title"><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/ekb.php"
+                                )
+                            );
+
+                            ?></div>
+						<span><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/ekb_phone.php"
+                                )
+                            );
+
+                            ?></span>
+                    </li>
+                    <li class="contacts__item">
+                        <h5 class="contacts__title"><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/russia.php"
+                                )
+                            );
+
+                            ?></h5>
+						<span><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/phone.php"
+                                )
+                            );
+
+                            ?><?
+                            $APPLICATION->IncludeComponent(
+                                "bitrix:main.include",
+                                ".default",
+                                array(
+                                    "AREA_FILE_SHOW" => "file",
+                                    "EDIT_TEMPLATE" => "",
+                                    "COMPONENT_TEMPLATE" => ".default",
+                                    "PATH" => "/include/phone_text.php"
+                                )
+                            );
+
+                            ?></span>
+                    </li>
+                </ul>
+
+            <ul class="social">
+                <li class="social__item">
+                    <a href="https://vk.com/traivkomplekt" rel="nofollow" class="social__link" target="_blank">
+                        <i class="icon icon--vk"></i>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://www.facebook.com/traivkomplekt" rel="nofollow" class="social__link" target="_blank">
+                        <i class="icon icon--facebook"></i>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="https://twitter.com/traiv_komplekt" rel="nofollow" class="social__link" target="_blank">
+                        <i class="icon icon--twitter"></i>
+                    </a>
+                </li>
+						<li class="social__item">
+                    <a href="https://www.youtube.com/user/traivkomplekt/" rel="nofollow" class="social__link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+</div>
+        </div>
+    </div>
+</footer>
+        <div id="recall-form">
+<?$APPLICATION->IncludeComponent(
+	"bitrix:form.result.new", 
+	"recall", 
+	array(
+		"COMPONENT_TEMPLATE" => "recall",
+		"WEB_FORM_ID" => "7",
+		"IGNORE_CUSTOM_TEMPLATE" => "N",
+		"USE_EXTENDED_ERRORS" => "Y",
+		"SEF_MODE" => "N",
+		"CACHE_TYPE" => "N",
+		"LIST_URL" => "/ajax/forms/recall_success.php",
+		"EDIT_URL" => "/ajax/forms/recall_success.php",
+		"SUCCESS_URL" => "/ajax/forms/recall_success.php",
+		"CHAIN_ITEM_TEXT" => "",
+		"CHAIN_ITEM_LINK" => "",
+		"CACHE_TIME" => "3600",
+		"VARIABLE_ALIASES" => array(
+			"WEB_FORM_ID" => "WEB_FORM_ID",
+			"RESULT_ID" => "RESULT_ID",
+		)
+	),
+	false
+);?>
+        </div>
+<?
+$APPLICATION->IncludeComponent(
+	"traiv:buy.one.click", 
+	".default", 
+	array(
+		"COMPONENT_TEMPLATE" => ".default",
+		"USER_CONSENT" => "Y",
+		"USER_CONSENT_ID" => "2",
+		"USER_CONSENT_IS_CHECKED" => "Y",
+		"USER_CONSENT_IS_LOADED" => "N",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_ADDITIONAL" => ""
+	),
+	false
+);
+
+?>
+</div>
+<!--from header 2108 -->
+<?$asset->addJs(SITE_TEMPLATE_PATH . "/js/vendor/minify.min.js");?>
+<!--from header 2108 -->
+<?
+$asset->addCss(SITE_TEMPLATE_PATH . '/css/grid.min.css');
+$asset->addCss(SITE_TEMPLATE_PATH . '/css/skin.min.css');
+$asset->addCss(SITE_TEMPLATE_PATH . '/css/additional.css');
+?>
+
+<!--from header 2108 -->
+<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="preload stylesheet">
+
+<script src="<?= SITE_TEMPLATE_PATH ?>/js/script.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/js/plugins/jquery.modal.min.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/js/plugins/jquery.customselect.min.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/js/plugins/jquery.carousel.min.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/js/plugins/jquery.maskedinput.min.js"></script>
+<script src="<?= SITE_TEMPLATE_PATH ?>/js/plugins/jquery.validate.min.js"></script>
+<?$asset->addJs(SITE_TEMPLATE_PATH."/js/ajax_order.js");?>
+<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+<!--from header 2108 -->
+<!--[if lt IE 9]>
+    <script src="<?=SITE_TEMPLATE_PATH?>/js/vendor/html5shiv.js"></script><![endif]-->
+
+<script crossorigin="anonymous" async type="text/javascript" src="//api.pozvonim.com/widget/callback/v3/9270b523c259eb7f36c978ed386dfebe/connect" id="check-code-pozvonim" charset="UTF-8"></script>
+
+
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+    (function(){ var widget_id = 'QL2KH4sdMr';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+<!-- {/literal} END JIVOSITE CODE -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(18248638, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/18248638" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<meta name="yandex-verification" content="6429b000fbcb9c5c" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135884975-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-135884975-1');
+</script>
+
+
+</body>
+</html>

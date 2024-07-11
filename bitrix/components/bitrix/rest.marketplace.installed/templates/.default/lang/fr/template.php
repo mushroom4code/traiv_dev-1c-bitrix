@@ -1,0 +1,4 @@
+<?
+$MESS["MARKETPLACE_APP_INSTALL_CANCEL"] = "Annuler";
+$MESS["MARKETPLACE_RIGHTS"] = "Droits d'accès";
+?>

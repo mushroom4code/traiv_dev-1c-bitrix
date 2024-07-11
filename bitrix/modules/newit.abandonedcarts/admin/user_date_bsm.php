@@ -1,0 +1,1 @@
+<?define("newit_abandonedcarts_TEMPORARY_CACHE", "cDUJBHg1UQRoVStkBmcFeFIn");?>

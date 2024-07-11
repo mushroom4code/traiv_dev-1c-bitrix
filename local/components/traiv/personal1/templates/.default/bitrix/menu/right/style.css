@@ -1,0 +1,51 @@
+.traiv-personal-menu-right {
+    margin: -20px -20px 0;
+}
+.traiv-personal-menu-right table {
+    width: 100%;
+    border-spacing: 20px;
+}
+.traiv-personal-menu-right table td {
+    background: #fff;
+}
+.traiv-personal-menu-right table td a {
+    display: block;
+    height: 58px;
+    font-size: 22px;
+    color: #000;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center 35px;
+    padding-top: 130px;
+
+}
+.traiv-personal-menu-right table td a:hover {
+    color: #5a85a7;
+}
+.traiv-personal-menu-right .image1 {
+    background-image: url("images/1.png");
+}
+.traiv-personal-menu-right .image2 {
+    background-image: url("images/2.png");
+}
+.traiv-personal-menu-right .image3 {
+    background-image: url("images/3.png");
+}
+.traiv-personal-menu-right .image4 {
+    background-image: url("images/4.png");
+}
+.traiv-personal-menu-right .image5 {
+    background-image: url("images/5.png");
+}
+.traiv-personal-menu-right .image6 {
+    background-image: url("images/7.png");
+}
+.traiv-personal-menu-right .image7 {
+    background-image: url("images/7.png");
+}
+.traiv-personal-menu-right .image8 {
+    background-image: url("images/8.png");
+}
+.traiv-personal-menu-right .image9 {
+    background-image: url("images/9.png");
+}

@@ -1,0 +1,1 @@
+<a onclick='goPage("tel:+79219317932"); return false;' style='cursor: pointer' rel="nofollow" >+7 (921) 931-79-32</a>

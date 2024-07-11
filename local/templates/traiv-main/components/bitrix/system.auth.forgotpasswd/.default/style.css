@@ -1,0 +1,21 @@
+.traiv-system-auth-forgotpasswd-default .table-body {
+    width: 60%;
+}
+.traiv-system-auth-forgotpasswd-default .table-body td {
+    text-align: left;
+}
+
+.traiv-system-auth-forgotpasswd-default .traiv-orange-button {
+    width: 300px;
+    margin-top: 30px;
+}
+.traiv-system-auth-forgotpasswd-default .wrapper-link {
+    padding-top: 10px;
+    width: 300px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .traiv-system-auth-forgotpasswd-default .table-body {
+        width: 100%;
+    }
+}

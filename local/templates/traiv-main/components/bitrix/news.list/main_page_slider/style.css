@@ -1,0 +1,25 @@
+.hero .slideshow.js-slideshow .slideshow__item {
+    position: relative;
+}
+.load-js {
+    opacity: 0;
+    transition: opacity .3s linear;
+}
+.load-js.load{
+    opacity: 1;
+    transition: opacity .3s linear;
+}
+.load-js.load  {
+    border: 1px solid #c5c5c5;
+}
+
+.load-js.load .bx-pager.bx-default-pager {
+    left: 50%;
+    margin-left: -60px;
+}
+
+.bx-pager-item a {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+}

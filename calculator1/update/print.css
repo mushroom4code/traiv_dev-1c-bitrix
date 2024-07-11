@@ -1,0 +1,132 @@
+#result_print {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 20px;
+    position: relative;
+    top: 2px;
+    float: none;
+    right: -29px;
+    width: 120px;
+    background: none;
+    color: #333;
+    border-radius: 5px;
+	margin-right: 0;
+    position: relative;
+    left: 0;	
+}
+
+.calc {
+    display: inline-block;
+    width: 100%;
+}
+ 
+.calc select {
+    font-size: 15px;
+    color: #777;
+    border-radius: 3px;
+    padding: 5px 5px;
+    width: 130px;
+    margin-top: 14px;
+	font-weight: 900;
+    min-width: unset;
+}
+
+
+
+ 
+
+
+
+
+
+
+.label_mark, .pss, h1 {
+	display: none;
+}
+
+.plus, .print_r {
+	display: none;
+}
+
+.close {
+	display: none;	
+}
+
+.calc {
+padding: 0px;
+}
+ 
+.crumbs, .footer, .header, #info {
+	display: none;
+} 
+
+
+.calc select {
+     width: unset;
+}
+
+
+
+
+
+.container_calc {
+    //text-align: center;
+}
+
+
+
+
+.calc {
+    display: inline-block;
+    position: relative;
+    background-size: contain;
+    position: relative;
+    left: 0px;
+	width: 100%;
+	padding: 0px;
+    position: relative;
+    margin-bottom: 0;
+    background-size: contain;
+	background: none;
+}
+.globalClass_ET {
+display: none;
+}
+.layout {
+background: none;	
+}
+
+#count {
+    font-size: 15px;
+	width: unset;
+}
+
+#result_print {
+    right: -5px;
+    width: unset;
+}
+
+
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; background: none;
+}
+
+select, #count {
+	border: 0px; background: none;
+}
+
+@page {
+    background: #333;
+	margin: 0px;
+}
+
+
+
+
+
+
+
+

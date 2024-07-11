@@ -1,0 +1,1 @@
+<?define("sotbit_cabinet_TEMPORARY_CACHE", "dWcBCShmBlM6Ai1iAjYJLAhz");?>

@@ -1,0 +1,55 @@
+<?php 
+$MESS['KOMBOX_MODULE_FILTER_NO_MODULE'] = "Не удалось подключить модуль Kombox-фильтр";
+$MESS['KOMBOX_MODULE_FILTER_NO_IBLOCK'] = "Для данного инфоблока нельзя создавать правила";
+$MESS['KOMBOX_MODULE_FILTER_SEO_TAB'] = "Правило";
+$MESS['KOMBOX_MODULE_FILTER_SEO_ERR_UPDATE'] = "Ошибка изменения правила";
+$MESS['KOMBOX_MODULE_FILTER_SEO_ERR_ADD'] = "Ошибка создания правила";
+$MESS['KOMBOX_MODULE_FILTER_SEO_EDIT_TITLE'] = "Изменение правила";
+$MESS['KOMBOX_MODULE_FILTER_SEO_NEW_TITLE'] = "Создание правила";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_ID'] = "ID";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_ACTIVE'] = "Активность";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_SECTION_ID'] = "Раздел";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_INCLUDE_SUBSECTIONS'] = "Включать подразделы";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_H1'] = "H1";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_TITLE'] = "Title";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_DESCRIPTION'] = "Description";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_KEYWORDS'] = "Keywords";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_TEXT'] = "Текст";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_TEXT_TYPE'] = "Тип";
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_TEXT_NOTE'] = "Любой произвольный текст, который можно будет вывести на сайте с помощью функции Kombox\Filter\Seo::ShowText(\$default_text = \"\"), где \$default_text - это текст, который будет выведен в случае, если никакое правило не подходит или поле \"Текст\" у правила не заполнено.";
+$MESS['KOMBOX_MODULE_FILTER_SEO_EDIT_TITLE'] = "Редактировать";
+$MESS['KOMBOX_MODULE_FILTER_SEO_DELETE_TITLE'] = "Удалить";
+$MESS['KOMBOX_MODULE_FILTER_SEO_DELETE_CONFIRM'] = "Вы уверены что хотите удалить правило?";
+$MESS['KOMBOX_MODULE_FILTER_SEO_ADD'] = "Добавить";
+$MESS['KOMBOX_MODULE_FILTER_SEO_ADD_TITLE'] = "Добавить новое правило";
+$MESS['KOMBOX_MODULE_FILTER_SEO_TITLE'] = "SEO-правила для Kombox-фильтра";
+$MESS['KOMBOX_MODULE_FILTER_SEO_UPPER_LEVEL'] = "Верхний уровень";
+
+$MESS['KOMBOX_MODULE_FILTER_SEO_HEADER_PROPERTIES'] = "Свойства";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES'] = "Выберите свойство";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_OFFERS_PROPERTIES'] = "Свойства предложений";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_ADD'] = "Добавить";
+
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_ID'] = "ID";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_NAME'] = "Название";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_CODE'] = "Символьный код";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_TYPE'] = "Тип";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_VALUES'] = "Значения";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_ACTION'] = "Действия";
+
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_VALUES_ALL'] = "Любое значение";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_VALUES_CHANGE'] = "Изменить";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_ACTION_DELETE'] = "Удалить";
+
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES_EMPTY'] = "Свойства не выбраны";
+
+$MESS['KOMBOX_MODULE_FILTER_SEO_SECTION'] = "SEO данные";
+
+$MESS['KOMBOX_MODULE_FILTER_SEO_SECTION_NOTE'] = "В полях SEO данных вы можете использовать следующие шаблоны:<br />";
+$MESS['KOMBOX_MODULE_FILTER_SEO_SECTION_NOTE2'] = "значения этих свойств будут автоматически заменены при генерации SEO-данных.";
+$MESS['KOMBOX_MODULE_FILTER_SEO_CHOOSE_PROPERTIES'] = "Выберите поле для вставки кода шаблона";
+
+$MESS['KOMBOX_MODULE_FILTER_SEO_PROPERTY_VALUE_FROM'] = "Значение от";
+$MESS['KOMBOX_MODULE_FILTER_SEO_PROPERTY_VALUE_TO'] = "до";
+$MESS['KOMBOX_MODULE_FILTER_SEO_PROPERTY_VALUE_EMPTY'] = "Нет значений";
+?>

@@ -1,0 +1,138 @@
+.traiv-filter-form-default {
+    background: url("images/bg.png");
+    padding: 20px 50px 30px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.traiv-filter-form-default label {
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.traiv-filter-form-default table {
+    width: 100%;
+    padding-right: 80px;
+}
+.traiv-filter-form-default td {
+    text-align: left;
+    padding-right: 30px;
+    width: 33.33%;
+}
+.traiv-filter-form-default tr.labels td {
+    padding-top: 10px;
+}
+.traiv-filter-form-default input[type=text] {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #4374b1;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.traiv-filter-form-default .header-filter {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+.traiv-filter-form-default .selectbox .selectbox__current {
+    border: 1px solid #4374b1;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    color: #000;
+    font-style: normal;
+    white-space: normal;
+}
+.traiv-filter-form-default .selectbox .selectbox__current,
+.traiv-filter-form-default .selectbox .selectbox__current:after {
+    background: #fff;
+    border-radius: 0;
+}
+.traiv-filter-form-default .selectbox .selectbox__current:after {
+    line-height: 34px;
+}
+.traiv-filter-form-default:before,
+.traiv-filter-form-default:after,
+.traiv-filter-form-default .header-filter:before,
+.traiv-filter-form-default .header-filter:after {
+    content: " ";
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUJBNDk5MEVCQTg2MTFFOEEyQTg4QkY1QjQwQjAxODEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUJBNDk5MEZCQTg2MTFFOEEyQTg4QkY1QjQwQjAxODEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QkE0OTkwQ0JBODYxMUU4QTJBODhCRjVCNDBCMDE4MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QkE0OTkwREJBODYxMUU4QTJBODhCRjVCNDBCMDE4MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Psax6+oAAAVVSURBVHjaXFRpbFRlFD3zttnfLF2HTmmnpYMlSN0qlAYhSJQQxUTE8MMfSvSnJv5QCEE0QowmKglKSmJTUTEqUSMKaTAmUMF07LSlpe10pwPSdVra2efN8sb7PVokvpc7mfct5zv3nnM/Hf57dPfHhx9/WmuRHTvnQncaluKRR3JZ1eywOwIWi9yuJBOX3z3wxh+0Lv+/uAd0PyB3+MiRDaqOOzp/Z2FXTs1CR6NGoxE8xyGRSILjBUgGKyxWe79dth9/+/VXv14GVJex8vfAWDS3tLx2qe3SSUEvgKPRbFqBjsB09Obzd/fkcjn2BZO9GILBBqfVdvbY4bdeWgbVGHMrgN982/LmT7+cPWky6yHyHASeh95opimBgEVwAgUvwmCywmCWoaYTQHoRwVvjL35w/EQrLeRXMtYAz5//eeuZM6c/KnOXwWSxYrh/CJ0+PwQCMpmMxDKvcRBFQfsOXB9Ae9tV5LI5FDqM6Oxof/L0mW+PrwCzH0mW9X9RHU3OgiKMDAxhYnQMC3MhRCMxeNZUQaJy8MTcbDGjp7MbA719yCgZmo+guKRUO2gg0F9/7Oj7rd9/98M099XpU/snbgYL3asrcWN0FF2+DkrRiILiIgwFAvj9Qiti0RiyuSx8V3zwXfVp4LYCB8aGR9Hd0Qmz1Yx0Notrvdc+YZnzVZ6y5mRKKZH0JoiSngDimJmaBi9wGktFSaO3q0cDUBQFNbVepJIJhGZDKCouRl19nVZKSTJgZnq6/NDBgz/ynip3k9lqQ5ZOMppMqKzy0OQslpbCqN+8EeWVq5GIxcBxPOoefQiV1VUIjgfJBVk8/cxOWG0yYjQvUv2j8SisZvMoX7vO+x5TmYmRyeQgkBieag8WFxawOL8Am9OJ0rJVKCt3Q9RLGBscRvjOIrY9tR2y3YZIOEZe5jU/M2FDszMjnCgImg91ZFmOrJSIJ2Egs1d7azA6OII5Ys2T4VWSP5lMYYiEdBYWoLCkCJEIy4D26vIaKWbDtKLInJJKQaUB9qpqXqslc9vk5DTZywKrbAWjIUoiuUAi1i5MTU4R2yVYSDBVzWnrGbFMJsMyTXNJEkKl+rCHo+5h9uhs/xvjIyN4fMtGEqMI/0wEMXh9kHyZQX3DY9pBFy9cRJxqabFaqJdULcsIWcwoGac52WyZjkXDWscIvI5SHsbkrRDKK7x0vIhh+u7tZOqPY6BnAHMzc5rd9BId7utCmASVyDWsPyORMKrX1Pj5xsaG8ong+KYSlwupVJ78ZiFRVsNmlxHoC+D2zSAatmzCgw+vx0JoHn29AdgdxajwVFI/SkinM7AX2BEKzcGiN8x+duLkAS4aUz5n98pCaIYEyaOCvFnoqiCzU6HyWWzd8QS869bCQS7Ysn0r1tRUIRoOU61ElLpKsMpdSuVTMXX7NtbW1BxjFwrf19ef3//Ky4ttf7btcLmKkMtEoDc5MD87C3e5Q2PNUkxT7Zkc7ooyyihB2gkoKnWSUyQM9Pej0u3uaWr64gAtyrLe119uu3L9ud3Pen2+9gdcVIZcJg5ZNkImYycSKQK4e0NmSSh2XTgLndQoEvQGCcPDQ1AVJeyprNnl9/ujK6AC29Hd3du694U9pf6Ojg16vUjpOpDJ3r0iGSjDZZ5kggiCoI339nRB4sTR2tr1u5uaTk3SYIaBMgoGCnEl9u3bszccXjwUT8Rdempb2WYn1ja6+cnYmTSi0SjmSRTW/5vqN7c0N3/5TjKZTC8D3gMVl9kKK/+9Xq9x27bG5+PxaKOSTteFI2EXS18UpagkikMeT5X/xnjw13PnfhtjIPcB5lj8K8AAQ3NAOCwmjpUAAAAASUVORK5CYII=');
+}
+.traiv-filter-form-default:before {
+    bottom: 10px;
+    left: 10px;
+}
+.traiv-filter-form-default:after {
+    bottom: 10px;
+    right: 10px;
+}
+.traiv-filter-form-default .header-filter:before {
+    top: 10px;
+    left: 10px;
+}
+.traiv-filter-form-default .header-filter:after {
+    top: 10px;
+    right: 10px;
+}
+.traiv-filter-form-default .button-send {
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    width: 88px;
+    height: 88px;
+    background-image: url('images/button.png');
+    cursor: pointer;
+}
+.traiv-filter-form-default .label {
+    display: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 0 5px;
+}
+.traiv-filter-form-default .search-text {
+    display: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    margin-left: -50px;
+}
+@media (max-width:940px) {
+    .traiv-filter-form-default {
+        padding: 20px 20px 150px;
+    }
+    .traiv-filter-form-default table,
+    .traiv-filter-form-default tbody,
+        .traiv-filter-form-default tr,
+        .traiv-filter-form-default td {
+            display: block;
+            width: 100%;
+            
+        }
+    .traiv-filter-form-default tr {
+        border: 0;
+    }
+    .traiv-filter-form-default tr.labels {
+        display: none;
+    }
+    .traiv-filter-form-default .label {
+        padding: 15px 0 5px;
+        display: block;
+    }
+    .traiv-filter-form-default .button-send {
+        left: 50%;
+        margin-left: 44px;
+    }
+    .traiv-filter-form-default .search-text {
+        display: block;
+    }
+}

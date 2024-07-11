@@ -1,0 +1,72 @@
+.section_description{
+    margin-bottom: 25px;
+}
+
+.Order_one_click {
+
+    text-align: center;
+
+}
+
+.btn-mfp-dialog {
+    display: inline-block;
+    padding: 4px 25px;
+    border: 1px solid #f90;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #f90;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-mfp-dialog:hover {
+    border-color: #BF8630;
+    background-color: #BF8630;
+    color: #fff;
+}
+
+.counter_one {
+    text-align: right;
+    margin-top: 50px;
+}
+
+article{
+    width:100%;
+}
+
+.preview {
+    margin-bottom: 20px;
+}
+
+.Order_one_click{
+    margin-bottom: 20px;
+}
+
+blockquote:before{
+    color: black;
+}
+.article.advantages-prod{
+    margin-top: 3em;
+    border: #79a0c1 solid;
+    width: inherit;
+}
+.article.advantages-prod li{
+    list-style: none;
+}
+.article.advantages-prod li:before{
+    content: "\2022";
+    color: #79a0c1;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: large;
+}
+.uf_header_first{
+    font-size: 17pt;
+}
+.uf_header_second{
+    font-size: 14pt;
+}

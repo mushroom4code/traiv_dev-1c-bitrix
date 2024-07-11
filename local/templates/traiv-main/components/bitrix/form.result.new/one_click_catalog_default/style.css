@@ -1,0 +1,132 @@
+table.form-table
+{
+	width:100%;
+	background-color:white;
+	border-collapse:collapse;
+	font-size:100%;
+	font-weight:normal;
+	line-height:160%;
+}
+
+table.form-table th, table.form-table td
+{
+	border:1px solid #ADC3D5;
+	padding: 5px 5px;
+	vertical-align:top;
+}
+
+table.form-table th
+{
+	background-image:url(images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+
+table.form-table td
+{
+	padding: 15px 5px;
+}
+
+.form-required
+{
+	color: red;
+}
+
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url(images/icon_warn.gif);
+}
+
+.questions {
+	text-align: center;
+}
+
+.captcha {
+	margin-left: 10%;
+
+}
+
+
+span.error{
+	margin-left:15px;
+	font-size: 14px;
+	/*background: linear-gradient(to bottom, #F34747 0%, #F02E2B 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 1px solid #A83737;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.18); */
+	color: #A83737;
+/*	border-radius: 3px; */
+/*	text-shadow: 0 1px #8A2D14; */
+	padding:3px;
+	vertical-align: top;
+}
+
+#line_block_one{
+	display: inline-block;
+	float:left;
+	width: 37%;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	background: #E9EFF6;
+	line-height: 31px;
+	border-width: 0;
+	border-radius: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+#line_block_two{
+	display: inline-block;
+	width: 37%;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	background: #E9EFF6;
+	line-height: 30px;
+	border-width: 0;
+	border-radius: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+#full_string {
+	display: block;
+	width: 87%;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	background: #E9EFF6;
+	line-height: 30px;
+	border-width: 0;
+	border-radius: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+#comment {
+	display: block;
+	width: 87%;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	background: #E9EFF6;
+	line-height: 30px;
+	border-width: 0;
+	border-radius: 20px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.FormTitle {
+	margin-top: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #707981;
+}
+
+.form-required{
+	float:left;
+}

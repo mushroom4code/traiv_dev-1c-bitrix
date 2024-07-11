@@ -1,0 +1,44 @@
+.traiv-personal-menu-left a {
+    display: block;
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 16px;
+    color: #000;
+}
+.traiv-personal-menu-left a.exit {
+    color: #5a85a7;
+}
+.traiv-personal-menu-left a:hover,
+.traiv-personal-menu-left a.selected {
+    color: #fff;
+    background: #ffb017;
+}
+.traiv-personal-menu-left .back {
+    display: none;
+    color: #5a85a7;
+    background: transparent;
+    text-align: left;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.traiv-personal-menu-left .back:hover {
+    color: #5a85a7;
+    background: transparent;
+}
+
+.lk_left_menu_icon {
+	display: inline-block;
+    min-width: 25px;
+    text-align: center;
+    position: relative;
+}
+
+@media (max-width:768px) {
+    .traiv-personal-default:not(.template) .traiv-personal-menu-left .back  {
+        display: inline-block !important;
+    }
+}
