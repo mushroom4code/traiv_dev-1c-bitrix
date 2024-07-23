@@ -136,7 +136,10 @@ font-size: 60px;
 }
 
 .hr-image {
-	padding-right:0px !important;
+    object-fit: cover;
+    padding-right: 0px !important;
+    max-height: 331.33px;
+    overflow-clip-margin: unset;
 }
 
 @media only screen and (max-width : 576px) {

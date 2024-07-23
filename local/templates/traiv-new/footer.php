@@ -245,7 +245,7 @@ $APPLICATION->IncludeComponent(
         		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_spb.png" class="f_contact_icon"/></div>
             	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
             		<span class="footer-contacts-item-title">Санкт-Петербург:</span>
-            		<div class="footer-contacts-item-note"><a href="/contacts/sankt-peterburg/" class="footer-contacts-item-address">193168, Кудрово, Центральная 41</a></div>
+            		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/sankt-peterburg/" class="footer-contacts-item-address">193168, Кудрово, Центральная 41</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+78123132280" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">+7 (812) 313-22-80</a></div>
             		<!-- <div class="footer-contacts-item-note mb-3"><a href="tel:+79219317932" class="footer-contacts-item-phone">+7 (921) 931-79-32</a></div> -->
         		</div>
@@ -257,7 +257,7 @@ $APPLICATION->IncludeComponent(
         		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_msk.png" class="f_contact_icon"/></div>
             	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
             		<span class="footer-contacts-item-title">Москва:</span>
-            		<div class="footer-contacts-item-note"><a href="/contacts/moskva/" class="footer-contacts-item-address">Рязанский проспект, 2с49, БЦ "Карачарово", офис 203</a></div>
+            		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/moskva/" class="footer-contacts-item-address">Рязанский проспект, 2с49, БЦ "Карачарово", офис 203</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+74953748270" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">+7 (495) 374-82-70</a></div>
         		</div>
         		</div>
@@ -268,7 +268,7 @@ $APPLICATION->IncludeComponent(
         		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_ekt.png"/ class="f_contact_icon"></div>
             	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
             		<span class="footer-contacts-item-title">Екатеринбург:</span>
-            		<div class="footer-contacts-item-note"><a href="/contacts/ekaterinburg/" class="footer-contacts-item-address">620024, Екатеринбург, Елизаветинское шоссе, 39</a></div>
+            		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/ekaterinburg/" class="footer-contacts-item-address">620024, Екатеринбург, Елизаветинское шоссе, 39</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+73432887940" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">+7 (343) 288-79-40</a></div>
         		</div>
         		</div>
@@ -279,7 +279,7 @@ $APPLICATION->IncludeComponent(
         		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_perm.png"/ class="f_contact_icon"></div>
             	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
             		<span class="footer-contacts-item-title">Пермь:</span>
-            		<div class="footer-contacts-item-note"><a href="/contacts/perm/" class="footer-contacts-item-address">614066, Пермь, шоссе Космонавтов 111И, корпус 1, 2 этаж, офис 36</a></div>
+            		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/perm/" class="footer-contacts-item-address">614066, Пермь, шоссе Космонавтов 111И, корпус 1, 2 этаж, офис 36</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+79650605995" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">+7 (965) 060-59-95</a></div>
         		</div>
         		</div>
@@ -290,7 +290,7 @@ $APPLICATION->IncludeComponent(
         		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_krasnodar.png"/ class="f_contact_icon"></div>
             	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
             		<span class="footer-contacts-item-title">Краснодар:</span>
-            		<div class="footer-contacts-item-note"><a href="/contacts/krasnodar/" class="footer-contacts-item-address">350024, Краснодар, ул. Московская д.123, оф. 207</a></div>
+            		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/krasnodar/" class="footer-contacts-item-address">350024, Краснодар, ул. Московская д.123, оф. 207</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+78003339116" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">8 (800) 333-91-16 доб. 189</a></div>
         		</div>
         		</div>
@@ -301,7 +301,7 @@ $APPLICATION->IncludeComponent(
         		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_kazan.png"/ class="f_contact_icon"></div>
             	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
             		<span class="footer-contacts-item-title">Казань:</span>
-            		<div class="footer-contacts-item-note"><a href="/contacts/krasnodar/" class="footer-contacts-item-address">420021, Казань, ул. Габдуллы Тукая д. 115, к.3, оф. 502</a></div>
+            		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/krasnodar/" class="footer-contacts-item-address">420021, Казань, ул. Габдуллы Тукая д. 115, к.3, оф. 502</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+78003339116" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">8 (800) 333-91-16 доб. 183</a></div>
         		</div>
         		</div>

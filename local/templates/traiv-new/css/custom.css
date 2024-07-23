@@ -1788,6 +1788,51 @@ end AUTH
 ----------------------------------*/
 
 /*----------------------------------
+@ MainPageServices
+----------------------------------*/
+.np-services-item-icon {
+	background-image: url(/local/templates/traiv-main/img/spritesheet_hn_right_menu3.png);
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 37px;
+	left: 0;
+	top: 24px;
+	display: inline-block;
+	background-position-x: 0;
+	background-color: blue;
+}
+.np-services-header {
+	width: 20%;
+}
+.np-services-content {
+	padding-bottom: 10px;
+	width: 80%;
+	position: relative;
+}
+.np-services-service:not(:last-child) .np-services-content {
+	border-bottom: 1px solid gray;
+}
+.np-services-item-title-mobile {
+	font: 700 10px / 25px 'Gilroy', sans-serif;
+	text-align: left;
+	font-size: 16px;
+}
+.np-services-item-note-mobile {
+	font-size: 14px;
+	text-align: left;
+	color: gray;
+}
+.np-services-item-arrow {
+	position: absolute;
+	top: 40%;
+	right: 0;
+	color: gray;
+}
+/*----------------------------------
+end MainPageServices
+----------------------------------*/
+
+/*----------------------------------
 @ MainPageServiceSlider
 ----------------------------------*/
 
@@ -5775,6 +5820,28 @@ end MainPageCatalog
 	float:left;
 }
 
+.big-buttons-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+#main_page_category_photogallery_mobile {
+	padding-top: 35px;
+}
+
+.big-button {
+	font: 700 15px / 25px 'Gilroy', sans-serif;
+	min-height: 110px;
+	border: 1px #D2D2D2 solid;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+a.big-button:hover {
+	color: unset;
+}
+
 /*----------------------------------
 end MainPageCategory
 ----------------------------------*/
@@ -5904,7 +5971,14 @@ position: absolute;
 .direction-item.bordered:hover {
   box-shadow: 0 10px 20px rgba(3,27,78,20%);
 }
-
+a.np-direction-item-title:hover {
+	color: #fff;
+}
+@media (max-width: 991px) {
+	#np-main-page-directions .directions-container {
+		gap: 20px;
+	}
+}
 
 /*----------------------------------
 end MainPageDirections
@@ -6052,7 +6126,12 @@ end MainPageQuicklinks
 	background-color: #f6f7f9;
 }
 
-
+@media (max-width: 768px) {
+	#main_page_news_art {
+	padding: 0;
+	margin: 0;
+	}
+}
 /*----------------------------------
 end MainPageNewsArt
 ----------------------------------*/
@@ -8676,6 +8755,18 @@ font: 500 16px/28px 'Gilroy',sans-serif;
 	color: #373d54;
 }*/
 
+@media (max-width: 768px) {
+	.posts-list .posts2-i {
+		margin: 0;
+	}
+	.posts2-i .posts-i-img:hover:after {
+		background: unset;
+	}
+	.posts2-i .posts-i-img:hover span {
+		transform: unset;
+	}
+}
+
 /*----------------------------------
 end Articles
 ----------------------------------*/
@@ -10652,6 +10743,12 @@ end New Filter
 
 .__jivoMobileButton {display:none !important;}
 jdiv#jvlabelWrap {display: none !important;}
+
+@media (max-width: 768px) {
+	.address-hide-mobile {
+		display: none;
+	}
+}
 
 /*----------------------------------
 @ end Footer
