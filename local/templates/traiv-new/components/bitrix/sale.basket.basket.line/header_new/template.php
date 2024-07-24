@@ -18,7 +18,7 @@ if ($arParams['POSITION_FIXED'] == 'Y') {
     var <?=$cartId?> = new BitrixSmallCart;
 </script>
 
-<a href="/personal/order/make/" class="header-new-link-cart" rel="nofollow">
+<a href="/personal/cart/" class="header-new-link-cart" rel="nofollow">
 	<div class="header-new-cart-area">
 		<div class="header-new-cart-img text-center"><img src="<?=SITE_TEMPLATE_PATH?>/images/cart_icon_new.png"></div>
 		

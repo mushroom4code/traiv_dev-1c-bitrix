@@ -1269,6 +1269,16 @@ background: linear-gradient(180deg, rgba(1,151,210,1) 0%, rgba(0,73,149,1) 100%)
 	background: rgb(255,255,255);
 }
 
+.btn-red.btn-small{
+	font-size: 11px;
+	padding: 0.375rem 0.75rem;
+	min-height:15px;
+}
+
+.btn-red.btn-small i {
+	padding-right:0px;
+}
+
 .btn-red:hover {
 	color:#fc3232;
   box-shadow: 0 10px 20px rgba(3,27,78,10%);
@@ -3018,7 +3028,7 @@ button::-moz-focus-inner {
     right: 0;
     top: 0;
     visibility: hidden;
-    z-index: 100;
+    z-index: 5000;
     -webkit-transition: opacity .5s;
     -moz-transition: opacity .5s;
     -ms-transition: opacity .5s;
@@ -3042,7 +3052,7 @@ button::-moz-focus-inner {
     font: 14px Helvetica, Arial, Sans-Serif;
     top: 40%;
     visibility: hidden;
-    z-index: 1000;
+    z-index: 5100;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -5840,6 +5850,10 @@ end MainPageCatalog
 
 a.big-button:hover {
 	color: unset;
+}
+
+.link-hover:hover {
+	color: #024dbc;
 }
 
 /*----------------------------------
