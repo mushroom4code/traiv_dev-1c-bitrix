@@ -8080,9 +8080,6 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				discText, valFormatted, i,
 				curDelivery, deliveryError, deliveryValue,
 				showOrderButton = this.params.SHOW_TOTAL_ORDER_BUTTON === 'Y';
-			
-			
-			//console.log(total);
 
 			BX.cleanNode(this.totalInfoBlockNode);
 
@@ -8107,7 +8104,8 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			{
 				this.totalInfoBlockNode.appendChild(this.createTotalUnit(BX.message('SOA_SUM_WEIGHT_SUM'), total.ORDER_WEIGHT_FORMATED));
 			}
-
+			this.totalInfoBlockNode.appendChild(this.createTotalUnit('Доставка:', total.DELIVERY_PRICE_FORMATED));
+			this.totalInfoBlockNode.appendChild(this.createTotalUnit('Корзина:', total.ORDER_PRICE_FORMATED));
 			if (this.options.showTaxList)
 			{
 				for (i = 0; i < total.TAX_LIST.length; i++)
@@ -8183,7 +8181,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				/*dkv*/
 				//this.totalInfoBlockNode.appendChild(this.createTotalUnit(BX.message('SOA_SUM_IT'), total.ORDER_TOTAL_PRICE_FORMATED, {total: true}));
 				/*dkv*/
-				this.totalInfoBlockNode.appendChild(this.createTotalUnit(BX.message('SOA_SUM_IT'), total.ORDER_PRICE_FORMATED, {total: true}));
+				this.totalInfoBlockNode.appendChild(this.createTotalUnit(BX.message('SOA_SUM_IT'), total.ORDER_TOTAL_PRICE_FORMATED, {total: true}));
 				
 			}
 
@@ -8212,8 +8210,10 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						]
 					})
 				);
-				
-				this.totalInfoBlockNode.appendChild(
+
+				console.log(this);
+				if (this.result.TOTAL.ORDER_PRICE < 5000) {
+					this.totalInfoBlockNode.appendChild(
 						BX.create('DIV', {
 							props: {className: 'check_type_pack_basket'},
 							text: 'Минимальная сумма заказа 5 000 рублей',
@@ -8231,7 +8231,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 							]
 						})
 					);
-				
+				}
 				//this.totalInfoBlockNode.appendChild('<div class="check_type_pack"><i class="icofont icofont-warning-alt"></i>Внимание: продажа осуществляется кратно упаковкам.</div>');
 				
 			}

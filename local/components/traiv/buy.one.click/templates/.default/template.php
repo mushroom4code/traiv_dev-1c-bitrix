@@ -55,5 +55,7 @@
         <button class="btn btn--submit btn-blue submit-button submit-big-text w100">Отправить</button>
     </div>
 
+    <button class="w-form__close mfp-close" title="Закрыть"><i class="fa fa-close" tabindex="0"></i></button>
+
 </div>
 </div>

@@ -107,6 +107,7 @@ if ($arResult["TEMPLATE"] == "cart") {
         );
         $total += $arItems["PRICE"] * $arItems["QUANTITY"];
     }
+    $total_unformated = $total;
     $total = number_format($total, 2, '.', ' ');
     $total = str_replace(".00", "", $total). " р.";
 
@@ -143,6 +144,7 @@ if ($arResult["TEMPLATE"] == "cart") {
     $arResult["COUNT"] = count($arResult["ITEMS"]);
     $arResult["MESSAGE"] = $arResult["COUNT"] . " " . pluralForm($arResult["COUNT"], "товар", "товара", "товаров");
     $arResult["TOTAL"] = $total;
+    $arResult["TOTAL_UNFORMATED"] = $total_unformated;
     $arResult["WEIGHT"] = $totalWeight / 1000;
     $arResult["WEIGHT"] = round($arResult["WEIGHT"], 3);
 }

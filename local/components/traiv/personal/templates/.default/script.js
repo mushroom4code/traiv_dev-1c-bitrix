@@ -116,11 +116,17 @@ function updatePersonalBasket(sender) {
         	$("#lk-cart-list .lk-cart-list-total span").text(data.TOTAL);
             $("#lk-cart-list .lk-cart-list-weight span").text(data.WEIGHT);
             $(data.ITEMS).each(function() {
-                console.log(this.TOTAL);
             	if (this.ID == id) {
                     $(".total_line_item", sender).text(this.TOTAL);
                 }
             });
+            if (data.TOTAL_UNFORMATED < 5000) {
+                $('#lk-cart-list .btn-group-blue').addClass('d-none');
+                $('.cart_condition_block').removeClass('d-none');
+            } else {
+                $('#lk-cart-list .btn-group-blue').removeClass('d-none');
+                $('.cart_condition_block').addClass('d-none');
+            }
             
             //$(".total", sender).text(data["TOTAL_PRICE"]);
             //$(".albatros-right-button-default .button-basket > span").html(data.MESSAGE);

@@ -4433,6 +4433,45 @@ border-top-right-radius: 5px;
 position:relative;	
 }
 
+.btn-blue-contour {
+	color: rgba(0, 73, 149, 1);
+	border: 1px solid rgba(0, 73, 149, 1);
+	background: unset;
+}
+
+.btn-blue-contour:hover {
+	color: rgba(0, 73, 149, 1);
+	background: unset;
+}
+
+.btn-typographic {
+	background: linear-gradient(180deg, rgba(1, 151, 210, 1) 0%, rgba(0, 73, 149, 1) 100%);
+	font-weight: 700;
+	color: rgba(0, 73, 149, 1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.btn-typographic:hover {
+	box-shadow: unset;
+}
+
+.mfp-close {
+	color: inherit !important;
+}
+
+.mfp-close i {
+	pointer-events: none;
+}
+
+#buy-one-click .form-control {
+	text-align: left;
+}
+
+.check_type_pack_basket.cart_condition {
+	font: 700 16px / 28px 'Gilroy', sans-serif;
+	margin: 0;
+}
 /*end LK cart*/
 
 /*----------------------------------
@@ -10389,6 +10428,27 @@ margin: -15px -1px 0 0;
 /*----------------------------------
 end New Filter
 ----------------------------------*/
+
+/* order make */
+
+.order-basket-count {
+	margin-left: 6px;
+	line-height: 20px;
+	color: #7c7c7c;
+	font-size: 12px;
+}
+
+#bx-soa-order .form-control {
+	text-align: left;
+}
+
+.bx-soa-cart-total-line.bx-soa-cart-total-line-total {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* end order make */
 
 /*----------------------------------
 @ Footer
