@@ -78,8 +78,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 		 */
 		init: function(parameters)
 		{
-			
-			//console.log(parameters.ajaxUrl);
+
 			this.initializePrimaryFields();
 
 			this.result = parameters.result || {};
@@ -8194,7 +8193,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			{
 				this.totalInfoBlockNode.appendChild(
 					BX.create('DIV', {
-						props: {className: 'btn-group-blue-w' + (!showOrderButton ? ' visible-xs' : '')},
+						props: {className: 'btn-group-blue-w' + (!showOrderButton ? ' visible-xs' : '') + (this.result.TOTAL.ORDER_PRICE < 5000) ? ' d-none' : ''},
 						children: [
 							BX.create('A', {
 								props: {
@@ -8211,8 +8210,13 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					})
 				);
 
-				console.log(this);
+				
 				if (this.result.TOTAL.ORDER_PRICE < 5000) {
+					
+					
+					this.buttonOrder = this.totalBlockNode.querySelector('.btn-order-save');
+					this.buttonOrder.style.display = "none";
+					
 					this.totalInfoBlockNode.appendChild(
 						BX.create('DIV', {
 							props: {className: 'check_type_pack_basket'},

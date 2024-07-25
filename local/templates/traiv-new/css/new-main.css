@@ -509,7 +509,7 @@ position: absolute;
 }
 
 .np-services-item-note p {
-	text-align: justify;
+	/*text-align: justify;*/
 	color: #FFFFFF;
 	font: 400 18px / 24px 'Gilroy', sans-serif;
 }

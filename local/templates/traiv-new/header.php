@@ -72,9 +72,9 @@ if ($USER->GetID() == '3092' || $USER->GetID() == '2743' || $USER->GetID() == '4
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/magnific-popup.css");
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/newstyle.css");
     
-    if ($USER->GetID() == '3092' || $USER->GetID() == '7174') {
+    /*if ($USER->GetID() == '3092' || $USER->GetID() == '7174') {*/
         $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH."/css/apicalc.css");
-    }
+    //}
     
     ?>
 
@@ -567,17 +567,17 @@ if ( $USER->IsAuthorized() )
                         		<!-- <a href="/services/proizvodstvo-metizov/" class="btn-group-new-nav btn-group-new-nav-trans"><span>Производство</span></a> -->
                         		<a href="#" class="btn-group-new-nav btn-group-new-nav-dark header-new-servlink w-auto"><i class="fa fa-bars"></i><span>Производство</span></a>
                     		</div>
-                    		
+                             <?php $cur_page = $APPLICATION->GetCurPage(false); ?>
                     		<div class="header-new-servarea">                    		
                     			<ul class="hn-serv-menu">
-                    				<li><a href="/services/proizvodstvo-metizov/" class="item">Производство крепежа</a></li>
-                    				<li><a href="/oborudovanie-na-nashem-proizvodstve/" class="item">Наше оборудование</a></li>
-                    				<li><a href="/services/proizvodstvo-metizov/works/" class="item">Наши работы</a></li>
-                    				<li><a href="/services/coatings/" class="item">Нанесение покрытий</a></li>
-                    				<li><a href="/services/nakatka-rezby/" class="item">Накатка резьбы</a></li>
-                    				<li><a href="/services/kalibrovka-rezby/" class="item">Калибровка резьбы</a></li>
-                    				<li><a href="/services/paketnoe-pilenie-shpilek/" class="item">Пакетное пиление шпилек</a></li>
-                    				<li><a href="/services/termicheskaya-obrabotka-obyemnaya-krepezha-i-metalla/" class="item">Термическая обработка</a></li>
+                    				<li><a href="/services/proizvodstvo-metizov/" class="item <?= ('/services/proizvodstvo-metizov/' == $cur_page || strpos($cur_page,'/services/proizvodstvo-metizov/')!==false) ? 'vertical-multilevel-selected' : ''?>">Производство крепежа</a></li>
+                    				<li><a href="/oborudovanie-na-nashem-proizvodstve/" class="item <?= ('/oborudovanie-na-nashem-proizvodstve/' == $cur_page || strpos($cur_page,'/oborudovanie-na-nashem-proizvodstve/')!==false) ? 'vertical-multilevel-selected' : ''?>">Наше оборудование</a></li>
+                    				<li><a href="/services/proizvodstvo-metizov/works/" class="item <?= ('/services/proizvodstvo-metizov/works/' == $cur_page || strpos($cur_page,'/services/proizvodstvo-metizov/works/')!==false) ? 'vertical-multilevel-selected' : ''?>">Наши работы</a></li>
+                    				<li><a href="/services/coatings/" class="item <?= ('/services/coatings/' == $cur_page || strpos($cur_page,'/services/coatings/')!==false) ? 'vertical-multilevel-selected' : ''?>">Нанесение покрытий</a></li>
+                    				<li><a href="/services/nakatka-rezby/" class="item <?= ('/services/nakatka-rezby/' == $cur_page || strpos($cur_page,'/services/nakatka-rezby/')!==false) ? 'vertical-multilevel-selected' : ''?>">Накатка резьбы</a></li>
+                    				<li><a href="/services/kalibrovka-rezby/" class="item <?= ('/services/kalibrovka-rezby/' == $cur_page || strpos($cur_page,'/services/kalibrovka-rezby/')!==false) ? 'vertical-multilevel-selected' : ''?>">Калибровка резьбы</a></li>
+                    				<li><a href="/services/paketnoe-pilenie-shpilek/" class="item <?= ('/services/paketnoe-pilenie-shpilek/' == $cur_page || strpos($cur_page,'/services/paketnoe-pilenie-shpilek/')!==false) ? 'vertical-multilevel-selected' : ''?>">Пакетное пиление шпилек</a></li>
+                    				<li><a href="/services/termicheskaya-obrabotka-obyemnaya-krepezha-i-metalla/" class="item <?= ('/services/termicheskaya-obrabotka-obyemnaya-krepezha-i-metalla/' == $cur_page || strpos($cur_page,'/services/termicheskaya-obrabotka-obyemnaya-krepezha-i-metalla/')!==false) ? 'vertical-multilevel-selected' : ''?>">Термическая обработка</a></li>
                     			</ul>
                     		</div>
                     		

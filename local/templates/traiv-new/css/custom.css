@@ -4676,6 +4676,18 @@ padding: 24px 0;
 	    background: #e5181d;
 }
 
+.vertical-multilevel-selected {
+	color: var(--bBlueLight) !important;
+}
+
+.vertical-multilevel-selected i.spriten {
+	/*background-position: top 0px;*/
+	background-position-x: -40px !important;
+}
+
+.vertical-multilevel-selected i.spriten-hn-right-menu {
+	background-position-x: -30px !important;
+}
 /*Меню производства*/
 
 .left_prod_area {
@@ -5782,6 +5794,11 @@ end InfoItem
 }
 .ca-item.bordered:hover {
   box-shadow: 0 10px 20px rgba(3,27,78,20%);
+}
+
+.active-catalog-category {
+	font: 700 14px / 28px 'Gilroy', sans-serif !important;
+	color: var(--thBlack) !important;
 }
 /* --------------------------------- */
 
@@ -10449,6 +10466,17 @@ end New Filter
 }
 
 /* end order make */
+
+/* catalog.element */
+
+@media (max-width: 768px) {
+	.prod-tabs-wrap-new p {
+		text-align: unset !important;
+	}
+}
+
+/* end catalog.element */
+
 
 /*----------------------------------
 @ Footer

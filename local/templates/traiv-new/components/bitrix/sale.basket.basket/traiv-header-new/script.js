@@ -6,20 +6,20 @@ function declOfNum(number, titles) {
 
 //Замена суммы с нулем
 window.onload = function(){
-	if (
-		(
-			document.documentElement.textContent || document.documentElement.innerText
-		).indexOf('Запросить цену') > -1
-	) {
+	if (!$('#bx-soa-order').length) {
+		if (
+			(
+				document.documentElement.textContent || document.documentElement.innerText
+			).indexOf('Запросить цену') > -1
+		) {
 
-		$("#allSum_FORMATED").text("будет сформирована для вас менеджером");
+			$("#allSum_FORMATED").text("будет сформирована для вас менеджером");
 
-		$('.rubls').hide();
-	};
+			$('.rubls').hide();
+		};
 
-
-	recalcBasketAjax({});
-
+		recalcBasketAjax({});
+	}
 };
 
 
@@ -929,15 +929,15 @@ function recalcBasketAjax(params)
 			{
 				basketPoolQuantity.enableTimer(true);
 			}
-			
-			
+
+
 			if(result.BASKET_DATA.BASKET_ITEMS_COUNT == 0) {
 				items.style.display = 'none';
 				BX('basket_items_button_list').style.display = 'none';
 				BX('errortext_area').style.display = 'none';
 				BX('cart-inner-area').style.display = 'none';
-				
-				
+
+
 			}
 			else {
 				items.style.display = 'table';
@@ -945,7 +945,7 @@ function recalcBasketAjax(params)
 				BX('errortext_area').style.display = 'block';
 				BX('cart-inner-area').style.display = 'block';
 			}
-			
+
 		}
 	});
 }
