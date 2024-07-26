@@ -98,14 +98,26 @@ if(!function_exists('komboxShowField'))
 			break;
 			case 'CHECKBOX':
 			?>
-			
+                <?foreach($arItem["VALUES"] as $val => $ar):?>
+                <?php if ($ar['CHECKED']):?>
+                <?komboxOtherValues($arItem, 'start');?>
+
+                <p class="section-filter-field kombox-filter-property-body ys-opt-labels kombox-combo" data-filter-val = "<?php echo $ar["VALUE"];?>">
+                    <input value="<?echo $ar["HTML_VALUE_ALT"]?>" name="<?echo $arItem["CODE_ALT"]?>" id="<?echo $ar["CONTROL_ID"]?>" <?echo $ar["CHECKED"] ? 'checked="checked"' : ''?> <?echo !$ar["CHECKED"] & $ar["DISABLED"] ? 'disabled="disabled"' : ''?>  type="checkbox" class="checkbox" />
+                    <label class="section-filter-checkbox checkbox lvl2<?echo $ar["DISABLED"]? ' kombox-disabled ': ''?><?echo $ar["CHECKED"]? ' kombox-checked': ''?>" for="<?echo $ar["CONTROL_ID"]?>" onclick="ym(18248638,'reachGoal','run_filter'); return true;"><?echo $ar["VALUE"];?> <span class="kombox-cnt">(<?echo $ar["CNT"];?>)</span></label>
+                </p>
+                <?php endif; ?>
+                <?endforeach;?>
+
 				<?foreach($arItem["VALUES"] as $val => $ar):?>
+                <?php if (!$ar['CHECKED']): ?>
 					<?komboxOtherValues($arItem, 'start');?>
 					
 					<p class="section-filter-field kombox-filter-property-body ys-opt-labels kombox-combo" data-filter-val = "<?php echo $ar["VALUE"];?>">
                 <input value="<?echo $ar["HTML_VALUE_ALT"]?>" name="<?echo $arItem["CODE_ALT"]?>" id="<?echo $ar["CONTROL_ID"]?>" <?echo $ar["CHECKED"] ? 'checked="checked"' : ''?> <?echo !$ar["CHECKED"] & $ar["DISABLED"] ? 'disabled="disabled"' : ''?>  type="checkbox" class="checkbox" />
                 <label class="section-filter-checkbox checkbox lvl2<?echo $ar["DISABLED"]? ' kombox-disabled ': ''?><?echo $ar["CHECKED"]? ' kombox-checked': ''?>" for="<?echo $ar["CONTROL_ID"]?>" onclick="ym(18248638,'reachGoal','run_filter'); return true;"><?echo $ar["VALUE"];?> <span class="kombox-cnt">(<?echo $ar["CNT"];?>)</span></label>
             </p>
+                <?php endif; ?>
 				<?endforeach;?>
 				<?komboxOtherValues($arItem);?>
 				<!-- </div>-->
