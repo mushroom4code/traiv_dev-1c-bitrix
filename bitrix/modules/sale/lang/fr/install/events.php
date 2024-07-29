@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_CHECK_PRINT_HTML_SUB_TITLE"] = "Cher/chère #ORDER_USER#,";
 $MESS["SALE_CHECK_PRINT_HTML_TEXT"] = "
 votre paiement a été traité et le reçu correspondant a été créé. Pour voir le reçu, utilisez ce lien :
@@ -54,21 +54,20 @@ Valeur de la commande: #PRICE#.
 Les articles commandés:
 #ORDER_LIST#
 
-Vous pouvez surveiller le traitement de votre commande (voir état actuel
-de l'ordre) en entrant votre section de site personnel à #SITE_NAME#.
-Notez que vous aurez besoin de login et mot de passe pour entrer dans ce
+Vous pouvez suivre votre commande (voir le statut actuel) depuis la section de site personnel à #SITE_NAME#.
+Notez que vous aurez besoin de login et mot de passe pour entrer sur cette
 section du site au #SITE_NAME#.
 
-Pour annuler votre commande s'il vous plaît utiliser l'option spéciale disponible dans votre
+Pour annuler votre commande vous pouvez utiliser l'option spéciale disponible dans votre
 section personnelle au #SITE_NAME#.
 
 S'il vous plaît noter que vous devez indiquer votre numéro de commande: #ORDER_ID#
 lorsque vous demandez des renseignements de l'administration du site à #SITE_NAME#.
 
-Merci pour la commande !
+Merci pour votre commande !
 ";
 $MESS["SALE_NEW_ORDER_NAME"] = "Nouvelle commande";
-$MESS["SALE_NEW_ORDER_RECURRING_DESC"] = "#ORDER_ID# -  ID d'ordre \\r\\n#ORDER_DATE# - pour la date \\r\\n#ORDER_USER# - client \\r\\n#PRICE# -  montant de l'ordre\\r\\n#EMAIL# - adresse e-mail du client\\r\\n#BCC# - copie cachée adresse e-mail \\r\\n#ORDER_LIST# - ordre articles\\r\\n#SALE_EMAIL# - ventes dept. adresse e-mail";
+$MESS["SALE_NEW_ORDER_RECURRING_DESC"] = "#ORDER_ID# -  ID d'ordre \r\n#ORDER_DATE# - pour la date \r\n#ORDER_USER# - client \r\n#PRICE# -  montant de la commande\r\n#EMAIL# - adresse e-mail du client\r\n#BCC# - copie cachée adresse e-mail \r\n#ORDER_LIST# - articles de la commande\r\n#SALE_EMAIL# - ventes dept. adresse e-mail";
 $MESS["SALE_NEW_ORDER_RECURRING_MESSAGE"] = "Message d'information du site #SITE_NAME#
 ------------------------------------------
 
@@ -105,7 +104,7 @@ $MESS["SALE_ORDER_CANCEL_HTML_TITLE"] = "#SITE_NAME# : Annulation de la commande
 $MESS["SALE_ORDER_CANCEL_MESSAGE"] = "Message d'information à partir de #SITE_NAME#
 ------------------------------------------
 
-Livraison de l'ordre  ##ORDER_ID# de #ORDER_DATE# est annulée.
+La commande  ##ORDER_ID# du #ORDER_DATE# a été annulée.
 
 #ORDER_CANCEL_DESCRIPTION#
 
@@ -124,7 +123,7 @@ $MESS["SALE_ORDER_DELIVERY_HTML_TITLE"] = "La livraison de votre commande à par
 $MESS["SALE_ORDER_DELIVERY_MESSAGE"] = "Message d'information à partir de #SITE_NAME#
 ------------------------------------------
 
-Livraison de l'ordre  ##ORDER_ID# de #ORDER_DATE# est autorisé.
+La livraison de la commande  ##ORDER_ID# du #ORDER_DATE# a été autorisée.
 #SITE_NAME#
 
 ";
@@ -140,7 +139,7 @@ $MESS["SALE_ORDER_PAID_HTML_TITLE"] = "Vous avez payé la commande sur le site #
 $MESS["SALE_ORDER_PAID_MESSAGE"] = "Message d'information à partir de #SITE_NAME#
 ------------------------------------------
 
-Livraison de l'ordre  ##ORDER_ID# de #ORDER_DATE# a été payée.
+La commande ##ORDER_ID# du #ORDER_DATE# a été payée.
 
 #SITE_NAME#
 ";
@@ -222,7 +221,7 @@ $MESS["SALE_ORDER_SHIPMENT_STATUS_CHANGED_TYPE_DESC"] = "#SHIPMENT_NO# - ID de l
 #ORDER_DETAIL_URL# - URL des détails de la commande";
 $MESS["SALE_ORDER_SHIPMENT_STATUS_CHANGED_TYPE_NAME"] = "Mise à jour du statut du colis";
 $MESS["SALE_ORDER_TRACKING_NUMBER_HTML_SUB_TITLE"] = "Cher #ORDER_USER#,";
-$MESS["SALE_ORDER_TRACKING_NUMBER_HTML_TEXT"] = "Votre commande # ORDER_ID # de #ORDER_DATE# a été expédiée.
+$MESS["SALE_ORDER_TRACKING_NUMBER_HTML_TEXT"] = "Votre commande #ORDER_ID# de #ORDER_DATE# a été expédiée.
 
 Numéro de suivi est : #ORDER_TRACKING_NUMBER#.
 
@@ -230,7 +229,7 @@ Pour plus d'informations sur la commande accédez au site web http://#SERVER_NAM
 
 E-mail : #SALE_EMAIL#";
 $MESS["SALE_ORDER_TRACKING_NUMBER_HTML_TITLE"] = "Numéro d'identificateur d'envoi de votre commande sur le site #SITE_NAME#";
-$MESS["SALE_ORDER_TRACKING_NUMBER_MESSAGE"] = "La commande N # ORDER_ID # de #ORDER_DATE# a été expédiée par courrier.
+$MESS["SALE_ORDER_TRACKING_NUMBER_MESSAGE"] = "La commande N #ORDER_ID# de #ORDER_DATE# a été expédiée par courrier.
 
 Numéro de suivi est : #ORDER_TRACKING_NUMBER#.
 
@@ -298,4 +297,3 @@ $MESS["UP_TYPE_SUBJECT_DESC"] = "#USER_NAME# - nom de l'utilisateur
 #EMAIL# - adresse email de l'utilisateur
 #NAME# - nom de l'article
 #PAGE_URL# - page de la description détaillée de l'article";
-?>

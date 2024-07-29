@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CAM_EXPORT_DESCR"] = "Dane eksportowane przez";
 $MESS["CAM_EXPORT_DESCR_EDIT"] = "Edytuje profil eksportu";
 $MESS["CAM_EXPORT_DESCR_EXPORT"] = "Konfiguruje i eksportuje dane";
@@ -25,8 +25,8 @@ $MESS["CURRENCY"] = "Waluty";
 $MESS["CURRENCY_ALT"] = "Waluty";
 $MESS["CURRENCY_RATES"] = "Stawki waluty";
 $MESS["CURRENCY_RATES_ALT"] = "Stawki waluty";
-$MESS["EXTRA"] = "Dostosowanie cen";
-$MESS["EXTRA_ALT"] = "Dostosowanie ceny podstawowej";
+$MESS["EXTRA"] = "Narzuty";
+$MESS["EXTRA_ALT"] = "Narzuty";
 $MESS["GROUP"] = "Rodzaje cen";
 $MESS["GROUP_ALT"] = "Rodzaje cen";
 $MESS["LOAD_1C"] = "Impotuj dane XML (CommerceML)";
@@ -43,4 +43,3 @@ $MESS["UNLOAD_DATA"] = "Eksportuj do pliku";
 $MESS["UNLOAD_DATA_ALT"] = "Eksportuj do pliku CSV";
 $MESS["VAT"] = "Stawka podatku";
 $MESS["VAT_ALT"] = "Edytuj stawkę podatku";
-?>

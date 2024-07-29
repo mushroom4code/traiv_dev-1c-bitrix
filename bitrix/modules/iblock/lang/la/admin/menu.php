@@ -1,7 +1,5 @@
-<?
+<?php
 $MESS["IBLOCK_MENU_ADMIN_TOOLS"] = "Herramientas";
-$MESS["IBLOCK_MENU_ADMIN_TOOLS_REDIRECT_IBLOCK"] = "Ver block de información o elementos";
-$MESS["IBLOCK_MENU_ADMIN_TOOLS_REDIRECT_IBLOCK_TITLE"] = "Abrir página de elementos del block de información o Edición de formulario de elementos";
 $MESS["IBLOCK_MENU_ADMIN_TOOLS_TITLE"] = "Herramientas";
 $MESS["IBLOCK_MENU_ALL_EL"] = "Todos los elementos";
 $MESS["IBLOCK_MENU_ALL_OTH"] = "Otro...";
@@ -18,4 +16,3 @@ $MESS["IBLOCK_MENU_REINDEX_TITLE"] = "Crear índices polifacético para valores 
 $MESS["IBLOCK_MENU_SEC_EL"] = "Elementos de esta sección";
 $MESS["IBLOCK_MENU_SEPARATOR"] = "i-block";
 $MESS["IBLOCK_MENU_SETTINGS_TITLE"] = "Ajustes del i-block";
-?>

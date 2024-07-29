@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Właściwość dodatkowych obrazów dla produktu";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Dodaj do koszyka";
 $MESS["ADD_TO_BASKET_ACTION_BUY"] = "Kup teraz";
@@ -11,6 +11,8 @@ $MESS["CP_BCS_TPL_MESS_BTN_COMPARE_DEFAULT"] = "Porównaj";
 $MESS["CP_BCS_TPL_MESS_BTN_DETAIL_DEFAULT"] = "Szczegóły";
 $MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE"] = "Wiadomość o niedostępności przedmiotu";
 $MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Przedmiot niedostępny";
+$MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Komunikat o niedostępności usługi";
+$MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "Niedostępny";
 $MESS["CP_BCS_TPL_OFFER_ADD_PICT_PROP"] = "Dodatkowy obraz właściwości SKU";
 $MESS["CP_BCS_TPL_OFFER_TREE_PROPS"] = "Właściwości dla grupowania SKU";
 $MESS["CP_BCS_TPL_PRODUCT_BLOCK_BUTTONS"] = "Działania";
@@ -40,4 +42,3 @@ $MESS["PRODUCT_SUBSCRIPTION_TIP"] = "Włącza sysytem powiadamiania klienta o po
 $MESS["SHOW_DISCOUNT_PERCENT_TIP"] = "Jeżeli upst jest aktywny, pokazuje procentową wartość upstu";
 $MESS["SHOW_OLD_PRICE_TIP"] = "Jeżeli upst jest aktywny, pokazuje poprzednią cenę";
 $MESS["TEMPLATE_THEME_TIP"] = "Definiuje kolory dla renderowania tekstu i grafiki strony internetowej. Niebieski motyw jest opcją domyślną.";
-?>

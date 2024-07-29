@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ATTACH_MODE_TIP"] = "Comment afficher des dessins attachés (au-dessous du message)";
 $MESS["ATTACH_SIZE_TIP"] = "Taille de la miniature du dessin (au-dessous de message, px)";
 $MESS["CACHE_TIME_FOR_FORUM_STAT_TIP"] = "Durée du cashing des statistiques (secondes)";
@@ -21,7 +21,7 @@ $MESS["PATH_TO_AUTH_FORM_TIP"] = "Chemin d'accès au formulaire d'autorisation";
 $MESS["RATING_ID_TIP"] = "Notations disponibles; chaque note a des règles de calcul individuelles";
 $MESS["RATING_ROLES_TIP"] = "Groupes d'utilisateurs autorisés à voter pour les sujets et les messages.";
 $MESS["RATING_SHOW_TIP"] = "Le classement de chaque utilisateur sera affiché. Dans les thèmes et messages il y aura les éléments de gestion pour le vote";
-$MESS["RATING_TYPE_TIP"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE_TIP"] = "Vue des boutons d'évaluation";
 $MESS["RSS_CACHE_TIP"] = "Lifetime RSS Cache d'alimentation (s)";
 $MESS["RSS_COUNT_TIP"] = "Nombre d'Éléments à l'Exportation";
 $MESS["RSS_TN_DESCRIPTION_TIP"] = "RSS description (laisser vide pour utiliser la description par défaut)";
@@ -78,4 +78,3 @@ $MESS["VOTE_GROUP_ID_TIP"] = "Groupe d'utilisateurs autorisés pour poser les qu
 $MESS["VOTE_TEMPLATE_TIP"] = "Modèle de vote";
 $MESS["VOTE_UNIQUE_IP_DELAY_TIP"] = "Ne pas voter deux fois depuis la même adresse IP pendant";
 $MESS["VOTE_UNIQUE_TIP"] = "Ne pas voter deux fois";
-?>

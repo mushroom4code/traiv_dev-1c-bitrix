@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["HINT_WIND_EXEC"] = "Updates description";
 $MESS["HINT_WIND_EXEC_ALT"] = "Updates description";
 $MESS["HINT_WIND_TITLE"] = "Updates description";
@@ -98,7 +98,7 @@ $MESS["SUP_ENTER_CORRECT_KEY"] = "Proszę wprowadzić poprawny klucz licencji";
 $MESS["SUP_ENTER_KEY"] = "Proszę wprowadzić swój kod licencji";
 $MESS["SUP_ERRORS"] = "Errors found:";
 $MESS["SUP_ERROR_NO_MAIL_U"] = "Please enter e-mail address for subscription";
-$MESS["SUP_EXPAND"] = "Rozwinięcie";
+$MESS["SUP_EXPAND"] = "Rozwiń";
 $MESS["SUP_HELP_LOAD_BREAK"] = "Pobieranie sekcji pomocy przerwane";
 $MESS["SUP_HISTORY_LINK"] = "Zobacz historię aktualizacji";
 $MESS["SUP_HIST_DATE"] = "Data";
@@ -206,6 +206,9 @@ $MESS["SUP_SUBA_RI_CONTACT_PHONE"] = "Telefon osoby kontaktowej";
 $MESS["SUP_SUBA_RI_EMAIL"] = "Adres E-mail do licencji i celów kontaktowych";
 $MESS["SUP_SUBA_RI_PHONE"] = "Numer telefonu właściciela kopii produktu";
 $MESS["SUP_SUBA_RI_URI"] = "Adres strony";
+$MESS["SUP_SUBA_UI_CREATE"] = "Nie posiadam konta użytkownika na stronie <a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a>, ale chcę utworzyć nowe konto: ";
+$MESS["SUP_SUBA_UI_EXIST"] = "Mam już konto użytkownika i chcę za jego pośrednictwem uzyskać dostęp do działu pomocy i strony pobierania.";
+$MESS["SUP_SUBA_UI_HINT"] = "Jeśli nie masz konta na <a href=\"http://www.bitrixsoft.com\" target=\"_blank\">www.bitrixsoft.com</a>, zaznacz opcję „Utwórz użytkownika” i wprowadź swoje dane (imię i nazwisko, login i hasło) w polach formularza. Rejestracja na www.bitrixsoft.com umożliwia korzystanie z <a href=\"http://www.bitrixsoft.com/support/\" target=\"_blank\">usługi pomocy technicznej</a> i <a href=\"http://www.bitrixsoft.com/support/forum/\" target=\"_blank\">prywatnego forum</a> w celu rozwiązania problemów lub uzyskania odpowiedzi na dręczące pytania.";
 $MESS["SUP_SUBA_UI_LASTNAME"] = "Nazwisko";
 $MESS["SUP_SUBA_UI_LOGIN"] = "Login (co najmniej 3 znaki)";
 $MESS["SUP_SUBA_UI_LOGIN_EXIST"] = "Login użytkownika istnieje";
@@ -246,4 +249,3 @@ $MESS["SUP_WORD_YAZIK_END1"] = "S";
 $MESS["SUP_WORD_YAZIK_END2"] = "S";
 $MESS["SUP_WORD_YAZIK_END4"] = "S";
 $MESS["SUP_ZLIB"] = "Moduł PHP zlib jest zainstalowany. Zostanie użyta kompresja danych.";
-?>

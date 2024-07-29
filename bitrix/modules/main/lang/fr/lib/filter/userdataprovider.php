@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_USER_FILTER_ADMIN"] = "Administrateur";
 $MESS["MAIN_USER_FILTER_BIRTHDAY"] = "Date de naissance";
 $MESS["MAIN_USER_FILTER_COMPANY"] = "Entreprise";
@@ -29,6 +29,7 @@ $MESS["MAIN_USER_FILTER_PRESET_COMPANY"] = "Entreprise";
 $MESS["MAIN_USER_FILTER_PROFESSION"] = "Intitulé du poste";
 $MESS["MAIN_USER_FILTER_SECOND_NAME"] = "Deuxième prénom";
 $MESS["MAIN_USER_FILTER_TAGS"] = "Intérêts";
+$MESS["MAIN_USER_FILTER_VISITOR"] = "Guest";
 $MESS["MAIN_USER_FILTER_WORK_CITY"] = "Ville de l'entreprise";
 $MESS["MAIN_USER_FILTER_WORK_COUNTRY"] = "Pays de l'entreprise";
 $MESS["MAIN_USER_FILTER_WORK_DEPARTMENT"] = "Département";
@@ -38,4 +39,3 @@ $MESS["MAIN_USER_FILTER_WORK_STATE"] = "État/région de l'entreprise";
 $MESS["MAIN_USER_FILTER_WORK_STREET"] = "Adresse postale de l'entreprise";
 $MESS["MAIN_USER_FILTER_WORK_ZIP"] = "Code postal de l'entreprise";
 $MESS["MAIN_USER_FILTER_Y"] = "Oui";
-?>

@@ -31,7 +31,7 @@ function Tab1($adminForm)
 			</select>
 		</td>
 	</tr>
-	<script type="text/javascript">
+	<script>
 		function changeOpenTimeFormat()
 		{
 			var inputFrom = BX.findChild(BX('supTabControl_form'), {attr:{name:'DATE_FROM'}}, true);
@@ -194,7 +194,7 @@ class CSupportPage
 		if($presSave || $presApply)
 		{
 			self::$id = intval(CSupportHolidays::Set(self::$postHolidaysFields, self::$postHolidaysSlaFields));
-			// Åñëè ñîõðàíèòü íå óäàëîñü òî self::$id áóäåò ðàâåí 0 è read() íå ñðàáîòàåò äàííûå âîçüìóòñÿ èç POST áåç èçìåíåíèé
+			// Ð•ÑÐ»Ð¸ ÑÐ¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ Ð½Ðµ ÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ñ‚Ð¾ self::$id Ð±ÑƒÐ´ÐµÑ‚ Ñ€Ð°Ð²ÐµÐ½ 0 Ð¸ read() Ð½Ðµ ÑÑ€Ð°Ð±Ð¾Ñ‚Ð°ÐµÑ‚ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð²Ð¾Ð·ÑŒÐ¼ÑƒÑ‚ÑÑ Ð¸Ð· POST Ð±ÐµÐ· Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ð¹
 			if(self::$id > 0)
 			{
 				if(!$presApply)

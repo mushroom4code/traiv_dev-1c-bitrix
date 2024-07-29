@@ -1,5 +1,9 @@
-<?
+<?php
+$MESS["IBLOCK_FIELD_CODE"] = "Código mnemônico";
+$MESS["IBLOCK_FIELD_DETAIL_PICTURE"] = "Imagem detalhada";
+$MESS["IBLOCK_FIELD_SORT"] = "Ordenando";
 $MESS["IBLOCK_SECTION"] = "Seção";
+$MESS["IBLOCK_UPPER_LEVEL"] = "Nível superior";
 $MESS["IBSEC_E_ACTIVE"] = "Seção está ativa:";
 $MESS["IBSEC_E_BACK_TO_ADMIN"] = "Voltar à lista de bloco de informação";
 $MESS["IBSEC_E_BAD_IBLOCK"] = "Seção não encontrada ou acesso negado.";
@@ -26,6 +30,7 @@ $MESS["IBSEC_E_PROP_SKU_SECTION"] = "Propriedades SKU";
 $MESS["IBSEC_E_PROP_TABLE_ACTION"] = "Ações";
 $MESS["IBSEC_E_PROP_TABLE_ACTION_ADD"] = "Adicionar";
 $MESS["IBSEC_E_PROP_TABLE_ACTION_HIDE"] = "Ocultar";
+$MESS["IBSEC_E_PROP_TABLE_CODE"] = "Código mnemônico";
 $MESS["IBSEC_E_PROP_TABLE_EMPTY"] = "- não há dados -";
 $MESS["IBSEC_E_PROP_TABLE_NAME"] = "Nome:";
 $MESS["IBSEC_E_PROP_TABLE_SMART_FILTER"] = "Mostrar em filtro inteligente";
@@ -62,4 +67,3 @@ $MESS["IBSEC_E_TAB_RIGHTS_TITLE"] = "Permissões de acesso";
 $MESS["IBSEC_E_TRANSLATION_SERVICE_NOT_CONFIGURED"] = "Não existe nenhum motor de tradução. Adicionar motor de tradução em <a href=\"settings.php?mid=main\">configurações do módulo Núcleo</a>.";
 $MESS["IBSEC_E_USER_FIELDS_ADD_HREF"] = "Adicionar campo personalizado";
 $MESS["IBSEC_E_WARNING"] = "Aviso!";
-?>

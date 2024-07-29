@@ -1,18 +1,24 @@
-<?
+<?php
 $MESS["F_ACTIVE"] = "Actif(ve)";
 $MESS["SPTEN_2FLIST"] = "Types des payeurs";
 $MESS["SPTEN_ACTIVE"] = "Actif(ve)";
 $MESS["SPTEN_ADDING"] = "Créer un nouveau type de payeur";
 $MESS["SPTEN_APPLY"] = "Appliquer";
 $MESS["SPTEN_CANCEL"] = "Annuler";
+$MESS["SPTEN_CODE"] = "Code";
 $MESS["SPTEN_DELETE_PERSON_TYPE"] = "Supprimer";
-$MESS["SPTEN_DELETE_PERSON_TYPE_CONFIRM"] = "tes-vous sûr de vouloir supprimer ce type de donneur d'ordre ?";
+$MESS["SPTEN_DELETE_PERSON_TYPE_CONFIRM"] = "Voulez-vous vraiment supprimer ce type de payeur ?";
+$MESS["SPTEN_DOMAIN_P_TYPE"] = "Type d'entité commerciale";
+$MESS["SPTEN_DOMAIN_P_TYPE_E"] = "Entreprise";
+$MESS["SPTEN_DOMAIN_P_TYPE_I"] = "Particulier";
+$MESS["SPTEN_DOMAIN_P_TYPE_NONE"] = "Non spécifié";
 $MESS["SPTEN_ERROR"] = "Erreur de sauvegarde";
-$MESS["SPTEN_ERROR_SAVING_PERSON_TYPE"] = "Erreur de type économie d'payeur";
+$MESS["SPTEN_ERROR_PERSON_TYPE_EXISTS"] = "Un type de payeur utilise déjà ce code";
+$MESS["SPTEN_ERROR_SAVING_PERSON_TYPE"] = "Erreur lors de l'enregistrement du type de payeur";
 $MESS["SPTEN_NAME"] = "Dénomination";
 $MESS["SPTEN_NEW_PERSON_TYPE"] = "Créer un nouveau type de payeur";
-$MESS["SPTEN_NO_PERMS2ADD"] = "Vous ne disposez pas de suffisamment d'autorisations pour ajouter un nouveau type de payeur";
-$MESS["SPTEN_NO_PERSON_TYPE"] = "Le type de payeur ##ID# n'a pas été trouvé";
+$MESS["SPTEN_NO_PERMS2ADD"] = "Vous ne disposez pas de droits suffisants pour ajouter un nouveau type de payeur";
+$MESS["SPTEN_NO_PERSON_TYPE"] = "Le type de payeur ##ID# est introuvable";
 $MESS["SPTEN_PERSON_TYPE_VALUE"] = "Montant de la remise";
 $MESS["SPTEN_PRICE"] = "Applicable aux commandes";
 $MESS["SPTEN_PRICE_FROM"] = "de";
@@ -22,8 +28,8 @@ $MESS["SPTEN_SAVE_ADD"] = "Ajouter";
 $MESS["SPTEN_SITE"] = "Site";
 $MESS["SPTEN_SORT"] = "Classification";
 $MESS["SPTEN_TAB_PERSON_TYPE"] = "Type de payeur";
-$MESS["SPTEN_TAB_PERSON_TYPE_DESCR"] = "paramètres de type Payer";
+$MESS["SPTEN_TAB_PERSON_TYPE_DESCR"] = "Paramètres de type de payeur";
 $MESS["SPTEN_TIMESTAMP"] = "Date de la dernière modification : ";
 $MESS["SPTEN_TO_LIST"] = "Types des payeurs";
-$MESS["SPTEN_UPDATING"] = "Modifier les paramètres de type payeur";
-?>
+$MESS["SPTEN_UPDATING"] = "Modifier les paramètres de type de payeur";
+$MESS["SPTEN_XML_ID"] = "ID externe";

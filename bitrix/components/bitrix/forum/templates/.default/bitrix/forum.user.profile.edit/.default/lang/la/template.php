@@ -1,8 +1,8 @@
-<?
+<?php
 $MESS["FILE_DELETE"] = "Borrar archivo";
 $MESS["F_ALLOW_POST"] = "permitir mensajes de correo";
 $MESS["F_AVATAR"] = "Avatar:";
-$MESS["F_BIRTHDATE"] = "Fecha de cumpleaños";
+$MESS["F_BIRTHDATE"] = "Fecha de nacimiento";
 $MESS["F_CANCEL"] = "Cancelar";
 $MESS["F_CHANGE_PROFILE"] = "Perfil";
 $MESS["F_CITY"] = "Ciudad:";
@@ -47,4 +47,3 @@ $MESS["forum_profile_time_zones_auto_def"] = "(predeterminada)";
 $MESS["forum_profile_time_zones_auto_no"] = "No, seleccionar de la lista";
 $MESS["forum_profile_time_zones_auto_yes"] = "Si, utilizar las configuraciones del navegador";
 $MESS["forum_profile_time_zones_zones"] = "Zona Horaria:";
-?>

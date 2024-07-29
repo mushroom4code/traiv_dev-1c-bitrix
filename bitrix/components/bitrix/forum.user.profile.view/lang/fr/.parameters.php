@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["F_DATE_FORMAT"] = "Format d'affichage de la date";
 $MESS["F_DATE_TIME_FORMAT"] = "Format d'affichage de la date et de l'heure";
 $MESS["F_DEFAULT_UID"] = "Identifiant de l'utilisateur";
@@ -18,7 +18,7 @@ $MESS["F_SUBSCR_LIST_TEMPLATE"] = "Page d'abonnement";
 $MESS["F_URL_TEMPLATES"] = "Gestion des adresses de pages";
 $MESS["F_USER_LIST_TEMPLATE"] = "Page de la liste des utilisateurs enregistrés du forum";
 $MESS["F_USER_POST_TEMPLATE"] = "Page correspondance avec l'utilisateur";
-$MESS["RATING_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_TYPE_LIKE_GRAPHIC"] = "J'aime (graphique)";
 $MESS["RATING_TYPE_LIKE_TEXT"] = "J'aime (textuel)";
@@ -27,4 +27,3 @@ $MESS["RATING_TYPE_STANDART_TEXT"] = "J'aime / Je n'aime pas (textuel)";
 $MESS["SHOW_RATING"] = "Activer le classement";
 $MESS["SHOW_RATING_CONFIG"] = "ordinaire";
 $MESS["USER_PROPERTY"] = "Afficher les propriétés supplémentaires";
-?>

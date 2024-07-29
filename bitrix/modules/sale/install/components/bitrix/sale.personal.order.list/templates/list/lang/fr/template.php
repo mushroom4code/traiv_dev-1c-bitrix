@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["P_DELIVERY"] = "Méthode d'expédition : ";
 $MESS["P_PAY_SYS"] = "Méthodes de paiement et de livraison";
 $MESS["STPOL_CANCEL"] = "Annuler de la commande";
@@ -15,11 +15,10 @@ $MESS["STPOL_ORDERS_HISTORY"] = "Voir l'historique des commandes";
 $MESS["STPOL_ORDER_NO"] = "Commande n°";
 $MESS["STPOL_PAYED_N"] = "(non payé)";
 $MESS["STPOL_PAYED_Y"] = "(payé(e))";
-$MESS["STPOL_REORDER"] = "Ordre répétez (commander à nouveau les mêmes choses)";
+$MESS["STPOL_REORDER"] = "Dupliquer la commande (commander les mêmes produits)";
 $MESS["STPOL_REORDER1"] = "Réitérer la commande";
 $MESS["STPOL_SHT"] = "pcs.";
 $MESS["STPOL_STATUS"] = "Commandes dans le statut";
 $MESS["STPOL_STATUS_FROM"] = "Statut de";
 $MESS["STPOL_STATUS_T"] = "Statut";
 $MESS["STPOL_SUM"] = "quantité:";
-?>

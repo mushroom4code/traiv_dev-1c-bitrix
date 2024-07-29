@@ -1,11 +1,13 @@
-<?
+<?php
 $MESS["MAIN_ADMIN_LIST_CHECKED"] = "Позначено:";
 $MESS["MAIN_ADMIN_LIST_SELECTED"] = "Обрано:";
 $MESS["MAIN_ADMIN_MENU_DELETE"] = "Видалити";
 $MESS["MAIN_ADMIN_MENU_EDIT"] = "Змінити";
 $MESS["VOTE_ACTIVATE"] = "активувати";
 $MESS["VOTE_ACTIVE"] = "Акт.";
+$MESS["VOTE_ACTIVE_RED_LAMP"] = "Опитування не показано. ";
 $MESS["VOTE_ACTIVE_RED_LAMP_EXPIRED"] = "Минув термін показу.";
+$MESS["VOTE_ACTIVE_RED_LAMP_UPCOMING"] = "Термін показу не настав.";
 $MESS["VOTE_ADD_LIST"] = "Додати опитування";
 $MESS["VOTE_ALL"] = "(усі)";
 $MESS["VOTE_AUTHOR_ID"] = "Автор";
@@ -61,4 +63,3 @@ $MESS["VOTE_WRONG_START_DATE_FROM"] = "Введіть в фільтрі прав
 $MESS["VOTE_WRONG_START_DATE_TILL"] = "Введіть в фільтрі правильну дату «до» для «Дати початку»";
 $MESS["VOTE_WRONG_START_FROM_TILL"] = "У фільтрі дата «до» повинна бути більше, ніж дата «з» для «Дати початку»";
 $MESS["VOTE_YES"] = "так";
-?>

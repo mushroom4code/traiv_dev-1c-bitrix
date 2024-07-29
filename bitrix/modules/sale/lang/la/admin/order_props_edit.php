@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_PROP"] = "Error al agregar la propiedad.";
 $MESS["ERROR_ADD_VARIANT"] = "Error al agregar la propiedad.";
 $MESS["ERROR_EDIT_PROP"] = "Error al modificar la propiedad.";
@@ -47,6 +47,7 @@ $MESS["SALE_PROPERTY_LINKING"] = "Enlace de la propiedad";
 $MESS["SALE_PROPERTY_LINKING_DESC"] = "Enlace a la propiedades del sistemas de pago y servicios de envío";
 $MESS["SALE_PROPERTY_PAYSYSTEM"] = "Sistema de pago";
 $MESS["SALE_PROPERTY_SELECT_ALL"] = "Todo";
+$MESS["SALE_PROPERTY_TP_LANDING"] = "Desembarques";
 $MESS["SALE_PROPS_GROUP"] = "Grupos de propiedades";
 $MESS["SALE_RECORDS_LIST"] = "Para la lista de propiedades";
 $MESS["SALE_RESET"] = "Reiniciar";
@@ -66,4 +67,3 @@ $MESS["SOPEN_TAB_PROPS"] = "Propiedades del pedido";
 $MESS["SOPEN_TAB_PROPS_DESCR"] = "Propiedades del pedido de &quot;#PTYPE#&quot; tipo de pagador";
 $MESS["SOPE_TO_LIST"] = "Propiedades";
 $MESS["TYPE_TITLE"] = "Tipo de datos";
-?>

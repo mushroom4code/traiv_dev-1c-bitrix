@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AddLI"] = "Dodaj element listy";
 $MESS["AddLITitle"] = "Dodaj element listy (Wprowadź)";
 $MESS["Anchor"] = "Kotwica";
@@ -60,7 +60,7 @@ $MESS["LinkTarget_self"] = "aktualne okno";
 $MESS["LinkTarget_top"] = "najwyższe okno";
 $MESS["LinkText"] = "Link Tekstu";
 $MESS["LinkTitle"] = "Podpowiedź";
-$MESS["ListItems"] = "Wymień elementy";
+$MESS["ListItems"] = "Wyświetl listę elementów";
 $MESS["Normal"] = "Normalny";
 $MESS["Off"] = "Wyłączony";
 $MESS["On"] = "Włączony";
@@ -88,4 +88,3 @@ $MESS["VideoPreviewPath"] = "Ścieżka podglądu wideo";
 $MESS["VideoProps"] = "Właściwości wideo";
 $MESS["VideoVolume"] = "Głośność";
 $MESS["Width"] = "Szerokość";
-?>

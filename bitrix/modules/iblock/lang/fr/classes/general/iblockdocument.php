@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BPCGHLP_PROP_BOOL"] = "Oui/Non";
 $MESS["BPCGHLP_PROP_DATA"] = "Date";
 $MESS["BPCGHLP_PROP_DATETIME"] = "Date/Heure";
@@ -7,7 +7,7 @@ $MESS["BPCGHLP_PROP_FILE"] = "Fichier";
 $MESS["BPCGHLP_PROP_INT"] = "Nombre entier";
 $MESS["BPCGHLP_PROP_SELECT"] = "Liste";
 $MESS["BPCGHLP_PROP_SELECT_INTERNAL"] = "Lier aux listes de documents";
-$MESS["BPCGHLP_PROP_STRING"] = "Ligne";
+$MESS["BPCGHLP_PROP_STRING"] = "Chaîne";
 $MESS["BPCGHLP_PROP_TEXT"] = "Texte";
 $MESS["BPCGHLP_PROP_USER"] = "Utilisateur";
 $MESS["BPVDX_NO"] = "Non";
@@ -33,7 +33,7 @@ $MESS["IBD_FIELD_DETAIL_TEXT"] = "Texte integral";
 $MESS["IBD_FIELD_DETAIL_TEXT_TYPE"] = "Plein type de texte";
 $MESS["IBD_FIELD_IBLOCK_ID"] = "ID du bloc d'information";
 $MESS["IBD_FIELD_ID"] = "Identifiant de l'élément";
-$MESS["IBD_FIELD_MODIFIED_BY_USER_PRINTABLE"] = "Dité par";
+$MESS["IBD_FIELD_MODIFIED_BY_USER_PRINTABLE"] = "Dité par (nom)";
 $MESS["IBD_FIELD_MODYFIED"] = "Modifié par";
 $MESS["IBD_FIELD_NAME"] = "Nom d'élément";
 $MESS["IBD_FIELD_PREVIEW_PICTURE"] = "Image de l'annonce";
@@ -45,4 +45,3 @@ $MESS["IBD_FIELD_USERNAME_PROPERTY"] = "(nom)";
 $MESS["IBD_FIELD_XML_ID"] = "ID externe";
 $MESS["IBD_OPERATION_READ"] = "Lecture";
 $MESS["IBD_OPERATION_WRITE"] = "Écrire";
-?>

@@ -32,5 +32,4 @@ $MESS["BX_IM_COMPONENT_CONFERENCE_START_DATE_AND_TIME"] = "Дата та час 
 $MESS["BX_IM_COMPONENT_CONFERENCE_TITLE_LABEL"] = "Назва";
 $MESS["BX_IM_COMPONENT_CONFERENCE_TITLE_PLACEHOLDER"] = "Введіть назву";
 $MESS["BX_IM_COMPONENT_CONFERENCE_USER_SELECTOR_LABEL"] = "Внутрішні учасники";
-$MESS["BX_IM_COMPONENT_CONFERENCE_VOXIMPLANT_ERROR"] = "Для використання конференцій на вашому порталі повинен бути встановлений і налаштований модуль телефонії";
 $MESS["BX_IM_COMPONENT_CONFERENCE_VOXIMPLANT_ERROR_WITH_LINK"] = "Для використання конференцій необхідно налаштувати оточення. <a onclick=\"top.BX.Helper.show('redirect=detail&code=11392174')\"> Детальніше</a>";

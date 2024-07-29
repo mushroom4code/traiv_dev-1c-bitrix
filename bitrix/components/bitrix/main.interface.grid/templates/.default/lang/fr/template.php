@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["interface_grid_act"] = "Actions";
 $MESS["interface_grid_actions"] = "Colonne d'actions";
 $MESS["interface_grid_actions_list"] = "- actions -";
@@ -22,7 +22,7 @@ $MESS["interface_grid_date"] = "Choisir la date du calendrier";
 $MESS["interface_grid_dblclick"] = "Double clic - ";
 $MESS["interface_grid_default"] = "(par défaut)";
 $MESS["interface_grid_del_confirm"] = "Appliquer cette opération pour toutes les inscriptions de la liste (y compris sur d'autres pages)?";
-$MESS["interface_grid_del_view"] = "Effacer la vue ?";
+$MESS["interface_grid_del_view"] = "Supprimer la vue ?";
 $MESS["interface_grid_delete"] = "Supprimer tous les enregistrements sélectionnés ?";
 $MESS["interface_grid_delete_checked"] = "Supprimer les enregistrements sélectionnés ?";
 $MESS["interface_grid_delete_title"] = "Supprimer l'enregistrement";
@@ -106,7 +106,6 @@ $MESS["interface_grid_views_apply_title"] = "Appliquer la vue sélectionnée";
 $MESS["interface_grid_views_mnu_title"] = "Gestion et Paramètres";
 $MESS["interface_grid_views_new"] = "<Nouvel affichage>";
 $MESS["interface_grid_views_setup"] = "Éditer la liste";
-$MESS["interface_grid_views_setup_title"] = "Configurer la vue de la liste actuelle";
+$MESS["interface_grid_views_setup_title"] = "Configurer l'affichage de la liste actuelle";
 $MESS["interface_grid_views_title"] = "Gère les codes de sauvegarde pour OTP";
 $MESS["interface_grid_yes"] = "Oui";
-?>

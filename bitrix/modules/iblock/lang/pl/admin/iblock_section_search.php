@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["IBLOCK_SECSEARCH_ACTIVE"] = "Aktywne";
 $MESS["IBLOCK_SECSEARCH_CHOOSE_IBLOCK"] = "Wybierz blok informacji";
-$MESS["IBLOCK_SECSEARCH_CODE"] = "Kod podatku";
+$MESS["IBLOCK_SECSEARCH_CODE"] = "Kod symboliczny";
 $MESS["IBLOCK_SECSEARCH_CREATED_BY"] = "Utworzony przez";
 $MESS["IBLOCK_SECSEARCH_DATE_CREATE"] = "Utworzony";
 $MESS["IBLOCK_SECSEARCH_ELEMENT_CNT"] = "Elementy";
@@ -17,5 +17,4 @@ $MESS["IBLOCK_SECSEARCH_SORT"] = "Sortuj";
 $MESS["IBLOCK_SECSEARCH_TIMESTAMP"] = "Zmodyfikowany";
 $MESS["IBLOCK_SECSEARCH_TITLE"] = "Szukaj elementu";
 $MESS["IBLOCK_SECSEARCH_USERINFO"] = "Wyświetl informacje użytkownika";
-$MESS["IBLOCK_SECSEARCH_XML_ID"] = "Kod zewnętrzny";
-?>
+$MESS["IBLOCK_SECSEARCH_XML_ID_MSGVER_1"] = "Identyfikator zewnętrzny";

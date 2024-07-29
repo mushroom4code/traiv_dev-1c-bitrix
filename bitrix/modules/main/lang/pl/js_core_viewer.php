@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JS_CORE_VIEWER_AJAX_ACCESS_DENIED"] = "Niewystarczające uprawnienia, aby wyświetlić plik. Prosimy odświeżyć stronę.";
 $MESS["JS_CORE_VIEWER_AJAX_CONNECTION_FAILED"] = "Wystąpił błąd podczas otwierania pliku. Proszę spróbowac później.";
 $MESS["JS_CORE_VIEWER_AJAX_OPEN_NEW_TAB"] = "Otwórz w nowym oknie";
@@ -52,10 +52,12 @@ $MESS["JS_CORE_VIEWER_OPEN_WITH_GVIEWER"] = "Przeglądaj plik w przeglądarce Go
 $MESS["JS_CORE_VIEWER_SAVE"] = "Zapisz";
 $MESS["JS_CORE_VIEWER_SAVE_AS"] = "Zapisz jako";
 $MESS["JS_CORE_VIEWER_SAVE_TO_OWN_FILES"] = "Zapisz na dysku Bitrix24";
+$MESS["JS_CORE_VIEWER_SAVE_TO_OWN_FILES_MSGVER_1"] = "Zapisz na Dysku";
 $MESS["JS_CORE_VIEWER_SERVICE_B24_DISK"] = "Bitrix24.Drive";
 $MESS["JS_CORE_VIEWER_SERVICE_GOOGLE_DRIVE"] = "Dokumenty Google";
 $MESS["JS_CORE_VIEWER_SERVICE_LOCAL"] = "mój komputer";
 $MESS["JS_CORE_VIEWER_SERVICE_LOCAL_INSTALL_DESKTOP"] = "Aby włączyć optymalną metodę edytowania i dostępu do dokumentów z twojego komputera, zainstaluj Aplikację Pulpitową i włącz Bitrix24.Drive.";
+$MESS["JS_CORE_VIEWER_SERVICE_LOCAL_INSTALL_DESKTOP_MSGVER_1"] = "Aby optymalnie i przyjemnie przetwarzać dokumenty z poziomu komputera, zainstaluj aplikację desktopową i włącz Dysk Bitrix24.";
 $MESS["JS_CORE_VIEWER_SERVICE_MYOFFICE"] = "MyOffice";
 $MESS["JS_CORE_VIEWER_SERVICE_OFFICE365"] = "Office 365";
 $MESS["JS_CORE_VIEWER_SERVICE_SKYDRIVE"] = "MS Office Web Apps";
@@ -65,4 +67,3 @@ $MESS["JS_CORE_VIEWER_THROUGH_VERSION"] = "Wersja #NUMBER#";
 $MESS["JS_CORE_VIEWER_TOO_BIG_FOR_VIEW"] = "Plik jest zbyt duży aby go przeglądać.";
 $MESS["JS_CORE_VIEWER_TRANSFORMATION_IN_PROCESS"] = "Dokument został zapisany i jest teraz przygotowywany do odczytu.";
 $MESS["JS_CORE_VIEWER_VIEW_ELEMENT"] = "Wyświetl";
-?>

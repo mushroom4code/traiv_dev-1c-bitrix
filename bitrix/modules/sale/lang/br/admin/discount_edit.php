@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BT_CAT_DISCOUNT_EDIT_TAB_TITLE_ACTIONS"] = "Ações a serem executadas e aplicação de condições";
 $MESS["BT_SALE_DISCOUNT_EDIT_CALENDARE_PERIOD_EMPTY"] = "Sem limitações";
 $MESS["BT_SALE_DISCOUNT_EDIT_CALENDARE_PERIOD_INTERVAL"] = "Intervalo";
@@ -30,7 +30,17 @@ $MESS["BT_SALE_DISCOUNT_EDIT_TAB_TITLE_GROUPS"] = "Limitações de regras";
 $MESS["BT_SALE_DISCOUNT_EDIT_TAB_TITLE_MISC"] = "Parâmetros de regras adicionais";
 $MESS["BT_SALE_DISCOUNT_SECTIONS_APP"] = "Ações";
 $MESS["BT_SALE_DISCOUNT_SECTIONS_COND_ADD"] = "Condições adicionais";
+$MESS["BX_SALE_DISCOUNT_COUPON_PERIOD_EMPTY"] = "Ilimitado";
+$MESS["BX_SALE_DISCOUNT_COUPON_PERIOD_INTERVAL"] = "Intervalo";
+$MESS["BX_SALE_DISCOUNT_EDIT_ERR_COUPONS_COUNT"] = "O número de cupons a serem criados não foi especificado";
+$MESS["BX_SALE_DISCOUNT_EDIT_FIELDS_COUPONS"] = "Cupons:";
+$MESS["BX_SALE_DISCOUNT_EDIT_FIELDS_COUPON_ADD"] = "Crie cupons ao salvar a regra:";
+$MESS["BX_SALE_DISCOUNT_EDIT_FIELDS_COUPON_COUNT"] = "Número de cupons:";
+$MESS["BX_SALE_DISCOUNT_EDIT_FIELDS_COUPON_MAX_USE"] = "Usos máximos:";
+$MESS["BX_SALE_DISCOUNT_EDIT_FIELDS_COUPON_PERIOD"] = "Período ativo:";
+$MESS["BX_SALE_DISCOUNT_EDIT_FIELDS_COUPON_TYPE"] = "Tipo de cupom:";
+$MESS["BX_SALE_DISCOUNT_EDIT_TAB_NAME_COUPONS"] = "Cupons";
+$MESS["BX_SALE_DISCOUNT_EDIT_TAB_TITLE_COUPONS"] = "Cupons associados a uma regra";
 $MESS["SDEN_ACTIVE"] = "Ativo";
 $MESS["SDEN_PERIOD"] = "Período ativo";
 $MESS["SDEN_SITE"] = "Site";
-?>

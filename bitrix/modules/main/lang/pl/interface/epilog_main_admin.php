@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADMIN_FAV_ADD"] = "Dodaj do <b>Ulubionych</b>";
 $MESS["ADMIN_FAV_ADD_ERROR"] = "Błąd dodania linku do ulubionych.";
 $MESS["ADMIN_FAV_ADD_SUCCESS"] = "Dodane do <b>Ulubionych</b>";
@@ -7,7 +7,7 @@ $MESS["ADMIN_FAV_DEL_ERROR"] = "Błąd usówania z ulubionych.";
 $MESS["ADMIN_FAV_DEL_SUCCESS"] = "Usunięte z <b>Ulubionych</b>";
 $MESS["ADMIN_FAV_GOTO"] = "Przeglądaj Ulubione";
 $MESS["ADMIN_FAV_HINT"] = "Przeciągnij i upuść element tutaj";
-$MESS["EPILOG_ADMIN_POWER"] = "Powered by";
+$MESS["EPILOG_ADMIN_POWER"] = "Z technologiami";
 $MESS["EPILOG_ADMIN_SM_1c_bitrix"] = "Bitrix Site Manager";
 $MESS["EPILOG_ADMIN_SM_1c_bitrix_eduportal"] = "1C-Bitrix Education Portal";
 $MESS["EPILOG_ADMIN_SM_1c_bitrix_gosportal"] = "1C-Bitrix Government Portal";
@@ -44,4 +44,3 @@ $MESS["EPILOG_ADMIN_URL_SUPPORT_1c_bitrix_portal"] = "http://www.bitrixsoft.com/
 $MESS["EPILOG_ADMIN_URL_SUPPORT_bitrix"] = "http://www.bitrixsoft.com/support/";
 $MESS["EPILOG_ADMIN_URL_SUPPORT_bitrix_portal"] = "http://www.bitrixsoft.com/support/";
 $MESS["epilog_support_link"] = "Wsparcie";
-?>

@@ -1,11 +1,22 @@
-<?
+<?php
 $MESS["LANDING_404_ERROR"] = "Le modèle est introuvable";
-$MESS["LANDING_LOADER_WAIT"] = "La boutique en ligne est en cours d'importation. Veuillez patienter…";
-$MESS["LANDING_PREVIEW_NOTICE"] = "Le texte sera affiché en aperçu sur les pages des réseaux sociaux";
+$MESS["LANDING_LOADER_WAIT_MSGVER_1"] = "Veuillez patienter, création de la boutique en ligne en cours...";
 $MESS["LANDING_TPL_BUTTON_CANCEL"] = "Annuler";
 $MESS["LANDING_TPL_BUTTON_CREATE"] = "Créer";
-$MESS["LANDING_TPL_COLOR_USE_SITE"] = "Utiliser les couleurs du site";
-$MESS["LANDING_TPL_HEADER_COLOR"] = "Thème de couleur";
-$MESS["LANDING_TPL_HEADER_SITE_GROUP"] = "Suggestion de design";
+$MESS["LANDING_TPL_BUTTON_CREATE_KB"] = "Créer une base de connaissances";
+$MESS["LANDING_TPL_BUTTON_CREATE_PAGE"] = "Créer une page";
+$MESS["LANDING_TPL_BUTTON_CREATE_SITE"] = "Créer un site";
+$MESS["LANDING_TPL_BUTTON_CREATE_STORE"] = "Créer une boutique en ligne";
+$MESS["LANDING_TPL_BUTTON_REPLACE_PAGE"] = "Appliquer le modèle";
+$MESS["LANDING_TPL_BUTTON_SHOW_IN_MOBILE"] = "Ouvrir sur un appareil mobile";
+$MESS["LANDING_TPL_HEADER_LOGO_BITRIX"] = "Bitrix";
+$MESS["LANDING_TPL_HEADER_LOGO_KB"] = "Knowledge bases";
+$MESS["LANDING_TPL_HEADER_LOGO_SITE"] = "Sites";
+$MESS["LANDING_TPL_HEADER_RIGHT_CREATE_HINT_MSGVER_1"] = "Vous n'avez pas les autorisations nécessaires pour créer des sites. Veuillez contacter votre administrateur.";
+$MESS["LANDING_TPL_MY_COLOR"] = "Couleur personnalisée";
+$MESS["LANDING_TPL_POPUP_REPEAT_BUTTON"] = "Redémarrer";
+$MESS["LANDING_TPL_POPUP_REPEAT_TEXT"] = "Une erreur s'est produite. Cliquez sur Redémarrer pour réessayer.";
+$MESS["LANDING_TPL_POPUP_TEXT"] = "Scannez le code QR pour ouvrir le site";
+$MESS["LANDING_TPL_POPUP_TEXT_KB"] = "Scannez le code QR pour ouvrir la base de connaissances";
+$MESS["LANDING_TPL_POPUP_TEXT_STORE"] = "Scannez le code QR pour accéder à la boutique en ligne";
 $MESS["LANDING_TPL_TITLE"] = "Aperçu du modèle";
-?>

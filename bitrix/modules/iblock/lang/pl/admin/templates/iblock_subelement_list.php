@@ -1,6 +1,12 @@
-<?
+<?php
+$MESS["IBEL_CATALOG_EMPTY_VALUE"] = "nie wybrano";
+$MESS["IBEL_CATALOG_MEASURE"] = "Jednostka miary";
+$MESS["IBEL_CATALOG_MEASURE_TITLE"] = "Jednostka miary";
 $MESS["IBEL_CATALOG_TYPE"] = "Rodzaj produktu";
+$MESS["IBEL_CATALOG_TYPE_MESS_GROUP_MSGVER_1"] = "zestaw";
 $MESS["IBEL_CATALOG_TYPE_MESS_OFFER"] = "Oferta";
+$MESS["IBEL_CATALOG_VAT_ID"] = "Stawka podatku";
+$MESS["IBLOCK_FIELD_SUBSCRIPTIONS"] = "Liczba subskrypcji";
 $MESS["IBSEL_A_ACTIVATE"] = "aktywuj";
 $MESS["IBSEL_A_CLEAR_COUNTER"] = "Resetuj licznik wyświetleń";
 $MESS["IBSEL_A_CLEAR_COUNTER_CONFIRM"] = "Na pewno chcesz zresetować licznik i datę pierwszego wyswietlenia?";
@@ -18,4 +24,3 @@ $MESS["IB_SE_L_REFRESH_ELEMENTS"] = "Odśwież";
 $MESS["IB_SE_L_REFRESH_ELEMENTS_DESCR"] = "Odśwież listę SKU";
 $MESS["IB_SE_L_REQUIRED_FIELDS_FIND"] = "Generator SKU nie może wykonać, ponieważ są pola bloku informacji, które są ustawione jako wymagane. Ustaw te pola jako opcjonalne, aby kontynuować.";
 $MESS["IB_SE_L_SHOW_PRICES_AFTER_COPY"] = "Prosimy o zapisanie powielanego produktu przed edycją SKU's.";
-?>

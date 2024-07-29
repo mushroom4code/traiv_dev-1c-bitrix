@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JS_CORE_FILE_APPLY"] = "Appliquer";
 $MESS["JS_CORE_FILE_CLOUD"] = "Télécharger depuis le stockage dématérialisé";
 $MESS["JS_CORE_FILE_DESCRIPTION"] = "Description";
@@ -8,7 +8,7 @@ $MESS["JS_CORE_FILE_INFO_SIZE"] = "Taille";
 $MESS["JS_CORE_FILE_INSERT_PATH"] = "Insérer un chemin d'accès vers le fichier";
 $MESS["JS_CORE_FILE_MEDIALIB"] = "Sélectionner un élément de la Bibliothèque multimédia";
 $MESS["JS_CORE_FILE_SITE"] = "Sélectionner depuis l'Explorateur de sites";
-$MESS["JS_CORE_FILE_UPLOAD"] = "Télécharger depuis l'ordinateur";
+$MESS["JS_CORE_FILE_UPLOAD"] = "Télécharger à partir de l'ordinateur";
 $MESS["JS_CORE_FI_ADD"] = "Ajouter";
 $MESS["JS_CORE_FI_ADD_LINK"] = "Ajouter un lien";
 $MESS["JS_CORE_FI_ADD_PRESET"] = "Ajouter un préréglage";
@@ -33,4 +33,3 @@ $MESS["JS_CORE_FI_TOO_MANY_FILES3"] = "Quota de fichiers dépassé.";
 $MESS["JS_CORE_FI_UPLOAD_DENIED"] = "Téléchargement refusé";
 $MESS["JS_CORE_FI_USE_PRESET"] = "Utiliser un préréglage";
 $MESS["JS_CORE_FI_WIDTH"] = "Largeur";
-?>

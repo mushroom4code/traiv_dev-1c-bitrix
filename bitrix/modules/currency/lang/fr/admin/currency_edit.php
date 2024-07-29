@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASE_CURRENCY_NO"] = "aucun";
 $MESS["BASE_CURRENCY_YES"] = "oui";
 $MESS["BT_CURRENCY_EDIT_ERR_ADD"] = "Erreur inconnue lors de l'ajout monnaie";
@@ -11,10 +11,12 @@ $MESS["CURRENCY_CODES_ISO_STANDART"] = "La liste des codes possibles de devise e
 $MESS["CURRENCY_DEC_POINT_DESC"] = "Point décimal à la sortie";
 $MESS["CURRENCY_EDIT_TITLE"] = "Modifier la devise";
 $MESS["CURRENCY_FORMAT_DESC"] = "Format d'affichage de devise";
-$MESS["CURRENCY_FORMAT_TEMPLATE"] = "Format modèle";
+$MESS["CURRENCY_FORMAT_TEMPLATE_EXT"] = "Formats courants";
+$MESS["CURRENCY_FORMAT_TEMPLATE_HINT"] = "Utilisez les modèles de cette liste pour remplir les champs avec les valeurs des modèles. Vous pouvez ensuite modifier les champs comme vous le souhaitez ; cette option n'est pas persistante.";
 $MESS["CURRENCY_FULL_NAME"] = "Dénomination";
 $MESS["CURRENCY_FULL_NAME_DESC"] = "Nom complet de la monnaie";
 $MESS["CURRENCY_NEW_TITLE"] = "Nouvelle monnaie";
+$MESS["CURRENCY_SELECT_TEMPLATE_EXT"] = "sélectionner un format";
 $MESS["CURRENCY_THOUSANDS_VARIANT_O"] = "Autre valeur";
 $MESS["DECIMALS_COMMENTS"] = "<span class='required' style='vertical-align: super; font-size: smaller;'>1</span> - la quantité de signes décimaux de la partie fractionnaire d'un prix influence uniquement l'AFFICHAGE des prix. Tous les calculs sont effectués avec les données non arrondies. Cela peut provoquer des erreurs visuelles à la conversion des devises et après l'application des remises. A titre d'exemple on va examiner cette situation. Le coût du produit est 98,01 EUR. Si la quantité de signes décimaux est égale à 0, le prix sera affiché comme 98 EUR. Cependant le coût de 100 unités dans le panier sera affiché comme 9801 EUR.";
 $MESS["DECIMALS_DESC"] = "Nombre de décimales";
@@ -30,4 +32,3 @@ $MESS["currency_numcode"] = "Code numérique de la devise";
 $MESS["currency_rate"] = "Cours par défaut";
 $MESS["currency_rate_cnt"] = "Dans le montant de";
 $MESS["currency_sort_ex"] = "Classification";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SUPP_SUBR_BUTTON"] = "Registrar módulos";
 $MESS["SUPP_SUBR_ERR"] = "Error de registro";
 $MESS["SUPP_SUBR_HINT"] = "Su licencia permite obtener versiones totalmente funcionales de los módulos siguientes:";
@@ -101,7 +101,7 @@ $MESS["SUP_SUBS_MED"] = "Descargar Códigos Fuente para";
 $MESS["SUP_SUBS_SOURCES"] = "Descargar Códigos Fuente ";
 $MESS["SUP_SUBS_SUCCESS"] = "Los códigos fuente se han descargado correctamente.";
 $MESS["SUP_SUBT_AGREE"] = "Yo acepto el acuerdo de licencia";
-$MESS["SUP_SUBT_AGREE_PRIVACY"] = "He leído y acepto <a href=\"http://marketplace.1c-bitrix.ru/about/privacy.php\" target=\"_blank\">Política de privacidad</a>";
+$MESS["SUP_SUBT_AGREE_PRIVACY"] = "He leído y acepto <a href=\"https://www.bitrix24.es/privacy/\" target=\"_blank\">Política de privacidad</a>";
 $MESS["SUP_SUBT_ERROR_LICENCE"] = "Error al aceptar la licencia.";
 $MESS["SUP_SUBT_LICENCE"] = "Acuerdo de Licencia";
 $MESS["SUP_SUBT_LICENCE_BUTTON"] = "Ver acuerdo de licencia";
@@ -173,4 +173,3 @@ $MESS["SUP_TAB_UPDATES_LIST"] = "Actualizaciones";
 $MESS["SUP_TAB_UPDATES_LIST_ALT"] = "Seleccione actualizaciones para instalar";
 $MESS["SUP_TITLE_BASE"] = "Sistema de módulos de actualización del partner";
 $MESS["SUP_USERS"] = "Contador del usuario:";
-?>

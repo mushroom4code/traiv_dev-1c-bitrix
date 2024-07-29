@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["AUTH_CAPTCHA_PROMT"] = "Veuillez saisir un mot sur l'image";
-$MESS["AUTH_CHANGE"] = "Aller vers le formulaire pour changer le mot de passe";
-$MESS["AUTH_CHANGE_PASSWORD"] = "Aller vers le formulaire pour changer le mot de passe";
+$MESS["AUTH_CHANGE"] = "Réinitialisation du mot de passe";
+$MESS["AUTH_CHANGE_PASSWORD"] = "Réinitialisation du mot de passe";
 $MESS["AUTH_CHANGE_PASSWORD_1"] = "Entrez la ligne de contrôle et le nouveau mot de passe";
 $MESS["AUTH_CHANGE_PASSWORD_2"] = "Le mot de passe a été modifié avec succès.";
 $MESS["AUTH_CHECKWORD"] = "Ligne de contrôle";
@@ -12,7 +12,7 @@ $MESS["AUTH_GET_CHECK_STRING"] = "Envoyer la ligne de contrôle";
 $MESS["AUTH_GET_CHECK_STRING_SENT"] = "Ligne de contrôle envoyée.";
 $MESS["AUTH_GOTO_AUTH_FORM"] = "Autorisation";
 $MESS["AUTH_GOTO_AUTH_FORM_1"] = "Connexion";
-$MESS["AUTH_GOTO_CHANGE_FORM"] = "Aller vers le formulaire pour changer le mot de passe";
+$MESS["AUTH_GOTO_CHANGE_FORM"] = "Réinitialisation du mot de passe";
 $MESS["AUTH_GOTO_FORGOT_FORM"] = "Passer au formulaire pour rétablir le mot de passe";
 $MESS["AUTH_LOGIN"] = "Connexion";
 $MESS["AUTH_NEW_PASSWORD"] = "Nouveau mot de passe (min 6 caractères.) : ";
@@ -30,4 +30,3 @@ $MESS["admin_authorize_error"] = "Erreur d'autorisation !";
 $MESS["admin_authorize_info"] = "Information";
 $MESS["admin_change_password_error"] = "Erreur de changement du mot de passe !";
 $MESS["admin_forgot_password_error"] = "Erreur de récupération de mot de passe !";
-?>

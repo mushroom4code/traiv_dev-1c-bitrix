@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_ORDER_PAYMENT_NO_DELIVERY_SERVICE"] = "(Sélectionnez le service de livraison)";
 $MESS["SALE_ORDER_SHIPMENT_ADD_COMPANY"] = "Aucune entreprise active. <a href=\"#URL#\" target=\"_blank\">Ajouter une</a>";
 $MESS["SALE_ORDER_SHIPMENT_ADD_SHIPMENT"] = "Ajouter expédition";
@@ -43,6 +43,7 @@ $MESS["SALE_ORDER_SHIPMENT_NEW_PRICE_DELIVERY"] = "Coût de livraison calculé";
 $MESS["SALE_ORDER_SHIPMENT_NO_COMPANY"] = "Pas sélectionné";
 $MESS["SALE_ORDER_SHIPMENT_OFFICE"] = "Office d'expédition";
 $MESS["SALE_ORDER_SHIPMENT_PROFILE"] = "Profils";
+$MESS["SALE_ORDER_SHIPMENT_RECALCULATE_DELIVERY_PRICE"] = "Recalcul des prix";
 $MESS["SALE_ORDER_SHIPMENT_STORE_SELF_DELIVERY"] = "Points de ramassage";
 $MESS["SALE_ORDER_SHIPMENT_TITLE"] = "Expédition";
 $MESS["SALE_ORDER_SHIPMENT_TRACKING_DESCRIPTION"] = "Description du statut";
@@ -52,4 +53,3 @@ $MESS["SALE_ORDER_SHIPMENT_TRACKING_STATUS"] = "Statut de la cargaison";
 $MESS["SALE_ORDER_SHIPMENT_TRACKING_STATUS_REFRESH"] = "Mettre à jour";
 $MESS["SALE_ORDER_SHIPMENT_TRACKING_S_EMPTY"] = "Numéro de suivi est nécessaire";
 $MESS["SALE_ORDER_SHIPMENT_TRACKING_URL"] = "Détails de suivi du colis";
-?>

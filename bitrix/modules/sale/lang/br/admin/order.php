@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBEL_A_UNLOCK"] = "Desbloquear";
 $MESS["IBLOCK_UNLOCK_ALT"] = "Desbloquear registro";
 $MESS["IBLOCK_UNLOCK_CONFIRM"] = "Você tem certeza que deseja desbloquear o registro?";
@@ -41,6 +41,7 @@ $MESS["SALE_F_DEL"] = "Remover filtro";
 $MESS["SALE_F_FILTER"] = "Filtro";
 $MESS["SALE_F_FROM"] = "de";
 $MESS["SALE_F_ID"] = "ID do pedido";
+$MESS["SALE_F_IS_SYNC_B24"] = "Sincronização do Bitrix24";
 $MESS["SALE_F_LANG_CUR"] = "Site / Moeda";
 $MESS["SALE_F_MARKED"] = "Problema de conclusão";
 $MESS["SALE_F_PAYED"] = "Pago";
@@ -60,6 +61,15 @@ $MESS["SALE_OO_EXP_ACT"] = "Exportar";
 $MESS["SALE_OO_EXP_DESCR"] = "Exportar pedidos em arquivo com formato CommerceML (por filtro).";
 $MESS["SALE_ORDE_QUERIED1"] = "Status verificados";
 $MESS["SALE_ORDE_QUERIED2"] = "pedidos";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_CLOSE"] = "Fechar";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_CREATE"] = "Abrir";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_SENDED"] = "Não é possível selecionar pedidos porque eles já foram exportados.\n\r IDs dos pedidos";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_SEND_YES"] = "Sim";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_TEXT_CREATE"] = "Abrir novo formulário de pedido?";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_SELECTION_MORE_ONE"] = "O pedido que você selecionar será vinculado a um negócio, e é por isso que apenas um pedido pode ser selecionado";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_SELECTION_MORE_THREE"] = "Você não pode exportar mais de três pedidos";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_SELECTION_NEEDED"] = "Selecione um pedido";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_TITLE"] = "Mensagem";
 $MESS["SALE_PAY_ERROR"] = "Erro ao pagar o pedido";
 $MESS["SALE_PAY_ORDER"] = "Pagar";
 $MESS["SALE_PAY_ORDER_DESCR"] = "Pagar pedido";
@@ -98,6 +108,8 @@ $MESS["SOAN_LIST_CANCEL"] = "Cancelar";
 $MESS["SOAN_LIST_CANCEL_N"] = "Não cancelar";
 $MESS["SOAN_LIST_STATUS_CHANGE"] = "Mover para o status";
 $MESS["SOAN_SELECTED"] = "Escolhidos";
+$MESS["SOAN_UPLOAD_FROM_REGISTRY_LINK"] = "Sincronizar com o Bitrix24";
+$MESS["SOAN_UPLOAD_FROM_REGISTRY_TITLE"] = "Importar da lista de pedidos para o Bitrix24";
 $MESS["SOA_ACCOUNT_NUMBER"] = "Pedido #";
 $MESS["SOA_BASKET_CATALOG_XML_ID"] = "ID externo do catálogo";
 $MESS["SOA_BASKET_DISCOUNT_PRICE"] = "Desconto";
@@ -165,4 +177,3 @@ $MESS["SO_S_DATE_PAYED"] = "Data de atualização do pagamento";
 $MESS["SO_S_DATE_STATUS"] = "Data de modificação do status";
 $MESS["SO_UNSUCCESS"] = "Falha";
 $MESS["SO_YES"] = "Sim";
-?>

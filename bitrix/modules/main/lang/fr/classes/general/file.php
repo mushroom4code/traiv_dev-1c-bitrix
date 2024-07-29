@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FILE_BAD_FILENAME"] = "Le nom du fichier n'est pas indiqué.";
 $MESS["FILE_BAD_FILE_TYPE"] = "L'objet n'est pas un fichier graphique";
 $MESS["FILE_BAD_MAX_RESOLUTION"] = "La taille maximale admissible de l'image est dépassée";
@@ -12,10 +12,10 @@ $MESS["FILE_FILE_DOWNLOAD"] = "Télécharger le document";
 $MESS["FILE_HEIGHT"] = "Hauteur";
 $MESS["FILE_NOT_FOUND"] = "Fichier introuvable";
 $MESS["FILE_SIZE"] = "Taille";
-$MESS["FILE_SIZE_Gb"] = "Gb";
+$MESS["FILE_SIZE_Gb"] = "Go";
 $MESS["FILE_SIZE_Kb"] = "Kb";
 $MESS["FILE_SIZE_Mb"] = "Mb";
-$MESS["FILE_SIZE_Tb"] = "Tb";
+$MESS["FILE_SIZE_Tb"] = "To";
 $MESS["FILE_SIZE_b"] = "b";
 $MESS["FILE_TEXT"] = "Fichier";
 $MESS["FILE_WIDTH"] = "Largeur";
@@ -24,4 +24,3 @@ $MESS["MAIN_BAD_FILENAME_LEN"] = "Le nom de fichier est trop long.";
 $MESS["MAIN_FIELD_FILE_DESC"] = "Description";
 $MESS["main_include_dots"] = "pixels";
 $MESS["main_js_img_title"] = "Image";
-?>

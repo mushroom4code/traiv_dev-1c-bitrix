@@ -1,4 +1,3 @@
-<?
-$MESS["LANDING_HOOK_MRINDEX"] = "Récupère la page indexée par les moteurs de recherche";
-$MESS["LANDING_HOOK_MR_NAME"] = "Ajoutez à l'index des moteurs de recherche";
-?>
+<?php
+$MESS["LANDING_HOOK_MRINDEX"] = "Indexer la page dans les moteurs de recherche";
+$MESS["LANDING_HOOK_MR_NAME"] = "Ajouter à l'index des moteurs de recherche";

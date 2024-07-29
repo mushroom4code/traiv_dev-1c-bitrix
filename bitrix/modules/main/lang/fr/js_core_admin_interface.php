@@ -1,8 +1,8 @@
 <?
 $MESS["JSADM_CALEND_CURR"] = "Actuel";
 $MESS["JSADM_CALEND_CURR_WEEK"] = "Actuel";
-$MESS["JSADM_CALEND_NEXT"] = "En avant";
-$MESS["JSADM_CALEND_NEXT_WEEK"] = "En avant";
+$MESS["JSADM_CALEND_NEXT"] = "Suivant";
+$MESS["JSADM_CALEND_NEXT_WEEK"] = "Suivant";
 $MESS["JSADM_CALEND_PREV"] = "Précédent";
 $MESS["JSADM_CALEND_PREV_WEEK"] = "Précédent";
 $MESS["JSADM_FAV_ADD"] = "Ajouter aux favoris";

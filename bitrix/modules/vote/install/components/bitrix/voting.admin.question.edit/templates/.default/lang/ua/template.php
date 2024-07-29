@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["VOTE_ACTIVE"] = "Активність:";
 $MESS["VOTE_ACTIVE_LABEL"] = "активний";
 $MESS["VOTE_ANSWERS"] = "Відповіді";
@@ -35,6 +35,7 @@ $MESS["VOTE_GRID_ACTIONS_RESTORE"] = "скасувати правки";
 $MESS["VOTE_GRID_ACTIONS_UNDELETE"] = "скасувати видалення";
 $MESS["VOTE_GRID_BUTTON_ADD_TEXT"] = "Інше...";
 $MESS["VOTE_IMAGE"] = "Зображення:";
+$MESS["VOTE_IMAGE_ID"] = "Зображення";
 $MESS["VOTE_NEW_RECORD"] = "Нове питання";
 $MESS["VOTE_PROPERTIES"] = "Властивості";
 $MESS["VOTE_PROPERTIES_TITLE"] = "Додаткові властивості питання";
@@ -47,4 +48,3 @@ $MESS["VOTE_SORT"] = "Сорт.";
 $MESS["VOTE_TIMESTAMP"] = "Дата зміни:";
 $MESS["VOTE_TYPE_NOTIFY"] = "(це налаштування в деяких публічних шаблонах може бути враховане не повністю)";
 $MESS["VOTE_VOTE"] = "Опитування:";
-?>

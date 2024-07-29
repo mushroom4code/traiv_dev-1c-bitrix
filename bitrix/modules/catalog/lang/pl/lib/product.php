@@ -1,8 +1,11 @@
-<?
+<?php
 $MESS["PRODUCT_ENTITY_AVAILABLE_FIELD"] = "Dostępny dla zakupu";
 $MESS["PRODUCT_ENTITY_BARCODE_MULTI_FIELD"] = "Unikalny kod kreskowy dla każdego produktu";
 $MESS["PRODUCT_ENTITY_BUNDLE_FIELD"] = "W pakiecie";
 $MESS["PRODUCT_ENTITY_CAN_BUY_ZERO_FIELD"] = "Pozwól na kupno produktów, których brak na magazynie";
+$MESS["PRODUCT_ENTITY_ENTITY_NAME_ANY_PRODUCT"] = "produkt";
+$MESS["PRODUCT_ENTITY_ENTITY_NAME_ANY_RESTLESS"] = "nieprawidłowy produkt";
+$MESS["PRODUCT_ENTITY_ENTITY_NAME_ANY_SERVICE"] = "usługa";
 $MESS["PRODUCT_ENTITY_HEIGHT_FIELD"] = "Wysokość";
 $MESS["PRODUCT_ENTITY_ID_FIELD"] = "ID";
 $MESS["PRODUCT_ENTITY_LENGTH_FIELD"] = "Długość";
@@ -23,21 +26,23 @@ $MESS["PRODUCT_ENTITY_PURCHASING_PRICE_FIELD"] = "Cena zakupu";
 $MESS["PRODUCT_ENTITY_QUANTITY_FIELD"] = "Ilość w magazynie";
 $MESS["PRODUCT_ENTITY_QUANTITY_RESERVED_FIELD"] = "Ilość zarezerwowana";
 $MESS["PRODUCT_ENTITY_QUANTITY_TRACE_FIELD"] = "Tryb śledzenia zapasu w magazynie";
+$MESS["PRODUCT_ENTITY_QUANTITY_TRACE_FIELD_MSGVER_1"] = "Kontrola asortymentu";
 $MESS["PRODUCT_ENTITY_RECUR_SCHEME_LENGTH_FIELD"] = "Okres powtarzania płatności";
 $MESS["PRODUCT_ENTITY_RECUR_SCHEME_TYPE_FIELD"] = "Jednostka czasu powtarzania płatności";
-$MESS["PRODUCT_ENTITY_SUBSCRIBE_FIELD"] = "Włącz rezerwację produktu";
+$MESS["PRODUCT_ENTITY_SUBSCRIBE_FIELD"] = "Włącz subskrypcję niedostępnych produktów";
 $MESS["PRODUCT_ENTITY_TIMESTAMP_X_FIELD"] = "Modyfikowane";
 $MESS["PRODUCT_ENTITY_TMP_ID_FIELD"] = "Tymczasowe ID produktu";
 $MESS["PRODUCT_ENTITY_TRIAL_PRICE_ID_FIELD"] = "Produkt dla płatności trial";
+$MESS["PRODUCT_ENTITY_TYPE_EMPTY_SKU"] = "nieprawidłowe SKU";
 $MESS["PRODUCT_ENTITY_TYPE_FIELD"] = "Rodzaj produktu";
 $MESS["PRODUCT_ENTITY_TYPE_FREE_OFFER"] = "oferta ogólna";
 $MESS["PRODUCT_ENTITY_TYPE_OFFER"] = "oferta produktów";
 $MESS["PRODUCT_ENTITY_TYPE_PRODUCT"] = "prosty";
-$MESS["PRODUCT_ENTITY_TYPE_SET"] = "ustaw";
+$MESS["PRODUCT_ENTITY_TYPE_SERVICE"] = "usługa";
+$MESS["PRODUCT_ENTITY_TYPE_SET_MSGVER_1"] = "pakiet";
 $MESS["PRODUCT_ENTITY_TYPE_SKU"] = "SKU";
 $MESS["PRODUCT_ENTITY_VAT_ID_FIELD"] = "ID podatku";
 $MESS["PRODUCT_ENTITY_VAT_INCLUDED_FIELD"] = "Uwzględnienie podatku";
 $MESS["PRODUCT_ENTITY_WEIGHT_FIELD"] = "Waga";
 $MESS["PRODUCT_ENTITY_WIDTH_FIELD"] = "Szerokość";
 $MESS["PRODUCT_ENTITY_WITHOUT_ORDER_FIELD"] = "Automatycznie przedłuż powtarzanie";
-?>

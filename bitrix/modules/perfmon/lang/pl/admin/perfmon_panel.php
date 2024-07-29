@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["PERFMON_PANEL_ADV_BANNERS_FIX_SHOWS"] = "Numer śledzenia wyświetleń banera";
 $MESS["PERFMON_PANEL_ADV_BANNERS_FIX_SHOWS_ON"] = "Aktywne śledzenie wyświetleń banera";
 $MESS["PERFMON_PANEL_ADV_BANNERS_FIX_SHOWS_REC"] = "Rozważyć wyłączenie śledzenia banner";
@@ -11,12 +11,6 @@ $MESS["PERFMON_PANEL_BTN_START"] = "Test wydajności";
 $MESS["PERFMON_PANEL_BTN_STOP"] = "Stop test";
 $MESS["PERFMON_PANEL_BTN_TEST"] = "Test systemu";
 $MESS["PERFMON_PANEL_CACHE_STORAGE"] = "Schowek przechowywania";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_APC"] = "APC";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_CLUSTER"] = "klastra memcache";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_FILES"] = "Pliki";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_MEMCACHE"] = "memcache";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_UNKNOWN"] = "nieznany";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_XCACHE"] = "XCache";
 $MESS["PERFMON_PANEL_CLUSTER_CONCURRENCY"] = "Połączenia";
 $MESS["PERFMON_PANEL_CLUSTER_ERRORS"] = "Błędy";
 $MESS["PERFMON_PANEL_CLUSTER_HITS"] = "Trafienia";
@@ -69,11 +63,11 @@ $MESS["PERFMON_PANEL_ENC_MODULES_ON"] = "Obecny";
 $MESS["PERFMON_PANEL_ENC_MODULES_REC"] = "Zainstaluj kody źródłowe tych modułów";
 $MESS["PERFMON_PANEL_FILES"] = "System plików";
 $MESS["PERFMON_PANEL_FILES_UNITS"] = "Plik operacji na sekundę";
-$MESS["PERFMON_PANEL_INTERVAL_1800_SEC"] = "dla 30 min.";
-$MESS["PERFMON_PANEL_INTERVAL_300_SEC"] = "dla 5 min.";
-$MESS["PERFMON_PANEL_INTERVAL_3600_SEC"] = "dla 1 godziny";
-$MESS["PERFMON_PANEL_INTERVAL_600_SEC"] = "dla 10 min.";
 $MESS["PERFMON_PANEL_INTERVAL_60_SEC"] = "dla 1 min.";
+$MESS["PERFMON_PANEL_INTERVAL_300_SEC"] = "dla 5 min.";
+$MESS["PERFMON_PANEL_INTERVAL_600_SEC"] = "dla 10 min.";
+$MESS["PERFMON_PANEL_INTERVAL_1800_SEC"] = "dla 30 min.";
+$MESS["PERFMON_PANEL_INTERVAL_3600_SEC"] = "dla 1 godziny";
 $MESS["PERFMON_PANEL_MAIL"] = "E-mail system";
 $MESS["PERFMON_PANEL_MAIL_UNITS"] = "Czas wysłania wiadomości e-mail (sek)";
 $MESS["PERFMON_PANEL_MANAGED_CACHE"] = "Zarządzanie pamięcią podręczną";
@@ -110,7 +104,6 @@ $MESS["PERFMON_PANEL_SEARCH_STEM_ON"] = "Szybkość wyszukiwania morfologicznego
 $MESS["PERFMON_PANEL_SEARCH_STEM_REC"] = "Umożliwienia szybkiego wyszukiwania i morfologicznych opcji wyszukiwania";
 $MESS["PERFMON_PANEL_SESSION"] = "Czas startu sesji";
 $MESS["PERFMON_PANEL_SESSION_ERR"] = "nieznany";
-$MESS["PERFMON_PANEL_SESSION_NOTE"] = "Start czasu trwania sesji nie można ustalić, ponieważ dane sesji są przechowywane w bazie danych Security Module.";
 $MESS["PERFMON_PANEL_SESSION_UNITS"] = "sek";
 $MESS["PERFMON_PANEL_STAT_SAVE_PATH"] = "Ścieżka strony kolekcji raportu danych";
 $MESS["PERFMON_PANEL_STAT_SAVE_PATH_OFF"] = "Wyłączony";
@@ -124,4 +117,3 @@ $MESS["PERFMON_PANEL_WARN_NOTE_1"] = "1. Buforowania nie prowadzi do tego skład
 $MESS["PERFMON_PANEL_WARN_NOTE_2"] = "2. Komponentów nie może być spełnienie zapytania do bazy danych, gdy autocaching jest włączona. Upewnij się, że buforowanie jest włączone w ustawieniach komponentu. Jeśli jest włączone buforowanie i problem będzie się powtarzał, skontaktuj się z deweloperem o sprostowanie.";
 $MESS["PERFMON_PANEL_WARN_NOTE_3"] = "3. Nieracjonalne wykorzystywanie cache - duże pliki tworzone w pamięci podręcznej. Rozmiar plików w cache nie powinna przekraczać 1 MB. Upewnij się, że składnik jest metodą SetResultCacheKeys i nie przechowywania nieużywanych danych.";
 $MESS["PERFMON_PANEL_WRONG_SERVER_NAME"] = "Zła nazwa serwera.";
-?>

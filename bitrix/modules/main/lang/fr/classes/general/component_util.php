@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["COMP_GROUP_ADDITIONAL_SETTINGS"] = "Paramètres avancés";
 $MESS["COMP_GROUP_AJAX_SETTINGS"] = "Les paramètres du mode AJAX";
 $MESS["COMP_GROUP_BASE"] = "Paramètres communs";
@@ -23,7 +23,7 @@ $MESS["COMP_NAME_TEMPLATE_SMITH_JOHN_LLOYD"] = "Smith John Lloyd";
 $MESS["COMP_NAME_TEMPLATE_SMITH_J_L"] = "Smith J.L.";
 $MESS["COMP_PARAM_CACHE_AUTO_OFF"] = "<span style = 'color: red'>désactivé</span>";
 $MESS["COMP_PARAM_CACHE_AUTO_ON"] = ":";
-$MESS["COMP_PARAM_CACHE_MAN"] = "-2 146 826 259";
+$MESS["COMP_PARAM_CACHE_MAN"] = "+ Gérée";
 $MESS["COMP_PARAM_CACHE_MANAGED_OFF"] = "<span style = 'color: red'>désactivé</span>";
 $MESS["COMP_PARAM_CACHE_MANAGED_ON"] = ":";
 $MESS["COMP_PARAM_DATETIME_FORMAT_SITE"] = "Format du site (y compris l'heure)";
@@ -69,9 +69,6 @@ $MESS["VRT_COMP_CAT_E-STORE"] = "Boutique en ligne";
 $MESS["VRT_COMP_CAT_SERVICE"] = "De services";
 $MESS["VRT_COMP_CAT_UTILITY"] = "Utilitaires";
 $MESS["comp_util_err1"] = "Nom de composant vide";
-$MESS["comp_util_err10"] = "Le modèle du site de destination n'est pas indiquée";
-$MESS["comp_util_err11"] = "Le modèle du composant ne peut pas être dupliqué dans le même modèle de site avec le même nom";
-$MESS["comp_util_err12"] = "Modèle '#NAME#' existe déjà";
 $MESS["comp_util_err2"] = "#NAME#'n'est pas un composant";
 $MESS["comp_util_err3"] = "Nom d'espace de noms '#NAME#' incorrect";
 $MESS["comp_util_err4"] = "Le nouveau nom de composant '#NAME#' est incorrect";
@@ -80,4 +77,6 @@ $MESS["comp_util_err6"] = "Composante '#NAME#' existe déjà";
 $MESS["comp_util_err7"] = "Dénomination inadmissible du modèle '#NAME#'";
 $MESS["comp_util_err8"] = "modèle de site avec le nom '#NAME#' est introuvable";
 $MESS["comp_util_err9"] = "Modèle avec le nom '#T_NAME#' pour la composante '#C_NAME#' est introuvable";
-?>
+$MESS["comp_util_err10"] = "Le modèle du site de destination n'est pas indiquée";
+$MESS["comp_util_err11"] = "Le modèle du composant ne peut pas être dupliqué dans le même modèle de site avec le même nom";
+$MESS["comp_util_err12"] = "Modèle '#NAME#' existe déjà";

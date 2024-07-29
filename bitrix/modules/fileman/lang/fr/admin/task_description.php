@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["TASK_BINDING_MEDIALIB"] = "Médiathèque";
 $MESS["TASK_BINDING_STICKERS"] = "Stickers";
 $MESS["TASK_DESC_FILEMAN_ALLOWED_FOLDERS"] = "Modification de fichiers et dossiers pour lesquels vous avez défini les autorisations appropriées sont autorisés";
@@ -24,5 +24,4 @@ $MESS["TASK_NAME_MEDIALIB_ONLY_NEW"] = "Ajouter une annonce";
 $MESS["TASK_NAME_MEDIALIB_VIEW"] = "Voir les collections";
 $MESS["TASK_NAME_STICKERS_DENIED"] = "Accès interdit";
 $MESS["TASK_NAME_STICKERS_EDIT"] = "Edition des stickers";
-$MESS["TASK_NAME_STICKERS_READ"] = "Voir Web-it";
-?>
+$MESS["TASK_NAME_STICKERS_READ"] = "Afficher les stickers";

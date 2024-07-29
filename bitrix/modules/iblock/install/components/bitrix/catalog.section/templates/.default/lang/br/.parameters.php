@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Imagens adicionais propriedade para o produto";
 $MESS["CP_BCS_TPL_ADD_PICT_PROP"] = "Imagem adicional do item principal";
 $MESS["CP_BCS_TPL_DML_EXT"] = "estendido";
@@ -10,6 +10,8 @@ $MESS["CP_BCS_TPL_MESS_BTN_DETAIL"] = "\"Detalhes\" botão de texto";
 $MESS["CP_BCS_TPL_MESS_BTN_DETAIL_DEFAULT"] = "Detalhes";
 $MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE"] = "Item não disponível mensagem";
 $MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Item não disponível";
+$MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Mensagem de serviço indisponível";
+$MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "indisponível";
 $MESS["CP_BCS_TPL_OFFER_ADD_PICT_PROP"] = "Propriedade de imagem adicional de SKU";
 $MESS["CP_BCS_TPL_OFFER_TREE_PROPS"] = "Propriedades para agrupamento de SKUs";
 $MESS["CP_BCS_TPL_PRODUCT_DISPLAY_MODE"] = "Modo de Ver";
@@ -36,4 +38,3 @@ $MESS["PRODUCT_SUBSCRIPTION_TIP"] = "Habilita o sistema para notificar o cliente
 $MESS["SHOW_DISCOUNT_PERCENT_TIP"] = "Se o desconto estiver ativo, mostrar a porcetagem do desconto";
 $MESS["SHOW_OLD_PRICE_TIP"] = "Se o desconto estiver ativa, mostra o preço anterior";
 $MESS["TEMPLATE_THEME_TIP"] = "Define as cores para tornar o texto do site e gráficos. Tema Azul é a opção padrão.";
-?>

@@ -1,5 +1,4 @@
-<?
-$MESS["ADDRESS_EMPTY"] = "Veuillez saisir l'adresse de l'entrepôt.";
+<?php
 $MESS["CAT_FEATURE_NOT_ALLOW"] = "Cette fonctionnalité n'est pas inclue dans Votre version du produit.";
 $MESS["CSTORE_SORT"] = "Trier";
 $MESS["CVAT_SORT"] = "Trier";
@@ -11,21 +10,26 @@ $MESS["STORE_CODE"] = "Code symbolique";
 $MESS["STORE_DELETE"] = "Supprimer";
 $MESS["STORE_DELETE_CONFIRM"] = "tes-vous sûr de vouloir supprimer ce stock ?";
 $MESS["STORE_DESCR"] = "Description";
-$MESS["STORE_E_USER_FIELDS_ADD_HREF"] = "Ajouter un champ d'utilisateur";
+$MESS["STORE_ERR_DEFAULT_STORE_WITH_SITE"] = "Cet entrepôt ne peut pas être lié à un site. Veuillez enregistrer les modifications pour rétablir le bon fonctionnement de l'entrepôt.";
+$MESS["STORE_FIELD_IS_DEFAULT"] = "Entrepôt par défaut";
+$MESS["STORE_FOR_ALL_SITES"] = "pour tous les sites";
 $MESS["STORE_GPS_N"] = "Latitude GPS";
 $MESS["STORE_GPS_S"] = "Longitude GPS";
 $MESS["STORE_IMAGE"] = "Image";
 $MESS["STORE_LIST"] = "Tous les entrepôts";
+$MESS["STORE_MESS_NO"] = "Non";
+$MESS["STORE_MESS_YES"] = "Oui";
 $MESS["STORE_NEW"] = "Ajouter";
 $MESS["STORE_PHONE"] = "Numéro de téléphone";
 $MESS["STORE_SAVE_ERROR"] = "Erreur entrepôt d'économie";
 $MESS["STORE_SCHEDULE"] = "Heures";
-$MESS["STORE_SELECT_SITE_ID"] = "Choisissez le site";
 $MESS["STORE_SITE_ID"] = "Site web";
-$MESS["STORE_TAB"] = "Entrepôts";
-$MESS["STORE_TAB_DESCR"] = "Entrepôt";
+$MESS["STORE_TAB_COMMON"] = "Paramètres";
+$MESS["STORE_TAB_COMMON_DESCR"] = "Paramètres de l'entrepôt";
+$MESS["STORE_TAB_UF"] = "Champs personnalisés";
+$MESS["STORE_TAB_UF_DESCR"] = "Champs personnalisés de l'entrepôt";
 $MESS["STORE_TITLE"] = "Dénomination";
 $MESS["STORE_TITLE_ADD"] = "Nouveau dépôt";
 $MESS["STORE_TITLE_UPDATE"] = "Modification du stock #ID#";
+$MESS["STORE_USER_FIELDS_ADD"] = "Ajouter un champ personnalisé";
 $MESS["STORE_XML_ID"] = "ID externe";
-?>

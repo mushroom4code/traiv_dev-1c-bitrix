@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBEL_A_UNLOCK"] = "Desbloquear";
 $MESS["IBLOCK_UNLOCK_ALT"] = "Desbloquear registros";
 $MESS["IBLOCK_UNLOCK_CONFIRM"] = "¿Seguro que deseas desbloquear el registro?";
@@ -49,6 +49,7 @@ $MESS["SALE_F_DELIVERY_SERVICE"] = "Servicio de envío ";
 $MESS["SALE_F_FILTER"] = "Filtro";
 $MESS["SALE_F_FROM"] = "desde";
 $MESS["SALE_F_ID"] = "ID del pedido";
+$MESS["SALE_F_IS_SYNC_B24"] = "Sincronización con Bitrix24";
 $MESS["SALE_F_LANG_CUR"] = "Sitio web / Moneda";
 $MESS["SALE_F_MARKED"] = "Problema de cumplimiento";
 $MESS["SALE_F_NONE"] = "sin origen";
@@ -87,6 +88,15 @@ $MESS["SALE_O_CONTEXT_B_DELIVERY_REQUESTS_SELECTED"] = "Enviar seleccionados";
 $MESS["SALE_O_CONTEXT_B_DELIVERY_REQUESTS_SELECTION_NEEDED"] = "Seleccione al menos un pedido";
 $MESS["SALE_O_CONTEXT_B_DELIVERY_REQUESTS_SL"] = "Se agregó una opción para enviar pedidos de transporte a Russian Post y obtener formularios imprimibles";
 $MESS["SALE_O_CONTEXT_B_DELIVERY_REQUESTS_TITLE"] = "Enviar pedidos de transporte para pedidos en la lista";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_CLOSE"] = "Cerrar";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_CREATE"] = "Abrir";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_SENDED"] = "No se pueden seleccionar pedidos porque ya se exportaron.\n\r ID de los pedidos";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_SEND_YES"] = "Sí";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_REGISTRY_TEXT_CREATE"] = "¿Abrir un nuevo formulario de pedidos?";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_SELECTION_MORE_ONE"] = "El pedido que seleccione estará vinculado a una negociación, por eso solo se puede seleccionar un pedido";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_SELECTION_MORE_THREE"] = "No puede exportar más de tres pedidos";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_SELECTION_NEEDED"] = "Seleccione un pedido";
+$MESS["SALE_O_CONTEXT_B_IS_SYNC_B24_TITLE"] = "Mensaje";
 $MESS["SALE_O_SHIPMENT_ID_TITLE"] = "Envío #&quot;#SHIPMENT_ID#&quot;";
 $MESS["SALE_PAY_ERROR"] = "Error al pagar el pedido";
 $MESS["SALE_PAY_ORDER"] = "Pagar";
@@ -146,6 +156,8 @@ $MESS["SOAN_LIST_STATUS_CHANGE"] = "Mover al Estado";
 $MESS["SOAN_MARKETPLACE_ADD_NEW"] = "Instalar desde Marketplace";
 $MESS["SOAN_MARKETPLACE_ADD_NEW_TITLE"] = "Instalar desde Marketplace";
 $MESS["SOAN_SELECTED"] = "Elegido";
+$MESS["SOAN_UPLOAD_FROM_REGISTRY_LINK"] = "Sincronizar con Bitrix24";
+$MESS["SOAN_UPLOAD_FROM_REGISTRY_TITLE"] = "Importar a Bitrix24 desde la lista de pedidos";
 $MESS["SOA_ACCOUNT_NUMBER"] = "Pedido #";
 $MESS["SOA_BASKET_CATALOG_XML_ID"] = "ID en catálogo externo";
 $MESS["SOA_BASKET_DISCOUNT_PRICE"] = "Descuento";
@@ -231,4 +243,3 @@ $MESS["SO_S_DATE_STATUS"] = "Fecha de modificación de estado";
 $MESS["SO_UNSUCCESS"] = "Sin éxito";
 $MESS["SO_XML_ID"] = "ID del pedido externo";
 $MESS["SO_YES"] = "Si";
-?>

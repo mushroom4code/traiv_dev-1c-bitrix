@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ELVL001_SIZE_ERROR"] = "Échec du téléchargement de la mise à jour. Essayez de répéter la procédure de téléchargement.";
 $MESS["HINT_WIND_EXEC"] = "Description des mises à jour";
 $MESS["HINT_WIND_EXEC_ALT"] = "Description des mises à jour";
@@ -144,12 +144,12 @@ $MESS["SUP_BAD_LANG_INSTALL"] = "Les langues sont installées avec erreurs";
 $MESS["SUP_BAD_UPD_INSTALL"] = "Des erreurs se sont produites lors de l'installation de la mise à jour";
 $MESS["SUP_BETA"] = "Comprend l'installation de versions beta.";
 $MESS["SUP_CANT_OPEN_FILE"] = "Échec d'ouverture du fichier pour l'écriture";
-$MESS["SUP_CHECK_ACT"] = "Activater le coupon";
+$MESS["SUP_CHECK_ACT"] = "Activer le coupon";
 $MESS["SUP_CHECK_PROMT"] = "Vous pouvez créer jusqu'à #NUM# site #END# sur cette copie du produit.";
 $MESS["SUP_CHECK_PROMT_1"] = "Afin de prolonger la durée du support technique, d'activer d'autres sites ou de passer à un autre éditeur, activez votre coupon.";
 $MESS["SUP_CHECK_PROMT_2"] = "Vous pouvez créer un nombre illimité de sites sur une copie donnée du produit.";
 $MESS["SUP_CHECK_PROMT_21"] = "Vous pouvez créer un nombre illimité d'utilisateurs sur une copie donnée du produit.";
-$MESS["SUP_COLLAPSE"] = "Fermer";
+$MESS["SUP_COLLAPSE"] = "Réduire";
 $MESS["SUP_DELETE_FROM_LOAD"] = "Annuler";
 $MESS["SUP_EDITION"] = "Edition du produit : ";
 $MESS["SUP_EMPTY_HELP_LANG"] = "La langue de l'assistance de chargement n'est pas indiquée";
@@ -162,7 +162,7 @@ $MESS["SUP_ENTER_KEY"] = "Veuillez saisir la clé de licence";
 $MESS["SUP_ERRORS"] = "Des erreurs ont été trouvées : ";
 $MESS["SUP_ERROR_BAD_MAIL_U"] = "L adresse email '#EMAIL#' est incorrecte";
 $MESS["SUP_ERROR_NO_MAIL_U"] = "Veuillez saisir votre adresse email pour vous abonner";
-$MESS["SUP_EXPAND"] = "Agrandir";
+$MESS["SUP_EXPAND"] = "Développer";
 $MESS["SUP_HELP_LOAD_BREAK"] = "Le téléchargement du système d'assistance a été interrompu";
 $MESS["SUP_HISTORY_LINK"] = "Revue du journal d'installation";
 $MESS["SUP_HIST_DATE"] = "Date";
@@ -271,7 +271,7 @@ $MESS["SUP_SUBSCR_ALREADY_CHANGE_U"] = "Modifier";
 $MESS["SUP_SUBSCR_ALREADY_DEL_U"] = "Supprimer";
 $MESS["SUP_SUBSCR_ALREADY_U"] = "Vous vous êtes souscrit à la réception des informations sur les mises à jour par courriel. Modifier la souscription : ";
 $MESS["SUP_SUBSCR_NEW_U"] = "Vous pouvez souscrire à la réception des informations sur les mises à jour par courriel : ";
-$MESS["SUP_TITLE_ACTIVATE_CHECK"] = "Activater le coupon";
+$MESS["SUP_TITLE_ACTIVATE_CHECK"] = "Activer le coupon";
 $MESS["SUP_TITLE_ADD_SITE"] = "Ajoutet le site";
 $MESS["SUP_TITLE_BASE"] = "Mise à jour de produit";
 $MESS["SUP_TITLE_HELP_2"] = "Etape 2. Visualisation et installation de l'aide";
@@ -307,4 +307,3 @@ $MESS["SUP_WORD_YAZIK_END3"] = "E";
 $MESS["SUP_WORD_YAZIK_END4"] = "a";
 $MESS["SUP_ZLIB"] = "Module PHP zlib installé. On va utiliser la compression de données.";
 $MESS["SUP_ZLIB_RECOM"] = "Pour le fonctionnement effectif du système des mises à jour il faut installer le module PHP zlib (la description du module est disponible à cette adresse <a href='#ZLIB_URL#' target='_blank'>#ZLIB_URL#</a>).";
-?>

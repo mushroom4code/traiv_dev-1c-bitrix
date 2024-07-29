@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["adm_auth1"] = "Si vous êtes l'utilisateur enregistré, vous pouvez";
 $MESS["adm_auth2"] = "identifiez-vous sur le site";
 $MESS["adm_auth_butt"] = "Autorisation";
@@ -19,7 +19,7 @@ $MESS["adm_reg_pass"] = "Mot de passe (au moins 6 caractères) : ";
 $MESS["adm_reg_pass_conf"] = "Confirmation du mot de passe : ";
 $MESS["adm_reg_text"] = "Les utilisateurs enregistrés peuvent gérer son information personnelle basée sur un compte commun.";
 $MESS["adm_send_code"] = "Re-envoyer le code de confirmation";
-$MESS["subscr_CAPTCHA_REGF_PROMT"] = "Types de tables différentes de type standard sont disponibles à partir de MySQL 4.0";
+$MESS["subscr_CAPTCHA_REGF_PROMT"] = "Saisissez le texte de l'image";
 $MESS["subscr_CAPTCHA_REGF_TITLE"] = "Protection contre les messages automatiques";
 $MESS["subscr_act"] = "Abonnement actif : ";
 $MESS["subscr_activate"] = "Activer";
@@ -66,4 +66,3 @@ $MESS["subscr_title_status_note2"] = "Votre abonnement est confirmé et actif.";
 $MESS["subscr_unsubscr"] = "Se désabonner";
 $MESS["subscr_upd"] = "Mettre à jour";
 $MESS["subscr_yes"] = "Oui";
-?>

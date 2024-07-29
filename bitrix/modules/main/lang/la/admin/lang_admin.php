@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION"] = "Acciones";
 $MESS["ACTIVE"] = "Activar";
 $MESS["ADD_LANG"] = "Agregar idioma &gt;&gt;";
@@ -22,4 +22,4 @@ $MESS["SAVE"] = "Guardar cambios";
 $MESS["SAVE_ERROR"] = "Error al guardar idioma";
 $MESS["SORT"] = "Clasificar";
 $MESS["TITLE"] = "Idiomas";
-?>
+$MESS["lang_admin_code"] = "ID";

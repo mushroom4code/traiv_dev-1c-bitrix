@@ -34,5 +34,6 @@ $MESS["MPL_MOBILE_HINTS"] = "Erstellt in der mobilen App";
 $MESS["MPL_MOBILE_HINTS_DETAILS"] = "Mehr";
 $MESS["MPL_MOBILE_POPUP_BOTTOM_TEXT"] = "Scannen Sie den QR-Code ein und folgen Sie dem Link, um die App zu installieren.";
 $MESS["MPL_MOBILE_POPUP_TITLE"] = "Aufgaben in der mobilen App verwalten";
+$MESS["MPL_QUOTE_COPILOT"] = "CoPilot";
 $MESS["MPL_SAFE_EDIT"] = "Sie schreiben eine Nachricht. Sollen Änderungen zurückgesetzt werden?";
 $MESS["MPL_SHOW_COLLAPSED_COMMENTS_MSGVER_1"] = "Pings anzeigen (#COLLAPSED_MESSAGES_COUNT#)";

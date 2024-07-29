@@ -4,7 +4,7 @@
  * Bitrix Framework
  * @package bitrix
  * @subpackage main
- * @copyright 2001-2023 Bitrix
+ * @copyright 2001-2024 Bitrix
  */
 
 use Bitrix\Main;
@@ -25,6 +25,21 @@ $application->initializeExtendedKernel([
 if (class_exists('\Dev\Main\Migrator\ModuleUpdater'))
 {
 	\Dev\Main\Migrator\ModuleUpdater::checkUpdates('main', __DIR__);
+}
+
+if (!Main\ModuleManager::isModuleInstalled('bitrix24'))
+{
+	// wwall rules
+	(new Main\Security\W\WWall)->handle();
+
+	$application->addBackgroundJob([
+		Main\Security\W\WWall::class, 'refreshRules'
+	]);
+
+	// vendor security notifications
+	$application->addBackgroundJob([
+		Main\Security\Notifications\VendorNotifier::class, 'refreshNotifications'
+	]);
 }
 
 if (defined('SITE_ID'))
@@ -94,9 +109,7 @@ if (!defined("BX_COMP_MANAGED_CACHE") && COption::GetOptionString("main", "compo
 // global functions
 require_once(__DIR__."/filter_tools.php");
 
-/*ZDUyZmZY2UwMmJmZmExZGRiZjYyZDZlZGIzNDJhMjRjMDRkYTk=*/$GLOBALS['____1145453027']= array(base64_decode(''.'ZGVmaW5'.'l'));if(!function_exists(__NAMESPACE__.'\\___31921321')){function ___31921321($_1730103420){static $_1118607223= false; if($_1118607223 == false) $_1118607223=array('R'.'U5DT0'.'RF',''.'WQ==');return base64_decode($_1118607223[$_1730103420]);}};class CBXFeatures{ public static function IsFeatureEnabled($_1085272632){ return true;} public static function IsFeatureEditable($_1085272632){ return true;} public static function SetFeatureEnabled($_1085272632, $_1809229235= true){} public static function SaveFeaturesSettings($_1205074343, $_1492264505){} public static function GetFeaturesList(){ return array();} public static function InitiateEditionsSettings($_1057319913){} public static function ModifyFeaturesSettings($_1057319913, $_1326015178){} public static function IsFeatureInstalled($_1085272632){ return true;}} $GLOBALS['____1145453027'][0](___31921321(0), ___31921321(1));/**/			//Do not remove this
-
-require_once(__DIR__."/autoload.php");
+/*ZDUyZmZODliNDY0ODA5NTc0NDMyNjU4MDcxNjYzOTBhYjE3OTY=*/$GLOBALS['____1158325735']= array(base64_decode('ZGV'.'maW5l'));if(!function_exists(__NAMESPACE__.'\\___235451250')){function ___235451250($_1311848018){static $_186801818= false; if($_186801818 == false) $_186801818=array('RU5DT0'.'RF','WQ'.'==');return base64_decode($_186801818[$_1311848018]);}};class CBXFeatures{ public static function IsFeatureEnabled($_740799095){ return true;} public static function IsFeatureEditable($_740799095){ return true;} public static function SetFeatureEnabled($_740799095, $_416018076= true){} public static function SaveFeaturesSettings($_376827946, $_1120380354){} public static function GetFeaturesList(){ return array();} public static function InitiateEditionsSettings($_2031195999){} public static function ModifyFeaturesSettings($_2031195999, $_1009162857){} public static function IsFeatureInstalled($_740799095){ return true;}} $GLOBALS['____1158325735'][0](___235451250(0), ___235451250(1));/**/			//Do not remove this
 
 // Component 2.0 template engines
 $GLOBALS['arCustomTemplateEngines'] = [];
@@ -131,7 +144,7 @@ if (($_fname = getLocalPath("php_interface/".SITE_ID."/init.php", BX_PERSONAL_RO
 //global var, is used somewhere
 $GLOBALS["sDocPath"] = $GLOBALS["APPLICATION"]->GetCurPage();
 
-if ((!(defined("STATISTIC_ONLY") && STATISTIC_ONLY && mb_substr($GLOBALS["APPLICATION"]->GetCurPage(), 0, mb_strlen(BX_ROOT."/admin/")) != BX_ROOT."/admin/")) && COption::GetOptionString("main", "include_charset", "Y")=="Y" && LANG_CHARSET <> '')
+if ((!(defined("STATISTIC_ONLY") && STATISTIC_ONLY && !str_starts_with($GLOBALS["APPLICATION"]->GetCurPage(), BX_ROOT . "/admin/"))) && COption::GetOptionString("main", "include_charset", "Y")=="Y" && LANG_CHARSET <> '')
 {
 	header("Content-Type: text/html; charset=".LANG_CHARSET);
 }
@@ -383,7 +396,7 @@ if (!defined("NOT_CHECK_PERMISSIONS") || NOT_CHECK_PERMISSIONS!==true)
 					$kernelSession['BX_ADMIN_LOAD_AUTH'] = true;
 
 					// die() follows
-					CMain::FinalActions('<script type="text/javascript">window.onload=function(){(window.BX || window.parent.BX).AUTHAGENT.setAuthResult(false);};</script>');
+					CMain::FinalActions('<script>window.onload=function(){(window.BX || window.parent.BX).AUTHAGENT.setAuthResult(false);};</script>');
 				}
 			}
 		}
@@ -573,7 +586,7 @@ if ((!defined("NOT_CHECK_PERMISSIONS") || NOT_CHECK_PERMISSIONS!==true) && (!def
 			}
 			elseif (isset($_REQUEST["mode"]) && $_REQUEST["mode"] === "frame")
 			{
-				echo "<script type=\"text/javascript\">
+				echo "<script>
 					var w = (opener? opener.window:parent.window);
 					w.location.href='".$GLOBALS["APPLICATION"]->GetCurPage()."?".DeleteParam(array("mode"))."';
 				</script>";

@@ -1,6 +1,6 @@
-<?
+<?php
 $MESS["BIZVAL_CODE_1C_REKV_ADD"] = "Ajouter une propriété";
-$MESS["BIZVAL_CODE_ACTIVE"] = "Actif";
+$MESS["BIZVAL_CODE_ACTIVE"] = "Activité";
 $MESS["BIZVAL_CODE_ADDRESS"] = "Adresse";
 $MESS["BIZVAL_CODE_AGENT_NAME"] = "Agent full name";
 $MESS["BIZVAL_CODE_APARTMENT"] = "Appartement";
@@ -156,4 +156,3 @@ $MESS["BIZVAL_PROVIDER_PROPERTY"] = "Propriétés des commandes";
 $MESS["BIZVAL_PROVIDER_SHIPMENT"] = "Finalisation";
 $MESS["BIZVAL_PROVIDER_USER"] = "Utilisateur";
 $MESS["BIZVAL_PROVIDER_VALUE"] = "Valeur";
-?>

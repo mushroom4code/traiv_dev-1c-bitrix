@@ -4,6 +4,7 @@ $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_BROADCAST_MODE"] = "Режим тран
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_BROADCAST_MODE_HINT"] = "Режим трансляції дозволяє обрати спікерів, які будуть транслювати відео і звук. Усі інші користувачі можуть дивитися трансляцію та спілкуватися в чаті.";
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_BUTTON_CANCEL"] = "Скасувати";
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_BUTTON_CLOSE"] = "Закрити";
+$MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_BUTTON_OPEN_CHAT"] = "Відкрити чат";
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_BUTTON_SAVE"] = "Зберегти та скопіювати посилання";
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_BUTTON_START"] = "Почати конференцію";
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_COPY_CONFIRMATION"] = "Посилання скопійоване";
@@ -19,5 +20,4 @@ $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_PRESENTERS"] = "Спікери";
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_PUSH_ERROR"] = "Для використання конференцій оновіть Push-сервер, який використовується на вашому порталі";
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_SUCCESS"] = "Конференція успішно створена!";
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_USERS_LOADING"] = "Завантаження…";
-$MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_VOXIMPLANT_ERROR"] = "Для використання конференцій на вашому порталі повинен бути встановлений і налаштований модуль телефонії";
 $MESS["BX_IM_COMPONENT_CONFERENCE_CREATE_VOXIMPLANT_ERROR_WITH_LINK"] = "Для використання конференцій необхідно налаштувати оточення. <a onclick=\"top.BX.Helper.show('redirect=detail&code=11392174')\"> Детальніше</a>";

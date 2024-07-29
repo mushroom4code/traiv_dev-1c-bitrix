@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["ERROR_NO_HANDLER"] = "Gestionnaire de la caisse enregistreuse non précisé";
 $MESS["ERROR_NO_NAME"] = "Nom de la société non renseigné";
 $MESS["ERROR_NO_OFD"] = "OFD non spécifié";
 $MESS["SALE_ACCESS_DENIED"] = "Accès refusé.";
 $MESS["SALE_CASHBOX_2FLIST"] = "Retour à la liste";
-$MESS["SALE_CASHBOX_ACTIVE"] = "Actif";
+$MESS["SALE_CASHBOX_ACTIVE"] = "Activité";
 $MESS["SALE_CASHBOX_EDIT_RECORD"] = "Éditer la caisse enregistreuse";
 $MESS["SALE_CASHBOX_ERROR"] = "Une erreur est survenue lors de la suppression d'un objet.";
 $MESS["SALE_CASHBOX_EXTERNAL_UUID"] = "ID de la caisse enregistreuse externe";
@@ -30,4 +30,3 @@ $MESS["SALE_NEW_CASHBOX"] = "Ajouter une caisse enregistreuse";
 $MESS["SALE_TAB_CASHBOX"] = "Caisse enregistreuse";
 $MESS["SALE_TAB_CASHBOX_DESCR"] = "Paramètres de la caisse enregistreuse";
 $MESS["SPSN_DELETE_CASHBOX_CONFIRM"] = "Voulez-vous vraiment supprimer la caisse enregistreuse ?";
-?>

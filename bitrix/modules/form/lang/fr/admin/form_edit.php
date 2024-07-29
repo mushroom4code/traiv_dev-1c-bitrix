@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FORM_ANSWER_VAL"] = "valeurs de réponse";
 $MESS["FORM_ANS_ADD"] = "Ajouter une variante de réponse";
 $MESS["FORM_ANS_DEL"] = "Supprimer une des réponses";
@@ -71,7 +71,6 @@ $MESS["FORM_FORM_NAME"] = "Formulaire : ";
 $MESS["FORM_GENERATE"] = "générer";
 $MESS["FORM_IMAGE"] = "Image : ";
 $MESS["FORM_MAIL_TEMPLATE"] = "Adresse email modèle : ";
-$MESS["FORM_MENU"] = "Les éléments de menu<br>dans la section admin : ";
 $MESS["FORM_METHOD_HAS_NO_PARAMS"] = "Element n'a pas toutes les propriétés";
 $MESS["FORM_NAME"] = "Dénomination : ";
 $MESS["FORM_NEW_RECORD"] = "Nouveau formulaire";
@@ -167,4 +166,3 @@ $MESS["F_TYPES_RADIO"] = "Boutons radio";
 $MESS["F_TYPES_TEXT"] = "inscription (texte)";
 $MESS["F_TYPES_TEXTAREA"] = "Texte";
 $MESS["F_TYPES_URL"] = "WWW address";
-?>

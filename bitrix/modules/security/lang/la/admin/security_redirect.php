@@ -1,9 +1,8 @@
-<?
+<?php
 $MESS["SEC_REDIRECT_ACTIONS"] = "Acciones de protección de \"phishing\":";
 $MESS["SEC_REDIRECT_ACTIONS_HEADER"] = "Acciones";
 $MESS["SEC_REDIRECT_ACTION_REDIRECT"] = "Redirigir a la URL especificada.";
 $MESS["SEC_REDIRECT_ACTION_REDIRECT_URL"] = "URL:";
-$MESS["SEC_REDIRECT_ACTION_SHOW_MESSAGE"] = "Mostrar mensaje de notificación y redirigir al otro sitio web después de la espera.";
 $MESS["SEC_REDIRECT_ADD"] = "Agregar";
 $MESS["SEC_REDIRECT_BUTTON_OFF"] = "Desactivar la Protección de redirección contra ataques de phishing";
 $MESS["SEC_REDIRECT_BUTTON_ON"] = "Habilitar Protección de redirección contra ataques de phishing";
@@ -36,10 +35,7 @@ $MESS["SEC_REDIRECT_REFERER_CHECK"] = "Comprobación de la existencia de la cabe
 $MESS["SEC_REDIRECT_REFERER_SITE_CHECK"] = "El encabezado \"Referencia\" debe contener el nombre del dominio del sitio web actual.";
 $MESS["SEC_REDIRECT_SHOW_MESSAGE_AND_STAY"] = "Mostrar mensaje de notificación sobre la redirección a otra URL.";
 $MESS["SEC_REDIRECT_SYSTEM"] = "Sistema";
-$MESS["SEC_REDIRECT_TIMEOUT"] = "Plazo:";
-$MESS["SEC_REDIRECT_TIMEOUT_SEC"] = "seg.";
 $MESS["SEC_REDIRECT_TITLE"] = "Protección de redirección contra ataques de phishing";
 $MESS["SEC_REDIRECT_URL"] = "URL:";
 $MESS["SEC_REDIRECT_URLS"] = "Firmado URL";
 $MESS["SEC_REDIRECT_USER"] = "Usuarios";
-?>

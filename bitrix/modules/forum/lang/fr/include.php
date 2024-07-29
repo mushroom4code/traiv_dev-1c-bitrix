@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADDMESS_AFTER_MODERATE"] = "Il sera visible après modération";
 $MESS["ADDMESS_ERROR_ADD_MESSAGE"] = "Erreur de création d'un nouveau message";
 $MESS["ADDMESS_ERROR_ADD_TOPIC"] = "Erreur créant un nouveau sujet";
@@ -146,7 +146,7 @@ $MESS["FR_NO_VPERS"] = "L'utilisateur pour lequel vous votez n'est pas indiqué"
 $MESS["FR_NUM_MESS"] = "Total de messages : ";
 $MESS["FR_PRIVATE_MESSAGE"] = "Lettre";
 $MESS["FR_PROFILE"] = "Directions d'activité";
-$MESS["FR_QUOTE"] = "Offre";
+$MESS["FR_QUOTE"] = "Citer";
 $MESS["FR_QUOTE_HINT"] = "Sélectionnez la citation pour l'insérer dans une forme de réponse et cliquez ici";
 $MESS["FR_REAL_IP"] = "/ réel(le)";
 $MESS["FR_SHOW"] = "Afficher";
@@ -211,4 +211,3 @@ $MESS["TOTOP_NO_PERMS1"] = "Autorisations insuffisantes pour dégoupiller ce suj
 $MESS["TOTOP_NO_TOPIC"] = "Pas de thème choisi";
 $MESS["TOTOP_SUCCESS_TOP"] = "Le sujet a été épinglé avec succès.";
 $MESS["TOTOP_SUCCESS_TOP1"] = "Le sujet a été avec succès dégoupillée.";
-?>

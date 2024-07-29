@@ -1,13 +1,13 @@
-<?
+<?php
 $MESS["SAAN_ADD_NEW"] = "Agregar una nueva cuenta";
 $MESS["SAAN_ADD_NEW_ALT"] = "Click para agregar una nueva cuenta";
-$MESS["SAAN_LOCK_ACCT"] = "Bloqueado";
+$MESS["SAAN_LOCK_ACCT"] = "Congelado";
 $MESS["SAAN_TRANSACT"] = "Transacciones";
-$MESS["SAAN_UNLOCK_DO"] = "desbloqueado";
+$MESS["SAAN_UNLOCK_DO"] = "descongelar";
 $MESS["SAA_ACTIONS"] = "Acciones";
 $MESS["SAA_ADD_NEW"] = "Agregar";
 $MESS["SAA_ALL"] = "(todo)";
-$MESS["SAA_CURRENCY"] = "Moneda:";
+$MESS["SAA_CURRENCY"] = "Moneda";
 $MESS["SAA_DELETE"] = "Eliminar";
 $MESS["SAA_DELETE_ALL"] = "Marcar/desmarcar cuenta para ser cancelada";
 $MESS["SAA_DELETE_ALT"] = "Eliminar cuenta";
@@ -18,7 +18,7 @@ $MESS["SAA_ERROR_GET"] = "Error al traer los parámetros de la cuenta ##ID#";
 $MESS["SAA_ERROR_MONEY"] = "Error al cargar la cuenta ##ID#";
 $MESS["SAA_ERROR_UNLOCK"] = "Error al desbloquear la cuenta ##ID#";
 $MESS["SAA_ITOG"] = "Total";
-$MESS["SAA_LOCKED"] = "Bloqeado:";
+$MESS["SAA_LOCKED"] = "Congelado";
 $MESS["SAA_MAILTO"] = "Escribir carta";
 $MESS["SAA_NAV"] = "Cuentas";
 $MESS["SAA_NO"] = "No";
@@ -33,12 +33,11 @@ $MESS["SAA_UNLOCK"] = "Desbloquear";
 $MESS["SAA_UNLOCK_ALT"] = "Desbloquear cuentas";
 $MESS["SAA_UNSET"] = "Resetear";
 $MESS["SAA_UPDATE"] = "Editar";
-$MESS["SAA_UPDATE_ALT"] = "Editar parámetrosd e cuenta";
-$MESS["SAA_USER"] = "Usuario:";
+$MESS["SAA_UPDATE_ALT"] = "Editar cuenta";
+$MESS["SAA_USER"] = "Usuario";
 $MESS["SAA_USER1"] = "Usuario";
-$MESS["SAA_USER_ID"] = "ID de usuarios:";
+$MESS["SAA_USER_ID"] = "ID de usuarios";
 $MESS["SAA_USER_INFO"] = "Usar perfil";
-$MESS["SAA_USER_LOGIN"] = "Login de usuario:";
+$MESS["SAA_USER_LOGIN"] = "Login de usuario";
 $MESS["SAA_VIEW_TRANS"] = "Ver transacciones de usuarios";
 $MESS["SAA_YES"] = "Si";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CP_BIEAF_DETAIL_TEXT_USE_HTML_EDITOR"] = "Editar detalle del texto en Editor Visual Lite";
 $MESS["CP_BIEAF_PREVIEW_TEXT_USE_HTML_EDITOR"] = "Editar vista previa del texto en Editor Visual Lite";
 $MESS["CP_BIEAF_RESIZE_IMAGES"] = "Usar configuración de blocks de información para Procesamiento de Imágenes";
@@ -66,9 +66,8 @@ $MESS["PROPERTY_CODES_REQUIRED_TIP"] = "Especifique aquí los campos y propiedad
 $MESS["PROPERTY_CODES_TIP"] = "Seleccione aquí los campos del block de información y las propiedades del campo que desea mostrar en el formulario de creación del elemento.";
 $MESS["SEF_FOLDER_TIP"] = "Especifica la carpeta de trabajo del componente. La carpeta puede ser representada por una verdadera ruta del sistema de archivos, o puede ser virtual.";
 $MESS["SEF_MODE_TIP"] = "Al activar esta opción se habilita el modo SEF y la URL de los campos de configuración.";
-$MESS["STATUS_NEW_TIP"] = "Si el módulo de flujo de trabajo está <b>not</b> instalado, puede especificar el estado (activo o inactivo) de los documentos nuevos o modificados.<br /><br />Si el módulo de flujo de trabajo está instalado, puede seleccionar el estado que se aplicará a elementos nuevos o modificados.";
-$MESS["STATUS_TIP"] = "Si el módulo de flujo de trabajo está <b>not</b> instalado, puede permitir que los usuarios modifiquen todos o sólo elementos inactivos.<br /><br />Si está instalado el módulo de flujo de trabajo, puede especificar los estados en los que los elementos pueden mostrarse a los usuarios.";
+$MESS["STATUS_NEW_TIP"] = "Si el módulo de procesos de negocio está <b>not</b> instalado, puede especificar el estado (activo o inactivo) de los documentos nuevos o modificados.<br /><br />Si el módulo de procesos de negocio está instalado, puede seleccionar el estado que se aplicará a elementos nuevos o modificados.";
+$MESS["STATUS_TIP"] = "Si el módulo de procesos de negocio está <b>not</b> instalado, puede permitir que los usuarios modifiquen todos o sólo elementos inactivos.<br /><br />Si está instalado el módulo de procesos de negocio, puede especificar los estados en los que los elementos pueden mostrarse a los usuarios.";
 $MESS["USER_MESSAGE_ADD_TIP"] = "Especificar un mensaje de texto que se mostrará a un usuario después de crear un elemento.";
 $MESS["USER_MESSAGE_EDIT_TIP"] = "Especificar un mensaje de texto que se mostrará a un usuario después de que se haya guardado un elemento modificado.";
 $MESS["USE_CAPTCHA_TIP"] = "Especificar que se muestre y utilizar CAPTCHA al agregar un nuevo elemento";
-?>

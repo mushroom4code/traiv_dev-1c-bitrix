@@ -1,10 +1,16 @@
-<?
+<?php
 $MESS["BT_MOD_CATALOG_ERR_BEFORE_DEL_TITLE"] = "Erreur lors de la suppression dans";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_CODE"] = "Impossible de modifier l'ID de la propriété système \"Brand\" car elle est utilisée par les Canaux ouverts pour envoyer des produits.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_MULTIPLE"] = "Impossible de rendre non-multiple la propriété système \"Brand\" car elle est utilisée par les Canaux ouverts pour envoyer des produits.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_NAME"] = "Impossible de modifier le nom de la propriété système \"Brand\" car elle est utilisée par les Canaux ouverts pour envoyer des produits.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_TYPE_SKU_PROPERTY"] = "La propriété ##SKU_PROPERTY_ID# ne peut pas être modifiée parce qu'elle lie le bloc d'information de produit ##PRODUCT_IBLOCK_ID# au bloc d'information d'UGS ##IBLOCK_ID#";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_BRAND_PROPERTY"] = "Impossible de supprimer la propriété système \"Brand\" car elle est utilisée par les Canaux ouverts pour envoyer des produits.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_OFFERS"] = "Impossible de supprimer les offres commerciales";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_PRODUCTS_INFO"] = "Impossible de supprimer l'information commerciale sur les éléments de catalogue";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_PRODUCT_IBLOCK"] = "Vous ne pouvez pas supprimer un bloc d'information qui contient des offres commerciales.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_SKU_IBLOCK"] = "Vous ne pouvez pas supprimer le bloc d'information d'offres commerciales.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_SKU_PROPERTY"] = "La propriété ##SKU_PROPERTY_ID# ne peut pas être supprimée, car c'est un fichier du bloc d'information des produits ##PRODUCT_IBLOCK_ID# et offres commerciales ##IBLOCK_ID#.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_SET_MULTIPLE_SKU_PROPERTY"] = "La propriété ##SKU_PROPERTY_ID# ne peut pas être multipliée parce qu'elle lie le bloc d'information de produit ##PRODUCT_IBLOCK_ID# au bloc d'information d'UGS ##IBLOCK_ID#";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_ABSENT"] = "Le bloc d'information indiqué n'existe pas.";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_FIELD_ABSENT"] = "Bloc d'information non spécifié.";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_INVALID"] = "L'ID du bloc d'information est incorrect.";
@@ -23,4 +29,3 @@ $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_ID_INVALID"] = "ID des propriétés de la lia
 $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_NOT_FOUND"] = "La propriété indiquée du rattachement n'existe pas ou inactive";
 $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_WITHOUT_PRODUCT"] = "ID de la propriété du rattachement au bloc d'information des produits est indiqué, mais ID du bloc d'information des produits n'est pas indiqué.";
 $MESS["BT_MOD_CATALOG_ERR_UPDATE_BAD_ID"] = "IDE erronée du catalogue de marchandises.";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_XML2_AMOUNT"] = "Кількість";
 $MESS["IBLOCK_XML2_ANONS"] = "Анонс";
 $MESS["IBLOCK_XML2_ARTICLE"] = "Артикул";
@@ -139,6 +139,7 @@ $MESS["IBLOCK_XML2_PRICE_TYPE"] = "ТипЦіни";
 $MESS["IBLOCK_XML2_PRICE_TYPES"] = "ТипиЦін";
 $MESS["IBLOCK_XML2_PRICE_TYPE_ID"] = "ІдТипуЦіни";
 $MESS["IBLOCK_XML2_PRODUCTS_SETS"] = "НабориТоваров";
+$MESS["IBLOCK_XML2_PRODUCT_MAPPING"] = "ВидимістьТовару";
 $MESS["IBLOCK_XML2_PRODUCT_SET"] = "Набір";
 $MESS["IBLOCK_XML2_PRODUCT_SETS"] = "НабориТовара";
 $MESS["IBLOCK_XML2_PRODUCT_SET_ITEM"] = "ЕлементНабора";
@@ -205,4 +206,3 @@ $MESS["IBLOCK_XML2_VERSION"] = "НомерВерсіі";
 $MESS["IBLOCK_XML2_VIEW"] = "Подання";
 $MESS["IBLOCK_XML2_WEIGHT"] = "Вага";
 $MESS["IBLOCK_XML2_WIDTH"] = "Ширина";
-?>

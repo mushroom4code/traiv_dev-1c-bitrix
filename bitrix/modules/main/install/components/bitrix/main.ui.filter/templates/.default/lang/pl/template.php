@@ -1,4 +1,9 @@
-<?
+<?php
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_MENU_HAS_ANY_VALUE"] = "Niepuste";
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_MENU_IS_EMPTY"] = "Puste";
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_PLACEHOLDER_HAS_ANY_VALUE"] = "Niepuste, dowolna wartość";
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_PLACEHOLDER_HOW"] = "Jak działa to pole?";
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_PLACEHOLDER_IS_EMPTY"] = "Puste";
 $MESS["MAIN_UI_FILTER__ADD_FIELD"] = "Dodaj pole";
 $MESS["MAIN_UI_FILTER__ADD_FILTER"] = "Zapisz filtr";
 $MESS["MAIN_UI_FILTER__BUTTON_CANCEL"] = "Anuluj";
@@ -9,6 +14,11 @@ $MESS["MAIN_UI_FILTER__CONFIRM_RESET_CANCEL"] = "Anuluj";
 $MESS["MAIN_UI_FILTER__CONFIRM_RESET_MESSAGE"] = "Domyślne filtry zostaną przywrócone, ale twoje własne filtry pozostaną bez zmian.";
 $MESS["MAIN_UI_FILTER__DRAG_TITLE"] = "Przeciągnij, aby uporządkować listę filtrów";
 $MESS["MAIN_UI_FILTER__EDIT_PRESET_TITLE"] = "Edytuj nazwę filtra";
+$MESS["MAIN_UI_FILTER__FIELDS_SETTINGS_TITLE"] = "Ustawienia pola filtrowania";
+$MESS["MAIN_UI_FILTER__FIELD_ALL_SECTIONS_DISABLED"] = "Wybierz element(y) do pokazania pól.";
+$MESS["MAIN_UI_FILTER__FIELD_EMPTY_STATE_DESCRIPTION"] = "Upewnij się, że pisownia jest prawidłowa.";
+$MESS["MAIN_UI_FILTER__FIELD_EMPTY_STATE_TITLE"] = "Nie znaleziono pola";
+$MESS["MAIN_UI_FILTER__FIELD_SEARCH_PLACEHOLDER"] = "Znajdź pole";
 $MESS["MAIN_UI_FILTER__FILTER"] = "Filtry";
 $MESS["MAIN_UI_FILTER__FILTER_NAME_PLACEHOLDER"] = "Nazwa filtra";
 $MESS["MAIN_UI_FILTER__FILTER_SETTINGS_TITLE"] = "Konfiguruj filtr";
@@ -24,4 +34,3 @@ $MESS["MAIN_UI_FILTER__RESET_LINK"] = "Przywróć domyślne";
 $MESS["MAIN_UI_FILTER__RESTORE_FIELDS"] = "Przywróć domyślne pola";
 $MESS["MAIN_UI_FILTER__RESTORE_PRESET"] = "Przywróć filtr";
 $MESS["MAIN_UI_FILTER__SET_AS_DEFAULT_PRESET"] = "Ustaw jako domyślny filtr";
-?>

@@ -1,6 +1,7 @@
-<?
+<?php
 $MESS["LANDING_TABLE_ERROR_CANT_BE_EMPTY"] = "O endereço da página não pode estar vazio.";
-$MESS["LANDING_TABLE_ERROR_PAGE_LIMIT_REACHED"] = "O limite da página foi alcançado. Entre em contato com a Assistência Técnica.";
+$MESS["LANDING_TABLE_ERROR_FOLDER_NOT_FOUND"] = "A pasta não foi encontrada.";
+$MESS["LANDING_TABLE_ERROR_LD_IS_LOCK"] = "A página não pode ser excluída";
 $MESS["LANDING_TABLE_ERROR_SITE_NOT_FOUND"] = "O site não foi encontrado.";
 $MESS["LANDING_TABLE_ERROR_SLASH_IS_NOT_ALLOWED"] = "O caractere de barra não pode ser usado em um endereço de destino.";
 $MESS["LANDING_TABLE_FIELD_CREATED_BY_ID"] = "Criado pelo ID do usuário";
@@ -17,4 +18,3 @@ $MESS["LANDING_TABLE_FIELD_MODIFIED_BY_ID"] = "Modificado pelo ID do usuário";
 $MESS["LANDING_TABLE_FIELD_SITE_ID"] = "Site";
 $MESS["LANDING_TABLE_FIELD_TPL_ID"] = "Modelo";
 $MESS["LANDING_TABLE_FIELD_XML_ID"] = "ID externo";
-?>

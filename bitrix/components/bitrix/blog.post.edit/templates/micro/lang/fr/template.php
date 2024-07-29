@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_ACCESS"] = "Accès";
 $MESS["BLOG_ALL_USERS"] = "tous les utilisateurs";
 $MESS["BLOG_APPLY"] = "Appliquer";
@@ -34,7 +34,7 @@ $MESS["BLOG_SEND_MICRO"] = "Envoyer";
 $MESS["BLOG_SEND_MICRO_NEW"] = "Ajouter";
 $MESS["BLOG_SPECIAL_PERMS"] = "Paramètres spéciaux d'accès";
 $MESS["BLOG_TO_DRAFT"] = "Aux brouillons";
-$MESS["BLOG_VIEWS"] = "vues";
+$MESS["BLOG_VIEWS"] = "Vues";
 $MESS["BPC_ERROR_NO_TITLE"] = "Vous devez entrer le nom";
 $MESS["BPC_ERROR_NO_URL"] = "Vous devez faire entrer l'adresse (URL)";
 $MESS["BPC_IMAGE_SIZE_NOTICE"] = "Taille maximale admissible de l'image chargée <b>#SIZE#Mb</b>.";
@@ -69,9 +69,8 @@ $MESS["FPF_HYPERLINK"] = "Hyperlink";
 $MESS["FPF_IMAGE"] = "Couleur";
 $MESS["FPF_ITALIC"] = "Italique";
 $MESS["FPF_LIST"] = "Présentation du texte sous forme de liste";
-$MESS["FPF_QUOTE"] = "Offre";
+$MESS["FPF_QUOTE"] = "Citation";
 $MESS["FPF_STRIKE"] = "Texte barré";
 $MESS["FPF_UNDER"] = "Texte avec un tiret bas";
 $MESS["FPF_VIDEO"] = "Intégrer la vidéo";
 $MESS["STOF_REQUIED_FIELDS_NOTE"] = "Le symbole 'astérisque' (<span style='color:#FF0000'>*</span>) indique les champs qui doivent être obligatoirement remplis.";
-?>

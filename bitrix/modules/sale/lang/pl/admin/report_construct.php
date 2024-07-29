@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATALOG_MODULE_NOT_INSTALLED"] = "Moduł Katalog Produktów nie jest zainstalowany.";
 $MESS["IBLOCK_MODULE_NOT_INSTALLED"] = "Moduł Bloków Informacji nie jest zainstalowany.";
 $MESS["REPORT_ADD"] = "Dodawanie";
@@ -50,12 +50,12 @@ $MESS["REPORT_NO_COLUMN_SELECTED"] = "Żadne kolumny nie są wybrane.";
 $MESS["REPORT_PERIOD"] = "Okres raportowania";
 $MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleBasket"] = "Koszyk";
 $MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleFuser"] = "Gość";
-$MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleOrder"] = "Zamów";
+$MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleOrder"] = "Zamówienie";
 $MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleProduct"] = "Produkt";
 $MESS["REPORT_POPUP_COLUMN_TITLE_sale_User"] = "Klient";
 $MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleBasket"] = "Koszyk";
 $MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleFuser"] = "Gość";
-$MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleOrder"] = "Zamów";
+$MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleOrder"] = "Zamówienie";
 $MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleProduct"] = "Produkt";
 $MESS["REPORT_POPUP_FILTER_TITLE_sale_User"] = "Klient";
 $MESS["REPORT_PRCNT_BUTTON_TITLE"] = "%";
@@ -104,4 +104,3 @@ $MESS["SALE_REPORT_CONSTRUCT_TITLE"] = "Nowy raport";
 $MESS["SALE_REPORT_CONSTRUCT_TITLE_LABEL"] = "Nazwa raportu:";
 $MESS["SALE_REPORT_EDIT_TITLE"] = "Edytuj raport";
 $MESS["SALE_REPORT_HELPER_SELECTOR_LABEL_TEXT"] = "Wybierz pole początkowe do użycia w nowym raporcie";
-?>

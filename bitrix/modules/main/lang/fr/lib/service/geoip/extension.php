@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_SRV_GEOIP_EXT_DB_ASN"] = "ASN";
 $MESS["MAIN_SRV_GEOIP_EXT_DB_AVIALABLE"] = "Bases de données disponibles";
 $MESS["MAIN_SRV_GEOIP_EXT_DB_CITY"] = "Villes";
@@ -9,4 +9,4 @@ $MESS["MAIN_SRV_GEOIP_EXT_DESCRIPTION"] = "L'extension GeoIP vous permet de trou
 Vous trouverez tous les détails sur l'installation et la configuration ici : <a href='http://php.net/manual/en/book.geoip.php'>http://php.net/manual/en/book.geoip.php</a>";
 $MESS["MAIN_SRV_GEOIP_EXT_NOT_REQ"] = "Aucun paramètre supplémentaire requis";
 $MESS["MAIN_SRV_GEOIP_EXT_TITLE"] = "Extension GeoIP";
-?>
+$MESS["main_srv_geoip_ext_unsupported"] = "Attention ! Ce format est obsolète et n'est plus pris en charge.";

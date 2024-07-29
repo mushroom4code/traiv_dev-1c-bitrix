@@ -1,10 +1,16 @@
-<?
+<?php
 $MESS["BT_MOD_CATALOG_ERR_BEFORE_DEL_TITLE"] = "Erro de exclusão em ";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_CODE"] = "Não é possível alterar o ID da propriedade de sistema \"Brand\" porque ela é usada por Canais Abertos para enviar produtos.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_MULTIPLE"] = "Não é possível tornar a propriedade de sistema \"Brand\" não múltipla porque ela é usada por Canais Abertos para enviar produtos.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_NAME"] = "Não é possível alterar o nome da propriedade de sistema \"Brand\" porque ela é usada por Canais Abertos para enviar produtos.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_TYPE_SKU_PROPERTY"] = "A propriedade ##SKU_PROPERTY_ID# não pode ser modificada porque vincula o bloco de informações do produto ##PRODUCT_IBLOCK_ID# ao bloco de informações SKU ##IBLOCK_ID#";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_BRAND_PROPERTY"] = "Não é possível excluir a propriedade de sistema \"Brand\" porque ela é usada por Canais Abertos para enviar produtos.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_OFFERS"] = "As Unidades de Manutenção de Estoque (UME) não podem ser excluídas.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_PRODUCTS_INFO"] = "As informações de negócio relacionadas aos elementos do catálogo não podem ser excluídas.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_PRODUCT_IBLOCK"] = "Um bloco de informações que contenha Unidades de Manutenção de Estoque (UME) não pode ser excluído.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_SKU_IBLOCK"] = "O bloco de informações da Unidade de Manutenção de Estoque (UME) não pode ser excluído.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_SKU_PROPERTY"] = "Não é possível excluir a propriedade ##SKU_PROPERTY_ID# porque ela vincula o bloco de informações do produto ##PRODUCT_IBLOCK_ID# para o bloco de informações SKU ##IBLOCK_ID#.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_SET_MULTIPLE_SKU_PROPERTY"] = "A propriedade ##SKU_PROPERTY_ID# não pode ser múltipla porque vincula o bloco de informações do produto ##PRODUCT_IBLOCK_ID# ao bloco de informações SKU ##IBLOCK_ID#";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_ABSENT"] = "O bloco de informações especificado não existe.";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_FIELD_ABSENT"] = "O bloco de informações não está especificado.";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_INVALID"] = "ID inválida do bloco de informações";
@@ -24,4 +30,3 @@ $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_ID_INVALID"] = "A ID da propriedade de conex�
 $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_NOT_FOUND"] = "A propriedade de conexão especificada não existe ou está inativa.";
 $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_WITHOUT_PRODUCT"] = "A ID da propriedade de conexão do bloco de informações está especificada, mas a ID do bloco de informações do produto está faltando.";
 $MESS["BT_MOD_CATALOG_ERR_UPDATE_BAD_ID"] = "ID inválida do catálogo";
-?>

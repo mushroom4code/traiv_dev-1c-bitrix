@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION"] = "Acciones";
 $MESS["ACTIVE"] = "Activo";
 $MESS["CHANGE"] = "Modificar";
@@ -64,7 +64,7 @@ $MESS["MAIN_WRONG_TIMESTAMP_TILL"] = "Ingrese correctamente la fecha de modifica
 $MESS["MAIN_YES"] = "si";
 $MESS["NAME"] = "Primer nombre";
 $MESS["PAGES"] = "Usuarios";
-$MESS["PERSONAL_BIRTHDAY"] = "Fecha de cumpleaños";
+$MESS["PERSONAL_BIRTHDAY"] = "Fecha de nacimiento";
 $MESS["PERSONAL_CITY"] = "Ciudad";
 $MESS["PERSONAL_GENDER"] = "Sexo";
 $MESS["PERSONAL_ICQ"] = "ICQ";
@@ -88,4 +88,3 @@ $MESS["WORK_PHONE"] = "Teléfonos del Trabajo";
 $MESS["WORK_POSITION"] = "Cargo";
 $MESS["WORK_WWW"] = "WEB de la compañía";
 $MESS["XML_ID"] = "Código externo";
-?>

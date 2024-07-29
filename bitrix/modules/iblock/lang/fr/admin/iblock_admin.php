@@ -1,12 +1,11 @@
-<?
+<?php
 $MESS["IBLOCK_ADM_ACTIVE"] = "Actif(ve)";
 $MESS["IBLOCK_ADM_CONFIRM_DEL_MESSAGE"] = "Toutes les informations relatives à cette écriture seront effacées ! Continuer ?";
 $MESS["IBLOCK_ADM_DELETE_ERROR"] = "Erreur d'élimination. Il est possible que des objets qui font référence existent.";
-$MESS["IBLOCK_ADM_ELEMENTS"] = "Des documents";
 $MESS["IBLOCK_ADM_FILT_ACT"] = "Actif(ve)";
 $MESS["IBLOCK_ADM_FILT_NAME"] = "Dénomination : ";
 $MESS["IBLOCK_ADM_FILT_SITE"] = "Site";
-$MESS["IBLOCK_ADM_HEADER_BIZPROC"] = "Modèles de processus d'affaires";
+$MESS["IBLOCK_ADM_HEADER_BIZPROC"] = "Modèles de processus d’entreprise";
 $MESS["IBLOCK_ADM_HEADER_CANONICAL_PAGE_URL"] = "lément URL canonique";
 $MESS["IBLOCK_ADM_HEADER_DETAIL_URL"] = "lément URL de la page";
 $MESS["IBLOCK_ADM_HEADER_EL"] = "Des documents";
@@ -21,7 +20,6 @@ $MESS["IBLOCK_ADM_MENU_BIZPROC"] = "De processus d'entreprise";
 $MESS["IBLOCK_ADM_MENU_PROPERTIES"] = "Propriétés";
 $MESS["IBLOCK_ADM_NAME"] = "Dénomination";
 $MESS["IBLOCK_ADM_SAVE_ERROR"] = "Erreur de sauvegarde de note ##ID# : #ERROR_TEXT#";
-$MESS["IBLOCK_ADM_SECTIONS"] = "Sections";
 $MESS["IBLOCK_ADM_SORT"] = "Classification";
 $MESS["IBLOCK_ADM_TIMESTAMP"] = "Modifié(e)s le";
 $MESS["IBLOCK_ADM_TITLE"] = "#IBLOCK_TYPE# : Blocs d'info";
@@ -43,4 +41,3 @@ $MESS["MAIN_ADMIN_LIST_DELETE"] = "supprimer";
 $MESS["MAIN_ADMIN_LIST_SELECTED"] = "Sélectionné:";
 $MESS["MAIN_ADMIN_MENU_DELETE"] = "Supprimer";
 $MESS["MAIN_ADMIN_MENU_EDIT"] = "Éditer";
-?>

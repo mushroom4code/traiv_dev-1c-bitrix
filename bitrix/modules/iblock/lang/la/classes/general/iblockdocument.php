@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BPCGHLP_PROP_BOOL"] = "Si/No";
 $MESS["BPCGHLP_PROP_DATA"] = "Fecha";
 $MESS["BPCGHLP_PROP_DATETIME"] = "Fecha/Hora";
@@ -33,7 +33,7 @@ $MESS["IBD_FIELD_DETAIL_TEXT"] = "Texto completo";
 $MESS["IBD_FIELD_DETAIL_TEXT_TYPE"] = "Tipee el texto completo";
 $MESS["IBD_FIELD_IBLOCK_ID"] = "ID del block de información";
 $MESS["IBD_FIELD_ID"] = "ID del elemento";
-$MESS["IBD_FIELD_MODIFIED_BY_USER_PRINTABLE"] = "Editado por";
+$MESS["IBD_FIELD_MODIFIED_BY_USER_PRINTABLE"] = "Editado por (nombre)";
 $MESS["IBD_FIELD_MODYFIED"] = "Última modificación del elemento realizada por";
 $MESS["IBD_FIELD_NAME"] = "Título del elemento";
 $MESS["IBD_FIELD_PREVIEW_PICTURE"] = "Imagen anterior";
@@ -45,4 +45,3 @@ $MESS["IBD_FIELD_USERNAME_PROPERTY"] = "(nombre)";
 $MESS["IBD_FIELD_XML_ID"] = "ID externo";
 $MESS["IBD_OPERATION_READ"] = "Leer";
 $MESS["IBD_OPERATION_WRITE"] = "Escribir";
-?>

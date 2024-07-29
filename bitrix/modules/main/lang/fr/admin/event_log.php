@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["MAIN_ALL"] = "(partout)";
 $MESS["MAIN_EVENTLOG_AUDIT_TYPE_ID"] = "Evènement";
 $MESS["MAIN_EVENTLOG_DESCRIPTION"] = "Description";
 $MESS["MAIN_EVENTLOG_FILE"] = "Accès au fichier est changé";
 $MESS["MAIN_EVENTLOG_FORUM_MESSAGE"] = "Lettre";
-$MESS["MAIN_EVENTLOG_FORUM_TOPIC"] = "D'après les sujets";
+$MESS["MAIN_EVENTLOG_FORUM_TOPIC"] = "Sujet";
 $MESS["MAIN_EVENTLOG_GROUP"] = "Changer les groupes d'utilisateurs";
 $MESS["MAIN_EVENTLOG_GROUP_POLICY"] = "La politique de sécurité du Groupe modifiée";
 $MESS["MAIN_EVENTLOG_GUEST_ID"] = "invité";
@@ -41,4 +41,3 @@ $MESS["MAIN_EVENTLOG_USER_REGISTER"] = "Enregistrement de nouveaux utilisateurs"
 $MESS["MAIN_EVENTLOG_USER_REGISTER_FAIL"] = "Erreur d'enregistrement";
 $MESS["MAIN_EVENTLOG_WRONG_TIMESTAMP_X_FROM"] = "Veuillez saisir dans le filtre la date exacte 'du' de l'enregistrement dans le journal";
 $MESS["MAIN_EVENTLOG_WRONG_TIMESTAMP_X_TO"] = "Veuillez saisir dans le filtre la date exacte 'jusqu'au' de l'enregistrement dans le journal.";
-?>

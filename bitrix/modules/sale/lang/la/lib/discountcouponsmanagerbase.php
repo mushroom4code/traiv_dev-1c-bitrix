@@ -1,4 +1,5 @@
-<?
+<?php
+$MESS["BX_SALE_DCM_COUPONS_VERIFY_ERR"] = "Error de verificación del cupón";
 $MESS["BX_SALE_DCM_COUPON_CHECK_ALREADY_MAX_USED"] = "usos máximo alcanzado";
 $MESS["BX_SALE_DCM_COUPON_CHECK_BAD_USER_ID"] = "propietario incorrecto del cupón";
 $MESS["BX_SALE_DCM_COUPON_CHECK_CORRUPT_DATA"] = "datos de cupón inválidos";
@@ -17,9 +18,10 @@ $MESS["BX_SALE_DCM_ERR_BAD_MODE"] = "el modo de administrador es malo";
 $MESS["BX_SALE_DCM_ERR_BAD_USER_ID"] = "Falta el ID del cliente";
 $MESS["BX_SALE_DCM_ERR_ORDER_ID_ABSENT"] = "No se ha especificado ningún ID del pedido en el modo de edición";
 $MESS["BX_SALE_DCM_ERR_ORDER_ID_EXIST"] = "ID del pedido especificado en el nuevo modo de creación del pedido";
+$MESS["BX_SALE_DCM_ERR_SAVE_APPLIED"] = "No se pueden guardar los cupones usados";
+$MESS["BX_SALE_DCM_ERR_SESSION_NOT_ACCESSIBLE"] = "La sesión no está disponible.";
 $MESS["BX_SALE_DCM_STATUS_APPLYED"] = "usado";
 $MESS["BX_SALE_DCM_STATUS_ENTERED"] = "agregado";
 $MESS["BX_SALE_DCM_STATUS_FREEZE"] = "No puede ser usado";
 $MESS["BX_SALE_DCM_STATUS_NOT_APPLYED"] = "nunca usado";
 $MESS["BX_SALE_DCM_STATUS_NOT_FOUND"] = "no encontrado";
-?>

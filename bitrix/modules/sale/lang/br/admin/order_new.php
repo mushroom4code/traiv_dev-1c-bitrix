@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_DEDUCT_ORDER"] = "Erro de cancelamento do pedido";
 $MESS["ERROR_MARK_ORDER"] = "Erro ao adicionar a descrição do problema do pedido";
 $MESS["NEWO_ADD_COLUMN"] = "Adicionar coluna ";
@@ -192,7 +192,7 @@ $MESS["SOE_ERROR_CANCEL_EDIT"] = "Erro ao modificar o status de cancelamento do 
 $MESS["SOE_ERROR_DELIVERY_EDIT"] = "Erro ao modificar o status de autorização de entrega do pedido.";
 $MESS["SOE_ERROR_PAY_EDIT"] = "Erro ao modificar o status de pagamento do pedido.";
 $MESS["SOE_GRAMM"] = "grama";
-$MESS["SOE_HIDE_SET"] = "esconder";
+$MESS["SOE_HIDE_SET"] = "Ocultar";
 $MESS["SOE_IP_CODE"] = "ID";
 $MESS["SOE_IP_MORE"] = "Mais...";
 $MESS["SOE_IP_NAME"] = "Nome";
@@ -255,4 +255,3 @@ $MESS["SOE_VOUCHER_NUM"] = "Fatura #";
 $MESS["SOE_WEIGHT"] = "Peso";
 $MESS["SO_NO"] = "Não";
 $MESS["SO_YES"] = "Sim";
-?>

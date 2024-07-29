@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BC_DATE_TIME_FORMAT"] = "Format d'affichage de la date et de l'heure";
 $MESS["BPC_AJAX_POST"] = "Utiliser AJAX pour des commentaires";
 $MESS["BPC_ALLOW_IMAGE_UPLOAD"] = "Autoriser le chargement des images";
@@ -33,7 +33,7 @@ $MESS["BPC_SMILES_COUNT"] = "Quantité de smileys affichés constamment";
 $MESS["BPC_USER_VAR"] = "Nom de la variable pour l'identificateur de l'utilisateur";
 $MESS["BPC_USE_ASC_PAGING"] = "Utilisez avant chapelure";
 $MESS["B_VARIABLE_ALIASES"] = "Alias des variables";
-$MESS["RATING_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_TYPE_LIKE_GRAPHIC"] = "J'aime (graphique)";
 $MESS["RATING_TYPE_LIKE_TEXT"] = "J'aime (textuel)";
@@ -41,4 +41,3 @@ $MESS["RATING_TYPE_STANDART_GRAPHIC"] = "J'aime / Je n'aime pas (graphique)";
 $MESS["RATING_TYPE_STANDART_TEXT"] = "J'aime / Je n'aime pas (textuel)";
 $MESS["SHOW_RATING"] = "Activer le classement";
 $MESS["SHOW_RATING_CONFIG"] = "ordinaire";
-?>

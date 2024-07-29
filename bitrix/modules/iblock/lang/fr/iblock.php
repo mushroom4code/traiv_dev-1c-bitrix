@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_ALL"] = "(n'importe lesquel(el)s)";
 $MESS["IBLOCK_BACK_TO_ADMIN"] = "Revenir sur la liste des blocs d'information";
 $MESS["IBLOCK_BAD_BLOCK_ID"] = "Code erroné du bloc d'information.";
@@ -54,19 +54,19 @@ $MESS["IBLOCK_NO"] = "Non";
 $MESS["IBLOCK_PROP_DATETIME_DESC"] = "Date/Heure";
 $MESS["IBLOCK_PROP_DATE_DESC"] = "Date";
 $MESS["IBLOCK_PROP_E"] = "Rattachement aux éléments";
-$MESS["IBLOCK_PROP_EAUTOCOMPLETE_DESC"] = "Lier à des éléments avec saisie automatique";
-$MESS["IBLOCK_PROP_ELIST_DESC"] = "Rattachement aux éléments sous forme de liste";
+$MESS["IBLOCK_PROP_EAUTOCOMPLETE_DESC"] = "Zone de texte de lien vers un élément avec saisie automatique";
+$MESS["IBLOCK_PROP_ELIST_DESC"] = "Lien vers les éléments (liste déroulante)";
 $MESS["IBLOCK_PROP_F"] = "Fichier";
-$MESS["IBLOCK_PROP_FILEMAN_DESC"] = "Rattachement au fichier (sur le serveur)";
+$MESS["IBLOCK_PROP_FILEMAN_DESC"] = "Lien vers le fichier (sur le serveur)";
 $MESS["IBLOCK_PROP_G"] = "Liste des rubriques à rattacher";
 $MESS["IBLOCK_PROP_HTML_DESC"] = "HTML/texte";
 $MESS["IBLOCK_PROP_L"] = "Liste";
 $MESS["IBLOCK_PROP_N"] = "Chiffre";
-$MESS["IBLOCK_PROP_S"] = "Ligne";
-$MESS["IBLOCK_PROP_SAUTOCOMPLETE_DESC"] = "Rattachement aux sections avec le remplissage automatique";
+$MESS["IBLOCK_PROP_S"] = "Chaîne";
+$MESS["IBLOCK_PROP_SAUTOCOMPLETE_DESC"] = "Rattachement aux sections avec saisie automatique";
 $MESS["IBLOCK_PROP_SEQUENCE_DESC"] = "Compteur";
-$MESS["IBLOCK_PROP_SKU_DESC"] = "Rattachement aux marchandises (SKU)";
-$MESS["IBLOCK_PROP_XMLID_DESC"] = "Rattachement aux éléments par XML_ID";
+$MESS["IBLOCK_PROP_SKU_DESC"] = "Lien vers les articles du produit (UGS)";
+$MESS["IBLOCK_PROP_XMLID_DESC"] = "Lien vers les éléments par XML_ID";
 $MESS["IBLOCK_SORT_FIELD_ACTIVE_FROM"] = "date de l'activité (depuis)";
 $MESS["IBLOCK_SORT_FIELD_ACTIVE_TO"] = "la date d'activité (selon)";
 $MESS["IBLOCK_SORT_FIELD_DEPTH_LEVEL"] = "niveau d'imbrication de la rubrique";
@@ -82,4 +82,3 @@ $MESS["IBLOCK_XML2_INDEX_ERROR"] = "Erreur de création de l'index.";
 $MESS["IBLOCK_XML2_METADATA_ERROR"] = "Une erreur s'est produite lors de l'importation des métadonnées du catalogue.";
 $MESS["IBLOCK_XML2_TABLE_CREATE_ERROR"] = "Une erreur s'est produite en essayant de créer des tables d'importation temporaires.";
 $MESS["IBLOCK_YES"] = "Oui";
-?>

@@ -1,3 +1,2 @@
-<?
-$MESS["REPORT_FUNNEL_VIEW_LABEL"] = "Lejek";
-?>
+<?php
+$MESS["REPORT_FUNNEL_VIEW_LABEL"] = "Tunel";

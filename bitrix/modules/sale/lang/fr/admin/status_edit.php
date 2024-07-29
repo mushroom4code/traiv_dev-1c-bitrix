@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_NO_NAME"] = "Le nom de l'état ne sont pas fournis pour la langue";
 $MESS["SALE_CODE_LEN"] = "letter";
 $MESS["SALE_EDIT_RECORD"] = "Modifier le statut #ID#";
@@ -23,5 +23,4 @@ $MESS["SSEN_TAB_STATUS"] = "Statut de la commande";
 $MESS["SSEN_TAB_STATUS_DESCR"] = "Statut de la commande";
 $MESS["SSEN_TASKS_LINK"] = "Permissions d'accès";
 $MESS["SSEN_TYPE_D"] = "Livraison";
-$MESS["SSEN_TYPE_O"] = "Commander";
-?>
+$MESS["SSEN_TYPE_O"] = "Commande";

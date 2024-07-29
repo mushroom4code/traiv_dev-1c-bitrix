@@ -1,5 +1,4 @@
-<?
-$MESS["LANDING_BLOCK_0.MENU_1_NAME"] = "Półprzezroczyste menu \"Dobroczynność\" z logo po lewej stronie i pozycjami menu po prawej.";
+<?php
 $MESS["LANDING_BLOCK_0.MENU_1_NAME_NEW"] = "Menu szablonów \"Dobroczynność\" z logo po lewej stronie, pozycjami menu po prawej stronie i statycznym, półprzezroczystym tłem";
 $MESS["LANDING_BLOCK_0.MENU_1_NODES_LANDINGBLOCKNODEMENULIST"] = "Menu";
 $MESS["LANDING_BLOCK_0.MENU_1_NODES_LANDINGBLOCKNODEMENULISTITEMLINK"] = "Pozycja menu";
@@ -8,4 +7,4 @@ $MESS["LANDING_BLOCK_0.MENU_1_NODES_LANDINGBLOCKNODEMENULOGO2"] = "Logo (zwinię
 $MESS["LANDING_BLOCK_0.MENU_1_NODES_LANDINGBLOCKNODEMENULOGOLINK"] = "Adres URL odnośnika do logo";
 $MESS["LANDING_BLOCK_0.MENU_1_STYLE_LANDINGBLOCKNODEMENULIST"] = "Menu";
 $MESS["LANDING_BLOCK_0.MENU_1_STYLE_LANDINGBLOCKNODEMENULISTITEMLINK"] = "Pozycja menu";
-?>
+$MESS["LANDING_BLOCK_0_MENU_1_STYLE_LANDINGBLOCKNODEMENU_HAMB"] = "Menu mobilne";

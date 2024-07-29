@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IB_COMPLIB_PARAMETER_FILE_404"] = "Mostrar esta página (/404.php por defecto)";
 $MESS["IB_COMPLIB_PARAMETER_GROUP_404_SETTINGS"] = "404 error de configuración";
 $MESS["IB_COMPLIB_PARAMETER_MESSAGE_404"] = "Mostrar este mensaje (un componente suministrado por un mensaje se utiliza de forma predeterminada)";
@@ -11,14 +11,14 @@ $MESS["IB_COMPLIB_POPUP_CATALOG_WEIGHT"] = "Peso";
 $MESS["IB_COMPLIB_POPUP_ELEMENT"] = "Campos del elemento";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_CODE"] = "Código mnemónico del elemento";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_DETAIL_TEXT"] = "Descripción detallada del elemento actual ";
-$MESS["IB_COMPLIB_POPUP_ELEMENT_EXTERNAL_ID"] = "Código externo del elemento";
+$MESS["IB_COMPLIB_POPUP_ELEMENT_EXTERNAL_ID_MSGVER_1"] = "ID externo del elemento";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_ID"] = "ID del elemento";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_LOWER_NAME"] = "Nombre del elemento actual, en minúsculas";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_NAME"] = "Nombre del elemento actual";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_PREVIEW_TEXT"] = "Texto de la vista previa del elemento actual";
 $MESS["IB_COMPLIB_POPUP_IBLOCK"] = "Campos del block de información";
 $MESS["IB_COMPLIB_POPUP_IBLOCK_CODE"] = "Código mnemotécnico del block de Inf.";
-$MESS["IB_COMPLIB_POPUP_IBLOCK_EXTERNAL_ID"] = "Código externo del block de inf.";
+$MESS["IB_COMPLIB_POPUP_IBLOCK_EXTERNAL_ID_MSGVER_1"] = "ID externo del block de inf.";
 $MESS["IB_COMPLIB_POPUP_IBLOCK_ID"] = "ID del block de inf.";
 $MESS["IB_COMPLIB_POPUP_IBLOCK_NAME"] = "Nombre del block de información";
 $MESS["IB_COMPLIB_POPUP_IBLOCK_TEXT"] = "Descripción del block de información";
@@ -36,7 +36,7 @@ $MESS["IB_COMPLIB_POPUP_SECTION"] = "Campos de la sección";
 $MESS["IB_COMPLIB_POPUP_SECTIONS_PATH"] = "Ruta del elemento actual";
 $MESS["IB_COMPLIB_POPUP_SECTION_CODE"] = "Código mnemónico de la sección";
 $MESS["IB_COMPLIB_POPUP_SECTION_CODE_PATH"] = "Códigos mnemotécnicos de secciones anidadas";
-$MESS["IB_COMPLIB_POPUP_SECTION_EXTERNAL_ID"] = "Código externo de la sección";
+$MESS["IB_COMPLIB_POPUP_SECTION_EXTERNAL_ID_MSGVER_1"] = "ID externo de la sección";
 $MESS["IB_COMPLIB_POPUP_SECTION_ID"] = "ID de la sección";
 $MESS["IB_COMPLIB_POPUP_SECTION_LOWER_NAME"] = "Nombre de la sección actual, en minúsculas";
 $MESS["IB_COMPLIB_POPUP_SECTION_NAME"] = "Nombre de la sección actual";
@@ -63,4 +63,3 @@ $MESS["T_IBLOCK_DESC_PAGER_TITLE"] = "Nombre de la categoría";
 $MESS["T_IBLOCK_DESC_PARAMS_NAME"] = "El nombre de una matriz con las variables para crear vínculos";
 $MESS["T_IBLOCK_DESC_SHOW_ALL"] = "Mostrar el enlace TODOS";
 $MESS["T_IBLOCK_DESC_TOP_PAGER"] = "Visualizar en la parte superior de la lista";
-?>

@@ -1,5 +1,5 @@
 <?
-$MESS["SUP_SUAC_LOAD_M_BUTTON_CONF"] = "Uwaga! Bitrix Inc nie ponosi odpowiedzialności za oprogramowanie opracowane przez partnerów. Będziesz musiał bezpośrednio skontaktować się z deweloperem, gdy masz pytania dotyczące funkcji modułu lub ewentualnych problemów w module. Pobierz moduł?";
+$MESS["SUP_SUAC_LOAD_M_BUTTON_CONF"] = "Uwaga! Bitrix24 nie ponosi odpowiedzialności za oprogramowanie opracowane przez partnerów. Będziesz musiał bezpośrednio skontaktować się z deweloperem, gdy masz pytania dotyczące funkcji modułu lub ewentualnych problemów w module. Pobierz moduł?";
 $MESS["USMP_CAT_0"] = "[Każdy]";
 $MESS["USMP_DO_LOAD"] = "Pobierz";
 $MESS["USMP_F_NAME"] = "Nazwa";

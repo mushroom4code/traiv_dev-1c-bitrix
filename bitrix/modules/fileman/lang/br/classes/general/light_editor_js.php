@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AddLI"] = "Adicionar item de lista";
 $MESS["AddLITitle"] = "Adicionar item de lista (Enter)";
 $MESS["Anchor"] = "ncora";
@@ -60,7 +60,7 @@ $MESS["LinkTarget_self"] = "janela atual";
 $MESS["LinkTarget_top"] = "janela superior";
 $MESS["LinkText"] = "Texto do link";
 $MESS["LinkTitle"] = "Tooltip";
-$MESS["ListItems"] = "Listar intens";
+$MESS["ListItems"] = "Itens da lista";
 $MESS["Normal"] = "Normal";
 $MESS["Off"] = "Desligado";
 $MESS["On"] = "em";
@@ -88,4 +88,3 @@ $MESS["VideoPreviewPath"] = "Caminho de amostra do vídeo";
 $MESS["VideoProps"] = "Propriedades de vídeo";
 $MESS["VideoVolume"] = "Volume";
 $MESS["Width"] = "Largura";
-?>

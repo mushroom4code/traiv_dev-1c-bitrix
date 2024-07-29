@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERR_MAX_INPUT_VARS"] = "Wartość max_input_vars musi być #MIN# lub większe. Wartość bieżąca: #CURRENT#";
 $MESS["ERR_NO_MODS"] = "Wymagane rozszerzenia nie są zainstalowane:";
 $MESS["ERR_NO_SSL"] = "SSL nie jest włączony dla PHP";
@@ -50,7 +50,7 @@ $MESS["MAIN_SC_MCRYPT"] = "Funkcje szyfrowania";
 $MESS["MAIN_SC_METHOD_NOT_SUP"] = "Serwer nie obsługuje metody #METHOD#.";
 $MESS["MAIN_SC_NOT_AVAIL"] = "niedostępne";
 $MESS["MAIN_SC_NOT_SUPPORTED"] = "Server nie obsługuje tych funkcji.";
-$MESS["MAIN_SC_NO_ACCESS"] = "Nie można uzyskać dostępu do serwera Bitrix, Inc.. Aktualizacje i usługi Bitrix Cloud są niedostępne.";
+$MESS["MAIN_SC_NO_ACCESS"] = "Nie można uzyskać dostępu do serwera Bitrix24. Aktualizacje i usługi Bitrix Cloud są niedostępne.";
 $MESS["MAIN_SC_NO_CONFLICT"] = "Brak konfliktów.";
 $MESS["MAIN_SC_NO_CONNECTTO"] = "Nie można połączyć z #HOST#";
 $MESS["MAIN_SC_NO_EXTERNAL_ACCESS_"] = "Funkcja ta jest niedostępna, ponieważ Intranet nie można uzyskać dostępu do Intraneti z zewnątrz.";
@@ -154,6 +154,12 @@ $MESS["SC_HELP_CHECK_CACHE"] = "To sprawdzi czy proces PHP możne utworzyć <b>.
 $MESS["SC_HELP_CHECK_CONNECT_MAIL"] = "Aby być powiadamianym przez Intranet o nowych wiadomościach e-mail, użytkownik musi określić parametry połączenia skrzynki pocztowej na stronie profilu użytkownika Intranetu.";
 $MESS["SC_HELP_CHECK_INSTALL_SCRIPTS"] = "Użytkownicy czasem zapominają wykasować skrypty instalacyjne po przywróceniu czy instalacji systemu (restore.php, bitrixsetup.php). Należy pamiętać aby je wykasować.";
 $MESS["SC_HELP_CHECK_MAIL_B_EVENT"] = "Tablea bazy danych B_EVENT przechowuje kolejki e-mail strony internetowej i logi związane z wysłaniem e-maila. Jeśli niektórych wiadomości nie udało się wysyłać, możliwą przyczyną jest nieprawidłowy adres odbiorcy, nieprawidłowe parametry szablonu e-mail lub podsystemu e-mail serwera.";
+$MESS["SC_HELP_CHECK_MYSQL_MODE"] = "Parameter <i>sql_mode</i> określa tryb pracy MySQL. Pamiętaj, że może on akceptować wartości niezgodne z rozwiązaniami Bitrix. Dodaj następujący kod <i>/bitrix/php_interface/after_connect_d7.php</I>, aby ustawić tryb domyślny:
+<code>\$connection = Bitrix\Main\Application::getConnection();
+\$connection-&gt;queryExecute(&quot;SET sql_mode=''&quot;);
+\$connection-&gt;queryExecute(&quot;SET innodb_strict_mode=0&quot;);</code>
+
+Pamiętaj, że w przypadku MySQL 8.0.26 lub nowszego możesz potrzebować uprawnień użytkownika bazy danych SESSION_VARIABLES_ADMIN. Jeśli Twoje obecne uprawnienia są niewystarczające, skontaktuj się z administratorem bazy danych lub zmień plik konfiguracyjny MySQL.";
 $MESS["SC_HELP_CHECK_MYSQL_TABLE_STATUS"] = "Test ten wykorzystuje tradycyjne tabele mechanizmu kontroli MySQL. Jeśli test znajdzie jeden lub więcej uszkodzonych tabeli, pojawi się monit, aby je naprawić.";
 $MESS["SC_HELP_CHECK_PHP_SETTINGS"] = "Pozwoli to sprawdzić krytyczne parametry określone w pliku php.ini. Pokazuje parametry, których wartości będą powodować wadliwe działanie systemu. Znajdziesz tu szczegółowy opis parametrów na php.net.";
 $MESS["SC_HELP_CHECK_UPLOAD_RAW"] = "Wysyła dane binarne w zapytaniu POST. Możliwe jest, że dane mogą zostać uszkodzone po stroenie serwera. W takim przypadku ładowanie obrazów metodą Flashową może nie działać poprawnie.";
@@ -168,7 +174,6 @@ $MESS["SC_MOD_GD"] = "Biblioteka GD";
 $MESS["SC_MOD_GD_JPEG"] = "Wsparcie GD JPEG";
 $MESS["SC_MOD_JSON"] = "Wsparcie dla JSON";
 $MESS["SC_MOD_MBSTRING"] = "wsparcie mbstring";
-$MESS["SC_MOD_PERL_REG"] = "Regular Expression support (Perl-Compatible)";
 $MESS["SC_MOD_XML"] = "Wsparcie XML";
 $MESS["SC_MYSQL_ERR_VER"] = "MySQL #CUR# jest aktualnie zainstalowany, ale jest #REQ# wymagany.";
 $MESS["SC_NOT_FILLED"] = "Opis problemu jest wymagany.";
@@ -261,4 +266,3 @@ $MESS["SC_WARNINGS_FOUND"] = "Wystąpiły ostrzeżenia, ale nie błędy";
 $MESS["SC_WARN_DAV"] = "WebDAV jest wyłączony bo moduł mod_dav/mod_dav_fs jest już uruchomiony.";
 $MESS["SC_WARN_SECURITY"] = "Moduł mod_security załadowany, niektóre problemy panelu kontrolnego mogą się pojawić.";
 $MESS["SC_WARN_SUHOSIN"] = "Suhosin moduł załadowany, niektóre problemy panelu kontrolnego mogą się pojawić (suhosin.simultaion=#VAL#).";
-?>

@@ -1,10 +1,16 @@
-<?
+<?php
 $MESS["BT_MOD_CATALOG_ERR_BEFORE_DEL_TITLE"] = "Error al eliminar";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_CODE"] = "No se puede cambiar el ID de la propiedad del sistema \"Brand\" porque los Canales abiertos lo utilizan para enviar productos.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_MULTIPLE"] = "No se puede hacer que la propiedad del sistema \"Brand\" sea no múltiple porque los Canales abiertos la utilizan para enviar productos.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_NAME"] = "No se puede cambiar la propiedad del sistema \"Brand\" porque los Canales abiertos la utilizan para enviar productos.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_TYPE_SKU_PROPERTY"] = "La propiedad ##SKU_PROPERTY_ID# no puede modificarse porque vincula el bloque de información del producto ##PRODUCT_IBLOCK_ID# con el bloque de información del SKU ##IBLOCK_ID#";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_BRAND_PROPERTY"] = "No se puede eliminar la propiedad del sistema \"Brand\" porque los Canales abiertos la utilizan para enviar productos.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_OFFERS"] = "El SKU no puede ser eliminado.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_PRODUCTS_INFO"] = "El comercio relacionado a la información de los elementos del catálogo no puedesn ser eliminados.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_PRODUCT_IBLOCK"] = "Un block de información que contenga SKU no puede ser eliminado.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_SKU_IBLOCK"] = "El block de información del SKU no puede ser eliminado.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_SKU_PROPERTY"] = "No se puede eliminar la propiedad ##SKU_PROPERTY_ID# porque se une el bloque de información de productos ##PRODUCT_IBLOCK_ID# al SKU del block de información ##IBLOCK_ID#.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_SET_MULTIPLE_SKU_PROPERTY"] = "La propiedad ##SKU_PROPERTY_ID# no puede ser múltiple porque vincula el bloque de información del producto ##PRODUCT_IBLOCK_ID# con el bloque de información del SKU ##IBLOCK_ID#";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_ABSENT"] = "El block de información especificado no existe.";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_FIELD_ABSENT"] = "El block de información no se ha especificado.";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_INVALID"] = "El ID del block de Información es inválido.";
@@ -23,4 +29,3 @@ $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_ID_INVALID"] = "EL ID de la propiedad vincula
 $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_NOT_FOUND"] = "La propiedad vinculantes no existe o está inactiva.";
 $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_WITHOUT_PRODUCT"] = "El ID del block de información de las propiedades vinculantes del producto se especifican, pero el ID del block de información del producto ha desaparecido.";
 $MESS["BT_MOD_CATALOG_ERR_UPDATE_BAD_ID"] = "El ID del catálogo es inválido.";
-?>

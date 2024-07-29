@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBSEC_A_ACTIVE"] = "Ativo";
 $MESS["IBSEC_A_ADD"] = "Adicionar";
 $MESS["IBSEC_A_ADDEL_TITLE"] = "Clique para adicionar um novo elemento";
@@ -43,5 +43,4 @@ $MESS["IBSEC_A_UP"] = "Um nível acima";
 $MESS["IBSEC_A_UPDERR"] = "Erro ao atualizar o registro:";
 $MESS["IBSEC_A_UP_TITLE"] = "Clique para navegar nível maior";
 $MESS["IBSEC_A_USERINFO"] = "Visualizar as informações do usuário";
-$MESS["IBSEC_A_XML_ID"] = "Código externo";
-?>
+$MESS["IBSEC_A_XML_ID_MSGVER_1"] = "ID externo";

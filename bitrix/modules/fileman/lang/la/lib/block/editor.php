@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_DESC"] = "Este block contiene texto.";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_EXAMPLE"] = "Este block contiene un texto cualquiera puede escribir.";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_NAME"] = "Texto";
@@ -90,7 +90,7 @@ $MESS["BLOCK_EDITOR_TOOL_WIDE_Y"] = "Ancho de la página";
 $MESS["BLOCK_EDITOR_UI_BLOCKS"] = "Blocks";
 $MESS["BLOCK_EDITOR_UI_BTN_HTML_COPY"] = "Copie el mensaje HTML al portapapeles";
 $MESS["BLOCK_EDITOR_UI_BTN_MAX"] = "expandir";
-$MESS["BLOCK_EDITOR_UI_BTN_MIN"] = "colapsar";
+$MESS["BLOCK_EDITOR_UI_BTN_MIN"] = "contraer";
 $MESS["BLOCK_EDITOR_UI_STYLES"] = "Estilos";
 $MESS["BLOCK_EDITOR_UI_TOOL_CANCEL"] = "Cancelar";
 $MESS["BLOCK_EDITOR_UI_TOOL_CANCEL_TITLE"] = "Los cambios serán cancelados. La ventana colapsó.";
@@ -100,4 +100,3 @@ $MESS["BLOCK_EDITOR_UI_TOOL_SAVE"] = "colapsado";
 $MESS["BLOCK_EDITOR_UI_TOOL_SAVE_TITLE"] = "Los cambios se han aplicado. La ventana colapsó.";
 $MESS["BLOCK_EDITOR_UI_TOOL_SETTINGS"] = "Ajustes";
 $MESS["BLOCK_EDITOR_UI_TOOL_STYLES"] = "Estilos";
-?>

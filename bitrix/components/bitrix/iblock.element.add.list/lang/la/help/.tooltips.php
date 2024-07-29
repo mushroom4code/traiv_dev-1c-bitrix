@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ALLOW_DELETE_TIP"] = "Si se selecciona, aparece un enlace para eliminar los elementos disponibles se mostrará ..";
 $MESS["ALLOW_EDIT_TIP"] = "Si se selecciona, aparece un enlace para editar los elementos disponibles en la pantalla.";
 $MESS["EDIT_URL_TIP"] = "Especifica la ruta de acceso a un elemento editor de la página. Esta página se pueden crear mediante la <i>edición del formulario del elemento</i> componente.";
@@ -11,5 +11,4 @@ $MESS["MAX_USER_ENTRIES_TIP"] = "Número máximo de elementos que un usuario pue
 $MESS["NAV_ON_PAGE_TIP"] = "Número máximo de elementos por página. Los demás elementos están disponibles a través de la ruta de navegación.";
 $MESS["SEF_FOLDER_TIP"] = "Especifica la carpeta de trabajo componente. La carpeta puede estar representado por un verdadero sistema de archivos camino, o puede ser virtual.";
 $MESS["SEF_MODE_TIP"] = "Al seleccionar esta opción permite que el SEF y el modo de la dirección URL de configuración de campos.";
-$MESS["STATUS_TIP"] = "Si el módulo de flujo de trabajo <b>not</b> está instalado, usted podrá permitirles a los usuarios editar todos los elementos o sólo los elementos inactivos.<br /><br />Si el módulo del workflow está instalado, usted puede especificar aquellos estados que podrán ser mostrados a los usuarios.";
-?>
+$MESS["STATUS_TIP"] = "Si el módulo de procesos de negocio <b>not</b> está instalado, usted podrá permitirles a los usuarios editar todos los elementos o sólo los elementos inactivos.<br /><br />Si el módulo del workflow está instalado, usted puede especificar aquellos estados que podrán ser mostrados a los usuarios.";

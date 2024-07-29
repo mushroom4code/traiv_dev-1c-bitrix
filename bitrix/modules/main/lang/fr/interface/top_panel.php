@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_ADD_PAGE_TO_FAVORITES"] = "Ajouter la page aux favoris";
 $MESS["MAIN_HELP"] = "L'aide contextuelle";
 $MESS["TOP_ADMIN_ENTER"] = "Section administrative";
@@ -19,9 +19,9 @@ $MESS["admin_panel_site"] = "Site";
 $MESS["button_public"] = "Allez à la section publique";
 $MESS["button_settings"] = "Les paramètres du module";
 $MESS["select_lang"] = "--- Langue ---";
-$MESS["top_panel_add_fav"] = "Ajouter aux favoris";
-$MESS["top_panel_bizproc_tasks"] = "Il y a des travaux à exécuter";
-$MESS["top_panel_bizproc_title"] = "Vous avez des tâches en souffrance dans le module de processus d'affaires";
+$MESS["top_panel_add_fav"] = "Ajouter aux favoris";
+$MESS["top_panel_bizproc_tasks"] = "Vous avez des affectations";
+$MESS["top_panel_bizproc_title"] = "Vous avez des affectations en attente dans le module Processus d'entreprise";
 $MESS["top_panel_edit"] = "Contenu";
 $MESS["top_panel_edit_title"] = "Passez au mode d'édition de contenu";
 $MESS["top_panel_fav"] = "FAVORIS";
@@ -48,4 +48,3 @@ $MESS["top_panel_updates_close"] = "Fermer";
 $MESS["top_panel_updates_hint"] = "Il y a des mises à jour du produit disponibles";
 $MESS["top_panel_user"] = "Utilisateur actuel";
 $MESS["top_panel_view"] = "Aperçu";
-?>

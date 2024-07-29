@@ -1,4 +1,6 @@
-<?
+<?php
+$MESS["SENDER_LETTER_TIME_LIMITATION_LIMITS_INFO"] = "Obtenga más información %link_start%aquí%link_end%";
+$MESS["SENDER_LETTER_TIME_LIMITATION_MAX"] = "Puede enviar hasta %max% mensajes de correo electrónico diariamente.";
 $MESS["SENDER_LETTER_TIME_OUTSIDE_ADD_SUCCESS"] = "El Boletín de Noticias se ha guardado!<br>
 Ahora puedes acceder en el área de CRM Marketing (<a href=\"%path%\">Newsletters</a>)";
 $MESS["SENDER_LETTER_TIME_TMPL_ACCEPT"] = "Guardar";
@@ -27,4 +29,3 @@ $MESS["SENDER_LETTER_TIME_TMPL_TIME"] = "Programar";
 $MESS["SENDER_LETTER_TIME_TMPL_TITLE_EXISTS"] = "Campaña %name%";
 $MESS["SENDER_LETTER_TIME_TMPL_TITLE_NEW"] = "Campaña %name% ha sido creado y ahora está listo para ser enviado!";
 $MESS["SENDER_LETTER_TIME_TMPL_WEEK_DAYS_TIME"] = "Hora";
-?>

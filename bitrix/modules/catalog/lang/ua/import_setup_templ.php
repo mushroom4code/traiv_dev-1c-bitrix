@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATI_ACTIVATE_PROD"] = "активувати";
 $MESS["CATI_ADDIT_SETTINGS"] = "Додаткові налаштування";
 $MESS["CATI_ADD_CODE_TRANSLIT"] = "Вмикати транслітерацію при створенні інфоблоку";
@@ -180,7 +180,6 @@ $MESS["CML_R_ADD"] = "додавання";
 $MESS["CML_R_EDIT"] = "змінення";
 $MESS["CML_R_IBLOCK"] = "Помилка #ACT# інфоблоку #NAME#: #ERROR#";
 $MESS["CML_R_MIN"] = "хв";
-$MESS["CML_R_MYSQL_ONLY"] = "Даний скрипт призначений для імпорту даних з формату CommerceML у <b>MySql</b> версії продукту. З питань, пов'язаних з іншими версіями продукту, звертайтеся в службу техпідтримки за адресою <a href=\"mailto:support@bitrixsoft.ru\">support@bitrixsoft.ru</a>";
 $MESS["CML_R_NCATA"] = "Оброблено каталогів: #NUM#";
 $MESS["CML_R_NGRP"] = "Оброблено груп: #NUM#";
 $MESS["CML_R_NOFF"] = "Оброблено пропозицій: #NUM#";
@@ -202,4 +201,3 @@ $MESS["DIN_QUANTITY_FROM"] = "Купується кількість від";
 $MESS["DIN_QUANTITY_TO"] = "Купується кількість до";
 $MESS["EST_PRICE_TYPE"] = "Тип цін \"#TYPE#\"";
 $MESS["EST_PRICE_TYPE2"] = "Тип цін \"#NAME#\" (#TYPE#)";
-?>

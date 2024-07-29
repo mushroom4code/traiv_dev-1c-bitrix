@@ -1,4 +1,5 @@
-<?
+<?php
+$MESS["MAIN_ADMIN_ADD_SITE_SELECTOR_1"] = "Dodaj parę strona/umowa";
 $MESS["MAIN_ADMIN_SET_CONTROLLER_ALT"] = "Overriden by Controller";
 $MESS["MAIN_BY_DEFAULT"] = "Domyślny:";
 $MESS["MAIN_DEFAULT"] = "< domyślne >";
@@ -14,4 +15,3 @@ $MESS["MAIN_TAB_TITLE_RIGHTS"] = "Moduł Uprawnień Dostępu";
 $MESS["MAIN_TAB_TITLE_SET"] = "Ogólne Parametry";
 $MESS["MAIN_TITLE"] = "Ustawienia Modułu";
 $MESS["MAIN_USER_GROUP_TITLE"] = "Wyświetl parametry grupy użytkownika";
-?>

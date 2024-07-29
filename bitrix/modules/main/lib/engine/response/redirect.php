@@ -95,11 +95,6 @@ class Redirect extends Main\HttpResponse
 		//doubtful about &amp; and http response splitting defence
 		$url = str_replace(["&amp;", "\r", "\n"], ["&", "", ""], $url);
 
-		if (!defined("BX_UTF") && defined("LANG_CHARSET"))
-		{
-			$url = Encoding::convertEncoding($url, LANG_CHARSET, "UTF-8");
-		}
-
 		return $url;
 	}
 
@@ -114,7 +109,7 @@ class Redirect extends Main\HttpResponse
 		$protocol = Context::getCurrent()->getRequest()->isHttps() ? "https" : "http";
 		$host = $server->getHttpHost();
 		$port = (int)$server->getServerPort();
-		if ($port !== 80 && $port !== 443 && $port > 0 && strpos($host, ":") === false)
+		if ($port !== 80 && $port !== 443 && $port > 0 && !str_contains($host, ":"))
 		{
 			$host .= ":" . $port;
 		}

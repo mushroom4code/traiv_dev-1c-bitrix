@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATI_ACTIVATE_PROD"] = "ativar";
 $MESS["CATI_ADDIT_SETTINGS"] = "Configurações adicionais";
 $MESS["CATI_AUTO_REFRESH"] = "Se a página não atualizar automaticamente clique no seguinte link";
@@ -46,7 +46,7 @@ $MESS["CATI_INACTIVE_PRODS"] = "Produtos/Categorias Inativos";
 $MESS["CATI_INFOBLOCK"] = "Bloco de informações";
 $MESS["CATI_INFOBLOCK_SELECT"] = "- Selecionar - ";
 $MESS["CATI_KEEP_AS_IS"] = "não modificar";
-$MESS["CATI_LINE_NO"] = "String";
+$MESS["CATI_LINE_NO"] = "Série";
 $MESS["CATI_LOADSCHEME"] = "Carregar esquema:";
 $MESS["CATI_NEXT_STEP"] = "Próxima";
 $MESS["CATI_NEXT_STEP_F"] = "Carregar dados";
@@ -85,4 +85,3 @@ $MESS["CATI_TOTAL_COR2"] = "registros.";
 $MESS["CATI_TOTAL_ERRS"] = "Total de registros com falhas:";
 $MESS["CATI_TZP"] = "ponto e vírgula";
 $MESS["CATI_ZPT"] = "vírgula";
-?>

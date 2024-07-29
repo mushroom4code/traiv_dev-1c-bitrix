@@ -4,6 +4,7 @@ $MESS["LANDING_CMP_PAR_LANDING_TYPE"] = "Лише вказаний тип сай
 $MESS["LANDING_CMP_PAR_LID"] = "Ідентифікатор сторінки";
 $MESS["LANDING_CMP_PAR_NOT_CHECK_DOMAIN"] = "Не перевіряти існування домену в сайту";
 $MESS["LANDING_CMP_PAR_PAGE_URL_LANDING_VIEW"] = "Посилання на редагування сторінки в редакторі";
+$MESS["LANDING_CMP_PAR_PAGE_URL_ROLES"] = "Посилання на управління доступом";
 $MESS["LANDING_CMP_PAR_PAGE_URL_SITES"] = "Посилання на список сайтів";
 $MESS["LANDING_CMP_PAR_PAGE_URL_SITE_SHOW"] = "Посилання на список сторінок сайту";
 $MESS["LANDING_CMP_PAR_PATH"] = "Повний шлях до сайту";

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERR_MAX_INPUT_VARS"] = "La valeur max_input_vars ne doit pas être inférieure à #MIN#. Valeur courante: #CURRENT#";
 $MESS["ERR_NO_MODS"] = "Les extensions requises ne sont pas installées : ";
 $MESS["ERR_NO_SSL"] = "Le support de ssl n'est pas ajusté en php";
@@ -277,27 +277,6 @@ $MESS["SC_HELP_CHECK_MAIL_B_EVENT"] = "Tableau dans la base de données B_EVENT 
 $MESS["SC_HELP_CHECK_MAIL_PUSH"] = "La fonctionnalité <a href=\"https://helpdesk.bitrix24.com/open/1602367/\" target=_blank>Relais de message</a> publiera des messages tirés d'e-mails dans le Flux d'activités, ce qui rendra possible d'impliquer dans la discussion tout utilisateur sans compte connecté à votre Bitrix24.
 
 Vous devrez <a href=\"https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=71&LESSON_ID=7655&LESSON_PATH=6415.6420.3698.7655\" target=_blank>configurer correctement le DNS</a> et rendre votre Bitrix24 accessible de l'extérieur pour pouvoir utiliser cette fonctionnalité.";
-$MESS["SC_HELP_CHECK_MBSTRING"] = "Le module mbstring est nécessaire pour travailler avec des différentes langues. Les paramètres de réglage de ce module doivent avoir des valeurs strictement définies en fonction du fait que le site fonctionne avec un encodage utf-8 ou plutôt un encodage national (par exemple, cp1251).
-
-Pour les sites en encodage UTF-8, les paramètres ci-dessous doivent strictement avoir les valeurs suivantes:
-<b>mbstring.func_overload=2</b>
-<b>mbstring.internal_encoding=utf-8</b>
-
-Le premier paramètre contient la substitution de toutes les fonctions de base php de traitement des chaînes par les fonctions mbstring (calcul de longueur, recherche, remplacement etc.). Le deuxième définit l'encodage du texte.
-
-Si le site n'utilise pas l'encodage UTF-8, il est nécessaire que le paramètre ait la valeur suivante:
-<b>mbstring.func_overload=0</b>
-
-Si il est impossible de désactiver la substitution des fonctions, alors il faut établir l'encodage du texte sur un octet:
-<b>mbstring.func_overload=2</b>
-<b>mbstring.internal_encoding=latin1</b>
-
-Si les paramètres ne correspondent pas aux paramètres requis, des erreurs totalement imprévisibles surviendront dans de différents endroits: texte partiellement coupé, importation xml défectueuse, système de mises à jour, etc..
-
-<b>Prêtez attention</b> que le paramètre <b>mbstring.func_overload</b> est défini dans le fichier global des réglages php.ini (ou pour le serveur virtuel dans httpd.conf), et l'encodage peut être redéfinie dans.htaccess.
-
-Pour tous les modules Bitrix la constante <i>BX_UTF</i> est utilisé en tant qu'indicateur d'encodage. Pour un site en UTF-8, il faut installer dans <i>/bitrix/php_interface/dbconn.php</i> le code suivant:
-<code>définie('BX_UTF', true);</code>";
 $MESS["SC_HELP_CHECK_MEMORY_LIMIT"] = "Le test crée à part un processus php qui génère dans le mémoire une grandeur variable de la taille donnée. Grâce à une série de mesures successives on détermine la taille de mémoire disponible au processus php.
 
 Le paramètre principal de la limite de mémoire dans php.ini - c'est <b>memory_limit</b>. Mais on ne peut pas faire confiance à la valeur du paramètre parce que les hébergeurs Web peuvent avoir les limitations de mémoire supplémentaires.
@@ -325,11 +304,12 @@ Pour modifier le classement, ajoutez le code <b>après la déclaration de charse
 $MESS["SC_HELP_CHECK_MYSQL_DB_CHARSET"] = "Vérification de la correspondance du codage et de la comparaison de la base de données au codage et à la comparaison de la connexion. Ces valeurs sont utilisées par MySQL pour créer de nouvelles tables.
 
 L'erreur peut être corrigée automatiquement, pour cela l'utilisateur, sous lequel le site fonctionne, doit avoir les droits de modification de la base de données (ALTER DATABASE).";
-$MESS["SC_HELP_CHECK_MYSQL_MODE"] = "Le paramètre <i>sql_mode</i> règle le mode de fonctionnement de MySQL. Il peut prendre des valeurs qui ne sont pas compatibles avec Bitrix. Pour définir le mode de fonctionnement par défaut, ajouter <i>/bitrix/php_interface/after_connect_d7.php</i>:
-<code>\$connexion = Bitrix\\Main\\Application::getConnection();
-\$connexion-&gt;queryExecute(&quot;SET sql_mode=''&quot;);</code>
-dans le fichier <i>/bitrix/php_interface/after_connect.php</i>
-<code>\$DB->Query(&quot;SET SET sql_mode=''&quot;);</code>";
+$MESS["SC_HELP_CHECK_MYSQL_MODE"] = "Le paramètre <i>sql_mode</i> règle le mode de fonctionnement de MySQL. Il peut prendre des valeurs qui ne sont pas compatibles avec Bitrix. Pour définir le mode de fonctionnement par défaut, ajouter <i>/bitrix/php_interface/after_connect_d7.php</i> :
+<code>\$connection = Bitrix\Main\Application::getConnection();
+\$connection-&gt;queryExecute(&quot;SET sql_mode=''&quot;);
+\$connection-&gt;queryExecute(&quot;SET innodb_strict_mode=0&quot;);</code>
+
+Notez que vous devrez peut-être disposer des droits d'utilisateur de base de données SESSION_VARIABLES_ADMIN sur MySQL 8.0.26 et les versions plus récentes. Si vos droits actuels ne suffisent pas, vous devez contacter votre administrateur de base de données ou modifier le fichier de configuration de MySQL.";
 $MESS["SC_HELP_CHECK_MYSQL_TABLE_CHARSET"] = "Le codage de tous les tableaux (et champs) doit être en concordance avec le codage de la base de données. Si certaines tables ont un codage incorrect, il faut faire la correction manuelle avec les demandes SQL.
 
 La comparaison de tous les tableaux doit aussi correspondre à la comparaison de la base, si les codages sont corrects mais les comparaisons se diffèrent, l'erreur peut être éliminée automatiquement.
@@ -424,7 +404,7 @@ La validité du certificat signifie qu'il a été vérifié par l'Autorité de C
 Si le travail avec le portail se fait via une connexion HTTPS et un certificat auto-signé est utilisé, des problèmes peuvent survenir pendant l'utilisation d'un logiciel externe, par exemple, lors de la connexion des serveurs de fichiers par protocole ZebDav et l'intégration avec MS Outlook.";
 $MESS["SC_HELP_CHECK_SOCNET"] = "Pour recevoir sur le volet d'activité du portail un message provenant des réseaux sociaux, vous devez <a href='http://www.bitrixsoft.com/company/blog/news/integration-with-social-networks.php'>configurer</a> le module des services réseaux, en indiquant les clés pour chaque service séparément.";
 $MESS["SC_HELP_CHECK_TURN"] = "Les appels vidéo exige que les navigateurs des utilisateurs concernés peuvent se connecter les uns aux autres Si les appelants sont assis sur des réseaux différents -. Par exemple, dans les bureaux dans des endroits différents - et aucune connexion directe est possible, vous aurez besoin d'un serveur spécial TURN pour établir la connexion. 
-Bitrix Inc. fournit le serveur TURN préconfiguré gratuitement à turn.calls.bitrix24.com.
+Bitrix24 fournit le serveur TURN préconfiguré gratuitement à turn.calls.bitrix24.com.
 
 Alternativement, vous pouvez configurer votre propre serveur et spécifier l'URL du serveur dans les paramètres du module Web Messenger.";
 $MESS["SC_HELP_CHECK_UPDATE"] = "La connexion test au serveur de mises à jour s'effectue sur la base des paramètres du module principal. Si la connexion n'a pas pu être établie, l'installation des mises à jour ainsi que l'activation de la version d'essai seront inaccessibles.
@@ -453,7 +433,6 @@ $MESS["SC_MOD_GD"] = "GD Bibliothèque";
 $MESS["SC_MOD_GD_JPEG"] = "Support jpeg dans GD";
 $MESS["SC_MOD_JSON"] = "Support JSON";
 $MESS["SC_MOD_MBSTRING"] = "support mbstring";
-$MESS["SC_MOD_PERL_REG"] = "Support d'expression régulière (compatible Perl)";
 $MESS["SC_MOD_XML"] = "Prise en charge XML";
 $MESS["SC_MYSQL_ERR_VER"] = "MySQL version #CUR# a été installée, #REQ# est exigé";
 $MESS["SC_NOT_FILLED"] = "Description du problème non renseignée.";
@@ -553,4 +532,3 @@ $MESS["SC_WARNINGS_FOUND"] = "Aucune erreur n'a été détectée, mais il ya des
 $MESS["SC_WARN_DAV"] = "Le module mod_dav/mod_dav_fs est chargé, WebDavne ne fonctionnera pas";
 $MESS["SC_WARN_SECURITY"] = "Le module mod_security a été chargé, il peut y avoir des problèmes dans le fonctionnement de la partie administration.";
 $MESS["SC_WARN_SUHOSIN"] = "Le module suhosin a été chargé, il peut y avoir des problèmes avec le fonctionnement de la partie administration (suhosin.simulation=#VAL#).";
-?>

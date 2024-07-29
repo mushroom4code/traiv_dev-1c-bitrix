@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["admin_index_menu"] = "Menu";
 $MESS["admin_index_perf"] = "Monitor wydajności";
 $MESS["admin_index_perf_check"] = "Sprawdź";
@@ -10,7 +10,7 @@ $MESS["admin_index_perf_no_result"] = "Test wydajności nie została wykonany.";
 $MESS["admin_index_perf_no_result_desc"] = "Moduł analiz i testów wydajności systemu. Zaleca się wykonanie testu na maksymalną kontrolę nad wykonaniem projektu.";
 $MESS["admin_index_perf_not_installed"] = "Nie zainstalowane";
 $MESS["admin_index_perf_test"] = "Test";
-$MESS["admin_index_product"] = "Powered by";
+$MESS["admin_index_product"] = "Z technologiami";
 $MESS["admin_index_product_name_1c_bitrix"] = "1C-Bitrix Site Manager";
 $MESS["admin_index_product_name_1c_bitrix_eduportal"] = "1C-Bitrix Education Portal";
 $MESS["admin_index_product_name_1c_bitrix_gosportal"] = "1C-Bitrix Government Portal";
@@ -31,4 +31,3 @@ $MESS["admin_index_sec_module_install"] = "Instaluj";
 $MESS["admin_index_sec_off"] = "Wyłączony";
 $MESS["admin_index_sec_on"] = "Włączone";
 $MESS["admin_index_title"] = "Panel Sterowania";
-?>

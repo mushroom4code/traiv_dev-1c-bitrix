@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION_VARIABLE_TIP"] = "Le nom de la variable dans laquelle l'action requise sera passée : ADD_TO_COMPARE_LIST, ADD2BASKET etc. La valeur par défaut est <i>action</i>.";
 $MESS["ADD_PROPERTIES_TO_BASKET_TIP"] = "Sélectionner les propriétés que vous voulez passer au panier et à la commande. Les propriétés requises sont celles qui peuvent affecter le choix du client ou peuvent être changées dans le panier (pour les UGS). Les propriétés qui vont affecter la finalisation de la commande (exemple : la couleur de l'article) sont également requises.";
 $MESS["AJAX_MODE_TIP"] = "Active AJAX dans le composant.";
@@ -49,7 +49,7 @@ $MESS["CP_BCS_USE_PRODUCT_QUANTITY"] = "Activer le champ Quantité de produits";
 $MESS["CP_SGMP_SHOW_SLIDER"] = "Afficher le curseur du produit";
 $MESS["CP_SGMP_SLIDER_INTERVAL"] = "Temporisation de la mise à jour du curseur, ms";
 $MESS["CP_SGMP_SLIDER_PROGRESS"] = "Afficher la barre de progression";
-$MESS["DETAIL_URL_TIP"] = "Précisez ici le chemin d'accès vers la page des détails d'un élément du bloc d'information.";
+$MESS["DETAIL_URL_TIP"] = "Spécifiez ici le chemin d'accès à une page de détails de l'élément de bloc d'informations.";
 $MESS["DISABLE_INIT_JS_IN_COMPONENT_TIP"] = "Si coché, le composant n'inclura pas la bibliothèque \"popup\". Si le modèle de composant est basé sur le modèle \"e-Store\" version 12.5, utiliser cette option réduira sa fonctionnalité.";
 $MESS["DISPLAY_BOTTOM_PAGER_TIP"] = "Si coché, les liens du fil d'Ariane seront affiché en bas de la page.";
 $MESS["DISPLAY_COMPARE_TIP"] = "Cocher cette option affichera le bouton <b>Comparer</b> pour ajouter un élément au tableau de comparaison.";
@@ -119,4 +119,3 @@ $MESS["T_IBLOCK_DESC_DESCRIPTION"] = "Définir la description de la page à part
 $MESS["T_IBLOCK_DESC_KEYWORDS"] = "Définir les mots-clés de la page à partir des propriétés";
 $MESS["T_IBLOCK_DESC_PAGER_CATALOG"] = "Produits";
 $MESS["USE_PRICE_COUNT_TIP"] = "Si coché, toutes les plages de prix existantes seront sélectionnées.";
-?>

@@ -1,4 +1,5 @@
-<?
+<?php
+$MESS["SEC_SCANNER_ADDITIONAL_INFO_BUTTON_ON"] = "Ocultar";
 $MESS["SEC_SCANNER_CRITICAL_ERROR"] = "Importante!";
 $MESS["SEC_SCANNER_CRITICAL_ERRORS_TITLE"] = "Erros do scanner:";
 $MESS["SEC_SCANNER_CRITICAL_FIRST_START"] = "Você não analisa o seu sistema a mais de um mês. <br> É recomendado que você escaneie o sistema agora.";
@@ -21,6 +22,5 @@ $MESS["SEC_SCANNER_STOP_BUTTON"] = "Parar";
 $MESS["SEC_SCANNER_TESTING_FAILURE"] = "Scanner de segurança encontrou um erro irreparável e não pode continuar. Entre em contato com o suporte técnico.";
 $MESS["SEC_SCANNER_TESTING_FAILURE_CODE"] = "(Código de erro: #CODE#)";
 $MESS["SEC_SCANNER_TEST_DATE"] = "Escaneado pela última vez em #DATA#";
-$MESS["SEC_SCANNER_TIP_BUTTON_ON"] = "Esconder";
+$MESS["SEC_SCANNER_TIP_BUTTON_ON"] = "Ocultar";
 $MESS["SEC_SCANNER_TITLE"] = "Scanner de segurança";
-?>

@@ -1,5 +1,4 @@
-<?
-$MESS["SECURITY_SITE_CHECKER_LOW_PHP_VERSION_ENTROPY"] = "A versão do php está desatualizada";
+<?php
 $MESS["SECURITY_SITE_CHECKER_LOW_PHP_VERSION_ENTROPY_DETAIL"] = "A versão atual do php não suporta a instalação de uma fonte adicional de entropia na criação de um ID da sessão";
 $MESS["SECURITY_SITE_CHECKER_LOW_PHP_VERSION_ENTROPY_RECOMMENDATION"] = "Atualize o Php para a versão 5.3.3 ou superior, de preferência para a versão estável mais recente";
 $MESS["SECURITY_SITE_CHECKER_PHP_ASP"] = "Tags no estilo ASP estão habilitadas";
@@ -24,4 +23,3 @@ $MESS["SECURITY_SITE_CHECKER_PHP_MBSTRING_SUBSTITUTE"] = "Excluir sequencias de 
 $MESS["SECURITY_SITE_CHECKER_PHP_MBSTRING_SUBSTITUTE_DETAIL"] = "A capacidade de apagar os caracteres inválidos podem ser explorados para os chamados ataques de seqüência de bytes inválidos.";
 $MESS["SECURITY_SITE_CHECKER_PHP_MBSTRING_SUBSTITUTE_RECOMMENDATION"] = "Na configuração do PHP, altere o valor de mbstring.substitute_character para qualquer coisa, mas \"nenhum\".";
 $MESS["SECURITY_SITE_CHECKER_PhpConfigurationTest_NAME"] = "Verificação de configurações do PHP";
-?>

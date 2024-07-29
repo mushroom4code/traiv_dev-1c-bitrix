@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["REPORT_ADD"] = "Ajouter";
 $MESS["REPORT_ADD_SELECT_COLUMN"] = "Ajouter";
 $MESS["REPORT_ANDOR"] = "et / ou";
@@ -56,7 +56,7 @@ $MESS["REPORT_FILTER_COMPARE_VAR_START_WITH"] = "commence par";
 $MESS["REPORT_IGNORE_FILTER_VALUE"] = "Ignorer";
 $MESS["REPORT_NEGATIVE_VALUES_RED"] = "Marquer les valeurs négatives en rouge";
 $MESS["REPORT_NEW_COLUMN_TITLE"] = "nouveau nom";
-$MESS["REPORT_PERIOD"] = "Exercice comptable";
+$MESS["REPORT_PERIOD"] = "Période de rapport";
 $MESS["REPORT_PERIOD_HIDDEN"] = "Ne pas afficher dans le rapport";
 $MESS["REPORT_PRCNT_BUTTON_TITLE"] = "% du (de la)";
 $MESS["REPORT_PRCNT_BY_COLUMN"] = "% valeur de la colonne";
@@ -88,4 +88,3 @@ $MESS["REPORT_SORT_TYPE_ASC"] = "en ordre ascendant";
 $MESS["REPORT_SORT_TYPE_DESC"] = "par ordre descendant";
 $MESS["REPORT_TITLE"] = "Nom du rapport";
 $MESS["REPORT_TITLE_EXPORT"] = "Export CSV";
-?>

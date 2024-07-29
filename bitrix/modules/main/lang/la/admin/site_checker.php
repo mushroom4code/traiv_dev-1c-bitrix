@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERR_MAX_INPUT_VARS"] = "El valor de max_input_vars debe ser #MIN# o mayor. El valor actual es:  #CURRENT#";
 $MESS["ERR_NO_MODS"] = "Las extensiones necesarias no están instaladas:";
 $MESS["ERR_NO_MODS_DOC_GENERATOR"] = "El módulo Generador de documentos requiere las extensiones php-xml y php-zip.";
@@ -62,7 +62,7 @@ $MESS["MAIN_SC_MCRYPT"] = "Características de cifrado";
 $MESS["MAIN_SC_METHOD_NOT_SUP"] = "El servidor no admite el método #METHOD#.";
 $MESS["MAIN_SC_NOT_AVAIL"] = "No disponible";
 $MESS["MAIN_SC_NOT_SUPPORTED"] = "El servidor no soporta esta característica.";
-$MESS["MAIN_SC_NO_ACCESS"] = "No se puede acceder al servidor de Bitrix, Inc. Las actualizaciones y Service Cloud Bitrix no están disponibles.";
+$MESS["MAIN_SC_NO_ACCESS"] = "No se puede acceder al servidor de Bitrix24 Las actualizaciones y Service Cloud Bitrix no están disponibles.";
 $MESS["MAIN_SC_NO_CONFLICT"] = "No hay conflictos.";
 $MESS["MAIN_SC_NO_CONNECTTO"] = "No puede conectarse a #HOST#";
 $MESS["MAIN_SC_NO_EXTERNAL_ACCESS_"] = "Esta función no está disponible debido a que la Intranet externa es inaccesible.";
@@ -105,7 +105,7 @@ $MESS["MAIN_SC_TEST_FAST_FILES"] = "Bitrix24.Drive. Operaciones de archivo rápi
 $MESS["MAIN_SC_TEST_IS_INCORRECT"] = "La prueba no ha logrado producir resultados correctos.";
 $MESS["MAIN_SC_TEST_LDAP"] = "Integración de Active Directory ";
 $MESS["MAIN_SC_TEST_MAIL_INTEGRATION"] = "Integración de correo corporativo interno";
-$MESS["MAIN_SC_TEST_MAIL_PUSH"] = "Retransmisión de mensajes de correo electrónico Al flujo de actividad";
+$MESS["MAIN_SC_TEST_MAIL_PUSH"] = "Retransmisión de mensajes de correo electrónico Al noticias";
 $MESS["MAIN_SC_TEST_MOBILE"] = "Aplicación móvil de Bitrix24";
 $MESS["MAIN_SC_TEST_NTLM"] = "Autenticación NTLM de Windows";
 $MESS["MAIN_SC_TEST_PUSH"] = "Notificaciones a los dispositivos móviles (notificaciones push)";
@@ -274,30 +274,9 @@ Estos mensajes no serán enviados si el servidor no está configurado correctame
 
 Si el problema aparece, póngase en contacto con su proveedor de hosting. Si está ejecutando el sistema en una máquina local, tendrá que configurar el servidor de forma manual.";
 $MESS["SC_HELP_CHECK_MAIL_B_EVENT"] = "La tabla B_EVENT de la base de datos almacena la cola de correo y el registro de envíos de mail. Si algo en el mensaje falla al ser enviado, las posibles razones son: dirección errada de receptores, parámetros incorrectos de la plantilla de e-mail o el subsistema de e-mails de servidor.";
-$MESS["SC_HELP_CHECK_MAIL_PUSH"] = "El <a href=\"https://helpdesk.bitrix24.com/open/1602367/\" target=_blank>Retransmisión del mensaje</a>función de enviar mensajes desde el e-mail del flujo de actividades haciendo posible la participación en la discusión de cualquier usuario que no tenga una cuenta en el Bitrix24.
+$MESS["SC_HELP_CHECK_MAIL_PUSH"] = "El <a href=\"https://helpdesk.bitrix24.com/open/1602367/\" target=_blank>Retransmisión del mensaje</a>función de enviar mensajes desde el e-mail del noticiases haciendo posible la participación en la discusión de cualquier usuario que no tenga una cuenta en el Bitrix24.
 
 Usted tendrá que <a href=\"https://dev.1c-bitrix.ru/learning/course/index.php?COURSE_ID=71&LESSON_ID=7655&LESSON_PATH=6415.6420.3698.7655\" target=_blank>configurar los DNS</a> adecuadamente y hacer que su Bitrix24 sea accesible externamente para utilizar esta característica.";
-$MESS["SC_HELP_CHECK_MBSTRING"] = "El módulo mbstring es necesario para soporte internacional. El módulo es muy estricto en cuanto a la configuración de los parámetros correctos de acuerdo a la codificación actual del sitio web: los parámetros para la codificación UTF-8 son diferentes de la codificación de caracteres nacionales (e.j. cp1252).
-
-Los siguientes parámetros son obligatorios para los sitios web basados en UTF-8:
-<b>mbstring.func_overload=2</b>
-<b>mbstring.internal_encoding=utf-8</b>
-
-El primer parámetro implica llamadas de funciones de redirecciones de funciones PHP a funciones mbstring. El segundo parámetro define la codifcación del texto.
-
-Si su sitio web no usa UTF-8, el primer valor debe ser cero:
-<b>mbstring.func_overload=0</b>
-
-Si usted no puede deshabilitar la función de redirección por algna razón, trate de usar una codificación single-byte:
-<b>mbstring.func_overload=2</b>
-<b>mbstring.internal_encoding=latin1</b>
-
-Si los valores asignados no coinciden con los parámetros del website, se producirán errores extraños como palabras truncadas, o importaciones XLM rotas.
-
-<b>Recuerde</b> que el parámetro <b>mbstring.func_overload</b> es definido en el php.ini global (o en httpd.conf para servidores virtuales), mientras que el parámetro de encoding se encuentra en .htaccess.
-
-Todos los módulos de Bitrix usan la constante <i>BX_UTF</i> para resolver la actual codificación. Un sitio web UTF-8 requiere el siguiente código en <i>/bitrix/php_interface/dbconn.php</i>:
-<code>define('BX_UTF', true);</code>";
 $MESS["SC_HELP_CHECK_MEMORY_LIMIT"] = "Esta prueba crea un proceso aislado de PHP para generar una variable cuyo tamaño se incrementa gradualmente. Al final, producirá la cantidad de memoria disponible para el proceso de PHP.
 
 PHP define el límite de memoria en php.ini mediante el establecimiento del parámetro <b>memory_limit</b>. Sin embargo, esto puede ser anulado en hostings compartidos. Usted no debe confiarse de este parámetro.
@@ -317,8 +296,12 @@ la función Exists no funciona correctamente, las funciones de búsqueda devolve
 Es necesario actualizar MySQL si usted tiene una de estas versiones instaladas.";
 $MESS["SC_HELP_CHECK_MYSQL_CONNECTION_CHARSET"] = "Esta prueba podría comprobar el carácter y el sistema usado cuando se envíe la data al servidor MyQSL.";
 $MESS["SC_HELP_CHECK_MYSQL_DB_CHARSET"] = "Esta prueba comprueba si el conjunto de caracteres y colación coinciden con los de la conexión. MySQL usa estas preferencias para crear nuevas tablas.";
-$MESS["SC_HELP_CHECK_MYSQL_MODE"] = "El parámetro <i>sql_mode</i> especifica el modo de operación MySQL. Tenga en cuenta que si acepta valores incompatibles con las soluciones de Bitrix. Agregue el siguiente código de  <i>/bitrix/php_interface/after_connect.php</i> para establecer el módulo predeterminado:
-<code>\$DB->Query(&quot;SET sql_mode=''&quot;);</code>";
+$MESS["SC_HELP_CHECK_MYSQL_MODE"] = "El parámetro <i>sql_mode</i> especifica el modo de operación de MySQL. Tenga en cuenta que puede aceptar valores incompatibles con las soluciones de Bitrix. Agregue el siguiente código a  <i>/bitrix/php_interface/after_connect_d7.php</I>  para establecer el módulo predeterminado:
+<code>\$connection = Bitrix\Main\Application::getConnection();
+\$connection-&gt;queryExecute(&quot;SET sql_mode=''&quot;);
+\$connection-&gt;queryExecute(&quot;SET innodb_strict_mode=0&quot;);</code>
+
+Tenga en cuenta que tal vez deba tener privilegios como usuario de la base de datos SESSION_VARIABLES_ADMIN on MySQL 8.0.26 y posteriores. Si su privilegio actual es insuficiente, póngase en contacto con el administrador de la base de datos o edite el archivo de configuración de MySQL.";
 $MESS["SC_HELP_CHECK_MYSQL_TABLE_CHARSET"] = "El juego de caracteres de todas las tablas y campos deben coincidir con el juego de caracteres de base de datos. Si el juego de caracteres de cualquiera de las tablas es defferent, usted tiene que arreglar manualmente con los comandos de SQL.
 
 La intercalación de la tabla debe coincidir con las configuraciones que tienen base de datos. Si los juegos de caracteres se han configurado correctamente, el cotejo no coincidente se fija de forma automática.
@@ -398,7 +381,7 @@ $MESS["SC_HELP_CHECK_SOCKET_SSL"] = "<p>Una conexión cifrada siempre se estable
 $MESS["SC_HELP_CHECK_SOCNET"] = "<p>Para recibir actualizaciones desde recursos sociales,  el módulo<a href=\"http://www.bitrixsoft.com/company/blog/news/integration-with-social-networks.php\">Social Website Integration</a> tiene que ser configurado introduciendo información sobre las credenciales de autenticación para cada servicio que será usado.</p>";
 $MESS["SC_HELP_CHECK_TURN"] = "Las video llamadas requieren que los navegadores de los usuarios implicados puedan conectarse entre sí. Si las personas que llaman se ubican en redes diferentes  - por ejemplo, en oficinas ubicadas en diferentes lugares - y no es posible una conexión directa, se necesita un servidor TURN especial para establecer la conexión.
 
-Bitrix Inc. proporciona el servidor TURN preconfigurado de forma gratuita en turn.calls.bitrix24.com.
+Bitrix24 proporciona el servidor TURN preconfigurado de forma gratuita en turn.calls.bitrix24.com.
 
 Como alternativa, puede configurar su propio servidor y especificar la URL del servidor en la configuración del módulo Messenger Web.";
 $MESS["SC_HELP_CHECK_UPDATE"] = "Este tratará de establecer una conexión de prueba con el servidor de actualización mediante las configuraciones actuales del módulo Kernel. Si la conexión no puede ser establecida, no podrá instalar las actualizaciones o activar la versión de prueba.
@@ -424,7 +407,6 @@ $MESS["SC_MOD_GD"] = "Biblioteca GD";
 $MESS["SC_MOD_GD_JPEG"] = "Soporte GD JPEG";
 $MESS["SC_MOD_JSON"] = "Soporte JSON";
 $MESS["SC_MOD_MBSTRING"] = "soporte mbstring ";
-$MESS["SC_MOD_PERL_REG"] = "Soporte de expresiones regulares (Perl-Compatible)";
 $MESS["SC_MOD_XML"] = "Soporte XML";
 $MESS["SC_MYSQL_ERR_VER"] = "MySQL #CUR# está actualmente instalado, pero #REQ# es requerido.";
 $MESS["SC_NOT_FILLED"] = "La descripción del problema es obligatoria.";
@@ -526,4 +508,3 @@ $MESS["SC_WARNINGS_FOUND"] = "Hubo advertencias pero no hay errores.";
 $MESS["SC_WARN_DAV"] = "WebDav está deshabilitado porque el módulo mod_dav/mod_dav_fs está cargado.";
 $MESS["SC_WARN_SECURITY"] = "El módulo mod_security ha sido cargado, algunos problemas en el Panel de control, pueden surgir.";
 $MESS["SC_WARN_SUHOSIN"] = "El módulo suhosin ha sido cargado, algunos problemas pueden surgir en el Panel de control (suhosin.simultaion=#VAL#).";
-?>

@@ -43,10 +43,6 @@ export const BaseChatContent = {
 			type: String,
 			default: '',
 		},
-		commentsOpened: {
-			type: Boolean,
-			default: false,
-		},
 	},
 	data(): JsonObject
 	{
@@ -69,6 +65,10 @@ export const BaseChatContent = {
 		isGuest(): boolean
 		{
 			return this.dialog.role === UserRole.guest;
+		},
+		hasCommentsOnTop(): boolean
+		{
+			return this.$store.getters['messages/comments/areOpenedForChannel'](this.dialogId);
 		},
 		containerClasses(): string[]
 		{
@@ -190,7 +190,12 @@ export const BaseChatContent = {
 				<!-- Textarea -->
 				<div v-if="canSend" v-textarea-observer class="bx-im-content-chat__textarea_container" ref="textarea-container">
 					<slot name="textarea" :onTextareaMount="onTextareaMount">
-						<ChatTextarea :dialogId="dialogId" :key="dialogId" @mounted="onTextareaMount" />
+						<ChatTextarea 
+							:dialogId="dialogId" 
+							:key="dialogId" 
+							:withAudioInput="false" 
+							@mounted="onTextareaMount" 
+						/>
 					</slot>
 				</div>
 				<slot v-else-if="isGuest" name="join-panel">
@@ -200,10 +205,10 @@ export const BaseChatContent = {
 				<!-- End textarea -->
 				<DropArea :dialogId="dialogId" :container="$refs.content || {}" :key="dialogId" />
 			</div>
-			<ChatSidebar 
+			<ChatSidebar
 				v-if="dialogId.length > 0" 
 				:originDialogId="dialogId"
-				:isActive="!commentsOpened"
+				:isActive="!hasCommentsOnTop"
 				@changePanel="onChangeSidebarPanel" 
 			/>
 		</div>

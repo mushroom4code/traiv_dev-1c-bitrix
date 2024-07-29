@@ -1,5 +1,17 @@
-<?
+<?php
 $MESS["ADDRESS"] = "Adresse";
+$MESS["BX_CATALOG_STORE_LIST_ACTION_ACTIVATE"] = "Activer";
+$MESS["BX_CATALOG_STORE_LIST_ACTION_DEACTIVATE"] = "Désactiver";
+$MESS["BX_CATALOG_STORE_LIST_ACTION_SET_DEFAULT"] = "Rendre entrepôt par défaut";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_ACTIVATE_STORE"] = "Impossible d'activer l'entrepôt ##ID#";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_DEACTIVATE_DEFAULT_STORE"] = "Impossible de désactiver l'entrepôt par défaut";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_DEACTIVATE_STORE"] = "Impossible de désactiver l'entrepôt ##ID#";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_DELETE_DEFAULT_STORE"] = "Impossible de supprimer l'entrepôt par défaut";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_DELETE_STORE"] = "Impossible de supprimer l'entrepôt ##ID#";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_SET_DEFAULT_NON_ACTIVE_STORE"] = "Un entrepôt inactif ne peut pas devenir un entrepôt par défaut";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_SET_DEFAULT_SITE_STORE"] = "L'entrepôt par défaut ne peut appartenir à aucun site";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_SET_DEFAULT_STORE_INTERNAL"] = "Erreur lors de la création d'un entrepôt par défaut : #ERROR#";
+$MESS["BX_CATALOG_STORE_LIST_FIELD_IS_DEFAULT"] = "Par défaut";
 $MESS["CAT_STORE_INDEX_TITLE"] = "Liste URL de la page (à partir de paramètres de blocage de l'information par défaut)";
 $MESS["CSTORE_SORT"] = "Trier";
 $MESS["DATE_CREATE"] = "Date de création";
@@ -26,4 +38,3 @@ $MESS["STORE_XML_ID"] = "ID externe";
 $MESS["TITLE"] = "Nom";
 $MESS["USER_ID"] = "Créé par";
 $MESS["group_admin_nav"] = "Entrepôts";
-?>

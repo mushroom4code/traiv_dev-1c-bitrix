@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["BPCGHLP_PROP_BOOL"] = "Tak/Nie";
 $MESS["BPCGHLP_PROP_DATA"] = "Data";
-$MESS["BPCGHLP_PROP_DATETIME"] = "Data/Czas";
+$MESS["BPCGHLP_PROP_DATETIME"] = "Data/Godzina";
 $MESS["BPCGHLP_PROP_DOUBLE"] = "Liczba";
 $MESS["BPCGHLP_PROP_FILE"] = "Plik";
 $MESS["BPCGHLP_PROP_INT"] = "Liczba całkowita";
@@ -18,7 +18,7 @@ $MESS["IBD_DOCUMENT_ENTITY_NAME"] = "Bloki informacji";
 $MESS["IBD_DOCUMENT_MOPROMT"] = "Blok informacji";
 $MESS["IBD_DOCUMENT_XFORMOPTIONS1"] = "Określ liczne warianty w nowej linii. Jeżeli wartość wariantu jest inna niż nazwa, poprzedź nazwę wartością w nawiasach kwadratowych. Na przykład: [v1]Wariant 1";
 $MESS["IBD_DOCUMENT_XFORMOPTIONS2"] = "Kliknij \"Ustaw\" kiedy skończysz.";
-$MESS["IBD_DOCUMENT_XFORMOPTIONS3"] = "ustaw";
+$MESS["IBD_DOCUMENT_XFORMOPTIONS3"] = "Ustaw";
 $MESS["IBD_ELEMENT_NOT_FOUND"] = "Nie znaleziono elementu.";
 $MESS["IBD_FIELD_ACTIVE"] = "Element Jest Aktywny";
 $MESS["IBD_FIELD_BP_PUBLISHED"] = "Opublikowany";
@@ -33,7 +33,7 @@ $MESS["IBD_FIELD_DETAIL_TEXT"] = "Pełen Tekst";
 $MESS["IBD_FIELD_DETAIL_TEXT_TYPE"] = "Pełen Typ Tekstu";
 $MESS["IBD_FIELD_IBLOCK_ID"] = "ID Bloku Informacji";
 $MESS["IBD_FIELD_ID"] = "Element ID";
-$MESS["IBD_FIELD_MODIFIED_BY_USER_PRINTABLE"] = "Edytowane przez";
+$MESS["IBD_FIELD_MODIFIED_BY_USER_PRINTABLE"] = "Edytowane przez (nazwa)";
 $MESS["IBD_FIELD_MODYFIED"] = "Element ostatnio zmieniony";
 $MESS["IBD_FIELD_NAME"] = "Tytuł Elementu";
 $MESS["IBD_FIELD_PREVIEW_PICTURE"] = "Miniatura";
@@ -45,4 +45,3 @@ $MESS["IBD_FIELD_USERNAME_PROPERTY"] = "(nazwa)";
 $MESS["IBD_FIELD_XML_ID"] = "Zewnętrzne ID";
 $MESS["IBD_OPERATION_READ"] = "Odczyt";
 $MESS["IBD_OPERATION_WRITE"] = "Napisz";
-?>

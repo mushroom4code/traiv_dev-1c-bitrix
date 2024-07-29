@@ -634,7 +634,7 @@ class CBPWorkflow
 			$this->instanceId,
 			array(
 				"STATE" => "Terminated",
-				"TITLE" => $stateTitle ? $stateTitle : GetMessage("BPCGWF_TERMINATED"),
+				"TITLE" => $stateTitle ?: GetMessage("BPCGWF_TERMINATED_MSGVER_1"),
 				"PARAMETERS" => array()
 			),
 			false//array()
@@ -722,6 +722,20 @@ class CBPWorkflow
 		}
 
 		WorkflowUserTable::syncOnWorkflowUpdated($this, $status);
+
+		/* not ready now
+		if ($status === CBPWorkflowStatus::Completed && $this->getStartedBy())
+		{
+			$commentService = new Bizproc\Api\Service\WorkflowCommentService();
+			$commentService->addSystemComment(
+				new Bizproc\Api\Request\WorkflowCommentService\AddSystemCommentRequest(
+					$this->getInstanceId(),
+					$this->getStartedBy(),
+					\Bitrix\Main\Localization\Loc::getMessage('BPCGWF_COMPLETED_COMMENT_TEXT'),
+				)
+			);
+		}
+		*/
 	}
 
 	/**

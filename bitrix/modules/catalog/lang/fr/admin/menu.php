@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CAM_EXPORT_DESCR"] = "Exporter des données avec 'exportation'";
 $MESS["CAM_EXPORT_DESCR_EDIT"] = "Réglage du profil d'exportation";
 $MESS["CAM_EXPORT_DESCR_EXPORT"] = "Configuration et exportation de données avec un exportateur";
@@ -25,8 +25,8 @@ $MESS["CURRENCY"] = "Devises";
 $MESS["CURRENCY_ALT"] = "Devises";
 $MESS["CURRENCY_RATES"] = "Les taux de change";
 $MESS["CURRENCY_RATES_ALT"] = "Les taux de change";
-$MESS["EXTRA"] = "Les marges";
-$MESS["EXTRA_ALT"] = "Types de marges";
+$MESS["EXTRA"] = "Marges";
+$MESS["EXTRA_ALT"] = "Marges";
 $MESS["GROUP"] = "Types des prix";
 $MESS["GROUP_ALT"] = "Types des prix";
 $MESS["LOAD_1C"] = "Importation de données XML (CommerceML)";
@@ -48,4 +48,3 @@ $MESS["UNLOAD_DATA"] = "Exportation";
 $MESS["UNLOAD_DATA_ALT"] = "Exportation des données dasn le fichier CSV";
 $MESS["VAT"] = "Liste des taux de TVA";
 $MESS["VAT_ALT"] = "Gérer des taux TVA";
-?>

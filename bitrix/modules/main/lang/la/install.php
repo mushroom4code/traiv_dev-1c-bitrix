@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACT_KEY"] = "Desea registrar mi copia del programa y obtener las actualizaciones";
 $MESS["ACT_KEY_BAD_EMAIL"] = "El correo electrónico es incorrecto.";
 $MESS["ACT_KEY_BAD_LAST_NAME"] = "Apellido no se especifica.";
@@ -8,7 +8,7 @@ $MESS["ACT_KEY_NAME"] = "Su Nombre";
 $MESS["ACT_KEY_REQUEST_ERROR"] = "Se produjo un error al solicitar una clave de licencia. Póngase en contacto con nuestros a href='http://www.bitrixsoft.com/support/index.php'>Helpdesk</a>.";
 $MESS["ADMIN_PARAMS"] = "Administrador de base de datos de parámetros";
 $MESS["BAD_LICENSE_KEY"] = "Número de licencia incorrecto.";
-$MESS["COPYRIGHT"] = "Copyright &copy; 2001--#CURRENT_YEAR# Bitrix, Inc.";
+$MESS["COPYRIGHT"] = "Copyright &copy; 2001--#CURRENT_YEAR# Bitrix24";
 $MESS["COULD_NOT_CONNECT"] = "No se puede conectar a la base de datos. <br> Revise los parámetros por favor.";
 $MESS["DEMO_INST"] = "Instalar demo de datos";
 $MESS["DEMO_INST_PROMT"] = "Demo base de datos";
@@ -220,7 +220,6 @@ $MESS["SC_CATALOG"] = "Carpeta";
 $MESS["SC_CURRENT"] = "Valor actual";
 $MESS["SC_DB_VERS"] = "Base de Datos versión <b>#DB#</b>";
 $MESS["SC_DB_VERS_MYSQL"] = "Versión MYSQL";
-$MESS["SC_DB_VERS_MYSQL_ER"] = "Su versión de MySql no cubre los requisitos de Bitrix ";
 $MESS["SC_DISK_AVAIL_READ_WRITE"] = "Accesible para lectura y escritura";
 $MESS["SC_DISK_AVAIL_READ_WRITE1"] = "Accesible para lectura y escritura";
 $MESS["SC_DISK_AVAIL_READ_WRITE2"] = "Accesible para lectura y escritura";
@@ -242,8 +241,6 @@ $MESS["SC_MOD_HASH"] = "Apoyar las funciones de hash";
 $MESS["SC_MOD_JSON"] = "Soporte de la función JSON";
 $MESS["SC_MOD_MYSQL"] = "Funciones MYSQL";
 $MESS["SC_MOD_ORACLE"] = "Funciones Oracle 8";
-$MESS["SC_MOD_PERL_REG"] = "Regular Expression support (Perl-Compatible)";
-$MESS["SC_MOD_POSIX_REG"] = "Regular Expression support (POSIX)";
 $MESS["SC_MOD_XML"] = "Soporte XML";
 $MESS["SC_NOTES1"] = "<font color=\"#009900\"><b>Texto Verde</b></font> indicate values that meet the system requirements.<br><font color=\"#FF0000\"><b>texto rojo</b></font> indicate values that <b>do not</b> meet the system requirements.";
 $MESS["SC_NOT_EXISTS"] = "no existe";
@@ -251,11 +248,9 @@ $MESS["SC_NOT_SETTED"] = "No Fijar";
 $MESS["SC_NO_FT_LIB_ER"] = "Tipo Free Library no está instalado con PHP";
 $MESS["SC_NO_GD_LIB_ER"] = "La librería GD está deshabilitada.";
 $MESS["SC_NO_HASH"] = "Las funciones hash no son compatibles con PHP";
-$MESS["SC_NO_JSON_LIB_ER"] = "Esta instalación de PHP no soporta JSON.";
 $MESS["SC_NO_MYS_LIB_ER"] = "Deshabilitadas funciones de MYSQL";
 $MESS["SC_NO_OPENSSL_LIB_ER"] = "OpenSSL no está disponible en su PHP.";
 $MESS["SC_NO_ORA_LIB_ER"] = "Deshabilitadas funciones de Oraclo 8";
-$MESS["SC_NO_PERE_LIB_ER"] = "Deshabilitado soporte a expresiones regulares (Regular Expression support)";
 $MESS["SC_NO_TEMP_FOLDER"] = "carpeta temporal no especificada";
 $MESS["SC_NO_XML_LIB_ER"] = "Deshabilitado soporte XML";
 $MESS["SC_NO_ZLIB_LIB_ER"] = "La Compresión ZLib está deshabilitada.";
@@ -323,4 +318,3 @@ $MESS["SC_magic_quotes_sybase"] = "Salida para Sybase";
 $MESS["SUPPORT"] = "<a href=\"http://www.bitrixsoft.com/?r1=bsm50&r2=install\">www.bitrixsoft.com</a>  |  <a href=\"http://www.bitrixsoft.com/support/?r1=bsm50&r2=installsupport\">Soporte</a>";
 $MESS["SUPPORT_README"] = "<a href=\"/readme.html\" target=\"_blank\">Installation instructions</a> <span class=\"instal-footer-separator\"></span> ";
 $MESS["UTF8_SUPPORT"] = "Para la instalación con la codificación UTF-8";
-?>

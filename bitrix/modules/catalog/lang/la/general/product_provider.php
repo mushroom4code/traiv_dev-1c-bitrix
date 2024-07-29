@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATALOG_ERR_NO_PRODUCT"] = "El producto no ha sido encontrado.";
 $MESS["CATALOG_ERR_NO_PRODUCT_SET"] = "No se encontró el contenido del paquete.";
 $MESS["CATALOG_ERR_NO_PRODUCT_SET_ITEM"] = "No se encontraron productos incluidos.";
@@ -11,7 +11,9 @@ $MESS["DDCT_DEDUCTION_PRODUCT_NOT_FOUND_ERROR"] = "Producto para ser enviado no 
 $MESS["DDCT_DEDUCTION_QUANTITY_ERROR"] = "Cantidad insuficiente para enviar el producto #PRODUCT_NAME# (##PRODUCT_ID#).";
 $MESS["DDCT_DEDUCTION_QUANTITY_STORE_ERROR"] = "La cantidad de producto #PRODUCT_NAME# (##PRODUCT_ID#) en el almacén ##STORE_ID# es insuficiente para el envío.";
 $MESS["DDCT_DEDUCTION_SAVE_ERROR"] = "Ha ocurrido un error desconocido al guardar la cantidad de #PRODUCT_NAME# (##PRODUCT_ID#) en el almacén.";
+$MESS["DDCT_DEDUCTION_SHIPMENT_QUANTITY_NOT_ENOUGH"] = "La cantidad de \"#PRODUCT_NAME#\" excede las existencias disponibles en el almacén";
 $MESS["DDCT_DEDUCTION_STORE_ERROR"] = "Los almacenes no están especificados a enviar producto #PRODUCT_NAME# (##PRODUCT_ID#).";
+$MESS["DDCT_DEDUCTION_UNDO_ERROR_RESERVE_QUANTITY"] = "No se puede cancelar la reservación para más artículos de los que realmente se reservaron (#PRODUCT_NAME#, ##PRODUCT_ID#)";
 $MESS["DDCT_DEDUCTION_WRITE_ERROR"] = "Error al actualizar información de envío de producto #PRODUCT_NAME# (##PRODUCT_ID#).";
 $MESS["DDCT_UNKNOWN_ERROR"] = "Error desconocido al enviar el producto #PRODUCT_NAME# (##PRODUCT_ID#).";
 $MESS["RSRV_ID_NOT_FOUND"] = "El producto ##PRODUCT_ID# no se ha encontrado.";
@@ -20,4 +22,3 @@ $MESS["RSRV_QUANTITY_NEGATIVE_ERROR"] = "El almacén muestra cantidad negativa p
 $MESS["RSRV_QUANTITY_NOT_ENOUGH_ERROR"] = "Producto #PRODUCT_NAME# (##PRODUCT_ID#) tiene stock suficiente.";
 $MESS["RSRV_SKU_FOUND"] = "El producto ##PRODUCT_ID# tiene múltiples SKU. Sólo una SKU específica puede ser reservada o liberada.";
 $MESS["RSRV_UNKNOWN_ERROR"] = "Error desconocido al reservar producto #PRODUCT_NAME# (##PRODUCT_ID#).";
-?>

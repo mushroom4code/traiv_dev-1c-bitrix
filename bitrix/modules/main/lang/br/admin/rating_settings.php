@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_RATING_SETTINGS"] = "Parâmetros de Avaliação";
 $MESS["MAIN_RATING_SETTINGS_ALT"] = "Parâmetros para peso do voto, método de cálculo e permissões de voto";
 $MESS["MAIN_YES"] = "Sim";
@@ -42,7 +42,7 @@ $MESS["RATING_SETTINGS_FRM_DELETE"] = "Excluir";
 $MESS["RATING_SETTINGS_FRM_FROM"] = "Para valores de autoridade a partir de";
 $MESS["RATING_SETTINGS_FRM_RATING"] = "Avaliação";
 $MESS["RATING_SETTINGS_FRM_RATING_CLEAR_DATA"] = "Excluir todos os dados de classificação";
-$MESS["RATING_SETTINGS_FRM_RATING_CLEAR_DATA_CONFIRM"] = "Tem certeza de que deseja apagar todos os dados de avaliação? Isto irá apagar todo o conteúdo de resultados da votação, avaliações e valores de autoridade do usuário.";
+$MESS["RATING_SETTINGS_FRM_RATING_CLEAR_DATA_CONFIRM"] = "Tem certeza de que deseja apagar todos os dados de avaliação? Isto irá apagar todo o conteúdo de resultados da votação, avaliações e valores de autoridade do usuário.";
 $MESS["RATING_SETTINGS_FRM_RATING_CLEAR_DATA_OK"] = "Todos os dados de avaliação foram excluídos.";
 $MESS["RATING_SETTINGS_FRM_RATING_COUNT_VOTE"] = "Cota diária de votos de autoridade do usuário";
 $MESS["RATING_SETTINGS_FRM_RATING_ID"] = "A classificação é utilizada para o cálculo autoridade.";
@@ -70,4 +70,3 @@ $MESS["RATING_SETTINGS_FRM_WEIGHT"] = "peso do voto";
 $MESS["RATING_SETTINGS_TAB_MAIN"] = "Votar Permissão";
 $MESS["RATING_SETTINGS_TAB_START_VALUE"] = "Valores iniciais";
 $MESS["RATING_SETTINGS_TAB_WEIGHT"] = "Parâmetros de Avaliação";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["PAYMENT_CASHBOX_CHECK_ADD_WINDOW_TITLE"] = "Ajouter un nouveau reçu";
 $MESS["SALE_ORDER_PAYMENT"] = "Paiement";
 $MESS["SALE_ORDER_PAYMENT_ADD_COMPANY"] = "Aucune entreprise active. <a href=\"#URL#\" target=\"_blank\">Ajouter une</a>";
@@ -64,10 +64,9 @@ $MESS["SALE_ORDER_PAYMENT_STATUS_NO"] = "Impayé";
 $MESS["SALE_ORDER_PAYMENT_STATUS_YES"] = "Payé";
 $MESS["SALE_ORDER_PAYMENT_SUM"] = "Prix";
 $MESS["SALE_ORDER_PAYMENT_TOGGLE_DOWN"] = "Développer";
-$MESS["SALE_ORDER_PAYMENT_TOGGLE_UP"] = "Fermer";
+$MESS["SALE_ORDER_PAYMENT_TOGGLE_UP"] = "Réduire";
 $MESS["SALE_ORDER_PAYMENT_USE_INNER_BUDGET"] = "Utilisation d'un compte interne";
 $MESS["SALE_ORDER_PAYMENT_WINDOW_CANCEL_TITLE"] = "Annuler le paiement";
 $MESS["SALE_ORDER_PAYMENT_WINDOW_RETURN_BUTTON_SAVE"] = "Enregistrer";
 $MESS["SALE_ORDER_PAYMENT_WINDOW_RETURN_TITLE"] = "Renvoyer le paiement";
 $MESS["SALE_ORDER_PAYMENT_WINDOW_VOUCHER_TITLE"] = "Ordonner des paiements";
-?>

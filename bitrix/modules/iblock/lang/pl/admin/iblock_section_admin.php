@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBSEC_A_ACTIVE"] = "Aktywne";
 $MESS["IBSEC_A_ADD"] = "Dodawanie";
 $MESS["IBSEC_A_ADDEL_TITLE"] = "Kliknij aby dodać nowy element";
@@ -6,7 +6,7 @@ $MESS["IBSEC_A_BACK_TO_ADMIN"] = "Powrót do listy bloku informacji";
 $MESS["IBSEC_A_BAD_BLOCK_TYPE_ID"] = "Popraw typ bloku.";
 $MESS["IBSEC_A_BAD_IBLOCK"] = "Nie znaleziono sekcji lub odmowa dostępu.";
 $MESS["IBSEC_A_CHANGE"] = "Modyfikuj";
-$MESS["IBSEC_A_CODE"] = "Kod podatku";
+$MESS["IBSEC_A_CODE"] = "Kod symboliczny";
 $MESS["IBSEC_A_CONFIRM_DEL_MESSAGE"] = "Wszelkie informacje dotyczące tego zapisu zostanie usunięta! W dalszym ciągu?";
 $MESS["IBSEC_A_CREATED_BY"] = "Utworzony przez";
 $MESS["IBSEC_A_DATE_CREATE"] = "Utworzony";
@@ -43,5 +43,4 @@ $MESS["IBSEC_A_UP"] = "Jeden poziom wyżej";
 $MESS["IBSEC_A_UPDERR"] = "Błąd aktualizacji rekordu:";
 $MESS["IBSEC_A_UP_TITLE"] = "Klikaj przejrzeć źródłowy pojemnik";
 $MESS["IBSEC_A_USERINFO"] = "Wyświetl informacje użytkownika";
-$MESS["IBSEC_A_XML_ID"] = "Kod zewnętrzny";
-?>
+$MESS["IBSEC_A_XML_ID_MSGVER_1"] = "Identyfikator zewnętrzny";

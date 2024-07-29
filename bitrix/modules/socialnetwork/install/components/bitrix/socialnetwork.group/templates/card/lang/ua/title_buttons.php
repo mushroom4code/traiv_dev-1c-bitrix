@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SONET_SGCS_T_ACTIONS_BUTTON"] = "Дії";
 $MESS["SONET_SGCS_T_SESSION_WRONG"] = "Ваша сесія закінчилася, будь ласка, повторіть дію.";
 $MESS["SONET_SGCS_T_NOT_ATHORIZED"] = "Ви не авторизовані";
@@ -9,6 +9,3 @@ $MESS["SONET_SGCS_T_NOTIFY_HINT_ON"] = "Сповіщення про оновле
 $MESS["SONET_SGCS_T_NOTIFY_TITLE_OFF"] = "Сповіщення відключені";
 $MESS["SONET_SGCS_T_NOTIFY_TITLE_ON"] = "Сповіщення включені";
 $MESS["SONET_SGCS_T_ACT_FEAT2"] = "Права доступу";
-$MESS["SONET_SGCS_T_SUBSCRIBE_BUTTON_N"] = "Слідкувати";
-$MESS["SONET_SGCS_T_SUBSCRIBE_BUTTON_Y"] = "Не слідкувати";
-?>

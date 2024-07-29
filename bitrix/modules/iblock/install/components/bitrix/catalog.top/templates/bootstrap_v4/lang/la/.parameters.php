@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Imágenes adicionales propiedad por producto.";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Agregar al Carrito";
 $MESS["ADD_TO_BASKET_ACTION_BUY"] = "Comprar Ahora";
@@ -31,6 +31,8 @@ $MESS["CP_BCT_TPL_MESS_BTN_DETAIL"] = "Botón de texto \"Detalles\" ";
 $MESS["CP_BCT_TPL_MESS_BTN_DETAIL_DEFAULT"] = "Detalles";
 $MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE"] = "Mensaje de elementos no disponible";
 $MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Elementos no disponible";
+$MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Mensaje de servicio no disponible";
+$MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "No disponible";
 $MESS["CP_BCT_TPL_MESS_RELATIVE_QUANTITY_FEW"] = "Texto para valores inferiores a los calculados.";
 $MESS["CP_BCT_TPL_MESS_RELATIVE_QUANTITY_FEW_DEFAULT"] = "sólo quedan unos pocos";
 $MESS["CP_BCT_TPL_MESS_RELATIVE_QUANTITY_MANY"] = "Texto para valores mayores a los calculados.";
@@ -96,4 +98,3 @@ $MESS["SHOW_PAGINATION_TIP"] = "Muestra una tira de película de diapositivas pa
 $MESS["TEMPLATE_THEME_TIP"] = "Define los colores para representar el texto y los gráficos del sitio web. El tema azul es la opción por defecto.";
 $MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Esto requiere que se configuren las opciones de comercio electrónico mejorado de Google Analytics";
 $MESS["VIEW_MODE_TIP"] = "Esta opción define la forma en que los elementos se mostrarán en una página.";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SENDER_B24_LICENSE_AD_TEXT1"] = "Ta funkcja jest dostępna tylko w komercyjnych planach. Uaktualnij teraz i korzystaj z jeszcze większej liczby narzędzi marketingowych CRM:
 <br><br>
 1) Zarządzanie reklamami
@@ -27,8 +27,6 @@ Zyskasz również:
 <br><br>
 i inne narzędzia oraz funkcje wydajnościowe!
 <br><br>
-Dowiedz się więcej na temat planów i wybierz najodogodniejszy dla siebie <a href=\"https://www.bitrix24.com/prices/\">here</a>.
-";
+Dowiedz się więcej na temat planów i wybierz najodogodniejszy dla siebie <a href=\"https://www.bitrix24.pl/prices/\">here</a>.";
 $MESS["SENDER_B24_LICENSE_MAIL_LIMIT_TITLE"] = "Dzienny limit wysyłania";
 $MESS["SENDER_B24_LICENSE_RC_TITLE"] = "Zwiększenie Sprzedaży";
-?>

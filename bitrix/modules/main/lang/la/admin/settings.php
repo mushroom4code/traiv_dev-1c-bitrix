@@ -1,5 +1,6 @@
-<?
+<?php
 $MESS["MAIN_ADMIN_ADD_SITE_SELECTOR"] = "Para otro sitio web";
+$MESS["MAIN_ADMIN_ADD_SITE_SELECTOR_1"] = "Agregar un sitio / agrupar acuerdos";
 $MESS["MAIN_ADMIN_SET_CONTROLLER_ALT"] = "Anulado por el Contralor";
 $MESS["MAIN_ADMIN_SITE_ALL_SELECT"] = "Para todos los sitios web";
 $MESS["MAIN_ADMIN_SITE_DEFAULT_VALUE_SELECT"] = "(Seleccionar sitio web)";
@@ -16,4 +17,3 @@ $MESS["MAIN_TAB_TITLE_RIGHTS"] = "Permisos de acceso al módulo";
 $MESS["MAIN_TAB_TITLE_SET"] = "Configuración del módulo";
 $MESS["MAIN_TITLE"] = "Configuración de Módulos";
 $MESS["MAIN_USER_GROUP_TITLE"] = "Ver parámetros de usuarios del grupo";
-?>

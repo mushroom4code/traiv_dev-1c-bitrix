@@ -1,5 +1,6 @@
-<?
+<?php
 $MESS["INPUT_ADD"] = "Agregar";
+$MESS["INPUT_ADDRESS"] = "Dirección";
 $MESS["INPUT_DATE"] = "Fecha";
 $MESS["INPUT_DATE_SELECT"] = "Seleccionar fecha";
 $MESS["INPUT_DATE_TIME"] = "Hora";
@@ -36,7 +37,9 @@ $MESS["INPUT_NUMBER_STEP"] = "Paso";
 $MESS["INPUT_NUMBER_STEP_ERROR"] = "no coincide con el paso #NUM#";
 $MESS["INPUT_REQUIRED"] = "Requerido";
 $MESS["INPUT_REQUIRED_ERROR"] = "este campo es requerido";
-$MESS["INPUT_STRING"] = "Secuencia";
+$MESS["INPUT_REQUIRED_ERROR_MSGVER_1"] = "El campo \"#NAME#\" es obligatorio.";
+$MESS["INPUT_REQUIRED_ERROR_WITHOUT_FIELD_TITLE"] = "Este campo es requerido.";
+$MESS["INPUT_STRING"] = "Cadena";
 $MESS["INPUT_STRING_MAXLENGTH"] = "Duración máxima de la secuencia";
 $MESS["INPUT_STRING_MAXLENGTH_ERROR"] = "longitud sobre #NUM# requiere mas caracteres";
 $MESS["INPUT_STRING_MINLENGTH"] = "Duración mínima de la secuencia";
@@ -48,4 +51,3 @@ $MESS["INPUT_STRING_ROWS"] = "Número de filas visibles";
 $MESS["INPUT_STRING_SIZE"] = "Número de caracteres visibles";
 $MESS["INPUT_TYPE"] = "Tipo";
 $MESS["INPUT_VALUE"] = "Valor";
-?>

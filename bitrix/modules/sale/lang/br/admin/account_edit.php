@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SAEN_2FLIST"] = "Lista de contas";
 $MESS["SAEN_2FLIST_TITLE"] = "Visualizar lista de contas";
 $MESS["SAEN_DELETE_ACCOUNT"] = "Deletar a conta";
@@ -17,8 +17,8 @@ $MESS["SAE_ERROR"] = "Erro ao salvar!";
 $MESS["SAE_ERROR_SAVING"] = "Erro ao salvar a conta";
 $MESS["SAE_ERROR_SAVING_COMMENT"] = "Erro ao salvar os comentários da conta";
 $MESS["SAE_ERROR_SAVING_SUM"] = "Erro ao salvar a conta. Por favor, verifique a validade do total";
-$MESS["SAE_LOCK"] = "Bloquear a conta:";
-$MESS["SAE_LOCKED"] = "(Bloqueado";
+$MESS["SAE_LOCK"] = "Congelar:";
+$MESS["SAE_LOCKED"] = "(Congelado ";
 $MESS["SAE_NOTES"] = "Notas:";
 $MESS["SAE_NO_ACCOUNT"] = "A conta ##ID# não foi encontrada";
 $MESS["SAE_NO_PERMS2ADD"] = "Você não tem permissões suficientes para adicionar uma nova conta";
@@ -27,10 +27,9 @@ $MESS["SAE_OSN_NOTE"] = "(deve ser preenchido se o total for modificado)";
 $MESS["SAE_SAVE"] = "Salvar";
 $MESS["SAE_SAVE_ADD"] = "Adicionar";
 $MESS["SAE_SUM"] = "Total da conta:";
-$MESS["SAE_TIMESTAMP"] = "Data da última modificação:";
+$MESS["SAE_TIMESTAMP"] = "Modificado em:";
 $MESS["SAE_TO_LIST"] = "Lista de contas";
-$MESS["SAE_UNLOCK"] = "Desbloquear a conta:";
-$MESS["SAE_UPDATING"] = "Editar parâmetros da conta";
+$MESS["SAE_UNLOCK"] = "Descongelar:";
+$MESS["SAE_UPDATING"] = "Editar conta";
 $MESS["SAE_USER1"] = "Usuário:";
 $MESS["SAE_USER_PROFILE"] = "Perfil do usuário";
-?>

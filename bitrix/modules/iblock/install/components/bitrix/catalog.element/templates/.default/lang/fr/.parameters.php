@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_DETAIL_TO_SLIDER_TIP"] = "L'image détaillée est affichée avec les images supplémentaires dans le slider des images de marchandises.";
 $MESS["ADD_PICT_PROP_TIP"] = "Propriétés des images supplémentaires d'une marchandise";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Ajouter au panier";
@@ -24,8 +24,8 @@ $MESS["CP_BCE_TPL_DISPLAY_PREVIEW_TEXT_MODE_SHOW"] = "montrer toujours";
 $MESS["CP_BCE_TPL_FB_APP_ID"] = "APP_ID";
 $MESS["CP_BCE_TPL_FB_USE"] = "Utiliser Facebook";
 $MESS["CP_BCE_TPL_IMAGE_RESOLUTION"] = "Format de l'image du produit";
-$MESS["CP_BCE_TPL_IMAGE_RESOLUTION_16_BY_9"] = "16:9";
 $MESS["CP_BCE_TPL_IMAGE_RESOLUTION_1_BY_1"] = "1:1";
+$MESS["CP_BCE_TPL_IMAGE_RESOLUTION_16_BY_9"] = "16:9";
 $MESS["CP_BCE_TPL_LABEL_PROP"] = "Propriété des étiquettes de marchandises";
 $MESS["CP_BCE_TPL_LABEL_PROP_MOBILE"] = "Propriétés de l'étiquette du produit pour les appareils mobiles";
 $MESS["CP_BCE_TPL_LABEL_PROP_POSITION"] = "Position de l'étiquette du produit";
@@ -46,6 +46,8 @@ $MESS["CP_BCE_TPL_MESS_DESCRIPTION_TAB"] = "Texte de l'onglet \"Description\"";
 $MESS["CP_BCE_TPL_MESS_DESCRIPTION_TAB_DEFAULT"] = "Description";
 $MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE"] = "Message sur l'absence de la marchandise";
 $MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Pas disponible";
+$MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Message de service indisponible";
+$MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "Absents";
 $MESS["CP_BCE_TPL_MESS_PRICE_RANGES_TITLE"] = "Nom du bloc de prix étendu";
 $MESS["CP_BCE_TPL_MESS_PRICE_RANGES_TITLE_DEFAULT"] = "Prix";
 $MESS["CP_BCE_TPL_MESS_PROPERTIES_TAB"] = "Texte de l'onglet \"Propriétés\"";
@@ -121,4 +123,3 @@ $MESS["TEMPLATE_THEME_TIP"] = "Palette de couleurs à afficher. Utiliser le thè
 $MESS["USE_COMMENTS_TIP"] = "Activer une fonctionnalité des avis sur le produit";
 $MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Cela nécessite que les options Enhanced Ecommerce de Google Analytics soient configurées";
 $MESS["USE_VOTE_RATING_TIP"] = "Activer le classement du produit";
-?>

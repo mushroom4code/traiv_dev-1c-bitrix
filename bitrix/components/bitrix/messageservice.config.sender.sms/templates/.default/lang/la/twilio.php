@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_ACTION_REGISTRATION"] = "Conectar";
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_CABINET_TITLE"] = "¡El servicio de Twilio.com ya está listo!";
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_CLEAR_CONFIRMATION"] = "¿Usted está seguro que quiere restablecer la configuración?";
@@ -8,6 +8,7 @@ $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_FEATURES_LIST_1"] = "Envía mensajes dir
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_FEATURES_LIST_2"] = "Configure reglas para enviar mensajes SMS a un cliente o empleado en un momento específico o cuando se complete una tarea especificada.";
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_FEATURES_LIST_3"] = "Envíe mensajes SMS a granel desde una lista de clientes, negociaciones, prospectos u otras entidades de CRM.";
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_FEATURES_LIST_DESCRIPTION"] = "Bitrix24 proporciona mensajes SMS fáciles y sin problemas";
+$MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_FEATURES_LIST_DESCRIPTION_ADMIN"] = "Bitrix24 proporciona mensajería SMS sencilla y sin complicaciones.";
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_FEATURES_TITLE"] = "Explore las posibilidades de comercialización de SMS";
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_LABEL_ACCOUNT_FRIENDLY_NAME"] = "Nombre de la cuenta";
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_LABEL_ACCOUNT_SID"] = "SID";
@@ -24,4 +25,3 @@ $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_RULES_LIST_4"] = "Pegue el Token y el SI
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_RULES_LIST_TITLE"] = "Configure los parámetros de twilio.com y comience a usar la notificación por SMS con Bitrix24";
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_TITLE"] = "Notificación SMS simple y firme";
 $MESS["MESSAGESERVICE_CONFIG_SENDER_SMS_TITLE_2"] = "Desarrollado por TWILIO.COM";
-?>

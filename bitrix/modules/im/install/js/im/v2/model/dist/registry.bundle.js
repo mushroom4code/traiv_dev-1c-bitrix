@@ -2,7 +2,7 @@
 this.BX = this.BX || {};
 this.BX.Messenger = this.BX.Messenger || {};
 this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
-(function (exports,main_core_events,im_v2_lib_user,im_v2_lib_userStatus,im_v2_lib_logger,im_v2_lib_utils,im_v2_const,im_v2_application_core,ui_vue3_vuex,main_core,im_v2_model) {
+(function (exports,main_core_events,im_v2_lib_user,im_v2_lib_userStatus,im_v2_lib_logger,im_v2_lib_channel,im_v2_lib_utils,im_v2_const,im_v2_application_core,ui_vue3_vuex,main_core,im_v2_model) {
 	'use strict';
 
 	const isNumberOrString = target => {
@@ -798,7 +798,11 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	  }
 	  getState() {
 	    return {
-	      collection: {}
+	      collection: {},
+	      layout: {
+	        opened: false,
+	        channelDialogId: ''
+	      }
 	    };
 	  }
 	  getElementState() {
@@ -833,6 +837,21 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	          return true;
 	        }
 	        return (_element$isUserSubscr = element == null ? void 0 : element.isUserSubscribed) != null ? _element$isUserSubscr : false;
+	      },
+	      /** @function messages/comments/areOpened */
+	      areOpened: state => {
+	        var _state$layout$opened, _state$layout;
+	        return (_state$layout$opened = (_state$layout = state.layout) == null ? void 0 : _state$layout.opened) != null ? _state$layout$opened : false;
+	      },
+	      /** @function messages/comments/areOpenedForChannel */
+	      areOpenedForChannel: state => channelDialogId => {
+	        var _state$layout2;
+	        return ((_state$layout2 = state.layout) == null ? void 0 : _state$layout2.channelDialogId) === channelDialogId;
+	      },
+	      /** @function messages/comments/getOpenedChannelId */
+	      getOpenedChannelId: state => {
+	        var _state$layout$channel, _state$layout3;
+	        return (_state$layout$channel = (_state$layout3 = state.layout) == null ? void 0 : _state$layout3.channelDialogId) != null ? _state$layout$channel : '';
 	      }
 	    };
 	  }
@@ -888,6 +907,14 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	          messageId,
 	          isUserSubscribed: false
 	        });
+	      },
+	      /** @function messages/comments/setOpened */
+	      setOpened: (store, payload) => {
+	        store.commit('setOpened', payload);
+	      },
+	      /** @function messages/comments/setClosed */
+	      setClosed: store => {
+	        store.commit('setClosed');
 	      }
 	    };
 	  }
@@ -917,6 +944,21 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	        }
 	        currentUsers.pop();
 	        currentUsers.unshift(newUserId);
+	      },
+	      setOpened: (state, payload) => {
+	        const {
+	          channelDialogId
+	        } = payload;
+	        state.layout = {
+	          opened: true,
+	          channelDialogId
+	        };
+	      },
+	      setClosed: state => {
+	        state.layout = {
+	          opened: false,
+	          channelDialogId: ''
+	        };
 	      }
 	    };
 	  }
@@ -3154,16 +3196,24 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	var _getMessage = /*#__PURE__*/babelHelpers.classPrivateFieldLooseKey("getMessage");
 	var _getDialog = /*#__PURE__*/babelHelpers.classPrivateFieldLooseKey("getDialog");
 	var _hasTodayMessage = /*#__PURE__*/babelHelpers.classPrivateFieldLooseKey("hasTodayMessage");
-	var _isChannel = /*#__PURE__*/babelHelpers.classPrivateFieldLooseKey("isChannel");
 	var _canDelete = /*#__PURE__*/babelHelpers.classPrivateFieldLooseKey("canDelete");
+	var _prepareFakeItemWithDraft = /*#__PURE__*/babelHelpers.classPrivateFieldLooseKey("prepareFakeItemWithDraft");
+	var _createFakeMessageForDraft = /*#__PURE__*/babelHelpers.classPrivateFieldLooseKey("createFakeMessageForDraft");
+	var _shouldDeleteItemWithDraft = /*#__PURE__*/babelHelpers.classPrivateFieldLooseKey("shouldDeleteItemWithDraft");
 	class RecentModel extends ui_vue3_vuex.BuilderModel {
 	  constructor(...args) {
 	    super(...args);
+	    Object.defineProperty(this, _shouldDeleteItemWithDraft, {
+	      value: _shouldDeleteItemWithDraft2
+	    });
+	    Object.defineProperty(this, _createFakeMessageForDraft, {
+	      value: _createFakeMessageForDraft2
+	    });
+	    Object.defineProperty(this, _prepareFakeItemWithDraft, {
+	      value: _prepareFakeItemWithDraft2
+	    });
 	    Object.defineProperty(this, _canDelete, {
 	      value: _canDelete2
-	    });
-	    Object.defineProperty(this, _isChannel, {
-	      value: _isChannel2
 	    });
 	    Object.defineProperty(this, _hasTodayMessage, {
 	      value: _hasTodayMessage2
@@ -3340,10 +3390,9 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	        if (needsBirthdayPlaceholder) {
 	          return im_v2_lib_utils.Utils.date.getStartOfTheDay();
 	        }
-	        const dialog = babelHelpers.classPrivateFieldLooseBase(this, _getDialog)[_getDialog](currentItem.dialogId);
 	        const lastActivity = currentItem.lastActivityDate;
 	        const needToUseActivityDate = main_core.Type.isDate(lastActivity) && lastActivity > message.date;
-	        if (babelHelpers.classPrivateFieldLooseBase(this, _isChannel)[_isChannel](dialog) && needToUseActivityDate) {
+	        if (im_v2_lib_channel.ChannelManager.isChannel(currentItem.dialogId) && needToUseActivityDate) {
 	          return lastActivity;
 	        }
 	        return message.date;
@@ -3494,13 +3543,24 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	      },
 	      /** @function recent/setDraft */
 	      setDraft: (store, payload) => {
-	        const existingItem = store.state.collection[payload.id];
-	        if (!existingItem) {
+	        const isRemovingDraft = !main_core.Type.isStringFilled(payload.text);
+	        if (isRemovingDraft && babelHelpers.classPrivateFieldLooseBase(this, _shouldDeleteItemWithDraft)[_shouldDeleteItemWithDraft](payload)) {
+	          void im_v2_application_core.Core.getStore().dispatch('recent/delete', {
+	            id: payload.id
+	          });
 	          return;
+	        }
+	        let existingItem = store.state.collection[payload.id];
+	        if (!existingItem && !isRemovingDraft) {
+	          store.commit('add', {
+	            ...this.getElementState(),
+	            ...babelHelpers.classPrivateFieldLooseBase(this, _prepareFakeItemWithDraft)[_prepareFakeItemWithDraft](payload)
+	          });
+	          existingItem = store.state.collection[payload.id];
 	        }
 	        const existingCollectionItem = store.state[payload.collectionName].has(payload.id);
 	        if (!existingCollectionItem) {
-	          if (payload.text === '') {
+	          if (isRemovingDraft) {
 	            return;
 	          }
 	          store.commit(payload.addMethodName, [payload.id.toString()]);
@@ -3534,14 +3594,6 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	          id: existingItem.dialogId
 	        });
 	      },
-	      /** @function recent/deleteFromChannelCollection */
-	      deleteFromChannelCollection: (store, dialogId) => {
-	        const existingItem = store.state.collection[dialogId];
-	        if (!existingItem) {
-	          return;
-	        }
-	        store.commit('deleteFromChannelCollection', dialogId);
-	      },
 	      /** @function recent/clearUnread */
 	      clearUnread: store => {
 	        store.commit('clearUnread');
@@ -3570,9 +3622,6 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	      },
 	      deleteFromCopilotCollection: (state, payload) => {
 	        state.copilotCollection.delete(payload);
-	      },
-	      deleteFromChannelCollection: (state, dialogId) => {
-	        state.channelCollection.delete(dialogId);
 	      },
 	      setChannelCollection: (state, payload) => {
 	        payload.forEach(dialogId => {
@@ -3658,15 +3707,34 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	  const hasMessage = im_v2_lib_utils.Utils.text.isUuidV4(message.id) || message.id > 0;
 	  return hasMessage && im_v2_lib_utils.Utils.date.isToday(message.date);
 	}
-	function _isChannel2(dialog) {
-	  return [im_v2_const.ChatType.channel, im_v2_const.ChatType.openChannel].includes(dialog.type);
-	}
 	function _canDelete2(dialogId) {
 	  const NOT_DELETABLE_TYPES = [im_v2_const.ChatType.openChannel];
 	  const {
 	    type
 	  } = babelHelpers.classPrivateFieldLooseBase(this, _getDialog)[_getDialog](dialogId);
 	  return !NOT_DELETABLE_TYPES.includes(type);
+	}
+	function _prepareFakeItemWithDraft2(payload) {
+	  const messageId = babelHelpers.classPrivateFieldLooseBase(this, _createFakeMessageForDraft)[_createFakeMessageForDraft](payload.id);
+	  return babelHelpers.classPrivateFieldLooseBase(this, _formatFields$2)[_formatFields$2]({
+	    dialogId: payload.id.toString(),
+	    draft: {
+	      text: payload.text.toString()
+	    },
+	    messageId
+	  });
+	}
+	function _createFakeMessageForDraft2(dialogId) {
+	  const messageId = `${im_v2_const.FakeDraftMessagePrefix}-${dialogId}`;
+	  void im_v2_application_core.Core.getStore().dispatch('messages/store', {
+	    id: messageId,
+	    date: new Date()
+	  });
+	  return messageId;
+	}
+	function _shouldDeleteItemWithDraft2(payload) {
+	  const existingItem = im_v2_application_core.Core.getStore().state.recent.collection[payload.id];
+	  return existingItem && !main_core.Type.isStringFilled(payload.text) && existingItem.messageId.toString().startsWith(im_v2_const.FakeDraftMessagePrefix);
 	}
 
 	class NotificationsModel extends ui_vue3_vuex.BuilderModel {
@@ -6474,5 +6542,5 @@ this.BX.Messenger.v2 = this.BX.Messenger.v2 || {};
 	exports.CopilotModel = CopilotModel;
 	exports.formatFieldsWithConfig = formatFieldsWithConfig;
 
-}((this.BX.Messenger.v2.Model = this.BX.Messenger.v2.Model || {}),BX.Event,BX.Messenger.v2.Lib,BX.Messenger.v2.Lib,BX.Messenger.v2.Lib,BX.Messenger.v2.Lib,BX.Messenger.v2.Const,BX.Messenger.v2.Application,BX.Vue3.Vuex,BX,BX.Messenger.v2.Model));
+}((this.BX.Messenger.v2.Model = this.BX.Messenger.v2.Model || {}),BX.Event,BX.Messenger.v2.Lib,BX.Messenger.v2.Lib,BX.Messenger.v2.Lib,BX.Messenger.v2.Lib,BX.Messenger.v2.Lib,BX.Messenger.v2.Const,BX.Messenger.v2.Application,BX.Vue3.Vuex,BX,BX.Messenger.v2.Model));
 //# sourceMappingURL=registry.bundle.js.map

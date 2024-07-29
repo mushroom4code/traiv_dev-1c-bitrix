@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["RDB_CHECK_RESULT"] = "Résultat de la vérification";
 $MESS["RDB_CHECK_TABLES"] = "Vérifiez / tables de réparation";
 $MESS["RDB_CONNECT_ERROR"] = "Impossible de se connecter à la base de données";
@@ -7,7 +7,7 @@ $MESS["RDB_EXEC_TIME"] = "Temps d'exécution : ";
 $MESS["RDB_OPTIMIZE_ALL_DONE"] = "L'optimisation et l'analyse des tableaux sont terminées.";
 $MESS["RDB_OPTIMIZE_ANALYZE"] = "analyse";
 $MESS["RDB_OPTIMIZE_BTN_CONTINUE"] = "Continuer";
-$MESS["RDB_OPTIMIZE_BTN_PAUSE"] = "arrêter";
+$MESS["RDB_OPTIMIZE_BTN_PAUSE"] = "Arrêter";
 $MESS["RDB_OPTIMIZE_BTN_START"] = "Optimiser";
 $MESS["RDB_OPTIMIZE_CHECK_FIRST"] = "Lors d'optimisation un tableau (#table_name#) a été détécté  ue vous souhaitez restaurer. Tout d'abord, effectuez la vérification/récupération tableaux.";
 $MESS["RDB_OPTIMIZE_DONE"] = "A pris connaissance";
@@ -28,4 +28,3 @@ $MESS["RDB_TABLE_SIZE"] = "La taille de la table (octets)";
 $MESS["RDB_TIP_1"] = "Ce formulaire vous aidera à vérifier et de récupérer tables de base de données. La reprise de la table de base de données peut être peformed uniquement avec les tables MyISAM de bases de données MySQL.";
 $MESS["RDB_TIP_2"] = "Attention !";
 $MESS["RDB_TIP_3"] = "Ne jamais ouvrir cette page dans plusieurs fenêtres simultanément, car cela pourrait endommager votre base de données. Pour les grandes bases de données, la récupération peut prendre un temps considérable !";
-?>

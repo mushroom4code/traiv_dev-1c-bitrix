@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASE_CURRENCY"] = "Moeda do Preço Base";
 $MESS["BASE_PRICE"] = "Preço Base";
 $MESS["BASE_QUANTITY_RESERVED"] = "Itens reservados";
@@ -21,6 +21,7 @@ $MESS["C2IT_BOUND_RECOUNT"] = "Salvar um produto poderá incorrer em novo cálcu
 $MESS["C2IT_BOUND_WRONG"] = "Os limites de quantidade estão incorretos:";
 $MESS["C2IT_COST_CURRENCY"] = "Moeda do preço de compra";
 $MESS["C2IT_COST_PRICE"] = "Preço de compra";
+$MESS["C2IT_COST_PRICE_EXT"] = "Preço de compra:";
 $MESS["C2IT_CURRENCY"] = "Moeda";
 $MESS["C2IT_DEFAULT_NEGATIVE"] = "padrão";
 $MESS["C2IT_DISCOUNTS"] = "Descontos";
@@ -71,6 +72,8 @@ $MESS["C2IT_PRICES_USEEXT"] = "Utilizar o modo de edição de preços extendidos
 $MESS["C2IT_PRICE_TYPE"] = "Tipo de preço";
 $MESS["C2IT_PROD_AMOUNT"] = "Quantidades";
 $MESS["C2IT_REGULAR"] = "Recorrente";
+$MESS["C2IT_SERVICE_COST_PRICE"] = "Custo do serviço:";
+$MESS["C2IT_SERVICE_SIMPLE_AVAILABLE"] = "Disponibilidade:";
 $MESS["C2IT_SINGLE"] = "nica vez";
 $MESS["C2IT_SITE"] = "Site";
 $MESS["C2IT_STORE"] = "Depósitos";
@@ -84,6 +87,7 @@ $MESS["C2IT_SUBSCR_PARAMS"] = "Parâmetros de subscrição (assinatura)";
 $MESS["C2IT_TO"] = "Para";
 $MESS["C2IT_TRIAL"] = "Experimental";
 $MESS["C2IT_TRIAL_FOR"] = "Tentativa (teste) por (somente para tentativas):";
+$MESS["C2IT_UF_SYSTEM_FIELDS"] = "Preferências do sistema";
 $MESS["C2IT_USERS_GROUP"] = "Grupo de usuários";
 $MESS["C2IT_VKL"] = "Incl.";
 $MESS["C2IT_WITHOUT_ORDER"] = "Renovação sem efetuar o pedido:";
@@ -113,4 +117,3 @@ $MESS["SET_NOTICE_QUANTITY"] = "A quantidade disponível de um pacote é derivad
 $MESS["SET_NOTICE_WEIGHT"] = "O peso do pacote é automaticamente calculado utilizando o peso de todos os produtos do pacote.";
 $MESS["VAL_BASE"] = "< base > ";
 $MESS["VAL_NOT_SET"] = "< não configurado > ";
-?>

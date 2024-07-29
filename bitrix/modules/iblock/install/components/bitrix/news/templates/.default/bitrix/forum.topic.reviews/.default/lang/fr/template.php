@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["F_ATTACH_FILES"] = "Copies des billets";
 $MESS["F_CAPTCHA_PROMT"] = "Symboles sur l'image";
 $MESS["F_CAPTCHA_TITLE"] = "Protection contre les messages automatiques";
@@ -13,7 +13,7 @@ $MESS["F_LOAD_FILE"] = "Charger le fichier";
 $MESS["F_LOAD_IMAGE"] = "Charger l'image";
 $MESS["F_NAME"] = "Dénomination";
 $MESS["F_PREVIEW"] = "Affichage";
-$MESS["F_QUOTE_FULL"] = "Offre";
+$MESS["F_QUOTE_FULL"] = "Citer";
 $MESS["F_QUOTE_HINT"] = "Sélectionnez la citation pour l'insérer dans une forme de réponse et cliquez ici";
 $MESS["F_SHOW"] = "Afficher";
 $MESS["F_WAIT"] = "Attendez...";
@@ -27,4 +27,3 @@ $MESS["OPINIONS_EMAIL"] = "Votre e-mail";
 $MESS["OPINIONS_NAME"] = "Votre prénom";
 $MESS["OPINIONS_PREVIEW"] = "Affichage";
 $MESS["OPINIONS_SEND"] = "Envoyer";
-?>

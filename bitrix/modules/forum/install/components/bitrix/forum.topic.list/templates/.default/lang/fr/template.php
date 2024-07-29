@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["F_AUTHOR"] = "auteur : ";
 $MESS["F_CLOSED"] = "Accompli";
 $MESS["F_CLOSED_TOPIC"] = "Sujet fermé";
@@ -8,7 +8,7 @@ $MESS["F_HEAD_AUTHOR"] = "Auteur";
 $MESS["F_HEAD_LAST_POST"] = "Dernière lu par";
 $MESS["F_HEAD_POSTS"] = "Messages";
 $MESS["F_HEAD_TOPICS"] = "Gestion des thèmes";
-$MESS["F_HEAD_VIEWS"] = "vues";
+$MESS["F_HEAD_VIEWS"] = "Vues";
 $MESS["F_MANAGE_CLOSE"] = "Fermer les thèmes";
 $MESS["F_MANAGE_DELETE"] = "Supprimer les sujets";
 $MESS["F_MANAGE_MOVE"] = "Transférer les sujets";
@@ -35,4 +35,3 @@ $MESS["F_USER_PROFILE"] = "Evènements du profil utilisateur";
 $MESS["JS_DEL_TOPICS"] = "Les thèmes seront supprimés sans possibilité de récupération. Continuer ?";
 $MESS["JS_NO_ACTION"] = "Aucune action sélectionnée pour la liste de thèmes. Veuillez sélectionnez une action.";
 $MESS["JS_NO_TOPICS"] = "La liste de thèmes n'est pas indiquée. Sélectionnez les thèmes.";
-?>

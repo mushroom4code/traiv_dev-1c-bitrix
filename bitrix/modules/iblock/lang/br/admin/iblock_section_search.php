@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_SECSEARCH_ACTIVE"] = "Ativo";
 $MESS["IBLOCK_SECSEARCH_CHOOSE_IBLOCK"] = "Escolha bloco de informação";
 $MESS["IBLOCK_SECSEARCH_CODE"] = "código mnemônico";
@@ -17,5 +17,4 @@ $MESS["IBLOCK_SECSEARCH_SORT"] = "Ordenar";
 $MESS["IBLOCK_SECSEARCH_TIMESTAMP"] = "Modificado";
 $MESS["IBLOCK_SECSEARCH_TITLE"] = "Pesquisas de seção";
 $MESS["IBLOCK_SECSEARCH_USERINFO"] = "Visualizar as informações do usuário";
-$MESS["IBLOCK_SECSEARCH_XML_ID"] = "Código externo";
-?>
+$MESS["IBLOCK_SECSEARCH_XML_ID_MSGVER_1"] = "ID externo";

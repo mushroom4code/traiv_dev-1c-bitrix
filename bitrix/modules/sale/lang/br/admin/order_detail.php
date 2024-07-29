@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_CANCEL_ORDER"] = "Erro ao cancelar o pedido.";
 $MESS["ERROR_CHANGE_COMMENT"] = "Erro ao salvar o comentário.";
 $MESS["ERROR_CHANGE_STATUS"] = "Erro ao modificar o status do pedido.";
@@ -178,7 +178,7 @@ $MESS["SOD_FROM"] = "&nbsp;&nbsp;de";
 $MESS["SOD_FROM_CARD"] = "Pagamento com cartão de crédito";
 $MESS["SOD_HAND"] = "Editar conta manualmente";
 $MESS["SOD_HIDE_FROM_USER"] = "(invisível para o cliente)";
-$MESS["SOD_HIDE_SET"] = "Esconder";
+$MESS["SOD_HIDE_SET"] = "Ocultar";
 $MESS["SOD_HIST_AFFILIATE_ID"] = "ID afiliado";
 $MESS["SOD_HIST_ALL"] = "(Todos)";
 $MESS["SOD_HIST_ALLOW_DELIVERY"] = "Entrega aprovada";
@@ -354,4 +354,3 @@ $MESS["SOD_WRONG_PAYFLAG"] = "Bandeira inválida de pedido pago";
 $MESS["SOD_WRONG_PAYMETHOD"] = "Meio de pagamento inválido";
 $MESS["SOE_ORDER_LOCKED"] = "O registro está temporariamente bloqueado pelo usuário ##ID# (#DATE#)";
 $MESS["SOE_ORDER_LOCKED2"] = "O pedido foi temporariamente retido pelo cliente #ID# (#DATE#)";
-?>

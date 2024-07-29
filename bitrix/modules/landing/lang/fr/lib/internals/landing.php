@@ -1,6 +1,7 @@
-<?
+<?php
 $MESS["LANDING_TABLE_ERROR_CANT_BE_EMPTY"] = "L'adresse de la page ne peut être vide.";
-$MESS["LANDING_TABLE_ERROR_PAGE_LIMIT_REACHED"] = "La limite de pages est atteinte. Veuillez contacter le Centre d'assistance.";
+$MESS["LANDING_TABLE_ERROR_FOLDER_NOT_FOUND"] = "Dossier introuvable.";
+$MESS["LANDING_TABLE_ERROR_LD_IS_LOCK"] = "La page ne peut pas être supprimée";
 $MESS["LANDING_TABLE_ERROR_SITE_NOT_FOUND"] = "Le site est introuvable.";
 $MESS["LANDING_TABLE_ERROR_SLASH_IS_NOT_ALLOWED"] = "Le caractère oblique ne peut être utilisé dans une adresse de destination.";
 $MESS["LANDING_TABLE_FIELD_CREATED_BY_ID"] = "Créé par ID d'utilisateur";
@@ -17,4 +18,3 @@ $MESS["LANDING_TABLE_FIELD_MODIFIED_BY_ID"] = "Modifié par ID d'utilisateur";
 $MESS["LANDING_TABLE_FIELD_SITE_ID"] = "Site web";
 $MESS["LANDING_TABLE_FIELD_TPL_ID"] = "Modèle";
 $MESS["LANDING_TABLE_FIELD_XML_ID"] = "ID externe";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_ACTION"] = "Erreur en ajoutant le gestionnaire du système de paiement";
 $MESS["ERROR_ADD_PAY_SYS"] = "Erreur d'ajout d'un système de paiement.";
 $MESS["ERROR_EDIT_ACTION"] = "Erreur mise à jour du gestionnaire du système de paiement";
@@ -47,6 +47,9 @@ $MESS["SALE_EDIT_RECORD"] = "Modifier système de paiement # #ID#";
 $MESS["SALE_NEW_RECORD"] = "Nouveau système de paiement";
 $MESS["SALE_PSE_BIS_VAL_SETTINGS"] = "Paramètres du processeur du système de paiement";
 $MESS["SALE_PSE_ERROR_ACTION_SAVE"] = "Le gestionnaire du système de paiement n'a pas été spécifié";
+$MESS["SALE_PSE_ERROR_DEFAULT_RSRT_APPLY"] = "Erreur d'application des restrictions courantes au système de paiement.";
+$MESS["SALE_PSE_ERROR_DEFAULT_RSRT_APPLY_MSGVER_1"] = "Erreur d'application des restrictions courantes au système de paiement.";
+$MESS["SALE_PSE_ERROR_DOCUMENT_TEMPLATE_EMPTY"] = "Le modèle du document n'est pas spécifié";
 $MESS["SALE_PSE_ERROR_HANDLER_TYPE"] = "Processeur introuvable";
 $MESS["SALE_PSE_ERROR_NO_ACTION_FILE"] = "Aucun processeur de système de paiement sélectionné";
 $MESS["SALE_PSE_ERROR_RSRT_CURRENCY_SAVE"] = "Erreur lors de l'enregistrement des restrictions de devise";
@@ -72,9 +75,10 @@ $MESS["SALE_RESET"] = "Annuler";
 $MESS["SALE_SAVE"] = "Enregistrer";
 $MESS["SPSN_2FLIST"] = "Liste des systèmes de paiement";
 $MESS["SPSN_DELETE_PAYSYS"] = "Elimination du système de paiement";
-$MESS["SPSN_DELETE_PAYSYS_CONFIRM"] = "tes-vous sûr de vouloir supprimer ce système de paiement ? Les systèmes de paiement liés à des ordres ne pouvaient pas être supprimées.";
+$MESS["SPSN_DELETE_PAYSYS_CONFIRM"] = "Êtes-vous sûr de vouloir supprimer ce système de paiement ? Les systèmes de paiement utilisés par des commandes ne pouvaient pas être supprimées.";
 $MESS["SPSN_ERROR"] = "Erreur de sauvegarde";
 $MESS["SPSN_NEW_PAYSYS"] = "Ajouter un système de paiement";
+$MESS["SPSN_NOT_FOUND_PAYSYSTEM"] = "Le système de paiement est introuvable !";
 $MESS["SPSN_TAB_PAYSYS"] = "Mode de paiement";
 $MESS["SPSN_TAB_PAYSYS_DESCR"] = "Propriétés du système de paiement";
 $MESS["SPSN_TAB_PAYSYS_DESCR_1"] = "Handler pour le &quot;#PLTYPE#&quot; type de payeur";
@@ -110,4 +114,6 @@ $MESS["SPS_PAY_SYSTEM_RESTRICTION"] = "Restrictions";
 $MESS["SPS_PAY_SYSTEM_RESTRICTION_DESC"] = "Restrictions du système de paiement";
 $MESS["SPS_SHOW_PROPS"] = "Afficher les propriétés du gestionnaire";
 $MESS["SPS_TO_LIST"] = "Liste";
-?>
+$MESS["SPS_VALIDATION_DOMAIN_FORM"] = "Formulaire de confirmation du domaine";
+$MESS["SPS_VALIDATION_DOMAIN_HEAD"] = "Confirmer la propriété du domaine";
+$MESS["SPS_VALIDATION_DOMAIN_VALIDATION"] = "Confirmer le domaine";

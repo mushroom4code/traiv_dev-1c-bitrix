@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SBB_BASKET_FILTER"] = "Filtro";
 $MESS["SBB_BASKET_ITEMS_WARNING"] = "con errores";
 $MESS["SBB_BASKET_ITEM_DELAYED"] = "guardar para después";
@@ -22,6 +22,7 @@ $MESS["SBB_DELETE"] = "Eliminar";
 $MESS["SBB_EMPTY_BASKET_HINT"] = "#A1#Click here#A2# para seguir comprando";
 $MESS["SBB_EMPTY_BASKET_TITLE"] = "Su carrito esta vacío";
 $MESS["SBB_FILTER_EMPTY_RESULT"] = "No se encontraron productos que coincidan con su selección";
+$MESS["SBB_GIFTS_BLOCK_TITLE"] = "Seleccione un regalo";
 $MESS["SBB_GOOD"] = "producto";
 $MESS["SBB_GOODS"] = "productos";
 $MESS["SBB_GOOD_2"] = "producto";
@@ -38,4 +39,3 @@ $MESS["SBB_TOTAL"] = "Total";
 $MESS["SBB_VAT"] = "Importe del impuesto";
 $MESS["SBB_WARNING_ITEM"] = "con errores";
 $MESS["SBB_WEIGHT"] = "Peso total";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION_VARIABLE_TIP"] = "O nome da variável à qual a ação requerida será atribuída: ADICIONAR_A_LISTA_DE_COMPARACAO, ADICIONARACESTA etc. O valor padrão é <i>action</i>.";
 $MESS["ADD_PROPERTIES_TO_BASKET_TIP"] = "Selecione as propriedades que você deseja passar para carrinho de compras e ordem. As propriedades necessárias são aquelas que podem afetar a escolha do cliente ou pode ser alterado no carrinho de compras (para SKUs). As propriedades que afetam o cumprimento da ordem (por exemplo, cor item) também são necessários.";
 $MESS["AJAX_MODE_TIP"] = "Permite AJAX no componente.";
@@ -12,6 +12,7 @@ $MESS["CACHE_TIME_TIP"] = "Especifique aqui o período de tempo durante o qual o
 $MESS["CACHE_TYPE_TIP"] = "<i>Auto</i>: O cache é válido durante o tempo pré-definido nas configurações de cache; <br /><i>Cache</i> sempre utilizar cache para o período especificado no próximo campo; <br /><i>Do not cache</i>: não utilizar cache.";
 $MESS["CP_BCS_ADD_PROPERTIES_TO_BASKET"] = "Passe item e propriedades SKU para o transporte de compras";
 $MESS["CP_BCS_ADD_SECTIONS_CHAIN"] = "Adicione o nome da seção de navegação de trilha";
+$MESS["CP_BCS_ALLOW_SEO_DATA"] = "Definir os valores da tag SEO e o título da página";
 $MESS["CP_BCS_BROWSER_TITLE"] = "Definir o título da janela do navegador a partir do valor da propriedade";
 $MESS["CP_BCS_CACHE_GROUPS"] = "Respeitar permissões de acesso";
 $MESS["CP_BCS_CONVERT_CURRENCY"] = "Usar apenas uma moeda para mostrar os preços";
@@ -103,4 +104,3 @@ $MESS["T_IBLOCK_DESC_DESCRIPTION"] = "Definir descrição da página a partir da
 $MESS["T_IBLOCK_DESC_KEYWORDS"] = "Definir palavras-chave da página a partir da propriedade";
 $MESS["T_IBLOCK_DESC_PAGER_CATALOG"] = "Produtos";
 $MESS["USE_PRICE_COUNT_TIP"] = "Exibe preços de todos os tipos.";
-?>

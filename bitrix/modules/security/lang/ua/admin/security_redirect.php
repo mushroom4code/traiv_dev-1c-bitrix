@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SEC_REDIRECT_ACTIONS"] = "Дії захисту від фішингу";
 $MESS["SEC_REDIRECT_ACTIONS_HEADER"] = "Дії";
 $MESS["SEC_REDIRECT_ACTION_REDIRECT"] = "Перенаправити на заданий URL.";
@@ -7,7 +7,7 @@ $MESS["SEC_REDIRECT_ADD"] = "Додати";
 $MESS["SEC_REDIRECT_BUTTON_OFF"] = "Вимкнути захист редиректів від фішингу";
 $MESS["SEC_REDIRECT_BUTTON_ON"] = "Увімкнути захист редиректів від фішингу";
 $MESS["SEC_REDIRECT_HREF_SIGN"] = "Додавати цифровий підпис до перелічених нижче URL.";
-$MESS["SEC_REDIRECT_LOG"] = "Занести спробу фішингу у <a href=\"#HREF#\">журнал</a>";
+$MESS["SEC_REDIRECT_LOG"] = "Занести спробу фішингу у журнал";
 $MESS["SEC_REDIRECT_MAIN_TAB"] = "Захист редиректів";
 $MESS["SEC_REDIRECT_MAIN_TAB_TITLE"] = "Увімкнення захисту редиректів від фішингу.";
 $MESS["SEC_REDIRECT_MESSAGE"] = "Повідомлення";
@@ -46,4 +46,3 @@ $MESS["SEC_REDIRECT_TITLE"] = "Захист редиректів від фіши
 $MESS["SEC_REDIRECT_URL"] = "URL:";
 $MESS["SEC_REDIRECT_URLS"] = "URLs, що підписуються ";
 $MESS["SEC_REDIRECT_USER"] = "Користувацькі";
-?>

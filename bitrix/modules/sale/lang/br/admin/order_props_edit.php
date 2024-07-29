@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_PROP"] = "Erro ao adicionar uma propriedade.";
 $MESS["ERROR_ADD_VARIANT"] = "Erro ao adicionar uma propriedade";
 $MESS["ERROR_EDIT_PROP"] = "Erro ao modificar a propriedade.";
@@ -42,6 +42,7 @@ $MESS["SALE_PROPERTY_LINKING"] = "ligação de propriedade ";
 $MESS["SALE_PROPERTY_LINKING_DESC"] = "Ligações propriedades para sistemas de pagamentos e serviços de entrega ";
 $MESS["SALE_PROPERTY_PAYSYSTEM"] = "sistemas de pagamento ";
 $MESS["SALE_PROPERTY_SELECT_ALL"] = "Tudo";
+$MESS["SALE_PROPERTY_TP_LANDING"] = "Destinos";
 $MESS["SALE_PROPS_GROUP"] = "Grupos de propriedades";
 $MESS["SALE_RECORDS_LIST"] = "Para a lista de propriedades";
 $MESS["SALE_RESET"] = "Resetar";
@@ -60,4 +61,3 @@ $MESS["SOPEN_NEW_PROPS"] = "Criar uma nova propriedade";
 $MESS["SOPEN_TAB_PROPS"] = "Propriedades do pedido";
 $MESS["SOPEN_TAB_PROPS_DESCR"] = "Propriedades do pedido para o tipo de cliente &quot;#PTYPE#&quot; ";
 $MESS["SOPE_TO_LIST"] = "Propriedades";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_ELEMENT_CHAIN_TIP"] = "Si la opción está seleccionada, el nombre del elemento se agregará a la navegación de breadcrumbs.";
 $MESS["ADD_SECTIONS_CHAIN_TIP"] = "Si la opción está activa y el actual bloque de información contiene secciones, sus nombres serán mostrados en la cadena de navegación.";
 $MESS["AJAX_MODE_TIP"] = "Permite AJAX en el componente.";
@@ -70,11 +70,10 @@ $MESS["USE_CATEGORIES_TIP"] = "En la noticia de la página de detalles, permite 
 $MESS["USE_FILTER_TIP"] = "Marque esta opción para mostrar el filtro.";
 $MESS["USE_PERMISSIONS_TIP"] = "Especifica para restringir el acceso a la información bloque elemento detalles.";
 $MESS["USE_RATING_TIP"] = "Si se selecciona, los visitantes pueden votar por las noticias sobre los detalles de las páginas de noticias.";
-$MESS["USE_REVIEW_TIP"] = "Especifica para mostrar un formulario de comentarios en las noticias la página de detalles.";
+$MESS["USE_REVIEW_TIP"] = "Especifica para mostrar un formulario de comentarios en la página de detalles del Feed.";
 $MESS["USE_RSS_TIP"] = "RSS permite a la exportación y la correspondiente configuración de campos.";
 $MESS["USE_SEARCH_TIP"] = "Si se selecciona, la búsqueda mini forma se mostrará. El ámbito de búsqueda se limita a la información que los componentes de los extractos de la base de datos.";
 $MESS["VARIABLE_ALIASES_ELEMENT_ID_TIP"] = "El nombre de una variable en el que el elemento de identificación será pasado, por ejemplo,<b>ELEMENT_ID</b>.";
 $MESS["VARIABLE_ALIASES_SECTION_ID_TIP"] = "El nombre de una variable en la que la sección de identificación se transmitirán, por ejemplo,<b>SECTION_ID</b>.";
 $MESS["VOTE_NAMES_TIP"] = "Aquí usted puede proporcionar títulos de calificación que se utilizará en lugar de resultados numéricos. Por ejemplo: excelente para 5, bien para 4, etc";
 $MESS["YANDEX_TIP"] = "Permite la exportación a <i>Yandex.News</i>. Especifica para exportar las noticias de la reciente 2 días";
-?>

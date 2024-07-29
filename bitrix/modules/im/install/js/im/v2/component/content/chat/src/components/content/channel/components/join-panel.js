@@ -1,6 +1,3 @@
-import { EventEmitter } from 'main.core.events';
-
-import { EventType } from 'im.v2.const';
 import { Button as ChatButton, ButtonColor, ButtonSize } from 'im.v2.component.elements';
 import { ChatService } from 'im.v2.provider.service';
 
@@ -14,10 +11,6 @@ export const JoinPanel = {
 			required: true,
 		},
 	},
-	data(): {}
-	{
-		return {};
-	},
 	computed:
 	{
 		ButtonSize: () => ButtonSize,
@@ -27,7 +20,6 @@ export const JoinPanel = {
 	{
 		onButtonClick()
 		{
-			EventEmitter.emit(EventType.channel.onChannelJoin, { channelDialogId: this.dialogId });
 			this.getChatService().joinChat(this.dialogId);
 		},
 		getChatService(): ChatService
@@ -49,7 +41,7 @@ export const JoinPanel = {
 			<ChatButton
 				:size="ButtonSize.XL"
 				:color="ButtonColor.Primary"
-				:text="loc('IM_CONTENT_BLOCKED_TEXTAREA_JOIN_CHANNEL')"
+				:text="loc('IM_CONTENT_BLOCKED_TEXTAREA_JOIN_CHANNEL_V2')"
 				:isRounded="true"
 				@click="onButtonClick"
 			/>

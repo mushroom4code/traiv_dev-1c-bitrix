@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_IBLOCK"] = "Block de información";
 $MESS["IBLOCK_INDEX_URL"] = "Sección de la lista";
 $MESS["IBLOCK_SECTION_ID"] = "ID de la sección";
@@ -7,9 +7,6 @@ $MESS["IBLOCK_TYPE"] = "Tipo de block de información";
 $MESS["P_ADDITIONAL_SIGHTS"] = "Miniaturas adicionales";
 $MESS["P_ALBUM_PHOTO_THUMBS_WIDTH"] = "Ancho de miniaturas (px)";
 $MESS["P_ALBUM_PHOTO_WIDTH"] = "Ancho del la foto del álbum (px)";
-$MESS["P_APPLET_LAYOUT"] = "Dispositivo de la carga masiva";
-$MESS["P_APPLET_LAYOUT_EXTENDED"] = "Plantilla estándar";
-$MESS["P_APPLET_LAYOUT_SIMPLE"] = "Plantilla Simplificada";
 $MESS["P_JPEG_QUALITY"] = "Calidad original de la foto (%)";
 $MESS["P_MODERATION"] = "Siempre moderar las fotos";
 $MESS["P_ORIGINAL"] = "Original";
@@ -18,10 +15,6 @@ $MESS["P_PATH_TO_FONT"] = "Archivo de fuente";
 $MESS["P_PHOTO_SETTINGS"] = "Configuración de Galería de Fotos";
 $MESS["P_PREVIEW"] = "Vista previa";
 $MESS["P_SIZE"] = "Tamaño en miniatura (px)";
-$MESS["P_UPLOADER_TYPE"] = "Tipo de cargador";
-$MESS["P_UPLOADER_TYPE_APPLET"] = "Carga Masiva (Java/ActiveX)";
-$MESS["P_UPLOADER_TYPE_FLASH"] = "Carga Masiva (Flash)";
-$MESS["P_UPLOADER_TYPE_FORM_SIMPLE"] = "Archivo único de carga usando el formulario HTML";
 $MESS["P_UPLOAD_MAX_FILE"] = "Máximo de archivos enviados por correo";
 $MESS["P_UPLOAD_MAX_FILE_SIZE"] = "Tamaño máximo del archivos (MB)";
 $MESS["P_USE_WATERMARK"] = "Imprimir Marca de Agua";
@@ -55,4 +48,3 @@ $MESS["P_WATERMARK_TYPE_BOTH"] = "Texto o imagen";
 $MESS["P_WATERMARK_TYPE_PICTURE"] = "Imagen";
 $MESS["P_WATERMARK_TYPE_TEXT"] = "Texto";
 $MESS["T_IBLOCK_DESC_NEWS_PANEL"] = "Visualizar botón del panel para este componente";
-?>

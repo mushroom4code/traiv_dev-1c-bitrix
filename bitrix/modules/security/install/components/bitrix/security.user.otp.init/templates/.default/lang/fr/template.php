@@ -1,5 +1,5 @@
 <?
-$MESS["SECURITY_OTP_APP_EXECUTE"] = "Exécuter l'application";
+$MESS["SECURITY_OTP_APP_EXECUTE"] = "Exécutez l'application";
 $MESS["SECURITY_OTP_APP_EXECUTE2"] = "et cliquez sur <strong>Configurer</strong>";
 $MESS["SECURITY_OTP_APP_EXECUTE_TMP"] = "et cliquez sur l'icône pour ajouter un nouveau compte";
 $MESS["SECURITY_OTP_CHOOSE_TYPE"] = "Choisissez la méthode préférée pour recevoir le code de vérification";
@@ -25,7 +25,7 @@ $MESS["SECURITY_OTP_ENTER_CODE_PL2"] = "Second code";
 $MESS["SECURITY_OTP_ERROR_TITLE"] = "Erreur de sauvegarde.";
 $MESS["SECURITY_OTP_HAND_DESCR"] = "Si vous ne pouvez pas lire le code, entrer manuellement. <br />Vous devrez spécifier le site (ou Bitrix24) adresse, votre adresse e-mail, le mot de vérification, et sélectionnez le type de clé.";
 $MESS["SECURITY_OTP_HAND_TYPE"] = "Entrez le code manuellement";
-$MESS["SECURITY_OTP_MOBILE"] = "Télécharger application mobile Bitrix24 OTP";
+$MESS["SECURITY_OTP_MOBILE"] = "Téléchargez l'application mobile Bitrix24 OTP";
 $MESS["SECURITY_OTP_MOBILE2"] = "pour votre téléphone sur l'AppStore ou GooglePlay";
 $MESS["SECURITY_OTP_MOBILE2_TMP"] = "pour votre téléphone à partir de l'AppStore ou GooglePlay";
 $MESS["SECURITY_OTP_MOBILE_TMP"] = "Téléchargez l'application mobile FreeOTP ou Google Authenticator";

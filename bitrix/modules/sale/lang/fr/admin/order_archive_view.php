@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_OVIEW_BLOCK_TITLE_ADDITIONAL"] = "Informations supplémentaires";
 $MESS["SALE_OVIEW_BLOCK_TITLE_BASKET"] = "Contenus de la commande";
 $MESS["SALE_OVIEW_BLOCK_TITLE_BUYER"] = "Client";
@@ -25,4 +25,3 @@ $MESS["SALE_OVIEW_TO_PRINT_TITLE"] = "Imprimer la commande";
 $MESS["SALE_OVIEW_TO_RESTORE"] = "Restaurer la commande";
 $MESS["SALE_OVIEW_TO_RESTORE_TITLE"] = "Restaurer la commande";
 $MESS["SALE_OVIEW_UNLOCK"] = "Déverrouiller la commande";
-?>

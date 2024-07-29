@@ -1,8 +1,7 @@
-<?
+<?php
 $MESS["SECURITY_SITE_CHECKER_DISPLAY_ERRORS"] = "Les erreurs sont destinées à être imprimées à la production.";
 $MESS["SECURITY_SITE_CHECKER_DISPLAY_ERRORS_DETAIL"] = "Affichage des erreurs est utile pour le développement et le débogage, mais doit être désactivé dans les versions de libération.";
 $MESS["SECURITY_SITE_CHECKER_DISPLAY_ERRORS_RECOMMENDATION"] = "Ajouter ou modifier la ligne suivante dans les paramètres de PHP : <br> display_errors = Off";
-$MESS["SECURITY_SITE_CHECKER_LOW_PHP_VERSION_ENTROPY"] = "La version php n'est plus actuelle";
 $MESS["SECURITY_SITE_CHECKER_LOW_PHP_VERSION_ENTROPY_DETAIL"] = "La version courante de php ne supporte pas l'installation de la source d'entropie supplémentaire lors de la création de l'identificateur de la session";
 $MESS["SECURITY_SITE_CHECKER_LOW_PHP_VERSION_ENTROPY_RECOMMENDATION"] = "Renouveler la version php au moins jusqu'à 5.3.3, mais il vaut mieux jusqu'à la plus récente version stable";
 $MESS["SECURITY_SITE_CHECKER_MAIL_ADD_HEADER"] = "Les messages e-mail contiennent l'UID du processus PHP";
@@ -37,4 +36,3 @@ $MESS["SECURITY_SITE_CHECKER_PhpConfigurationTest_NAME"] = "Contrôle des param�
 $MESS["SECURITY_SITE_CHECKER_ZEND_MULTIBYTE_ENABLED"] = "L'analyse des fichiers source PHP dans encodages multi-octets est activé.";
 $MESS["SECURITY_SITE_CHECKER_ZEND_MULTIBYTE_ENABLED_DETAIL"] = "L'activation de cette option est hautement indésirable parce que les scripts PHP générées dynamiquement comme les fichiers de cache peuvent être analysées de manière imprévisible.";
 $MESS["SECURITY_SITE_CHECKER_ZEND_MULTIBYTE_ENABLED_RECOMMENDATION"] = "Pour PHP 5.4.0 et plus tard, spécifiez zend.multibyte = off in the php.ini file.";
-?>

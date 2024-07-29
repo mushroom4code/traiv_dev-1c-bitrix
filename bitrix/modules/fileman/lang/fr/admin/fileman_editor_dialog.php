@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FILEMAN_ALIGN_BOTTOM"] = "Au-dessous";
 $MESS["FILEMAN_ALIGN_LEFT"] = "gauche";
 $MESS["FILEMAN_ALIGN_MIDDLE"] = "au milieu";
@@ -56,7 +56,6 @@ $MESS["FILEMAN_ED_LINK_ACH"] = "Anchor : ";
 $MESS["FILEMAN_ED_LINK_ATITLE"] = "Info-bulle : ";
 $MESS["FILEMAN_ED_LINK_DOC"] = "Adresse de référence";
 $MESS["FILEMAN_ED_LINK_NOINDEX"] = "Ne pas inclure le lien trouvé par le moteur de recherche (nofollow, noindex)";
-$MESS["FILEMAN_ED_LINK_STAT"] = "Enregistrer le passage dans les statistiques";
 $MESS["FILEMAN_ED_LINK_TITLE"] = "Ancre nommée";
 $MESS["FILEMAN_ED_LINK_TYPE"] = "Destination : ";
 $MESS["FILEMAN_ED_LINK_TYPE1"] = "Lien vers documenter sur le serveur";
@@ -130,4 +129,3 @@ $MESS["FILEMAN_NO_VAL"] = "Absent";
 $MESS["FILEMAN_REL"] = "Attribut Rel";
 $MESS["FILEMAN_SAVE_PROPORTIONS"] = "Garder les proportions";
 $MESS["FILEMAN_SIZES"] = "Dimensions (Largeur x Hauteur)";
-?>

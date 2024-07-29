@@ -1,6 +1,5 @@
-<?
+<?php
 $MESS["SECURITY_SITE_CHECKER_DISPLAY_ERRORS_RECOMMENDATION"] = "Dodaj lub zmień następujące linie w ustawieniach PHP:<br>display_errors = Off";
-$MESS["SECURITY_SITE_CHECKER_LOW_PHP_VERSION_ENTROPY"] = "Wersja php jest nieaktualna";
 $MESS["SECURITY_SITE_CHECKER_LOW_PHP_VERSION_ENTROPY_DETAIL"] = "Aktualna wersja PHP nie obsługuje instalacji dodatkowego źródła entropii podczas tworzenia identyfikatora sesji";
 $MESS["SECURITY_SITE_CHECKER_LOW_PHP_VERSION_ENTROPY_RECOMMENDATION"] = "Zaktualizuj PHP do wersji 5.3.3 lub wyższej, najlepiej do najnowszej stabilnej wersji";
 $MESS["SECURITY_SITE_CHECKER_PHP_ASP"] = "Znaczniki w stylu ASP są włączony";
@@ -24,4 +23,3 @@ $MESS["SECURITY_SITE_CHECKER_PHP_INCLUDE_RECOMMENDATION"] = "Dodaj lub zmień na
 $MESS["SECURITY_SITE_CHECKER_PHP_MBSTRING_SUBSTITUTE"] = "Mbstring usówa błędne znaki";
 $MESS["SECURITY_SITE_CHECKER_PHP_MBSTRING_SUBSTITUTE_DETAIL"] = "Umiejętność usówania błędnych znaków może być wykorzytywana do tzw. błędnych ataków sekwencją bajtów.";
 $MESS["SECURITY_SITE_CHECKER_PhpConfigurationTest_NAME"] = "Sprawdź ustawienia PHP";
-?>

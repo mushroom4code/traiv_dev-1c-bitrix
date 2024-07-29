@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FILEMAN_ADMIN_ACCESS"] = "Accès";
 $MESS["FILEMAN_ADMIN_ACCESS_CMD"] = "Accès";
 $MESS["FILEMAN_ADMIN_ACCESS_EDIT"] = "Droits";
@@ -46,7 +46,7 @@ $MESS["FILEMAN_ADM_UNTITLED"] = "<sans titre>";
 $MESS["FILEMAN_ALERT_DELETE"] = "Les fichiers/dossiers choisis seront supprimés ! Continuer ?";
 $MESS["FILEMAN_DOWNLOAD"] = "Télécharger";
 $MESS["FILEMAN_EDIT_IN_WORKFLOW"] = "Modifier via le workflow";
-$MESS["FILEMAN_FAST_PATH"] = "Chemin vers le disque réseau";
+$MESS["FILEMAN_FAST_PATH"] = "Сhemin d'accès :";
 $MESS["FILEMAN_FAST_PATH_BUTTON"] = "Vous pouvez modifier le répertoire";
 $MESS["FILEMAN_FILE"] = "Fichier";
 $MESS["FILEMAN_FILE_ACTIONS"] = "Actions";
@@ -94,4 +94,3 @@ $MESS["MAIN_F_TIMESTAMP"] = "Modifié";
 $MESS["MAIN_F_TYPE"] = "Entité";
 $MESS["MAIN_WRONG_DATE_FROM"] = "S'il vous plaît entrer la date 'de' dans le filtre";
 $MESS["MAIN_WRONG_DATE_TILL"] = "S'il vous plaît entrez la date correcte 'jusqu'à' dans le filtre'";
-?>

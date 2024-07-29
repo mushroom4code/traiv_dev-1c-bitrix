@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_SLI_ADDITIONAL_PARAMS"] = "Seleccionar ubicación e importar parámetros";
 $MESS["SALE_SLI_AP_DROP_STRUCTURE"] = "Eliminar todas las ubicaciones existentes";
 $MESS["SALE_SLI_AP_PRESERVE_INTEGRITY"] = "Preservar la integridad de la estructura";
@@ -14,6 +14,7 @@ $MESS["SALE_SLI_DROP_INDEXES"] = "eliminación del índice de la base de datos";
 $MESS["SALE_SLI_ERROR"] = "Error";
 $MESS["SALE_SLI_EXCLUDE_AREAS"] = "Excluir áreas";
 $MESS["SALE_SLI_EXTRA_DATA"] = "Seleccionar datos adicionales";
+$MESS["SALE_SLI_EXTRA_EXTERNAL_ISO_3166_NUMERIC"] = "Códigos de país de tres dígitos (ISO 3166-1)";
 $MESS["SALE_SLI_EXTRA_EXTERNAL_ZIP"] = "Códigos ZIP";
 $MESS["SALE_SLI_EXTRA_GEOCOORDS"] = "Geo coordenadas de ubicación";
 $MESS["SALE_SLI_FILE_IS_BEING_UPLOADED"] = "Carga de archivos";
@@ -57,4 +58,3 @@ $MESS["SALE_SLI_STOPPING"] = "Detener ahora...";
 $MESS["SALE_SLI_TAB_CLEANUP_TITLE"] = "Quitar todas las ubicaciones";
 $MESS["SALE_SLI_TAB_IMPORT_TITLE"] = "Importa ubicaciones";
 $MESS["SALE_SLI_UPLOAD_FILE_AND_PROCEED"] = "Por favor, cargue un archivo de ubicaciones y haga clic en \"#START#\"";
-?>

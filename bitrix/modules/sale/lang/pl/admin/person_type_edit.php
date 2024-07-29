@@ -1,14 +1,20 @@
-<?
+<?php
 $MESS["F_ACTIVE"] = "Aktywne";
-$MESS["SPTEN_2FLIST"] = "Typy płatnika";
+$MESS["SPTEN_2FLIST"] = "Typy płatników";
 $MESS["SPTEN_ACTIVE"] = "Aktywne";
 $MESS["SPTEN_ADDING"] = "Dodaj nowy typ płatnika";
 $MESS["SPTEN_APPLY"] = "Zastosuj";
 $MESS["SPTEN_CANCEL"] = "Anuluj";
+$MESS["SPTEN_CODE"] = "Kod";
 $MESS["SPTEN_DELETE_PERSON_TYPE"] = "Usuń typ płatnika";
-$MESS["SPTEN_DELETE_PERSON_TYPE_CONFIRM"] = "Na pewno chcesz usunąć ten typ płatnika?";
+$MESS["SPTEN_DELETE_PERSON_TYPE_CONFIRM"] = "Czy na pewno chcesz usunąć typ płatnika?";
+$MESS["SPTEN_DOMAIN_P_TYPE"] = "Typ obiektu biznesowego";
+$MESS["SPTEN_DOMAIN_P_TYPE_E"] = "Firma";
+$MESS["SPTEN_DOMAIN_P_TYPE_I"] = "Indywidualny";
+$MESS["SPTEN_DOMAIN_P_TYPE_NONE"] = "Nie określono";
 $MESS["SPTEN_ERROR"] = "Błąd zapisu";
-$MESS["SPTEN_ERROR_SAVING_PERSON_TYPE"] = "Błąd zapisywania typu płatnika";
+$MESS["SPTEN_ERROR_PERSON_TYPE_EXISTS"] = "Typ płatnika z tym kodem już istnieje";
+$MESS["SPTEN_ERROR_SAVING_PERSON_TYPE"] = "Błąd podczas zapisywania typu płatnika";
 $MESS["SPTEN_NAME"] = "Nazwa";
 $MESS["SPTEN_NEW_PERSON_TYPE"] = "Utwórz nowy typ płatnika";
 $MESS["SPTEN_NO_PERMS2ADD"] = "Nie masz wystarczających uprawnień, aby dodać nowy typ płatnika";
@@ -24,6 +30,6 @@ $MESS["SPTEN_SORT"] = "Indeks sortowania";
 $MESS["SPTEN_TAB_PERSON_TYPE"] = "Typ płatnika";
 $MESS["SPTEN_TAB_PERSON_TYPE_DESCR"] = "Parametry typu płatnika";
 $MESS["SPTEN_TIMESTAMP"] = "Data ostatniej modyfikacji:";
-$MESS["SPTEN_TO_LIST"] = "Typy płatnika";
+$MESS["SPTEN_TO_LIST"] = "Typy płatników";
 $MESS["SPTEN_UPDATING"] = "Edytuj parametry typu płatnika";
-?>
+$MESS["SPTEN_XML_ID"] = "Zewnętrzny ID";

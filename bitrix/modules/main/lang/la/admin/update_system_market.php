@@ -1,5 +1,5 @@
-<?
-$MESS["SUP_SUAC_LOAD_M_BUTTON_CONF"] = "Atención! Bitrix Inc. No es responsable por el programa desarrollado por los socios. Usted tendrá que contactar con el desarrollador directamente cada vez que tenga preguntas acerca de la funcionalidad del módulo o los posibles problemas del módulo pueden causar a su sitio web. Descargar el módulo?";
+<?php
+$MESS["SUP_SUAC_LOAD_M_BUTTON_CONF"] = "Atención! Bitrix24 No es responsable por el programa desarrollado por los socios. Usted tendrá que contactar con el desarrollador directamente cada vez que tenga preguntas acerca de la funcionalidad del módulo o los posibles problemas del módulo pueden causar a su sitio web. Descargar el módulo?";
 $MESS["USMP_CAT_0"] = "(cualquiera)";
 $MESS["USMP_DO_LOAD"] = "Descargar";
 $MESS["USMP_F_NAME"] = "Nombre";
@@ -16,7 +16,7 @@ $MESS["USMP_H_TYPE"] = "Tipo";
 $MESS["USMP_MODULES"] = "Módulos";
 $MESS["USMP_NO"] = "No";
 $MESS["USMP_TITLE"] = "Catálogo del Mercado";
-$MESS["USMP_TYPE_0"] = "cualquiera)";
+$MESS["USMP_TYPE_0"] = "(cualquiera)";
 $MESS["USMP_VIEW"] = "Vista";
 $MESS["USMP_YES"] = "si";
 $MESS["USM_ACTIONS"] = "Oferta";
@@ -56,4 +56,3 @@ $MESS["USM_SUPPORT"] = "Soporte";
 $MESS["USM_TEST"] = "Evaluar";
 $MESS["USM_UPDATES"] = "Actualizaciones";
 $MESS["USM_VERSION"] = "Versión";
-?>

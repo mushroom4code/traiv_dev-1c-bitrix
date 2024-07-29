@@ -1,6 +1,7 @@
-<?
+<?php
 $MESS["BT_ADM_IEP_CONFIRM_DEL_MESSAGE"] = "Esto eliminará todos los valores de la propiedad. ¿Desea continuar?";
 $MESS["BT_ADM_IEP_DELETE"] = "Eliminar";
+$MESS["BT_ADM_IEP_DELETE_ERROR"] = "Error when deleting.";
 $MESS["BT_ADM_IEP_ERR_CODE_ALREADY_EXIST"] = "Una propiedad con código simbólico #CODE#  ya existe en este block de información";
 $MESS["BT_ADM_IEP_HBLOCK_NAME_IS_ABSENT"] = "Introduzca el nombre del directorio";
 $MESS["BT_ADM_IEP_HBLOCK_NAME_IS_INVALID"] = "El nombre del directorio debe comenzar con una letra latina y sólo puede contener letras o números";
@@ -47,7 +48,7 @@ $MESS["BT_ADM_IEP_PROP_MULTIPLE"] = "Múltiple:";
 $MESS["BT_ADM_IEP_PROP_MULTIPLE_CNT"] = "Número de campos de entrada para entradas múltiples:";
 $MESS["BT_ADM_IEP_PROP_NAME_DET"] = "Nombre:";
 $MESS["BT_ADM_IEP_PROP_NEW"] = "Nuevo";
-$MESS["BT_ADM_IEP_PROP_ROW_CNT"] = "Número de filas (para &quot;listas&quot;):";
+$MESS["BT_ADM_IEP_PROP_ROW_CNT"] = "Número de filas (para \"listas\"):";
 $MESS["BT_ADM_IEP_PROP_SEARCHABLE"] = "Los valores de la propiedad serán usados en la búsqueda:";
 $MESS["BT_ADM_IEP_PROP_SECTION_PROPERTY"] = "Mostrar en la página de edición de elementos:";
 $MESS["BT_ADM_IEP_PROP_SIZE"] = "Tamaño del campo de entrada (Filas y Columnas):";
@@ -58,4 +59,3 @@ $MESS["BT_ADM_IEP_PROP_WITH_DESC"] = "Mostrar el campo descripción del valor:";
 $MESS["BT_ADM_IEP_SECTION_TITLE_PROPERTY_FEATURES"] = "Parámetros de propiedad";
 $MESS["BT_ADM_IEP_TAB"] = "Propiedad";
 $MESS["BT_ADM_IEP_TAB_TITLE"] = "Parámetros de la propiedad";
-?>

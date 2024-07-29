@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Imágenes adicionales para la propiedad del producto";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Agregar al carrito";
 $MESS["ADD_TO_BASKET_ACTION_BUY"] = "Comprar ahora";
@@ -57,8 +57,8 @@ $MESS["CP_BC_TPL_DETAIL_DISPLAY_PREVIEW_TEXT_MODE_SHOW"] = "siempre";
 $MESS["CP_BC_TPL_DETAIL_FB_APP_ID"] = "APP_ID";
 $MESS["CP_BC_TPL_DETAIL_FB_USE"] = "Utilizar Facebook";
 $MESS["CP_BC_TPL_DETAIL_IMAGE_RESOLUTION"] = "Relación de aspecto de la imagen de producto";
-$MESS["CP_BC_TPL_DETAIL_IMAGE_RESOLUTION_16_BY_9"] = "16:9";
 $MESS["CP_BC_TPL_DETAIL_IMAGE_RESOLUTION_1_BY_1"] = "1:1";
+$MESS["CP_BC_TPL_DETAIL_IMAGE_RESOLUTION_16_BY_9"] = "16:9";
 $MESS["CP_BC_TPL_DETAIL_PRODUCT_BLOCK_BUTTONS"] = "Acciones";
 $MESS["CP_BC_TPL_DETAIL_PRODUCT_BLOCK_COMPARE"] = "Comparar";
 $MESS["CP_BC_TPL_DETAIL_PRODUCT_BLOCK_PRICE"] = "Precio";
@@ -115,6 +115,8 @@ $MESS["CP_BC_TPL_MESS_DESCRIPTION_TAB"] = "Texto de la pestaña \"Descripción\"
 $MESS["CP_BC_TPL_MESS_DESCRIPTION_TAB_DEFAULT"] = "Descripción";
 $MESS["CP_BC_TPL_MESS_NOT_AVAILABLE"] = "Mensaje de elemento no disponible ";
 $MESS["CP_BC_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Elementos no disponible";
+$MESS["CP_BC_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Mensaje de servicio no disponible";
+$MESS["CP_BC_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "No disponible";
 $MESS["CP_BC_TPL_MESS_PRICE_RANGES_TITLE"] = "Nombre del bloque de precio extendido";
 $MESS["CP_BC_TPL_MESS_PRICE_RANGES_TITLE_DEFAULT"] = "Precios";
 $MESS["CP_BC_TPL_MESS_PROPERTIES_TAB"] = "Texto de la pestaña \"Propiedades\"";
@@ -154,7 +156,6 @@ $MESS["CP_BC_TPL_RCM_VIEWED_WITH"] = "También fueron vistos";
 $MESS["CP_BC_TPL_RELATIVE_QUANTITY_FACTOR"] = "Reemplazar el valor del stock si este excede";
 $MESS["CP_BC_TPL_SEARCH_CHECK_DATES"] = "Buscar sólo en documentos activos en la fecha de búsqueda";
 $MESS["CP_BC_TPL_SEARCH_NO_WORD_LOGIC"] = "Deshabilitar el procesamiento de palabras comunes como operadores lógicos";
-$MESS["CP_BC_TPL_SEARCH_PAGE_RESULT_COUNT"] = "Resultados por página";
 $MESS["CP_BC_TPL_SEARCH_RESTART"] = "Pruebe buscar sin soporte de morfología (si no se encontraron resultados de búsqueda)";
 $MESS["CP_BC_TPL_SEARCH_USE_LANGUAGE_GUESS"] = "Autodetección del diseño del teclado";
 $MESS["CP_BC_TPL_SECTION_ADD_TO_BASKET_ACTION"] = "Mostrar botones \"Agregar al carrito\" o \"Comprar ahora\" en la página la lista de productos";
@@ -212,4 +213,3 @@ $MESS["TOP_VIEW_MODE_TIP"] = "Esta opción especifica el aspecto de los elemento
 $MESS["USE_BIG_DATA_TIP"] = "Mostrar recomendaciones personales en las páginas del catálogo";
 $MESS["USE_COMMON_SETTINGS_BASKET_POPUP_TIP"] = "Si se marcan, los botones \"Agregar al carrito\" y \"Comprar ahora\" se pueden mostrar u ocultar en todas las páginas de acuerdo a las preferencias comunes. Desactive esta casilla para aplicar los parámetros individuales para la lista de productos, los detalles del producto y las mejores páginas de venta de productos.";
 $MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Esto requiere que las opciones Google Analytics Enhanced Ecommerce se configuren";
-?>

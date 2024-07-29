@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASE_CURRENCY_NO"] = "Nie";
 $MESS["BASE_CURRENCY_YES"] = "Tak";
 $MESS["BT_CURRENCY_EDIT_ERR_ADD"] = "Nieznany błąd przy dodawaniu waluty";
@@ -9,10 +9,12 @@ $MESS["CONFIRM_DEL_MESSAGE"] = "Na pewno chcesz usunąć tę walutę?";
 $MESS["CURRENCY_DEC_POINT_DESC"] = "Punkt dziesiętny na wyjściu";
 $MESS["CURRENCY_EDIT_TITLE"] = "Edytuj walutę";
 $MESS["CURRENCY_FORMAT_DESC"] = "String formatu waluty";
-$MESS["CURRENCY_FORMAT_TEMPLATE"] = "Szablon formatu";
+$MESS["CURRENCY_FORMAT_TEMPLATE_EXT"] = "Powszechne formaty";
+$MESS["CURRENCY_FORMAT_TEMPLATE_HINT"] = "Użyj szablonów z tej listy, aby wypełnić pola wartościami z szablonu. Następnie możesz edytować pola według własnego uznania. Ta opcja nie jest trwała.";
 $MESS["CURRENCY_FULL_NAME"] = "Nazwa";
 $MESS["CURRENCY_FULL_NAME_DESC"] = "Pełna nazwa waluty";
 $MESS["CURRENCY_NEW_TITLE"] = "Nowa waluta";
+$MESS["CURRENCY_SELECT_TEMPLATE_EXT"] = "wybierz format";
 $MESS["CURRENCY_THOUSANDS_VARIANT_O"] = "Inna wartość";
 $MESS["DECIMALS_DESC"] = "Liczba cyfr dziesiętnych";
 $MESS["HIDE_ZERO_DECIMALS"] = "Przytnij końcowe zera z cen ułamkowych (w przestrzeni publicznej)";
@@ -25,4 +27,3 @@ $MESS["currency_numcode"] = "Kod numeryczny";
 $MESS["currency_rate"] = "Domyślny wskaźnik";
 $MESS["currency_rate_cnt"] = "Kwota";
 $MESS["currency_sort_ex"] = "Indeks sortowania";
-?>

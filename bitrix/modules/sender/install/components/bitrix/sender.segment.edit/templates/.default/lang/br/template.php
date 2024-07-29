@@ -1,4 +1,5 @@
-<?
+<?php
+$MESS["SENDER_SEGMENT_CREATED"] = "O segmento foi criado com sucesso. Você pode clicar em Salvar assim que selecionar as condições (para segmento dinâmico) ou quando o carregamento for iniciado (para segmento estático). O segmento continuará a ser preenchido com dados.";
 $MESS["SENDER_SEGMENT_EDIT_BUTTON_SELECT_CONTACT"] = "Selecionar lista de destinatários";
 $MESS["SENDER_SEGMENT_EDIT_CONTACT_SEARCHER_TITLE"] = "Listas de destinatários estáticos";
 $MESS["SENDER_SEGMENT_EDIT_TMPL_BTN_ADD"] = "Adicionar filtro";
@@ -25,4 +26,5 @@ $MESS["SENDER_SEGMENT_EDIT_TMPL_SET_FILTER"] = "Configurar filtro";
 $MESS["SENDER_SEGMENT_EDIT_TMPL_SUM"] = "Total de destinatários selecionados";
 $MESS["SENDER_SEGMENT_EDIT_TMPL_SUM_OF"] = "fora daqueles";
 $MESS["SENDER_SEGMENT_EDIT_TMPL_VIEW"] = "Visualizar";
-?>
+$MESS["SENDER_SEGMENT_NOT_PREPARED"] = "<strong>Atenção!</strong> O segmento ainda está sendo criado. As informações do destinatário continuarão atualizando";
+$MESS["SENDER_SEGMENT_SEARCH_INFORMATION"] = "Os dados estão sendo carregados agora. As informações estarão disponíveis quando o processo for concluído.";

@@ -1,16 +1,16 @@
-<?
+<?php
 $MESS["SAAN_ADD_NEW"] = "Ajouter un nouveau compte";
 $MESS["SAAN_ADD_NEW_ALT"] = "Cliquez sur pour ajouter un nouveau compte";
-$MESS["SAAN_LOCK_ACCT"] = "Bloqué";
+$MESS["SAAN_LOCK_ACCT"] = "Gelé";
 $MESS["SAAN_TRANSACT"] = "Transactions";
-$MESS["SAAN_UNLOCK_DO"] = "débloquer";
+$MESS["SAAN_UNLOCK_DO"] = "dégeler";
 $MESS["SAA_ACTIONS"] = "Actions";
 $MESS["SAA_ADD_NEW"] = "Ajouter";
 $MESS["SAA_ALL"] = "(partout)";
-$MESS["SAA_CURRENCY"] = "Devises : ";
+$MESS["SAA_CURRENCY"] = "Devises";
 $MESS["SAA_DELETE"] = "Supprimer";
 $MESS["SAA_DELETE_ALL"] = "Marquer / désélectionner représente pour la suppression";
-$MESS["SAA_DELETE_ALT"] = "Suppression de la facture";
+$MESS["SAA_DELETE_ALT"] = "Supprimer un compte";
 $MESS["SAA_DELETE_CONFIRM"] = "tes-vous sûr de vouloir supprimer ce compte ?";
 $MESS["SAA_DELETE_MARK"] = "Mark compte pour la suppression";
 $MESS["SAA_ERROR_DELETE"] = "Erreur compte suppression ##ID#";
@@ -18,7 +18,7 @@ $MESS["SAA_ERROR_GET"] = "Erreur d'obtention des paramètres du compte ##ID#";
 $MESS["SAA_ERROR_MONEY"] = "Erreur de chargement hors du compte ##ID#";
 $MESS["SAA_ERROR_UNLOCK"] = "Erreur compte de déverrouillage ##ID#";
 $MESS["SAA_ITOG"] = "Total";
-$MESS["SAA_LOCKED"] = "Bloquée : ";
+$MESS["SAA_LOCKED"] = "Gelé";
 $MESS["SAA_MAILTO"] = "Écrire une lettre";
 $MESS["SAA_NAV"] = "Comptes";
 $MESS["SAA_NO"] = "Non";
@@ -33,12 +33,11 @@ $MESS["SAA_UNLOCK"] = "Débloquer";
 $MESS["SAA_UNLOCK_ALT"] = "Déverrouiller les comptes";
 $MESS["SAA_UNSET"] = "Annuler";
 $MESS["SAA_UPDATE"] = "Éditer";
-$MESS["SAA_UPDATE_ALT"] = "Modifier les paramètres de compte";
-$MESS["SAA_USER"] = "Utilisateur : ";
+$MESS["SAA_UPDATE_ALT"] = "Modifier le compte";
+$MESS["SAA_USER"] = "Utilisateur";
 $MESS["SAA_USER1"] = "Utilisateur";
-$MESS["SAA_USER_ID"] = "ID de l'utilisateur : ";
+$MESS["SAA_USER_ID"] = "ID de l'utilisateur";
 $MESS["SAA_USER_INFO"] = "Evènements du profil utilisateur";
 $MESS["SAA_USER_LOGIN"] = "Nom d'utilisateur";
 $MESS["SAA_VIEW_TRANS"] = "Voir les paramètres de l'utilisateur";
 $MESS["SAA_YES"] = "Oui";
-?>

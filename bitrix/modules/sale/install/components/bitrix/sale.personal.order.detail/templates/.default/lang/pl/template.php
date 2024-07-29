@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SPOD_ACCOUNT"] = "Konto";
 $MESS["SPOD_ACCOUNT_DATA"] = "Informacje o twoim koncie";
 $MESS["SPOD_ALREADY_PAID"] = "już zapłacone";
@@ -16,7 +16,7 @@ $MESS["SPOD_NAME"] = "Nazwa";
 $MESS["SPOD_NO"] = "Nie";
 $MESS["SPOD_NONE"] = "nieokreślone";
 $MESS["SPOD_NUM_SIGN"] = "Nie.";
-$MESS["SPOD_ORDER"] = "Zamów";
+$MESS["SPOD_ORDER"] = "Zamówienie";
 $MESS["SPOD_ORDER_BASKET"] = "Pozycje zamówienia";
 $MESS["SPOD_ORDER_CANCEL"] = "Anuluj";
 $MESS["SPOD_ORDER_CANCELED"] = "Anuluowane";
@@ -46,4 +46,3 @@ $MESS["SPOD_TAX"] = "Kwota podatku";
 $MESS["SPOD_TOTAL_WEIGHT"] = "Waga całkowita";
 $MESS["SPOD_TPL_SUMOF"] = "łącznie";
 $MESS["SPOD_YES"] = "Tak";
-?>

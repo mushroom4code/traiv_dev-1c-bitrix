@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BUYER_ADD_USER"] = "Agregar cliente";
 $MESS["BUYER_BASKET_LAST_UPDATE"] = "Última actualización del carrito";
 $MESS["BUYER_ERR_LAST_LOGIN_FROM"] = "La fecha de la primera sesión es incorrecta";
@@ -31,7 +31,6 @@ $MESS["BUYER_LID"] = "Sitio Web";
 $MESS["BUYER_ORDERS_LID"] = "Pedidos";
 $MESS["BUYER_ORDER_LAST"] = "Fecha del último pedido";
 $MESS["BUYER_PRLIST"] = "Clientes";
-$MESS["BUYER_PROFILE"] = "Perfil de usuario";
 $MESS["BUYER_ROW_BUYER"] = "Cliente";
 $MESS["BUYER_ROW_COUNTRY"] = "País";
 $MESS["BUYER_ROW_COUNT_FULL_PAID_ORDER"] = "Pedidos pagados en su totalidad";
@@ -58,6 +57,4 @@ $MESS["BUYER_ROW_TOWN"] = "Ciudad";
 $MESS["BUYER_ROW_ZIP"] = "Código postal";
 $MESS["BUYER_SUB_ACTION_EDIT_PROFILE"] = "Editar cliente";
 $MESS["BUYER_SUB_ACTION_ORDER"] = "Crear un pedido";
-$MESS["BUYER_SUB_ACTION_PROFILE"] = "Perfiles de usuario";
 $MESS["BUYER_TITLE"] = "Clientes";
-?>

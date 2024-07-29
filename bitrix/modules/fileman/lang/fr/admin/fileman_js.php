@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FILEMAN_JS_ADD_INSERT"] = "En supplément";
 $MESS["FILEMAN_JS_Actions"] = "Actions";
 $MESS["FILEMAN_JS_AddSnippet"] = "Ajouter un snippet";
@@ -60,7 +60,7 @@ $MESS["FILEMAN_JS_Optimize"] = "Optimiser code HTML";
 $MESS["FILEMAN_JS_PAGE_BREAK"] = "Insérer un saut de page pour l'impression";
 $MESS["FILEMAN_JS_PATH2SWF"] = "Chemin";
 $MESS["FILEMAN_JS_PHP_CODE"] = "Du code PHP arbitraire";
-$MESS["FILEMAN_JS_Paste"] = "Insérer";
+$MESS["FILEMAN_JS_Paste"] = "Coller";
 $MESS["FILEMAN_JS_PasteAsText"] = "Insérer comme texte";
 $MESS["FILEMAN_JS_PasteAsWord"] = "Coller à partir de Word";
 $MESS["FILEMAN_JS_Redo"] = "Réitérer l'action";
@@ -190,4 +190,3 @@ $MESS["FILEMAN_JS_TPropW"] = "Largeur";
 $MESS["FILEMAN_JS_Template"] = "Modèle";
 $MESS["FILEMAN_JS_Undo"] = "Annuler";
 $MESS["FILEMAN_JS_WrapTitle"] = "Enveloppe";
-?>

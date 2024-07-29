@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_CANCEL_ORDER"] = "Błąd anulowania zamówienia.";
 $MESS["ERROR_CHANGE_COMMENT"] = "Błąd zapisywania komentarza.";
 $MESS["ERROR_CHANGE_STATUS"] = "Błąd zmiany statusu zamówienia.";
@@ -33,7 +33,7 @@ $MESS["P_ORDER_DATE_PAYED"] = "Zapłacone";
 $MESS["P_ORDER_DEDUCTION"] = "Status wypełnienia zamówienia";
 $MESS["P_ORDER_DELIVERY"] = "Usługa dostawy";
 $MESS["P_ORDER_DELIVERY_TITLE"] = "Wysyłka i dostawa";
-$MESS["P_ORDER_ID"] = "Zamów";
+$MESS["P_ORDER_ID"] = "Zamówienie";
 $MESS["P_ORDER_LANG"] = "Strona zamówienia";
 $MESS["P_ORDER_MARK"] = "Problem z wypełnieniem";
 $MESS["P_ORDER_PAYED"] = "Zamówienie opłacone:";
@@ -104,7 +104,7 @@ $MESS["SODN_TAB_BASKET"] = "elementy";
 $MESS["SODN_TAB_BASKET_DESCR"] = "Pozycje zamówienia";
 $MESS["SODN_TAB_HISTORY"] = "Historia";
 $MESS["SODN_TAB_HISTORY_DESCR"] = "Historia zamówienia";
-$MESS["SODN_TAB_ORDER"] = "Zamów";
+$MESS["SODN_TAB_ORDER"] = "Zamówienie";
 $MESS["SODN_TAB_ORDER_DESCR"] = "Podsumowanie zamówienia";
 $MESS["SODN_TAB_TRANSACT"] = "Transakcje";
 $MESS["SODN_TAB_TRANSACT_DESCR"] = "Transakcje zamówienia";
@@ -301,7 +301,7 @@ $MESS["SOD_POPUP_TO_BASKET"] = "Dodaj do koszyka";
 $MESS["SOD_POPUP_TO_BASKET_NOT"] = "Produkt jest niedostępny w magazynie.";
 $MESS["SOD_PRICE_DISCOUNT"] = "Upust";
 $MESS["SOD_SHOW_DELIVERY_ADDITIONAL_INFO"] = "więcej";
-$MESS["SOD_SHOW_SET"] = "Rozwinięcie";
+$MESS["SOD_SHOW_SET"] = "Rozwiń";
 $MESS["SOD_STORE_SEND"] = "Wybierz lokalizację";
 $MESS["SOD_STORE_SEND_NULL"] = "Niezdefiniowany";
 $MESS["SOD_SUBTAB_ADD_ORDER"] = "Umieść nowe zamówienie";
@@ -344,4 +344,3 @@ $MESS["SOD_WRONG_PAYFLAG"] = "Błędna flaga opłacone-zamówienie";
 $MESS["SOD_WRONG_PAYMETHOD"] = "Nieprawidłowy sposób płatności";
 $MESS["SOE_ORDER_LOCKED"] = "Ten rekord jest czasowo zablokowany przez użytkownika ##ID# (#DATE#)";
 $MESS["SOE_ORDER_LOCKED2"] = "Zamówienie zostało czasowo wstrzymane przez klienta #ID# (#DATE#)";
-?>

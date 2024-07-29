@@ -1,9 +1,9 @@
-<?
+<?php
 $MESS["SALE_ALLOW_DELIVERY"] = "Pedidos com entrega aprovada";
 $MESS["SALE_ALLOW_DELIVERY_PROC"] = "Entrega aprovada (%)";
 $MESS["SALE_BASKET_QUANTITY"] = "Total de produtos nos carrinhos";
 $MESS["SALE_COUNT"] = "Carrinhos de compras";
-$MESS["SALE_DELAY"] = "Deferido";
+$MESS["SALE_DELAY"] = "Adiado";
 $MESS["SALE_NAME"] = "Nome do produto";
 $MESS["SALE_ORDER_COUNT"] = "Pedidos";
 $MESS["SALE_ORDER_QUANTITY"] = "Total pedido";
@@ -23,4 +23,3 @@ $MESS["SALE_QUANTITY"] = "Total";
 $MESS["SALE_SECTION_TITLE"] = "Estatísticas do produto";
 $MESS["SALE_S_DATE"] = "Data do pedido";
 $MESS["SALE_S_SITE"] = "Site";
-?>

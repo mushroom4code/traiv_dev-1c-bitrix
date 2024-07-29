@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION_VARIABLE_TIP"] = "Ce champ spécifie le nom d'une variable qui transmet l'action: ADD_TO_COMPARE_LIST, ADD2BASKET etc. Valeur du champ par défaut <i>action</i>.";
 $MESS["ADD_PROPERTIES_TO_BASKET_TIP"] = "Sélectionnez les propriétés souhaitées pour la transmission au panier et la commande. Les propriétés doivent être énumérées au cas où elles affectent le choix du produit ou si la capacité de contrôler les propriétés dans le panier (pour des propositions commerciales) est activée, ou bien si elles comprennent l'information supplémentaire sur le produit et cette information est nécessaire dans la commande (par exemple: le client peut changer la couleur dans le panier, ou bien la couleur représente une autre proposition commerciale et cette propriété indique ce choix).";
 $MESS["AJAX_MODE_TIP"] = "Inclusion pour le composant du mode AJAX.";
@@ -16,6 +16,7 @@ $MESS["COMPARE_PATH_TIP"] = "Indique le chemin vers une page qui inclut le compo
 $MESS["COMPATIBLE_MODE_TIP"] = "Utilisez cette option pour les modèles personnalisés créés pour les versions antérieures à la 17.0.0 d'iblock. Pour améliorer les performances, mettez à jour les modèles des composants simples qui sont utilisés dans un composant composite.";
 $MESS["CP_BCS_ADD_PROPERTIES_TO_BASKET"] = "Ajouter les propriétés des marchandises et des offres au panier";
 $MESS["CP_BCS_ADD_SECTIONS_CHAIN"] = "Ajouter une section dans le fil d'Ariane";
+$MESS["CP_BCS_ALLOW_SEO_DATA"] = "Définir les valeurs des balises SEO et le titre de la page";
 $MESS["CP_BCS_BROWSER_TITLE"] = "Entrer l'entête de la fenêtre du navigateur de la propriété";
 $MESS["CP_BCS_CACHE_GROUPS"] = "Prendre en compte les droits d'accès";
 $MESS["CP_BCS_COMPARE_PATH"] = "Produit page de comparaison";
@@ -128,4 +129,3 @@ $MESS["T_IBLOCK_DESC_DESCRIPTION"] = "Installer la description de la page à par
 $MESS["T_IBLOCK_DESC_KEYWORDS"] = "Tablir les mots-clés de la page à partir de la propriété";
 $MESS["T_IBLOCK_DESC_PAGER_CATALOG"] = "Liste de marchandises";
 $MESS["USE_PRICE_COUNT_TIP"] = "A l'option cochée les prix de tous les types pour les marchandises seront affichés.";
-?>

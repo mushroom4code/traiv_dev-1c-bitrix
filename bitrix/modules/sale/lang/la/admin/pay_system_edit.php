@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_ACTION"] = "Error al agregar el servicio del sistema de pago";
 $MESS["ERROR_ADD_PAY_SYS"] = "Error al agregar un sistema de pago.";
 $MESS["ERROR_EDIT_ACTION"] = "Error al actualizar el servicio del sistema de pago";
@@ -49,6 +49,8 @@ $MESS["SALE_EDIT_RECORD"] = "Editar sistema de pago # #ID#";
 $MESS["SALE_NEW_RECORD"] = "Nuevo sistema de pago";
 $MESS["SALE_PSE_BIS_VAL_SETTINGS"] = "Ajustes del procesador del sistema de Pago";
 $MESS["SALE_PSE_ERROR_ACTION_SAVE"] = "Gestor del sistema de pago no especificado";
+$MESS["SALE_PSE_ERROR_DEFAULT_RSRT_APPLY"] = "Error al aplicar las restricciones comunes en el sistema de pago.";
+$MESS["SALE_PSE_ERROR_DEFAULT_RSRT_APPLY_MSGVER_1"] = "Error al aplicar las restricciones comunes en el sistema de pago.";
 $MESS["SALE_PSE_ERROR_DOCUMENT_TEMPLATE_EMPTY"] = "No se especifica la plantilla del documento";
 $MESS["SALE_PSE_ERROR_HANDLER_TYPE"] = "No se encontró el procesador";
 $MESS["SALE_PSE_ERROR_IMAGE_ERROR"] = "Error de carga #SETTING_NAME#. Por favor, intente algún otro formato.<br>";
@@ -79,6 +81,7 @@ $MESS["SPSN_DELETE_PAYSYS"] = "Eliminar el sistema de pago";
 $MESS["SPSN_DELETE_PAYSYS_CONFIRM"] = "¿Está seguro que desea eliminar este sistema de pago? Los sistemas de pago vinculados a pedidos no podrán ser eliminados.";
 $MESS["SPSN_ERROR"] = "Error al guardar";
 $MESS["SPSN_NEW_PAYSYS"] = "Agregar un sistema de pago";
+$MESS["SPSN_NOT_FOUND_PAYSYSTEM"] = "No se encontró el sistema de pago.";
 $MESS["SPSN_TAB_PAYSYS"] = "Sistema de pago";
 $MESS["SPSN_TAB_PAYSYS_DESCR"] = "Parámetros del sistema de pago";
 $MESS["SPSN_TAB_PAYSYS_DESCR_1"] = "gestor para el &quot;#PLTYPE#&quot; tipo de pagador";
@@ -114,4 +117,6 @@ $MESS["SPS_PAY_SYSTEM_RESTRICTION"] = "Restricciones";
 $MESS["SPS_PAY_SYSTEM_RESTRICTION_DESC"] = "Restricciones del sistema de pago";
 $MESS["SPS_SHOW_PROPS"] = "Mostrar propiedades del servicio";
 $MESS["SPS_TO_LIST"] = "Sistema de Pago";
-?>
+$MESS["SPS_VALIDATION_DOMAIN_FORM"] = "Formulario de confirmación del dominio";
+$MESS["SPS_VALIDATION_DOMAIN_HEAD"] = "Confirmar la propiedad del dominio";
+$MESS["SPS_VALIDATION_DOMAIN_VALIDATION"] = "Confirmar el dominio";

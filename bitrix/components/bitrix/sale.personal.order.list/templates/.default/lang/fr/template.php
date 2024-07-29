@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SOPL_TPL_RESTRICTED_PAID_MESSAGE"] = "<b>Avis : </b> cette commande peut être payée une fois vérifiée par un agent de vente";
 $MESS["SPOL_CANCEL_PAYMENT"] = "retour";
 $MESS["SPOL_CHECK_NUM"] = "Compte ##CHECK_NUMBER#";
@@ -45,4 +45,3 @@ $MESS["SPOL_TPL_TWO_GOODS"] = "produit";
 $MESS["SPOL_TPL_VIEW_ALL_ORDERS"] = "Afficher toutes les commandes";
 $MESS["SPOL_TPL_VIEW_ORDERS_CANCELED"] = "Afficher les commandes annulées";
 $MESS["SPOL_TPL_VIEW_ORDERS_HISTORY"] = "Afficher l'historique des commandes";
-?>

@@ -1,9 +1,11 @@
-<?
+<?php
 $MESS["ADS_CLIENT_VIEW"] = "Wyświetlaj odbiorców reklam";
 $MESS["ADS_CONNECT_CABINET"] = "Łącz konta reklamowe";
 $MESS["ADS_FB_INSTAGRAM_EDIT"] = "Zarządzaj reklamami na Facebooku i Instagramie";
-$MESS["ADS_GOOGLE_EDIT"] = "Zarządzaj Google AdWords";
+$MESS["ADS_GOOGLE_EDIT_MSGVER_1"] = "Zarządzaj Google Ads";
 $MESS["ADS_LOOK_ALIKE_FB_EDIT"] = "Zarządzaj reklamami na Facebooku i Instagramie Look-alike";
+$MESS["ADS_MARKETING_FB_EDIT"] = "Zarządzaj reklamami na Facebooku";
+$MESS["ADS_MARKETING_INSTAGRAM_EDIT"] = "Zarządzaj reklamami na Instagramie";
 $MESS["ADS_PAUSE_START_STOP"] = "Uruchom, zatrzymaj i wstrzymaj reklamy";
 $MESS["ADS_VIEW"] = "Wyświetlaj kampanie reklamowe";
 $MESS["BLACKLIST_EDIT"] = "Edytuj czarne listy";
@@ -31,4 +33,3 @@ $MESS["SETTINGS_VIEW"] = "Wyświetlaj ustawienia";
 $MESS["START_VIEW"] = "Wyświetlaj stronę początkową";
 $MESS["TEMPLATE_EDIT"] = "Edytuj szablony";
 $MESS["TEMPLATE_VIEW"] = "Wyświetlaj szablony";
-?>

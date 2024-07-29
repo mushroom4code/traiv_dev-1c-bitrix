@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_ALL"] = "(todo)";
 $MESS["MAIN_EVENTLOG_AUDIT_TYPE_ID"] = "Evento";
 $MESS["MAIN_EVENTLOG_DESCRIPTION"] = "Descripción";
@@ -14,7 +14,7 @@ $MESS["MAIN_EVENTLOG_ID"] = "ID";
 $MESS["MAIN_EVENTLOG_ITEM_ID"] = "Objetivo";
 $MESS["MAIN_EVENTLOG_LIST_PAGE"] = "Registros";
 $MESS["MAIN_EVENTLOG_MODULE"] = "Cambió el permiso de acceso del módulo";
-$MESS["MAIN_EVENTLOG_MODULE_ID"] = "Fuente";
+$MESS["MAIN_EVENTLOG_MODULE_ID"] = "Origen";
 $MESS["MAIN_EVENTLOG_MP_MODULE_DELETED"] = "Solución Marketplace se ha eliminado";
 $MESS["MAIN_EVENTLOG_MP_MODULE_DOWNLOADED"] = "Solución Marketplace se ha descargado";
 $MESS["MAIN_EVENTLOG_MP_MODULE_INSTALLED"] = "Solución Marketplace se ha instalado";
@@ -41,4 +41,3 @@ $MESS["MAIN_EVENTLOG_USER_REGISTER"] = "Nuevo registro de usuarios";
 $MESS["MAIN_EVENTLOG_USER_REGISTER_FAIL"] = "Error de registro";
 $MESS["MAIN_EVENTLOG_WRONG_TIMESTAMP_X_FROM"] = "Introduzca el registro de la fecha de inicio en el filtro.";
 $MESS["MAIN_EVENTLOG_WRONG_TIMESTAMP_X_TO"] = "Introduzca el registro de la fecha de finalización en el filtro.";
-?>

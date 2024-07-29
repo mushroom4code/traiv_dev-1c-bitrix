@@ -1,6 +1,6 @@
-<?
+<?php
 $MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_DESC"] = "Невеликий шаблон для невеликого магазину товарів ручної роботи.";
-$MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TXT_1"] = "Магазин Хендмейда";
+$MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TITLE"] = "Класичний магазин. Хендмейд";
 $MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TXT_2"] = "Handmade-магазинчик &quot;Мрія&quot;";
 $MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TXT_3"] = "Робимо прикраси з любов'ю!";
 $MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TXT_4"] = "Купити зараз";
@@ -9,5 +9,3 @@ $MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TXT_6"] = "Наші прикра
 $MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TXT_7"] = "Робочий процес";
 $MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TXT_8"] = "Прикраси на наших покупцях";
 $MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TXT_9"] = "Контакти";
-$MESS["LANDING_DEMO_STORE_MINI_CATALOG_HANDMADE_TXT_NEW"] = "Хендмейд-магазин";
-?>

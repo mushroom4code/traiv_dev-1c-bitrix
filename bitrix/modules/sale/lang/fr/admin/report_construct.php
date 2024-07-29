@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATALOG_MODULE_NOT_INSTALLED"] = "Le module 'Catalogue de marchandises' n'a pas été installé.";
 $MESS["IBLOCK_MODULE_NOT_INSTALLED"] = "Le module des blocs d'informations n'a pas été installé.";
 $MESS["REPORT_ADD"] = "Ajouter";
@@ -49,15 +49,15 @@ $MESS["REPORT_MODULE_NOT_INSTALLED"] = "Il n'a pas été installé le module Con
 $MESS["REPORT_NEW_COLUMN_TITLE"] = "nouveau nom";
 $MESS["REPORT_NOT_FOUND"] = "Le rapport avec ID '%s' n'a pas été trouvé";
 $MESS["REPORT_NO_COLUMN_SELECTED"] = "Aucune colonne selectionnée.";
-$MESS["REPORT_PERIOD"] = "Exercice comptable";
+$MESS["REPORT_PERIOD"] = "Période de rapport";
 $MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleBasket"] = "Contenu de commande";
 $MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleFuser"] = "visiteur";
-$MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleOrder"] = "Ordre";
+$MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleOrder"] = "Commande";
 $MESS["REPORT_POPUP_COLUMN_TITLE_sale_SaleProduct"] = "Article";
 $MESS["REPORT_POPUP_COLUMN_TITLE_sale_User"] = "Acheteur";
 $MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleBasket"] = "Contenu de commande";
 $MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleFuser"] = "visiteur";
-$MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleOrder"] = "Ordre";
+$MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleOrder"] = "Commande";
 $MESS["REPORT_POPUP_FILTER_TITLE_sale_SaleProduct"] = "Article";
 $MESS["REPORT_POPUP_FILTER_TITLE_sale_User"] = "Acheteur";
 $MESS["REPORT_PRCNT_BUTTON_TITLE"] = "% du (de la)";
@@ -107,4 +107,3 @@ $MESS["SALE_REPORT_CONSTRUCT_TITLE_LABEL"] = "Nom du rapport : ";
 $MESS["SALE_REPORT_DEFAULT_CAN_NOT_BE_EDITED"] = "Le rapport de défaut ne peut pas être modifié.";
 $MESS["SALE_REPORT_EDIT_TITLE"] = "Edition du rapport";
 $MESS["SALE_REPORT_HELPER_SELECTOR_LABEL_TEXT"] = "Veuillez choisir un jeu de champs de base pour le nouveau rapport";
-?>

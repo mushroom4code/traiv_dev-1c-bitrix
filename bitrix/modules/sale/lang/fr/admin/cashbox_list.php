@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["SALE_ACCESS_DENIED"] = "Accès refusé.";
 $MESS["SALE_ALL"] = "Toutes";
-$MESS["SALE_CASHBOX_ACTIVE"] = "Actif";
+$MESS["SALE_CASHBOX_ACTIVE"] = "Activité";
 $MESS["SALE_CASHBOX_ADD_NEW"] = "Ajouter un reçu";
 $MESS["SALE_CASHBOX_COPY"] = "Copier l'URL";
 $MESS["SALE_CASHBOX_DATE_CREATE"] = "Date de création";
@@ -24,7 +24,7 @@ $MESS["SALE_CASHBOX_TITLE"] = "Caisse enregistreuse Bitrix";
 $MESS["SALE_CASHBOX_WINDOW_STEP_1"] = "Précisez cette URL dans les paramètres de l'application";
 $MESS["SALE_CASHBOX_WINDOW_STEP_2"] = "Démarrez l'application de bureau de la caisse enregistreuse";
 $MESS["SALE_CASHBOX_WINDOW_TITLE"] = "Connecter la caisse enregistreuse";
-$MESS["SALE_F_ACTIVE"] = "Actif";
+$MESS["SALE_F_ACTIVE"] = "Activité";
 $MESS["SALE_MARKETPLACE_ADD_NEW"] = "Installer depuis Marketplace";
 $MESS["SALE_MARKETPLACE_ADD_NEW_ALT"] = "Cliquez pour installer depuis Marketplace";
 $MESS["SALE_NO"] = "Non";
@@ -32,4 +32,3 @@ $MESS["SALE_YES"] = "Oui";
 $MESS["SPSAN_ERROR_DELETE"] = "Erreur lors de la suppression de la caisse enregistreuse";
 $MESS["SPSAN_ERROR_DELETE_1C"] = "Impossible de supprimer la caisse enregistreuse 1C parce qu'elle appartient au système.";
 $MESS["SPSAN_ERROR_UPDATE"] = "Erreur lors de la mise à jour de la caisse enregistreuse";
-?>

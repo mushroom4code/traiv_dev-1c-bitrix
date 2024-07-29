@@ -22,7 +22,6 @@ $MESS["SEC_SESSION_ADMIN_DB_OFF"] = "Дані сесій не зберігают
 $MESS["SEC_SESSION_ADMIN_DB_ON"] = "Дані сесій зберігаються у БД модуля безпеки.";
 $MESS["SEC_SESSION_ADMIN_DB_WARNING"] = "Увага! При перемиканні режиму зберігання сесій всі користувачі втратять авторизацію (дані сесій будуть знищені).";
 $MESS["SEC_SESSION_ADMIN_SAVEDB_TAB"] = "Зберігання в базі даних";
-$MESS["SEC_SESSION_ADMIN_SAVEDB_TAB_TITLE"] = "Увімкнення механізму зберігання даних сесій користувачів у базі даних";
 $MESS["SEC_SESSION_ADMIN_SAVEDB_TAB_TITLE_V2"] = "Налаштування зберігання даних сесій користувачів";
 $MESS["SEC_SESSION_ADMIN_SAVEDB_TAB_V2"] = "Налаштування зберігання";
 $MESS["SEC_SESSION_ADMIN_SESSID_BUTTON_OFF"] = "Вимкнути зміну ідентифікатора";

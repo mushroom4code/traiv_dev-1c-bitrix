@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["CMDESKTOP_TDEF_ADD_BUTTON"] = "Adicionar gadget";
-$MESS["CMDESKTOP_TDEF_ADMIN_TITLE"] = "rea de trabalho: #TITLE#";
-$MESS["CMDESKTOP_TDEF_ADMIN_TITLE_DEFAULT"] = "rea de Trabalho #NUM#";
+$MESS["CMDESKTOP_TDEF_ADMIN_TITLE"] = "Rea de trabalho: #TITLE#";
+$MESS["CMDESKTOP_TDEF_ADMIN_TITLE_DEFAULT"] = "Rea de Trabalho #NUM#";
 $MESS["CMDESKTOP_TDEF_CANCEL"] = "Cancelar";
 $MESS["CMDESKTOP_TDEF_CLEAR"] = "Redefinir configurações atuais";
 $MESS["CMDESKTOP_TDEF_CLEAR_CONF"] = "Parâmetros padrão serão aplicados para a sua área de trabalho. Continuar?";
@@ -22,4 +22,3 @@ $MESS["CMDESKTOP_TDEF_SET"] = "Salvar como configurações padrão";
 $MESS["CMDESKTOP_TDEF_SETTINGS"] = "Configurações";
 $MESS["CMDESKTOP_TDEF_SETTINGS_ALL_DIALOG_TITLE"] = "Gerenciar Áreas de Trabalho";
 $MESS["CMDESKTOP_TDEF_SETTINGS_DIALOG_TITLE"] = "Configurações da área de trabalho";
-?>

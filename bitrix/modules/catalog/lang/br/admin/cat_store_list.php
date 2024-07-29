@@ -1,5 +1,17 @@
-<?
+<?php
 $MESS["ADDRESS"] = "Endereço";
+$MESS["BX_CATALOG_STORE_LIST_ACTION_ACTIVATE"] = "Ativar";
+$MESS["BX_CATALOG_STORE_LIST_ACTION_DEACTIVATE"] = "Desativar";
+$MESS["BX_CATALOG_STORE_LIST_ACTION_SET_DEFAULT"] = "Tornar depósito padrão";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_ACTIVATE_STORE"] = "Não é possível ativar o depósito ##ID#";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_DEACTIVATE_DEFAULT_STORE"] = "Não é possível desativar o depósito padrão";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_DEACTIVATE_STORE"] = "Não é possível desativar o depósito ##ID#";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_DELETE_DEFAULT_STORE"] = "Não é possível excluir o depósito padrão";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_DELETE_STORE"] = "Não é possível excluir o depósito ##ID#";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_SET_DEFAULT_NON_ACTIVE_STORE"] = "O depósito inativo não pode se tornar um depósito padrão";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_SET_DEFAULT_SITE_STORE"] = "O depósito padrão não pode pertencer a nenhum site";
+$MESS["BX_CATALOG_STORE_LIST_ERR_CANNOT_SET_DEFAULT_STORE_INTERNAL"] = "Erro ao criar depósito padrão: #ERROR#";
+$MESS["BX_CATALOG_STORE_LIST_FIELD_IS_DEFAULT"] = "Padrão";
 $MESS["CAT_STORE_INDEX_TITLE"] = "Lista de localização de depósitos";
 $MESS["CSTORE_SORT"] = "Classificação";
 $MESS["DATE_CREATE"] = "Data de criação";
@@ -26,4 +38,3 @@ $MESS["STORE_XML_ID"] = "ID externo";
 $MESS["TITLE"] = "Nome";
 $MESS["USER_ID"] = "Criado por";
 $MESS["group_admin_nav"] = "Depósitos";
-?>

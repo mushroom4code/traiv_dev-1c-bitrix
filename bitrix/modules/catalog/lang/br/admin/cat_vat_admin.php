@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CVAT_ACTIVE"] = "Ativo";
 $MESS["CVAT_ADD_NEW"] = "Adicionar";
 $MESS["CVAT_ADD_NEW_ALT"] = "Adicionar taxa de imposto";
@@ -18,4 +18,3 @@ $MESS["CVAT_SORT"] = "Classificação";
 $MESS["CVAT_YES"] = "ativo";
 $MESS["ERROR_DELETE_VAT"] = "Erro ao excluir a taxa de imposto ##ID#";
 $MESS["ERROR_UPDATE_VAT"] = "Erro ao atualizar a taxa de imposto ##ID#";
-?>

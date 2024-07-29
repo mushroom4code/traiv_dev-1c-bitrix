@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MARKETPLACE_ADD_RIGHTS"] = "Definir permissões de acesso";
 $MESS["MARKETPLACE_APP_BUY"] = "Comprar";
 $MESS["MARKETPLACE_APP_CLEAN"] = "excluir configurações do aplicativo e dados";
@@ -19,18 +19,3 @@ $MESS["MARKETPLACE_APP_TRIAL_FINISH"] = "Seu período de avaliação vai expirar
 $MESS["MARKETPLACE_BUYS_EMPTY"] = "Você não tem nenhum aplicativo";
 $MESS["MARKETPLACE_DELETE_BUTTON"] = "Excluir";
 $MESS["MARKETPLACE_INSTALL_BUTTON"] = "Instalar";
-$MESS["PAYMENT_MESSAGE_D_N_Y"] = "Alguns dos recursos do aplicativo estão indisponíveis. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_D_N_Y_A"] = "Alguns dos recursos do aplicativo estão indisponíveis. Compre a versão completa.";
-$MESS["PAYMENT_MESSAGE_D_Y_Y"] = "A assinatura do seu aplicativo expirou. Alguns dos recursos do aplicativo estão indisponíveis. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_D_Y_Y_A"] = "A assinatura do seu aplicativo expirou. Alguns dos recursos do aplicativo estão indisponíveis.";
-$MESS["PAYMENT_MESSAGE_P_N_Y"] = "A assinatura do seu aplicativo irá expirar em <b>#DIAS#</b> dias. Entre em contato com o seu administrador para renovar a assinatura.";
-$MESS["PAYMENT_MESSAGE_P_N_Y_A"] = "A assinatura do seu aplicativo irá expirar em <b>#DIAS#</b> dias.";
-$MESS["PAYMENT_MESSAGE_P_Y_N"] = "O aplicativo não está mais disponível porque sua assinatura expirou. Entre em contato com o seu administrador para renovar a assinatura.";
-$MESS["PAYMENT_MESSAGE_P_Y_N_A"] = "O aplicativo não está mais disponível porque sua assinatura expirou.";
-$MESS["PAYMENT_MESSAGE_P_Y_Y"] = "A assinatura do seu aplicativo expirou. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_P_Y_Y_A"] = "A assinatura do seu aplicativo expirou.";
-$MESS["PAYMENT_MESSAGE_T_N_Y"] = "O período de avaliação vai expirar em <b>#DIAS#</b> dias. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_T_N_Y_A"] = "O período de avaliação vai expirar em <b>#DIAS#</b> dias.";
-$MESS["PAYMENT_MESSAGE_T_Y_N"] = "O período de avaliação expirou. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_T_Y_N_A"] = "O período de avaliação expirou. Compre a versão completa.";
-?>

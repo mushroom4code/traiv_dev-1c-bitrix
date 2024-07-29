@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_UL_P_DATE_REGISTER"] = "Fecha de registro";
 $MESS["MAIN_UL_P_DATE_TIME_FORMAT"] = "Fecha y hora del formato";
 $MESS["MAIN_UL_P_EMAIL"] = "E-Mail";
@@ -44,7 +44,7 @@ $MESS["MAIN_UL_P_PROFILE_URL"] = "URL de la página del perfil del usuario";
 $MESS["MAIN_UL_P_SECOND_NAME"] = "Segundo nombre";
 $MESS["MAIN_UL_P_SHOW_FIELDS"] = "Mostrar campos de usuario";
 $MESS["MAIN_UL_P_SHOW_LOGIN"] = "Mostrar registro si el nombre falta";
-$MESS["MAIN_UL_P_SHOW_YEAR"] = "Mostrar fecha de cumpleaños";
+$MESS["MAIN_UL_P_SHOW_YEAR"] = "Mostrar fecha de nacimiento";
 $MESS["MAIN_UL_P_SHOW_YEAR_VALUE_M"] = "sólo hombres";
 $MESS["MAIN_UL_P_SHOW_YEAR_VALUE_N"] = "nadie";
 $MESS["MAIN_UL_P_SHOW_YEAR_VALUE_Y"] = "todo";
@@ -69,4 +69,3 @@ $MESS["MAIN_UL_P_WORK_STATE"] = "Estado/Región";
 $MESS["MAIN_UL_P_WORK_STREET"] = "Dirección";
 $MESS["MAIN_UL_P_WORK_WWW"] = "Sitio web de la compañía";
 $MESS["MAIN_UL_P_WORK_ZIP"] = "Zip";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION_VARIABLE_TIP"] = "Indiquer le nom de la variable dans laquelle l'action est transmise: ADD_TO_COMPARE_LIST, ADD2BASKET et etc. La valeur du champ par défaut <i>action</i>.";
 $MESS["ADDRESS"] = "Adresse";
 $MESS["ADD_ELEMENT_CHAIN_TIP"] = "Si l'option est cochée, la dénomination de l'élément sera ajoutée dans la chaîne de navigation.";
@@ -248,7 +248,7 @@ $MESS["T_IBLOCK_DESC_ALSO_BUY_ELEMENT_COUNT"] = "Quantité d'éléments pour l'a
 $MESS["T_IBLOCK_DESC_ALSO_BUY_MIN_BUYES"] = "Quantité minimale des achats du produit";
 $MESS["T_IBLOCK_DESC_ALSO_BUY_SETTINGS"] = "Réglages du bloc 'Avec ce produit on achète aussi'";
 $MESS["T_IBLOCK_DESC_COMPARE_SETTINGS_EXT"] = "Comparaison de produits";
-$MESS["T_IBLOCK_DESC_DETAIL_SETTINGS"] = "Vue détaillée réglages";
+$MESS["T_IBLOCK_DESC_DETAIL_SETTINGS"] = "Paramètres de la vue détaillée";
 $MESS["T_IBLOCK_DESC_ELEMENT_BOX"] = "Afficher la liste des élément";
 $MESS["T_IBLOCK_DESC_FILTER_SETTINGS"] = "Paramètres de Filtre";
 $MESS["T_IBLOCK_DESC_LIST_SETTINGS"] = "Paramètres de la liste";
@@ -271,7 +271,6 @@ $MESS["USE_FILTER_TIP"] = "Marquer l'option pour afficher le filtre sur la page 
 $MESS["USE_MAIN_ELEMENT_SECTION_TIP"] = "Si coché, les liens des produits seront créés en fonction de la section parent principale. Cela évitera de dupliquer des pages de produits.";
 $MESS["USE_MIN_AMOUNT"] = "Remplacer les chiffres par les expressions";
 $MESS["USE_PRICE_COUNT_TIP"] = "A l'option cochée les prix de tous les types pour les marchandises seront affichés";
-$MESS["USE_REVIEW_TIP"] = "Si cette option est sélectionnée, le formulaire d'ajout d'un avis sera affiché à la page de vue détaillée. Si cette option est cochée, les champs pour réglages d'avis deviennent disponibles.";
+$MESS["USE_REVIEW_TIP"] = "Affiche un formulaire de commentaires sur une page de détails des éléments du catalogue. La vérification de cette option active les champs de configuration des commentaires.";
 $MESS["VARIABLE_ALIASES_ELEMENT_ID_TIP"] = "Définir une valeur variable qui communique l'ID d'élément, par exemple, <b>ELEMENT_ID</b>.";
 $MESS["VARIABLE_ALIASES_SECTION_ID_TIP"] = "On affiche le nom de la variable dans laquelle sera transmis l'ID de la section, par exemple, <b>SECTION_ID</b>.";
-?>

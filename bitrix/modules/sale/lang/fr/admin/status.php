@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_NEW_REC"] = "Erreur d'ajout d'un nouveau statut";
 $MESS["ERROR_ADD_REC"] = "L'ajout d'un statut d'erreur";
 $MESS["ERROR_DELETE"] = "La suppression de l'état d'erreur";
@@ -23,9 +23,9 @@ $MESS["SSAN_NOTIFY_N"] = "Non";
 $MESS["SSAN_NOTIFY_Y"] = "Oui";
 $MESS["SSAN_TYPE"] = "Type de statut";
 $MESS["SSEN_TYPE_D"] = "Livraison";
-$MESS["SSEN_TYPE_O"] = "Commander";
+$MESS["SSEN_TYPE_O"] = "Commande";
 $MESS["STATUS_DEL"] = "Supprimer";
-$MESS["STATUS_DEL_CONF"] = "tes-vous sûr de vouloir supprimer ce statut ? Si ce statut a fixé des ordres, il ne sera pas supprimé.";
+$MESS["STATUS_DEL_CONF"] = "Êtes-vous sûr de vouloir supprimer ce statut ? Ce statut ne sera pas supprimé si des commandes sont à ce statut.";
 $MESS["STATUS_F_DESCR"] = "Description";
 $MESS["STATUS_F_NAME"] = "Dénomination : ";
 $MESS["STATUS_ID"] = "Code";
@@ -34,4 +34,3 @@ $MESS["STATUS_RESET"] = "Annuler";
 $MESS["STATUS_SORT"] = "Classification";
 $MESS["STATUS_TITLE"] = "Tats de commandes";
 $MESS["STATUS_UPD"] = "Enregistrer";
-?>

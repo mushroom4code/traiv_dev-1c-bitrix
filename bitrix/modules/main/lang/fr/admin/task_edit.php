@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["ADD"] = "Ajouter";
 $MESS["DEFAULT"] = "< par défaut >";
-$MESS["DESCRIPTION"] = "Description";
+$MESS["DESCRIPTION"] = "Description :";
 $MESS["EDIT_TASK_TITLE"] = "Modifier les niveaux d'accès pour les # #ID#";
 $MESS["KERNEL"] = "Module principal";
 $MESS["LETTER"] = "Caractère";
@@ -33,4 +33,3 @@ $MESS["TASK_NAME_WARNING"] = "L'identifiant symboles n'est pas entré, mais il e
 $MESS["TASK_NONE_OPERATIONS"] = "Le module '#MODULE_ID#' ne contient pas d'opérations ayant le rattachement '#BINDING#'";
 $MESS["TASK_SAVE_ERROR"] = "Enregistrement de la tâche erreur";
 $MESS["TBL_GROUP_DATE"] = "Période d'activité";
-?>

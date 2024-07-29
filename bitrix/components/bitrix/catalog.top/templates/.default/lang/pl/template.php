@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_TO_BASKET_OK"] = "Przedmiot dodany do koszyka";
 $MESS["CATALOG_COMPARE"] = "Porównaj";
 $MESS["CT_BCT_CATALOG_BASKET_UNKNOWN_ERROR"] = "Nieznzny błąd przy dodawaniu przedmiotu do koszyka";
@@ -20,4 +20,4 @@ $MESS["CT_BCT_TPL_MESS_BTN_DETAIL"] = "więcej";
 $MESS["CT_BCT_TPL_MESS_BTN_SUBSCRIBE"] = "Powiadom, gdy ponownie pojawi się w magazynie";
 $MESS["CT_BCT_TPL_MESS_PRICE_SIMPLE_MODE_SHORT"] = "od #PRICE#";
 $MESS["CT_BCT_TPL_MESS_PRODUCT_NOT_AVAILABLE"] = "niedostępne na magazynie";
-?>
+$MESS["CT_BCT_TPL_MESS_PRODUCT_NOT_AVAILABLE_SERVICE"] = "Niedostępny";

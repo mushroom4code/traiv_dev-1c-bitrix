@@ -1,5 +1,5 @@
-<?
-$MESS["OP_DESC_ELEMENT_BIZPROC_START"] = "L'utilisateur a le droit d'exécuter des processus d'affaires pour cet élément de bloc d'informations";
+<?php
+$MESS["OP_DESC_ELEMENT_BIZPROC_START_MSGVER_1"] = "L'utilisateur a le droit d'exécuter des processus d'entreprise pour cet élément de bloc d'informations";
 $MESS["OP_DESC_ELEMENT_DELETE"] = "L'utilisateur peut supprimer l'élément du bloc d'information";
 $MESS["OP_DESC_ELEMENT_EDIT"] = "L'utilisateur peut modifier l'élément du bloc d'information, excepté les droits d'accès et l'attache aux sections";
 $MESS["OP_DESC_ELEMENT_EDIT_ANY_WF_STATUS"] = "Utilisateur peut modifier un élément du bloc info avec n'importe quel statut du traitement des documents à l'exception des droits d'admission et rattachement aux sections";
@@ -17,7 +17,7 @@ $MESS["OP_DESC_SECTION_ELEMENT_BIND"] = "L'utilisateur ne peut pas créer les é
 $MESS["OP_DESC_SECTION_READ"] = "L'utilisateur a l'accès nécessaire pour voir les paramètres (champs et propriétés) de la section du bloc d'information";
 $MESS["OP_DESC_SECTION_RIGHTS_EDIT"] = "L'utilisateur peut modifier les droits d'accès à la section du bloc d'information (la présence de l'opération section_edit est requise)";
 $MESS["OP_DESC_SECTION_SECTION_BIND"] = "L'utilisateur peut créer des sections de bloc d'information";
-$MESS["OP_NAME_ELEMENT_BIZPROC_START"] = "Exécuter le processus d'affaires pour l'élément";
+$MESS["OP_NAME_ELEMENT_BIZPROC_START"] = "Exécuter le processus d'entreprise pour l'élément";
 $MESS["OP_NAME_ELEMENT_DELETE"] = "Suppression d'un élément";
 $MESS["OP_NAME_ELEMENT_EDIT"] = "Modification d'un élément";
 $MESS["OP_NAME_ELEMENT_EDIT_ANY_WF_STATUS"] = "Modification d'un élément dans chaque statut d'échange de documents";
@@ -35,4 +35,3 @@ $MESS["OP_NAME_SECTION_ELEMENT_BIND"] = "Ajouter un élément à la section";
 $MESS["OP_NAME_SECTION_READ"] = "Voir les paramètres de la section";
 $MESS["OP_NAME_SECTION_RIGHTS_EDIT"] = "Modification des droits d'accès à la section";
 $MESS["OP_NAME_SECTION_SECTION_BIND"] = "Création d'une sous-section dans une section";
-?>

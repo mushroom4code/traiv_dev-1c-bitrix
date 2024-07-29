@@ -1,5 +1,4 @@
-<?
-$MESS["LANDING_BLOCK_0.MENU_1_NAME"] = "O menu translúcido do modelo \"Consultoria\" com logotipo à esquerda e itens de menu à direita";
+<?php
 $MESS["LANDING_BLOCK_0.MENU_1_NAME_NEW"] = "Menu do modelo \"Consultoria\" com um logotipo à esquerda, itens de menu à direita e um fundo translúcido estático";
 $MESS["LANDING_BLOCK_0.MENU_1_NODES_LANDINGBLOCKNODEMENULIST"] = "Menu";
 $MESS["LANDING_BLOCK_0.MENU_1_NODES_LANDINGBLOCKNODEMENULISTITEMLINK"] = "Item de menu";
@@ -8,4 +7,4 @@ $MESS["LANDING_BLOCK_0.MENU_1_NODES_LANDINGBLOCKNODEMENULOGO2"] = "Logotipo (rec
 $MESS["LANDING_BLOCK_0.MENU_1_NODES_LANDINGBLOCKNODEMENULOGOLINK"] = "URL do link do logotipo";
 $MESS["LANDING_BLOCK_0.MENU_1_STYLE_LANDINGBLOCKNODEMENULIST"] = "Menu";
 $MESS["LANDING_BLOCK_0.MENU_1_STYLE_LANDINGBLOCKNODEMENULISTITEMLINK"] = "Item de menu";
-?>
+$MESS["LANDING_BLOCK_0_MENU_1_STYLE_HAMB"] = "Menu móvel";

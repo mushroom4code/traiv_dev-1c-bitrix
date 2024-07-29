@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["F_ANCHOR"] = "Enlace a este mensaje";
 $MESS["F_ATTACH_FILES"] = "Archivos adjuntos";
 $MESS["F_AUTHOR_PROFILE"] = "Perfil de usuario";
@@ -22,7 +22,7 @@ $MESS["F_NUM_MESS"] = "Mensajes:";
 $MESS["F_POINTS"] = "Puntos:";
 $MESS["F_PRIVATE_MESSAGE"] = "Mensaje";
 $MESS["F_PRIVATE_MESSAGE_TITLE"] = "Enviar mensaje privado";
-$MESS["F_QUOTE"] = "Cotización";
+$MESS["F_QUOTE"] = "Citar";
 $MESS["F_QUOTE_HINT"] = "Para citar el mensaje en forma de respuesta, seleccione el texto y haga clic aquí";
 $MESS["F_REAL_IP"] = "/ real";
 $MESS["F_REPLY"] = "Respuesta";
@@ -31,4 +31,3 @@ $MESS["F_SHOW_TOPIC"] = "Mostrar tema";
 $MESS["F_USER_ID"] = "ID del invitado";
 $MESS["F_USER_ID_USER"] = "ID del usuario";
 $MESS["F_USER_PROFILE"] = "Perfil de usuario";
-?>

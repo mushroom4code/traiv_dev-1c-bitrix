@@ -1,9 +1,9 @@
-<?
+<?php
 $MESS["CASHBOX_CREATE_WINDOW_NOT_SELECT"] = "Non sélectionné";
 $MESS["CASHBOX_CREATE_WINDOW_TITLE"] = "Ajouter un nouveau reçu";
 $MESS["SALE_ACCESS_DENIED"] = "Accès refusé.";
 $MESS["SALE_ALL"] = "Toutes";
-$MESS["SALE_CASHBOX_ACTIVE"] = "Actif";
+$MESS["SALE_CASHBOX_ACTIVE"] = "Activité";
 $MESS["SALE_CASHBOX_ADD_NEW"] = "Ajouter un reçu";
 $MESS["SALE_CASHBOX_ADD_R_NEW"] = "Ajouter un accusé de réception";
 $MESS["SALE_CASHBOX_ALLOW_DELIVERY"] = "Expédition approuvée";
@@ -45,4 +45,3 @@ $MESS["SALE_F_ORDER_ID"] = "ID de la commande";
 $MESS["SALE_F_TO"] = "à";
 $MESS["SALE_NO"] = "Non";
 $MESS["SALE_YES"] = "Oui";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_ADMIN_LIST_CHECKED"] = "Coché:";
 $MESS["MAIN_ADMIN_LIST_SELECTED"] = "Sélectionné:";
 $MESS["MAIN_ADMIN_MENU_DELETE"] = "Supprimer";
@@ -6,6 +6,7 @@ $MESS["MAIN_ADMIN_MENU_EDIT"] = "Éditer";
 $MESS["VOTE_ACTIVATE"] = "activer";
 $MESS["VOTE_ACTIVE"] = "Actif(ve)";
 $MESS["VOTE_ACTIVE_RED_LAMP"] = "Le délai de l'affichage est expiré.";
+$MESS["VOTE_ACTIVE_RED_LAMP_UPCOMING"] = "Le sondage est toujours en cours.";
 $MESS["VOTE_ADD_LIST"] = "Ajouter un sondage";
 $MESS["VOTE_ALL"] = "(partout)";
 $MESS["VOTE_CHANNEL"] = "Groupe";
@@ -60,4 +61,3 @@ $MESS["VOTE_WRONG_START_DATE_FROM"] = "S'il vous plaît entrer le bon 'de' ce jo
 $MESS["VOTE_WRONG_START_DATE_TILL"] = "S'il vous plaît entrez la bonne 'jusqu'à' date dans le filtre de la 'Date de début'";
 $MESS["VOTE_WRONG_START_FROM_TILL"] = "Jusqu'à' la date doit être supérieure à la date dans le filtre pour la 'date de départ 'de'";
 $MESS["VOTE_YES"] = "Oui";
-?>

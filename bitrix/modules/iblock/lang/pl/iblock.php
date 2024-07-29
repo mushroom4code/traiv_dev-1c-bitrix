@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_ALL"] = "(jakikolwiek)";
 $MESS["IBLOCK_BACK_TO_ADMIN"] = "Powrót do listy bloku informacji";
 $MESS["IBLOCK_BAD_BLOCK_ID"] = "Nieprawidłowy kod bloku informacji.";
@@ -15,7 +15,7 @@ $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_FROM"] = "Rozpoczęcie działania";
 $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_TO"] = "Zakończenie działania";
 $MESS["IBLOCK_FIELD_ACTIVE_TO"] = "Czas zakończenia publikacji";
 $MESS["IBLOCK_FIELD_BP_PUBLISHED"] = "Opublikowany";
-$MESS["IBLOCK_FIELD_CODE"] = "Kod podatku";
+$MESS["IBLOCK_FIELD_CODE"] = "Kod symboliczny";
 $MESS["IBLOCK_FIELD_CREATED_BY"] = "Wykonawca (ID)";
 $MESS["IBLOCK_FIELD_CREATED_USER_NAME"] = "Wykonawca (nazwa)";
 $MESS["IBLOCK_FIELD_DATE_ACTIVE_FROM"] = "Data rozpoczęcia działalności";
@@ -51,11 +51,11 @@ $MESS["IBLOCK_FIELD_TIMESTAMP_X"] = "Data modyfikacji";
 $MESS["IBLOCK_FIELD_USER_NAME"] = "Zmodyfikowany przez (nazwa)";
 $MESS["IBLOCK_FIELD_XML_ID"] = "Kod źródła zewnętrznego DB";
 $MESS["IBLOCK_NO"] = "Nie";
-$MESS["IBLOCK_PROP_DATETIME_DESC"] = "Data/Czas";
+$MESS["IBLOCK_PROP_DATETIME_DESC"] = "Data/Godzina";
 $MESS["IBLOCK_PROP_DATE_DESC"] = "Data";
 $MESS["IBLOCK_PROP_E"] = "Wiąż z obiektami CRM";
-$MESS["IBLOCK_PROP_EAUTOCOMPLETE_DESC"] = "Link-do-elementu samowypełniające się okienko tekstowe";
-$MESS["IBLOCK_PROP_ELIST_DESC"] = "Wiąż z elementami (lista rozwijana)";
+$MESS["IBLOCK_PROP_EAUTOCOMPLETE_DESC"] = "Pole tekstowe autouzupełniania Link do elementu";
+$MESS["IBLOCK_PROP_ELIST_DESC"] = "Link do elementów (lista rozwijana)";
 $MESS["IBLOCK_PROP_F"] = "Plik";
 $MESS["IBLOCK_PROP_FILEMAN_DESC"] = "Link do pliku (na serwerze)";
 $MESS["IBLOCK_PROP_G"] = "Powiąż z Sekcjami";
@@ -63,9 +63,9 @@ $MESS["IBLOCK_PROP_HTML_DESC"] = "HTML/tekst";
 $MESS["IBLOCK_PROP_L"] = "Lista";
 $MESS["IBLOCK_PROP_N"] = "Liczba";
 $MESS["IBLOCK_PROP_S"] = "String";
-$MESS["IBLOCK_PROP_SAUTOCOMPLETE_DESC"] = "Powiąż z sekcją z samowypełnieniem";
+$MESS["IBLOCK_PROP_SAUTOCOMPLETE_DESC"] = "Powiąż z sekcjami z autouzupełnianiem";
 $MESS["IBLOCK_PROP_SEQUENCE_DESC"] = "Licznik";
-$MESS["IBLOCK_PROP_SKU_DESC"] = "Link do przedmiotów produktu (SKU)";
+$MESS["IBLOCK_PROP_SKU_DESC"] = "Link do pozycji (SKU)";
 $MESS["IBLOCK_PROP_XMLID_DESC"] = "Link do elementów przez XML_ID";
 $MESS["IBLOCK_SORT_FIELD_ACTIVE_FROM"] = "Aktywne od";
 $MESS["IBLOCK_SORT_FIELD_ACTIVE_TO"] = "Aktywny do";
@@ -82,4 +82,3 @@ $MESS["IBLOCK_XML2_INDEX_ERROR"] = "Błąd zdarzył się podczas próby tworzeni
 $MESS["IBLOCK_XML2_METADATA_ERROR"] = "Błąd podczas próby importu metadanych katalogu.";
 $MESS["IBLOCK_XML2_TABLE_CREATE_ERROR"] = "Błąd zdarzył się przy próbie tworzenia tymczasowych tabel importu.";
 $MESS["IBLOCK_YES"] = "Tak";
-?>

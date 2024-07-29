@@ -1,6 +1,6 @@
 <?
 $MESS["F_UNSUBSCRIBE"] = "Відписатися";
-$MESS["F_UNSUBSCRIBE_TITLE"] = "Не отримувати сповіщення про нові повідомлення по e-mail";
+$MESS["F_UNSUBSCRIBE_TITLE"] = "Не отримувати сповіщення про нові повідомлення по -email";
 $MESS["F_REPLY"] = "Відповісти";
 $MESS["F_SUBSCRIBE"] = "Підписатися";
 $MESS["F_SUBSCRIBE_TITLE"] = "Отримувати сповіщення про нові повідомлення по e-mail";

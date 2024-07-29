@@ -1,7 +1,4 @@
-import { EventEmitter, BaseEvent } from 'main.core.events';
-
 import { Utils } from 'im.v2.lib.utils';
-import { EventType } from 'im.v2.const';
 import { ListLoadingState as LoadingState } from 'im.v2.component.elements';
 
 import { ChannelItem } from './components/channel-item/channel-item';
@@ -13,7 +10,7 @@ import { ChannelRecentMenu } from './classes/context-menu-manager';
 import './css/channel-list.css';
 
 import type { JsonObject } from 'main.core';
-import type { ImModelRecentItem } from 'im.v2.model';
+import type { ImModelRecentItem, ImModelMessage } from 'im.v2.model';
 
 // @vue/component
 export const ChannelList = {
@@ -37,10 +34,10 @@ export const ChannelList = {
 		preparedItems(): ImModelRecentItem[]
 		{
 			return [...this.collection].sort((a, b) => {
-				const firstDate = this.$store.getters['recent/getSortDate'](a.dialogId);
-				const secondDate = this.$store.getters['recent/getSortDate'](b.dialogId);
+				const firstMessage: ImModelMessage = this.$store.getters['messages/getById'](a.messageId);
+				const secondMessage: ImModelMessage = this.$store.getters['messages/getById'](b.messageId);
 
-				return secondDate - firstDate;
+				return secondMessage.date - firstMessage.date;
 			});
 		},
 		isEmptyCollection(): boolean
@@ -50,14 +47,11 @@ export const ChannelList = {
 	},
 	created()
 	{
-		this.joinedChannels = new Set();
 		this.contextMenuManager = new ChannelRecentMenu();
-		this.bindEvents();
 	},
 	beforeUnmount()
 	{
 		this.contextMenuManager.destroy();
-		this.unbindEvents();
 	},
 	async activated()
 	{
@@ -69,7 +63,6 @@ export const ChannelList = {
 	},
 	deactivated()
 	{
-		this.removeJoinedChannels();
 		this.getPullWatchManager().unsubscribe();
 	},
 	methods:
@@ -94,27 +87,6 @@ export const ChannelList = {
 		{
 			event.preventDefault();
 			this.contextMenuManager.openMenu(item, event.currentTarget);
-		},
-		onChannelJoin(event: BaseEvent<{ channelDialogId: string }>)
-		{
-			const { channelDialogId } = event.getData();
-			this.joinedChannels.add(channelDialogId);
-		},
-		bindEvents()
-		{
-			EventEmitter.subscribe(EventType.channel.onChannelJoin, this.onChannelJoin);
-		},
-		unbindEvents()
-		{
-			EventEmitter.unsubscribe(EventType.channel.onChannelJoin, this.onChannelJoin);
-		},
-		removeJoinedChannels()
-		{
-			[...this.joinedChannels].forEach((channelDialogId: string) => {
-				this.$store.dispatch('recent/deleteFromChannelCollection', channelDialogId);
-			});
-
-			this.joinedChannels = new Set();
 		},
 		getRecentService(): ChannelService
 		{

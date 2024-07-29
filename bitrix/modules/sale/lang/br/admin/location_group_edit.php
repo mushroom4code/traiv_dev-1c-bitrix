@@ -1,24 +1,13 @@
-<?
-$MESS["ERROR_ADD_GROUP"] = "Erro ao adicionar um grupo de locais.";
-$MESS["ERROR_EDIT_GROUP"] = "Erro ao modificar o grupo de locais.";
-$MESS["ERROR_EMPTY_LOCATION"] = "Por favor, liste ao menos um local.";
-$MESS["ERROR_EMPTY_NAME"] = "O nome do grupo não está especificado no idioma.";
-$MESS["SALE_ADD"] = "Adicionar";
-$MESS["SALE_APPLY"] = "Aplicar";
-$MESS["SALE_EDIT_RECORD"] = "Editar grupo de local #ID#";
-$MESS["SALE_LOCATIONS"] = "Locais no grupo";
-$MESS["SALE_NAME"] = "Nome";
-$MESS["SALE_NEW"] = "novo";
-$MESS["SALE_NEW_RECORD"] = "Novo grupo de locais";
-$MESS["SALE_PT_PROPS"] = "Parâmetros";
-$MESS["SALE_RECORDS_LIST"] = "Grupos de locais";
-$MESS["SALE_RESET"] = "Resetar";
-$MESS["SALE_SAVE"] = "Salvar";
-$MESS["SALE_SORT"] = "ndice de classificação";
-$MESS["SLGEN_2FLIST"] = "Lista de grupos de locais";
-$MESS["SLGEN_DELETE_LGROUP"] = "Deletar grupo de locais";
-$MESS["SLGEN_DELETE_LGROUP_CONFIRM"] = "Você tem certeza que deseja deletar este grupo de locais?";
-$MESS["SLGEN_NEW_LGROUP"] = "Adicionar um novo grupo de locais";
-$MESS["SLGEN_TAB_LGROUP"] = "Grupo de locais";
-$MESS["SLGEN_TAB_LGROUP_DESCR"] = "Grupo de locais";
-?>
+<?php
+$MESS["SALE_LOCATION_E_CANNOT_SAVE_ITEM"] = "Erro ao salvar o grupo";
+$MESS["SALE_LOCATION_E_CANNOT_UPDATE_ITEM"] = "Erro ao atualizar o grupo";
+$MESS["SALE_LOCATION_E_GO_BACK"] = "Voltar";
+$MESS["SALE_LOCATION_E_HEADING_LOCATION"] = "Selecionar localizações";
+$MESS["SALE_LOCATION_E_HEADING_NAME"] = "Títulos dependentes do idioma (#LANGUAGE_ID#)";
+$MESS["SALE_LOCATION_E_HEADING_NAME_ALL"] = "Títulos dependentes do idioma";
+$MESS["SALE_LOCATION_E_ITEM_EDIT"] = "Editar grupo: #ITEM_NAME#";
+$MESS["SALE_LOCATION_E_ITEM_NEW"] = "Novo grupo de localização";
+$MESS["SALE_LOCATION_E_ITEM_NOT_FOUND"] = "O grupo não foi encontrado.";
+$MESS["SALE_LOCATION_E_MAIN_TAB"] = "Grupo";
+$MESS["SALE_LOCATION_E_MAIN_TAB_TITLE"] = "Parâmetros do grupo";
+$MESS["SALE_MODULE_ACCES_DENIED"] = "O acesso ao módulo foi negado";

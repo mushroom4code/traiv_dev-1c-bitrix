@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AJAX_MODE_TIP"] = "Inclusion pour le composant du mode AJAX.";
 $MESS["AJAX_OPTION_HISTORY_TIP"] = "Lorsqu'un utilisateur effectue les transitions AJAX, alors si l'option est cochée, vous pouvez utiliser les boutons 'Retour' et 'Suivant' du navigateur.";
 $MESS["AJAX_OPTION_JUMP_TIP"] = "Si l'utilisateur effectue la transition AJAX, alors après l'achèvement du chargement le défilement vers le début du composant aura lieu.";
@@ -40,7 +40,7 @@ $MESS["SECTION_SORT_FIELD_TIP"] = "On indique le champ pour lequel aura lieu le 
 $MESS["SECTION_SORT_ORDER_TIP"] = "Dans quel ordre les sections seront triées: en ordre croissant ou décroissant.";
 $MESS["SEF_FOLDER_TIP"] = "Le chemin jusqu'au dossier avec lequel travaille le composant. Ce chemin peut exister ou non sous forme physique.";
 $MESS["SEF_MODE_TIP"] = "Active le support SEF.";
-$MESS["SEF_URL_TEMPLATES_detail_TIP"] = "Le chemin d'accès à la page avec l'information détaillée. Le chemin doit contenir l'identifiant de l'élément, par exemple, <b>#SECTION_ID#/#ELEMENT_ID#/</b>.";
+$MESS["SEF_URL_TEMPLATES_detail_TIP"] = "Chemin d'accès à une page contenant les détails de l'élément. Le chemin doit contenir l'ID d'élément ; par exemple. <b>#SECTION_ID#/#ELEMENT_ID#/</b>.";
 $MESS["SEF_URL_TEMPLATES_section_TIP"] = "Chemin vers la page avec des éléments de la section. Le chemin doit contenir ID de la section. (#SECTION_ID#). Par défaut le champ contient <b>#SECTION_ID#/</b>.";
 $MESS["SEF_URL_TEMPLATES_sections_top_TIP"] = "Il est indiqué le chemin vers la page initiale du composant - liste des sections avec un TOP des photos. Si dans la section courante cette page est indicielle le champ peut rester vide.";
 $MESS["SET_TITLE_TIP"] = "Une option étant choisie pour titre de la page, il sera affiché <b>Gallerie de photos'</b>.";
@@ -55,8 +55,7 @@ $MESS["USE_CAPTCHA_TIP"] = "L'option installée détermine l'affichage de l'imag
 $MESS["USE_FILTER_TIP"] = "Indique pour montrer le filtre.";
 $MESS["USE_PERMISSIONS_TIP"] = "L'option permet de limiter l'accès à l'information détaillée des éléments du bloc d'information.";
 $MESS["USE_RATING_TIP"] = "L'option étant sélectionnée, les visiteurs pourront voter pour les photos en leur attribuant des points sur la page avec information détaillée.";
-$MESS["USE_REVIEW_TIP"] = "Selon l'option choisie, le formulaire d'ajout de commentaire sera affiché sur la page de vue détaillée.";
+$MESS["USE_REVIEW_TIP"] = "Spécifie pour afficher un formulaire de commentaires dans la page d'affichage.";
 $MESS["VARIABLE_ALIASES_ELEMENT_ID_TIP"] = "Définir une valeur variable qui communique l'ID d'élément, par exemple, <b>ELEMENT_ID</b>.";
 $MESS["VARIABLE_ALIASES_SECTION_ID_TIP"] = "On affiche le nom de la variable dans laquelle sera transmis l'ID de la section, par exemple, <b>SECTION_ID</b>.";
 $MESS["VOTE_NAMES_TIP"] = "Les champs sont proposés pour les remarques aux points, par exemple, parfait, bien etc. au lieu de 5 et 4. Si les remarques existent, elles seront affichées au lieu de notes-chiffres.";
-?>

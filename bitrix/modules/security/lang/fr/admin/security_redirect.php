@@ -1,9 +1,8 @@
-<?
+<?php
 $MESS["SEC_REDIRECT_ACTIONS"] = "Les actions de protection contre le phishing : ";
 $MESS["SEC_REDIRECT_ACTIONS_HEADER"] = "Actions";
 $MESS["SEC_REDIRECT_ACTION_REDIRECT"] = "Rediriger vers l'URL spécifié.";
 $MESS["SEC_REDIRECT_ACTION_REDIRECT_URL"] = "URL : ";
-$MESS["SEC_REDIRECT_ACTION_SHOW_MESSAGE"] = "Rediriger vers un autre site en affichant le message et avec un délai.";
 $MESS["SEC_REDIRECT_ADD"] = "Ajouter";
 $MESS["SEC_REDIRECT_BUTTON_OFF"] = "Désactiver la protection des redirecteurs contre le fishing";
 $MESS["SEC_REDIRECT_BUTTON_ON"] = "Activer la protection contre les redirections de phishing";
@@ -39,10 +38,7 @@ $MESS["SEC_REDIRECT_REFERER_CHECK"] = "Vérifier la présence du titre HTTP qui 
 $MESS["SEC_REDIRECT_REFERER_SITE_CHECK"] = "Le titre HTTP qui décrit la page ayant le lien doit contenir un site courant.";
 $MESS["SEC_REDIRECT_SHOW_MESSAGE_AND_STAY"] = "Afficher le message de notification redirection vers une autre URL.";
 $MESS["SEC_REDIRECT_SYSTEM"] = "De système";
-$MESS["SEC_REDIRECT_TIMEOUT"] = "Délai : ";
-$MESS["SEC_REDIRECT_TIMEOUT_SEC"] = "(sec.)";
 $MESS["SEC_REDIRECT_TITLE"] = "Protection des redirections contre le filoutage";
 $MESS["SEC_REDIRECT_URL"] = "URL : ";
 $MESS["SEC_REDIRECT_URLS"] = "URLs inscrits";
 $MESS["SEC_REDIRECT_USER"] = "Utilisateurs";
-?>

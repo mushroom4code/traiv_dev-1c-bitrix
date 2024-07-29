@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["F_DATE_FORMAT"] = "Format de la date";
 $MESS["F_DATE_TIME_FORMAT"] = "Format d'affichage de la date et de l'heure";
 $MESS["F_DEFAULT_FID"] = "Forum ID";
@@ -30,7 +30,7 @@ $MESS["F_TOPIC_MOVE_TEMPLATE"] = "Page du transfert de sujets";
 $MESS["F_TOPIC_NEW_TEMPLATE"] = "Page de création du nouveau sujet";
 $MESS["F_URL_TEMPLATES"] = "Gestion des adresses de pages";
 $MESS["F_USER_POST_TEMPLATE"] = "Page correspondance avec l'utilisateur";
-$MESS["RATING_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_TYPE_LIKE_GRAPHIC"] = "J'aime (image)";
 $MESS["RATING_TYPE_LIKE_TEXT"] = "J'aime (textuel)";
@@ -38,4 +38,3 @@ $MESS["RATING_TYPE_STANDART_GRAPHIC"] = "J'aime / Je n'aime pas (image)";
 $MESS["RATING_TYPE_STANDART_TEXT"] = "J'aime / Je n'aime pas (textuel)";
 $MESS["SHOW_RATING"] = "Activer le classement";
 $MESS["SHOW_RATING_CONFIG"] = "ordinaire";
-?>

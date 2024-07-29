@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Właściwość dodatkowych obrazów dla produktu";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Dodaj do koszyka";
 $MESS["ADD_TO_BASKET_ACTION_BUY"] = "Kup teraz";
@@ -62,6 +62,8 @@ $MESS["CP_BC_TPL_MESS_COMMENTS_TAB_DEFAULT"] = "Komentarze";
 $MESS["CP_BC_TPL_MESS_DESCRIPTION_TAB_DEFAULT"] = "opis";
 $MESS["CP_BC_TPL_MESS_NOT_AVAILABLE"] = "Wiadomość o niedostępności przedmiotu";
 $MESS["CP_BC_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Przedmiot niedostępny";
+$MESS["CP_BC_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Komunikat o niedostępności usługi";
+$MESS["CP_BC_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "Niedostępny";
 $MESS["CP_BC_TPL_OFFER_ADD_PICT_PROP"] = "Dodatkowy obraz właściwości SKU";
 $MESS["CP_BC_TPL_OFFER_TREE_PROPS"] = "Właściwości dla grupowania SKU";
 $MESS["CP_BC_TPL_PRODUCT_BLOCK_BUTTONS"] = "Działania";
@@ -110,4 +112,3 @@ $MESS["TEMPLATE_THEME_TIP"] = "Definiuje kolory dla renderowania tekstu i grafik
 $MESS["TOP_ROTATE_TIMER_TIP"] = "Określa czas pojawiania się na ekranie slajdu z najwyżej ocenianymi przedmiotami. Ten parametr jest używany przy auto zaawansowanych slajdach.";
 $MESS["TOP_VIEW_MODE_TIP"] = "Ta opcja określa wygląd najwyżej ocenianych produktów na stronie";
 $MESS["USE_BIG_DATA_TIP"] = "Wyświetl osobiste rekomendacje w katalogu stron";
-?>

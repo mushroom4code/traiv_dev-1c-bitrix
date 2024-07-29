@@ -1,9 +1,10 @@
-<?
+<?php
 $MESS["ACCOUNT_INFO_SENT"] = "La cadena de verificación y su información de registro se acaban de enviar a su dirección del E-mail.";
 $MESS["BAD_GROUP_NAME"] = "Ingrese el nombre.";
 $MESS["CHANGE_PASS_SUCC"] = "Su contraseña fue cambiada satisfactoriamente.";
 $MESS["CHECKWORD_EXPIRE"] = "La valides de la palabra de comprobación ha expirado. Necesita solicitarla otra vez.";
 $MESS["CHECKWORD_INCORRECT"] = "Cadena de verifcación incorrecta para el login \"#LOGIN#\"";
+$MESS["CHECKWORD_INCORRECT1"] = "Palabra de verificación incorrecta.";
 $MESS["DATA_NOT_FOUND1"] = "No se encontró el perfil del usuario.";
 $MESS["FORGOT_NAME"] = "El nombre y apellido son requeridos";
 $MESS["FORMATNAME_NONAME"] = "Sin título";
@@ -21,6 +22,7 @@ $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_DIGITS"] = "La contraseña debe contener 
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_LENGTH"] = "La contraseña debe contener al menos los símbolos #LENGTH#";
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_LOWERCASE"] = "La contraseña debe contener letras Latinas en minúsculas (a-z).";
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_PUNCTUATION"] = "La contraseña debe contener marcas de puntuación (,.<>/?;:'\\[]{}\\|`~!@#\$%^&*()-_+=).";
+$MESS["MAIN_FUNCTION_REGISTER_PASSWORD_UNIQUE"] = "Su contraseña no debe ser la misma que las contraseñas que utilizó recientemente.";
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_UPPERCASE"] = "La contraseña debe contener letras Latina mayúsculas (A-Z).";
 $MESS["MAIN_FUNCTION_SIMPLEREGISTER_NA_INADMIN"] = " No puede utilizar la función CUser::Register in ADMIN_SECTION!";
 $MESS["MAIN_GP_PASSWORD_DIGITS"] = "contienen los dígitos (0-9)";
@@ -28,6 +30,7 @@ $MESS["MAIN_GP_PASSWORD_LENGTH"] = "La contraseña debe contener al menos #LENGT
 $MESS["MAIN_GP_PASSWORD_LOWERCASE"] = "contienen letras Latinas minúsculas (a-z)";
 $MESS["MAIN_GP_PASSWORD_PUNCTUATION"] = "contener marcas de puntuación (,.<>/?;:'\\[]{}\\|`~!@#\$%^&*()-_+=)";
 $MESS["MAIN_GP_PASSWORD_UPPERCASE"] = "Contienen letras mayúsculas Latina (A-Z)";
+$MESS["MAIN_LOGIN_CHANGE_PASSWORD"] = "Su contraseña expiró, debe cambiarla.";
 $MESS["MAIN_LOGIN_EMAIL_CONFIRM"] = "Todavía no has confirmado tu registro (el mensaje de confirmación fue enviado al #EMAIL#). Por favor, utilice el formulario de recuperación de contraseña para enviar el mensaje de confirmación de nuevo si así se requiere.";
 $MESS["MAIN_SEND_PASS_CONFIRM"] = "Todavía no has confirmado tu registro. Otro mensaje de confirmación ha sido enviada a su dirección de correo electrónico.";
 $MESS["MAIN_TASK_WRONG_LETTER"] = "Sólo una letra Latina puede ser utilizado como abreviatura del nivel de acceso ";
@@ -60,12 +63,15 @@ $MESS["WRONG_DATE_ACTIVE_FROM"] = "Fecha incorrecta de inicio del período de ac
 $MESS["WRONG_DATE_ACTIVE_TO"] = "Fecha incorrecta de final del período de activación del grupo  # #GROUP_ID#";
 $MESS["WRONG_EMAIL"] = "El E-mail es incorrecto";
 $MESS["WRONG_LOGIN"] = "Contraseña de logueo incorrecta";
-$MESS["WRONG_PERSONAL_BIRTHDAY"] = "Fecha de cumpleaños es incorrecta ";
+$MESS["WRONG_PERSONAL_BIRTHDAY"] = "Fecha de nacimiento es incorrecta ";
 $MESS["WRONG_USER_DATE_ACTIVE_FROM"] = "Fecha incorrecta de inicio del período de activación del usuario  # #USER_ID#";
 $MESS["WRONG_USER_DATE_ACTIVE_TO"] = "Fecha incorrecta de final del período de activación del usuario  # #USER_ID#";
 $MESS["main_change_pass_changed"] = "La contraseña fue cambiada con éxito.";
 $MESS["main_change_pass_code_error"] = "Código de confirmación incorrecto o vencido. Puede solicitar otro código.";
+$MESS["main_change_pass_empty_checkword"] = "No se especificó el código de verificación ni la contraseña actual.";
 $MESS["main_change_pass_error"] = "Error al cambiar la contraseña.";
+$MESS["main_change_pass_incorrect_pass"] = "La contraseña actual que proporcionó es incorrecta.";
+$MESS["main_check_password_weak"] = "La contraseña es demasiado débil (se encuentra en la lista de contraseñas débiles).";
 $MESS["main_login_need_phone_confirmation"] = "Aún no ha confirmado su registro (su número de teléfono: #PHONE#). Utilice el formulario de recuperación de contraseña para solicitar otro SMS de confirmación.";
 $MESS["main_register_no_user"] = "Usuario no encontrado.";
 $MESS["main_register_sms_sent"] = "Se ha enviado un código para cambiar su contraseña a su teléfono.";
@@ -78,4 +84,3 @@ $MESS["main_user_pass_request_sent"] = "El código de confirmación se envió al
 $MESS["user_email_not_set"] = "E-Mail del usuario no está especificado.";
 $MESS["user_login_not_set"] = "Logo de usuario no está especificado.";
 $MESS["user_pass_not_set"] = "Contraseña del usuario no está especificado.";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTIVE"] = "Actif(ve) : ";
 $MESS["ADD"] = "Ajouter une nouvelle langue";
 $MESS["CHARSET"] = "Encodage : ";
@@ -38,6 +38,6 @@ $MESS["RECORD_LIST_TITLE"] = "Voir la liste des langues";
 $MESS["RESET"] = "Annuler";
 $MESS["SAVE"] = "Enregistrer les modifications";
 $MESS["SORT"] = "Index du tri : ";
+$MESS["lang_edit_code"] = "Code de langue (IETF BCP 47) :";
 $MESS["lang_edit_culture"] = "Paramètres régionaux : ";
 $MESS["lang_edit_culture_edit"] = "Modifier les paramètres sélectionnés";
-?>

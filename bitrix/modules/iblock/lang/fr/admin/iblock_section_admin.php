@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBSEC_A_ACTIVE"] = "Actif(ve)";
 $MESS["IBSEC_A_ADD"] = "Ajouter";
 $MESS["IBSEC_A_ADDEL_TITLE"] = "Cliquez sur pour ajouter un nouvel élément";
@@ -43,5 +43,4 @@ $MESS["IBSEC_A_UP"] = "Accéder à la liste d'albums";
 $MESS["IBSEC_A_UPDERR"] = "Erreur de modification de l'enregistrement : ";
 $MESS["IBSEC_A_UP_TITLE"] = "Appuyez pour passer dans le dossier plus haut";
 $MESS["IBSEC_A_USERINFO"] = "Voir les paramètres utilisateur";
-$MESS["IBSEC_A_XML_ID"] = "Code externe";
-?>
+$MESS["IBSEC_A_XML_ID_MSGVER_1"] = "ID externe";

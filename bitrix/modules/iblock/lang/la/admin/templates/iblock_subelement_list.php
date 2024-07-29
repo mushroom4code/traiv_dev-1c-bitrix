@@ -1,7 +1,13 @@
-<?
+<?php
+$MESS["IBEL_CATALOG_EMPTY_VALUE"] = "no seleccionado";
+$MESS["IBEL_CATALOG_MEASURE"] = "Unidad de medida";
+$MESS["IBEL_CATALOG_MEASURE_TITLE"] = "Unidad de medida";
 $MESS["IBEL_CATALOG_QUANTITY_RESERVED"] = "Reservado";
 $MESS["IBEL_CATALOG_TYPE"] = "Tipo de producto";
+$MESS["IBEL_CATALOG_TYPE_MESS_GROUP_MSGVER_1"] = "conjunto";
 $MESS["IBEL_CATALOG_TYPE_MESS_OFFER"] = "otros";
+$MESS["IBEL_CATALOG_VAT_ID"] = "Tasa de impuesto";
+$MESS["IBLOCK_FIELD_SUBSCRIPTIONS"] = "Número de suscripciones";
 $MESS["IBSEL_A_ACTIVATE"] = "Activar";
 $MESS["IBSEL_A_CLEAR_COUNTER"] = "Restablecer contador de vistas";
 $MESS["IBSEL_A_CLEAR_COUNTER_CONFIRM"] = "¿Está seguro de que desea reiniciar el contador y primera vista fecha?";
@@ -20,4 +26,3 @@ $MESS["IB_SE_L_REFRESH_ELEMENTS"] = "Actualizar";
 $MESS["IB_SE_L_REFRESH_ELEMENTS_DESCR"] = "Actualizar la lista del SKU";
 $MESS["IB_SE_L_REQUIRED_FIELDS_FIND"] = "Generador SKU no se puede ejecutar porque hay campos del Block de información que son requeridos. Haga estos campos opcionales para continuar.";
 $MESS["IB_SE_L_SHOW_PRICES_AFTER_COPY"] = "Por favor guarde el producto duplicado antes de editar los SKU.";
-?>

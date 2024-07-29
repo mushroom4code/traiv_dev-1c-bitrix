@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SEC_SESSION_ADMIN_DB_BUTTON_OFF"] = "Não armazenar dados da sessão no banco de dados do Módulo de Segurança";
 $MESS["SEC_SESSION_ADMIN_DB_BUTTON_ON"] = "Armazenar dados da sessão no banco de dados do Módulo de Segurança";
 $MESS["SEC_SESSION_ADMIN_DB_NOTE"] = "<p>A maioria dos ataques de roubos de dados de usário autorizado. 
@@ -14,7 +14,6 @@ $MESS["SEC_SESSION_ADMIN_DB_OFF"] = "Os dados da sessão não são armazenados n
 $MESS["SEC_SESSION_ADMIN_DB_ON"] = "Os dados da sessão são armazenados no banco de dados do módulo de segurança.";
 $MESS["SEC_SESSION_ADMIN_DB_WARNING"] = "Atenção! Alternar/desligar o modo de sessão irá causar aos usuários autorizados a perda de autorização (os dados da sessão serão destruídos).";
 $MESS["SEC_SESSION_ADMIN_SAVEDB_TAB"] = "Sessões em banco de dados";
-$MESS["SEC_SESSION_ADMIN_SAVEDB_TAB_TITLE"] = "Configurar o armazenamento de dados da sessão no banco de dados";
 $MESS["SEC_SESSION_ADMIN_SESSID_BUTTON_OFF"] = "Desativar a mudança de ID";
 $MESS["SEC_SESSION_ADMIN_SESSID_BUTTON_ON"] = "Não a permitir a mudança do ID";
 $MESS["SEC_SESSION_ADMIN_SESSID_NOTE"] = "<p>Se este recurso estiver ativo, o ID da sessão vai mudar após o período de tempo especificado. Isso aumenta a carga do servidor, mas, obviamente, faz o roubo de ID sem uso instantâneo absolutamente sem sentido. </p>
@@ -26,4 +25,3 @@ $MESS["SEC_SESSION_ADMIN_SESSID_TAB_TITLE"] = "Configurar a troca periódica de 
 $MESS["SEC_SESSION_ADMIN_SESSID_TTL"] = "A duração do ID da sessão,sec.";
 $MESS["SEC_SESSION_ADMIN_SESSID_WARNING"] = "ID da sessão não é compatível com o módulo de proteção pró-ativo. O identificador retornou que a função session_id () não deve ter mais de 32 caracteres e deve conter apenas letras latinas ou números.";
 $MESS["SEC_SESSION_ADMIN_TITLE"] = "Proteção da sessão";
-?>

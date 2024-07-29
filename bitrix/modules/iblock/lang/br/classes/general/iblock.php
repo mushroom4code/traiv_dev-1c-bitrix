@@ -1,10 +1,9 @@
-<?
+<?php
 $MESS["IBLOCK_ADD"] = "Novo bloco de informação foi adicionado";
 $MESS["IBLOCK_BAD_BLOCK_TYPE"] = "O tipo de bloco não está especificado.";
 $MESS["IBLOCK_BAD_FILE_ERROR"] = "Ocorreu um erro enviar um arquivo para o servidor.";
 $MESS["IBLOCK_BAD_FILE_NOT_FOUND"] = "Arquivo não encontrado.";
 $MESS["IBLOCK_BAD_FILE_NOT_PICTURE"] = "Não é um arquivo de imagem.";
-$MESS["IBLOCK_BAD_FILE_UNSUPPORTED"] = "Redimensionamento de imagem pode ser realizada para formatos JPEG, GIF e PNG.";
 $MESS["IBLOCK_BAD_NAME"] = "O nome do bloco não está especificado.";
 $MESS["IBLOCK_BAD_SITE_ID"] = "Site inválido!";
 $MESS["IBLOCK_BAD_SITE_ID_NA"] = "Por favor entrar no site.";
@@ -14,6 +13,7 @@ $MESS["IBLOCK_EDIT"] = "Bloco de informação foi modificada";
 $MESS["IBLOCK_ELEMENT_ADD"] = "Novo elemento de bloco de informação adicionado";
 $MESS["IBLOCK_ELEMENT_DELETE"] = "Elemento de bloco de informações excluído";
 $MESS["IBLOCK_ELEMENT_EDIT"] = "Elemento de bloco de informações alterado";
+$MESS["IBLOCK_ERR_IBLOCK_IS_ABSENT"] = "O bloco de informações não foi encontrado.";
 $MESS["IBLOCK_FIELD_ACTIVE"] = "Ativo";
 $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_FROM"] = "Início de Atividade";
 $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_TO"] = "Término da Atividade";
@@ -53,4 +53,3 @@ $MESS["IBLOCK_SECTION_DELETE"] = "Seção do bloco de informações excluída";
 $MESS["IBLOCK_SECTION_EDIT"] = "Seção do bloco de informações alterada";
 $MESS["IBLOCK_SITE_LINKS_EXISTS"] = "Alguns blocos de informação ligados a este site foram encontrados: #ID_LIST#.";
 $MESS["IBLOCK_TABLE_CREATION_ERROR"] = "Erro ao criar a tabela para armazenar valores de propriedade do bloco de informação.";
-?>

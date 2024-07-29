@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Propiedades de imágenes adicionales para el producto";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Agregar al Carrito";
 $MESS["ADD_TO_BASKET_ACTION_BUY"] = "Compra ahora";
@@ -7,7 +7,6 @@ $MESS["CP_BCS_TPL_ADD_TO_BASKET_ACTION"] = "Mostrar el botón \"Agregar al carri
 $MESS["CP_BCS_TPL_BESTSELLERS"] = "Más vendidos";
 $MESS["CP_BCS_TPL_BRAND_PROPERTY"] = "Propiedad de la marca";
 $MESS["CP_BCS_TPL_COMPARE_NAME"] = "Nombre único para el cuadro de comparación";
-$MESS["CP_BCS_TPL_CUSTOM_FILTER"] = "Filtro de producto";
 $MESS["CP_BCS_TPL_DATA_LAYER_NAME"] = "Nombre del contenedor de datos";
 $MESS["CP_BCS_TPL_DISCOUNT_PERCENT_POSITION"] = "Posición de porcentaje de descuento";
 $MESS["CP_BCS_TPL_DML_EXT"] = "extendido";
@@ -35,6 +34,8 @@ $MESS["CP_BCS_TPL_MESS_BTN_SUBSCRIBE"] = "Texto del botón \"Notificar cuando vu
 $MESS["CP_BCS_TPL_MESS_BTN_SUBSCRIBE_DEFAULT"] = "Notificar cuando vuelva a estar en stock";
 $MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE"] = "Mensaje de elementos no disponible";
 $MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Elementos no disponibles";
+$MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Mensaje de servicio no disponible";
+$MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "No disponible";
 $MESS["CP_BCS_TPL_MESS_RELATIVE_QUANTITY_FEW"] = "Texto para valores inferiores a los calculados";
 $MESS["CP_BCS_TPL_MESS_RELATIVE_QUANTITY_FEW_DEFAULT"] = "sólo quedan unos pocos";
 $MESS["CP_BCS_TPL_MESS_RELATIVE_QUANTITY_MANY"] = "Texto para valores mayores que el calculado";
@@ -62,7 +63,6 @@ $MESS["CP_BCS_TPL_PROP_EMPTY"] = "no seleccionado";
 $MESS["CP_BCS_TPL_RAND"] = "alguna recomendacion";
 $MESS["CP_BCS_TPL_RELATIVE_QUANTITY_FACTOR"] = "Reemplazar el valor de la acción si excede";
 $MESS["CP_BCS_TPL_SETTINGS_DELETE"] = "Eliminar";
-$MESS["CP_BCS_TPL_SETTINGS_INVALID_CONDITION"] = "La condición es incorrecta";
 $MESS["CP_BCS_TPL_SETTINGS_QUANTITY"] = "Opción";
 $MESS["CP_BCS_TPL_SETTINGS_QUANTITY_BIG_DATA"] = "Productos BigData por página";
 $MESS["CP_BCS_TPL_SETTINGS_VARIANT"] = "Opción";
@@ -107,4 +107,3 @@ $MESS["SHOW_DISCOUNT_PERCENT_TIP"] = "Si el descuento está activo, muestra el v
 $MESS["SHOW_OLD_PRICE_TIP"] = "Si el descuento está activo, muestra el precio anterior";
 $MESS["TEMPLATE_THEME_TIP"] = "Define los colores para representar el texto y los gráficos del sitio web. El tema azul es la opción predeterminada.";
 $MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Esto requiere que se configuren las opciones de comercio electrónico mejorado de Google Analytics";
-?>

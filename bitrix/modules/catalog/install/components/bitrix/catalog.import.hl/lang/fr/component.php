@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CC_BCIH_DEACTIVATE"] = "Désactiver";
 $MESS["CC_BCIH_DELETE"] = "supprimer";
 $MESS["CC_BCIH_ELEMENT_PROGRESS"] = "Nombre d'éléments importés: #COUNT#.";
@@ -30,7 +30,7 @@ $MESS["CC_BCIH_XML_FIELD_TYPE"] = "Type de valeurs";
 $MESS["CC_BCIH_XML_FIELD_TYPE_BOOL"] = "Booléen";
 $MESS["CC_BCIH_XML_FIELD_TYPE_DATE"] = "Date";
 $MESS["CC_BCIH_XML_FIELD_TYPE_FLOAT"] = "Chiffre";
-$MESS["CC_BCIH_XML_FIELD_TYPE_STRING"] = "Ligne";
+$MESS["CC_BCIH_XML_FIELD_TYPE_STRING"] = "Chaîne";
 $MESS["CC_BCIH_XML_FIELD_VALUE"] = "Valeur de la Référence";
 $MESS["CC_BCIH_XML_FIELD_VALUES"] = "ValeursdesRéférences";
 $MESS["CC_BCIH_XML_ID"] = "ID";
@@ -45,4 +45,3 @@ $MESS["CC_BCIH_XML_VERSION"] = "Numéro Version";
 $MESS["CC_BCIH_ZIP_DONE"] = "L'extraction d'archive est terminée.";
 $MESS["CC_BCIH_ZIP_ERROR"] = "Erreur de désarchivation.";
 $MESS["CC_BCIH_ZIP_PROGRESS"] = "La décompression de l'archive est en exécution.";
-?>

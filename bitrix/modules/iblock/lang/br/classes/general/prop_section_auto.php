@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BT_UT_AUTOCOMPLETE_SYM_GRID"] = "#";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_OTHER"] = "Outros";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_SPACE"] = "Espaço";
@@ -14,6 +14,9 @@ $MESS["BT_UT_SAUTOCOMPLETE_MESS_NO_SEARCH_RESULT_TEXT"] = "Sem resultados";
 $MESS["BT_UT_SAUTOCOMPLETE_MESS_SEARCH_ELEMENT"] = "...";
 $MESS["BT_UT_SAUTOCOMPLETE_MESS_SEARCH_ELEMENT_DESCR"] = "Selecionar seção no painel de pesquisa";
 $MESS["BT_UT_SAUTOCOMPLETE_MESS_SEARCH_ELEMENT_MULTI_DESCR"] = "Seleciona várias seções no painel de pesquisa";
+$MESS["BT_UT_SAUTOCOMPLETE_SEARCH_CHANGE_QUERY"] = "Tente outra busca.";
+$MESS["BT_UT_SAUTOCOMPLETE_SEARCH_ENTER_QUERY"] = "Digite o texto da pesquisa";
+$MESS["BT_UT_SAUTOCOMPLETE_SEARCH_NOT_FOUND"] = "Sua solicitação de pesquisa não deu resultados";
 $MESS["BT_UT_SAUTOCOMPLETE_SETTING_BAN_SYMBOLS"] = "Substituir caracteres reservados";
 $MESS["BT_UT_SAUTOCOMPLETE_SETTING_COMMENT_MAX_HEIGHT"] = "px";
 $MESS["BT_UT_SAUTOCOMPLETE_SETTING_COMMENT_MAX_WIDTH"] = "px";
@@ -28,4 +31,3 @@ $MESS["BT_UT_SAUTOCOMPLETE_SETTING_TITLE"] = "Configurações de campos de preen
 $MESS["BT_UT_SAUTOCOMPLETE_SETTING_VIEW"] = "Controles de UI";
 $MESS["BT_UT_SAUTOCOMPLETE_VIEW_AUTO"] = "Caixa de texto de preenchimento automático";
 $MESS["BT_UT_SAUTOCOMPLETE_VIEW_ELEMENT"] = "Caixa de texto de preenchimento automático e janela de busca";
-?>

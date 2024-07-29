@@ -1,8 +1,11 @@
-<?
+<?php
 $MESS["PRODUCT_ENTITY_AVAILABLE_FIELD"] = "Disponible à l'achat";
 $MESS["PRODUCT_ENTITY_BARCODE_MULTI_FIELD"] = "Code barre unique pour chaque article";
 $MESS["PRODUCT_ENTITY_BUNDLE_FIELD"] = "En paquet";
-$MESS["PRODUCT_ENTITY_CAN_BUY_ZERO_FIELD"] = "Rendre les articles épuisés disponible à l'achat";
+$MESS["PRODUCT_ENTITY_CAN_BUY_ZERO_FIELD"] = "Rendre disponibles à l'achat les articles épuisés";
+$MESS["PRODUCT_ENTITY_ENTITY_NAME_ANY_PRODUCT"] = "produit";
+$MESS["PRODUCT_ENTITY_ENTITY_NAME_ANY_RESTLESS"] = "produit incorrect";
+$MESS["PRODUCT_ENTITY_ENTITY_NAME_ANY_SERVICE"] = "service";
 $MESS["PRODUCT_ENTITY_HEIGHT_FIELD"] = "Hauteur";
 $MESS["PRODUCT_ENTITY_ID_FIELD"] = "ID";
 $MESS["PRODUCT_ENTITY_LENGTH_FIELD"] = "Longueur";
@@ -23,21 +26,23 @@ $MESS["PRODUCT_ENTITY_PURCHASING_PRICE_FIELD"] = "Prix d'achat";
 $MESS["PRODUCT_ENTITY_QUANTITY_FIELD"] = "Quantité en stock";
 $MESS["PRODUCT_ENTITY_QUANTITY_RESERVED_FIELD"] = "Quantité réservée";
 $MESS["PRODUCT_ENTITY_QUANTITY_TRACE_FIELD"] = "Mode de suivi du stock";
+$MESS["PRODUCT_ENTITY_QUANTITY_TRACE_FIELD_MSGVER_1"] = "Contrôle des stocks";
 $MESS["PRODUCT_ENTITY_RECUR_SCHEME_LENGTH_FIELD"] = "Fréquence du paiement récurrent";
 $MESS["PRODUCT_ENTITY_RECUR_SCHEME_TYPE_FIELD"] = "Unité de temps du paiement récurrent";
 $MESS["PRODUCT_ENTITY_SUBSCRIBE_FIELD"] = "Permettre de s'abonner aux produits";
 $MESS["PRODUCT_ENTITY_TIMESTAMP_X_FIELD"] = "Date de modification";
 $MESS["PRODUCT_ENTITY_TMP_ID_FIELD"] = "ID de produit temporaire";
 $MESS["PRODUCT_ENTITY_TRIAL_PRICE_ID_FIELD"] = "Produit pour paiement d'essai";
+$MESS["PRODUCT_ENTITY_TYPE_EMPTY_SKU"] = "UGS invalide";
 $MESS["PRODUCT_ENTITY_TYPE_FIELD"] = "Type de produit";
 $MESS["PRODUCT_ENTITY_TYPE_FREE_OFFER"] = "offre générique";
 $MESS["PRODUCT_ENTITY_TYPE_OFFER"] = "offre de produit";
 $MESS["PRODUCT_ENTITY_TYPE_PRODUCT"] = "simple";
-$MESS["PRODUCT_ENTITY_TYPE_SET"] = "lot";
+$MESS["PRODUCT_ENTITY_TYPE_SERVICE"] = "service";
+$MESS["PRODUCT_ENTITY_TYPE_SET_MSGVER_1"] = "lot";
 $MESS["PRODUCT_ENTITY_TYPE_SKU"] = "UGS";
 $MESS["PRODUCT_ENTITY_VAT_ID_FIELD"] = "ID de la taxe";
 $MESS["PRODUCT_ENTITY_VAT_INCLUDED_FIELD"] = "Prix TTC";
 $MESS["PRODUCT_ENTITY_WEIGHT_FIELD"] = "Poids";
 $MESS["PRODUCT_ENTITY_WIDTH_FIELD"] = "Largeur";
 $MESS["PRODUCT_ENTITY_WITHOUT_ORDER_FIELD"] = "Renouveler automatiquement l'abonnement";
-?>

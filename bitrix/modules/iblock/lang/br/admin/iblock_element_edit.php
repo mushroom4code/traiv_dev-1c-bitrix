@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBEL_BIZPROC_DATE"] = "Data status atual:";
 $MESS["IBEL_BIZPROC_DESC"] = "Descrição de Processos de Negócios:";
 $MESS["IBEL_BIZPROC_NA"] = "Nenhum processo de negócio em execução.";
@@ -42,6 +42,8 @@ $MESS["IBEL_E_TAB14_TITLE"] = "Editar dados SEO";
 $MESS["IBEL_E_TAB_BIZPROC"] = "Processos de Negócios";
 $MESS["IBEL_E_TAB_DET"] = "Detalhes";
 $MESS["IBEL_E_TAB_DET_TITLE"] = "Informações para a visualização detalhada";
+$MESS["IBEL_E_TAB_ELEMENT"] = "Parâmetros";
+$MESS["IBEL_E_TAB_ELEMENT_TITLE"] = "Parâmetros gerais";
 $MESS["IBEL_E_TAB_PREV"] = "Visualização";
 $MESS["IBEL_E_TAB_PREV_TITLE"] = "Informações para visualização";
 $MESS["IBEL_E_TAB_RIGHTS"] = "Acesso";
@@ -63,7 +65,9 @@ $MESS["IBLOCK_ELEMENT_EDIT_ELEMENTS"] = "Elementos";
 $MESS["IBLOCK_ELEMENT_EDIT_LINKED"] = "Elementos ligados:";
 $MESS["IBLOCK_ELEMENT_EDIT_PROP_ADD"] = "Adicionar";
 $MESS["IBLOCK_ELEMENT_EDIT_TAGS_TIP"] = "(Digite palavras ou frases separadas por vírgula)";
-$MESS["IBLOCK_ELEMENT_EDIT_VIEW"] = "Visualizar";
+$MESS["IBLOCK_ELEMENT_FORM_TITLE_EDIT"] = "#IBLOCK_NAME#: #ELEMENT_TYPE#: #NAME# - Editar";
+$MESS["IBLOCK_ELEMENT_FORM_TITLE_NEW"] = "#IBLOCK_NAME#: #ELEMENT_TYPE#: Adicionar";
+$MESS["IBLOCK_ELEMENT_FORM_TITLE_VIEW"] = "#IBLOCK_NAME#: #ELEMENT_TYPE#: #NAME# - Visualizar";
 $MESS["IBLOCK_ELEMENT_PROP_VALUE"] = "Os valores de propriedade:";
 $MESS["IBLOCK_EL_CANC"] = "Cancelar";
 $MESS["IBLOCK_EL_OFFERS_ACCESS_DENIED"] = "Você não tem permissão para editar o SKU.";
@@ -91,10 +95,8 @@ $MESS["IBLOCK_FIELD_SORT"] = "Classificação";
 $MESS["IBLOCK_FIELD_STATUS"] = "Status";
 $MESS["IBLOCK_FIELD_TAGS"] = "Marcadores";
 $MESS["IBLOCK_LAST_UPDATE"] = "Última atualização:";
-$MESS["IBLOCK_NEW_TITLE"] = "Novo elemento";
 $MESS["IBLOCK_SECTION"] = "Link (múltiplo):";
 $MESS["IBLOCK_TCATALOG"] = "Catálogo Comercial";
 $MESS["IBLOCK_UPPER_LEVEL"] = "Nível superior";
 $MESS["IBLOCK_WRONG_SESSION"] = "Sua sessão expirou. Por favor, salve o documento novamente.";
 $MESS["IBLOCK_WRONG_WF_STATUS"] = "Status inválido";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTIVE"] = "Actif(ve) : ";
 $MESS["ADD"] = "Ajouter un nouvel utilisateur";
 $MESS["AUTH_NONSECURE_NOTE"] = "Le mot de passe sera envoyé déclassifié. Activez JavaScript dans le navigateur pour chiffrer le mot de passe avant son envoi.";
@@ -10,7 +10,7 @@ $MESS["INFO_FOR_USER_LANG"] = "Modèle de site";
 $MESS["LAST_LOGIN"] = "Dernière autorisation : ";
 $MESS["LAST_NAME"] = "Nom : ";
 $MESS["LAST_UPDATE"] = "A été modifié(e) : ";
-$MESS["LOGIN"] = "Connexion (min 3 caractères.) : ";
+$MESS["LOGIN"] = "Identifiant (min 3 caractères.) : ";
 $MESS["MAIN_DEFAULT_SITE"] = "Site par défaut pour les notifications : ";
 $MESS["NAME"] = "Dénomination : ";
 $MESS["NEW_PASSWORD"] = "Nouveau mot de passe (min 6 caractères.) : ";
@@ -47,7 +47,7 @@ $MESS["USER_POSITION"] = "Fonction : ";
 $MESS["USER_POST_ADDRESS"] = "Adresse postale";
 $MESS["USER_PROFESSION"] = "Métier : ";
 $MESS["USER_SHOW_HIDE"] = "Afficher / Masquer";
-$MESS["USER_STATE"] = "Région / kraï : ";
+$MESS["USER_STATE"] = "Région : ";
 $MESS["USER_STREET"] = "Adresse : ";
 $MESS["USER_WORK_INFO"] = "Information sur le travail";
 $MESS["USER_WORK_PROFILE"] = "Profil : ";
@@ -80,4 +80,3 @@ $MESS["main_profile_time_zones_auto_no"] = "Non, choisir sur la liste";
 $MESS["main_profile_time_zones_auto_yes"] = "Oui, définir par le navigateur";
 $MESS["main_profile_time_zones_zones"] = "Fuseau horaire : ";
 $MESS["main_profile_title"] = "Formule d'appel : ";
-?>

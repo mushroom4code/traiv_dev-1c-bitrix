@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_LOCAT"] = "Erreur d'ajout emplacement.";
 $MESS["ERROR_CITY_NAME"] = "Ville: le nom complet de la ville n'est pas indiqué.";
 $MESS["ERROR_CITY_NAME_LANG"] = "Ville: nom complet de la ville en langue non spécifié";
@@ -19,7 +19,7 @@ $MESS["SALE_CHANGE_CNTR"] = "Changer le pays actuel";
 $MESS["SALE_CITY"] = "Ville";
 $MESS["SALE_DEFAULT_LOC"] = "Ajouter au choix rapide";
 $MESS["SALE_EDIT_RECORD"] = "Modifier l'emplacement #ID#";
-$MESS["SALE_FULL_NAME"] = "Accès à la lecture et écriture sans restrictions";
+$MESS["SALE_FULL_NAME"] = "Nom du fournisseur";
 $MESS["SALE_NEW"] = "nouveau";
 $MESS["SALE_NEW_CNTR"] = "Paramétrer le nouveau pays";
 $MESS["SALE_NEW_RECORD"] = "Nouvel emplacement";
@@ -42,4 +42,3 @@ $MESS["SLN_TAB_LOCATION_ZIP"] = "Index";
 $MESS["SLN_TAB_LOCATION_ZIP_DESCR"] = "Codes postaux de lieux";
 $MESS["WITHOUT_COUNTRY"] = "< Sans pays >";
 $MESS["WITHOUT_REGION"] = "<Sans région>";
-?>

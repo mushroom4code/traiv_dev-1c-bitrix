@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_CAT_LAST"] = "Artículos recientes";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_EMPTY"] = "No hay destinatarios especificados";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_HINT"] = "Use el modo de prueba para asegurarse de que sus mensajes se muestren correctamente. Seleccione destinatarios para enviar correos electrónicos de prueba a.";
@@ -11,4 +11,5 @@ $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_SUCCESS"] = "¡Éxito! Verifica el correo
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_SUCCESS_PHONE"] = "¡Mensaje enviado con éxito! Por favor revise su teléfono.";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_TITLE_MAIL"] = "Direcciones de email";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_TITLE_PHONE"] = "Números de teléfono";
-?>
+$MESS["SENDER_MESSAGE_TESTER_TMPL_VALIDATION_TEST_SEND"] = "Enviar consentimiento para recibir el boletín";
+$MESS["SENDER_MESSAGE_TESTER_TMPL_VALIDATION_TEST_SUCCESS"] = "¡El consentimiento para el boletín se envió con éxito! Revise su correo electrónico.";

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_REPORT"] = "Configurações de relatórios";
 $MESS["SPS_JCITY"] = "cidade";
 $MESS["SPS_JCOUNTRY"] = "país";
@@ -50,7 +50,7 @@ $MESS["SRE_BIK"] = "BIC";
 $MESS["SRE_BUHG"] = "Nome Completo do Diretor Financeiro";
 $MESS["SRE_BUYER_ADDRESS"] = "Endereço";
 $MESS["SRE_BUYER_CITY"] = "Cidade";
-$MESS["SRE_BUYER_COMPANY_NAME"] = "Nome da empresa";
+$MESS["SRE_BUYER_COMPANY_NAME"] = "Nome da Empresa";
 $MESS["SRE_BUYER_CONTACT"] = "Pessoa para contato";
 $MESS["SRE_BUYER_COUNTRY"] = "País";
 $MESS["SRE_BUYER_FIRST_NAME"] = "Primeiro nome";
@@ -59,7 +59,7 @@ $MESS["SRE_BUYER_LAST_NAME"] = "Sobrenome";
 $MESS["SRE_BUYER_PHONE"] = "Telefone para contato";
 $MESS["SRE_BUYER_SECOND_NAME"] = "Nome do meio";
 $MESS["SRE_CITY"] = "Cidade";
-$MESS["SRE_COMPANY_NAME"] = "Nome da empresa";
+$MESS["SRE_COMPANY_NAME"] = "Nome da Empresa";
 $MESS["SRE_COUNTRY"] = "País";
 $MESS["SRE_DIRECTOR"] = "Nome Completo do Diretor Executivo";
 $MESS["SRE_INDEX"] = "CEP";
@@ -80,4 +80,3 @@ $MESS["SRE_RSCH"] = "Número da conta";
 $MESS["SRE_RSCH_BANK"] = "Banco";
 $MESS["SRE_RSCH_CITY"] = "Cidade do Banco";
 $MESS["SRE_TAB_NAME"] = "Parâmetros";
-?>

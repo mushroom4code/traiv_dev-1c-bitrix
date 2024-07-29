@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION"] = "Actions";
 $MESS["ACTIVE"] = "Actif(ve)";
 $MESS["ADD_LANG"] = "Ajouter une langue &gt;&gt;";
@@ -22,4 +22,4 @@ $MESS["SAVE"] = "Enregistrer les modifications";
 $MESS["SAVE_ERROR"] = "Erreur langue d'économie";
 $MESS["SORT"] = "Trier";
 $MESS["TITLE"] = "Langues";
-?>
+$MESS["lang_admin_code"] = "ID";

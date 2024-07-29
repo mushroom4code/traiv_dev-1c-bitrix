@@ -1,9 +1,9 @@
-<?
+<?php
 $MESS["EXPORT_ERROR"] = "Error al exportar";
 $MESS["MAIN_ADD_TEMPL"] = "Agregar plantilla";
 $MESS["MAIN_ADD_TEMPL_THEME"] = "Agregar temas ";
 $MESS["MAIN_ADD_TEMPL_TITLE"] = "Agregar una nueva plantilla";
-$MESS["MAIN_ADMIN_LIST_EXPORT"] = "descargar";
+$MESS["MAIN_ADMIN_LIST_EXPORT"] = "Descargar";
 $MESS["MAIN_ADMIN_MENU_COPY"] = "Copiar";
 $MESS["MAIN_ADMIN_MENU_EDIT"] = "Editar";
 $MESS["MAIN_ADMIN_MENU_VIEW"] = "Ver";
@@ -28,4 +28,3 @@ $MESS["MAIN_T_LOAD"] = "Cargar &gt;&gt;";
 $MESS["PAGES"] = "Plantillas";
 $MESS["site_templ_edit_screen"] = "Captura de pantalla";
 $MESS["site_templ_edit_sort"] = "Orden de clasificación";
-?>

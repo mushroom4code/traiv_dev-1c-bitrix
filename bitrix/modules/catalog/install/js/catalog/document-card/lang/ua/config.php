@@ -1,5 +1,11 @@
 <?php
 $MESS["CANCEL_CONDUCT_BUTTON"] = "Скасувати проведення";
+$MESS["CANCEL_CONDUCT_CANCELLATION_POPUP_HINT"] = "У разі скасування скоригуються лише поточні залишки й собівартість. #HELP_LINK#";
+$MESS["CANCEL_CONDUCT_CANCELLATION_POPUP_LINK"] = "Докладніше";
+$MESS["CANCEL_CONDUCT_CANCELLATION_POPUP_NO"] = "Ні";
+$MESS["CANCEL_CONDUCT_CANCELLATION_POPUP_QUESTION"] = "Справді скасувати проведення цього документа?";
+$MESS["CANCEL_CONDUCT_CANCELLATION_POPUP_TITLE"] = "Скасування проведення документа";
+$MESS["CANCEL_CONDUCT_CANCELLATION_POPUP_YES"] = "Так, скасувати";
 $MESS["CONDUCT_BUTTON"] = "Провести документ";
 $MESS["DOCUMENT_ADD_CONTRACTOR"] = "Створити постачальника:";
 $MESS["DOCUMENT_ADD_CONTRACTOR_ERROR"] = "При створенні постачальника виникла помилка";
@@ -13,6 +19,7 @@ $MESS["DOCUMENT_LINK_COPIED"] = "Посилання на документ ско
 $MESS["DOCUMENT_PRODUCTS_ADD_PRODUCT"] = "додати товари";
 $MESS["DOCUMENT_PRODUCTS_NOT_SHOWN"] = "Ще #COUNT#";
 $MESS["DOCUMENT_PRODUCTS_TOTAL"] = "Разом";
+$MESS["FEEDBACK_BUTTON_TITLE"] = "Зворотний зв'язок";
 $MESS["SAVE_AND_CONDUCT_BUTTON"] = "Зберегти та провести";
 $MESS["SLIDER_LABEL_A"] = "Прибуття";
 $MESS["SLIDER_LABEL_D"] = "Списання";

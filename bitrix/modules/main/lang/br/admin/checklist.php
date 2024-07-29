@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CL_ADD_COMMENT"] = "Adicionar comentário...";
 $MESS["CL_AUTOTEST_DONE"] = "Autoteste foi concluído.";
 $MESS["CL_AUTOTEST_RESULT"] = "Resultados de Autoteste";
@@ -27,15 +27,15 @@ $MESS["CL_F_STATUS"] = "Falhou";
 $MESS["CL_HIDE_COMMENTS"] = "Ocultar comentários";
 $MESS["CL_HIDE_REPORT"] = "Ocultar projeto";
 $MESS["CL_MANUAL"] = "<p>Antes de lançar o projeto, você tem de passar vários testes: qualidade de desenvolvimento, parâmetros de sistema e especificação de conformidade do Framework Bitrix.</p><p>Existem testes <b>obrigatórios</b> e <b>opcionais</b>. Para ter seu projeto lançado, é suficiente passar somente os testes obrigatórios.</p><p>Passar nos testes opcionais dará mais crédito ao seu projeto. Alguns dos testes são automatizados.</p>";
-$MESS["CL_MANUAL2"] = "<p>A averiguação de qualidade do projeto é um processo de duas estapas: o Monitor de Qualidade e a Vistoria do Proprietário do Projeto. O primeiro estágio passou com sucesso.</p><p><b>O segundo de estágio de submissão do projeto para Bitrix Inc.: a Vistoria do Proprietário do Projeto.</b><br> Por favor especifique informações de contato do proprietário do projeto.</p><p>Nós iremos contactá-los para fazê-los dez pequenas perguntas sobre padrões de gestão de qualidade, qualidade geral do projeto e usabilidade do sftware Bitrix.</p><p><b>Por favor os deixem avisados de que os contactaremos!</b></p>";
-$MESS["CL_MANUAL_MINI"] = "<p>Para apresentar o projeto para Bitrix Inc., você tem que passar os testes restantes obrigatórios. Os status destes testes podem ser \"Falhou\" (teste automatizado falhou), ou \"Pendente\" (estes precisam ser verificados manualmente). Para passar testes \"falhou\" ou \"pendente\", leia as recomendações do teste e investigue os detalhes do erro. </p>
+$MESS["CL_MANUAL2"] = "<p>A averiguação de qualidade do projeto é um processo de duas estapas: o Monitor de Qualidade e a Vistoria do Proprietário do Projeto. O primeiro estágio passou com sucesso.</p><p><b>O segundo de estágio de submissão do projeto para Bitrix24: a Vistoria do Proprietário do Projeto.</b><br> Por favor especifique informações de contato do proprietário do projeto.</p><p>Nós iremos contactá-los para fazê-los dez pequenas perguntas sobre padrões de gestão de qualidade, qualidade geral do projeto e usabilidade do sftware Bitrix.</p><p><b>Por favor os deixem avisados de que os contactaremos!</b></p>";
+$MESS["CL_MANUAL_MINI"] = "<p>Para apresentar o projeto para Bitrix24 você tem que passar os testes restantes obrigatórios. Os status destes testes podem ser \"Falhou\" (teste automatizado falhou), ou \"Pendente\" (estes precisam ser verificados manualmente). Para passar testes \"falhou\" ou \"pendente\", leia as recomendações do teste e investigue os detalhes do erro. </p>
 <p>Neste ponto, você tem duas opções:</p>
 <ol>
 <li>consertar os erros e executar o teste novamente, ou</li>
 <li>se você considerar que o teste passou porque existem fatores afetando o resultado do teste, ocê pode deixar um comentário para ser lido por um dos nossos especialistas e mudar o status do teste para \"passou\".
 </ol>";
 $MESS["CL_MANUAL_MINI_2"] = "Estes resultados são suficientes. Por favor, forneça suas informações de contato para salvar os resultados do teste.";
-$MESS["CL_MANUAL_TEST"] = "<p>A qualidade de implantação do checklist de controle contém recomendações fornecidas pelo Bitrix Inc. nas quais um desenvolvedor web precisa aderir-se ao realizar projetos de integração e implantação web.</p><p>Estas recomendações, que abrangem todas as etapas de desenvolvimento, de desenho do modelo de site a testes de estresse e auditoria de segurança, são baseados nas melhores práticas e técnicas desenvolvidas por Bitrix Inc. para altas cargas de soluções web. Respeite as recomendações de checklist para alcançar a melhor performance, segurança e controle do seu projeto web e reduzir riscos tecnológicos e custo de manutenção.</p><p>As recomendações estão incorporadas em testes que consistem dois grupos: obrigatórios e opcionais. Os testes obrigatórios são qualitativamente críticos e precisam passar. Os testes opcionais podem e irão aprimorar a qualidade final do projeto. É recomendado que seu projeto também passe estes testes. alguns testes são automáticos.</p><p>O projeto está pronto para lançamento se todo o checklist estiver verde.</p><p>Use a sequência seguinte para preparar um projeto para lançamento.</p><ol><li> O desenvolvedor inicia o teste automático. O sistema executa testes um por um e marca cada teste como passou ou falhou. </li><li> O desenvolvedor verifica cada um dos testes manuais e os marca como \"passou\" ou \"ignorado\". </li><li> O desenvolvedor fornece sua informação pessoal e corporativa para a ramificação apropriada do checklist. </li><li> O desenvolvedor entrega o projeto ao Cliente. Este último se assegura que todos os testes obrigatórios passaram e que nenhum destes testes foram ignorados. </li><li> O desenvolvedor lança o projeto e o adiciona ao arquivo. </li><ol><p>Qualquer grande atualização subsequente deve ser lançado como um projeto separado usando o checklist de controle de qualidade. Isto irá asssegurar a qualidade e robustez do projeto.</p>";
+$MESS["CL_MANUAL_TEST"] = "<p>A qualidade de implantação do checklist de controle contém recomendações fornecidas pelo Bitrix24 nas quais um desenvolvedor web precisa aderir-se ao realizar projetos de integração e implantação web.</p><p>Estas recomendações, que abrangem todas as etapas de desenvolvimento, de desenho do modelo de site a testes de estresse e auditoria de segurança, são baseados nas melhores práticas e técnicas desenvolvidas por Bitrix24 para altas cargas de soluções web. Respeite as recomendações de checklist para alcançar a melhor performance, segurança e controle do seu projeto web e reduzir riscos tecnológicos e custo de manutenção.</p><p>As recomendações estão incorporadas em testes que consistem dois grupos: obrigatórios e opcionais. Os testes obrigatórios são qualitativamente críticos e precisam passar. Os testes opcionais podem e irão aprimorar a qualidade final do projeto. É recomendado que seu projeto também passe estes testes. alguns testes são automáticos.</p><p>O projeto está pronto para lançamento se todo o checklist estiver verde.</p><p>Use a sequência seguinte para preparar um projeto para lançamento.</p><ol><li> O desenvolvedor inicia o teste automático. O sistema executa testes um por um e marca cada teste como passou ou falhou. </li><li> O desenvolvedor verifica cada um dos testes manuais e os marca como \"passou\" ou \"ignorado\". </li><li> O desenvolvedor fornece sua informação pessoal e corporativa para a ramificação apropriada do checklist. </li><li> O desenvolvedor entrega o projeto ao Cliente. Este último se assegura que todos os testes obrigatórios passaram e que nenhum destes testes foram ignorados. </li><li> O desenvolvedor lança o projeto e o adiciona ao arquivo. </li><ol><p>Qualquer grande atualização subsequente deve ser lançado como um projeto separado usando o checklist de controle de qualidade. Isto irá asssegurar a qualidade e robustez do projeto.</p>";
 $MESS["CL_MORE_DETAILS"] = "Relatório detalhado";
 $MESS["CL_MORE_DETAILS_INF"] = "Resultados detalhados do Autoteste";
 $MESS["CL_NEED_TO_STOP"] = "Você deve parar o teste automático antes de mudar o status.";
@@ -64,7 +64,7 @@ $MESS["CL_REPORT_INVITE"] = "Bem-vindo ao Programa de Avaliação da Qualidade. 
 $MESS["CL_REPORT_NOT_FOUND"] = "relatório não foi encontrado.";
 $MESS["CL_REPORT_PHONE"] = "Telefone de contato";
 $MESS["CL_REPORT_PHONE_ADD"] = "Ext.";
-$MESS["CL_REPORT_SENDED"] = "O Relatório foi enviado para Bitrix Inc.";
+$MESS["CL_REPORT_SENDED"] = "O Relatório foi enviado para Bitrix24";
 $MESS["CL_REPORT_TABLE_CHECKED"] = "Passou";
 $MESS["CL_REPORT_TABLE_DETAIL"] = "detalhes";
 $MESS["CL_REPORT_TABLE_FAILED"] = "Falhou";
@@ -78,8 +78,8 @@ $MESS["CL_RESULT_TEST"] = "Resultado";
 $MESS["CL_SAVE_COMMENTS"] = "Salvar comentário";
 $MESS["CL_SAVE_REPORT"] = "Salvar relatório";
 $MESS["CL_SAVE_SEND_REPORT"] = "Participe do Programa de Avaliação da Qualidade";
-$MESS["CL_SAVE_SEND_REPORT_CUT"] = "Enviar a Bitrix Inc.";
-$MESS["CL_SAVE_SEND_REPORT_HINT"] = "Quando você verificar o seu projeto para avaliação da qualidade de Bitrix Inc., o sistema envia apenas os resultados do teste e os contatos do proprietário do projeto. Se você deseja prestar as informações adicionais, por favor especifique nos comentários.";
+$MESS["CL_SAVE_SEND_REPORT_CUT"] = "Enviar a Bitrix24";
+$MESS["CL_SAVE_SEND_REPORT_HINT"] = "Quando você verificar o seu projeto para avaliação da qualidade de Bitrix24, o sistema envia apenas os resultados do teste e os contatos do proprietário do projeto. Se você deseja prestar as informações adicionais, por favor especifique nos comentários.";
 $MESS["CL_SAVE_SUCCESS"] = "Status do teste e comentários salvos.";
 $MESS["CL_SENDING_QC_REPORT"] = "Enviando dados de avaliação de qualidade";
 $MESS["CL_SHOW_COMMENTS"] = "Exibir comentários";
@@ -111,4 +111,3 @@ $MESS["CL_TEST_WAITING"] = "Pendente";
 $MESS["CL_TITLE_CHECKLIST"] = "Controle da Qualidade do Projeto";
 $MESS["CL_VENDOR"] = "Desenvolvedor";
 $MESS["CL_W_STATUS"] = "Pendente";
-?>

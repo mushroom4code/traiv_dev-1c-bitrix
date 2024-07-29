@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AUTH_AUTH"] = "Autorisation";
 $MESS["AUTH_CONFIRM"] = "Confirmation du mot de passe : ";
 $MESS["AUTH_EMAIL"] = "E-mail : ";
@@ -12,6 +12,5 @@ $MESS["AUTH_PASSWORD_REQ"] = "Mot de passe";
 $MESS["AUTH_REGISTER"] = "Enregistrement";
 $MESS["AUTH_REQ"] = "Champs obligatoires";
 $MESS["AUTH_SECURE_NOTE"] = "Avant d'envoyer le formulaire d'autorisation le mot de passe sera chiffré dans le navigateur. Cela permettra d'éviter l'envoi du mot de passe déclassifié.";
-$MESS["CAPTCHA_REGF_PROMT"] = "Types de tables différentes de type standard sont disponibles à partir de MySQL 4.0";
+$MESS["CAPTCHA_REGF_PROMT"] = "Saisissez le texte de l'image";
 $MESS["CAPTCHA_REGF_TITLE"] = "Protection contre les messages automatiques";
-?>

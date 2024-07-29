@@ -1,13 +1,16 @@
-<?
+<?php
 $MESS["CAT_ACT_MENU_VIEW_SECTION"] = "Examiner dans la partie publique";
 $MESS["CAT_DISCOUNT_SAVE"] = "Liste des programmes d'épargne";
 $MESS["CAT_DISCOUNT_SAVE_DESCR"] = "Programmes des remises cumulatives";
 $MESS["CAT_MENU_ALL_OTH"] = "Autres...";
 $MESS["CAT_MENU_ALL_OTH_TITLE"] = "Liste complète de sections";
 $MESS["CAT_MENU_CATALOG_MARKETPLACE_ADD"] = "Installer depuis Marketplace";
+$MESS["CAT_MENU_CATALOG_MARKETPLACE_CATALOG_TOOLS"] = "Installer des outils depuis Marketplace";
 $MESS["CAT_MENU_CATALOG_SETTINGS"] = "Paramètres du répertoire";
-$MESS["CAT_MENU_PRODUCT_LIST"] = "Liste de marchandises";
+$MESS["CAT_MENU_PRODUCT_LIST_EXT"] = "Liste de marchandises";
+$MESS["CAT_MENU_PRODUCT_MIXED_LIST"] = "Produits et sections";
 $MESS["CAT_MENU_PRODUCT_PROPERTIES"] = "Caractéristiques de marchandises";
+$MESS["CAT_MENU_PRODUCT_SECTION_LIST"] = "Sections";
 $MESS["CAT_MENU_ROOT"] = "Catalogue de marchandises";
 $MESS["CAT_MENU_ROOT_MULTI"] = "Catalogues de produits";
 $MESS["CAT_MENU_ROOT_TITLE"] = "Catalogue commercial";
@@ -21,8 +24,8 @@ $MESS["CM_DISCOUNTS3"] = "Réductions sur les produits";
 $MESS["CM_STORE"] = "Entrepôts";
 $MESS["CM_STORE_DOCS"] = "Documents";
 $MESS["CM_SUBSCRIPTION_PRODUCT"] = "Abonnements au produit";
-$MESS["EXTRA"] = "Les marges";
-$MESS["EXTRA_ALT"] = "Types de marges";
+$MESS["EXTRA"] = "Marges";
+$MESS["EXTRA_ALT"] = "Marges";
 $MESS["GROUP"] = "Types des prix";
 $MESS["GROUP_ALT"] = "Types des prix";
 $MESS["MEASURE"] = "Liste des unités de mesure";
@@ -39,4 +42,3 @@ $MESS["SETUP_UNLOAD_DATA"] = "Exporter les données";
 $MESS["SETUP_UNLOAD_DATA_ALT"] = "Réglage d'exportation des données à partir du répertoire";
 $MESS["VAT"] = "Taux TVA";
 $MESS["VAT_ALT"] = "Gérer des taux TVA";
-?>

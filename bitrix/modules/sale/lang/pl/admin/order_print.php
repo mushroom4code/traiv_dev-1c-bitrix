@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_CANCEL_ORDER"] = "Błąd anulowania zamówienia.";
 $MESS["ERROR_CHANGE_COMMENT"] = "Błąd zapisywania komentarza.";
 $MESS["ERROR_CHANGE_STATUS"] = "Błąd zmiany statusu zamówienia.";
@@ -23,7 +23,7 @@ $MESS["P_ORDER_DATE_ALLOW_DELIVERY"] = "Dozwolone";
 $MESS["P_ORDER_DATE_CANCELED"] = "Anuluowane";
 $MESS["P_ORDER_DATE_PAYED"] = "Zapłacone";
 $MESS["P_ORDER_DELIVERY"] = "Usługa dostawy";
-$MESS["P_ORDER_ID"] = "Zamów";
+$MESS["P_ORDER_ID"] = "Zamówienie";
 $MESS["P_ORDER_LANG"] = "Strona tego zamówienia";
 $MESS["P_ORDER_PAYED"] = "Zapłacone";
 $MESS["P_ORDER_PAYMENT"] = "Płatność";
@@ -145,4 +145,3 @@ $MESS["SOP_ERROR_REPORT"] = "Proszę wybrać szablon dokumentu do druku";
 $MESS["SOP_TO_DETAIL"] = "Szczegóły zamówienia";
 $MESS["SOP_TO_EDIT"] = "Edytuj zamówienie";
 $MESS["SOP_TO_LIST"] = "Zamówienia";
-?>

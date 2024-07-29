@@ -1,5 +1,5 @@
-<?
-$MESS["VOTE_ACTIVE"] = "actif";
+<?php
+$MESS["VOTE_ACTIVE"] = "Activité";
 $MESS["VOTE_ACTIVE_TITLE"] = "Activité:";
 $MESS["VOTE_AUTHOR"] = "Auteur : ";
 $MESS["VOTE_CHANNEL"] = "Groupe : ";
@@ -42,4 +42,3 @@ $MESS["VOTE_TITLE"] = "Dénomination : ";
 $MESS["VOTE_UNIQUE_PARAMS"] = "Unicité visiteur";
 $MESS["VOTE_URL"] = "URL : ";
 $MESS["VOTE_VOTE_LIST"] = "Liste des sondages";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SPTEN_CRM_TITLE"] = "CRM integrada";
 $MESS["SPTEN_SCRM_CLEAR_STAT"] = "restablecer las estadísticas";
 $MESS["SPTEN_SCRM_CRM_BTN"] = "Configurar los parámetros e importar datos";
@@ -36,7 +36,7 @@ $MESS["SPTEN_SCRM_SHOW_SUBTITLE_ADD"] = "Agregar integración";
 $MESS["SPTEN_SCRM_SHOW_SUBTITLE_ADD_HINT"] = "Para integrar su tienda online con múltiples CRMs, simplemente haga clic en el botón \"configurar integración de CRM\".";
 $MESS["SPTEN_SCRM_SHOW_SUBTITLE_LIST"] = "Integraciones";
 $MESS["SPTEN_SCRM_SHOW_SUBTITLE_LIST_HINT"] = "Su tienda se puede integrar con varias instancias de Bitrix24 o Bitrix Intranet CRM. <br /> Esta página muestra todas las integraciones existentes en la actualidad y las estadísticas.";
-$MESS["SPTEN_SCRM_SHOW_TEXT"] = "#ORDERS# ofertas,#CONTACTS# contactos, #COMPANIES# compañías";
+$MESS["SPTEN_SCRM_SHOW_TEXT"] = "#ORDERS# negociaciones, #CONTACTS# contactos, #COMPANIES# compañías";
 $MESS["SPTEN_SCRM_SHOW_TITLE"] = "Integración de CRM de Bitrix";
 $MESS["SPTEN_SCRM_SHOW_TITLE1"] = "Informacion";
 $MESS["SPTEN_SCRM_SHOW_TOTSTAT"] = "Total transferido";
@@ -51,4 +51,3 @@ $MESS["SPTEN_TAB_1"] = "CRM integrada";
 $MESS["SPTEN_TAB_1_DESCR"] = "CRM integrada";
 $MESS["SPTEN_TEXT"] = "Sin integración.";
 $MESS["SPTEN_TEXT1"] = "Integración OK, %s";
-?>

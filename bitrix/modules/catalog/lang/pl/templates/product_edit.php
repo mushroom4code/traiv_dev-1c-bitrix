@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASE_CURRENCY"] = "Waluta ceny podstawowej";
 $MESS["BASE_PRICE"] = "Cena podstawowa";
 $MESS["BASE_QUANTITY_RESERVED"] = "Przedmioty zarezerwowane";
@@ -19,6 +19,7 @@ $MESS["C2IT_BOUND_RECOUNT"] = "Zapisywanie produktu może wiązać się z ponown
 $MESS["C2IT_BOUND_WRONG"] = "Granice ilościowe są nieprawidłowe:";
 $MESS["C2IT_COST_CURRENCY"] = "Cena zakupu waluty";
 $MESS["C2IT_COST_PRICE"] = "Cena zakupu";
+$MESS["C2IT_COST_PRICE_EXT"] = "Cena zakupu:";
 $MESS["C2IT_CURRENCY"] = "Waluta";
 $MESS["C2IT_DEFAULT_NEGATIVE"] = "domyślne";
 $MESS["C2IT_DISCOUNTS"] = "Upusty";
@@ -69,6 +70,8 @@ $MESS["C2IT_PRICES_USEEXT"] = "Użyj rozszerzonego trybu edycji cen";
 $MESS["C2IT_PRICE_TYPE"] = "Rodzaj ceny";
 $MESS["C2IT_PROD_AMOUNT"] = "Ilość";
 $MESS["C2IT_REGULAR"] = "Okresowa";
+$MESS["C2IT_SERVICE_COST_PRICE"] = "Koszt usługi:";
+$MESS["C2IT_SERVICE_SIMPLE_AVAILABLE"] = "Dostępność:";
 $MESS["C2IT_SINGLE"] = "Jednorazowo";
 $MESS["C2IT_SITE"] = "Strona";
 $MESS["C2IT_STORE"] = "Magazyny";
@@ -81,6 +84,7 @@ $MESS["C2IT_SUBSCR_PARAMS"] = "Parametry subskrypcji";
 $MESS["C2IT_TO"] = "do";
 $MESS["C2IT_TRIAL"] = "Testowy";
 $MESS["C2IT_TRIAL_FOR"] = "Test dla (tylko dla testów):";
+$MESS["C2IT_UF_SYSTEM_FIELDS"] = "Preferencje systemu";
 $MESS["C2IT_USERS_GROUP"] = "Grupa użytkownika";
 $MESS["C2IT_VKL"] = "Zaw.";
 $MESS["C2IT_WITHOUT_ORDER"] = "Odnów bez zamawiania:";
@@ -104,4 +108,3 @@ $MESS["SET_NOTICE_QUANTITY"] = "Dostępna ilość pakietów pochodzi z bieżące
 $MESS["SET_NOTICE_WEIGHT"] = "Waga pakietu jest obliczana automatycznie przy uzyciu wagi wszystkich produktów znajdujących się w pakiecie.";
 $MESS["VAL_BASE"] = "< podstawa >";
 $MESS["VAL_NOT_SET"] = "< nie ustawiono >";
-?>

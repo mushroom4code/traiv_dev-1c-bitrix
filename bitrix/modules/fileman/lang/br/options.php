@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FILEMAN_ARCHIVE_STEP_TIME"] = "Duração (segundos) do passo de arquivamento";
 $MESS["FILEMAN_ARCHIVE_TITLE"] = "Parâmetros para arquivamento";
 $MESS["FILEMAN_CUSTOM_SPELL_WARNING"] = "Por favor, note que a utilização destes dicionários para a verificação ortográfica é de longe o mais lento consumindo mais recursos e menos detalhado do que usando o motor Pspell.";
@@ -68,7 +68,6 @@ $MESS["FILEMAN_OPTION_LANG_TITLE"] = "Linguagem";
 $MESS["FILEMAN_OPTION_LEFT_MENU_NAME"] = "Menu à esquerda";
 $MESS["FILEMAN_OPTION_MENU_NAME"] = "Apelido";
 $MESS["FILEMAN_OPTION_MENU_PARAMS"] = "Número de parâmetros de menu adicionais:";
-$MESS["FILEMAN_OPTION_MENU_SHOW_INC"] = "Mostrar botões edição de edição de área na barra de ferramentas";
 $MESS["FILEMAN_OPTION_MENU_TYPE"] = "Tipo";
 $MESS["FILEMAN_OPTION_MENU_TYPES"] = "Tipo de menu:";
 $MESS["FILEMAN_OPTION_NO"] = "Não";
@@ -124,4 +123,3 @@ $MESS["MAIN_TAB_VISUAL_EDITOR"] = "Editor visual HTML";
 $MESS["fileman_opt_restricted"] = "Editores de website padrão";
 $MESS["fileman_opt_restricted_rights"] = "Sempre conceder acesso total a estes grupos de usuários ao criar arquivos e pastas ou ao mudar permissões de acesso:";
 $MESS["fileman_opt_sel"] = "Agora selecionados:";
-?>

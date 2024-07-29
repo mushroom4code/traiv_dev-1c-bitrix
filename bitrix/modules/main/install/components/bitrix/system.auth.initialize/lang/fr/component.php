@@ -1,5 +1,5 @@
 <?
-$MESS["CC_MAIN_REG_INIT_MESSAGE_AUTHORIZED"] = "Vous êtes déjà connecté, la confirmation d'invitation sur le site n'est pas possible.";
+$MESS["CC_MAIN_REG_INIT_MESSAGE_AUTHORIZED"] = "Vous êtes déjà connecté à ce compte, vous ne pouvez pas réutiliser l'invitation.";
 $MESS["CC_MAIN_REG_INIT_MESSAGE_AUTH_SUCCESS"] = "Le compte utilisateur est déjà validé.";
 $MESS["CC_MAIN_REG_INIT_MESSAGE_CHECKWORD_EMPTY"] = "Le mot-code n'est pas indiqué.";
 $MESS["CC_MAIN_REG_INIT_MESSAGE_CHECKWORD_WRONG"] = "Le mot-code indiqué n'est pas correct.";

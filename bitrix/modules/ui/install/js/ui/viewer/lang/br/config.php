@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JS_UI_VIEWER_DEFAULT_ERROR_TITLE"] = "Isso é um erro.";
 $MESS["JS_UI_VIEWER_IMAGE_VIEW_FULL_SIZE"] = "Visualizar versão ampliada";
 $MESS["JS_UI_VIEWER_ITEM_ACTION_DELETE"] = "Excluir";
@@ -14,4 +14,4 @@ $MESS["JS_UI_VIEWER_ITEM_TRANSFORMATION_TIMEOUT"] = "Falha na conversão. Você 
 $MESS["JS_UI_VIEWER_ITEM_UNKNOWN_DOWNLOAD_ACTION"] = "Baixar arquivo";
 $MESS["JS_UI_VIEWER_ITEM_UNKNOWN_NOTICE"] = "Você pode visualizá-lo no seu computador";
 $MESS["JS_UI_VIEWER_ITEM_UNKNOWN_TITLE"] = "Este formato de arquivo não é suportado";
-?>
+$MESS["JS_UI_VIEWER_SINGLE_DOCUMENT_LISTING_PAGES"] = "Página #CURRENT#<div class=\"ui-viewer-single-document-listing-pages-all\">/#ALL#</div>";

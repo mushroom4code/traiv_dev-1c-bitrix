@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CMDESKTOP_AUTH_ERR"] = "Erro de autorização";
 $MESS["CMDESKTOP_GROUP_ADMIN_CONTENT"] = "Conteúdo";
 $MESS["CMDESKTOP_GROUP_ADMIN_CONTENT_DESCR"] = "Gadgets de Conteúdo do Painel de Controle";
@@ -14,7 +14,7 @@ $MESS["CMDESKTOP_GROUP_COMMUN"] = "Comunicações";
 $MESS["CMDESKTOP_GROUP_COMMUN_DESCR"] = "Blogs, Fóruns, Documentos compartilhados";
 $MESS["CMDESKTOP_GROUP_COMPANY"] = "Empresa";
 $MESS["CMDESKTOP_GROUP_COMPANY_DESCR"] = "Vida da Empresa";
-$MESS["CMDESKTOP_GROUP_CRM"] = "Gerenciamento de Relacionamento com o Cliente";
+$MESS["CMDESKTOP_GROUP_CRM"] = "CRM";
 $MESS["CMDESKTOP_GROUP_CRM_DESCR"] = "Leads, contatos, empresas, negócios";
 $MESS["CMDESKTOP_GROUP_EMPL"] = "Equipe";
 $MESS["CMDESKTOP_GROUP_EMPL_DESCR"] = "Estrutura da Empresa, Funcionários";
@@ -29,4 +29,3 @@ $MESS["CMDESKTOP_GROUP_SONET_GROUP_DESCR"] = "Informações de grupo de trabalho
 $MESS["CMDESKTOP_GROUP_SONET_USER"] = "Informações de usuário";
 $MESS["CMDESKTOP_GROUP_SONET_USER_DESCR"] = "Informações do perfil de usuário para a rede social";
 $MESS["CMDESKTOP_NAME_TEMPLATE_DEFAULT"] = "#NAME# #LAST_NAME#";
-?>

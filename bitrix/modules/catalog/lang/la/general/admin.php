@@ -1,13 +1,16 @@
-<?
+<?php
 $MESS["CAT_ACT_MENU_VIEW_SECTION"] = "Vista en sección pública";
 $MESS["CAT_DISCOUNT_SAVE"] = "Descuentos progresivos";
 $MESS["CAT_DISCOUNT_SAVE_DESCR"] = "Ofertas de descuentos progresivos";
 $MESS["CAT_MENU_ALL_OTH"] = "Otros ...";
 $MESS["CAT_MENU_ALL_OTH_TITLE"] = "Todas las secciones";
 $MESS["CAT_MENU_CATALOG_MARKETPLACE_ADD"] = "Instalar desde el Marketplace";
+$MESS["CAT_MENU_CATALOG_MARKETPLACE_CATALOG_TOOLS"] = "Instalar herramientas desde el Marketplace";
 $MESS["CAT_MENU_CATALOG_SETTINGS"] = "Configuración de catálogo";
-$MESS["CAT_MENU_PRODUCT_LIST"] = "Productos";
+$MESS["CAT_MENU_PRODUCT_LIST_EXT"] = "Productos";
+$MESS["CAT_MENU_PRODUCT_MIXED_LIST"] = "Productos y secciones";
 $MESS["CAT_MENU_PRODUCT_PROPERTIES"] = "Propiedades de productos";
+$MESS["CAT_MENU_PRODUCT_SECTION_LIST"] = "Secciones";
 $MESS["CAT_MENU_ROOT"] = "Catálogo de productos";
 $MESS["CAT_MENU_ROOT_MULTI"] = "Catálogos de productos";
 $MESS["CAT_MENU_ROOT_TITLE"] = "Catálogo comercial";
@@ -37,6 +40,5 @@ $MESS["SETUP_LOAD_DATA"] = "Importación de datos";
 $MESS["SETUP_LOAD_DATA_ALT"] = "Configuración de importación de datos";
 $MESS["SETUP_UNLOAD_DATA"] = "Exportación de datos";
 $MESS["SETUP_UNLOAD_DATA_ALT"] = "Configuración de exportación de datos";
-$MESS["VAT"] = "Tasas de impuestos";
+$MESS["VAT"] = "Tasas de IVA";
 $MESS["VAT_ALT"] = "Editar tasas de impuestos";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["PERFMON_PANEL_ADV_BANNERS_FIX_SHOWS"] = "Rastrear número de impressões de banner";
 $MESS["PERFMON_PANEL_ADV_BANNERS_FIX_SHOWS_OFF"] = "Inativo; nenhum banner com impressões de rastreio";
 $MESS["PERFMON_PANEL_ADV_BANNERS_FIX_SHOWS_ON"] = "Ativo com banners com impressões controladas";
@@ -12,13 +12,7 @@ $MESS["PERFMON_PANEL_BTN_START"] = "Teste de Desempenho";
 $MESS["PERFMON_PANEL_BTN_STOP"] = "Parar teste";
 $MESS["PERFMON_PANEL_BTN_TEST"] = "Sistema de Teste";
 $MESS["PERFMON_PANEL_CACHE_STORAGE"] = "Armazenamento de cache";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_APC"] = "APC";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_CLUSTER"] = "conjunto memcache";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_FILES"] = "Arquivos";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_MEMCACHE"] = "memcache";
 $MESS["PERFMON_PANEL_CACHE_STORAGE_REC"] = "Tipos possíveis de Armazenamento:<ul style=\"font-size:100%\"><li>Files</li><li>memcached</li><li>eAccelerator</li><li>APC</li><li>XCache</li></ul>";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_UNKNOWN"] = "desconhecido";
-$MESS["PERFMON_PANEL_CACHE_STORAGE_XCACHE"] = "XCache";
 $MESS["PERFMON_PANEL_CLUSTER_CONCURRENCY"] = "Conexões";
 $MESS["PERFMON_PANEL_CLUSTER_ERRORS"] = "Erros";
 $MESS["PERFMON_PANEL_CLUSTER_HITS"] = "Acessos";
@@ -71,11 +65,11 @@ $MESS["PERFMON_PANEL_ENC_MODULES_ON"] = "Apresentar";
 $MESS["PERFMON_PANEL_ENC_MODULES_REC"] = "Instalar códigos-fonte para esses módulos";
 $MESS["PERFMON_PANEL_FILES"] = "Sistema de Arquivos";
 $MESS["PERFMON_PANEL_FILES_UNITS"] = "Operações de arquivo por segundo";
-$MESS["PERFMON_PANEL_INTERVAL_1800_SEC"] = "durante 30 min.";
-$MESS["PERFMON_PANEL_INTERVAL_300_SEC"] = "durante 5 min.";
-$MESS["PERFMON_PANEL_INTERVAL_3600_SEC"] = "durante 1 hora";
-$MESS["PERFMON_PANEL_INTERVAL_600_SEC"] = "durante 10 min.";
 $MESS["PERFMON_PANEL_INTERVAL_60_SEC"] = "durante 1 min.";
+$MESS["PERFMON_PANEL_INTERVAL_300_SEC"] = "durante 5 min.";
+$MESS["PERFMON_PANEL_INTERVAL_600_SEC"] = "durante 10 min.";
+$MESS["PERFMON_PANEL_INTERVAL_1800_SEC"] = "durante 30 min.";
+$MESS["PERFMON_PANEL_INTERVAL_3600_SEC"] = "durante 1 hora";
 $MESS["PERFMON_PANEL_MAIL"] = "Sistema de E-mail";
 $MESS["PERFMON_PANEL_MAIL_UNITS"] = "Horário de envio de E-mail (seg)";
 $MESS["PERFMON_PANEL_MANAGED_CACHE"] = "Cache Gerenciado";
@@ -118,7 +112,6 @@ $MESS["PERFMON_PANEL_SEARCH_STEM_ON"] = "A Pequisa morfológica Rápida está Li
 $MESS["PERFMON_PANEL_SEARCH_STEM_REC"] = "Ativar pesquisa morfológica e opção de pesquisa rápida";
 $MESS["PERFMON_PANEL_SESSION"] = "Hora de início da Sessão";
 $MESS["PERFMON_PANEL_SESSION_ERR"] = "desconhecido";
-$MESS["PERFMON_PANEL_SESSION_NOTE"] = "Tempo de duração da sessão de partida não pode ser determinada porque os dados da sessão são armazenados na base de dados do módulo de segurança.";
 $MESS["PERFMON_PANEL_SESSION_UNITS"] = "sec";
 $MESS["PERFMON_PANEL_STAT_SAVE_PATH"] = "Caminhos de Site Relatório de coleta de dados";
 $MESS["PERFMON_PANEL_STAT_SAVE_PATH_OFF"] = "Fora";
@@ -133,4 +126,3 @@ $MESS["PERFMON_PANEL_WARN_NOTE_1"] = "1. O cache não está envolvido neste comp
 $MESS["PERFMON_PANEL_WARN_NOTE_2"] = "2. Componentes não podem estar cumprindo consultas do banco de dados quando o cache automático está habilitado. Certifique-se de que o cache está ativado nas configurações do componente. Se o cache estiver habilitado e o problema persistir, contate o desenvolvedor para a correção.";
 $MESS["PERFMON_PANEL_WARN_NOTE_3"] = "3. Uso ineficiente de cache - grandes arquivos criados no cache. O tamanho dos ficheiros em cache não deve exceder 1 MB. Certifique-se de que o componente está utilizando o método SetResultCacheKeys e não armazena dados não utilizados.";
 $MESS["PERFMON_PANEL_WRONG_SERVER_NAME"] = "Nome do servidor ruim.";
-?>

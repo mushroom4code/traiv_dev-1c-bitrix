@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_ACCESS"] = "Dostęp:";
 $MESS["BLOG_ADDRESSES"] = "Adres trackback:";
 $MESS["BLOG_ALLOW_TRACKBACK"] = "Zezwalaj na trackback dla tej wiadomości";
@@ -60,7 +60,6 @@ $MESS["FPF_HYPERLINK"] = "Hiperłącze";
 $MESS["FPF_IMAGE"] = "Kolor";
 $MESS["FPF_ITALIC"] = "Kursywa";
 $MESS["FPF_LIST"] = "Stwórz listę";
-$MESS["FPF_QUOTE"] = "Oferta";
+$MESS["FPF_QUOTE"] = "Cytat";
 $MESS["FPF_UNDER"] = "Podkreślenie";
 $MESS["FPF_VIDEO"] = "Wstaw wideo";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["OP_NAME_FILEMAN_ADD_ELEMENT_TO_MENU"] = "Ajouter des points au menu du type";
 $MESS["OP_NAME_FILEMAN_ADMIN_FILES"] = "Gérer les fichiers";
 $MESS["OP_NAME_FILEMAN_ADMIN_FOLDERS"] = "Gérer les dossiers";
@@ -20,8 +20,7 @@ $MESS["OP_NAME_MEDIALIB_EDIT_ITEM"] = "Modifier les Eléments de la Médiathèqu
 $MESS["OP_NAME_MEDIALIB_NEW_COLLECTION"] = "Création de Nouvelles Collections de la Médiathèque";
 $MESS["OP_NAME_MEDIALIB_NEW_ITEM"] = "Création des Eléments de la Médiathèque";
 $MESS["OP_NAME_MEDIALIB_VIEW_COLLECTION"] = "Voir les collections de la médiathèque";
-$MESS["OP_NAME_STICKER_DEL"] = "Supprimer le flux de travail";
+$MESS["OP_NAME_STICKER_DEL"] = "Supprimer les stickers";
 $MESS["OP_NAME_STICKER_EDIT"] = "Edition des stickers";
 $MESS["OP_NAME_STICKER_NEW"] = "Ajouter de nouveaux stickers";
-$MESS["OP_NAME_STICKER_VIEW"] = "Voir Web-it";
-?>
+$MESS["OP_NAME_STICKER_VIEW"] = "Afficher les stickers";

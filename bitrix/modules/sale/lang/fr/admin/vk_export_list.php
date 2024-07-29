@@ -1,6 +1,6 @@
-<?
+<?php
 $MESS["SALE_VK_TABLE__ACTIVATE"] = "Activer";
-$MESS["SALE_VK_TABLE__ACTIVE"] = "Actif";
+$MESS["SALE_VK_TABLE__ACTIVE"] = "Activité";
 $MESS["SALE_VK_TABLE__ACTIVE_NO"] = "Non configuré";
 $MESS["SALE_VK_TABLE__DEACTIVATE"] = "Désactiver";
 $MESS["SALE_VK_TABLE__DELETE"] = "Supprimer";
@@ -15,4 +15,3 @@ $MESS["SALE_VK_TABLE__NO"] = "Non";
 $MESS["SALE_VK_TABLE__NOT_INTERVAL"] = "Démarrer manuellement";
 $MESS["SALE_VK_TABLE__YES"] = "Oui";
 $MESS["SALE_VK_TITLE"] = "Export VK - #E1#";
-?>

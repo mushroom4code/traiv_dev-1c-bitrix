@@ -1,18 +1,17 @@
-<?
+<?php
 $MESS["MAIN_ADMIN_GROUP_DESC"] = "Повний доступ до управління сайтом.";
 $MESS["MAIN_ADMIN_GROUP_NAME"] = "Адміністратори";
 $MESS["MAIN_DEFAULT_LANGUAGE_AM_VALUE"] = "am";
+$MESS["MAIN_DEFAULT_LANGUAGE_CODE"] = "uk";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_MONTH_FORMAT"] = "j F";
+$MESS["MAIN_DEFAULT_LANGUAGE_DAY_OF_WEEK_MONTH_FORMAT"] = "l, j F";
+$MESS["MAIN_DEFAULT_LANGUAGE_DAY_SHORT_MONTH_FORMAT"] = "j M";
 $MESS["MAIN_DEFAULT_LANGUAGE_FORMAT_CHARSET"] = "windows-1251";
 $MESS["MAIN_DEFAULT_LANGUAGE_FORMAT_DATE"] = "DD.MM.YYYY";
 $MESS["MAIN_DEFAULT_LANGUAGE_FORMAT_DATETIME"] = "DD.MM.YYYY HH:MI:SS";
 $MESS["MAIN_DEFAULT_LANGUAGE_FORMAT_NAME"] = "#NAME# #LAST_NAME#";
 $MESS["MAIN_DEFAULT_LANGUAGE_FULL_DATE_FORMAT"] = "l, j F Y";
 $MESS["MAIN_DEFAULT_LANGUAGE_LONG_DATE_FORMAT"] = "j F Y";
-$MESS["MAIN_DEFAULT_LANGUAGE_DAY_SHORT_MONTH_FORMAT"] = "j M";
-$MESS["MAIN_DEFAULT_LANGUAGE_DAY_OF_WEEK_MONTH_FORMAT"] = "l, j F";
-$MESS["MAIN_DEFAULT_LANGUAGE_SHORT_DAY_OF_WEEK_MONTH_FORMAT"] = "D, j F";
-$MESS["MAIN_DEFAULT_LANGUAGE_SHORT_DAY_OF_WEEK_SHORT_MONTH_FORMAT"] = "D, j M";
 $MESS["MAIN_DEFAULT_LANGUAGE_LONG_TIME_FORMAT"] = "H:i:s";
 $MESS["MAIN_DEFAULT_LANGUAGE_MEDIUM_DATE_FORMAT"] = "j M Y";
 $MESS["MAIN_DEFAULT_LANGUAGE_NAME"] = "Ukrainian";
@@ -20,6 +19,8 @@ $MESS["MAIN_DEFAULT_LANGUAGE_NUMBER_DECIMAL_SEPARATOR"] = ",";
 $MESS["MAIN_DEFAULT_LANGUAGE_NUMBER_THOUSANDS_SEPARATOR"] = " ";
 $MESS["MAIN_DEFAULT_LANGUAGE_PM_VALUE"] = "pm";
 $MESS["MAIN_DEFAULT_LANGUAGE_SHORT_DATE_FORMAT"] = "d.m.Y";
+$MESS["MAIN_DEFAULT_LANGUAGE_SHORT_DAY_OF_WEEK_MONTH_FORMAT"] = "D, j F";
+$MESS["MAIN_DEFAULT_LANGUAGE_SHORT_DAY_OF_WEEK_SHORT_MONTH_FORMAT"] = "D, j M";
 $MESS["MAIN_DEFAULT_LANGUAGE_SHORT_TIME_FORMAT"] = "H:i";
 $MESS["MAIN_DEFAULT_SITE_FORMAT_CHARSET"] = "windows-1251";
 $MESS["MAIN_DEFAULT_SITE_FORMAT_DATE"] = "DD.MM.YYYY";
@@ -56,7 +57,19 @@ IP-адреса: #REMOTE_ADDR#
 http://#SERVER_NAME#/bitrix/admin/event_log.php?set_filter=Y&find_audit_type_id=#AUDIT_TYPE_ID#";
 $MESS["MAIN_EVERYONE_GROUP_DESC"] = "Всі користувачі, включаючи неавторизованих.";
 $MESS["MAIN_EVERYONE_GROUP_NAME"] = "Всі користувачі (у тому числі неавторизовані)";
-$MESS["MAIN_INSTALL_DB_ERROR"] = "Не можу з'єднатися з базою даних. Перевірте правильність введених параметрів";
+$MESS["MAIN_INSTALL_EVENT_MESSAGE_NEW_DEVICE_LOGIN"] = "Вітаємо, #NAME#!
+
+Новий пристрій авторизувався під вашим логіном #LOGIN#.
+ 
+Пристрій: #DEVICE#
+Браузер: #BROWSER#
+Платформа: #PLATFORM#
+Розташування: #LOCATION# (може бути неточним)
+Дата: #DATE#
+
+Якщо ви не знаєте, хто це був, радимо негайно змінити пароль.
+";
+$MESS["MAIN_INSTALL_EVENT_MESSAGE_NEW_DEVICE_LOGIN_SUBJECT"] = "Вхід із нового пристрою";
 $MESS["MAIN_INSTALL_EVENT_MESS_USER_CODE_REQUEST"] = "#SITE_NAME#: Запит коду авторизації";
 $MESS["MAIN_INSTALL_EVENT_MESS_USER_CODE_REQUEST_MESS"] = "Використовуйте для авторизації код:
 
@@ -71,6 +84,23 @@ ID користувача: #USER_ID#
 Логін: #LOGIN#
 
 Повідомлення створено автоматично. ";
+$MESS["MAIN_INSTALL_EVENT_TYPE_NEW_DEVICE_LOGIN"] = "Вхід із нового пристрою";
+$MESS["MAIN_INSTALL_EVENT_TYPE_NEW_DEVICE_LOGIN_DESC"] = "#USER_ID# — ID користувача
+#EMAIL# — адреса електронної пошти користувача
+#LOGIN# — логін користувача
+#NAME# — ім’я користувача
+#LAST_NAME# — прізвище користувача
+#DEVICE# — пристрій
+#BROWSER# — браузер
+#PLATFORM# — платформа
+#USER_AGENT# — агент користувача
+#IP# — IP-адреса
+#DATE# — дата
+#COUNTRY# — країна
+#REGION# — регіон
+#CITY# — місто
+#LOCATION# — розташування (місто, регіон, країна)
+";
 $MESS["MAIN_INSTALL_EVENT_TYPE_NOTIFICATION"] = "Сповіщення журналу подій";
 $MESS["MAIN_INSTALL_EVENT_TYPE_NOTIFICATION_DESC"] = "#EMAIL# - Email одержувача
 #ADDITIONAL_TEXT# - Додатковий текст дії
@@ -299,4 +329,3 @@ $MESS["main_install_sms_event_restore_name"] = "Відновлення паро�
 $MESS["main_install_sms_template_confirm_mess"] = "Код підтвердження #CODE#";
 $MESS["main_install_sms_template_notification_mess"] = "#NAME#: #ADDITIONAL_TEXT# (подій: #EVENT_COUNT#)";
 $MESS["main_install_sms_template_restore_mess"] = "Код для відновлення пароля #CODE#";
-?>

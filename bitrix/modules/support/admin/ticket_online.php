@@ -3,7 +3,7 @@
 ##############################################
 # Bitrix: SiteManager                        #
 # Copyright (c) 2002 Bitrix                  #
-# http://www.bitrix.ru                       #
+# https://www.bitrixsoft.com          #
 # mailto:admin@bitrix.ru                     #
 ##############################################
 */
@@ -61,7 +61,7 @@ if ($lamp <> '')
 {
 	$lamp_alt = GetMessage("SUP_".mb_strtoupper($lamp)."_ALT");
 	//$lamp = "/bitrix/images/support/$lamp.gif";?>
-<script type="text/javascript">
+<script>
 <!--
 document.body.className='support-online-body';
 

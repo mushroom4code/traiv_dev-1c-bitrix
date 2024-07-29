@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["REPORT_IGNORE_FILTER_VALUE"] = "Ignorer";
 $MESS["REPORT_sale_SaleBasket_FUSER.USER.UserGroup:USER.GROUP"] = "Groupe de l'acheteur";
 $MESS["REPORT_sale_SaleBasket_FUSER.USER.UserGroup:USER.GROUP.ID"] = "ID";
@@ -14,7 +14,7 @@ $MESS["REPORT_sale_SaleBasket_PRODUCT.GoodsSection:PRODUCT.SECT"] = "Catégorie 
 $MESS["REPORT_sale_SaleBasket_PRODUCT.GoodsSection:PRODUCT.SECT.ID"] = "ID";
 $MESS["REPORT_sale_SaleBasket_PRODUCT.GoodsSection:PRODUCT.SECT.NAME"] = "Dénomination";
 $MESS["REPORT_sale_SaleFuser_Basket:FUSER"] = "Contenu du panier";
-$MESS["REPORT_sale_SaleFuser_Order:FUSER"] = "Ordre";
+$MESS["REPORT_sale_SaleFuser_Order:FUSER"] = "Commande";
 $MESS["REPORT_sale_SaleFuser_USER"] = "Données d'enregistrement";
 $MESS["REPORT_sale_SaleFuser_USER.UserGroup:USER.GROUP"] = "Groupe de l'acheteur";
 $MESS["REPORT_sale_SaleFuser_USER.UserGroup:USER.GROUP.NAME"] = "Dénomination";
@@ -33,7 +33,7 @@ $MESS["REPORT_sale_SaleProduct_IBLOCK.SectionElement:IBLOCK_ELEMENT.IBLOCK_SECTI
 $MESS["REPORT_sale_SaleProduct_PRICE_SITECURR"] = "Prix";
 $MESS["REPORT_sale_SaleProduct_SUMM_SITECURR"] = "Montant du produit";
 $MESS["REPORT_sale_SaleProduct_StoreProduct:SALE_PRODUCT"] = "Entrepôt";
-$MESS["REPORT_sale_User_Bitrix\\Sale\\Internals\\Order:USER"] = "Commander";
+$MESS["REPORT_sale_User_Bitrix\\Sale\\Internals\\Order:USER"] = "Commande";
 $MESS["REPORT_sale_User_Bitrix\\Sale\\Internals\\Order:USER.STATUS"] = "Statut";
 $MESS["REPORT_sale_User_LID"] = "Boutique";
 $MESS["REPORT_sale_User_UserGroup:USER.GROUP"] = "Groupe de l'acheteur";
@@ -96,7 +96,7 @@ $MESS["SALE_REPORT_DEFAULT_MOST_EXPECTED_GOODS_ALIAS_8"] = "Recettes éventuelle
 $MESS["SALE_REPORT_DEFAULT_MOST_EXPECTED_GOODS_DESCR"] = "Le rapport indique les produits dont l'apparition en stock est attendue par le plus grand nombre de clients de la boutique. Le rapport vise à identifier les produits les plus précieux pour la livraison dans la boutique et est conçu pour les gestionnaires d'achats.";
 $MESS["SALE_REPORT_DEFAULT_MOST_VIEWED_GOODS"] = "Les produits les plus visités";
 $MESS["SALE_REPORT_DEFAULT_MOST_VIEWED_GOODS_ALIAS_5"] = "Prix par unité";
-$MESS["SALE_REPORT_DEFAULT_MOST_VIEWED_GOODS_ALIAS_7"] = "vues";
+$MESS["SALE_REPORT_DEFAULT_MOST_VIEWED_GOODS_ALIAS_7"] = "Vues";
 $MESS["SALE_REPORT_DEFAULT_MOST_VIEWED_GOODS_ALIAS_8"] = "Nombre de commandes réglées";
 $MESS["SALE_REPORT_DEFAULT_MOST_VIEWED_GOODS_ALIAS_12"] = "Quantité vendue";
 $MESS["SALE_REPORT_DEFAULT_MOST_VIEWED_GOODS_DESCR"] = "Le rapport montre une liste de produits consultés le plus souvent par les utilisateurs. Le rapport est destiné pour l'analyse des produits en fonction de leur popularité auprès des clients ainsi que pour la conversion du taux des consultations de produits en ventes.";
@@ -124,10 +124,9 @@ $MESS["SALE_REPORT_DEFAULT_SALES_ALIAS_13"] = "Quantité";
 $MESS["SALE_REPORT_DEFAULT_SALES_DESCR"] = "Le rapport affiche des informations sur les ventes réalisées pour la période donnée. Conçu pour les propriétaires de magasins pour estimer le nombre de ventes, les bénéfices et d'autres caractéristiques des commandes exécutés, regroupés par jours, semaines, mois, trimestres ou années.";
 $MESS["SALE_REPORT_GROUP_NOT_FOUND"] = "Groupe introuvable.";
 $MESS["SALE_REPORT_HELPER_NAME_sale_SaleBasket"] = "Contenu de commande";
-$MESS["SALE_REPORT_HELPER_NAME_sale_SaleOrder"] = "Ordre";
+$MESS["SALE_REPORT_HELPER_NAME_sale_SaleOrder"] = "Commande";
 $MESS["SALE_REPORT_HELPER_NAME_sale_SaleProduct"] = "Article";
 $MESS["SALE_REPORT_HELPER_NAME_sale_User"] = "Acheteur";
 $MESS["SALE_REPORT_USER_NOT_AUTH"] = "<non connecté>";
 $MESS["USER_FEMALE"] = "Femme";
 $MESS["USER_MALE"] = "Homme";
-?>

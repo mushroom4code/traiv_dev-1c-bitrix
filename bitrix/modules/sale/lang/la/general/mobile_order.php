@@ -1,5 +1,5 @@
-<?
-$MESS["SMOB_ADDRESS"] = "Dirección de entrega";
+<?php
+$MESS["SMOB_ADDRESS"] = "Dirección de envío";
 $MESS["SMOB_ALLOWED"] = "Permitido";
 $MESS["SMOB_ALL_ORDERS"] = "Todos los pedidos";
 $MESS["SMOB_BUYER"] = "Cliente";
@@ -93,4 +93,3 @@ $MESS["SMOB_WAITING_FOR_DELIVERY"] = "Aún no enviado";
 $MESS["SMOB_WAITING_FOR_PAY"] = "Aún no pagado";
 $MESS["SMOB_WEIGHT"] = "Peso total";
 $MESS["SMOB_ZIP"] = "Código postal";
-?>

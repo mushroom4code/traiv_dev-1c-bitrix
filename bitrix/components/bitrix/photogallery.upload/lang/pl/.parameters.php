@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_IBLOCK"] = "Blok informacji";
 $MESS["IBLOCK_INDEX_URL"] = "Lista sekcji";
 $MESS["IBLOCK_SECTION_ID"] = "ID Sekcji";
@@ -7,9 +7,6 @@ $MESS["IBLOCK_TYPE"] = "Typ bloku informacji";
 $MESS["P_ADDITIONAL_SIGHTS"] = "Dodatkowe miniatury";
 $MESS["P_ALBUM_PHOTO_THUMBS_WIDTH"] = "Szerokość miniatur (px)";
 $MESS["P_ALBUM_PHOTO_WIDTH"] = "Szerokość albumu zdjęć (px)";
-$MESS["P_APPLET_LAYOUT"] = "Układ ładowania masowego";
-$MESS["P_APPLET_LAYOUT_EXTENDED"] = "Standardowy szablon";
-$MESS["P_APPLET_LAYOUT_SIMPLE"] = "szablon uproszczony";
 $MESS["P_JPEG_QUALITY"] = "Oryginalna jakość zdjęć";
 $MESS["P_MODERATION"] = "Zawsze moderuj zdjęcia";
 $MESS["P_ORIGINAL"] = "Oryginalne";
@@ -17,10 +14,6 @@ $MESS["P_PATH_TO_FONT"] = "plik czcionki";
 $MESS["P_PHOTO_SETTINGS"] = "Ustawienia galerii zdjęć";
 $MESS["P_PREVIEW"] = "Podgląd";
 $MESS["P_SIZE"] = "Zminiaturyzowany rozmiar (px)";
-$MESS["P_UPLOADER_TYPE"] = "Typ ładowarki";
-$MESS["P_UPLOADER_TYPE_APPLET"] = "HTML5 or Java/ActiveX uploader";
-$MESS["P_UPLOADER_TYPE_FLASH"] = "HTML5 or Flash uploader";
-$MESS["P_UPLOADER_TYPE_FORM_SIMPLE"] = "Pojedyńcze ładowanie pliku przy użyciu formularza HTML";
 $MESS["P_UPLOAD_MAX_FILE"] = "Maksymalnie pliki wysyłane na stanowisko";
 $MESS["P_UPLOAD_MAX_FILE_SIZE"] = "Maksymalny rozmiar pliku ( MB )";
 $MESS["P_USE_WATERMARK"] = "Drukuj watermark";
@@ -54,4 +47,3 @@ $MESS["P_WATERMARK_TYPE_BOTH"] = "Tekst lub obraz";
 $MESS["P_WATERMARK_TYPE_PICTURE"] = "Obraz";
 $MESS["P_WATERMARK_TYPE_TEXT"] = "Tekst";
 $MESS["T_IBLOCK_DESC_NEWS_PANEL"] = "Wyświetl przyciski panelu dla tego komponentu";
-?>

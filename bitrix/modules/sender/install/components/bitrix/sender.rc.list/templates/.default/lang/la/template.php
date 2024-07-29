@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SENDER_LETTER_LIST_BTN_ADD"] = "Crear";
 $MESS["SENDER_LETTER_LIST_BTN_COPY"] = "Copiar";
 $MESS["SENDER_LETTER_LIST_BTN_COPY_TITLE"] = "Copiar";
@@ -21,7 +21,7 @@ $MESS["SENDER_LETTER_LIST_ROW_STATS"] = "Estadísticas";
 $MESS["SENDER_LETTER_LIST_SENDING_LOADER_TITLE"] = "En progreso, nos vemos bien.";
 $MESS["SENDER_LETTER_LIST_SENDING_TITLE"] = "Completado para %count% contactos y compañías.";
 $MESS["SENDER_LETTER_LIST_SPEED_TITLE"] = "Se alcanzó el número máximo de contactos diarios y compañías. El trabajo continuará mañana.";
-$MESS["SENDER_LETTER_LIST_STATE_CONTINUE"] = "Resumen";
+$MESS["SENDER_LETTER_LIST_STATE_CONTINUE"] = "Reanudar";
 $MESS["SENDER_LETTER_LIST_STATE_CONTINUE_TITLE"] = "Resumen según lo programado.";
 $MESS["SENDER_LETTER_LIST_STATE_IS_PAUSED"] = "Pausado";
 $MESS["SENDER_LETTER_LIST_STATE_IS_SENT"] = "Completado";
@@ -35,4 +35,3 @@ $MESS["SENDER_LETTER_LIST_STATE_SEND_TITLE"] = "Ejecuta una vez en este momento.
 $MESS["SENDER_LETTER_LIST_STATE_STOP"] = "Stop";
 $MESS["SENDER_LETTER_LIST_STATE_STOP_TITLE"] = "Parar y marcar como completado.";
 $MESS["SENDER_LETTER_LIST_STATE_WILL_SEND"] = "Se lanzará en";
-?>

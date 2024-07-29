@@ -1,9 +1,10 @@
-<?
-$MESS["ACCOUNT_INFO_SENT"] = "Ligne de commande et vos informations de connexion sont envoyées par email. Vérifiez votre adresse électronique. Veuillez noter que la ligne de commande est regénérée à chaque requête.";
+<?php
+$MESS["ACCOUNT_INFO_SENT"] = "Votre identifiant et un lien pour réinitialiser votre mot de passe vous ont été envoyés par email. Vérifiez votre boite de réception et le dossier des indésirables. Un email est renvoyé à chaque fois que vous faites une demande de réinitialisation de mot de passe.";
 $MESS["BAD_GROUP_NAME"] = "S'il vous plaît entrez le nom.";
 $MESS["CHANGE_PASS_SUCC"] = "Votre mot de passe changé avec succès.";
 $MESS["CHECKWORD_EXPIRE"] = "Le délai de validité d'un mot de contrôle a expiré. Il vous faut faire une demande de nouveau.";
 $MESS["CHECKWORD_INCORRECT"] = "Chèque mot incorrect pour la connexion '#LOGIN#'";
+$MESS["CHECKWORD_INCORRECT1"] = "Mot de contrôle incorrect.";
 $MESS["DATA_NOT_FOUND1"] = "Le profil d'utilisateur est introuvable.";
 $MESS["FORGOT_NAME"] = "Tant Prénom et nom requis";
 $MESS["FORMATNAME_NONAME"] = "Sans nom";
@@ -21,6 +22,7 @@ $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_DIGITS"] = "Le mot de passe doit contenir
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_LENGTH"] = "Le mot de passe doit avoir plus de #LENGTH# caractères.";
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_LOWERCASE"] = "Le mot de passe doit contenir des caractères latins minuscules (a-z).";
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_PUNCTUATION"] = "Le mot de passe doit contenir des signes de ponctuation (,.<>/?;:''[]{}\\|`~!@#\$%^&*()-_+=).";
+$MESS["MAIN_FUNCTION_REGISTER_PASSWORD_UNIQUE"] = "Votre mot de passe ne doit pas être identique à ceux récemment utilisés.";
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_UPPERCASE"] = "Le mot de passe doit contenir des caractères latins majuscules (A-Z).";
 $MESS["MAIN_FUNCTION_SIMPLEREGISTER_NA_INADMIN"] = "Vous ne pouvez pas utiliser la fonction CUser :: SimpleRegister dans ADMIN_SECTION !";
 $MESS["MAIN_GP_PASSWORD_DIGITS"] = "contenir des chiffres (0-9)";
@@ -28,6 +30,7 @@ $MESS["MAIN_GP_PASSWORD_LENGTH"] = "Le mot de passe doit comprendre #LENGTH# sym
 $MESS["MAIN_GP_PASSWORD_LOWERCASE"] = "contenir les caractères latins minuscules (a-z)";
 $MESS["MAIN_GP_PASSWORD_PUNCTUATION"] = "contenir les signes de ponctuation (,.<>/?;:''[]{}\\|`~!@#\$%^&*()-_+=)";
 $MESS["MAIN_GP_PASSWORD_UPPERCASE"] = "contenir des lettres majuscules latines (A-Z)";
+$MESS["MAIN_LOGIN_CHANGE_PASSWORD"] = "Votre mot de passe a expiré, vous devez le changer.";
 $MESS["MAIN_LOGIN_EMAIL_CONFIRM"] = "Vous n'êtes pas encore confirmé votre inscription (le message de confirmation a été envoyé à #EMAIL#). S'il vous plaît utiliser le formulaire de récupération de mot de passe pour envoyer le message de confirmation si nécessaire à nouveau.";
 $MESS["MAIN_SEND_PASS_CONFIRM"] = "Vous n'êtes pas encore confirmé votre inscription. Un autre message de confirmation a été envoyé à votre adresse email.";
 $MESS["MAIN_TASK_WRONG_LETTER"] = "En qualité de la lettre du niveau d'accès vous ne pouvez que choisir une lettre latine";
@@ -36,7 +39,7 @@ $MESS["MIN_PASSWORD1"] = "Mot de passe doit contenir 6 caractères ou plus";
 $MESS["PASSWORD_CHANGE_OK"] = "Mot de passe changé avec succès.<br>Nouvelles informations d'inscription vient d'être envoyé à votre adresse email Adresse.";
 $MESS["PROFILE_ACCESS_DENIED"] = "Vous ne disposez pas des droits d'accès pour modifier le profil";
 $MESS["REGISTRATION_OK"] = "Enregistrement réussi.<br>Informations d'enregistrement vient d'être envoyé à votre adresse email.";
-$MESS["STATUS_ACTIVE"] = "actif";
+$MESS["STATUS_ACTIVE"] = "Activité";
 $MESS["STATUS_BLOCKED"] = "bloqué";
 $MESS["TASK_NAME_FM_FOLDER_ACCESS_READ"] = "Lecture";
 $MESS["TASK_NAME_MAIN_DENIED"] = "Accès interdit";
@@ -65,7 +68,10 @@ $MESS["WRONG_USER_DATE_ACTIVE_FROM"] = "Date incorrecte du commencement d'activi
 $MESS["WRONG_USER_DATE_ACTIVE_TO"] = "Date incorrecte de la cessation d'activité pour l'utilisateur # #USER_ID#";
 $MESS["main_change_pass_changed"] = "Le mot de passe a bien été changé.";
 $MESS["main_change_pass_code_error"] = "Code de confirmation incorrect ou expiré. Vous pouvez en redemander un nouveau.";
+$MESS["main_change_pass_empty_checkword"] = "Le code de vérification ou le mot de passe actuel ne sont pas spécifiés.";
 $MESS["main_change_pass_error"] = "Erreur lors du changement de mot de passe.";
+$MESS["main_change_pass_incorrect_pass"] = "Le mot de passe actuel que vous avez fourni est incorrect.";
+$MESS["main_check_password_weak"] = "Le mot de passe est trop faible (il figure dans la liste des mots de passe faibles).";
 $MESS["main_login_need_phone_confirmation"] = "Vous n'avez pas encore confirmé votre inscription (votre numéro de téléphone : #PHONE#). Veuillez utiliser le formulaire de récupération de mot de passe pour demander un autre SMS de confirmation.";
 $MESS["main_register_no_user"] = "L'utilisateur n'a pas été trouvé.";
 $MESS["main_register_sms_sent"] = "Un code pour changer votre mot de passe a été envoyé sur votre téléphone.";
@@ -78,4 +84,3 @@ $MESS["main_user_pass_request_sent"] = "Le code de confirmation a été envoyé 
 $MESS["user_email_not_set"] = "Utilisateur Adresse emailis pas spécifié.";
 $MESS["user_login_not_set"] = "Connexion de l'utilisateur est pas spécifié.";
 $MESS["user_pass_not_set"] = "Mot de passe utilisateur est pas spécifié.";
-?>

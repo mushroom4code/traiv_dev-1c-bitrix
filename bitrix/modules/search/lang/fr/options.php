@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SEARCH_OPTIONS_AGENT_DURATION"] = "Durée maximale de l'exécution de l'agent (secondes) : ";
 $MESS["SEARCH_OPTIONS_AGENT_STEMMING"] = "Remettre l'exécution de l'analyse morphologique (à un agent) : ";
 $MESS["SEARCH_OPTIONS_FULL_TEXT_ENGINE"] = "Utilisez l'ID de groupe sur la variable si l'article élément est manquant : ";
@@ -27,7 +27,7 @@ $MESS["SEARCH_OPTIONS_SUGGEST_SAVE_DAYS"] = "Combien de jours faut-il garder les
 $MESS["SEARCH_OPTIONS_TAB_INDEX"] = "Indexation";
 $MESS["SEARCH_OPTIONS_TAB_SEARCH"] = "Recherche";
 $MESS["SEARCH_OPTIONS_TAB_STATISTIC"] = "Statistique";
-$MESS["SEARCH_OPTIONS_TAB_STEMMING"] = "Moscou";
+$MESS["SEARCH_OPTIONS_TAB_STEMMING"] = "Morphologie";
 $MESS["SEARCH_OPTIONS_TAB_TITLE_INDEX_2"] = "Réglage des paramètres d'indexation des pages statiques";
 $MESS["SEARCH_OPTIONS_TAB_TITLE_SEARCH"] = "Réglages des paramètres de recherche";
 $MESS["SEARCH_OPTIONS_TAB_TITLE_STATISTIC"] = "Configuration du temps de stockage de la statistique";
@@ -36,4 +36,3 @@ $MESS["SEARCH_OPTIONS_USE_SOCIAL_RATING"] = "Tenir compte de la cote lors du cla
 $MESS["SEARCH_OPTIONS_USE_STEMMING"] = "Utiliser la morphologie : ";
 $MESS["SEARCH_OPTIONS_USE_TF_CACHE"] = "Utilisez la recherche rapide (avec le mauvais classement)";
 $MESS["SEARCH_OPTIONS_USE_WORD_DISTANCE"] = "Lors du classement des résultats prendre en compte la distance entre les mots : ";
-?>

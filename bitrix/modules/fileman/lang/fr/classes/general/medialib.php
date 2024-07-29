@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ML_ACCESS"] = "Accès";
 $MESS["ML_ACCESS_DENIED"] = "Accès interdit";
 $MESS["ML_ACCESS_TITLE"] = "Etablir les droits d'accès pour la collection";
@@ -100,12 +100,11 @@ $MESS["ML_SELECT_FILE_TITLE"] = "Sélectionnez à nouveau";
 $MESS["ML_SESS_EXPIRED"] = "La période de l'activité de votre session s'est écoulée.";
 $MESS["ML_SIZE_IN_PX"] = "Taille de l'image en pixels";
 $MESS["ML_SOURCE_ERROR"] = "Le fichier n'est pas sélectionné.";
-$MESS["ML_TYPE_IMAGE_DESC"] = "Photos, images, icônes, dessins et autres fichiers graphiques";
+$MESS["ML_TYPE_IMAGE_DESC"] = "Photos, images, icônes et autres fichiers graphiques";
 $MESS["ML_TYPE_IMAGE_NAME"] = "Images";
-$MESS["ML_TYPE_SOUND_DESC"] = "Les fichiers audio";
+$MESS["ML_TYPE_SOUND_DESC"] = "Fichiers audio";
 $MESS["ML_TYPE_SOUND_NAME"] = "Audio";
 $MESS["ML_TYPE_VIDEO_DESC"] = "Fichiers vidéo";
-$MESS["ML_TYPE_VIDEO_NAME"] = "Galerie vidéo";
+$MESS["ML_TYPE_VIDEO_NAME"] = "Vidéo";
 $MESS["ML_UPPER_LEVEL"] = "Niveau supérieur";
 $MESS["ML_VIEW_ITEM"] = "Vue détaillée de l'élément";
-?>

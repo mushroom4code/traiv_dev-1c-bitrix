@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION_DESC"] = "ID de l'action";
 $MESS["DETAIL_EDIT_PAGE"] = "Photo (modifier)";
 $MESS["DETAIL_LIST_PAGE"] = "Liste de photos";
@@ -108,7 +108,7 @@ $MESS["P_WATERMARK_TRANSPARENCY"] = "Transparence du filigrane";
 $MESS["P_WATERMARK_TYPE"] = "Type de filigrane";
 $MESS["P_WATERMARK_TYPE_PICTURE"] = "Image";
 $MESS["P_WATERMARK_TYPE_TEXT"] = "inscription (texte)";
-$MESS["RATING_MAIN_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_MAIN_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_MAIN_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_MAIN_TYPE_LIKE"] = "Cela plaît à";
 $MESS["RATING_MAIN_TYPE_STANDART"] = "Plus / Moins";
@@ -142,4 +142,3 @@ $MESS["T_TAGS_CLOUD"] = "Paramètres des tags";
 $MESS["UPLOAD_PAGE"] = "Charger une photo";
 $MESS["USER_ALIAS_DESC"] = "Code Gallery";
 $MESS["USER_ID_DESC"] = "Identifiant de l'utilisateur";
-?>

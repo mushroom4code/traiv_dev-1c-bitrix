@@ -63,7 +63,7 @@ foreach($arFilterFields as $key)
 	}
 }
 
-if ($bAdmin && $lAdmin->EditAction()) //åñëè èäåò ñîõðàíåíèå ñî ñïèñêà
+if ($bAdmin && $lAdmin->EditAction()) //ÐµÑÐ»Ð¸ Ð¸Ð´ÐµÑ‚ ÑÐ¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ð¸Ðµ ÑÐ¾ ÑÐ¿Ð¸ÑÐºÐ°
 {
 	$obSUG = new CSupportUserGroup();
 	foreach($FIELDS as $ID => $arFields)

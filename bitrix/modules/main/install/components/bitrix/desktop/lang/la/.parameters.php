@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CMDESKTOP_PARAMS_CAN_EDIT"] = "Permitir a todos los usuarios autorizados a gestionar su propio Escritorio personal";
 $MESS["CMDESKTOP_PARAMS_COLUMNS"] = "Número de columnas";
 $MESS["CMDESKTOP_PARAMS_COLUMN_WITH"] = "Ancho de la columna (px o %)";
@@ -16,8 +16,7 @@ $MESS["CMDESKTOP_PARAMS_PATH_TO_CONPANY_DEPARTMENT"] = "Ruta a la plantilla de p
 $MESS["CMDESKTOP_PARAMS_PATH_TO_VIDEO_CALL"] = "Página de Video Llamada";
 $MESS["CMDESKTOP_PARAMS_PM_URL"] = "Página de mensajes personales";
 $MESS["CMDESKTOP_PARAMS_SHOW_LOGIN"] = "Mostrar Login si no esta disponible el campo requerido nombre de usaurio";
-$MESS["CMDESKTOP_PARAMS_SHOW_YEAR"] = "Mostrar fecha de cumpleaños";
+$MESS["CMDESKTOP_PARAMS_SHOW_YEAR"] = "Mostrar fecha de nacimiento";
 $MESS["CMDESKTOP_PARAMS_SHOW_YEAR_VALUE_M"] = "sólo varones";
 $MESS["CMDESKTOP_PARAMS_SHOW_YEAR_VALUE_N"] = "nadie";
 $MESS["CMDESKTOP_PARAMS_SHOW_YEAR_VALUE_Y"] = "todo";
-?>

@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["SMOH_ALLOW_DELIVERY"] = "Expédition autorisée";
 $MESS["SMOH_CANCELED"] = "Annulé";
 $MESS["SMOH_DELIVERY_ID"] = "Service de livraison";
 $MESS["SMOH_DESCRIPTION"] = "Détails";
 $MESS["SMOH_DISCOUNT_VALUE"] = "Montant de la remise";
-$MESS["SMOH_FIO"] = "Accès à la lecture et écriture sans restrictions";
+$MESS["SMOH_FIO"] = "Nom du fournisseur";
 $MESS["SMOH_FN_AFFILIATE_ID"] = "Code d'affiliation";
 $MESS["SMOH_FN_CURRENCY"] = "Devises";
 $MESS["SMOH_FN_DATE_ALLOW_DELIVERY"] = "Date d'autorisation de livraison";
@@ -34,7 +34,7 @@ $MESS["SMOH_HISTORY"] = "Historique";
 $MESS["SMOH_HISTORY_EMPTY"] = "Aucune note";
 $MESS["SMOH_NO"] = "Non";
 $MESS["SMOH_OPERATION"] = "Opération";
-$MESS["SMOH_ORDER"] = "Ordre";
+$MESS["SMOH_ORDER"] = "Commande";
 $MESS["SMOH_ORDER_FROM"] = "de";
 $MESS["SMOH_ORDER_N"] = "Commande #";
 $MESS["SMOH_PAYED"] = "La facture est réglée";
@@ -47,4 +47,3 @@ $MESS["SMOH_TAX_VALUE"] = "Impôt";
 $MESS["SMOH_TRANSACT"] = "Transactions";
 $MESS["SMOH_USER"] = "Utilisateur";
 $MESS["SMOH_YES"] = "Oui";
-?>

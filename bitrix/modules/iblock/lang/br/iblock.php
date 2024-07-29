@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_ALL"] = "(qualquer)";
 $MESS["IBLOCK_BACK_TO_ADMIN"] = "Voltar à lista de bloco de informação";
 $MESS["IBLOCK_BAD_BLOCK_ID"] = "Código de bloco de informação incorreto.";
@@ -62,7 +62,7 @@ $MESS["IBLOCK_PROP_G"] = "Vincular a Seções";
 $MESS["IBLOCK_PROP_HTML_DESC"] = "HTML / texto";
 $MESS["IBLOCK_PROP_L"] = "Lista";
 $MESS["IBLOCK_PROP_N"] = "Número";
-$MESS["IBLOCK_PROP_S"] = "String";
+$MESS["IBLOCK_PROP_S"] = "Série";
 $MESS["IBLOCK_PROP_SAUTOCOMPLETE_DESC"] = "Associar a seções com preenchimento automático";
 $MESS["IBLOCK_PROP_SEQUENCE_DESC"] = "Contador";
 $MESS["IBLOCK_PROP_SKU_DESC"] = "Link para itens de produtos (SKU)";
@@ -82,4 +82,3 @@ $MESS["IBLOCK_XML2_INDEX_ERROR"] = "Um erro ocorreu ao tentar criar um índice."
 $MESS["IBLOCK_XML2_METADATA_ERROR"] = "Ocorreu um erro ao tentar importar metadados do catálogo.";
 $MESS["IBLOCK_XML2_TABLE_CREATE_ERROR"] = "Ocorreu um erro ao tentar criar tabelas de importação temporárias.";
 $MESS["IBLOCK_YES"] = "Sim";
-?>

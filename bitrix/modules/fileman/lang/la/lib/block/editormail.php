@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOCK_EDITOR_BLOCK_BOXEDIMAGE_DESC"] = "Inserta en este block una imagen y texto en un marco.";
 $MESS["BLOCK_EDITOR_BLOCK_BOXEDIMAGE_NAME"] = "Imagen enmarcada";
 $MESS["BLOCK_EDITOR_BLOCK_BOXEDTEXT_DESC"] = "Este bloque contiene un marco de texto";
@@ -14,8 +14,9 @@ $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_BASKET_NAME"] = "Carrito de compras";
 $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_BIGDATA_NAME"] = "Datos Importantes";
 $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_CATALOG_NAME"] = "Catálogo";
 $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_COUPON_NAME"] = "Cupón";
-$MESS["BLOCK_EDITOR_BLOCK_COMPONENT_ORDER_NAME"] = "Orden";
+$MESS["BLOCK_EDITOR_BLOCK_COMPONENT_ORDER_NAME"] = "Pedido";
 $MESS["BLOCK_EDITOR_BLOCK_DYNAMIC_CONTENT"] = "Contenido dinámico";
+$MESS["BLOCK_EDITOR_BLOCK_FOOTER_CONSENT_EXAMPLE"] = "Consentimiento para el seguimiento del correo electrónico";
 $MESS["BLOCK_EDITOR_BLOCK_FOOTER_DESC"] = "Insertar este block de información para darse de baja en la listas de correo.";
 $MESS["BLOCK_EDITOR_BLOCK_FOOTER_EXAMPLE"] = "Dejar suscripción";
 $MESS["BLOCK_EDITOR_BLOCK_FOOTER_NAME"] = "Footer";
@@ -36,4 +37,3 @@ $MESS["BLOCK_EDITOR_BLOCK_SOCIAL_VK"] = "vk";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_DESC"] = "Este block contiene texto.";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_EXAMPLE"] = "Este block no contiene texto, usted puede escribir.";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_NAME"] = "Texto";
-?>

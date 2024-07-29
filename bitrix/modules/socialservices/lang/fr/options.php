@@ -1,8 +1,8 @@
-<?
+<?php
 $MESS["SOC_OPT_B24NET_CLIENT_ID"] = "Portail ID";
 $MESS["SOC_OPT_B24NET_CLIENT_SECRET"] = "Code secret Portal";
 $MESS["SOC_OPT_B24NET_GET"] = "Obtenir";
-$MESS["SOC_OPT_B24NET_PUT"] = "Insérer";
+$MESS["SOC_OPT_B24NET_PUT"] = "Coller";
 $MESS["SOC_OPT_B24NET_SITE"] = "Obtenez paramètres d'authentification pour le site";
 $MESS["SOC_OPT_B24NET_TITLE"] = "Créer site dans Bitrix24.Network";
 $MESS["SOC_OPT_MAIN_DENY_AUTH"] = "Les groupes d'utilisateurs qui ne peuvent pas vous connecter en utilisant les services sociaux";
@@ -22,5 +22,4 @@ $MESS["socserv_sett_common"] = "commun";
 $MESS["socserv_sett_common_title"] = "Réglages généraux pour tous les sites";
 $MESS["socserv_sett_site"] = "Réglages pour le site";
 $MESS["socserv_sett_site_apply"] = "Appliquer les paramètres individuels pour ce site : ";
-$MESS["socserv_twit_to_buzz"] = "Diffuser les tweets des utilisateurs avec hashtag #hash# au volet d'activités";
-?>
+$MESS["socserv_twit_to_buzz2"] = "Diffuser les tweets des utilisateurs avec hashtag #hash# aux Actualités";

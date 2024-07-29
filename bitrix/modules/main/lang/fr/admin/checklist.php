@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CL_ADD_COMMENT"] = "Ajouter un commentaire...";
 $MESS["CL_ADD_SITES_FIELDS"] = "Ajouter plus";
 $MESS["CL_AUTOTEST_DONE"] = "L'autotest est terminé";
@@ -29,7 +29,7 @@ $MESS["CL_HIDE_COMMENTS"] = "Cacher les commentaires";
 $MESS["CL_HIDE_REPORT"] = "Masquer les barres de tâches";
 $MESS["CL_MANUAL"] = "<p>Avant de réaliser un projet vous devrez passer des tests différents: qualité du développement, configurations du produit et la conformité spécifique de Bitrix Framework .</p><p>Les tests eux-mêmes sont divisés en deux types: obligatoires et facultatifs. Pour la réalisation du projet il suffit de passer les tests obligatoires.</p><p>Le passage de tests facultatifs avantagera votre projet. Certains tests dispose d'une vérification automatique.</p> ";
 $MESS["CL_MANUAL2"] = "<p>Programme partenaire du Monitoring de la qualité des projets se compose de deux étapes: le passage des tests du Monitoring de la qualité et de l'enquête du propriétaire du projet. La première étape (Monitoring de la qualité) est passée.</p><p><b>Deuxième étape du projet dqns 'Bitrix'. Enquête du propriétaire du projet.</b><br>Veuillez saisir les coordonnées du propriétaire.<br>Nous prendrons contact avec lui et poserons 10 petites questions consernant la qualité de la gestion du développeur, qualité du projet développé et facilité d'utilisation du logiciel 'Bitrix'.</p><p><b>Informez-le obligatoirement sur notre appel !</b></p>";
-$MESS["CL_MANUAL_MINI"] = "<p>Pour la réalisation du projet dans le Bitrix, vous devez passer les tests restants obligatoires. Ils peuvent être dans le statut 'N'est pas encore passé' (N'est pas passé automatiquement), ou dans le statut 'En attente' (nécessite vérification manuelle supplémentaire). Pour les passer, vous devez apprendre à nos conseils relatives à l'épreuve en allant aux détails du test à l'onglet 'Conseils', ainsi que les détails de l'erreur (rapport détaillé).</p> <p>Ensuite, il ya deux options : </p> <ol> <li> soit corriger les erreurs et relancez le test, </li> <li>, soit, si vous pensez que vous aviez suivi tous les conseils mais il ya des nuances qui affectent la résultat du test, laisser un commentaire pour notre modérateur et modifier votre propre statut contre 'Réussi'. </li> </ol>";
+$MESS["CL_MANUAL_MINI"] = "<p>Pour la réalisation du projet dans le Bitrix vous devez passer les tests restants obligatoires. Ils peuvent être dans le statut 'N'est pas encore passé' (N'est pas passé automatiquement), ou dans le statut 'En attente' (nécessite vérification manuelle supplémentaire). Pour les passer, vous devez apprendre à nos conseils relatives à l'épreuve en allant aux détails du test à l'onglet 'Conseils', ainsi que les détails de l'erreur (rapport détaillé).</p> <p>Ensuite, il ya deux options : </p> <ol> <li> soit corriger les erreurs et relancez le test, </li> <li>, soit, si vous pensez que vous aviez suivi tous les conseils mais il ya des nuances qui affectent la résultat du test, laisser un commentaire pour notre modérateur et modifier votre propre statut contre 'Réussi'. </li> </ol>";
 $MESS["CL_MANUAL_MINI_2"] = "Ces résultats sont suffisants pour présenter le projet du Moniteur de qualité. Pour enregistrer les résultats du test veuillez entrer vos coordonnées.";
 $MESS["CL_MANUAL_TEST"] = "<p>Liste de contrôle de la qualité comprend les recommendations d'experts pour effectuer le projet web mieux intégrée, en commençant par le réglage de modèles de conception et en terminant par des tests de charge et de l'organisation de l'audit de sécurité.</p>
 <p>Les recommandations sont basées sur l'expérience de mise en uvre et l'exploitation de solutions Web de complexité variable sur la plate-forme Bitrix Framework sous de fortes charges. La mise en uvre des recommandations permettra d'améliorer la performance, la sécurité et la gestion du projet web, permettra de réduire les risques techniques et le coût d'appui et de développement.</p>
@@ -48,7 +48,7 @@ $MESS["CL_MANUAL_TEST"] = "<p>Liste de contrôle de la qualité comprend les rec
 $MESS["CL_MORE_DETAILS"] = "Rapport détaillé";
 $MESS["CL_MORE_DETAILS_INF"] = "Information détaillée sur le résultat de l'autotest";
 $MESS["CL_NEED_TO_STOP"] = "Pour modifier le statut vous devez arrêter l'autotest.";
-$MESS["CL_NEXT_TEST"] = "En avant";
+$MESS["CL_NEXT_TEST"] = "Suivant";
 $MESS["CL_NOW_AUTOTEST_WORK"] = "Comment ca fonctionne";
 $MESS["CL_NOW_TO_TEST_IT"] = "Comment tester";
 $MESS["CL_NO_COMMENT"] = "Si vous pensez que les recommandations ont été remplies et qu'il y a des nuances qui influent sur le résultat du test, vous pouvez laisser un commentaire pour notre modérateur et changer le statut à 'Passé avec succès'.";
@@ -67,14 +67,14 @@ $MESS["CL_REPORT_COMMENT_HELP"] = "Ici vous pouvez indiquer n'importe quelle inf
 $MESS["CL_REPORT_COMPANY_NAME"] = "Entreprise";
 $MESS["CL_REPORT_DATE"] = "Date";
 $MESS["CL_REPORT_EMAIL"] = "Adresse e-mail";
-$MESS["CL_REPORT_FIO_TESTER"] = "Accès à la lecture et écriture sans restrictions";
+$MESS["CL_REPORT_FIO_TESTER"] = "Nom du fournisseur";
 $MESS["CL_REPORT_INFO"] = "Information sur le rapport";
 $MESS["CL_REPORT_INVITE"] = "Nous vous invitons à prendre part au programme de contrôle qualité. Remplissez le formulaire ci-dessous afin que nos employés puissent contacter le client pour remplir les questionnaires. Prévenez le client.";
 $MESS["CL_REPORT_NOT_FOUND"] = "le rapport n'a pas été trouvé.";
 $MESS["CL_REPORT_OLD"] = "Le rapport n'est pas à jour. Veuillez recommencer le test.";
 $MESS["CL_REPORT_PHONE"] = "Téléphone de contact";
 $MESS["CL_REPORT_PHONE_ADD"] = "ext.";
-$MESS["CL_REPORT_SENDED"] = "Le rapport est transféré vers Bitrix Inc.";
+$MESS["CL_REPORT_SENDED"] = "Le rapport est transféré vers Bitrix24";
 $MESS["CL_REPORT_SITES"] = "Sites";
 $MESS["CL_REPORT_TABLE_CHECKED"] = "A été passé";
 $MESS["CL_REPORT_TABLE_DETAIL"] = "détails";
@@ -123,4 +123,3 @@ $MESS["CL_TEST_WAITING"] = "Attend l'exécution";
 $MESS["CL_TITLE_CHECKLIST"] = "Moniteur de la qualité";
 $MESS["CL_VENDOR"] = "Développeur";
 $MESS["CL_W_STATUS"] = "Attend l'exécution";
-?>

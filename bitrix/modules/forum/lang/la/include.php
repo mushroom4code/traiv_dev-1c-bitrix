@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADDMESS_AFTER_MODERATE"] = "Puede ser visible después de la moderación";
 $MESS["ADDMESS_ERROR_ADD_MESSAGE"] = "Error al crear un nuevo mensaje";
 $MESS["ADDMESS_ERROR_ADD_TOPIC"] = "Error al crear un nuevo tema";
@@ -146,7 +146,7 @@ $MESS["FR_NO_VPERS"] = "Ningún usuario sp";
 $MESS["FR_NUM_MESS"] = "Total de mensajes:";
 $MESS["FR_PRIVATE_MESSAGE"] = "Mensaje";
 $MESS["FR_PROFILE"] = "Perfil";
-$MESS["FR_QUOTE"] = "Cotización";
+$MESS["FR_QUOTE"] = "Citar";
 $MESS["FR_QUOTE_HINT"] = "Para citar el mensaje en la respuesta, selecciónelo y oprima aquí ";
 $MESS["FR_REAL_IP"] = "/ real";
 $MESS["FR_SHOW"] = "Mostrar";
@@ -211,4 +211,3 @@ $MESS["TOTOP_NO_PERMS1"] = "Permisos insuficientes para quitar fijación a este 
 $MESS["TOTOP_NO_TOPIC"] = "No hay tema seleccionado";
 $MESS["TOTOP_SUCCESS_TOP"] = "El tema ha sido fijado con éxito.";
 $MESS["TOTOP_SUCCESS_TOP1"] = "El tema se le quitó la fijación con éxito.";
-?>

@@ -8,4 +8,5 @@ $MESS["LANDING_DEMO_STORE_CHATS_DARK-MAIN-TEXT2"] = "Контакти";
 $MESS["LANDING_DEMO_STORE_CHATS_DARK-MAIN-TEXT3"] = "Інформація про оплату";
 $MESS["LANDING_DEMO_STORE_CHATS_DARK-MAIN-TEXT4"] = "Форма для зв'язку";
 $MESS["LANDING_DEMO_STORE_CHATS_DARK-MAIN-TEXT5"] = "Ми думаємо про кожного клієнта!";
+$MESS["LANDING_DEMO_STORE_CHATS_DARK-MAIN-TEXT6"] = "Візитка";
 ?>

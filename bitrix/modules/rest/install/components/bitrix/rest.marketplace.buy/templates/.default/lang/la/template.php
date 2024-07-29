@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MARKETPLACE_ADD_RIGHTS"] = "Establecer permisos de acceso";
 $MESS["MARKETPLACE_APP_BUY"] = "Comprar";
 $MESS["MARKETPLACE_APP_CLEAN"] = "eliminar la configuración de aplicaciones y datos";
@@ -19,18 +19,3 @@ $MESS["MARKETPLACE_APP_TRIAL_FINISH"] = "El periodo de prueba expirará el #NUM#
 $MESS["MARKETPLACE_BUYS_EMPTY"] = "Usted no tiene ninguna de las aplicaciones";
 $MESS["MARKETPLACE_DELETE_BUTTON"] = "Eliminar";
 $MESS["MARKETPLACE_INSTALL_BUTTON"] = "Instalar";
-$MESS["PAYMENT_MESSAGE_D_N_Y"] = "Algunas de las características de la aplicación no están disponibles. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_D_N_Y_A"] = "Algunas de las características de la aplicación no están disponibles. Por favor, comprar la versión completa.";
-$MESS["PAYMENT_MESSAGE_D_Y_Y"] = "Su aplicación de suscripción ha caducado. Algunas de las características de la aplicación no están disponibles. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_D_Y_Y_A"] = "Su aplicación de suscripción ha caducado. Algunas de las características de la aplicación no están disponibles.";
-$MESS["PAYMENT_MESSAGE_P_N_Y"] = "Su aplicación de suscripción expirará el <b>#DAYS#</b> días. Por favor, póngase en contacto con el administrador para renovar la suscripción.";
-$MESS["PAYMENT_MESSAGE_P_N_Y_A"] = "Su aplicación de suscripción expirará el <b>#DAYS#</b> días.";
-$MESS["PAYMENT_MESSAGE_P_Y_N"] = "La aplicación ya no está disponible debido a que su suscripción ha caducado. Por favor, póngase en contacto con el administrador para renovar la suscripción.";
-$MESS["PAYMENT_MESSAGE_P_Y_N_A"] = "La aplicación ya no está disponible debido a que su suscripción ha caducado.";
-$MESS["PAYMENT_MESSAGE_P_Y_Y"] = "Su aplicación de suscripción ha caducado. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_P_Y_Y_A"] = "Su aplicación de suscripción ha caducado.";
-$MESS["PAYMENT_MESSAGE_T_N_Y"] = "El periodo de prueba expirará el <b>#DAYS#</b> días. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_T_N_Y_A"] = "El periodo de prueba expirará el <b>#DAYS#</b> días.";
-$MESS["PAYMENT_MESSAGE_T_Y_N"] = "El período de prueba ha caducado. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_T_Y_N_A"] = "El período de prueba ha caducado. Por favor, comprar la versión completa.";
-?>

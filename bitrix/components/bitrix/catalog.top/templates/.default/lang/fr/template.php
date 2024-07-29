@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_TO_BASKET_OK"] = "La marchandise est ajoutée dans le panier";
 $MESS["CATALOG_COMPARE"] = "Comparaison";
 $MESS["CT_BCT_CATALOG_BASKET_UNKNOWN_ERROR"] = "Erreur inconnue lors de l'ajout de la marchandise au panier";
@@ -24,4 +24,4 @@ $MESS["CT_BCT_TPL_MESS_BTN_DETAIL"] = "En savoir plus";
 $MESS["CT_BCT_TPL_MESS_BTN_SUBSCRIBE"] = "Avertir sur l'arrivée";
 $MESS["CT_BCT_TPL_MESS_PRICE_SIMPLE_MODE_SHORT"] = "de #PRICE#";
 $MESS["CT_BCT_TPL_MESS_PRODUCT_NOT_AVAILABLE"] = "il n'y a pas en entrepôt";
-?>
+$MESS["CT_BCT_TPL_MESS_PRODUCT_NOT_AVAILABLE_SERVICE"] = "Absents";

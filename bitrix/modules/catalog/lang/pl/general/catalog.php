@@ -1,10 +1,16 @@
-<?
+<?php
 $MESS["BT_MOD_CATALOG_ERR_BEFORE_DEL_TITLE"] = "Usunięcie błędu w";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_CODE"] = "Nie można zmienić ID właściwości systemowej  \"Brand\", ponieważ jest ona używana przez otwarte kanały do wysyłania produktów.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_MULTIPLE"] = "Nie można zmienić właściwości systemowej  \"Brand\" na inną niż wielokrotna, ponieważ jest ona używana przez kanały otwarte do wysyłania produktów.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_BRAND_PROPERTY_NAME"] = "Nie można zmienić nazwy właściwości systemowej  \"Brand\", ponieważ jest ona używana przez otwarte kanały do wysyłania produktów.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_CHANGE_TYPE_SKU_PROPERTY"] = "Właściwości ##SKU_PROPERTY_ID# nie można modyfikować ponieważ wiąże blok informacji produktu ##PRODUCT_IBLOCK_ID# z blokiem informacji SKU ##IBLOCK_ID#";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_BRAND_PROPERTY"] = "Nie można usunąć właściwości systemowej  \"Brand\", ponieważ jest ona używana przez otwarte kanały do wysyłania produktów.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_OFFERS"] = "SKU nie może zostać usunięte.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_PRODUCTS_INFO"] = "Informacja handlowa z katalogu elementów nie mogą zostać usunięta";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_PRODUCT_IBLOCK"] = "Blok informacji zawierający SKU nie może zostać usunięty.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_SKU_IBLOCK"] = "Blok informacji SKU nie może zostać usunięty.";
 $MESS["BT_MOD_CATALOG_ERR_CANNOT_DELETE_SKU_PROPERTY"] = "Nie można usunąć właściwości ##SKU_PROPERTY_ID# ponieważ wiąże blok informacji produktu ##PRODUCT_IBLOCK_ID# z blokiem informacji SKU ##IBLOCK_ID#.";
+$MESS["BT_MOD_CATALOG_ERR_CANNOT_SET_MULTIPLE_SKU_PROPERTY"] = "Właściwość ##SKU_PROPERTY_ID# nie może być wielokrotna ponieważ wiąże blok informacji produktu ##PRODUCT_IBLOCK_ID# z blokiem informacji SKU ##IBLOCK_ID#";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_ABSENT"] = "Określony blok informacji nie istnieje.";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_FIELD_ABSENT"] = "Blok informacji nie jest określony.";
 $MESS["BT_MOD_CATALOG_ERR_IBLOCK_ID_INVALID"] = "Nieprawidłowe ID bloku informacji.";
@@ -23,4 +29,3 @@ $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_ID_INVALID"] = "Nieprawidłowe ID bloku infor
 $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_NOT_FOUND"] = "Określona wiążąca właściwość nie istnieje lub nie jest aktywna.";
 $MESS["BT_MOD_CATALOG_ERR_SKU_PROP_WITHOUT_PRODUCT"] = "ID bloku infromacji produktu powiązanej właściwości";
 $MESS["BT_MOD_CATALOG_ERR_UPDATE_BAD_ID"] = "Nieprawidłowe ID katalogu.";
-?>

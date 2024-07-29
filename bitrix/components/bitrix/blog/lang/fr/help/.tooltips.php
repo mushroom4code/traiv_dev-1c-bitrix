@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AJAX_MODE_TIP"] = "Inclusion pour le composant du mode AJAX.";
 $MESS["AJAX_OPTION_HISTORY_TIP"] = "Lorsqu'un utilisateur effectue les transitions AJAX, alors si l'option est cochée, vous pouvez utiliser les boutons 'Retour' et 'Suivant' du navigateur.";
 $MESS["AJAX_OPTION_JUMP_TIP"] = "Si l'utilisateur effectue la transition AJAX, alors après l'achèvement du chargement le défilement vers le début du composant aura lieu.";
@@ -18,7 +18,7 @@ $MESS["MESSAGE_LENGTH_TIP"] = "Le nombre maximum de blogs qui peuvent être affi
 $MESS["MESSAGE_LENTH_TIP"] = "Longueur du texte des messages affichés sur la page principale des blogues.";
 $MESS["PATH_TO_SMILE_TIP"] = "Indiquer le chemin vers le dossier avec les smileys.";
 $MESS["POST_PROPERTY_LIST_TIP"] = "Sélectionnez ici les propriétés de poste supplémentaires qui seront affichés dans le blog.";
-$MESS["POST_PROPERTY_TIP"] = "Sélectionnez ici les propriétés de poste supplémentaires qui seront affichées sur la page post vue.";
+$MESS["POST_PROPERTY_TIP"] = "Sélectionnez ici les propriétés de poste supplémentaires qui seront affichées sur la page d'affichage de post.";
 $MESS["SEF_FOLDER_TIP"] = "Catalogue de la commande numérique (par rapport à la racine du site).";
 $MESS["SEF_MODE_TIP"] = "Active le mode convivial de moteur de recherche (SEF) et permet sur les <nobr> <i>gestion Page URL</i> </nobr>champs.";
 $MESS["SEF_URL_TEMPLATES_blog_TIP"] = "Chemin vers le dossier du blog.";
@@ -46,4 +46,3 @@ $MESS["VARIABLE_ALIASES_group_id_TIP"] = "Indiquer le nom de la variable à laqu
 $MESS["VARIABLE_ALIASES_page_TIP"] = "Indiquer le nom de la variable à laquelle la page du blogue est transmise.";
 $MESS["VARIABLE_ALIASES_post_id_TIP"] = "Indiquer le nom de la variable à laquelle ID du message du blogue est transmis.";
 $MESS["VARIABLE_ALIASES_user_id_TIP"] = "Il est indiqué le nom de la variable pour laquelle l'identifiant de l'utilisateur du blog est transmis.";
-?>

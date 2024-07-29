@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JS_UI_VIEWER_DEFAULT_ERROR_TITLE"] = "C’est une erreur.";
 $MESS["JS_UI_VIEWER_IMAGE_VIEW_FULL_SIZE"] = "Afficher la taille complète";
 $MESS["JS_UI_VIEWER_ITEM_ACTION_DELETE"] = "Supprimer";
@@ -14,4 +14,4 @@ $MESS["JS_UI_VIEWER_ITEM_TRANSFORMATION_TIMEOUT"] = "Échec de la conversion. Vo
 $MESS["JS_UI_VIEWER_ITEM_UNKNOWN_DOWNLOAD_ACTION"] = "Télécharger le fichier";
 $MESS["JS_UI_VIEWER_ITEM_UNKNOWN_NOTICE"] = "Vous pouvez l'afficher sur votre ordinateur";
 $MESS["JS_UI_VIEWER_ITEM_UNKNOWN_TITLE"] = "Ce format de fichier n'est pas pris en charge";
-?>
+$MESS["JS_UI_VIEWER_SINGLE_DOCUMENT_LISTING_PAGES"] = "Page #CURRENT#<div class=\"ui-viewer-single-document-listing-pages-all\">/#ALL#</div>";

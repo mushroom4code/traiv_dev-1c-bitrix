@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JSPOPUP_CANCEL_CAPTION"] = "Annuler";
 $MESS["JSPOPUP_CANCEL_TITLE"] = "Annuler des modifications";
 $MESS["JSPOPUP_CLOSE_CAPTION"] = "Fermer";
@@ -15,8 +15,8 @@ $MESS["admin_lib_calend_direct_title"] = "Précision de la période";
 $MESS["admin_lib_calend_exact"] = "Précisément";
 $MESS["admin_lib_calend_interval"] = "Délais";
 $MESS["admin_lib_calend_month"] = "Mois";
-$MESS["admin_lib_calend_next"] = "En avant";
-$MESS["admin_lib_calend_next_week"] = "En avant";
+$MESS["admin_lib_calend_next"] = "Suivant";
+$MESS["admin_lib_calend_next_week"] = "Suivant";
 $MESS["admin_lib_calend_no_period"] = "(non)";
 $MESS["admin_lib_calend_period_title"] = "Choix de la période";
 $MESS["admin_lib_calend_previous"] = "Précédent";
@@ -79,6 +79,7 @@ $MESS["admin_lib_less_buttons"] = "Utilisez de petites touches dans le menu";
 $MESS["admin_lib_list_act"] = "Actions";
 $MESS["admin_lib_list_actions"] = "- actions -";
 $MESS["admin_lib_list_actions_title"] = "Actions";
+$MESS["admin_lib_list_all_title"] = "Total";
 $MESS["admin_lib_list_apply"] = "Appliquer";
 $MESS["admin_lib_list_check"] = "Cocher/Décocher";
 $MESS["admin_lib_list_check_all"] = "Marquer tous/Enlever la marque pour tous";
@@ -95,11 +96,13 @@ $MESS["admin_lib_list_edit_save"] = "Enregistrer";
 $MESS["admin_lib_list_edit_save_title"] = "Enregistrer les modifications et éditeur de sortie";
 $MESS["admin_lib_list_for_all"] = "Pour tous";
 $MESS["admin_lib_list_no"] = "Non";
+$MESS["admin_lib_list_show_row_count_title"] = "Afficher la quantité";
 $MESS["admin_lib_list_yes"] = "Oui";
 $MESS["admin_lib_loading"] = "En cours de chargement...";
 $MESS["admin_lib_loading_title"] = "Chargement de menu articles...";
 $MESS["admin_lib_menu_content"] = "Contenu";
 $MESS["admin_lib_menu_content_title"] = "Gestion de Contenu du Site";
+$MESS["admin_lib_menu_landing"] = "Sites";
 $MESS["admin_lib_menu_loading"] = "En cours de chargement...";
 $MESS["admin_lib_menu_marketing"] = "Marketing";
 $MESS["admin_lib_menu_marketplace"] = "Marketplace";
@@ -223,4 +226,3 @@ $MESS["calend_th"] = "Jeu";
 $MESS["calend_title"] = "Calendrier";
 $MESS["calend_tu"] = "Mar";
 $MESS["calend_we"] = "Mer";
-?>

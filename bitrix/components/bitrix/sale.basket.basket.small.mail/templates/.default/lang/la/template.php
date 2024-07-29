@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_ADD_TO_BASKET"] = "Agregar al carrito";
 $MESS["SALE_CONTENT_DISCOUNT"] = "Descuento";
 $MESS["SALE_DELAY"] = "Guardar para más adelante";
@@ -22,11 +22,10 @@ $MESS["SALE_WEIGHT_G"] = "g";
 $MESS["STB_COUPON_PROMT"] = "Ingrese su código de cupón:";
 $MESS["STB_ORDER_PROMT"] = "Haga clic en \"Checkout\" para completar su pedido.";
 $MESS["TSBS_2BASKET"] = "Cambiar cantidad";
-$MESS["TSBS_2ORDER"] = "Hacer pedido";
+$MESS["TSBS_2ORDER"] = "Pedido";
 $MESS["TSBS_DELAY"] = "Posponer:";
 $MESS["TSBS_PRICE"] = "Precio:";
 $MESS["TSBS_QUANTITY"] = "Cantidad:";
 $MESS["TSBS_READY"] = "Elementos del carrito de compras:";
 $MESS["TSBS_SUBSCRIBE"] = "Suscripción:";
 $MESS["TSBS_UNAVAIL"] = "Actualmente no disponible:";
-?>

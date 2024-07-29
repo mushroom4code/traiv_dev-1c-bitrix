@@ -12,11 +12,12 @@ use Bitrix\Im\V2\Call\CallFactory;
 use Bitrix\Main\ArgumentException;
 use Bitrix\Main\Config\Option;
 use Bitrix\Main\Loader;
-use Bitrix\Main\ModuleManager;
 use Bitrix\Main\Type\DateTime;
 use Bitrix\Main\Event;
 use Bitrix\Main\UserTable;
 use Bitrix\Main\Web\JWT;
+use Bitrix\Main\Error;
+use Bitrix\Main\ErrorCollection;
 
 class Call
 {
@@ -62,6 +63,8 @@ class Call
 	/** @var Signaling */
 	protected $signaling;
 
+	protected ?ErrorCollection $errorCollection = null;
+
 	/**
 	 * Use one of the named constructors
 	 */
@@ -72,7 +75,7 @@ class Call
 	/**
 	 * @return int
 	 */
-	public function getId()
+	public function getId(): int
 	{
 		return (int)$this->id;
 	}
@@ -80,7 +83,7 @@ class Call
 	/**
 	 * @return string
 	 */
-	public function getProvider()
+	public function getProvider(): string
 	{
 		return $this->provider;
 	}
@@ -88,7 +91,7 @@ class Call
 	/**
 	 * @return int
 	 */
-	public function getInitiatorId()
+	public function getInitiatorId(): int
 	{
 		return $this->initiatorId;
 	}
@@ -101,6 +104,60 @@ class Call
 		return $this->actionUserId;
 	}
 
+	/**
+	 * Add multiple errors
+	 * @param Error[] $errors
+	 */
+	public function addErrors(array $errors): void
+	{
+		if (!$this->errorCollection instanceof ErrorCollection)
+		{
+			$this->errorCollection = new ErrorCollection();
+		}
+		$this->errorCollection->add($errors);
+	}
+
+	/**
+	 * @return Error[]
+	 */
+	public function getErrors(): array
+	{
+		if ($this->errorCollection instanceof ErrorCollection)
+		{
+			return $this->errorCollection->toArray();
+		}
+
+		return [];
+	}
+
+	/**
+	 * Upends stack of errors.
+	 * @param Error $error Error message object.
+	 * @return void
+	 */
+	public function addError(Error $error): void
+	{
+		if (!$this->errorCollection instanceof ErrorCollection)
+		{
+			$this->errorCollection = new ErrorCollection();
+		}
+		$this->errorCollection->add([$error]);
+	}
+
+	/**
+	 * Tells true if error have happened.
+	 * @return boolean
+	 */
+	public function hasErrors(): bool
+	{
+		if ($this->errorCollection instanceof ErrorCollection)
+		{
+			return !$this->errorCollection->isEmpty();
+		}
+
+		return false;
+	}
+
 	public function setActionUserId(int $byUserId): self
 	{
 		$this->actionUserId = $byUserId;
@@ -108,10 +165,10 @@ class Call
 	}
 
 	/**
-	 * @param $userId
+	 * @param int $userId
 	 * @return CallUser|null
 	 */
-	public function getUser($userId)
+	public function getUser($userId): ?CallUser
 	{
 		$this->loadUsers();
 		return isset($this->users[$userId]) ? $this->users[$userId] : null;
@@ -121,7 +178,7 @@ class Call
 	 * Returns arrays of ids of the users, currently participating in the call.
 	 * @return int[]
 	 */
-	public function getUsers()
+	public function getUsers(): array
 	{
 		$this->loadUsers();
 		return array_keys($this->users);
@@ -133,7 +190,7 @@ class Call
 	 * @param int $userId Id of the user.
 	 * @return bool
 	 */
-	public function hasUser($userId)
+	public function hasUser($userId): bool
 	{
 		$this->loadUsers();
 		return isset($this->users[$userId]);
@@ -143,19 +200,19 @@ class Call
 	 * Adds new user to the call.
 	 *
 	 * @param int $newUserId
-	 * @return CallUser|false
+	 * @return CallUser|null
 	 */
-	public function addUser($newUserId)
+	public function addUser($newUserId): ?CallUser
 	{
 		$this->loadUsers();
-		if($this->users[$newUserId])
+		if ($this->users[$newUserId])
 		{
 			return $this->users[$newUserId];
 		}
 
-		if(count($this->users) >= $this->getMaxUsers())
+		if (count($this->users) >= $this->getMaxUsers())
 		{
-			return false;
+			return null;
 		}
 
 		$this->users[$newUserId] = CallUser::create([
@@ -166,7 +223,7 @@ class Call
 		]);
 		$this->users[$newUserId]->save();
 
-		if($this->associatedEntity)
+		if ($this->associatedEntity)
 		{
 			$this->associatedEntity->onUserAdd($newUserId);
 		}
@@ -174,7 +231,7 @@ class Call
 		return $this->users[$newUserId];
 	}
 
-	public function removeUser($userId)
+	public function removeUser($userId): void
 	{
 		$this->loadUsers();
 		if($this->users[$userId])
@@ -190,7 +247,7 @@ class Call
 	 *  - another user in ready or calling state
 	 * @return bool
 	 */
-	public function hasActiveUsers(bool $strict = true)
+	public function hasActiveUsers(bool $strict = true): bool
 	{
 		$this->loadUsers();
 		$states = [];
@@ -200,19 +257,17 @@ class Call
 			$userState = $user->getState();
 			$states[$userState] = isset($states[$userState]) ? $states[$userState] + 1 : 1;
 		}
-		if($this->type == static::TYPE_PERMANENT || !$strict)
+		if ($this->type == static::TYPE_PERMANENT || !$strict)
 		{
 			 return $states[CallUser::STATE_READY] >= 1;
 		}
-		else
-		{
-			return $states[CallUser::STATE_READY] >= 2 || ($states[CallUser::STATE_READY] >= 1 && $states[CallUser::STATE_CALLING] >= 1);
-		}
+
+		return $states[CallUser::STATE_READY] >= 2 || ($states[CallUser::STATE_READY] >= 1 && $states[CallUser::STATE_CALLING] >= 1);
 	}
 
-	public function getSignaling()
+	public function getSignaling(): Signaling
 	{
-		if(is_null($this->signaling))
+		if (is_null($this->signaling))
 		{
 			$this->signaling = new Signaling($this);
 		}
@@ -223,16 +278,22 @@ class Call
 	/**
 	 * @return Integration\AbstractEntity|null
 	 */
-	public function getAssociatedEntity()
+	public function getAssociatedEntity(): ?Integration\AbstractEntity
 	{
 		return $this->associatedEntity;
 	}
 
-	public function setAssociatedEntity($entityType, $entityId)
+	/**
+	 * @param string $entityType
+	 * @param int $entityId
+	 * @return void
+	 * @throws ArgumentException
+	 */
+	public function setAssociatedEntity($entityType, $entityId): void
 	{
 		$entity = EntityFactory::createEntity($this, $entityType, $entityId);
 
-		if(!$entity)
+		if (!$entity)
 		{
 			throw new ArgumentException("Unknown entity " . $entityType . "; " . $entityId);
 		}
@@ -251,7 +312,7 @@ class Call
 	 * @param int $userId Id of the user.
 	 * @return bool
 	 */
-	public function checkAccess($userId)
+	public function checkAccess($userId): bool
 	{
 		return in_array($userId, $this->getUsers());
 	}
@@ -259,15 +320,15 @@ class Call
 	/**
 	 * @return string
 	 */
-	public function getState()
+	public function getState(): string
 	{
 		return $this->state;
 	}
 
 	/**
-	 * @return int|false
+	 * @return int|null
 	 */
-	public function getParentId()
+	public function getParentId(): ?int
 	{
 		return $this->parentId;
 	}
@@ -277,7 +338,7 @@ class Call
 	 *
 	 * @return int
 	 */
-	public function getChatId()
+	public function getChatId(): int
 	{
 		return $this->chatId;
 	}
@@ -317,7 +378,7 @@ class Call
 		return $this->endDate;
 	}
 
-	public function inviteUsers(int $senderId, array $toUserIds, $isLegacyMobile, $video = false, $sendPush = true)
+	public function inviteUsers(int $senderId, array $toUserIds, $isLegacyMobile, $video = false, $sendPush = true): void
 	{
 		$this->getSignaling()->sendInvite(
 			$senderId,
@@ -331,33 +392,34 @@ class Call
 	/**
 	 * @param string $state
 	 */
-	public function updateState($state)
+	public function updateState($state): bool
 	{
-		if($this->state == $state)
+		if ($this->state == $state)
 		{
 			return false;
 		}
 		$prevState = $this->state;
 		$this->state = $state;
 		$updateResult = CallTable::updateState($this->getId(), $state);
-		if(!$updateResult)
+		if (!$updateResult)
 		{
 			return false;
 		}
 
-		if($this->associatedEntity)
+		if ($this->associatedEntity)
 		{
 			$this->associatedEntity->onStateChange($state, $prevState);
 		}
+
 		return true;
 	}
 
-	public function setLogUrl(string $logUrl)
+	public function setLogUrl(string $logUrl): void
 	{
 		$this->logUrl = $logUrl;
 	}
 
-	public function setEndpoint($endpoint)
+	public function setEndpoint($endpoint): void
 	{
 		$this->endpoint = $endpoint;
 	}
@@ -391,7 +453,7 @@ class Call
 		return null;
 	}
 
-	public function toArray($currentUserId = 0, $withSecrets = false)
+	public function toArray($currentUserId = 0, $withSecrets = false): array
 	{
 		$result = [
 			'ID' => $this->id,
@@ -420,23 +482,23 @@ class Call
 		return $result;
 	}
 
-	public function save()
+	public function save(): void
 	{
 		$fields = $this->toArray(0, true);
 		unset($fields['ID']);
 
-		if(!$this->id)
+		if (!$this->id)
 		{
 			$insertResult = CallTable::add($fields);
 			$this->id = $insertResult->getId();
 		}
 		else
 		{
-			$updateResult = CallTable::update($this->id, $fields);
+			CallTable::update($this->id, $fields);
 		}
 	}
 
-	public function makeClone($newProvider = null)
+	public function makeClone($newProvider = null): Call
 	{
 		$callFields = $this->toArray();
 		$callFields['ID'] = null;
@@ -463,12 +525,14 @@ class Call
 		return $instance;
 	}
 
-	protected function loadUsers()
+	protected function loadUsers(): void
 	{
-		if(is_array($this->users))
+		if (is_array($this->users))
+		{
 			return;
+		}
 
-		$this->users = array();
+		$this->users = [];
 
 		$cursor = CallUserTable::getList(array(
 			'filter' => array(
@@ -600,14 +664,9 @@ class Call
 		return Option::get('im', 'allow_call_feedback', 'N') === 'Y';
 	}
 
-	public function getMaxUsers()
+	public function getMaxUsers(): int
 	{
-		if ($this->provider == static::PROVIDER_VOXIMPLANT)
-		{
-			return static::getMaxCallServerParticipants();
-		}
-
-		return (int)Option::get('im', 'turn_server_max_users');
+		return self::getMaxParticipants();
 	}
 
 	public function getLogToken(int $userId = 0, int $ttl = 3600) : string
@@ -653,21 +712,19 @@ class Call
 		return (string)Option::get('im', 'call_log_service');
 	}
 
-	public static function getMaxParticipants()
+	public static function getMaxParticipants(): int
 	{
 		if (static::isCallServerEnabled())
 		{
 			return static::getMaxCallServerParticipants();
 		}
-		else
-		{
-			return (int)Option::get('im', 'turn_server_max_users');
-		}
+
+		return (int)Option::get('im', 'turn_server_max_users');
 	}
 
-	public static function getMaxCallServerParticipants()
+	public static function getMaxCallServerParticipants(): int
 	{
-		if(Loader::includeModule('bitrix24'))
+		if (Loader::includeModule('bitrix24'))
 		{
 			return (int)\Bitrix\Bitrix24\Feature::getVariable('im_max_call_participants');
 		}
@@ -687,7 +744,7 @@ class Call
 	/**
 	 * Use this constructor only for creating new calls
 	 */
-	public static function createWithEntity($type, $provider, $entityType, $entityId, $initiatorId)
+	public static function createWithEntity(int $type, string $provider, string $entityType, string $entityId, int $initiatorId): Call
 	{
 		$instance = new static();
 		$instance->type = $type;
@@ -700,7 +757,7 @@ class Call
 		$instance->state = static::STATE_NEW;
 
 		$instance->associatedEntity = Integration\EntityFactory::createEntity($instance, $entityType, $entityId);
-		$instance->chatId = $instance->associatedEntity->getChatId();
+		$instance->chatId = (int)$instance->associatedEntity->getChatId();
 
 		$instance->save();
 
@@ -724,7 +781,7 @@ class Call
 		$event = new Event(
 			'im',
 			'onCallCreate',
-			array(
+			[
 				'id' => $instance->id,
 				'type' => $instance->type,
 				'initiatorId' => $instance->initiatorId,
@@ -734,86 +791,16 @@ class Call
 				'startDate' => $instance->startDate,
 				'publicId' => $instance->publicId,
 				'chatId' => $instance->chatId,
-			)
+			]
 		);
 		$event->send();
 
 		return $instance;
 	}
 
-	protected function initCall()
+	protected function initCall(): void
 	{
 		// to be overridden
-	}
-
-	/**
-	 * @param string $type
-	 * @param string $provider
-	 * @param string $entityType
-	 * @param string $entityId
-	 * @param int $currentUserId
-	 * @return Call|null
-	 *
-	 * @throws ArgumentException
-	 * @throws \Bitrix\Main\ObjectPropertyException
-	 * @throws \Bitrix\Main\SystemException
-	 */
-	public static function searchActive($type, $provider, $entityType, $entityId, $currentUserId = 0)
-	{
-		if (!$currentUserId)
-		{
-			$currentUserId = \Bitrix\Im\User::getInstance()->getId();
-		}
-		$query = CallTable::query()
-			->addSelect("*")
-			->where("TYPE", $type)
-			->where("PROVIDER", $provider)
-			->where("ENTITY_TYPE", $entityType)
-			->whereNull("END_DATE")
-			->setOrder(["ID" => "DESC"])
-			->setLimit(1);
-
-		if ($entityType === EntityType::CHAT && strpos($entityId, "chat") !== 0)
-		{
-			$query->where("INITIATOR_ID", $entityId);
-			$query->where("ENTITY_ID", $currentUserId);
-		}
-		else
-		{
-			$query->where("ENTITY_ID", $entityId);
-		}
-
-		$callFields = $query->exec()->fetch();
-
-		if(!$callFields)
-		{
-			return null;
-		}
-
-		$instance = static::createWithArray($callFields);
-		if($instance->hasActiveUsers(false))
-		{
-			return $instance;
-		}
-		return null;
-	}
-
-	public static function searchActiveByUuid(string $uuid): ?Call
-	{
-		$callFields = CallTable::query()
-			->addSelect("*")
-			->where("UUID", $uuid)
-			->setLimit(1)
-			->exec()
-			->fetch()
-		;
-
-		if(!$callFields)
-		{
-			return null;
-		}
-
-		return static::createWithArray($callFields);
 	}
 
 	/**
@@ -822,13 +809,13 @@ class Call
 	 * @param array $fields Call fields
 	 * @return Call
 	 */
-	public static function createWithArray(array $fields)
+	public static function createWithArray(array $fields): Call
 	{
 		$instance = new static();
 
 		$instance->id = $fields['ID'];
 		$instance->type = (int)$fields['TYPE'];
-		$instance->initiatorId = $fields['INITIATOR_ID'];
+		$instance->initiatorId = (int)$fields['INITIATOR_ID'];
 		$instance->isPublic = $fields['IS_PUBLIC'];
 		$instance->publicId = $fields['PUBLIC_ID'];
 		$instance->provider = $fields['PROVIDER'];
@@ -839,12 +826,12 @@ class Call
 		$instance->parentId = (int)$fields['PARENT_ID'] ?: null;
 		$instance->state = $fields['STATE'];
 		$instance->logUrl = $fields['LOG_URL'];
-		$instance->chatId = $fields['CHAT_ID'];
+		$instance->chatId = (int)$fields['CHAT_ID'];
 		$instance->uuid = $fields['UUID'];
 		$instance->secretKey = $fields['SECRET_KEY'];
 		$instance->endpoint = $fields['ENDPOINT'];
 
-		if($instance->entityType && $instance->entityId)
+		if ($instance->entityType && $instance->entityId)
 		{
 			$instance->associatedEntity = Integration\EntityFactory::createEntity($instance, $instance->entityType, $instance->entityId);
 		}
@@ -854,63 +841,26 @@ class Call
 		return $instance;
 	}
 
-	/**
-	 * Loads instance of the Call from the database using call's public id.
-	 *
-	 * @param string $publicId
-	 * @return Call|false
-	 * @throws \Bitrix\Main\ArgumentException
-	 * @throws \Bitrix\Main\ObjectPropertyException
-	 * @throws \Bitrix\Main\SystemException
-	 */
-	public static function createWithPublicId($publicId)
-	{
-		$row = CallTable::getRow([
-			'filter' => [
-				'=PUBLIC_ID' => $publicId
-			]
-		]);
-
-		if(is_array($row))
-		{
-			return static::createWithArray($row);
-		}
-		else
-		{
-			return false;
-		}
-	}
-
-	public static function loadWithId($id)
+	public static function loadWithId($id): ?Call
 	{
 		$row = CallTable::getRowById($id);
 
-		if(is_array($row))
+		if (is_array($row))
 		{
 			return static::createWithArray($row);
 		}
-		else
-		{
-			return false;
-		}
+
+		return null;
 	}
 
 	public static function isCallServerEnabled(): bool
 	{
-		if (Loader::includeModule("bitrix24"))
+		if (!Loader::includeModule('call'))
 		{
-			return true;
+			return false;
 		}
 
 		return (bool)Option::get("im", "call_server_enabled");
-	}
-
-	/**
-	 * @deprecated
-	 */
-	public static function isBitrixCallServerEnabled(): bool
-	{
-		return self::isCallServerEnabled();
 	}
 
 	public static function isBitrixCallEnabled(): bool
@@ -927,14 +877,9 @@ class Call
 
 	public static function isNewCallLayoutEnabled(): bool
 	{
-		$isEnabled = Option::get('im', 'new_call_layout_enabled', 'N');
+		//$isEnabled = Option::get('im', 'new_call_layout_enabled', 'N');
 
-		return $isEnabled === 'Y';
-	}
-
-	public static function isVoximplantCallServerEnabled(): bool
-	{
-		return self::isCallServerEnabled();
+		return true;
 	}
 
 	protected function getCurrentUserId() : int
@@ -942,7 +887,7 @@ class Call
 		return $GLOBALS['USER'] ? (int)$GLOBALS['USER']->getId() : 0;
 	}
 
-	public static function onVoximplantConferenceFinished(Event $event)
+	public static function onVoximplantConferenceFinished(Event $event): void
 	{
 		$callId = $event->getParameter('CONFERENCE_CALL_ID');
 		$logUrl = $event->getParameter('LOG_URL');

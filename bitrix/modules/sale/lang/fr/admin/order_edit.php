@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["NEWO_CONFIRM_DEL_MESSAGE"] = "Voulez-vous vraiment supprimer cette commande ? Cette action ne peut être annulée.";
 $MESS["NEWO_ORDER_DELETE"] = "Supprimer la commande";
 $MESS["NEWO_ORDER_DELETE_TITLE"] = "Supprimer la commande";
@@ -7,7 +7,7 @@ $MESS["NEWO_TO_PRINT"] = "Imprimer la commande";
 $MESS["NEWO_TO_PRINT_TITLE"] = "Imprimer la commande";
 $MESS["SALE_ACCESS_DENIED"] = "Accès refusé";
 $MESS["SALE_BLOCK_TITLE_ADDITIONAL"] = "Informations supplémentaires";
-$MESS["SALE_BLOCK_TITLE_BASKET"] = "Commander";
+$MESS["SALE_BLOCK_TITLE_BASKET"] = "Commande";
 $MESS["SALE_BLOCK_TITLE_BIGDATA"] = "Informations sur le client [BIG DATA]";
 $MESS["SALE_BLOCK_TITLE_BUYER"] = "Client";
 $MESS["SALE_BLOCK_TITLE_DELIVERY"] = "Finalisation";
@@ -15,7 +15,7 @@ $MESS["SALE_BLOCK_TITLE_PAYMENT"] = "Paiement";
 $MESS["SALE_BLOCK_TITLE_STATUSORDER"] = "Statut de la commande";
 $MESS["SALE_TAB_ANALYSIS"] = "Analyse de la commande";
 $MESS["SALE_TAB_HISTORY"] = "Historique des modifications";
-$MESS["SALE_TAB_ORDER"] = "Commander";
+$MESS["SALE_TAB_ORDER"] = "Commande";
 $MESS["SALE_TAB_ORDER_NEW_TITLE"] = "Nouvelle commande";
 $MESS["SALE_TAB_ORDER_TITLE"] = "Éditer la commande";
 $MESS["SOE_ORDER_LOCKED2"] = "La commande a été mise temporairement en attente par le client #ID# (#DATE#)";
@@ -31,4 +31,3 @@ $MESS["SOE_TO_ACTION_TITLE"] = "Sélectionner l'action dans la liste";
 $MESS["SOE_TO_LIST"] = "Commandes";
 $MESS["SOE_TO_LIST_TITLE"] = "Aller à la liste de la commande";
 $MESS["SOE_TO_UNLOCK"] = "Débloquer la commande";
-?>

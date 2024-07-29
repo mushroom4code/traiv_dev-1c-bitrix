@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATI_ACTIVATE_PROD"] = "ativar";
 $MESS["CATI_ADDIT_SETTINGS"] = "Configurações adicionais";
 $MESS["CATI_ADD_CODE_TRANSLIT"] = "Utilizar transliteração quando criar um bloco de informações";
@@ -62,7 +62,7 @@ $MESS["CATI_INACTIVE_PRODS"] = "Produtos/Categorias Desativados";
 $MESS["CATI_INFOBLOCK"] = "Bloco de informações:";
 $MESS["CATI_INFOBLOCK_SELECT"] = "- Selecionar - ";
 $MESS["CATI_KEEP_AS_IS"] = "não modificar";
-$MESS["CATI_LINE_NO"] = "Corda (String)";
+$MESS["CATI_LINE_NO"] = "Série";
 $MESS["CATI_LOADSCHEME"] = "Esquema carregado:";
 $MESS["CATI_NEXT_STEP"] = "Próxima";
 $MESS["CATI_NEXT_STEP_F"] = "Carregar dados";
@@ -176,7 +176,6 @@ $MESS["CML_R_ADD"] = "adicionando";
 $MESS["CML_R_EDIT"] = "editando";
 $MESS["CML_R_IBLOCK"] = "Erro #ACT# o bloco de informações #NAME#: #ERROR#";
 $MESS["CML_R_MIN"] = "minuto";
-$MESS["CML_R_MYSQL_ONLY"] = "Na versão <b>MySql</b>, o script importa dados no formato 'CommerceML'. Se você tiver questões com relação a outras versões do produto, por favor, envie-as para a central de ajuda em <a href=\"mailto:support@bitrixsoft.com\">support@bitrixsoft.com</a>";
 $MESS["CML_R_NCATA"] = "Catálogos processados: #NUM#";
 $MESS["CML_R_NGRP"] = "Grupos processados: v";
 $MESS["CML_R_NOFF"] = "Ofertas processadas: #NUM#";
@@ -198,4 +197,3 @@ $MESS["DIN_QUANTITY_FROM"] = "Quantidade de";
 $MESS["DIN_QUANTITY_TO"] = "Quantidade de";
 $MESS["EST_PRICE_TYPE"] = "Tipo de preço \"#TYPE#\"";
 $MESS["EST_PRICE_TYPE2"] = "Tipo de preço \"#NAME#\" (#TYPE#)";
-?>

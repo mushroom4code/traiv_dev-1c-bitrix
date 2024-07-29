@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["F_ATTACH_FILES"] = "Załączone Pliki";
 $MESS["F_CAPTCHA_PROMT"] = "znaki graficzne CAPTCHA";
 $MESS["F_CAPTCHA_TITLE"] = "Ochrona przed spam botami (CAPTCHA)";
@@ -12,7 +12,7 @@ $MESS["F_LOAD_FILE"] = "Ładuj plik";
 $MESS["F_LOAD_IMAGE"] = "Ładuj obraz";
 $MESS["F_NAME"] = "Nazwa";
 $MESS["F_PREVIEW"] = "Podgląd";
-$MESS["F_QUOTE_FULL"] = "Oferta";
+$MESS["F_QUOTE_FULL"] = "Cytuj";
 $MESS["F_QUOTE_HINT"] = "Aby Zacytować Wiadomość w formularzu Odpowiedzi zaznacz tekst i kliknij tutaj";
 $MESS["F_SHOW"] = "Pokaż";
 $MESS["F_WAIT"] = "Proszę czekać…";
@@ -26,4 +26,3 @@ $MESS["OPINIONS_EMAIL"] = "Twój e-mail";
 $MESS["OPINIONS_NAME"] = "Twoje imię";
 $MESS["OPINIONS_PREVIEW"] = "Podgląd";
 $MESS["OPINIONS_SEND"] = "Wyślij";
-?>

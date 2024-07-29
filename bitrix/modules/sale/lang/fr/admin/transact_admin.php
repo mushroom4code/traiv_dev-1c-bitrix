@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["STAN_ADD_NEW"] = "Ajouter une nouvelle transaction";
 $MESS["STAN_ADD_NEW_ALT"] = "Cliquez pour ajouter une nouvelle transaction";
 $MESS["STA_ADD_NEW"] = "Ajouter";
 $MESS["STA_AF_VIP"] = "Le paiement d'affiliation";
 $MESS["STA_ALL"] = "(partout)";
-$MESS["STA_CURRENCY"] = "Devises : ";
+$MESS["STA_CURRENCY"] = "Devises";
 $MESS["STA_DELETE"] = "Supprimer la commande";
 $MESS["STA_DELETE_ACT"] = "Supprimer";
 $MESS["STA_DELETE_ALL"] = "Marques de suppression Changer de transaction";
@@ -14,9 +14,9 @@ $MESS["STA_ERROR_DELETE"] = "Erreur suppression de l'enregistrement #ID#";
 $MESS["STA_FROM_ACCOUNT"] = "(de compte)";
 $MESS["STA_MAILTO"] = "Écrire une lettre";
 $MESS["STA_NAV"] = "Transactions";
-$MESS["STA_ORDER"] = "Ordre";
-$MESS["STA_ORDER_ID"] = "Numéro de commande : ";
-$MESS["STA_ORDER_VIEW"] = "Voir l'ordre";
+$MESS["STA_ORDER"] = "Commande";
+$MESS["STA_ORDER_ID"] = "Numéro de commande";
+$MESS["STA_ORDER_VIEW"] = "Voir la commande";
 $MESS["STA_SAVE"] = "Enregistrer les modifications";
 $MESS["STA_SET"] = "Ensemble";
 $MESS["STA_SUM"] = "Dans le montant de";
@@ -36,9 +36,8 @@ $MESS["STA_TRETURN"] = "Rembourser la commande";
 $MESS["STA_TTRANSF_EXCESS_SUM_PAID"] = "Transférer le montant surpayé";
 $MESS["STA_TYPE"] = "Entité";
 $MESS["STA_UNSET"] = "Annuler";
-$MESS["STA_USER"] = "Utilisateur : ";
+$MESS["STA_USER"] = "Utilisateur";
 $MESS["STA_USER1"] = "Utilisateur";
-$MESS["STA_USER_ID"] = "ID de l'utilisateur : ";
+$MESS["STA_USER_ID"] = "ID de l'utilisateur";
 $MESS["STA_USER_INFO"] = "Evènements du profil utilisateur";
 $MESS["STA_USER_LOGIN"] = "Nom d'utilisateur";
-?>

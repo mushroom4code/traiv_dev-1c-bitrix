@@ -8,7 +8,7 @@ $MESS["FSL_TOPIC_NAME"] = "Назва теми";
 $MESS["FSL_FORUM_NAME"] = "Назва форума";
 $MESS["JS_NO_SUBSCRIBE"] = "Не вибрано жодної підписки.";
 $MESS["FSL_NEW_TOPICS"] = "Нові теми";
-$MESS["FSL_LAST_SENDED_MESSAGE"] = "Останнє відправлене повідомлення";
+$MESS["FSL_LAST_SENDED_MESSAGE"] = "Остання відправлене повідомлення";
 $MESS["F_DELETE_SUBSCRIBES"] = "Видалити підписки";
 $MESS["FSL_SUBSCR_MANAGE"] = "Управління підпискою";
 ?>

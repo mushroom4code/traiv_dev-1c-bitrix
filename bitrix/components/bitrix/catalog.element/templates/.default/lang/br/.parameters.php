@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_DETAIL_TO_SLIDER_TIP"] = "A imagem detalhada será mostrado com as outras imagens na imagem de slider do produto.";
 $MESS["ADD_PICT_PROP_TIP"] = "Imagem adicional propriedade para o produto";
 $MESS["CP_BCE_TPL_ADD_DETAIL_TO_SLIDER"] = "Adicionar imagem detalhada de controle do slider";
@@ -21,6 +21,8 @@ $MESS["CP_BCE_TPL_MESS_BTN_SUBSCRIBE"] = "\"Notificar quando volta em estoque\" 
 $MESS["CP_BCE_TPL_MESS_BTN_SUBSCRIBE_DEFAULT"] = "Notificar quando volta em estoque";
 $MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE"] = "Item não disponível mensagem";
 $MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Item não disponível";
+$MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Mensagem de serviço indisponível";
+$MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "indisponível";
 $MESS["CP_BCE_TPL_OFFER_ADD_PICT_PROP"] = "Propriedade de imagem adicional de SKU";
 $MESS["CP_BCE_TPL_OFFER_TREE_PROPS"] = "Propriedades para agrupamento de SKUs";
 $MESS["CP_BCE_TPL_PRODUCT_SUBSCRIPTION"] = "Habilitar notificações de back-em-estoque";
@@ -54,4 +56,3 @@ $MESS["SHOW_OLD_PRICE_TIP"] = "Se o desconto estiver ativa, mostra o preço ante
 $MESS["TEMPLATE_THEME_TIP"] = "Define as cores para tornar o texto do site e gráficos. Tema Azul é a opção padrão.";
 $MESS["USE_COMMENTS_TIP"] = "Mostrar e usar os comentários do produto";
 $MESS["USE_VOTE_RATING_TIP"] = "Mostrar e usar controles de voto produto";
-?>

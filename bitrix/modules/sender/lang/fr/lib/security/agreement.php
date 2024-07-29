@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SENDER_SECURITY_AGREEMENT_ERROR"] = "Vous devez accepter les Conditions.";
 $MESS["SENDER_SECURITY_AGREEMENT_HTML_RICH"] = "<div class=\"tracker-agreement-popup-content\">  
  Le Marketing CRM de Bitrix24 est un jeu d'outils pour vous aider à améliorer vos ventes et à optimiser votre commerce. Vous pouvez segmenter votre base de données des clients, mener un marketing par SMS ou e-mail, envoyer des messages vocaux, utiliser une messagerie instantanée, afficher des publicités dans divers réseaux publicitaires.
@@ -39,8 +39,7 @@ $MESS["SENDER_SECURITY_AGREEMENT_HTML_RICH"] = "<div class=\"tracker-agreement-p
    
   </li>
   <li class=\"tracker-agreement-popup-list-item\">
-   Si vous violez les stipulations et garanties énoncées ci-dessus, Bitrix, Inc. se réserve le droit de bloquer partiellement ou complètement la fonctionnalité Marketing CRM de votre compte.
+   Si vous violez les stipulations et garanties énoncées ci-dessus, Bitrix24 se réserve le droit de bloquer partiellement ou complètement la fonctionnalité Marketing CRM de votre compte.
   </li>
  </ol>
 </div>";
-?>

@@ -1,5 +1,5 @@
 <?php
-$MESS["CAPTCHA_REGF_PROMT"] = "Types de tables différentes de type standard sont disponibles à partir de MySQL 4.0";
+$MESS["CAPTCHA_REGF_PROMT"] = "Saisissez le texte de l'image";
 $MESS["CAPTCHA_REGF_TITLE"] = "Protection contre les messages automatiques";
 $MESS["SALE_ADDIT_INFO"] = "Information complémentaire";
 $MESS["SALE_ADDIT_INFO_PROMT"] = "S'il vous plaît fournir des informations supplémentaires sur la livraison (max. 250 caractères)";

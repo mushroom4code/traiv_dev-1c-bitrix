@@ -1,10 +1,6 @@
-<?
-$MESS["LANDING_CONNECTOR_INTRANET_MENU_ALERT_BUTTON"] = "Desconectar";
-$MESS["LANDING_CONNECTOR_INTRANET_MENU_ALERT_MESSAGE"] = "Tem certeza de que deseja desconectar a base de conhecimento?";
-$MESS["LANDING_CONNECTOR_INTRANET_MENU_ALERT_TITLE"] = "Desconectar base de conhecimento";
+<?php
 $MESS["LANDING_CONNECTOR_INTRANET_MENU_BIND_CREATE_TITLE"] = "Criar base de conhecimento";
 $MESS["LANDING_CONNECTOR_INTRANET_MENU_BIND_TITLE"] = "Selecionar base de conhecimento";
 $MESS["LANDING_CONNECTOR_INTRANET_MENU_BIND_TITLE_NEW"] = "Criar";
 $MESS["LANDING_CONNECTOR_INTRANET_MENU_BIND_TITLE_SELECT"] = "Selecionar";
-$MESS["LANDING_CONNECTOR_INTRANET_MENU_TITLE"] = "Base de conhecimento";
-?>
+$MESS["LANDING_CONNECTOR_INTRANET_MENU_HIDE_TITLE"] = "Ocultar base de dados de conhecimento";

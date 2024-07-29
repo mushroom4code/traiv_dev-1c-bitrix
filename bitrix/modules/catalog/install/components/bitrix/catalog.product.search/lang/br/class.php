@@ -1,4 +1,5 @@
-<?
+<?php
+$MESS["BX_CPS_COMP_ERR_CATALOG_MODULE_NOT_INSTALL"] = "O módulo Catálogo Comercial não está instalado.";
 $MESS["SOPS_ACTIVE"] = "Ativo";
 $MESS["SOPS_BALANCE"] = "Saldo (total / depósito)";
 $MESS["SOPS_BALANCE2"] = "Saldo";
@@ -19,6 +20,7 @@ $MESS["SPS_FIELD_SHOW_COUNTER"] = "Impressões";
 $MESS["SPS_FIELD_SHOW_COUNTER_START"] = "Data da primeira impressão";
 $MESS["SPS_FIELD_XML_ID"] = "ID Externo";
 $MESS["SPS_GOTO_PARENT_SECTION"] = "Seção primária";
+$MESS["SPS_ID_FROM_TO"] = "início e fim";
 $MESS["SPS_NAME"] = "Nome";
 $MESS["SPS_NAV_LABEL"] = "Produtos";
 $MESS["SPS_NO"] = "Não";
@@ -35,5 +37,5 @@ $MESS["SPS_SKU_HIDE"] = "Ocultar";
 $MESS["SPS_SKU_SHOW"] = "Expandir";
 $MESS["SPS_TIMESTAMP"] = "Modificado em";
 $MESS["SPS_VALUE_ANY"] = "qualquer";
+$MESS["SPS_XML_ID"] = "ID externo";
 $MESS["SPS_YES"] = "Sim";
-?>

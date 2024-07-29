@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_ACTION"] = "Błąd dodawania procedury obsługi systemu płatności";
 $MESS["ERROR_ADD_PAY_SYS"] = "Błąd dodawania systemu płatności.";
 $MESS["ERROR_EDIT_ACTION"] = "Błąd aktualizowania procedury obsługi systemu płatności";
@@ -36,6 +36,9 @@ $MESS["SALE_ADD"] = "Dodawanie";
 $MESS["SALE_APPLY"] = "Zastosuj";
 $MESS["SALE_EDIT_RECORD"] = "Edytuj system płatności # #ID#";
 $MESS["SALE_NEW_RECORD"] = "Nowy system płatności";
+$MESS["SALE_PSE_ERROR_DEFAULT_RSRT_APPLY"] = "Błąd podczas stosowania typowych ograniczeń do systemu płatności.";
+$MESS["SALE_PSE_ERROR_DEFAULT_RSRT_APPLY_MSGVER_1"] = "Błąd podczas stosowania typowych ograniczeń do systemu płatności.";
+$MESS["SALE_PSE_ERROR_DOCUMENT_TEMPLATE_EMPTY"] = "Szablon dokumentu nie jest określony";
 $MESS["SALE_PSE_YANDEX_INVOICE_SETTINGS_TITLE"] = "Ustawienia bezpieczeństwa";
 $MESS["SALE_PS_ACT"] = "Obsługiwanie systemu płatności";
 $MESS["SALE_PS_ACT_ACT"] = "Użyj";
@@ -54,6 +57,7 @@ $MESS["SPSN_DELETE_PAYSYS"] = "Usuń system płatności";
 $MESS["SPSN_DELETE_PAYSYS_CONFIRM"] = "Na pewno chcesz usunąć ten system płatności? Systemy płatności połączone z zamówieniami nie mogą być usunięte.";
 $MESS["SPSN_ERROR"] = "Błąd zapisu";
 $MESS["SPSN_NEW_PAYSYS"] = "Dodaj system płatności";
+$MESS["SPSN_NOT_FOUND_PAYSYSTEM"] = "Nie znaleziono systemu płatności.";
 $MESS["SPSN_TAB_PAYSYS"] = "System płatności";
 $MESS["SPSN_TAB_PAYSYS_DESCR"] = "Parametry systemu płatności";
 $MESS["SPS_ACTION_ID"] = "ID procedury obsługi systemu płatności";
@@ -73,4 +77,6 @@ $MESS["SPS_NEW_WINDOW"] = "Otwórz w nowym oknie";
 $MESS["SPS_NO_ACT_FILE"] = "Wybierz procedurę obsługi";
 $MESS["SPS_SHOW_PROPS"] = "Pokaż właściwości procedury obsługi";
 $MESS["SPS_TO_LIST"] = "Systemy płatności";
-?>
+$MESS["SPS_VALIDATION_DOMAIN_FORM"] = "Formularz potwierdzania domeny";
+$MESS["SPS_VALIDATION_DOMAIN_HEAD"] = "Potwierdź własność domeny";
+$MESS["SPS_VALIDATION_DOMAIN_VALIDATION"] = "Potwierdź domenę";

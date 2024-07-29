@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_MENU_AGENT"] = "Agentes";
 $MESS["MAIN_MENU_AGENT_ALT"] = "Gerenciamento de Agentes";
 $MESS["MAIN_MENU_CACHE"] = "Configurações de cache";
@@ -70,6 +70,8 @@ $MESS["MAIN_MENU_SITE_CHECKER_ALT"] = "Testar parâmetros locais e mensagem rela
 $MESS["MAIN_MENU_SMILE"] = "Smileys";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST"] = "Importar smileys";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST_ALT"] = "Importar smileys de arquivos externos";
+$MESS["MAIN_MENU_SMTP_CONFIG"] = "Configurações de SMTP";
+$MESS["MAIN_MENU_SMTP_CONFIG_TITLE"] = "Configurações de SMTP";
 $MESS["MAIN_MENU_SQL"] = "Consulta SQL";
 $MESS["MAIN_MENU_SQL_ALT"] = "Executar a consulta SQL no banco de dados";
 $MESS["MAIN_MENU_SYSTEM_CHECKER"] = "Sistema checado";
@@ -101,6 +103,7 @@ $MESS["MAIN_MENU_URLREWRITE"] = "Processamento de URLs";
 $MESS["MAIN_MENU_URLREWRITE_ALT"] = "Regras de configurações de processamento de URLs";
 $MESS["MAIN_MENU_USERS"] = "Usuários";
 $MESS["MAIN_MENU_USERS_ALT"] = "Gerenciar perfis de usuários";
+$MESS["MAIN_MENU_USER_CONSENT_1"] = "Acordos e consentimentos";
 $MESS["MAIN_MENU_USER_FIELD"] = "Campos personalizados";
 $MESS["MAIN_MENU_USER_FIELD_TITLE"] = "Campos personalizados";
 $MESS["MAIN_MENU_USER_GROUPS_ALT"] = "Usuários do grupo";
@@ -109,6 +112,8 @@ $MESS["MAIN_MENU_USER_IMPORT_ALT"] = "Importação de usuário";
 $MESS["MAIN_MENU_USER_LIST"] = "Lista de usuários";
 $MESS["MAIN_MENU_WIZARDS"] = "Assistente lista";
 $MESS["MAIN_MENU_WIZARDS_TITLE"] = "Assistentes de gestão";
+$MESS["main_admin_menu_devices"] = "Dispositivos do usuário";
+$MESS["main_admin_menu_devices_title"] = "Dispositivos do usuário";
 $MESS["main_menu_diag"] = "Administração do Sistema";
 $MESS["main_menu_diag_title"] = "Ferramentas do administrador";
 $MESS["main_menu_interface"] = "Preferências pessoais";
@@ -118,4 +123,3 @@ $MESS["main_menu_lang_param_title"] = "Definir o idioma da interface de usuário
 $MESS["main_menu_reg_sett"] = "Opções Regionais e Cultura";
 $MESS["main_menu_reg_sett_title"] = "Definir o formato de saída dos dados, a codificação e outros parâmetros";
 $MESS["main_menu_urlrewrite_title"] = "Configurações de URL amigáveis";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_TAX"] = "Błąd dodawania podatku";
 $MESS["ERROR_ADD_TAX_RATE"] = "Błąd dodawania stawki podatku";
 $MESS["ERROR_DEL_TAX"] = "Błąd usuwania podatku";
@@ -29,7 +29,7 @@ $MESS["RATE_APPLY_ORDER"] = "Indeks ważności podatku";
 $MESS["RATE_DELETE_DESCR"] = "Usuń stawkę podatku";
 $MESS["RATE_EDIT_DESCR"] = "Modyfikuj właściwości stawki podatku";
 $MESS["RATE_IS_INPRICE"] = "Wliczone w cenę";
-$MESS["RATE_LIST"] = "Stawka podatku";
+$MESS["RATE_LIST"] = "Stawki podatku";
 $MESS["RATE_NET"] = "Nie";
 $MESS["RATE_ORDER_NOTES"] = "Stawki podatku o tym samym priorytecie są dodawane, inne są złożone (procenty na procenty).";
 $MESS["RATE_PERSON_TYPE"] = "Rodzaj płatnika";
@@ -56,10 +56,10 @@ $MESS["SALE_PT_PROPS"] = "Właściwości podatku";
 $MESS["SALE_RECORDS_LIST"] = "Podatki";
 $MESS["SALE_RESET"] = "Wyczyść";
 $MESS["SALE_SAVE"] = "Zapisz";
-$MESS["SALE_SECTION_TITLE"] = "Stawka podatku";
+$MESS["SALE_SECTION_TITLE"] = "Stawki podatku";
 $MESS["SALE_TAX_LIST"] = "Podatki";
 $MESS["SALE_TAX_RATE"] = "Stawki";
-$MESS["SALE_TAX_RATE_LIST"] = "Stawka podatku";
+$MESS["SALE_TAX_RATE_LIST"] = "Stawki podatku";
 $MESS["STAN_ADD_NEW"] = "Nowy podatek";
 $MESS["STAN_ADD_NEW_ALT"] = "Kliknij, aby dodać nowy podatek";
 $MESS["STEEN_2FLIST"] = "Lista użytkowników grupy";
@@ -91,9 +91,8 @@ $MESS["TAX_LID"] = "Strona";
 $MESS["TAX_NAME"] = "Nazwa";
 $MESS["TAX_NAV"] = "Podatki";
 $MESS["TAX_RATE_DEL_CONF"] = "Na pewno chcesz usunąć tę stawkę podatku?";
-$MESS["TAX_RATE_DESCR"] = "Stawka podatku";
+$MESS["TAX_RATE_DESCR"] = "Stawki podatku";
 $MESS["TAX_RATE_EDIT_RECORD"] = "Edytuj stawkę podatku #ID#";
 $MESS["TAX_RATE_NEW_RECORD"] = "Dodaj stawkę podatku";
 $MESS["TAX_TIMESTAMP"] = "Data modyfikacji";
 $MESS["TAX_TITLE"] = "Podatki";
-?>

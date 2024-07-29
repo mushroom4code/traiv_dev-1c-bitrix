@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JS_CORE_FILE_APPLY"] = "Aplicar";
 $MESS["JS_CORE_FILE_CLOUD"] = "Cargar desde el almacenamiento en la nube";
 $MESS["JS_CORE_FILE_DESCRIPTION"] = "Descripción";
@@ -8,7 +8,7 @@ $MESS["JS_CORE_FILE_INFO_SIZE"] = "Tamaño";
 $MESS["JS_CORE_FILE_INSERT_PATH"] = "Introduzca la ruta del archivo";
 $MESS["JS_CORE_FILE_MEDIALIB"] = "Seleccione un Elemento de la Librería Media";
 $MESS["JS_CORE_FILE_SITE"] = "Seleccione Explorador del sitio web";
-$MESS["JS_CORE_FILE_UPLOAD"] = "Cargar desde la computadora";
+$MESS["JS_CORE_FILE_UPLOAD"] = "Subir desde la computadora";
 $MESS["JS_CORE_FI_ADD"] = "Agregar";
 $MESS["JS_CORE_FI_ADD_LINK"] = "Agregar enlace";
 $MESS["JS_CORE_FI_ADD_PRESET"] = "Agregar preestablecido";
@@ -33,4 +33,3 @@ $MESS["JS_CORE_FI_TOO_MANY_FILES3"] = "El archivo ha excedido la cuota.";
 $MESS["JS_CORE_FI_UPLOAD_DENIED"] = "Carga denegada";
 $MESS["JS_CORE_FI_USE_PRESET"] = "Uso preestablecido";
 $MESS["JS_CORE_FI_WIDTH"] = "Ancho";
-?>

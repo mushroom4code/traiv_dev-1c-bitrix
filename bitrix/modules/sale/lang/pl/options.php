@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BX_SALE_SETTINGS_OPTION_PRODUCT_RESERVE_CLEAR_PERIOD"] = "Dni do utrzymania rezerwacji:";
 $MESS["BX_SALE_SETTINGS_OPTION_PRODUCT_RESERVE_CONDITION"] = "Rezerwój przedmioty:";
 $MESS["BX_SALE_SETTINGS_SECTION_DISCOUNT"] = "Ustawienia upstu";
@@ -29,6 +29,7 @@ $MESS["SALE_STORES_AREA"] = "Inwentarz";
 $MESS["SALE_TAB_2"] = "Karty kredytowe użytkownika";
 $MESS["SALE_TAB_ADDRESS"] = "Adres sklepu";
 $MESS["SALE_TAB_ADDRESS_TITLE"] = "Adres sklepu";
+$MESS["SALE_TAB_AUTO"] = "Automatyzacja";
 $MESS["SALE_TAB_WEIGHT_TITLE"] = "Jednostki wagi do użycia w Katalogu Produktów";
 $MESS["SALE_VIEWED_CAPABILITY"] = "Uzyj danych modułu Katalog Produktów do pokazania ogladanych produktów:";
 $MESS["SALE_VIEWED_TIME"] = "Zachowaj informacje o wyświetlanych produktach (dni):";
@@ -64,4 +65,3 @@ $MESS["SMO_SITE_VALUE_TITLE"] = "Wartość parametru";
 $MESS["SMO_STATUS"] = "Nie zmieniaj";
 $MESS["SMO_STATUS1"] = "Status";
 $MESS["SMO_USE_SECURE_COOKIES"] = "Użyj bezpiecznych ciasteczek";
-?>

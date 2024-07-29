@@ -1,8 +1,8 @@
-<?
+<?php
 $MESS["GEOIP_EDIT_DELETE"] = "Supprimer";
 $MESS["GEOIP_EDIT_DELETE_CONFIRM"] = "Voulez-vous vraiment supprimer les paramètres du gestionnaire ?";
 $MESS["GEOIP_EDIT_DELETE_T"] = "Supprimer le gestionnaire de géolocalisation";
-$MESS["GEOIP_EDIT_F_ACTIVE"] = "Actif";
+$MESS["GEOIP_EDIT_F_ACTIVE"] = "Activité";
 $MESS["GEOIP_EDIT_F_CLASS"] = "Classe";
 $MESS["GEOIP_EDIT_F_DESCRIPTION"] = "Description";
 $MESS["GEOIP_EDIT_F_ID"] = "ID";
@@ -32,4 +32,8 @@ $MESS["GEOIP_EDIT_SPECIFIC_ABSENT"] = "Aucuns";
 $MESS["GEOIP_EDIT_SPECIFIC_SETTINGS"] = "Supplémentaires";
 $MESS["GEOIP_EDIT_SPECIFIC_SETTINGS_T"] = "Paramètres spécifiques du gestionnaire";
 $MESS["GEOIP_EDIT_TITLE"] = "Paramètres du gestionnaire de géolocalisation";
-?>
+$MESS["geoip_edit_asn_org"] = "Organisation ASN :";
+$MESS["geoip_edit_continent_code"] = "Code de continent :";
+$MESS["geoip_edit_continent_name"] = "Nom du continent :";
+$MESS["geoip_edit_geonames"] = "Code de ville GeoNames :";
+$MESS["geoip_edit_subregion_code"] = "Code de sous-région :";

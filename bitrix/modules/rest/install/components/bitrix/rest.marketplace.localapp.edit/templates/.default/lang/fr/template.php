@@ -1,7 +1,8 @@
-<?
+<?php
 $MESS["MP_ADD_APP_CLIENT_ID"] = "ID de l'application";
 $MESS["MP_ADD_APP_CLIENT_SECRET"] = "Clé de l'application";
 $MESS["MP_ADD_APP_TITLE"] = "Nouvelle application";
+$MESS["MP_APP_ADD_SUCCESS"] = "L'application a bien été ajoutée";
 $MESS["MP_APP_API"] = "Disponible uniquement comme script";
 $MESS["MP_APP_API_DESC"] = "(appli de service sans interface)";
 $MESS["MP_APP_DOC"] = "<a target=_blank href=\"http://www.bitrixsoft.com/rest_help/\">Instructions de conception d'application Bitrix24</a>";
@@ -20,4 +21,3 @@ $MESS["MP_APP_URL"] = "Précisez l'URL";
 $MESS["MP_APP_URL_DESC"] = "Précisez l'URL de votre application<br/>si elle est hébergée sur un serveur tiers ou si elle est externe";
 $MESS["MP_APP_URL_INSTALL"] = "Précisez l'URL d'installation initiale<br/>(facultatif)";
 $MESS["MP_APP_URL_INSTALL_API"] = "Ajouter une URL de rappel pour un évènement d'installation (facultatif)";
-?>

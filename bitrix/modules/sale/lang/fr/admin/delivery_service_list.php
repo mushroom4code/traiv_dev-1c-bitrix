@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_DSE_CHOOSE_GROUP_HEAD"] = "Copier le service de livraison dans ce groupe";
 $MESS["SALE_DSE_CHOOSE_GROUP_SAVE"] = "Copier";
 $MESS["SALE_DSE_CHOOSE_GROUP_TITLE"] = "Sélectionner un groupe";
@@ -19,7 +19,7 @@ $MESS["SALE_SDL_DESCRIPTION"] = "Description";
 $MESS["SALE_SDL_EDIT_DESCR"] = "Éditer";
 $MESS["SALE_SDL_ERROR_DELETE"] = "Erreur lors de la suppression du service de livraison ; il est possible que des commandes l'utilisent.<br>";
 $MESS["SALE_SDL_ERROR_UPDATE"] = "Erreur lors de la mise à jour du service de livraison.";
-$MESS["SALE_SDL_FILTER_ACTIVE"] = "Actif";
+$MESS["SALE_SDL_FILTER_ACTIVE"] = "Activité";
 $MESS["SALE_SDL_FILTER_CLASS_NAME"] = "Type";
 $MESS["SALE_SDL_FILTER_CODE"] = "Code";
 $MESS["SALE_SDL_FILTER_GROUP"] = "Groupe";
@@ -43,4 +43,3 @@ $MESS["SALE_SDL_TO_LIST"] = "Services de livraison";
 $MESS["SALE_SDL_TO_LIST_ALT"] = "Afficher les services de livraison";
 $MESS["SALE_SDL_VAT_ID"] = "Taux d'imposition";
 $MESS["SALE_SDL_YES"] = "Oui";
-?>

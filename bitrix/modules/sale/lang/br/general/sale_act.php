@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BT_MOD_SALE_ACT_BASKET_ROW_PRICE_LABEL"] = "Preço do produto";
 $MESS["BT_MOD_SALE_ACT_BASKET_ROW_PRICE_PREFIX"] = "Campo de preço do produto";
 $MESS["BT_MOD_SALE_ACT_BASKET_ROW_QUANTITY_LABEL"] = "Quantidade";
@@ -17,6 +17,8 @@ $MESS["BT_SALE_ACT_DELIVERY_SELECT_TYPE_DISCOUNT"] = "desconto de";
 $MESS["BT_SALE_ACT_DELIVERY_SELECT_TYPE_EXTRA"] = "marcação de";
 $MESS["BT_SALE_ACT_DELIVERY_SELECT_UNIT_DEF"] = "...";
 $MESS["BT_SALE_ACT_ERR_ATOMS_ABSENT"] = "Sem descrição para a ação";
+$MESS["BT_SALE_ACT_GIFT_SELECT_TYPE_SELECT_DEF"] = "...";
+$MESS["BT_SALE_ACT_GROUP_ADD_CONTROL"] = "Adicionar ação";
 $MESS["BT_SALE_ACT_GROUP_BASKET_DEF_TEXT"] = "Custo do produto no carrinho";
 $MESS["BT_SALE_ACT_GROUP_BASKET_LABEL"] = "Modificar preço do produto no carrinho";
 $MESS["BT_SALE_ACT_GROUP_BASKET_PREFIX"] = "Aplicar";
@@ -24,17 +26,19 @@ $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_CUR_ALL"] = "#CUR# no preço total dos pr
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_CUR_EACH"] = "#CUR# para cada produto";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_DEF"] = "...";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_PERCENT"] = "%";
+$MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_TYPE_CLOSEOUT_EXT"] = "preço de venda fixo";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_TYPE_DEF"] = "...";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_TYPE_DISCOUNT"] = "desconto de";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_TYPE_EXTRA"] = "marcação de";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_UNIT_DEF"] = "...";
+$MESS["BT_SALE_ACT_GROUP_DELETE_CONTROL"] = "Excluir ação";
 $MESS["BT_SALE_ACT_GROUP_GIFTS_DEF_TEXT"] = "Produtos gratuitos";
 $MESS["BT_SALE_ACT_GROUP_GIFTS_LABEL"] = "Adicionar produtos gratuitos";
 $MESS["BT_SALE_ACT_GROUP_GIFTS_PREFIX"] = "Adicionar os seguintes produtos ao carrinho sem o pagamento";
 $MESS["BT_SALE_ACT_GROUP_GLOBAL_PREFIX"] = "Executar ação:";
 $MESS["BT_SALE_ACT_GROUP_LOGIC_AND"] = "E";
 $MESS["BT_SALE_ACT_GROUP_LOGIC_OR"] = "OU";
+$MESS["BT_SALE_ACT_GROUP_SELECT_CONTROL"] = "Escolha uma ação";
 $MESS["BT_SALE_SUBACT_ADD_CONTROL"] = "Adicionar condição";
 $MESS["BT_SALE_SUBACT_DELETE_CONTROL"] = "Deletar condição";
 $MESS["BT_SALE_SUBACT_SELECT_CONTROL"] = "Escolher condição";
-?>

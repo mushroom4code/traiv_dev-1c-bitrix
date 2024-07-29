@@ -1,5 +1,6 @@
-<?
+<?php
 $MESS["INPUT_ADD"] = "Dodaj";
+$MESS["INPUT_ADDRESS"] = "Adres";
 $MESS["INPUT_DATE"] = "Data";
 $MESS["INPUT_DATE_SELECT"] = "Wybierz datę";
 $MESS["INPUT_DATE_TIME"] = "Czas";
@@ -36,6 +37,8 @@ $MESS["INPUT_NUMBER_STEP"] = "Krok";
 $MESS["INPUT_NUMBER_STEP_ERROR"] = "nie pasuje do kroku #NUM#";
 $MESS["INPUT_REQUIRED"] = "Wymagane";
 $MESS["INPUT_REQUIRED_ERROR"] = "to pole jest wymagane";
+$MESS["INPUT_REQUIRED_ERROR_MSGVER_1"] = "Pole „#NAME#” jest wymagane.";
+$MESS["INPUT_REQUIRED_ERROR_WITHOUT_FIELD_TITLE"] = "To pole jest wymagane.";
 $MESS["INPUT_STRING"] = "String";
 $MESS["INPUT_STRING_MAXLENGTH"] = "Maksymalna długość ciągu znaków";
 $MESS["INPUT_STRING_MAXLENGTH_ERROR"] = "długość przekroczyła #NUM# znaków";
@@ -48,4 +51,3 @@ $MESS["INPUT_STRING_ROWS"] = "Liczba widocznych wierszy";
 $MESS["INPUT_STRING_SIZE"] = "Liczba widocznych znaków";
 $MESS["INPUT_TYPE"] = "Typ";
 $MESS["INPUT_VALUE"] = "Wartość";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_ADD"] = "Ajouter";
 $MESS["MAIN_ADMIN_LIST_CHECKED"] = "Coché:";
 $MESS["MAIN_ADMIN_LIST_DELETE"] = "supprimer";
@@ -59,6 +59,5 @@ $MESS["posting_continue_button"] = "Continuer";
 $MESS["posting_continue_conf"] = "tes-vous sûr de vouloir continuer à envoyer le bulletin d'information ?";
 $MESS["posting_copy_link"] = "Copie";
 $MESS["posting_cron_setup"] = "Le lancement a été planifié pour l'envoi automatique. Il est indiqué dans votre configuration du module qu'il faut utiliser cron pour cette opération. N'oubliez pas de le configurer.";
-$MESS["posting_stop_act"] = "arrêter";
+$MESS["posting_stop_act"] = "Arrêter";
 $MESS["posting_stop_conf"] = "tes-vous sûr que vous voulez faire une pause envoi de la bulletin ?";
-?>

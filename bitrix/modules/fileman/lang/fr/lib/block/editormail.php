@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOCK_EDITOR_BLOCK_BOXEDIMAGE_DESC"] = "Ce bloc insère une image et du texte dans un cadre.";
 $MESS["BLOCK_EDITOR_BLOCK_BOXEDIMAGE_NAME"] = "Image encadrée";
 $MESS["BLOCK_EDITOR_BLOCK_BOXEDTEXT_DESC"] = "Ce bloc contient du texte dans un cadre.";
@@ -14,8 +14,9 @@ $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_BASKET_NAME"] = "Panier";
 $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_BIGDATA_NAME"] = "BigData";
 $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_CATALOG_NAME"] = "Catalogue";
 $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_COUPON_NAME"] = "Coupon";
-$MESS["BLOCK_EDITOR_BLOCK_COMPONENT_ORDER_NAME"] = "Commander";
+$MESS["BLOCK_EDITOR_BLOCK_COMPONENT_ORDER_NAME"] = "Commande";
 $MESS["BLOCK_EDITOR_BLOCK_DYNAMIC_CONTENT"] = "Contenu dynamique";
+$MESS["BLOCK_EDITOR_BLOCK_FOOTER_CONSENT_EXAMPLE"] = "Consentement au suivi des e-mails";
 $MESS["BLOCK_EDITOR_BLOCK_FOOTER_DESC"] = "Ce bloc insère les informations pour se désinscrire de la liste de diffusion.";
 $MESS["BLOCK_EDITOR_BLOCK_FOOTER_EXAMPLE"] = "Se désabonner";
 $MESS["BLOCK_EDITOR_BLOCK_FOOTER_NAME"] = "Pied-de-page";
@@ -36,4 +37,3 @@ $MESS["BLOCK_EDITOR_BLOCK_SOCIAL_VK"] = "vk";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_DESC"] = "Ce bloc contient du texte.";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_EXAMPLE"] = "Ce bloc contient du texte dans lesquel vous pouvez écrire.";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_NAME"] = "Texte";
-?>

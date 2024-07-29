@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_ADMIN_LIST_CHECKED"] = "Marcado:";
 $MESS["MAIN_ADMIN_LIST_SELECTED"] = "Seleccionado:";
 $MESS["MAIN_ADMIN_MENU_DELETE"] = "Eliminar";
@@ -6,6 +6,7 @@ $MESS["MAIN_ADMIN_MENU_EDIT"] = "Editar";
 $MESS["VOTE_ACTIVATE"] = "activado";
 $MESS["VOTE_ACTIVE"] = "Activar";
 $MESS["VOTE_ACTIVE_RED_LAMP"] = "La encuesta ha expirado.";
+$MESS["VOTE_ACTIVE_RED_LAMP_UPCOMING"] = "La encuesta aún está pendiente.";
 $MESS["VOTE_ADD_LIST"] = "Agregar una encuesta";
 $MESS["VOTE_ALL"] = "(todo)";
 $MESS["VOTE_CHANNEL"] = "Canal";
@@ -60,4 +61,3 @@ $MESS["VOTE_WRONG_START_DATE_FROM"] = "Ingrese correctamente la fecha \"desde\" 
 $MESS["VOTE_WRONG_START_DATE_TILL"] = "Ingrese correctamente la fecha \"hasta\" in el campo \"Inicio de la encuesta\" por favor";
 $MESS["VOTE_WRONG_START_FROM_TILL"] = "La fecha \"hasta\" debe ser mayor a la fecha \"desde\" en el filtro para el \"inicio de encuesta\"";
 $MESS["VOTE_YES"] = "si";
-?>

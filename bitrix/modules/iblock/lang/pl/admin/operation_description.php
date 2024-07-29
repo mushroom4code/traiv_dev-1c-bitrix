@@ -1,5 +1,4 @@
-<?
-$MESS["OP_DESC_ELEMENT_BIZPROC_START"] = "Możesz użyć procesu biznesowego na tym elemencie bloku informacji";
+<?php
 $MESS["OP_DESC_ELEMENT_DELETE"] = "Użytkownik może usunąć elementy bloku informacji";
 $MESS["OP_DESC_ELEMENT_EDIT"] = "Użytkownik może edytować elementy bloku informacji z wyjątkiem uprawnień dostępu i nadrzędnych powiązań";
 $MESS["OP_DESC_ELEMENT_EDIT_ANY_WF_STATUS"] = "Użytkownik może edytować elementy bloku informacji w każdym statusie workflow z wyjątkiem uprawnień dostępu i nadrzędnych powiązań";
@@ -35,4 +34,3 @@ $MESS["OP_NAME_SECTION_ELEMENT_BIND"] = "Dodaj nowy element do sekcji";
 $MESS["OP_NAME_SECTION_READ"] = "Czytaj parametry sekcji";
 $MESS["OP_NAME_SECTION_RIGHTS_EDIT"] = "Edytuj uprawnienia dostępu sekcji";
 $MESS["OP_NAME_SECTION_SECTION_BIND"] = "Utwórz podrzędne podsekcje";
-?>

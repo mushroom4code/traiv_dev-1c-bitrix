@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_CAT_LAST"] = "Éléments récents";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_EMPTY"] = "Aucun destinataire spécifié";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_HINT"] = "Utilisez le mode test pour vous assurer que les messages soient bien affichés. Sélectionnez les destinataires à qui envoyer les e-mails de test.";
@@ -11,4 +11,5 @@ $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_SUCCESS"] = "Réussi ! Vérifiez l'e-mail
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_SUCCESS_PHONE"] = "Le message a bien été envoyé ! Veuillez vérifier votre téléphone.";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_TITLE_MAIL"] = "Adresses e-mail";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_TITLE_PHONE"] = "Numéros de téléphone";
-?>
+$MESS["SENDER_MESSAGE_TESTER_TMPL_VALIDATION_TEST_SEND"] = "Envoyer le consentement à la lettre d'information";
+$MESS["SENDER_MESSAGE_TESTER_TMPL_VALIDATION_TEST_SUCCESS"] = "Le consentement à la lettre d'information a bien été envoyé ! Veuillez vérifier vos e-mails.";

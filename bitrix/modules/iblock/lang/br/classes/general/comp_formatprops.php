@@ -1,5 +1,7 @@
-<?
+<?php
 $MESS["IBLOCK_DOWNLOAD"] = "Download";
+$MESS["IBLOCK_FORMATPROPS_PROPERTY_NO"] = "Não";
+$MESS["IBLOCK_FORMATPROPS_PROPERTY_YES"] = "Sim";
 $MESS["T_IBLOCK_DAY_OF_WEEK_0"] = "Domingo";
 $MESS["T_IBLOCK_DAY_OF_WEEK_1"] = "Segunda-feira";
 $MESS["T_IBLOCK_DAY_OF_WEEK_2"] = "Terça-feira";
@@ -15,9 +17,6 @@ $MESS["T_IBLOCK_DOW_4"] = "Qui";
 $MESS["T_IBLOCK_DOW_5"] = "Sex";
 $MESS["T_IBLOCK_DOW_6"] = "Sáb";
 $MESS["T_IBLOCK_MONTH_1"] = "Janeiro";
-$MESS["T_IBLOCK_MONTH_10"] = "Outubro";
-$MESS["T_IBLOCK_MONTH_11"] = "Novembro";
-$MESS["T_IBLOCK_MONTH_12"] = "Dezembro";
 $MESS["T_IBLOCK_MONTH_2"] = "Fevereiro";
 $MESS["T_IBLOCK_MONTH_3"] = "Março";
 $MESS["T_IBLOCK_MONTH_4"] = "Abril ";
@@ -26,10 +25,10 @@ $MESS["T_IBLOCK_MONTH_6"] = "Junho";
 $MESS["T_IBLOCK_MONTH_7"] = "Julho";
 $MESS["T_IBLOCK_MONTH_8"] = "Agosto";
 $MESS["T_IBLOCK_MONTH_9"] = "Setembro";
+$MESS["T_IBLOCK_MONTH_10"] = "Outubro";
+$MESS["T_IBLOCK_MONTH_11"] = "Novembro";
+$MESS["T_IBLOCK_MONTH_12"] = "Dezembro";
 $MESS["T_IBLOCK_MON_1"] = "Jan";
-$MESS["T_IBLOCK_MON_10"] = "Out";
-$MESS["T_IBLOCK_MON_11"] = "Nov";
-$MESS["T_IBLOCK_MON_12"] = "Dez";
 $MESS["T_IBLOCK_MON_2"] = "Fev";
 $MESS["T_IBLOCK_MON_3"] = "Mar";
 $MESS["T_IBLOCK_MON_4"] = "Abr";
@@ -38,4 +37,6 @@ $MESS["T_IBLOCK_MON_6"] = "Jun";
 $MESS["T_IBLOCK_MON_7"] = "Jul";
 $MESS["T_IBLOCK_MON_8"] = "Ago";
 $MESS["T_IBLOCK_MON_9"] = "Set";
-?>
+$MESS["T_IBLOCK_MON_10"] = "Out";
+$MESS["T_IBLOCK_MON_11"] = "Nov";
+$MESS["T_IBLOCK_MON_12"] = "Dez";

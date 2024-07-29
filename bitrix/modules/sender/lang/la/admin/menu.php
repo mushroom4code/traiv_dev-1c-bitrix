@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["mnu_sender_ads"] = "Anuncios";
 $MESS["mnu_sender_ads_alt"] = "Administrar anuncios";
 $MESS["mnu_sender_blacklist"] = "Lista negra";
@@ -13,15 +13,15 @@ $MESS["mnu_sender_letters"] = "Boletines informativos";
 $MESS["mnu_sender_letters_alt"] = "Administrar boletines informativos";
 $MESS["mnu_sender_mailing_admin"] = "Asistente de Boletín de Noticias";
 $MESS["mnu_sender_mailing_admin_alt"] = "Asistente de Boletín de Noticias";
-$MESS["mnu_sender_mailing_admin_trig_alt"] = "Gestionar disparador de e-mails";
-$MESS["mnu_sender_mailing_trig"] = "Disparador de e-mails";
+$MESS["mnu_sender_mailing_admin_trig_alt"] = "Gestionar correos electrónicos disparados";
+$MESS["mnu_sender_mailing_trig"] = "Correos electrónicos disparados";
 $MESS["mnu_sender_mailing_trig_admin"] = "Lista";
-$MESS["mnu_sender_mailing_trig_alt"] = "Ver y gestionar disparador de e-mails";
+$MESS["mnu_sender_mailing_trig_alt"] = "Ver y gestionar correos electrónicos disparados";
 $MESS["mnu_sender_report"] = "Estadísticas";
 $MESS["mnu_sender_report_alt"] = "Estadísticas";
-$MESS["mnu_sender_sect"] = "Marketing por correo electrónico";
+$MESS["mnu_sender_sect"] = "E-Mail Marketing";
 $MESS["mnu_sender_sect1"] = "Marketing24";
-$MESS["mnu_sender_sect_title"] = "Marketing por correo electrónico";
+$MESS["mnu_sender_sect_title"] = "E-Mail Marketing";
 $MESS["mnu_sender_sect_title1"] = "Marketing24";
 $MESS["mnu_sender_segments"] = "Segmentos";
 $MESS["mnu_sender_site_mailing"] = "Boletín de Noticias";
@@ -37,11 +37,10 @@ $MESS["mnu_sender_site_mailing_trig"] = "Boletín de noticias";
 $MESS["mnu_sender_site_mailing_trig_alt"] = "Boletín de noticias";
 $MESS["mnu_sender_site_mailing_trig_chain"] = "Mensajes";
 $MESS["mnu_sender_site_mailing_trig_chain_alt"] = "Editar mensajes de prueba";
-$MESS["mnu_sender_site_mailing_trig_one_alt"] = "Disparador de e-mails";
+$MESS["mnu_sender_site_mailing_trig_one_alt"] = "Correos electrónicos disparados";
 $MESS["mnu_sender_site_mailing_trig_stat"] = "Estadísticas";
 $MESS["mnu_sender_site_mailing_trig_stat_alt"] = "Estadísticas";
 $MESS["mnu_sender_stat"] = "Inicio";
 $MESS["mnu_sender_stat_alt"] = "Estadísticas de todos los boletines";
 $MESS["mnu_sender_template_admin"] = "Mis Plantillas";
 $MESS["mnu_sender_template_admin_alt"] = "Editar plantillas guardadas";
-?>

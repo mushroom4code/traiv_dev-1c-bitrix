@@ -1,7 +1,8 @@
-<?
+<?php
 $MESS["MAIN_ADMIN_GROUP_DESC"] = "Accès total.";
 $MESS["MAIN_ADMIN_GROUP_NAME"] = "Administrateurs";
 $MESS["MAIN_DEFAULT_LANGUAGE_AM_VALUE"] = "am";
+$MESS["MAIN_DEFAULT_LANGUAGE_CODE"] = "fr";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_MONTH_FORMAT"] = "\\l\\e j F";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_OF_WEEK_MONTH_FORMAT"] = "l, j F";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_SHORT_MONTH_FORMAT"] = "\\l\\e j M";
@@ -14,8 +15,8 @@ $MESS["MAIN_DEFAULT_LANGUAGE_LONG_DATE_FORMAT"] = "j F Y";
 $MESS["MAIN_DEFAULT_LANGUAGE_LONG_TIME_FORMAT"] = "H:i:s";
 $MESS["MAIN_DEFAULT_LANGUAGE_MEDIUM_DATE_FORMAT"] = "j M Y";
 $MESS["MAIN_DEFAULT_LANGUAGE_NAME"] = "French";
-$MESS["MAIN_DEFAULT_LANGUAGE_NUMBER_DECIMAL_SEPARATOR"] = ".";
-$MESS["MAIN_DEFAULT_LANGUAGE_NUMBER_THOUSANDS_SEPARATOR"] = ",";
+$MESS["MAIN_DEFAULT_LANGUAGE_NUMBER_DECIMAL_SEPARATOR"] = ",";
+$MESS["MAIN_DEFAULT_LANGUAGE_NUMBER_THOUSANDS_SEPARATOR"] = " ";
 $MESS["MAIN_DEFAULT_LANGUAGE_PM_VALUE"] = "pm";
 $MESS["MAIN_DEFAULT_LANGUAGE_SHORT_DATE_FORMAT"] = "d/m/Y";
 $MESS["MAIN_DEFAULT_LANGUAGE_SHORT_DAY_OF_WEEK_MONTH_FORMAT"] = "D, j F";
@@ -27,7 +28,7 @@ $MESS["MAIN_DEFAULT_SITE_FORMAT_DATETIME"] = "DD/MM/YYYY HH:MI:SS";
 $MESS["MAIN_DEFAULT_SITE_FORMAT_NAME"] = "#NAME# #LAST_NAME#";
 $MESS["MAIN_DEFAULT_SITE_NAME"] = "Site par défaut";
 $MESS["MAIN_DESKTOP_CREATEDBY_KEY"] = "Créé par";
-$MESS["MAIN_DESKTOP_CREATEDBY_VALUE"] = "Bitrix, Inc.";
+$MESS["MAIN_DESKTOP_CREATEDBY_VALUE"] = "Bitrix24";
 $MESS["MAIN_DESKTOP_EMAIL_KEY"] = "E-mail";
 $MESS["MAIN_DESKTOP_EMAIL_VALUE"] = "<a href='mailto:info@bitrixsoft.com'> info@bitrixsoft.com</a>";
 $MESS["MAIN_DESKTOP_INFO_TITLE"] = "Propos de site";
@@ -40,7 +41,19 @@ $MESS["MAIN_DESKTOP_URL_KEY"] = "Adresse du site";
 $MESS["MAIN_DESKTOP_URL_VALUE"] = "<a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a>";
 $MESS["MAIN_EVERYONE_GROUP_DESC"] = "Tous les utilisateurs (avec des utilisateurs non-autorisés).";
 $MESS["MAIN_EVERYONE_GROUP_NAME"] = "Tous les utilisateurs (avec des utilisateurs non-autorisés)";
-$MESS["MAIN_INSTALL_DB_ERROR"] = "Vous ne pouvez pas vous connecter à la base de données. S'il vous plaît vérifier les paramètres.";
+$MESS["MAIN_INSTALL_EVENT_MESSAGE_NEW_DEVICE_LOGIN"] = "Bonjour #NAME#,
+
+un nouvel appareil vient de se connecter en utilisant votre identifiant #LOGIN#.
+ 
+Appareil : #DEVICE# 
+Navigateur : #BROWSER#
+Plateforme : #PLATFORM#
+Localisation : #LOCATION# (approximatif)
+Date : #DATE#
+
+Nous vous recommandons de changer votre mot de passe immédiatement si cette connexion n'est pas vous ou si elle n'a pas été faite en votre nom.
+";
+$MESS["MAIN_INSTALL_EVENT_MESSAGE_NEW_DEVICE_LOGIN_SUBJECT"] = "Nouvel appareil connecté";
 $MESS["MAIN_INSTALL_EVENT_MESS_USER_CODE_REQUEST"] = "#SITE_NAME# : Demande de code de vérification";
 $MESS["MAIN_INSTALL_EVENT_MESS_USER_CODE_REQUEST_MESS"] = "Utilisez le code suivant pour vous connecter :
 
@@ -55,6 +68,23 @@ Statut du compte : #STATUS#
 Identifiant : #LOGIN#
 
 Ce message a été créé automatiquement.";
+$MESS["MAIN_INSTALL_EVENT_TYPE_NEW_DEVICE_LOGIN"] = "Nouvel appareil connecté";
+$MESS["MAIN_INSTALL_EVENT_TYPE_NEW_DEVICE_LOGIN_DESC"] = "#USER_ID# - ID de l'utilisateur
+#EMAIL# - Adresse e-mail de l'utilisateur :
+#LOGIN# - Identifiant de l'utilisateur
+#NAME# - Prénom de l'utilisateur
+#LAST_NAME# - Nom de famille de l'utilisateur
+#DEVICE# - Appareil
+#BROWSER# - Navigateur
+#PLATFORM# - Plateforme
+#USER_AGENT# - Agent de l'utilisateur
+#IP# - Adresse IP
+#DATE# - Date
+#COUNTRY# - Pays
+#REGION# - Région
+#CITY# - Ville
+#LOCATION# - Localisation complète (ville, région, pays)
+";
 $MESS["MAIN_INSTALL_EVENT_TYPE_USER_CODE_REQUEST"] = "Demande de code de vérification";
 $MESS["MAIN_INSTALL_EVENT_TYPE_USER_CODE_REQUEST_DESC"] = "#USER_ID# - ID utilisateur
 #STATUS# - Statut de connexion
@@ -254,4 +284,3 @@ $MESS["main_install_sms_event_restore_name"] = "Récupérer un mot de passe par 
 $MESS["main_install_sms_template_confirm_mess"] = "Code de confirmation : #CODE#";
 $MESS["main_install_sms_template_notification_mess"] = "#NAME# : #ADDITIONAL_TEXT# (événements : #EVENT_COUNT#)";
 $MESS["main_install_sms_template_restore_mess"] = "Le code pour récupérer le mot de passe : #CODE#";
-?>

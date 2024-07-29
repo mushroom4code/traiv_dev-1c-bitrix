@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_SITE_SPEED_CDN"] = "Accélérer la vitesse du site (CDN)";
 $MESS["MAIN_SITE_SPEED_CHOOSE_DOMAIN"] = "Choisissez un autre domaine dans la liste.";
 $MESS["MAIN_SITE_SPEED_COMPOSITE_HITS"] = "Résultats composites";
@@ -39,8 +39,7 @@ code et le rendu de page). Cette valeur représente le temps mesuré après une 
 a été téléchargée jusqu'à ce qu'il était prêt à dessiner sur l'écran.<br>";
 $MESS["MAIN_SITE_SPEED_PERF"] = "Analyseur De Performances";
 $MESS["MAIN_SITE_SPEED_PERF_NO_RES"] = "Pas de test de performance a été réalisée";
-$MESS["MAIN_SITE_SPEED_PERIOD_LABEL"] = "Exercice comptable";
+$MESS["MAIN_SITE_SPEED_PERIOD_LABEL"] = "Période de rapport";
 $MESS["MAIN_SITE_SPEED_SECONDS"] = "dès";
 $MESS["MAIN_SITE_SPEED_TITLE"] = "Vitesse du site";
 $MESS["MAIN_SITE_SPEED_TITLE_DESC"] = "durée moyenne d'une page du site a été affichée dans un navigateur client sur les plus récents de 1000 visiteurs.";
-?>

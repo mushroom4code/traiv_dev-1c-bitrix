@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["CP_BSFED_CACHE_GROUPS"] = "Prendre en compte les droits d'accès";
 $MESS["PATH_TO_USER"] = "Modèle de chemin d'accès au profil de l'utilisateur";
-$MESS["RATING_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_TYPE_LIKE_GRAPHIC"] = "J'aime (graphique)";
 $MESS["RATING_TYPE_LIKE_TEXT"] = "J'aime (textuel)";
@@ -15,4 +15,3 @@ $MESS["SUPPORT_FAQ_ED_SETTING_IBLIST"] = "Blocs d'information";
 $MESS["SUPPORT_FAQ_ED_SETTING_IBTYPES"] = "Types des blocs d'information";
 $MESS["SUPPORT_FAQ_ED_SETTING_SECTIONS_LIST"] = "ID de la section";
 $MESS["SUPPORT_RATING_SETTINGS"] = "Réglages des cotes";
-?>

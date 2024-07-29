@@ -1,7 +1,7 @@
 <?
 $MESS["MFC1_ACT_DODELETE"] = "Supprimer";
 $MESS["MFC1_B_FIRST"] = "Début";
-$MESS["MFC1_B_NEXT"] = "En avant";
+$MESS["MFC1_B_NEXT"] = "Suivant";
 $MESS["MFC1_CANT_CREATE_ERRORFILE"] = "Impossible de créer le fichier d'erreurs.";
 $MESS["MFC1_CANT_LOAD_DATAFILE"] = "Échec de chargement du fichier avec des données";
 $MESS["MFC1_CANT_OPEN_ERRORFILE"] = "Échec d'ouverture du fichier des erreurs.";

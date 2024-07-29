@@ -4,15 +4,17 @@ namespace Bitrix\Im\V2\Call;
 
 use Bitrix\Im\Call\Call;
 use Bitrix\Im\Call\Util;
+use Bitrix\Main\Error;
 use Bitrix\Main\Security\Random;
 use Bitrix\Main\Web\JWT;
-use Bitrix\Main\SystemException;
+
 
 class BitrixCall extends Call
 {
+	protected $provider = parent::PROVIDER_BITRIX;
+
 	/**
 	 * @return void
-	 * @throws SystemException
 	 */
 	protected function initCall(): void
 	{
@@ -32,14 +34,16 @@ class BitrixCall extends Call
 			{
 				parent::finish();
 
-				throw new SystemException($createResult->getErrorMessages()[0]);
+				$this->addErrors($createResult->getErrors());
 			}
 			$callData = $createResult->getData();
 			if (!$callData['endpoint'])
 			{
 				parent::finish();
 
-				throw new SystemException('Empty endpoint');
+				$this->addError(new Error('Empty endpoint', 'empty_endpoint'));
+
+				return;
 			}
 
 			$this->setEndpoint($callData['endpoint']);
@@ -75,7 +79,7 @@ class BitrixCall extends Call
 		];
 	}
 
-	public function inviteUsers(int $senderId, array $toUserIds, $isLegacyMobile, $video = false, $sendPush = true)
+	public function inviteUsers(int $senderId, array $toUserIds, $isLegacyMobile, $video = false, $sendPush = true): void
 	{
 		foreach ($toUserIds as $toUserId)
 		{
@@ -90,8 +94,8 @@ class BitrixCall extends Call
 		}
 	}
 
-	public function getMaxUsers()
+	public function getMaxUsers(): int
 	{
-		return static::getMaxCallServerParticipants();
+		return parent::getMaxCallServerParticipants();
 	}
 }

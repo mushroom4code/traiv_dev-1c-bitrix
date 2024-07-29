@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IB_COMPLIB_POPUP_CATALOG"] = "Campos Catálogo";
 $MESS["IB_COMPLIB_POPUP_CATALOG_MEASURE"] = "Unidades de medida";
 $MESS["IB_COMPLIB_POPUP_CATALOG_STORE_LIST"] = "Armazéns";
@@ -6,14 +6,14 @@ $MESS["IB_COMPLIB_POPUP_CATALOG_WEIGHT"] = "Peso";
 $MESS["IB_COMPLIB_POPUP_ELEMENT"] = "Campos Elemento";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_CODE"] = "Elemento de código mnemônico";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_DETAIL_TEXT"] = "Elemento descrição detalhada atual";
-$MESS["IB_COMPLIB_POPUP_ELEMENT_EXTERNAL_ID"] = "Código externo do elemento";
+$MESS["IB_COMPLIB_POPUP_ELEMENT_EXTERNAL_ID_MSGVER_1"] = "ID externo do elemento";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_ID"] = "ID do elemento";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_LOWER_NAME"] = "Nome do elemento atual, em letras minúsculas";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_NAME"] = "Nome do elemento atual";
 $MESS["IB_COMPLIB_POPUP_ELEMENT_PREVIEW_TEXT"] = "Texto elemento visualização atual";
 $MESS["IB_COMPLIB_POPUP_IBLOCK"] = "Campos de bloco de informação";
 $MESS["IB_COMPLIB_POPUP_IBLOCK_CODE"] = "código mnemônico do bloco de informação";
-$MESS["IB_COMPLIB_POPUP_IBLOCK_EXTERNAL_ID"] = "código externo do bloco de informação";
+$MESS["IB_COMPLIB_POPUP_IBLOCK_EXTERNAL_ID_MSGVER_1"] = "ID externo do bloco de informação";
 $MESS["IB_COMPLIB_POPUP_IBLOCK_ID"] = "ID do bloco de informação";
 $MESS["IB_COMPLIB_POPUP_IBLOCK_NAME"] = "Nome do bloco Informações";
 $MESS["IB_COMPLIB_POPUP_IBLOCK_TEXT"] = "Descrição bloco Informações";
@@ -31,7 +31,7 @@ $MESS["IB_COMPLIB_POPUP_SECTION"] = "Campos Seção";
 $MESS["IB_COMPLIB_POPUP_SECTIONS_PATH"] = "Caminho do elemento atual";
 $MESS["IB_COMPLIB_POPUP_SECTION_CODE"] = "Seção código mnemônico";
 $MESS["IB_COMPLIB_POPUP_SECTION_CODE_PATH"] = "Códigos mnemônicos de seções aninhadas";
-$MESS["IB_COMPLIB_POPUP_SECTION_EXTERNAL_ID"] = "Código externa da seção";
+$MESS["IB_COMPLIB_POPUP_SECTION_EXTERNAL_ID_MSGVER_1"] = "ID externo da seção";
 $MESS["IB_COMPLIB_POPUP_SECTION_ID"] = "ID da seção";
 $MESS["IB_COMPLIB_POPUP_SECTION_LOWER_NAME"] = "Nome da seção atual, minúsculas";
 $MESS["IB_COMPLIB_POPUP_SECTION_NAME"] = "Nome da seção atual";
@@ -55,4 +55,3 @@ $MESS["T_IBLOCK_DESC_PAGER_TEMPLATE_SYSTEM"] = "Modelo embutido";
 $MESS["T_IBLOCK_DESC_PAGER_TITLE"] = "Nome da categoria";
 $MESS["T_IBLOCK_DESC_SHOW_ALL"] = "Mostrar o link TODOS";
 $MESS["T_IBLOCK_DESC_TOP_PAGER"] = "Exibir na parte superior da lista";
-?>

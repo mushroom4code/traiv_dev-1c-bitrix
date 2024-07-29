@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_ADD_FILES"] = "Adicionar arquivos";
 $MESS["BLOG_CATEGORY_NAME"] = "Crachá";
 $MESS["BLOG_IMAGE"] = "Imagem";
@@ -29,7 +29,7 @@ $MESS["BPC_MES_SHOW"] = "Mostrar";
 $MESS["BPC_MES_SPAM"] = "Spam?";
 $MESS["BPC_MES_SPAM_TITLE"] = "Gerenciar todos os comentários dos usuários";
 $MESS["BPC_PAGE"] = "Páginas:";
-$MESS["BPC_QUOTE"] = "Citar";
+$MESS["BPC_QUOTE"] = "Citação";
 $MESS["BPC_SMILE"] = "Todos os Smileys";
 $MESS["BPC_STRIKE"] = "Greve";
 $MESS["BPC_SUBJECT"] = "Assunto";
@@ -52,4 +52,3 @@ $MESS["B_B_MS_SAVE"] = "Salvar";
 $MESS["B_B_MS_SEND"] = "Enviar";
 $MESS["FPF_VIDEO"] = "Inserir vídeo";
 $MESS["MPF_IMAGE_TITLE"] = "Inserir imagem";
-?>

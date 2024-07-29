@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["SALE_ACTION"] = "Actions";
 $MESS["SALE_ACTIVE"] = "Actif(ve)";
 $MESS["SALE_ADD"] = "Ajouter";
 $MESS["SALE_ALL"] = "tous";
 $MESS["SALE_ALLOW_EDIT_PAYMENT"] = "Activer le recalcule automatique du paiement";
-$MESS["SALE_CONFIRM_DEL_MESSAGE"] = "tes-vous sûr de vouloir supprimer le système de paiement ? Les systèmes de paiement avec des ordres actifs ne peuvent pas être supprimés.";
+$MESS["SALE_CONFIRM_DEL_MESSAGE"] = "Êtes-vous sûr de vouloir supprimer ce système de paiement ? Les systèmes de paiement avec des commandes en cours ne peuvent pas être supprimés.";
 $MESS["SALE_DELETE"] = "Supprimer";
 $MESS["SALE_DELETE_DESCR"] = "Elimination du système de paiement";
 $MESS["SALE_DELETE_ERROR"] = "Erreur de suppression du système de paiement. Certaines commandes a probablement été placés en utilisant ce système de paiement.<br>";
@@ -38,4 +38,3 @@ $MESS["SPSAN_MARKETPLACE_ADD_NEW_ALT"] = "Cliquez pour installer depuis Marketpl
 $MESS["SPS_ADD_NEW"] = "Ajouter &gt;&gt;";
 $MESS["SPS_NO"] = "non";
 $MESS["SPS_YES"] = "oui";
-?>

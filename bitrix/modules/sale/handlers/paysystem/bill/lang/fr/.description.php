@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_HPS_BILL_ACC_POS_SUPPLI"] = "Position professionnelle du comptable";
 $MESS["SALE_HPS_BILL_ACC_POS_SUPPLI_DESC"] = "Position professionnelle du comptable (ventes)";
 $MESS["SALE_HPS_BILL_ACC_POS_SUPPLI_VAL"] = "Comptable";
@@ -31,7 +31,7 @@ $MESS["SALE_HPS_BILL_COLUMN_PRICE_TITLE"] = "Titre de colonne du prix";
 $MESS["SALE_HPS_BILL_COLUMN_PRICE_VALUE"] = "Prix";
 $MESS["SALE_HPS_BILL_COLUMN_QUANTITY_TITLE"] = "Titre de colonne de la quantité";
 $MESS["SALE_HPS_BILL_COLUMN_QUANTITY_VALUE"] = "Quantité";
-$MESS["SALE_HPS_BILL_COLUMN_SHOW"] = "Actif";
+$MESS["SALE_HPS_BILL_COLUMN_SHOW"] = "Activité";
 $MESS["SALE_HPS_BILL_COLUMN_SORT"] = "Trier";
 $MESS["SALE_HPS_BILL_COLUMN_SUM_TITLE"] = "Titre de colonne du montant";
 $MESS["SALE_HPS_BILL_COLUMN_SUM_VALUE"] = "Montant";
@@ -76,11 +76,11 @@ $MESS["SALE_HPS_BILL_KPP_SUPPLI_DESC"] = "Non applicable à tous les pays";
 $MESS["SALE_HPS_BILL_LOGO"] = "Logo du fournisseur";
 $MESS["SALE_HPS_BILL_LOGO_DESC"] = "Journal du fournisseur (taille recommandée :  80x80)";
 $MESS["SALE_HPS_BILL_LOGO_DPI"] = "Échelle du logo";
+$MESS["SALE_HPS_BILL_LOGO_DPI_72"] = "133% (72 dpi)";
+$MESS["SALE_HPS_BILL_LOGO_DPI_96"] = "100% (96 dpi)";
 $MESS["SALE_HPS_BILL_LOGO_DPI_150"] = "64% (150 dpi)";
 $MESS["SALE_HPS_BILL_LOGO_DPI_300"] = "32% (300 dpi)";
 $MESS["SALE_HPS_BILL_LOGO_DPI_600"] = "16% (600 dpi)";
-$MESS["SALE_HPS_BILL_LOGO_DPI_72"] = "133% (72 dpi)";
-$MESS["SALE_HPS_BILL_LOGO_DPI_96"] = "100% (96 dpi)";
 $MESS["SALE_HPS_BILL_MARGIN_BOTTOM"] = "Marge inférieure";
 $MESS["SALE_HPS_BILL_MARGIN_LEFT"] = "Marge à gauche";
 $MESS["SALE_HPS_BILL_MARGIN_RIGHT"] = "Marge à droite";
@@ -103,4 +103,3 @@ $MESS["SALE_HPS_BILL_SUPPLI_DESC"] = "Nom du payeur ou du revendeur";
 $MESS["SALE_HPS_BILL_TITLE"] = "Facture (Russe)";
 $MESS["SALE_HPS_BILL_TOTAL_SHOW"] = "Afficher le résumé";
 $MESS["SALE_HPS_BILL_USER_COLUMN"] = "Champs personnalisés";
-?>

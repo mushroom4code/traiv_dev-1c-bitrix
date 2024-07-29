@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["BT_UT_AUTOCOMPLETE_SYM_GRID"] = "#";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_OTHER"] = "Autre";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_SPACE"] = "Blanc";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_STAR"] = "*";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_UNDERLINE"] = "_";
-$MESS["BT_UT_EAUTOCOMPLETE_DESCR"] = "Lier à des éléments avec saisie automatique";
+$MESS["BT_UT_EAUTOCOMPLETE_DESCR"] = "Zone de texte de lien vers un élément avec saisie automatique";
 $MESS["BT_UT_EAUTOCOMPLETE_MESS_CHOOSE_ELEMENT"] = "Liste";
 $MESS["BT_UT_EAUTOCOMPLETE_MESS_CHOOSE_ELEMENT_DESCR"] = "Choisir un l'élément de la liste";
 $MESS["BT_UT_EAUTOCOMPLETE_MESS_CHOOSE_ELEMENT_MULTI_DESCR"] = "Choix de quelques éléments de la liste";
@@ -17,19 +17,22 @@ $MESS["BT_UT_EAUTOCOMPLETE_MESS_NO_SEARCH_RESULT_TEXT"] = "rien n'a été trouv�
 $MESS["BT_UT_EAUTOCOMPLETE_MESS_SEARCH_ELEMENT"] = "...";
 $MESS["BT_UT_EAUTOCOMPLETE_MESS_SEARCH_ELEMENT_DESCR"] = "Choix de l'élément dans la fenêtre de recherche";
 $MESS["BT_UT_EAUTOCOMPLETE_MESS_SEARCH_ELEMENT_MULTI_DESCR"] = "Affiliés multi-niveaux";
+$MESS["BT_UT_EAUTOCOMPLETE_SEARCH_CHANGE_QUERY"] = "Veuillez essayer une autre recherche.";
+$MESS["BT_UT_EAUTOCOMPLETE_SEARCH_ENTER_QUERY"] = "Veuillez saisir le texte à rechercher";
+$MESS["BT_UT_EAUTOCOMPLETE_SEARCH_ENTER_QUERY_SUBTITLE"] = "Recherche dans les éléments du bloc d'informations";
+$MESS["BT_UT_EAUTOCOMPLETE_SEARCH_NOT_FOUND"] = "Votre requête de recherche n'a donné aucun résultat.";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_BAN_SYMBOLS"] = "Symboles remplacés au cours d'affichage";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_COMMENT_MAX_HEIGHT"] = "px";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_COMMENT_MAX_WIDTH"] = "px";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_COMMENT_MIN_HEIGHT"] = "px";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_IBLOCK_MESS"] = "Prendre la dénomination de la touche d'ajout à partir des réglages du bloc d'information lié";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MAX_HEIGHT"] = "Hauteur maximale du champ de saisie en pixels, si la propriété est multiple";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MAX_WIDTH"] = "Largeur maximale du champ de saisie en pixels (0 - ne pas limiter)";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MIN_HEIGHT"] = "La hauteur minimale de la zone de saisie en pixels, si la propriété est pluriel";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_IBLOCK_MESS"] = "Utiliser le titre de l'élément du bloc d'information comme texte du bouton";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MAX_HEIGHT"] = "Hauteur maximale de la zone de saisie en pixels (pour de multiples propriétés)";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MAX_WIDTH"] = "Largeur maximale du champ de saisie en pixels (0 - illimitée)";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MIN_HEIGHT"] = "Hauteur minimale de la zone de saisie en pixels (pour de multiples propriétés)";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_REP_SYMBOL"] = "Le symbole qui remplacera les caractères interdits lors de l'affichage";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_SHOW_ADD"] = "Afficher le bouton d'addition des éléments";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_TITLE"] = "Paramètres de liaison aux éléments avec la saisie semi-automatique";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_VIEW"] = "Interface de l'affichage";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_SHOW_ADD"] = "Afficher le bouton Ajouter un article";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_TITLE"] = "Paramètres de la saisie automatique";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_VIEW"] = "Contrôles de l'interface";
 $MESS["BT_UT_EAUTOCOMPLETE_VIEW_AUTO"] = "Ligne avec une saisie automatique";
 $MESS["BT_UT_EAUTOCOMPLETE_VIEW_ELEMENT"] = "Ligne de saisie automatique et choix depuis la fenêtre de recherche";
 $MESS["BT_UT_EAUTOCOMPLETE_VIEW_TREE"] = "Ligne avec remplissage automatique et choix sur la liste";
-?>

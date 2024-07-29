@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SOC_OPT_B24NET_CLIENT_ID"] = "ID del portal";
 $MESS["SOC_OPT_B24NET_CLIENT_SECRET"] = "Código secreto del portal:";
 $MESS["SOC_OPT_B24NET_GET"] = "Obtener";
@@ -22,5 +22,4 @@ $MESS["socserv_sett_common"] = "Común";
 $MESS["socserv_sett_common_title"] = "Parámetros comunes para todos los sitios Web";
 $MESS["socserv_sett_site"] = "Configuración para el sitio web";
 $MESS["socserv_sett_site_apply"] = "Parámetros individuales se aplican a este sitio Web:";
-$MESS["socserv_twit_to_buzz"] = "Retrasmitir tweets d elos usuarios hash #hash# al Activity Stream";
-?>
+$MESS["socserv_twit_to_buzz2"] = "Retransmitir en el Feed los tweets de usuarios con el hash #hash#";

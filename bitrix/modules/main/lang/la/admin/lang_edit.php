@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTIVE"] = "Activo:";
 $MESS["ADD"] = "Agregar un nuevo idioma";
 $MESS["CHARSET"] = "Codificación:";
@@ -38,6 +38,6 @@ $MESS["RECORD_LIST_TITLE"] = "Ver lista de idiomas";
 $MESS["RESET"] = "Resetear";
 $MESS["SAVE"] = "Guardar cambios";
 $MESS["SORT"] = "Índice de Ordamiento:";
+$MESS["lang_edit_code"] = "Código del idioma (IETF BCP 47):";
 $MESS["lang_edit_culture"] = "Idioma y cultura:";
 $MESS["lang_edit_culture_edit"] = "Editar opciones seleccionadas";
-?>

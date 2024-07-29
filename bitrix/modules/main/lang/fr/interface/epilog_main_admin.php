@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADMIN_FAV_ADD"] = "Ajouter aux <b>Favoris</b>";
 $MESS["ADMIN_FAV_ADD_ERROR"] = "Erreur d'ajout aux favoris.";
 $MESS["ADMIN_FAV_ADD_SUCCESS"] = "Ajouté dans <b>Favoris</b>";
@@ -12,9 +12,9 @@ $MESS["EPILOG_ADMIN_COPY_1c_bitrix_eduportal"] = "&copy; 2009 Bitrix";
 $MESS["EPILOG_ADMIN_COPY_1c_bitrix_gosportal"] = "&copy; 2009 Bitrix";
 $MESS["EPILOG_ADMIN_COPY_1c_bitrix_gossite"] = "&copy; 2009 Bitrix";
 $MESS["EPILOG_ADMIN_COPY_1c_bitrix_portal"] = "Copyright &copy; 2002 Bitrix, 2011 Bitrix";
-$MESS["EPILOG_ADMIN_COPY_bitrix"] = "Copyright &copy; 2002-2016 Bitrix, Inc.";
-$MESS["EPILOG_ADMIN_COPY_bitrix_portal"] = "Copyright &copy; 2002-2016 Bitrix, Inc.";
-$MESS["EPILOG_ADMIN_POWER"] = "Géré par";
+$MESS["EPILOG_ADMIN_COPY_bitrix"] = "Copyright &copy; 2002-2016 Bitrix24";
+$MESS["EPILOG_ADMIN_COPY_bitrix_portal"] = "Copyright &copy; 2002-2016 Bitrix24";
+$MESS["EPILOG_ADMIN_POWER"] = "Fourni par";
 $MESS["EPILOG_ADMIN_SM_1c_bitrix"] = "Bitrix : Gestion de site";
 $MESS["EPILOG_ADMIN_SM_1c_bitrix_eduportal"] = "Bitrix : Portail interne de l'établissement d'enseignement";
 $MESS["EPILOG_ADMIN_SM_1c_bitrix_gosportal"] = "Bitrix : Portal interne de l'autorité";
@@ -43,4 +43,3 @@ $MESS["EPILOG_ADMIN_URL_SUPPORT_1c_bitrix_gosportal"] = "http://www.bitrixsoft.c
 $MESS["EPILOG_ADMIN_URL_SUPPORT_1c_bitrix_gossite"] = "http://www.bitrixsoft.com/support/";
 $MESS["EPILOG_ADMIN_URL_SUPPORT_1c_bitrix_portal"] = "http://www.bitrixsoft.com/support/";
 $MESS["epilog_support_link"] = "Assistance";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACCOUNT_INSERT"] = "O administrador registrou você no site";
 $MESS["ACCOUNT_UPDATE"] = "O administrador atualizou suas informações pessoais.";
 $MESS["ACTIVE"] = "Ativo:";
@@ -96,6 +96,14 @@ $MESS["USER_WWW"] = "Página da Internet";
 $MESS["USER_ZIP"] = "CEP ";
 $MESS["main_profile_decode_err"] = "Erro de decodificação de senha (#ERRCODE#).";
 $MESS["main_profile_sess_expired"] = "Sua sessão expirou. Tente novamente.";
+$MESS["main_user_edit_devices"] = "Dispositivos";
+$MESS["main_user_edit_devices_title"] = "Histórico de acessos e dispositivos";
+$MESS["main_user_edit_pass_expired"] = "Exigir alteração de senha no próximo logon:";
+$MESS["main_user_edit_policy"] = "Segurança";
+$MESS["main_user_edit_policy_field"] = "Políticas de segurança";
+$MESS["main_user_edit_policy_no"] = "Não";
+$MESS["main_user_edit_policy_title"] = "Políticas de segurança de grupo";
+$MESS["main_user_edit_policy_yes"] = "Sim";
 $MESS["user_edit_form_groups"] = "Grupos de Usuários";
 $MESS["user_edit_form_settings"] = "Configurações";
 $MESS["user_edit_form_settings_title"] = "Firmar parâmetros de campo";
@@ -105,4 +113,3 @@ $MESS["user_edit_time_zones_auto_def"] = "(padrão)";
 $MESS["user_edit_time_zones_auto_no"] = "Não, escolher da lista";
 $MESS["user_edit_time_zones_auto_yes"] = "Sim, usar as configurações do navegador";
 $MESS["user_edit_time_zones_zones"] = "Fuso horário:";
-?>

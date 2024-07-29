@@ -1,6 +1,6 @@
-<?
+<?php
 $MESS["F_ANCHOR"] = "Rééférence à ce message";
-$MESS["F_ANCHOR_TITLE"] = "Copier l'adresse de référence à ce message dans la Presse-papiers";
+$MESS["F_ANCHOR_TITLE"] = "Copier l'adresse de référence à ce message dans la presse-papiers";
 $MESS["F_ATTACH_FILES"] = "Copies des billets";
 $MESS["F_AUTHOR_PROFILE"] = "Evènements du profil utilisateur";
 $MESS["F_DATE_REGISTER"] = "Enregistrement : ";
@@ -25,4 +25,3 @@ $MESS["F_USER_ID"] = "ID du visiteur";
 $MESS["F_USER_ID_USER"] = "ID utilisateur";
 $MESS["JS_NO_ACTION"] = "Aucune opération selectionnée. Veuillez sélectionner une opération.";
 $MESS["JS_NO_MESSAGES"] = "Aucun message a été séléctionné. Sélectionnez les messages.";
-?>

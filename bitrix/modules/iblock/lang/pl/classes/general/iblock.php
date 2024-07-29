@@ -1,10 +1,9 @@
-<?
+<?php
 $MESS["IBLOCK_ADD"] = "Nowy blok informacji został dodany";
 $MESS["IBLOCK_BAD_BLOCK_TYPE"] = "Nie wpisałeś/aś typu bloku.";
 $MESS["IBLOCK_BAD_FILE_ERROR"] = "Wystąpił błąd przy ładowaniu pliku na serwer.";
 $MESS["IBLOCK_BAD_FILE_NOT_FOUND"] = "Nie znaleziono pliku.";
 $MESS["IBLOCK_BAD_FILE_NOT_PICTURE"] = "Brak pliku obrazka.";
-$MESS["IBLOCK_BAD_FILE_UNSUPPORTED"] = "Zmiana rozmiarów obrazka może być wykonany dla formatów JPEG, GIF i PNG";
 $MESS["IBLOCK_BAD_NAME"] = "Nie wpisałeś/aś nazwy bloku.";
 $MESS["IBLOCK_BAD_SITE_ID"] = "Zła strona!";
 $MESS["IBLOCK_BAD_SITE_ID_NA"] = "Wpisz stronę";
@@ -14,10 +13,11 @@ $MESS["IBLOCK_EDIT"] = "Blok informacji został zmieniony";
 $MESS["IBLOCK_ELEMENT_ADD"] = "Dodano nowy element bloku informacji";
 $MESS["IBLOCK_ELEMENT_DELETE"] = "Usunięto element bloku informacji";
 $MESS["IBLOCK_ELEMENT_EDIT"] = "Zmieniono element bloku informacji";
+$MESS["IBLOCK_ERR_IBLOCK_IS_ABSENT"] = "Nie znaleziono bloku informacji.";
 $MESS["IBLOCK_FIELD_ACTIVE"] = "Aktywne";
 $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_FROM"] = "Rozpoczęcie działania";
 $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_TO"] = "Zakończenie działania";
-$MESS["IBLOCK_FIELD_CODE"] = "Kod podatku";
+$MESS["IBLOCK_FIELD_CODE"] = "Kod symboliczny";
 $MESS["IBLOCK_FIELD_DETAIL_PICTURE"] = "Obraz detali";
 $MESS["IBLOCK_FIELD_DETAIL_TEXT"] = "Uszczegółowiony opis";
 $MESS["IBLOCK_FIELD_DETAIL_TEXT_TYPE"] = "Typ pełnego opisu";
@@ -53,4 +53,3 @@ $MESS["IBLOCK_SECTION_DELETE"] = "Usunięto blok iinformacji sekcji";
 $MESS["IBLOCK_SECTION_EDIT"] = "Zmieniono blok informacji sekcji";
 $MESS["IBLOCK_SITE_LINKS_EXISTS"] = "Znaleziono kilka bloków informacji połączonych z tą stroną: #ID_LIST#.";
 $MESS["IBLOCK_TABLE_CREATION_ERROR"] = "Błąd tworzenia tabeli do przechowywania wartości właściwości bloku informacji.";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATALOG_SC_BLOG_SECTION_TITLE"] = "Commentaires sur le site";
 $MESS["CATALOG_SC_BLOG_TITLE"] = "Inscription sur l'onglet";
 $MESS["CATALOG_SC_BLOG_TITLE_VALUE"] = "Commentaire";
@@ -38,10 +38,9 @@ $MESS["CP_CC_ALLOW_IMAGE_UPLOAD"] = "Autorisation de téléchargement d'images :
 $MESS["CP_CC_ALLOW_IMAGE_UPLOAD_VALUE_A"] = "Tous";
 $MESS["CP_CC_ALLOW_IMAGE_UPLOAD_VALUE_N"] = "Personne";
 $MESS["CP_CC_ALLOW_IMAGE_UPLOAD_VALUE_R"] = "Utilisateurs inscrits";
-$MESS["RATING_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_TYPE_LIKE_GRAPHIC"] = "J'aime (image)";
 $MESS["RATING_TYPE_LIKE_TEXT"] = "J'aime (textuel)";
 $MESS["RATING_TYPE_STANDART_GRAPHIC"] = "J'aime / Je n'aime pas (image)";
 $MESS["RATING_TYPE_STANDART_TEXT"] = "J'aime / Je n'aime pas (textuel)";
-?>

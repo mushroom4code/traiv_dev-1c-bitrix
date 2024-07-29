@@ -68,6 +68,7 @@ $MESS["SALE_DSE_TAB_PROFILES"] = "Perfis";
 $MESS["SALE_DSE_TAB_PROFILES_DESCR"] = "Perfis de serviço de entrega";
 $MESS["SALE_DSE_TAB_RESTRICTIONS"] = "Restrições";
 $MESS["SALE_DSE_TAB_RESTRICTIONS_DESCR"] = "Restrições de serviço de entrega";
+$MESS["SALE_DSE_TAB_SETTINGS"] = "Parâmetros";
 $MESS["SALE_DSE_TAB_TRACKING"] = "Rastreamento";
 $MESS["SALE_DSE_TAB_TRACKING_DESCR"] = "Parâmetros de rastreamento";
 $MESS["SALE_DSE_TAB_TRACKING_PARAMS"] = "Parâmetros";

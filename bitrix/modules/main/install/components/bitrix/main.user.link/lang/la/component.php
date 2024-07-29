@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_UL_ADMIN_NOTES"] = "Notas del administrador";
 $MESS["MAIN_UL_DATE_REGISTER"] = "Registrado en ";
 $MESS["MAIN_UL_DONT_KNOW"] = "(desconocido)";
@@ -13,8 +13,8 @@ $MESS["MAIN_UL_NAME_TEMPLATE_DEFAULT"] = "#NOBR##NAME# #LAST_NAME##/NOBR#";
 $MESS["MAIN_UL_NO_ID"] = "El ID del usuario está faltando.";
 $MESS["MAIN_UL_NO_USER"] = "Un usuario con el ID especificado no se encontró.";
 $MESS["MAIN_UL_ONLINE"] = "en linea";
-$MESS["MAIN_UL_PERSONAL_BIRTHDAY"] = "Fecha de cumpleaños";
-$MESS["MAIN_UL_PERSONAL_BIRTHDAY_DT"] = "Fecha de cumpleaños";
+$MESS["MAIN_UL_PERSONAL_BIRTHDAY"] = "Fecha de nacimiento";
+$MESS["MAIN_UL_PERSONAL_BIRTHDAY_DT"] = "Fecha de nacimiento";
 $MESS["MAIN_UL_PERSONAL_CITY"] = "Ciudad";
 $MESS["MAIN_UL_PERSONAL_COUNTRY"] = "País";
 $MESS["MAIN_UL_PERSONAL_FAX"] = "Fax";
@@ -58,4 +58,3 @@ $MESS["MAIN_UL_WORK_STATE"] = "Compañía Estado/Región";
 $MESS["MAIN_UL_WORK_STREET"] = "Dirección de la calle de la compañía";
 $MESS["MAIN_UL_WORK_WWW"] = "Sitio web de la compañía";
 $MESS["MAIN_UL_WORK_ZIP"] = "Zip de la compañía";
-?>

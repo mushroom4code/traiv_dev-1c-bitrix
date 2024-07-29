@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERR_MAX_INPUT_VARS"] = "O valor de max_input_vars deverá ser ao menos #MIN# ou maior. O valor atual é: #CURRENT#";
 $MESS["ERR_NO_MODS"] = "As extensões necessárias não estão instaladas:";
 $MESS["ERR_NO_SSL"] = "O Suporte a SSL não está habilitado para PHP";
@@ -54,7 +54,7 @@ $MESS["MAIN_SC_MCRYPT"] = "Calendário";
 $MESS["MAIN_SC_METHOD_NOT_SUP"] = "O servidor não suporta o método #METHOD#.";
 $MESS["MAIN_SC_NOT_AVAIL"] = "indisponível";
 $MESS["MAIN_SC_NOT_SUPPORTED"] = "O servidor não suporta esta funcionalidade.";
-$MESS["MAIN_SC_NO_ACCESS"] = "Não é possível acessar Bitrix, Inc. servidor. Bitrix Cloud e atualizações de serviços não estão disponíveis ..";
+$MESS["MAIN_SC_NO_ACCESS"] = "Não é possível acessar Bitrix24 servidor. Bitrix Cloud e atualizações de serviços não estão disponíveis ..";
 $MESS["MAIN_SC_NO_CONFLICT"] = "Sem conflitos.";
 $MESS["MAIN_SC_NO_CONNECTTO"] = "Não é possível ligar para o #HOST#";
 $MESS["MAIN_SC_NO_EXTERNAL_ACCESS_"] = "Este recurso não está disponível porque a Intranet é inacessível externamente.";
@@ -203,7 +203,7 @@ $MESS["SC_HELP_CHECK_EXTRANET"] = "O <a href=\"http://www.bitrixsoft.com/product
 Se você não precisa de recursos fornecidos por este módulo, simplesmente <a href=\"/bitrix/admin/module_admin.php\">desinstalá-lo</a>.";
 $MESS["SC_HELP_CHECK_FAST_DOWNLOAD"] = "Download rápido de arquivo é implementado utilizando o <a href=\"http://wiki.nginx.org/X-accel\">redirecionamento interno do nginx</a>. As permissões de acesso a arquivos são verificadas usando chamadas de PHP, enquanto que o download real é tratado pelo nginx.
 
-Uma vez que o pedido foi resolvido, os recursos PHP estão liberados para processar um pedido posterior na fila. Isso melhora significativamente o desempenho da Intranet e aumenta a velocidade de download de arquivo quando acessado via Bitrix.Drive, Biblioteca de Documentos ou ao fazer download de anexos de mensagens do Fluxo de Atividades.
+Uma vez que o pedido foi resolvido, os recursos PHP estão liberados para processar um pedido posterior na fila. Isso melhora significativamente o desempenho da Intranet e aumenta a velocidade de download de arquivo quando acessado via Bitrix.Drive, Biblioteca de Documentos ou ao fazer download de anexos de mensagens do Feed.
 
 Ative esta opção nas <a href = \"/bitrix/admin/settings.php?mid = main \">Configurações de Kernel</a>. <a href=\"http://www.bitrixsoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> suporta download rápido de arquivos por padrão.";
 $MESS["SC_HELP_CHECK_GETIMAGESIZE"] = "Quando você adiciona um objeto Flash, o editor visual precisa obter o tamanho do objeto e chamar a função PHP <b>getimagesize</b>, que exige a extensão <b>Zlib</b>. Esta função pode falhar quando chamado para um objeto Flash comprimido se a extensão <b>Zlib</b> é instalada como um módulo. Ele precisa ser construído estaticamente.
@@ -238,29 +238,6 @@ Tais mensagens podem ser enviadas se o servidor estiver configurado incorretamen
 
 Se o problema aparecer, contacte o seu provedor de hospedagem. Se você estiver executando o sistema em uma máquina local, você terá que configurar o servidor manualmente.";
 $MESS["SC_HELP_CHECK_MAIL_B_EVENT"] = "A tabela de banco de dados B_EVENT armazena o e-mail do website e registra os eventos de envio de email. Se algumas das mensagens não forem enviadas,as razões possíveis são: o endereço destinatário inválido, parâmetros incorretos de e-mail do modelo ou do subsistema do servidor de e-mail.";
-$MESS["SC_HELP_CHECK_MBSTRING"] = "ificação UTF-8 são diferentes das de qualquer charset nacional (por exemplo cp1252).
-
-Os seguintes parâmetros são obrigatórios para sites baseados em UTF-8:
-<b>mbstring.func_overload = 2</b>
-<b>mbstring.internal_encoding = UTF-8</b>
-
-O primeiro parâmetro implícito redireciona chamadas de funções string do PHP para funções mbstring. O segundo parâmetro define a codificação de texto.
-
-Se o seu site não usa UTF-8, o primeiro parâmetro deve ser zero:
-<b>mbstring.func_overload = 0</b>
-
-Se você não pode desativar o redirecionamento de função por algum motivo, tente usar uma codificação de um byte:
-<b>mbstring.func_overload = 2</b>
-<b>mbstring.internal_encoding = latin1</b>
-
-Se os valores atribuídos não correspondem aos parâmetros do site, você vai encontrar erros estranhos e bizarros como palavras truncadas, importações XML quebradas etc.
-
-Lembrar que o <b>mbstring.func_overload</b> parâmetro é definido no php.ini global (ou em httpd.conf para um servidor virtual), enquanto que o parâmetro de codificação se senta na. htaccess.
-
-Todos os módulos Bitrix usam a constante <i>BX_UTF</i> para resolver a codificação atual. Um site UTF-8 requer o seguinte código <i>/Bitrix/php_interface/dbconn.php</i>:
-<code> define ('BX_UTF', true); </code>
-\"
-";
 $MESS["SC_HELP_CHECK_MEMORY_LIMIT"] = "\"Este teste cria um processo PHP isolado para gerar uma variável cujo tamanho é incrementado gradualmente. No final, isso produzirá a quantidade de memória disponível para o processo de PHP.
 
 O PHP define o limite de memória no php.ini, definindo o parâmetro <b>memory_limit</b>. No entanto, esse pode ser substituído em hostings compartilhados. Você não deve confiar neste parâmetro.
@@ -293,8 +270,12 @@ $MESS["SC_HELP_CHECK_MYSQL_DB_CHARSET"] = "Este teste verifica se o conjunto e a
 
 Tais erros, se ocorrerem, podem ser corrigidos automaticamente se o usuário atual tem permissão de escrita no banco (ALTER DATABASE).
 ";
-$MESS["SC_HELP_CHECK_MYSQL_MODE"] = "O parâmetro <i>sql_mode</i> especifica o modo de operação MySQL. Note que, se aceita valores incompatíveis com Bitrix soluções. Adicione o seguinte código para <i>/Bitrix/php_interface/after_connect.php</i> para definir a modo padrão:
-<code> \$ db-> query (SET sql_mode =''\"); </code>";
+$MESS["SC_HELP_CHECK_MYSQL_MODE"] = "O parâmetro <i>sql_mode</i> especifica o modo de operação MySQL. Observe que ele pode aceitar valores incompatíveis com soluções Bitrix. Adicione o seguinte código <i>/Bitrix/php_interface/after_connect.php</I> para definir o modo padrão:
+<code>\$connection = Bitrix\Main\Application::getConnection();
+\$connection-&gt;queryExecute(&quot;SET sql_mode=''&quot;);
+\$connection-&gt;queryExecute(&quot;SET innodb_strict_mode=0&quot;);</code>
+
+Observe que você pode precisar ter privilégio de usuário de banco de dados SESSION_VARIABLES_ADMIN no MySQL 8.0.26 e mais recente. Se o seu privilégio atual for insuficiente, você deve entrar em contato com o administrador do seu banco de dados ou editar o arquivo de configuração do MySQL.";
 $MESS["SC_HELP_CHECK_MYSQL_TABLE_CHARSET"] = "\"O charset de todas as tabelas e campos devem coincidir com o charset do banco de dados. Se o charset de qualquer uma das tabelas é diferente, você deve consertá-lo manualmente, usando os comandos SQL.
 
 O agrupamento da tabela deve coincidir com os agrupamentos de banco de dados. Se os charsets estão configurados corretamente,o agrupamento será corrigido automaticamente.
@@ -347,7 +328,7 @@ $MESS["SC_HELP_CHECK_PULL_COMMENTS"] = "Para fazer comentários no Fluxo de Ativ
 ";
 $MESS["SC_HELP_CHECK_PULL_STREAM"] = "O módulo <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> requer que seu servidor suporte esta funcionalidade.
 
-Este módulo lida com a entrega de mensagens instantâneas para o Web Messenger e para o aplicativo móvel. Ele também é usado para atualizar o Fluxo de Atividades.
+Este módulo lida com a entrega de mensagens instantâneas para o Web Messenger e para o aplicativo móvel. Ele também é usado para atualizar o Feed.
 
 <a href=\"http://www.bitrixsoft.com/products/virtual_appliance/\">Bitrix Virtual Appliance</a> suporta este módulo desde a versão 4.2.";
 $MESS["SC_HELP_CHECK_PUSH_BITRIX"] = "O módulo <a href=\"http://www.bitrixsoft.com/support/training/course/index.php?COURSE_ID=26&LESSON_ID=5144\">Push and Pull</a> lida com a entrega de mensagens instantâneas (pull) e envia notificações push para dispositivos móveis (<a href=\"http://www.bitrixsoft.com/products/intranet/features/bitrixmobile.php\">aplicação móvel Bitrix</a>).
@@ -381,10 +362,10 @@ $MESS["SC_HELP_CHECK_SOCKET_SSL"] = "Uma conexão criptografada é sempre estabe
 Um certificado é válido se ele foi verificado pela autoridade emissora e é de propriedade de um site em que é para ser usado. Você normalmente pode comprar um certificado de sua empresa de hospedagem.
 
 Se você usar um certificado auto-emitido em uma conexão HTTPS, os visitantes podem experimentar problemas usando software externo ao conectar uma unidade WebDav ou ao se comunicar com o Microsoft Outlook.";
-$MESS["SC_HELP_CHECK_SOCNET"] = "Para receber atualizações de recursos sociais, o <a href=\"http://www.bitrixsoft.com/company/blog/news/integration-with-social-networks.php\">Integração site social</a> módulo tem a fornecendo chaves de autenticação ser configurado para cada serviço que vai ser utilizado.";
+$MESS["SC_HELP_CHECK_SOCNET"] = "Para receber atualizações de recursos sociais, o Integração site social módulo tem a fornecendo chaves de autenticação ser configurado para cada serviço que vai ser utilizado.";
 $MESS["SC_HELP_CHECK_TURN"] = "Chamada de vídeo exige que os navegadores dos usuários envolvidos podem se conectar uns aos outros. Se as chamadas estiver em redes diferentes - por exemplo, em escritórios em diferentes locais - e nenhuma conexão direta é possível, você vai precisar de um servidor TURN especial para estabelecer a conexão.
 
-Bitrix Inc. fornece o servidor TURN pré gratuitamente em turn.calls.bitrix24.com.
+Bitrix24 fornece o servidor TURN pré gratuitamente em turn.calls.bitrix24.com.
 
 Alternativamente, você pode configurar seu próprio servidor e especificar o URL do servidor nas configurações do módulo de Web Messenger.";
 $MESS["SC_HELP_CHECK_UPDATE"] = "Isso vai tentar estabelecer um teste de conexão com o servidor de atualização usando as configurações atuais do módulos do kernel. Se a conexão não poder ser estabelecida, você não será capaz de instalar atualizações ou ativar a versão de avaliação.
@@ -412,7 +393,6 @@ $MESS["SC_MOD_GD"] = "Biblioteca GD";
 $MESS["SC_MOD_GD_JPEG"] = "Suporte GD JPEG";
 $MESS["SC_MOD_JSON"] = "Suporta JSON";
 $MESS["SC_MOD_MBSTRING"] = "suporte mbstring";
-$MESS["SC_MOD_PERL_REG"] = "Suporte a expressões regulares (Perl-Compatible)";
 $MESS["SC_MOD_XML"] = "Suporte a XML";
 $MESS["SC_MYSQL_ERR_VER"] = "MySQL #CUR# está instalado, mas #REQ# é necessária.";
 $MESS["SC_NOT_FILLED"] = "A descrição do problema é necessária.";
@@ -509,4 +489,3 @@ $MESS["SC_WARNINGS_FOUND"] = "Avisos, mas sem erros.";
 $MESS["SC_WARN_DAV"] = "O WebDav está desativado porque o módulo mod_dav/mod_dav_fs está carregado.";
 $MESS["SC_WARN_SECURITY"] = "O módulo mod_security foi carregado, alguns problemas podem surgir no Painel de Controle.";
 $MESS["SC_WARN_SUHOSIN"] = "Módulo suhosin carregado, alguns problemas podem surgir no Painel de Controle (suhosin.simulation = #VAL#).";
-?>

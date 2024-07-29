@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_PROP"] = "Błąd dodawania właściwości.";
 $MESS["ERROR_ADD_VARIANT"] = "Błąd dodawania właściwości";
 $MESS["ERROR_EDIT_PROP"] = "Błąd modyfikacji właściwości.";
@@ -42,6 +42,7 @@ $MESS["SALE_PROPERTY_LINKING"] = "Połączenie właściwości";
 $MESS["SALE_PROPERTY_LINKING_DESC"] = "Łączy właściwości z systemem płatności i usługą dostawy";
 $MESS["SALE_PROPERTY_PAYSYSTEM"] = "Systemy płatności";
 $MESS["SALE_PROPERTY_SELECT_ALL"] = "Wszystkie";
+$MESS["SALE_PROPERTY_TP_LANDING"] = "Strony docelowe";
 $MESS["SALE_PROPS_GROUP"] = "Właściwości grup";
 $MESS["SALE_RECORDS_LIST"] = "Do listy właściwości";
 $MESS["SALE_RESET"] = "Wyczyść";
@@ -59,4 +60,3 @@ $MESS["SOPEN_DELETE_PROPS_CONFIRM"] = "Na pewno chcesz usunąć tę właściwoś
 $MESS["SOPEN_NEW_PROPS"] = "Utwórz nową właściwość";
 $MESS["SOPEN_TAB_PROPS"] = "Właściwości zamówienia";
 $MESS["SOPE_TO_LIST"] = "Właściwości";
-?>

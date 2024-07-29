@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATI_ACTIVATE_PROD"] = "activer";
 $MESS["CATI_ADDIT_SETTINGS"] = "Paramètres avancés";
 $MESS["CATI_ADD_CODE_TRANSLIT"] = "Afficher la translittération lors de création du bloc d'information";
@@ -65,9 +65,9 @@ $MESS["CATI_INACTIVE_PRODS"] = "Produits inactifs / catégories";
 $MESS["CATI_INFOBLOCK"] = "Bloc de l'information : ";
 $MESS["CATI_INFOBLOCK_SELECT"] = "- Sélectionner -";
 $MESS["CATI_KEEP_AS_IS"] = "laisser tel quel";
-$MESS["CATI_LINE_NO"] = "Ligne";
+$MESS["CATI_LINE_NO"] = "Chaîne";
 $MESS["CATI_LOADSCHEME"] = "Système de charge : ";
-$MESS["CATI_NEXT_STEP"] = "En avant";
+$MESS["CATI_NEXT_STEP"] = "Suivant";
 $MESS["CATI_NEXT_STEP_F"] = "Charger les données";
 $MESS["CATI_NOIDNAME"] = "Impossible d'identifier le produit parce que le Nom et Unique ID ne sont pas spécifiés.";
 $MESS["CATI_NOMAME"] = "<nom vide>";
@@ -180,7 +180,6 @@ $MESS["CML_R_ADD"] = "ajout";
 $MESS["CML_R_EDIT"] = "Edition";
 $MESS["CML_R_IBLOCK"] = "Erreur #ACT# le bloc d'informations #NAME# : #ERROR#";
 $MESS["CML_R_MIN"] = "min.";
-$MESS["CML_R_MYSQL_ONLY"] = "Dans le <b>MySql</b> Version, cette importations de script données de format CommerceML. Si vous avez des questions concernant d'autres versions du produit, s'il vous plaît les adresser au service d'assistance à l'adresse <a href='mailto:support@bitrixsoft.com'>support@bitrixsoft.com</a>";
 $MESS["CML_R_NCATA"] = "Catalogues traitées: #NUM#";
 $MESS["CML_R_NGRP"] = "Groupes traités: #NUM#";
 $MESS["CML_R_NOFF"] = "Offres traitées: #NUM#";
@@ -202,4 +201,3 @@ $MESS["DIN_QUANTITY_FROM"] = "Quantité achetée du";
 $MESS["DIN_QUANTITY_TO"] = "Quantité achetée jusqu'à";
 $MESS["EST_PRICE_TYPE"] = "Type de prix '#TYPE#'";
 $MESS["EST_PRICE_TYPE2"] = "Prix de type '#NAME#' (#TYPE#)";
-?>

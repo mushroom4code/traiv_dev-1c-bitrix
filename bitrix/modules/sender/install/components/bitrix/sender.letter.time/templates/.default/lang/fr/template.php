@@ -1,4 +1,6 @@
-<?
+<?php
+$MESS["SENDER_LETTER_TIME_LIMITATION_LIMITS_INFO"] = "Plus d'informations %link_start%ici%link_end%";
+$MESS["SENDER_LETTER_TIME_LIMITATION_MAX"] = "Vous pouvez envoyer jusqu'à %max% de messages par e-mail par jour.";
 $MESS["SENDER_LETTER_TIME_OUTSIDE_ADD_SUCCESS"] = "La lettre d'information a été enregistrée !<br>
 Vous pouvez à présent y accéder depuis l'espace Marketing du CRm (<a href=\"%path%\">Lettres d'information</a>)";
 $MESS["SENDER_LETTER_TIME_TMPL_ACCEPT"] = "Enregistrer";
@@ -25,4 +27,3 @@ $MESS["SENDER_LETTER_TIME_TMPL_TIME"] = "Programmer";
 $MESS["SENDER_LETTER_TIME_TMPL_TITLE_EXISTS"] = "Campagne %name%";
 $MESS["SENDER_LETTER_TIME_TMPL_TITLE_NEW"] = "La campagne %name% a été créée et est prête à être envoyée !";
 $MESS["SENDER_LETTER_TIME_TMPL_WEEK_DAYS_TIME"] = "Heure";
-?>

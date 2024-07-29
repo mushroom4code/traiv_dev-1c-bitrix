@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION"] = "Działanie";
 $MESS["ACTIVE"] = "Aktywne";
 $MESS["ADD_TASK"] = "Dodaj poziom dostępu";
@@ -48,6 +48,5 @@ $MESS["TASK_FILTER_MODULE_ID"] = "Moduł";
 $MESS["TASK_FILTER_NAME"] = "Nazwa";
 $MESS["TASK_FILTER_SYS"] = "Is system";
 $MESS["TIMESTAMP"] = "Zmodyfikowany";
-$MESS["TITLE"] = "Uprawnienia";
+$MESS["TITLE"] = "Poziomy dostępu";
 $MESS["YES"] = "Tak";
-?>

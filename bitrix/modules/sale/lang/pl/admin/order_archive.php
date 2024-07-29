@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBEL_A_UNLOCK"] = "Odblokuj";
 $MESS["SALE_ACTION"] = "Działania";
 $MESS["SALE_A_NEWORDER"] = "Nowe zamówienie";
@@ -20,9 +20,9 @@ $MESS["SI_DATE_INSERT"] = "Utworzone";
 $MESS["SI_LOCK_STATUS"] = "Zablokuj";
 $MESS["SOAN_ITOG"] = "Wszystkich";
 $MESS["SOAN_LIST_CANCEL"] = "Anuluj";
+$MESS["SOA_BASKET_VAT_RATE"] = "Stawka podatku";
 $MESS["SOA_SHOW_SET"] = "Rozwiń";
 $MESS["SO_CHANGE"] = "Edytuj";
 $MESS["SO_NO"] = "Nie";
 $MESS["SO_NONE"] = "Brak";
 $MESS["SO_YES"] = "Tak";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ELVL001_SIZE_ERROR"] = "Błąd podczas pobierania aktualizacji. Proszę spróbować ponownie.";
 $MESS["HINT_WIND_EXEC"] = "Updates description";
 $MESS["HINT_WIND_EXEC_ALT"] = "Updates description";
@@ -105,7 +105,7 @@ $MESS["SUP_ENTER_CORRECT_KEY"] = "Proszę wprowadzić poprawny klucz licencji";
 $MESS["SUP_ENTER_KEY"] = "Proszę wprowadzić swój kod licencji";
 $MESS["SUP_ERRORS"] = "Errors found:";
 $MESS["SUP_ERROR_NO_MAIL_U"] = "Please enter e-mail address for subscription";
-$MESS["SUP_EXPAND"] = "Rozwinięcie";
+$MESS["SUP_EXPAND"] = "Rozwiń";
 $MESS["SUP_HELP_LOAD_BREAK"] = "Pobieranie sekcji pomocy przerwane";
 $MESS["SUP_HISTORY_LINK"] = "Zobacz historię aktualizacji";
 $MESS["SUP_HIST_DATE"] = "Data";
@@ -239,4 +239,3 @@ $MESS["SUP_WORD_YAZIK_END1"] = "S";
 $MESS["SUP_WORD_YAZIK_END2"] = "S";
 $MESS["SUP_WORD_YAZIK_END4"] = "S";
 $MESS["SUP_ZLIB"] = "Moduł PHP zlib jest zainstalowany. Zostanie użyta kompresja danych.";
-?>

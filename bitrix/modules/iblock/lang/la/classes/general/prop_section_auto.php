@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["BT_UT_AUTOCOMPLETE_SYM_GRID"] = "#";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_OTHER"] = "Otro";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_SPACE"] = "Espacio";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_STAR"] = "*";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_UNDERLINE"] = "_";
-$MESS["BT_UT_SAUTOCOMPLETE_DESCR"] = "Enlazar a secciones con autocompletado";
+$MESS["BT_UT_SAUTOCOMPLETE_DESCR"] = "Enlazar a secciones para autocompletar";
 $MESS["BT_UT_SAUTOCOMPLETE_MESS_ELEMENT_EDIT"] = "Abrir sección y editar página";
 $MESS["BT_UT_SAUTOCOMPLETE_MESS_INVITE"] = "ingresar texto";
 $MESS["BT_UT_SAUTOCOMPLETE_MESS_LIST_INVITE"] = "(ingresar el nombre)";
@@ -14,6 +14,9 @@ $MESS["BT_UT_SAUTOCOMPLETE_MESS_NO_SEARCH_RESULT_TEXT"] = "no hay resultados";
 $MESS["BT_UT_SAUTOCOMPLETE_MESS_SEARCH_ELEMENT"] = "...";
 $MESS["BT_UT_SAUTOCOMPLETE_MESS_SEARCH_ELEMENT_DESCR"] = "Seleccionar la sección en el panel de búsqueda";
 $MESS["BT_UT_SAUTOCOMPLETE_MESS_SEARCH_ELEMENT_MULTI_DESCR"] = "Seleccionar múltiples secciones en el panel de búsqueda";
+$MESS["BT_UT_SAUTOCOMPLETE_SEARCH_CHANGE_QUERY"] = "Intente una búsqueda diferente.";
+$MESS["BT_UT_SAUTOCOMPLETE_SEARCH_ENTER_QUERY"] = "Introducir texto de búsqueda";
+$MESS["BT_UT_SAUTOCOMPLETE_SEARCH_NOT_FOUND"] = "Su búsqueda no dio resultados";
 $MESS["BT_UT_SAUTOCOMPLETE_SETTING_BAN_SYMBOLS"] = "Reemplazar caracteres reservados";
 $MESS["BT_UT_SAUTOCOMPLETE_SETTING_COMMENT_MAX_HEIGHT"] = "px";
 $MESS["BT_UT_SAUTOCOMPLETE_SETTING_COMMENT_MAX_WIDTH"] = "px";
@@ -28,4 +31,3 @@ $MESS["BT_UT_SAUTOCOMPLETE_SETTING_TITLE"] = "Configuración para campos de auto
 $MESS["BT_UT_SAUTOCOMPLETE_SETTING_VIEW"] = "Controles de IU";
 $MESS["BT_UT_SAUTOCOMPLETE_VIEW_AUTO"] = "Cuadro de texto de autocompletar";
 $MESS["BT_UT_SAUTOCOMPLETE_VIEW_ELEMENT"] = "Cuadro de texto de autocompletar y ventana de búsqueda";
-?>

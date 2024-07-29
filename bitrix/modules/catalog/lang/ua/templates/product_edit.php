@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASE_CURRENCY"] = "Валюта базової ціни";
 $MESS["BASE_PRICE"] = "Базова ціна";
 $MESS["BASE_QUANTITY_RESERVED"] = "Зарезервована кількість";
@@ -22,6 +22,7 @@ $MESS["C2IT_BOUND_WRONG"] = "Межі діапазонів кількості з
 $MESS["C2IT_CAN_BUY_NULL_EXT"] = "Дозволити покупку при відсутності товару (включаючи дозвіл негативної кількості товару)";
 $MESS["C2IT_COST_CURRENCY"] = "Валюта закупівельної ціни";
 $MESS["C2IT_COST_PRICE"] = "Закупівельна ціна";
+$MESS["C2IT_COST_PRICE_EXT"] = "Закупівельна ціна:";
 $MESS["C2IT_CURRENCY"] = "Валюта";
 $MESS["C2IT_DEFAULT_NEGATIVE"] = "за умовчанням";
 $MESS["C2IT_DISCOUNTS"] = "Знижки";
@@ -76,7 +77,10 @@ $MESS["C2IT_PRICES_EXT_TARIFF_ENABLE"] = "Увімкнути";
 $MESS["C2IT_PRICES_USEEXT"] = "Використовувати розширений режим управління цінами";
 $MESS["C2IT_PRICE_TYPE"] = "Тип ціни";
 $MESS["C2IT_PROD_AMOUNT"] = "Кількість товару";
+$MESS["C2IT_PROD_QUANTITY_RESERVED"] = "У резерві";
 $MESS["C2IT_REGULAR"] = "Регулярна";
+$MESS["C2IT_SERVICE_COST_PRICE"] = "Собівартість:";
+$MESS["C2IT_SERVICE_SIMPLE_AVAILABLE"] = "Доступність:";
 $MESS["C2IT_SINGLE"] = "Одноразова";
 $MESS["C2IT_SITE"] = "Сайт";
 $MESS["C2IT_STORE"] = "Склади";
@@ -94,6 +98,7 @@ $MESS["C2IT_TO"] = "До";
 $MESS["C2IT_TRIAL"] = "Пробний період";
 $MESS["C2IT_TRIAL_FOR"] = "Пробна для (заповнюється тільки для пробних):";
 $MESS["C2IT_UF_FIELDS"] = "Розширені параметри";
+$MESS["C2IT_UF_SYSTEM_FIELDS"] = "Системні налаштування";
 $MESS["C2IT_USERS_GROUP"] = "Група користувачів";
 $MESS["C2IT_VKL"] = "Увімкн.";
 $MESS["C2IT_WITHOUT_ORDER"] = "Подовження без оформлення замовлення:";
@@ -122,5 +127,3 @@ $MESS["SET_NOTICE_QUANTITY"] = "Доступна кількість компле
 $MESS["SET_NOTICE_WEIGHT"] = "Вага комплекту розраховується автоматично по вазі товарів та їх кількості в комплекті";
 $MESS["VAL_BASE"] = "< базова >";
 $MESS["VAL_NOT_SET"] = "< не встановлено >";
-$MESS["C2IT_PROD_QUANTITY_RESERVED"] = "У резерві";
-?>

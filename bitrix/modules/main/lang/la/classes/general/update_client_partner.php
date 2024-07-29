@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ELVL001_SIZE_ERROR"] = "Error mientras descargaba las actualizaciones. Por favor intentede nuevo.";
 $MESS["HINT_WIND_EXEC"] = "Actualizar descripción";
 $MESS["HINT_WIND_EXEC_ALT"] = "Actualizar descripción";
@@ -122,7 +122,7 @@ $MESS["SUP_ACT_NO_USER_LAST_NAME"] = "El último nombre de usuario para su uso e
 $MESS["SUP_ACT_NO_USER_LOGIN"] = "El registro del registro en <a href=\"http://www.bitrixsoft.com\" target=\"_blank\">www.bitrixsoft.com</a> no está especificado.";
 $MESS["SUP_ACT_NO_USER_NAME"] = "El nombre de usuario para su uso en <a href=\"http://www.bitrixsoft.com\" target=\"_blank\">www.bitrixsoft.com</a> no está especificado.";
 $MESS["SUP_ACT_NO_USER_PASSWORD"] = "La contraseña del usuario para ser utilizada en  <a href=\"http://www.bitrixsoft.com\" target=\"_blank\">www.bitrixsoft.com</a> no está especificada.";
-$MESS["SUP_ACT_NO_USER_PASSWORD_CONFIRM"] = "La contraseña del usuario para utilizar en <a href=\"http://www.1c-bitrix.ru\">www.1c-bitrix.ru</a> no coincide con la confirmación.";
+$MESS["SUP_ACT_NO_USER_PASSWORD_CONFIRM"] = "La contraseña del usuario para utilizar en <a href=\"https://store.bitrix24.com\">store.bitrix24.com</a> no coincide con la confirmación.";
 $MESS["SUP_ACT_SHORT_USER_LOGIN"] = "El registro en <a href=\"http://www.bitrixsoft.com\" target=\"_blank\">www.bitrixsoft.com</a> debe contener 3 caracteres o más.";
 $MESS["SUP_ACT_TAB"] = "Activación";
 $MESS["SUP_ACT_TAB_TITLE"] = "Activación de clave de licencia";
@@ -304,4 +304,3 @@ $MESS["SUP_WORD_YAZIK_END2"] = "s";
 $MESS["SUP_WORD_YAZIK_END4"] = "s";
 $MESS["SUP_ZLIB"] = "El módulo PHP zlib está instalado. La compresión de la base de datos podrá ser usada.";
 $MESS["SUP_ZLIB_RECOM"] = "Por favor, instale un módulo Zlib para PHP para intensificar el proceso de actualización. Puede obtener más información sobre este módulo aquí: <a href=\"#ZLIB_URL#\" target=\"_blank\">#ZLIB_URL#</a>.";
-?>

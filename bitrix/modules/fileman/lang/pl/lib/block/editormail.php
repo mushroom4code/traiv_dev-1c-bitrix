@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOCK_EDITOR_BLOCK_BOXEDIMAGE_DESC"] = "Ten blok wstawia obraz i tekst ramkę.";
 $MESS["BLOCK_EDITOR_BLOCK_BOXEDIMAGE_NAME"] = "Oprawiony obraz";
 $MESS["BLOCK_EDITOR_BLOCK_BOXEDTEXT_DESC"] = "Ten blok zawiera tekst w ramce.";
@@ -16,6 +16,7 @@ $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_CATALOG_NAME"] = "Katalog";
 $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_COUPON_NAME"] = "Kupon";
 $MESS["BLOCK_EDITOR_BLOCK_COMPONENT_ORDER_NAME"] = "Zamówienie";
 $MESS["BLOCK_EDITOR_BLOCK_DYNAMIC_CONTENT"] = "Treść dynamiczna";
+$MESS["BLOCK_EDITOR_BLOCK_FOOTER_CONSENT_EXAMPLE"] = "Zgoda na śledzenie wiadomości e-mail";
 $MESS["BLOCK_EDITOR_BLOCK_FOOTER_DESC"] = "Ten blok wstawia informacje do anulowania subskrypcji listy mailingowej.";
 $MESS["BLOCK_EDITOR_BLOCK_FOOTER_EXAMPLE"] = "Anuluj subskrypcję";
 $MESS["BLOCK_EDITOR_BLOCK_FOOTER_NAME"] = "Stopka";
@@ -36,4 +37,3 @@ $MESS["BLOCK_EDITOR_BLOCK_SOCIAL_VK"] = "vk";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_DESC"] = "Ten blok zawiera tekst.";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_EXAMPLE"] = "Ten blok zawiera dowolny wpisany tekst.";
 $MESS["BLOCK_EDITOR_BLOCK_TEXT_NAME"] = "Tekst";
-?>

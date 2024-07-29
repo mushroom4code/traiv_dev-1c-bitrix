@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BB_NAV_TEMPLATE"] = "Nom du modèle pour navigation page par page";
 $MESS["BB_PATH_TO_BLOG_CATEGORY"] = "Modèle de chemin d'accès à la page d'un blog avec un filtre de tag";
 $MESS["BC_DATE_TIME_FORMAT"] = "Format d'affichage de la date et de l'heure";
@@ -21,7 +21,7 @@ $MESS["BPC_IMAGE_MAX_HEIGHT"] = "Hauteur maximale de l'image";
 $MESS["BPC_IMAGE_MAX_WIDTH"] = "Largeur maximale de l'image";
 $MESS["B_VARIABLE_ALIASES"] = "Alias des variables";
 $MESS["POST_PROPERTY_LIST"] = "Afficher les propriétés supplémentaires du message";
-$MESS["RATING_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_TYPE_LIKE_GRAPHIC"] = "J'aime (graphique)";
 $MESS["RATING_TYPE_LIKE_TEXT"] = "J'aime (textuel)";
@@ -29,4 +29,3 @@ $MESS["RATING_TYPE_STANDART_GRAPHIC"] = "J'aime / Je n'aime pas (graphique)";
 $MESS["RATING_TYPE_STANDART_TEXT"] = "J'aime / Je n'aime pas (textuel)";
 $MESS["SHOW_RATING"] = "Activer le classement";
 $MESS["SHOW_RATING_CONFIG"] = "ordinaire";
-?>

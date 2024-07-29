@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_WIZARD_CANCEL_CAPTION"] = "Anuluj";
 $MESS["MAIN_WIZARD_CANCEL_DESC"] = "Konfiguracja została przerwana. Twój system nie został zmodyfikowany.<br />Aby zainstalować tego kreatora w późniejszym terminie, proszę przeprowadzić instalację ponownie.";
 $MESS["MAIN_WIZARD_CANCEL_TITLE"] = "The installation wizard was interrupted";
@@ -26,7 +26,7 @@ $MESS["MAIN_WIZARD_LICENSE_STEP_ERROR"] = "Musisz zaakceptować umowę licencyjn
 $MESS["MAIN_WIZARD_LICENSE_STEP_SUBTITLE"] = "Przeczytaj umowę licencyjną przed użyciem instalacji kreatora.";
 $MESS["MAIN_WIZARD_LICENSE_STEP_TITLE"] = "Umowa licencyjna";
 $MESS["MAIN_WIZARD_MAIN_MODULE_DESC"] = "System kernel powered by SiteUpdate";
-$MESS["MAIN_WIZARD_MAIN_MODULE_NAME"] = "Rdzeń";
+$MESS["MAIN_WIZARD_MAIN_MODULE_NAME"] = "Kernel";
 $MESS["MAIN_WIZARD_NEXT_CAPTION"] = "Next >";
 $MESS["MAIN_WIZARD_PAGE_POSITION"] = "Pozycja<br />strony";
 $MESS["MAIN_WIZARD_PREV_CAPTION"] = "< Powrót";
@@ -55,4 +55,3 @@ $MESS["MAIN_WIZARD_WAIT_WINDOW_TEXT"] = "Installing...";
 $MESS["MAIN_WIZARD_WANT_TO_CANCEL"] = "Are you sure you want to quit the wizard?";
 $MESS["MAIN_WIZARD_WELCOME_TEXT"] = "Welcome to the site creation wizard!";
 $MESS["MAIN_WIZARD_WELCOME_TITLE"] = "Welcome";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FILEMAN_ADD_PAGE"] = "Créer une nouvelle page dans la section du site actuel";
 $MESS["FILEMAN_COPY_ERROR"] = "Le copiage du ficher '#PATH_FROM#' dans '#PATH_TO#' a échoué";
 $MESS["FILEMAN_CREATE_FOLDER_ERROR"] = "Le fichier '#PATH#' n'a pas pu être créé";
@@ -50,8 +50,8 @@ $MESS["FILEMAN_SHOW_INC"] = "Afficher comprennent des zones";
 $MESS["FILEMAN_TOP_MENU"] = "Menu supérieur";
 $MESS["FILEMAN_UNALLOWED_COMPONENTS"] = "La page contient un composant interdit #BAD_COMPONENT# et ne peut pas être sauvegardée.";
 $MESS["FMST_PANEL_ALL_STICKER_LIST"] = "Liste de tous les autocollants";
-$MESS["FMST_PANEL_ALL_STICKER_LIST_TITLE"] = "Voir Web-it sur le site Web";
-$MESS["FMST_PANEL_CUR_STICKER_LIST"] = "Voir Web-it pour cette page";
+$MESS["FMST_PANEL_ALL_STICKER_LIST_TITLE"] = "Afficher les stickers disponibles sur le site Web";
+$MESS["FMST_PANEL_CUR_STICKER_LIST"] = "Afficher les stickers pour cette page";
 $MESS["FMST_PANEL_CUR_STICKER_LIST_TITLE"] = "Afficher la liste de tous les stickers à la page courante";
 $MESS["FMST_PANEL_STICKERS_SHOW"] = "Afficher des stickers";
 $MESS["FMST_PANEL_STICKERS_SHOW_TITLE"] = "Afficher tous les stickers sur la page";
@@ -81,4 +81,3 @@ $MESS["fileman_panel_new_folder"] = "Une nouvelle rubrique";
 $MESS["fileman_panel_new_folder_title"] = "Créer une nouvelle section";
 $MESS["fileman_panel_new_page"] = "Nouvelle Page";
 $MESS["fileman_panel_new_page_title"] = "Créer une Nouvelle Page";
-?>

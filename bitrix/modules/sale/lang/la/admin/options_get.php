@@ -1,8 +1,8 @@
-<?
+<?php
 $MESS["SOG_ACCOUNT_NUMBER"] = "Cuenta";
 $MESS["SOG_ADDRESS_FULL"] = "Dirección completa";
 $MESS["SOG_AGENT_NAME"] = "Nombre";
-$MESS["SOG_BIRTHDAY"] = "Fecha de cumpleaños";
+$MESS["SOG_BIRTHDAY"] = "Fecha de nacimiento";
 $MESS["SOG_BUILDING"] = "Edificación";
 $MESS["SOG_B_ADDRESS_FULL"] = "Dirección completa";
 $MESS["SOG_B_BIK"] = "BIN";
@@ -62,4 +62,3 @@ $MESS["SPSG_FROM_USER"] = "Parámetro del usuario";
 $MESS["SPSG_OTHER"] = "Otro valor";
 $MESS["SPSG_TYPE"] = "Tipo";
 $MESS["SPSG_VALUE"] = "Valor";
-?>

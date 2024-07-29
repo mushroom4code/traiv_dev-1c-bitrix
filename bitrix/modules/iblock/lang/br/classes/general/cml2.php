@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_XML2_AMOUNT"] = "Montante";
 $MESS["IBLOCK_XML2_ANONS"] = "Anons";
 $MESS["IBLOCK_XML2_ARTICLE"] = "Artigo";
@@ -99,7 +99,7 @@ $MESS["IBLOCK_XML2_METADATA"] = "Metadados";
 $MESS["IBLOCK_XML2_METADATA_ID"] = "ID de metadados";
 $MESS["IBLOCK_XML2_MULTIPLE"] = "Múltiplo";
 $MESS["IBLOCK_XML2_NAME"] = "Título";
-$MESS["IBLOCK_XML2_OFFER"] = "Oferta";
+$MESS["IBLOCK_XML2_OFFER"] = "Orçamento";
 $MESS["IBLOCK_XML2_OFFERS"] = "Ofertas";
 $MESS["IBLOCK_XML2_OFFERS_CHANGE"] = "Oferta de mudança";
 $MESS["IBLOCK_XML2_OFFER_LIST"] = "Lista de Ofertas";
@@ -119,6 +119,7 @@ $MESS["IBLOCK_XML2_PRICE_TYPE"] = "Tipo de preço";
 $MESS["IBLOCK_XML2_PRICE_TYPES"] = "Tipos de preço";
 $MESS["IBLOCK_XML2_PRICE_TYPE_ID"] = "ID do tipo de preço";
 $MESS["IBLOCK_XML2_PRODUCTS_SETS"] = "Produtos de conjunto";
+$MESS["IBLOCK_XML2_PRODUCT_MAPPING"] = "VisibilidadeProduto";
 $MESS["IBLOCK_XML2_PRODUCT_SET"] = "Conjunto";
 $MESS["IBLOCK_XML2_PRODUCT_SETS"] = "Produtos de conjunto";
 $MESS["IBLOCK_XML2_PRODUCT_SET_ITEM"] = "Elemento do conjunto";
@@ -165,6 +166,7 @@ $MESS["IBLOCK_XML2_TYPE"] = "Tipos";
 $MESS["IBLOCK_XML2_TYPE_ADD_ERROR"] = "Ocorreu um erro ao tentar criar um tipo novo de bloco de informação.";
 $MESS["IBLOCK_XML2_TYPE_LIST"] = "Lista";
 $MESS["IBLOCK_XML2_TYPE_NUMBER"] = "Número";
+$MESS["IBLOCK_XML2_TYPE_STRING"] = "Série";
 $MESS["IBLOCK_XML2_UF_ERROR"] = "Erro na importação de propriedade personalizada (xml_id: #XML_ID#): #ERROR_TEXT#";
 $MESS["IBLOCK_XML2_UPDATE_ONLY"] = "Apenas mudanças";
 $MESS["IBLOCK_XML2_VALUE"] = "Valor";
@@ -174,4 +176,3 @@ $MESS["IBLOCK_XML2_VALUE_ID"] = "ValueId";
 $MESS["IBLOCK_XML2_VERSION"] = "Número da versão";
 $MESS["IBLOCK_XML2_VIEW"] = "Visualizar";
 $MESS["IBLOCK_XML2_WEIGHT"] = "Peso";
-?>

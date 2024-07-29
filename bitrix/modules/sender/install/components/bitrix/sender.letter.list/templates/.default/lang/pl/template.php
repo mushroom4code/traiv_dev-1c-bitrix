@@ -1,4 +1,5 @@
-<?
+<?php
+$MESS["SENDER_DISPATCH_STATE_M"] = "Przygotowywanie segmentu";
 $MESS["SENDER_LETTER_LIST_BTN_ADD"] = "Utwórz kampanię";
 $MESS["SENDER_LETTER_LIST_BTN_COPY"] = "Kopiuj";
 $MESS["SENDER_LETTER_LIST_BTN_COPY_TITLE"] = "Kopiuj";
@@ -10,6 +11,10 @@ $MESS["SENDER_LETTER_LIST_BTN_VIEW"] = "Widok";
 $MESS["SENDER_LETTER_LIST_BTN_VIEW_TITLE"] = "Widok";
 $MESS["SENDER_LETTER_LIST_BUTTON_RECIPIENT"] = "Odbiorcy";
 $MESS["SENDER_LETTER_LIST_BUTTON_STAT"] = "Statystyki";
+$MESS["SENDER_LETTER_LIST_COMP_UI_ROW_CONSENT_SUPPORT_N"] = "Nie";
+$MESS["SENDER_LETTER_LIST_COMP_UI_ROW_CONSENT_SUPPORT_Y"] = "Tak";
+$MESS["SENDER_LETTER_LIST_COMP_UI_ROW_CONSENT_TITLE_N"] = "Zgoda odbiorcy nie jest wymagana do wysyłania tego newslettera";
+$MESS["SENDER_LETTER_LIST_COMP_UI_ROW_CONSENT_TITLE_Y"] = "Wymagana jest zgoda odbiorcy na wysłanie tego newslettera";
 $MESS["SENDER_LETTER_LIST_DURATION"] = "Czas potrzebny na wysłanie wiadomości e-mail, jeśli rozpocznie się teraz.";
 $MESS["SENDER_LETTER_LIST_DUR_DATE_CREATE"] = "Utworzono";
 $MESS["SENDER_LETTER_LIST_DUR_DATE_FINISH"] = "Do końca ";
@@ -18,9 +23,12 @@ $MESS["SENDER_LETTER_LIST_RECIPIENTS_SENT"] = "Liczba adresatów, do których wy
 $MESS["SENDER_LETTER_LIST_ROW_FROM"] = "z";
 $MESS["SENDER_LETTER_LIST_ROW_RECIPIENT"] = "odbiorcy";
 $MESS["SENDER_LETTER_LIST_ROW_STATS"] = "statystyki";
+$MESS["SENDER_LETTER_LIST_ROW_STATS_CLICKS"] = "kliknięć: #COUNT#";
+$MESS["SENDER_LETTER_LIST_ROW_STATS_VIEWS"] = "wyświetleń: #COUNT#";
 $MESS["SENDER_LETTER_LIST_SENDING_LOADER_TITLE"] = "Kampania e-mailowa jest w toku, dajemy radę.";
 $MESS["SENDER_LETTER_LIST_SENDING_TITLE"] = "Wiadomości e-mail zostały wysłane do %count% odbiorców.";
 $MESS["SENDER_LETTER_LIST_SPEED_TITLE"] = "Osiągnięto dzienny limit wiadomości. Rozsyłka będzie kontynuowana jutro.";
+$MESS["SENDER_LETTER_LIST_SPEED_WAITING_SEND_TITLE"] = "Nadal oczekuje na czas wysyłki. Wysyłanie rozpocznie się w %day% o %time%";
 $MESS["SENDER_LETTER_LIST_STATE_IS_PAUSED"] = "Zatrzymane";
 $MESS["SENDER_LETTER_LIST_STATE_IS_SENT"] = "Zakończono";
 $MESS["SENDER_LETTER_LIST_STATE_IS_STOPPED"] = "Zatrzymane";
@@ -33,4 +41,4 @@ $MESS["SENDER_LETTER_LIST_STATE_SEND_TITLE"] = "Zacznij teraz wysyłać wiadomo�
 $MESS["SENDER_LETTER_LIST_STATE_STOP"] = "Anuluj";
 $MESS["SENDER_LETTER_LIST_STATE_STOP_TITLE"] = "Zatrzymaj i zakończ kampanię.";
 $MESS["SENDER_LETTER_LIST_STATE_WILL_SEND"] = "Rozpocznie się";
-?>
+$MESS["SENDER_LETTER_LIST_TRACKING_OFF"] = "Śledzenie wyłączone";

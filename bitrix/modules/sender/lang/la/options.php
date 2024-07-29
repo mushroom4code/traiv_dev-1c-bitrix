@@ -1,5 +1,7 @@
-<?
+<?php
 $MESS["MAIN_RESTORE_DEFAULTS"] = "Prdeterminado";
+$MESS["mail_max_consent_requests"] = "Número máximo de solicitudes de consentimiento para el boletín de correo electrónico";
+$MESS["mail_need_consent"] = "Solicitar el consentimiento para el envío del boletín informativo por correo electrónico";
 $MESS["opt_address_from"] = "Direcciones para usar en el campo Desde:";
 $MESS["opt_address_send_to_me"] = "Direcciones para enviar mensajes de prueba:";
 $MESS["opt_auto_agent_interval"] = "Demora entre los envío de trabajos subsecuentes (Seg. 0 - no esperar)";
@@ -18,4 +20,3 @@ $MESS["opt_sender_cron_support"] = "Cron no se puede utilizar actualmente. Es co
 $MESS["opt_sub_link"] = "Página de suscripción personalizada:";
 $MESS["opt_track_mails"] = "Seguimiento de las vistas de correo electrónico y enlace de clics:";
 $MESS["opt_unsub_link"] = "Página de dejar suscripción personalizada:";
-?>

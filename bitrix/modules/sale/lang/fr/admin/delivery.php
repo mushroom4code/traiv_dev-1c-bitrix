@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_ACTION"] = "Actions";
 $MESS["SALE_ACTIVE"] = "Actif(ve)";
 $MESS["SALE_ADD"] = "Ajouter";
@@ -6,7 +6,7 @@ $MESS["SALE_ALL"] = "(partout)";
 $MESS["SALE_CONFIRM_DEL_MESSAGE"] = "tes-vous sûr de vouloir supprimer ce service de livraison ? Si ce service de livraison contient les commandes, le service ne sera pas supprimé.";
 $MESS["SALE_DELETE"] = "Supprimer";
 $MESS["SALE_DELETE_DESCR"] = "Supprimer le service de livraison";
-$MESS["SALE_DELETE_ERROR"] = "Erreur de suppression du service de livraison. Ce service contient probablement des ordres.<br>";
+$MESS["SALE_DELETE_ERROR"] = "Erreur lors de la suppression du service de livraison. Ce service est probablement utilisé pour certaines commandes.<br>";
 $MESS["SALE_EDIT"] = "Éditer";
 $MESS["SALE_EDIT_DESCR"] = "Modifier les paramètres du service de la livraison";
 $MESS["SALE_FROM"] = "de";
@@ -41,4 +41,3 @@ $MESS["SDAN_HANDLERS_ALT"] = "Modifier automatisé des services de livraison";
 $MESS["SD_ADD_NEW"] = "Ajouter";
 $MESS["SD_NO"] = "non";
 $MESS["SD_YSE"] = "oui";
-?>

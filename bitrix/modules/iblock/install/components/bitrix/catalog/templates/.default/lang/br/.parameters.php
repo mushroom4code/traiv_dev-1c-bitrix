@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Imagens adicionais propriedade para o produto";
 $MESS["CPT_BC_FILTER_VIEW_MODE"] = "Layout de filtro inteligente";
 $MESS["CPT_BC_FILTER_VIEW_MODE_HORIZONTAL"] = "Horizontal";
@@ -49,6 +49,8 @@ $MESS["CP_BC_TPL_MESS_BTN_DETAIL"] = "\"Detalhes\" botão de texto";
 $MESS["CP_BC_TPL_MESS_BTN_DETAIL_DEFAULT"] = "Detalhes";
 $MESS["CP_BC_TPL_MESS_NOT_AVAILABLE"] = "Item não disponível mensagem";
 $MESS["CP_BC_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Item não disponível";
+$MESS["CP_BC_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Mensagem de serviço indisponível";
+$MESS["CP_BC_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "indisponível";
 $MESS["CP_BC_TPL_OFFER_ADD_PICT_PROP"] = "Propriedade de imagem adicional de SKU";
 $MESS["CP_BC_TPL_OFFER_TREE_PROPS"] = "Propriedades para agrupamento de SKUs";
 $MESS["CP_BC_TPL_PRODUCT_DISPLAY_MODE"] = "Modo de Ver";
@@ -79,4 +81,3 @@ $MESS["SHOW_OLD_PRICE_TIP"] = "Se o desconto estiver ativa, mostra o preço ante
 $MESS["TEMPLATE_THEME_TIP"] = "Define as cores para tornar o texto do site e gráficos. Tema Azul é a opção padrão.";
 $MESS["TOP_ROTATE_TIMER_TIP"] = "Especifica o tempo de um slide com os itens mais votados aparece na tela. Este parâmetro é usado quando auto avançar os slides.";
 $MESS["TOP_VIEW_MODE_TIP"] = "Esta opção especifica a aparência dos itens mais votados em uma página";
-?>

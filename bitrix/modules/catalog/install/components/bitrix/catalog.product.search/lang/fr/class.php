@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BX_CPS_COMP_ERR_CATALOG_MODULE_NOT_INSTALL"] = "Le module Catalogue commercial n'est pas installé";
 $MESS["SOPS_ACTIVE"] = "Actif(ve)";
 $MESS["SOPS_BALANCE"] = "Solde (total / entrepôt)";
@@ -9,7 +9,7 @@ $MESS["SPS_A_PROP_NOT_SET"] = "(non installé)";
 $MESS["SPS_CHOOSE_CATALOG"] = "Veuillez choisir un catalogue";
 $MESS["SPS_CODE"] = "Code symbolique";
 $MESS["SPS_COLLAPSE"] = "Cacher";
-$MESS["SPS_EXPAND"] = "Agrandir";
+$MESS["SPS_EXPAND"] = "Développer";
 $MESS["SPS_FIELD_ACTION"] = "Action";
 $MESS["SPS_FIELD_CODE"] = "Code symbolique";
 $MESS["SPS_FIELD_DETAIL_PICTURE"] = "Image détaillée";
@@ -34,9 +34,8 @@ $MESS["SPS_ROOT_NAME"] = "Racine";
 $MESS["SPS_SEARCH_PLACEHOLDER"] = "Commencez à taper à la recherche";
 $MESS["SPS_SELECT"] = "Sélectionner";
 $MESS["SPS_SKU_HIDE"] = "Cacher";
-$MESS["SPS_SKU_SHOW"] = "Agrandir";
+$MESS["SPS_SKU_SHOW"] = "Développer";
 $MESS["SPS_TIMESTAMP"] = "Date de modification";
 $MESS["SPS_VALUE_ANY"] = "aléatoire";
 $MESS["SPS_XML_ID"] = "ID externe";
 $MESS["SPS_YES"] = "Oui";
-?>

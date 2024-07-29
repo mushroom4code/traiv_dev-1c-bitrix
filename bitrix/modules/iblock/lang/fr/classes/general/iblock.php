@@ -1,19 +1,19 @@
-<?
+<?php
 $MESS["IBLOCK_ADD"] = "Un bloc d'information a été ajouté";
 $MESS["IBLOCK_BAD_BLOCK_TYPE"] = "Type de bloc est pas spécifié.";
 $MESS["IBLOCK_BAD_FILE_ERROR"] = "Une erreur s'est produite lors du téléchargement du fichier sur le serveur.";
 $MESS["IBLOCK_BAD_FILE_NOT_FOUND"] = "Fichier introuvable";
 $MESS["IBLOCK_BAD_FILE_NOT_PICTURE"] = "Fichier non graphique.";
-$MESS["IBLOCK_BAD_FILE_UNSUPPORTED"] = "Redimensionnement d'image n'est possible que pour les fichiers JPEG, GIF ou PNG.";
 $MESS["IBLOCK_BAD_NAME"] = "Nom de bloc est pas spécifié.";
 $MESS["IBLOCK_BAD_SITE_ID"] = "Site invalide !";
 $MESS["IBLOCK_BAD_SITE_ID_NA"] = "Le rattachement au site n'a pas été indiqué.";
-$MESS["IBLOCK_BAD_WORKFLOW_AND_BIZPROC"] = "Un bloc d'informations peut être utilisé dans un flux de travail ou un processus d'affaires, mais pas les deux.";
+$MESS["IBLOCK_BAD_WORKFLOW_AND_BIZPROC"] = "Un bloc d'informations peut être utilisé dans un flux de travail ou un processus d'entreprise, mais pas les deux.";
 $MESS["IBLOCK_DELETE"] = "Le bloc d'information est éliminé";
 $MESS["IBLOCK_EDIT"] = "Le bloc d'information est modifié";
 $MESS["IBLOCK_ELEMENT_ADD"] = "L'élément du bloc d'information a été ajouté";
 $MESS["IBLOCK_ELEMENT_DELETE"] = "L'élément du bloc d'information a été supprimé";
 $MESS["IBLOCK_ELEMENT_EDIT"] = "Un élément du bloc d'information a été modifié";
+$MESS["IBLOCK_ERR_IBLOCK_IS_ABSENT"] = "Bloc d'information n'est pas retrouvé.";
 $MESS["IBLOCK_FIELD_ACTIVE"] = "Actif(ve)";
 $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_FROM"] = "Début de l'activité";
 $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_TO"] = "Fin de l'activité";
@@ -53,4 +53,3 @@ $MESS["IBLOCK_SECTION_DELETE"] = "Une rubrique du bloc d'information est supprim
 $MESS["IBLOCK_SECTION_EDIT"] = "La section du bloc d'information est modifiée";
 $MESS["IBLOCK_SITE_LINKS_EXISTS"] = "Les blocs d'information liés au site sont trouvés. Leurs identificateurs: #ID_LIST#.";
 $MESS["IBLOCK_TABLE_CREATION_ERROR"] = "Erreur de création du tableau pour stockage de valeurs de paramètres du bloc d'information.";
-?>

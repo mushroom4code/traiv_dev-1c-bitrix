@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION_VARIABLE_TIP"] = "Ce champ spécifie le nom d'une variable qui transmet l'action: ADD_TO_COMPARE_LIST, ADD2BASKET etc. Valeur du champ par défaut <i>action</i>.";
 $MESS["ADD_ELEMENT_CHAIN_TIP"] = "Si elle est sélectionnée, le nom de l'élément sera ajouté à la chapelure de navigation.";
 $MESS["ADD_PROPERTIES_TO_BASKET_TIP"] = "Sélectionnez les propriétés souhaitées pour la transmission au panier et la commande. Les propriétés doivent être énumérées au cas où elles affectent le choix du produit ou si la capacité de contrôler les propriétés dans le panier (pour des propositions commerciales) est activée, ou bien si elles comprennent l'information supplémentaire sur le produit et cette information est nécessaire dans la commande (par exemple: le client peut changer la couleur dans le panier, ou bien la couleur représente une autre proposition commerciale et cette propriété indique ce choix).";
@@ -44,7 +44,7 @@ $MESS["CP_BCE_SET_CANONICAL_URL"] = "Définir une URL canonique";
 $MESS["CP_BCE_SET_LAST_MODIFIED"] = "Définir la date de dernière modification de la page à l'en-tête de réponse";
 $MESS["CP_BCE_SET_META_DESCRIPTION"] = "Installer la description de la page";
 $MESS["CP_BCE_SET_META_KEYWORDS"] = "Installer les mots-clés de la page";
-$MESS["CP_BCE_SET_VIEWED_IN_COMPONENT"] = "Conserver les données sur les vues des produits pour les modèles hérités";
+$MESS["CP_BCE_SET_VIEWED_IN_COMPONENT"] = "Conserver les données des vues des produits pour les modèles hérités";
 $MESS["CP_BCE_SHOW_DEACTIVATED"] = "Voir désactivé produits";
 $MESS["CP_BCE_STRICT_SECTION_CHECK"] = "Vérifier la section parent lors de l'affichage de l'article";
 $MESS["CP_BCE_USE_ELEMENT_COUNTER"] = "Utiliser le compteur des vues";
@@ -138,4 +138,3 @@ $MESS["T_IBLOCK_DESC_DESCRIPTION"] = "Installer la description de la page à par
 $MESS["T_IBLOCK_DESC_KEYWORDS"] = "Tablir les mots-clés de la page à partir de la propriété";
 $MESS["USE_MAIN_ELEMENT_SECTION_TIP"] = "Si coché, les liens des produits seront créés en fonction de la section parent principale. Cela évitera de dupliquer des pages de produits.";
 $MESS["USE_PRICE_COUNT_TIP"] = "Si elle est cochée, toutes les gammes de prix existants seront sélectionnés.";
-?>

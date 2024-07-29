@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_DETAIL_TO_SLIDER_TIP"] = "Szczegółowy obraz będzie pokazywany z innymi obrazami w suwaku obrazu prduktu.";
 $MESS["ADD_PICT_PROP_TIP"] = "Właściwość dodatkowych obrazów dla produktu";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Dodaj do koszyka";
@@ -27,6 +27,8 @@ $MESS["CP_BCE_TPL_MESS_COMMENTS_TAB_DEFAULT"] = "Komentarze";
 $MESS["CP_BCE_TPL_MESS_DESCRIPTION_TAB_DEFAULT"] = "opis";
 $MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE"] = "Wiadomość o niedostępności przedmiotu";
 $MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Przedmiot niedostępny";
+$MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Komunikat o niedostępności usługi";
+$MESS["CP_BCE_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "Niedostępny";
 $MESS["CP_BCE_TPL_OFFER_ADD_PICT_PROP"] = "Dodatkowy obraz właściwości SKU";
 $MESS["CP_BCE_TPL_OFFER_TREE_PROPS"] = "Właściwości dla grupowania SKU";
 $MESS["CP_BCE_TPL_PRODUCT_BLOCK_BUTTONS"] = "Działania";
@@ -69,4 +71,3 @@ $MESS["SHOW_OLD_PRICE_TIP"] = "Jeżeli upst jest aktywny, pokazuje poprzednią c
 $MESS["TEMPLATE_THEME_TIP"] = "Definiuje kolory dla renderowania tekstu i grafiki strony internetowej. Niebieski motyw jest opcją domyślną.";
 $MESS["USE_COMMENTS_TIP"] = "Pokaż i użyj komentarzy produktu";
 $MESS["USE_VOTE_RATING_TIP"] = "Pokaż i użyj";
-?>

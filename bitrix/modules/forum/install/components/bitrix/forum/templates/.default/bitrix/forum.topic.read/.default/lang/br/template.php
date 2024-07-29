@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["F_CLOSED"] = "Ativar suporte SEF";
 $MESS["F_CLOSE_TOPIC"] = "Digite o endereço completo (URL)";
-$MESS["F_COLLAPSE"] = "Digite o endereço completo (URL)";
+$MESS["F_COLLAPSE"] = "Ocultar";
 $MESS["F_DELETE_CONFIRM"] = "Ativar classificação";
 $MESS["F_DELETE_MESSAGES"] = "Ativar opção Mostrar todas as Páginas";
 $MESS["F_DELETE_MESSAGES_CONFIRM"] = "Ativar classificação";
@@ -32,4 +32,3 @@ $MESS["F_WAIT"] = "Digite o caminho completo da imagem (URL)";
 $MESS["JQOUTE_AUTHOR_WRITES"] = "Ativar classificação";
 $MESS["JS_NO_ACTION"] = "Digite o endereço completo (URL)";
 $MESS["JS_NO_MESSAGES"] = "Ativar classificação";
-?>

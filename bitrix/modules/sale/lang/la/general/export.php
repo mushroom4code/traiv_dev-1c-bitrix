@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_EXPORT_ACCOUNT_NUMBER"] = "Número de Cuenta";
 $MESS["SALE_EXPORT_ADDRESS"] = "Dirección del Banco";
 $MESS["SALE_EXPORT_ADDRESS_FIELD"] = "Campo Dirección ";
@@ -8,7 +8,7 @@ $MESS["SALE_EXPORT_BANK"] = "Banco";
 $MESS["SALE_EXPORT_BASE_UNIT"] = "Unidad de Base";
 $MESS["SALE_EXPORT_BASKET_NUMBER"] = "Número de Elementos de la Cesta";
 $MESS["SALE_EXPORT_BIC"] = "BIK";
-$MESS["SALE_EXPORT_BIRTHDAY"] = "Fecha de Cumpleaños";
+$MESS["SALE_EXPORT_BIRTHDAY"] = "Fecha de nacimiento";
 $MESS["SALE_EXPORT_BUILDING"] = "Construcción";
 $MESS["SALE_EXPORT_BUYER"] = "Comprador";
 $MESS["SALE_EXPORT_CANCELED"] = "Cancelado";
@@ -42,7 +42,7 @@ $MESS["SALE_EXPORT_DATE_FORMAT_TIME"] = "HH:MM:SS";
 $MESS["SALE_EXPORT_DATE_PAID"] = "Fecha de Pago";
 $MESS["SALE_EXPORT_DATE_STATUS"] = "Fecha del cambio del estado";
 $MESS["SALE_EXPORT_DELIVERY"] = "Envío";
-$MESS["SALE_EXPORT_DELIVERY_ADDRESS"] = "Dirección de entrega";
+$MESS["SALE_EXPORT_DELIVERY_ADDRESS"] = "Dirección de envío";
 $MESS["SALE_EXPORT_DELIVERY_DATE_CANCEL"] = "Cancelado el";
 $MESS["SALE_EXPORT_DELIVERY_DEDUCTED"] = "Enviado";
 $MESS["SALE_EXPORT_DELIVERY_ID"] = "ID del envío";
@@ -163,4 +163,3 @@ $MESS["SALE_EXPORT_VAT"] = "Impuesto";
 $MESS["SALE_EXPORT_VERSION"] = "Número de versión";
 $MESS["SALE_EXPORT_WORK_PHONE"] = "Teléfono del Trabajo";
 $MESS["SALE_EXPORT_WORK_PHONE_NEW"] = "Teléfono del trabajo";
-?>

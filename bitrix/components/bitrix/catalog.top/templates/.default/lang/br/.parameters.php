@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Imagem adicional propriedade para o produto";
 $MESS["CPT_BCT_TPL_VIEW_MODE"] = "modo de exibição";
 $MESS["CPT_BCT_TPL_VIEW_MODE_BANNER"] = "banner";
@@ -16,6 +16,8 @@ $MESS["CP_BCT_TPL_MESS_BTN_DETAIL"] = "\"Detalhes\" botão do texto";
 $MESS["CP_BCT_TPL_MESS_BTN_DETAIL_DEFAULT"] = "Detalhes";
 $MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE"] = "Item não disponível mensagem";
 $MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Item não disponível ";
+$MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Mensagem de serviço indisponível";
+$MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "indisponível";
 $MESS["CP_BCT_TPL_OFFER_ADD_PICT_PROP"] = "Propriedade de imagem adicional de SKU";
 $MESS["CP_BCT_TPL_OFFER_TREE_PROPS"] = "Propriedades para agrupamento de SKUs";
 $MESS["CP_BCT_TPL_PRODUCT_DISPLAY_MODE"] = "modo de exibição";
@@ -47,4 +49,3 @@ $MESS["SHOW_OLD_PRICE_TIP"] = "Se o desconto estiver ativa, mostra o valor anter
 $MESS["SHOW_PAGINATION_TIP"] = "Mostra uma faixa de filme do slide para facilitar a navegação";
 $MESS["TEMPLATE_THEME_TIP"] = "Define as cores para tornar o texto do site e gráficos. Tema Azul é a opção padrão.";
 $MESS["VIEW_MODE_TIP"] = "Esta opção define a forma como os itens serão exibidos em uma página";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBEL_BIZPROC_DATE"] = "Fecha del estado actual:";
 $MESS["IBEL_BIZPROC_DESC"] = "Descripción del Proceso del Negocio:";
 $MESS["IBEL_BIZPROC_NA"] = "No hay ningún proceso del negocio ejecutándose.";
@@ -43,6 +43,8 @@ $MESS["IBEL_E_TAB14_TITLE"] = "Editar datos de SEO";
 $MESS["IBEL_E_TAB_BIZPROC"] = "Procesos del Negocios";
 $MESS["IBEL_E_TAB_DET"] = "Desarrollo";
 $MESS["IBEL_E_TAB_DET_TITLE"] = "Información desarrollada";
+$MESS["IBEL_E_TAB_ELEMENT"] = "Parámetros";
+$MESS["IBEL_E_TAB_ELEMENT_TITLE"] = "Parámetros generales";
 $MESS["IBEL_E_TAB_PREV"] = "Descripción previa";
 $MESS["IBEL_E_TAB_PREV_TITLE"] = "Información previa";
 $MESS["IBEL_E_TAB_RIGHTS"] = "Acceso";
@@ -64,7 +66,9 @@ $MESS["IBLOCK_ELEMENT_EDIT_ELEMENTS"] = "Elementos";
 $MESS["IBLOCK_ELEMENT_EDIT_LINKED"] = "Elementos vinculados:";
 $MESS["IBLOCK_ELEMENT_EDIT_PROP_ADD"] = "Agregar";
 $MESS["IBLOCK_ELEMENT_EDIT_TAGS_TIP"] = "(ingrese palabras ó frases separada por comas)";
-$MESS["IBLOCK_ELEMENT_EDIT_VIEW"] = "Ver";
+$MESS["IBLOCK_ELEMENT_FORM_TITLE_EDIT"] = "#IBLOCK_NAME#: #ELEMENT_TYPE#: #NAME# - Editar";
+$MESS["IBLOCK_ELEMENT_FORM_TITLE_NEW"] = "#IBLOCK_NAME#: #ELEMENT_TYPE#: Agregar";
+$MESS["IBLOCK_ELEMENT_FORM_TITLE_VIEW"] = "#IBLOCK_NAME#: #ELEMENT_TYPE#: #NAME# - Ver";
 $MESS["IBLOCK_ELEMENT_PROP_VALUE"] = "Valores de la propiedad:";
 $MESS["IBLOCK_EL_CANC"] = "Cancelar";
 $MESS["IBLOCK_EL_EDIT_IN_PANEL"] = "Panel de Control";
@@ -97,10 +101,8 @@ $MESS["IBLOCK_FIELD_STATUS"] = "Estado";
 $MESS["IBLOCK_FIELD_TAGS"] = "Etiquetas";
 $MESS["IBLOCK_LAST_UPDATE"] = "Última actualización:";
 $MESS["IBLOCK_LINKED_ELEMENT_TITLE"] = "Abrir el Panel de Control";
-$MESS["IBLOCK_NEW_TITLE"] = "Nuevo elemento";
 $MESS["IBLOCK_SECTION"] = "Enlace (múltiple):";
 $MESS["IBLOCK_TCATALOG"] = "Catálogo comercial";
 $MESS["IBLOCK_UPPER_LEVEL"] = "Nivel superior";
 $MESS["IBLOCK_WRONG_SESSION"] = "Su sesión ha expirado. Guarde su documento nuevamente por favor.";
 $MESS["IBLOCK_WRONG_WF_STATUS"] = "Estado inválido";
-?>

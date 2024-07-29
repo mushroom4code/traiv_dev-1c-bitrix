@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BT_UT_AUTOCOMPLETE_SYM_GRID"] = "#";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_OTHER"] = "Outros";
 $MESS["BT_UT_AUTOCOMPLETE_SYM_SPACE"] = "Espaço";
@@ -17,14 +17,18 @@ $MESS["BT_UT_EAUTOCOMPLETE_MESS_NO_SEARCH_RESULT_TEXT"] = "Sem sugestões";
 $MESS["BT_UT_EAUTOCOMPLETE_MESS_SEARCH_ELEMENT"] = "...";
 $MESS["BT_UT_EAUTOCOMPLETE_MESS_SEARCH_ELEMENT_DESCR"] = "Janela de pesquisa de seleção simples";
 $MESS["BT_UT_EAUTOCOMPLETE_MESS_SEARCH_ELEMENT_MULTI_DESCR"] = "Janela de pesquisa de seleção múltipla";
+$MESS["BT_UT_EAUTOCOMPLETE_SEARCH_CHANGE_QUERY"] = "Tente outra busca.";
+$MESS["BT_UT_EAUTOCOMPLETE_SEARCH_ENTER_QUERY"] = "Digite o texto da pesquisa";
+$MESS["BT_UT_EAUTOCOMPLETE_SEARCH_ENTER_QUERY_SUBTITLE"] = "Olhando nos itens do bloco de informações";
+$MESS["BT_UT_EAUTOCOMPLETE_SEARCH_NOT_FOUND"] = "Sua solicitação de pesquisa não deu resultados.";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_BAN_SYMBOLS"] = "Substituir caracteres não permitidos";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_COMMENT_MAX_HEIGHT"] = "px";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_COMMENT_MAX_WIDTH"] = "px";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_COMMENT_MIN_HEIGHT"] = "px";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_IBLOCK_MESS"] = "Usar título do elemento do bloco de informação para texto do botão";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MAX_HEIGHT"] = "Altura Máxima do Campo de Entrada (para múltiplas propriedades)";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MAX_WIDTH"] = "Largura Máxima do Campo de Entrada, pix. (0 - ilimitado)";
-$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MIN_HEIGHT"] = "Altura Mínima do Campo de Entrada (para múltiplas propriedades)";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_IBLOCK_MESS"] = "Use o título do elemento do bloco de informação para o texto do botão";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MAX_HEIGHT"] = "Altura máxima do campo de entrada (para várias propriedades)";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MAX_WIDTH"] = "Largura máxima do campo de entrada, pix. (0 - ilimitado).";
+$MESS["BT_UT_EAUTOCOMPLETE_SETTING_MIN_HEIGHT"] = "Altura mínima do campo de entrada (para várias propriedades)";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_REP_SYMBOL"] = "Mostrar caracteres não permitidos como";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_SHOW_ADD"] = "Mostrar botão Adicionar Item";
 $MESS["BT_UT_EAUTOCOMPLETE_SETTING_TITLE"] = "Parâmetros autocompletar";
@@ -32,4 +36,3 @@ $MESS["BT_UT_EAUTOCOMPLETE_SETTING_VIEW"] = "Controles de UI";
 $MESS["BT_UT_EAUTOCOMPLETE_VIEW_AUTO"] = "Autocompletar caixa de texto";
 $MESS["BT_UT_EAUTOCOMPLETE_VIEW_ELEMENT"] = "Autocompletar Caixa de Texto e Janela de Pesquisa";
 $MESS["BT_UT_EAUTOCOMPLETE_VIEW_TREE"] = "Autocompletar Caixa de texto e Lista de Caixa";
-?>

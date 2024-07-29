@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CP_BSP_NO_WORD_LOGIC"] = "Désactiver le traitement des mots en tant que des opérateurs logiques";
 $MESS["F_ACTIVE"] = "Nouvelle page Sujets";
 $MESS["F_ADMIN_SETTINGS"] = "Réglages administrateur";
@@ -92,7 +92,7 @@ $MESS["F_VOTE_UNIQUE_IP_ONLY"] = "de l'un IP";
 $MESS["F_VOTE_UNIQUE_SESSION"] = "dans une session";
 $MESS["F_VOTE_UNIQUE_USER_ID_ONLY"] = "avec un ID de l'utilisateur";
 $MESS["P_USE_LIGHT_VIEW"] = "Mode simple";
-$MESS["RATING_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_TYPE_LIKE_GRAPHIC"] = "J'aime (graphique)";
 $MESS["RATING_TYPE_LIKE_TEXT"] = "J'aime (textuel)";
@@ -104,4 +104,3 @@ $MESS["SEARCH_RESTART"] = "Rechercher sans tenir compte de la morphologie (en ab
 $MESS["SHOW_RATING"] = "Activer le classement";
 $MESS["SHOW_RATING_CONFIG"] = "ordinaire";
 $MESS["USER_PROPERTY"] = "Voir d'autres propriétés dans le profil";
-?>

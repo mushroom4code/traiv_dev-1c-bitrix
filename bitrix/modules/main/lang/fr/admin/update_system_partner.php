@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SUPP_SUBR_BUTTON"] = "Enregistrer des solutions";
 $MESS["SUPP_SUBR_ERR"] = "Erreur d'enregistrement";
 $MESS["SUPP_SUBR_HINT"] = "Votre licence vous autorise à recevoir des versions pleines des modules suivants : ";
@@ -26,7 +26,7 @@ $MESS["SUP_SETTINGS"] = "Changer les paramètres";
 $MESS["SUP_SITES"] = "Quantité des sites : ";
 $MESS["SUP_STABLE_OFF_PROMT"] = "Sur votre site l'installation des versions beta des mises à jour du produit est activée. Si vous voulez installer uniquement les versions stables des mises à jour, veuillez désactiver s'il vous plaît, l'installation des versions beta dans les paramètres du système de mise à jour.";
 $MESS["SUP_STABLE_ON_PROMT"] = "Sur votre site seule l'installation des mises à jour des versions stables du produit est activée. Si vous voulez installer les versions beta des mises à jour, veuillez activer s'il vous plaît, l'installation des versions beta dans les paramètres du système de mise à jour.";
-$MESS["SUP_SUAC_ADD"] = "Activater le coupon";
+$MESS["SUP_SUAC_ADD"] = "Activer le coupon";
 $MESS["SUP_SUAC_COUPON_ERROR"] = "Erreur d'activation du coupon.";
 $MESS["SUP_SUAC_LOAD_M_BUTTON"] = "Télécharger";
 $MESS["SUP_SUAC_LOAD_M_BUTTON_CONF"] = "Attention ! La compagnie Bitrix n'est pas responsable des conceptions des partenaires. Pour toutes les questions relatives au fonctionnement des solutions tierces, en cas de disfonctionnement du site, causée par le mauvais fonctionnement des solutions tierces, veuillez contacter les partenaires-développeurs. Télécharger la solution ?";
@@ -71,9 +71,9 @@ $MESS["SUP_SUBA_RI_PHONE"] = "Numéro de téléphone du propriétaire de cette c
 $MESS["SUP_SUBA_RI_PHONE1"] = "Numéro de téléphone du propriétaire de cette copie de produit (avec le code de la ville)";
 $MESS["SUP_SUBA_RI_URI"] = "Liste des adresses, notamment, textuelles, auxquelles sera accessible cette copie du produit '1-Bitrix: Gestion du site'";
 $MESS["SUP_SUBA_RI_URI1"] = "Liste des adresses, notamment, textuelles, auxquelles sera accessible cette copie du produit '1-Bitrix: Gestion du site'";
-$MESS["SUP_SUBA_UI_CREATE"] = "Je n'ai pas de compte sur le site <a href='http://www.bitrixsoft.com'>www.bitrixsoft.com</a> je veux en créer un nouveau";
-$MESS["SUP_SUBA_UI_EXIST"] = "Je suis inscrit sur le site et je voudrai pouvoir accèder au support technique et télécharger la version complète";
-$MESS["SUP_SUBA_UI_HINT"] = "Vous pouvez accéder <a href='http://www.bitrixsoft.com/support/' au support technique</a>, <a href='http://www.bitrixsoft.com/support/forum/forum7/'>au forum de client fermé</a>, aussi qu'à la possibilité <a href='http://www.bitrixsoft.com/download/private/index.php'>de charger les distributions de produits sous forme des codes sources</a>. Pour cela, vous devez avoir un compte sur le site <a href='http://www.bitrixsoft.com'>www.bitrixsoft.com</a>:";
+$MESS["SUP_SUBA_UI_CREATE"] = "Je n'ai pas de compte sur le site <a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a> et je veux en créer un";
+$MESS["SUP_SUBA_UI_EXIST"] = "J'ai déjà un compte utilisateur et je veux l'utiliser pour accéder aux sections Assistance technique et Site de téléchargement";
+$MESS["SUP_SUBA_UI_HINT"] = "Vous pouvez accéder au <a href=\"http://www.bitrixsoft.com/support/\">service d'assistance technique</a>, au <a href=\"http://www.bitrixsoft.com/support/forum/forum7/\">forum privé des clients</a> et au <a href=\"http://www.bitrixsoft.com/download/private/index.php\">téléchargement des codes sources du système</a> en créant un compte sur <a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a> :";
 $MESS["SUP_SUBA_UI_LASTNAME"] = "Votre nom";
 $MESS["SUP_SUBA_UI_LOGIN"] = "Nom d'utilisateur (3 symboles, au moins)";
 $MESS["SUP_SUBA_UI_LOGIN_EXIST"] = "Quitter éditeur sans enregistrer";
@@ -101,7 +101,7 @@ $MESS["SUP_SUBS_MED"] = "Les textes initiaux du module sont chargés";
 $MESS["SUP_SUBS_SOURCES"] = "Télécharger les textes sources";
 $MESS["SUP_SUBS_SUCCESS"] = "Les textes initiaux sont chargés avec succès.";
 $MESS["SUP_SUBT_AGREE"] = "J'accepte l'accord de licence";
-$MESS["SUP_SUBT_AGREE_PRIVACY"] = "J'ai lu et accepté la<a href=\"http://marketplace.1c-bitrix.ru/about/privacy.php\" target=\"_blank\">Politique de confidentialité</a>";
+$MESS["SUP_SUBT_AGREE_PRIVACY"] = "J'ai lu et accepté la<a href=\"https://www.bitrix24.fr/privacy/\" target=\"_blank\">Politique de confidentialité</a>";
 $MESS["SUP_SUBT_ERROR_LICENCE"] = "Erreur de confirmation de licence.";
 $MESS["SUP_SUBT_LICENCE"] = "Contrat de licence";
 $MESS["SUP_SUBT_LICENCE_BUTTON"] = "Ouvrir le contrat de licence";
@@ -165,12 +165,11 @@ $MESS["SUP_SU_UPD_MP_NEW"] = "De nouvelles solutions été ajoutées sur votre s
 $MESS["SUP_SU_UPD_MP_NEW2"] = "Vous pouvez fixer les solutions maintenant ou le faire plus tard sur la page Marketplace &gt; Solutions fixées.";
 $MESS["SUP_SU_UPD_MP_NEW_INST"] = "Installation";
 $MESS["SUP_SU_UPD_VIEW"] = "Voir la liste des mises à jour";
-$MESS["SUP_TAB_COUPON"] = "Activater le coupon";
-$MESS["SUP_TAB_COUPON_ALT"] = "Activater le coupon";
+$MESS["SUP_TAB_COUPON"] = "Activer le coupon";
+$MESS["SUP_TAB_COUPON_ALT"] = "Activer le coupon";
 $MESS["SUP_TAB_UPDATES"] = "Installer les mises à jour";
 $MESS["SUP_TAB_UPDATES_ALT"] = "Installer les mises à jour sur votre site Web";
 $MESS["SUP_TAB_UPDATES_LIST"] = "Listes de mises à jours";
 $MESS["SUP_TAB_UPDATES_LIST_ALT"] = "Sélectionnez les mises à jour que vous souhaitez installer";
 $MESS["SUP_TITLE_BASE"] = "Système de mises à jour des solutions tierces";
 $MESS["SUP_USERS"] = "Nombre d'utilisateurs : ";
-?>

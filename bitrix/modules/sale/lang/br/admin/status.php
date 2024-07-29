@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_NEW_REC"] = "Erro ao adicionar um novo status ";
 $MESS["ERROR_ADD_REC"] = "Erro ao adicionar um status ";
 $MESS["ERROR_DELETE"] = "Erro ao deletar o status";
@@ -17,6 +17,7 @@ $MESS["SALE_NOTES1"] = "<b>N</b> é o status inicial do pedido aplicado na cria�
 $MESS["SALE_NOTES2"] = "<b>F</b> é o status final do pedido aplicado assim que o pedido for concluído com sucesso, Você não pode deletar este status.";
 $MESS["SSAN_ADD_NEW"] = "Novo status ";
 $MESS["SSAN_ADD_NEW_ALT"] = "Clique para adicionar um novo status ";
+$MESS["SSEN_TYPE_O"] = "Pedido";
 $MESS["STATUS_DEL"] = "Deletar";
 $MESS["STATUS_DEL_CONF"] = "Você tem certeza que deseja deletar este status? Se este status tiver pedidos anexados, não será deletado.";
 $MESS["STATUS_F_DESCR"] = "Descrição:";
@@ -27,4 +28,3 @@ $MESS["STATUS_RESET"] = "Cancelar";
 $MESS["STATUS_SORT"] = "Classificação";
 $MESS["STATUS_TITLE"] = "Status dos pedidos";
 $MESS["STATUS_UPD"] = "Salvar";
-?>

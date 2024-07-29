@@ -1,9 +1,9 @@
-<?
+<?php
 $MESS["admin_index_menu"] = "Menu";
 $MESS["admin_index_perf"] = "Moniteur de rendement";
 $MESS["admin_index_perf_check"] = "Exécuter";
 $MESS["admin_index_perf_current"] = "Evaluation actuelle de la productivité:";
-$MESS["admin_index_perf_installed"] = "Désuet";
+$MESS["admin_index_perf_installed"] = "Installé";
 $MESS["admin_index_perf_level"] = "Vous pouvez tester le niveau actuel de performances dans <a href='perfmon_panel.php?lang=#LANGUAGE_ID#'>Panneau de performances</a> du module.";
 $MESS["admin_index_perf_module_inst"] = "Module du moniteur de performance non installé ou non inclus dans votre version.";
 $MESS["admin_index_perf_module_inst_desc"] = "Le module analyse et teste les performances de votre système. Pour un maximum de contrôle de la performance de votre projet l'installation du module est recommandée.";
@@ -11,7 +11,7 @@ $MESS["admin_index_perf_no_result"] = "L'évaluation de la performance n'a pas �
 $MESS["admin_index_perf_no_result_desc"] = "Le module analyse et teste les performances de votre système. Pour le contrôle maximal des performances de votre projet Il est recommandé de compléter le test.";
 $MESS["admin_index_perf_not_installed"] = "Non installé";
 $MESS["admin_index_perf_test"] = "Test";
-$MESS["admin_index_product"] = "Le projet fonctionne sur la base de...";
+$MESS["admin_index_product"] = "Fourni par";
 $MESS["admin_index_product_name_1c_bitrix"] = "Bitrix : Gestion de site";
 $MESS["admin_index_product_name_1c_bitrix_eduportal"] = "Bitrix : Portail interne de l'établissement d'enseignement";
 $MESS["admin_index_product_name_1c_bitrix_gosportal"] = "Bitrix : Portal interne de l'autorité";
@@ -33,4 +33,3 @@ $MESS["admin_index_sec_module_install"] = "Installation";
 $MESS["admin_index_sec_off"] = "Désactivé(e)s";
 $MESS["admin_index_sec_on"] = "Activé(e)s";
 $MESS["admin_index_title"] = "Administration du système";
-?>

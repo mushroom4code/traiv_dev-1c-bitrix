@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_PROP"] = "Erreur ajout d'une propriété.";
 $MESS["ERROR_ADD_VARIANT"] = "Erreur ajout d'une propriété";
 $MESS["ERROR_EDIT_PROP"] = "Erreur modifiant la propriété.";
@@ -47,6 +47,7 @@ $MESS["SALE_PROPERTY_LINKING"] = "Rattacher une propriété";
 $MESS["SALE_PROPERTY_LINKING_DESC"] = "La liaison de la propriété aux systèmes de paiement et aux services de livraison";
 $MESS["SALE_PROPERTY_PAYSYSTEM"] = "Liste";
 $MESS["SALE_PROPERTY_SELECT_ALL"] = "Tous";
+$MESS["SALE_PROPERTY_TP_LANDING"] = "Destinations";
 $MESS["SALE_PROPS_GROUP"] = "Groupes de propriété";
 $MESS["SALE_RECORDS_LIST"] = "Pour la liste des biens";
 $MESS["SALE_RESET"] = "Annuler";
@@ -63,7 +64,6 @@ $MESS["SOPEN_DELETE_PROPS"] = "Supprimer la propriété";
 $MESS["SOPEN_DELETE_PROPS_CONFIRM"] = "tes-vous sûr de vouloir supprimer cette propriété ?";
 $MESS["SOPEN_NEW_PROPS"] = "Créer une nouvelle propriété";
 $MESS["SOPEN_TAB_PROPS"] = "Propriétés de la commande";
-$MESS["SOPEN_TAB_PROPS_DESCR"] = "Ordre propriétés pour le &quot;#PTYPE#&quot; type de payeur";
+$MESS["SOPEN_TAB_PROPS_DESCR"] = "Propriétés de la commande pour le &quot;#PTYPE#&quot; type de payeur";
 $MESS["SOPE_TO_LIST"] = "Propriétés";
 $MESS["TYPE_TITLE"] = "Type de donnée";
-?>

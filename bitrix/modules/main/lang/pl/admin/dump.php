@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AUTO_EXEC_FROM_BITRIX"] = "używa magazynu w chmurze Birtrixa";
 $MESS["AUTO_EXEC_FROM_CRON"] = "jako agent wykorzystujący cron";
 $MESS["AUTO_EXEC_FROM_MAN"] = "poprzez wywołanie #SCRIPT# bezpośrednio";
@@ -31,7 +31,7 @@ $MESS["DUMP_MAIN_ARC_MODE"] = "Tryb archiwizowania";
 $MESS["DUMP_MAIN_AUTO_PARAMETERS"] = "Parametry skryptu automatycznego uruchomienia";
 $MESS["DUMP_MAIN_BITRIX_CLOUD"] = "Cmury Bitrixa";
 $MESS["DUMP_MAIN_BITRIX_CLOUD_DESC"] = "Magazyn w chmurze Bitrixa";
-$MESS["DUMP_MAIN_BXCLOUD_INFO"] = "Bitrix Inc. dostarcza magazyn w chmurze wystarczający na trzy kopie zapasowe przechowywane za darmo, dla każdej aktywnej licencji. Kopię bezpieczeństwa można odzyskac podając klucz aktywnej licencji. Jeżeli utracisz hasło do swojej kopii zapasowej, nie będzie możliwości odzyskać plików.";
+$MESS["DUMP_MAIN_BXCLOUD_INFO"] = "Bitrix24 dostarcza magazyn w chmurze wystarczający na trzy kopie zapasowe przechowywane za darmo, dla każdej aktywnej licencji. Kopię bezpieczeństwa można odzyskac podając klucz aktywnej licencji. Jeżeli utracisz hasło do swojej kopii zapasowej, nie będzie możliwości odzyskać plików.";
 $MESS["DUMP_MAIN_CHANGE_SETTINGS"] = "Zmiana zaawansowanych parametrów może spowodowć  utworzenie niekompletenego lub uszkodzonego archiwum, co uniemożliwi późniejsze odtworzenie. Wymagane jest pełne zrozumienie jaki wpływ mają poszczególne ustawienia na proces tworzenia archiwum.";
 $MESS["DUMP_MAIN_DB_EXCLUDE"] = "Wyłącz z bazy danych";
 $MESS["DUMP_MAIN_DOWNLOAD_CLOUDS"] = "Pobierz dane z chmury i dodaj do kopii zapasowej";
@@ -142,13 +142,13 @@ $MESS["MAIN_DUMP_PAGE_TITLE"] = "Kopia Zapasowa";
 $MESS["MAIN_DUMP_PARTS"] = "części:";
 $MESS["MAIN_DUMP_PERIODITY"] = "Uruchom";
 $MESS["MAIN_DUMP_PER_1"] = "Codziennie";
-$MESS["MAIN_DUMP_PER_14"] = "co drugi tydzień";
 $MESS["MAIN_DUMP_PER_2"] = "co drugi dzień";
-$MESS["MAIN_DUMP_PER_21"] = "co 3 tygodnie";
 $MESS["MAIN_DUMP_PER_3"] = "co 3 dni";
-$MESS["MAIN_DUMP_PER_30"] = "Co miesiąc";
 $MESS["MAIN_DUMP_PER_5"] = "co 5 dni";
 $MESS["MAIN_DUMP_PER_7"] = "Co tydzień";
+$MESS["MAIN_DUMP_PER_14"] = "co drugi tydzień";
+$MESS["MAIN_DUMP_PER_21"] = "co 3 tygodnie";
+$MESS["MAIN_DUMP_PER_30"] = "Co miesiąc";
 $MESS["MAIN_DUMP_RENAME"] = "Zmień nazwę";
 $MESS["MAIN_DUMP_RESTORE"] = "Rozpakuj";
 $MESS["MAIN_DUMP_SAVE_PASS"] = "Przechowuj hasło w sposób bezpieczny. Nie będzie możliwości rozpakowania plików jeżeli hasło zostanie zagubione.";
@@ -175,4 +175,3 @@ $MESS["TIME_LEFT"] = ", około pozostałego czasu #TIME#";
 $MESS["TIME_M"] = "P";
 $MESS["TIME_S"] = "S";
 $MESS["TIME_SPENT"] = "Czas spędzony:";
-?>

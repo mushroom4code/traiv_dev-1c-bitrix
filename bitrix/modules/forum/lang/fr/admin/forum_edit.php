@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["ACCESS_DENIED"] = "Accès interdit !";
 $MESS["ACTIVE"] = "Actif(ve)";
-$MESS["ACTIVE_TITLE"] = "actif";
+$MESS["ACTIVE_TITLE"] = "Activité";
 $MESS["ADDITIONAL_SETTINGS"] = "Paramètres avancés";
 $MESS["ALLOW_ALIGN_TITLE"] = "permettre l'alignement";
 $MESS["ALLOW_ANCHOR_TITLE"] = "Autoriser les liens";
@@ -54,8 +54,8 @@ $MESS["FE_ROOT_GROUP"] = "Niveau supérieur";
 $MESS["FE_SAMPLE_SITEPATH"] = "Exemple de modèle de chemin";
 $MESS["FE_SITES_PATHS"] = "Sites où le forum est modèle de chemin disponible / message";
 $MESS["FE_USE_CAPTCHA"] = "Utiliser CAPTCHA";
-$MESS["FORUM_EVENT12"] = "event1, event2 - identificateurs de type d'évènement";
 $MESS["FORUM_EVENT3"] = "event3 - paramètres auxiliaires";
+$MESS["FORUM_EVENT12"] = "event1, event2 - identificateurs de type d'évènement";
 $MESS["FORUM_EVENT_PARAMS"] = "Le mode d'inscription Nouveau message (dans le module statistique)";
 $MESS["GUEST_SETTINGS"] = "Les paramètres pour les utilisateurs non enregistrés";
 $MESS["INDEX"] = "Indexation";
@@ -68,4 +68,3 @@ $MESS["PARSER_SETTINGS"] = "Paramètres de l'analyseur syntaxique";
 $MESS["REQUIRE_REINDEX"] = "Lors de la modification de la valeur la <a href='#LINK#'>réindexation</a> du forum peut être nécessaire.";
 $MESS["SORT"] = "Classification";
 $MESS["USER_SETTINGS"] = "Réglages utilisateurs";
-?>

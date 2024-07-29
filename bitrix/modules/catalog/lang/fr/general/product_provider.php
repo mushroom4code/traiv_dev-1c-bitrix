@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATALOG_ERR_NO_PRODUCT"] = "La marchandise n'a pas été trouvée.";
 $MESS["CATALOG_ERR_NO_PRODUCT_SET"] = "Les contenus du lot sont introuvables.";
 $MESS["CATALOG_ERR_NO_PRODUCT_SET_ITEM"] = "Les produits en lot sont introuvables.";
@@ -11,7 +11,9 @@ $MESS["DDCT_DEDUCTION_PRODUCT_NOT_FOUND_ERROR"] = "Le produit à expédier n'a p
 $MESS["DDCT_DEDUCTION_QUANTITY_ERROR"] = "Quantité insuffisante du produit #PRODUCT_NAME# (##PRODUCT_ID#) pour l'expédition.";
 $MESS["DDCT_DEDUCTION_QUANTITY_STORE_ERROR"] = "La quantité de la marchandise #PRODUCT_NAME# (##PRODUCT_ID#) à l'entrepôt ##STORE_ID# ne suffit pas pour expédition.";
 $MESS["DDCT_DEDUCTION_SAVE_ERROR"] = "Erreur inconnue de sauvegarde de la quantité de marchandises #PRODUCT_NAME# (##PRODUCT_ID#) à l'entrepôt.";
+$MESS["DDCT_DEDUCTION_SHIPMENT_QUANTITY_NOT_ENOUGH"] = "La quantité de \"#PRODUCT_NAME#\" dépasse le stock disponible dans l'entrepôt";
 $MESS["DDCT_DEDUCTION_STORE_ERROR"] = "Les dépôts pour l'expédition du produit #PRODUCT_NAME# (##PRODUCT_ID#) ne sont pas indiqués";
+$MESS["DDCT_DEDUCTION_UNDO_ERROR_RESERVE_QUANTITY"] = "Impossible d'annuler la réservation pour un nombre d'articles supérieur à celui qui a été effectivement réservé (#PRODUCT_NAME#, ##PRODUCT_ID#)";
 $MESS["DDCT_DEDUCTION_WRITE_ERROR"] = "Erreur d'enregistrement des informations sur l'expédition des marchandises #PRODUCT_NAME# (##PRODUCT_ID#).";
 $MESS["DDCT_UNKNOWN_ERROR"] = "Erreur inconnue lors de l'expédition du produit #PRODUCT_NAME# (##PRODUCT_ID#).";
 $MESS["RSRV_ID_NOT_FOUND"] = "Le produit ##PRODUCT_ID# est introuvable.";
@@ -20,4 +22,3 @@ $MESS["RSRV_QUANTITY_NEGATIVE_ERROR"] = "La quantité en stock du produit #PRODU
 $MESS["RSRV_QUANTITY_NOT_ENOUGH_ERROR"] = "Quantité insuffisante du produit #PRODUCT_NAME# (##PRODUCT_ID#) en dépôt.";
 $MESS["RSRV_SKU_FOUND"] = "Le produit ##PRODUCT_ID# dispose de plusieurs UGS. Seule une UGS spécifique peut être réservée ou délivrée.";
 $MESS["RSRV_UNKNOWN_ERROR"] = "Erreur inconnue lors de la réservation du produit #PRODUCT_NAME# (##PRODUCT_ID#).";
-?>

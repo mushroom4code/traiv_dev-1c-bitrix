@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["COUPONS_RECALC_BLOCKED"] = "No se puede aplicar el cupón ya que el pedido ya ha sido pagado. Nuevos cupones se pueden aplicar sólo cuando la actualización de los datos del pedido (dirección de entrega, el sistema de pago, propietario), o al cambiar productos en el pedido.";
 $MESS["ERROR_DEDUCT_ORDER"] = "Error cancelando el pedido";
 $MESS["ERROR_MARK_ORDER"] = "Error al añadir la descripción del problema para su pedido";
@@ -241,7 +241,7 @@ $MESS["SOE_PROPERTY_MORE"] = "Agregar";
 $MESS["SOE_PROP_COUNT_LIMIT"] = "Se han seleccionado demasiadas propiedades. Sólo las primeros 20 propiedades serán visibles.";
 $MESS["SOE_SAVE_ERROR"] = "Error al guardar el pedido.";
 $MESS["SOE_SELECT"] = "seleccionar";
-$MESS["SOE_SHOW_SET"] = "Aumentar";
+$MESS["SOE_SHOW_SET"] = "Expandir";
 $MESS["SOE_SITE"] = "Website";
 $MESS["SOE_STATUS"] = "Estado del pedido";
 $MESS["SOE_SUM"] = "Monto";
@@ -256,4 +256,3 @@ $MESS["SOE_VOUCHER_NUM"] = "Cuenta #";
 $MESS["SOE_WEIGHT"] = "Peso";
 $MESS["SO_NO"] = "No";
 $MESS["SO_YES"] = "Si";
-?>

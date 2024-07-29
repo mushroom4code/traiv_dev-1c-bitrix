@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_NO_NAME"] = "O nome do Status não foi fornecido para o idioma";
 $MESS["SALE_CODE_LEN"] = "letra";
 $MESS["SALE_EDIT_RECORD"] = "Editar status #ID#";
@@ -11,4 +11,4 @@ $MESS["SSEN_NEW_STATUS"] = "Adicionar um novo Status";
 $MESS["SSEN_PERM_GROUPS_ABSENT"] = "Não existem grupos de usuários com permissão de acesso [U] - processamento de pedidos.";
 $MESS["SSEN_TAB_STATUS"] = "Status do pedido";
 $MESS["SSEN_TAB_STATUS_DESCR"] = "Status do pedido";
-?>
+$MESS["SSEN_TYPE_O"] = "Pedido";

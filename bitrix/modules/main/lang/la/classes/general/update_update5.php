@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["HINT_WIND_EXEC"] = "Actualizar la descripción";
 $MESS["HINT_WIND_EXEC_ALT"] = "Actualizar la descripción";
 $MESS["HINT_WIND_TITLE"] = "Actualizar la descripción";
@@ -142,7 +142,7 @@ $MESS["SUP_CHECK_ACT"] = "Activar cupón";
 $MESS["SUP_CHECK_PROMT"] = "De acuerdo a su licencia usted no puede crear más de #NUM# sitio(s) web basados en este kernel.";
 $MESS["SUP_CHECK_PROMT_1"] = "Usted puede extender su periodo de soporte técnico, comprando una licencia adicional, cambiando su licencia actual, o cualquiera de las dos formas.";
 $MESS["SUP_CHECK_PROMT_2"] = "De acuerdo a su licencia usted puede crear ilimitados sitios web basados en este kernel.";
-$MESS["SUP_COLLAPSE"] = "Colapsar";
+$MESS["SUP_COLLAPSE"] = "Contraer";
 $MESS["SUP_DELETE_FROM_LOAD"] = "Quitar";
 $MESS["SUP_EDITION"] = "Versión del Producto:";
 $MESS["SUP_EMPTY_HELP_LANG"] = "Usted tiene que especificar el idioma en la sección de ayuda para descargar";
@@ -155,7 +155,7 @@ $MESS["SUP_ENTER_KEY"] = "Por favor ingrese su clave de licencia";
 $MESS["SUP_ERRORS"] = "Errores encontrados: ";
 $MESS["SUP_ERROR_BAD_MAIL_U"] = "La dirección de E-Mail \"#EMAIL#\" tiene un formato erroneo";
 $MESS["SUP_ERROR_NO_MAIL_U"] = "Ingrese su dirección de E-Mail para suscribirse";
-$MESS["SUP_EXPAND"] = "Exppandir";
+$MESS["SUP_EXPAND"] = "Expandir";
 $MESS["SUP_HELP_LOAD_BREAK"] = "Desarga de sección de ayuda interrumpida";
 $MESS["SUP_HISTORY_LINK"] = "Ver historial de actualizaciones";
 $MESS["SUP_HIST_DATE"] = "Fecha";
@@ -321,4 +321,3 @@ $MESS["SUP_WORD_YAZIK_END3"] = " ";
 $MESS["SUP_WORD_YAZIK_END4"] = "s";
 $MESS["SUP_ZLIB"] = "El módulo Zlib del PHP está instalado. La compresión de datos será usada.";
 $MESS["SUP_ZLIB_RECOM"] = "Instale el módulo Zlib para PHP para facilitar el proceso de actualizaciones. Usted puede conseguir mayor información de este módulo en <a href=\"#ZLIB_URL#\" target=\"_blank\">#ZLIB_URL#</a>";
-?>

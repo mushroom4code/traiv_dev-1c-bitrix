@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SOC_OPT_B24NET_CLIENT_ID"] = "ID Portalu";
 $MESS["SOC_OPT_B24NET_GET"] = "uzyskaj";
 $MESS["SOC_OPT_B24NET_PUT"] = "Wklej";
@@ -19,5 +19,4 @@ $MESS["socserv_sett_common"] = "Ogólne";
 $MESS["socserv_sett_common_title"] = "Parametry wspólne dla wszystkich stron";
 $MESS["socserv_sett_site"] = "Ustawienia dla strony";
 $MESS["socserv_sett_site_apply"] = "Zatwierdź indywidualne parametry dla strony:";
-$MESS["socserv_twit_to_buzz"] = "Przekazuj tweety użytkownika z hash #hash# na Tablicę";
-?>
+$MESS["socserv_twit_to_buzz2"] = "Przekazuj tweety użytkownika z hashem #hash# do Aktualności";

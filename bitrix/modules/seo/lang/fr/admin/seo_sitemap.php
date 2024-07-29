@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SEO_ADD_SITEMAP"] = "Ajouter";
 $MESS["SEO_ADD_SITEMAP_CHOOSE_SITE"] = "Sélectionner un site : ";
 $MESS["SEO_ADD_SITEMAP_TITLE"] = "Ajouter la configuration du plan du site";
@@ -41,7 +41,7 @@ $MESS["SEO_SITEMAP_STRUCTURE_TYPE"] = "Utiliser";
 $MESS["SEO_SITEMAP_STRUCTURE_TYPE_N"] = "Fichiers et dossiers";
 $MESS["SEO_SITEMAP_STRUCTURE_TYPE_Y"] = "Structure du site";
 $MESS["SEO_SITEMAP_TITLE"] = "Paramètres du plan du site";
-$MESS["SITEMAP_ACTIVE"] = "Actif";
+$MESS["SITEMAP_ACTIVE"] = "Activité";
 $MESS["SITEMAP_DATE_RUN"] = "Dernière exécution";
 $MESS["SITEMAP_DATE_RUN_NEVER"] = "jamais";
 $MESS["SITEMAP_DELETE"] = "Supprimer";
@@ -73,4 +73,3 @@ $MESS["SITEMAP_RUN_IBLOCK_EMPTY"] = "Aucun bloc d'information à traiter";
 $MESS["SITEMAP_RUN_IBLOCK_NAME"] = "Traitement du bloc d'information : #IBLOCK_NAME#";
 $MESS["SITEMAP_SITE_ID"] = "Site internet";
 $MESS["SITEMAP_TIMESTAMP_X"] = "Modifié";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CL_ADD_COMMENT"] = "Dodaj komentarz...";
 $MESS["CL_ADD_SITES_FIELDS"] = "Dodaj więcej";
 $MESS["CL_AUTOTEST_DONE"] = "Autotest kompletny";
@@ -57,7 +57,7 @@ $MESS["CL_REPORT_INVITE"] = "Witaj w programie oceny jakości. Proszę wypełnij
 $MESS["CL_REPORT_NOT_FOUND"] = "nie znaleziono raportu.";
 $MESS["CL_REPORT_PHONE"] = "Telefon kontaktowy";
 $MESS["CL_REPORT_PHONE_ADD"] = "wew.";
-$MESS["CL_REPORT_SENDED"] = "Raport został wysłany do Bitrix Inc.";
+$MESS["CL_REPORT_SENDED"] = "Raport został wysłany do Bitrix24";
 $MESS["CL_REPORT_SITES"] = "Strony";
 $MESS["CL_REPORT_TABLE_CHECKED"] = "Zdane";
 $MESS["CL_REPORT_TABLE_DETAIL"] = "Szczegóły";
@@ -72,8 +72,8 @@ $MESS["CL_RESULT_TEST"] = "Wynik";
 $MESS["CL_SAVE_COMMENTS"] = "Zapisz komentarz";
 $MESS["CL_SAVE_REPORT"] = "Zapisz Raport";
 $MESS["CL_SAVE_SEND_REPORT"] = "Dołącz do programu oceny jakości";
-$MESS["CL_SAVE_SEND_REPORT_CUT"] = "Wyślij do Bitrix Inc.";
-$MESS["CL_SAVE_SEND_REPORT_HINT"] = "Gdy dodajesz swój projekt do programu oceny jakości Bitrix Inc., system wysyła tylko wyniki testu oraz dane właściciela projektu. Jeżeli chcesz dostarczyć dodaktowe informacje, prosimy dołączyć je w komentarzach.";
+$MESS["CL_SAVE_SEND_REPORT_CUT"] = "Wyślij do Bitrix24";
+$MESS["CL_SAVE_SEND_REPORT_HINT"] = "Gdy dodajesz swój projekt do programu oceny jakości Bitrix24, system wysyła tylko wyniki testu oraz dane właściciela projektu. Jeżeli chcesz dostarczyć dodaktowe informacje, prosimy dołączyć je w komentarzach.";
 $MESS["CL_SAVE_SUCCESS"] = "Status testu i komentarze zapisane.";
 $MESS["CL_SENDING_QC_REPORT"] = "Wysyłanie danych do oceny jakości...";
 $MESS["CL_SHOW_COMMENTS"] = "Pokaż wszystkie komentarze";
@@ -105,4 +105,3 @@ $MESS["CL_TEST_WAITING"] = "W toku";
 $MESS["CL_TITLE_CHECKLIST"] = "Kontrola jakości w projekcie";
 $MESS["CL_VENDOR"] = "Developer";
 $MESS["CL_W_STATUS"] = "W toku";
-?>

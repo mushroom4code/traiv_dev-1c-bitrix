@@ -2,9 +2,9 @@
 <?
 $APPLICATION->AddHeadScript($this->GetFolder() . '/script.js');
 ?>
-<?=ShowError($arResult["ERROR_MESSAGE"]);?>
+<? ShowError($arResult["ERROR_MESSAGE"]);?>
 
-<script type="text/javascript">BX.loadCSS('<? echo CUtil::JSEscape( $this->GetFolder() ); ?>/style.css');</script>
+<script>BX.loadCSS('<? echo CUtil::JSEscape( $this->GetFolder() ); ?>/style.css');</script>
 
 <? 
 /*$hkInst=CHotKeys::getInstance();
@@ -367,7 +367,7 @@ if (!empty($arResult["TICKET"])):
 <input type="reset" value="<?=GetMessage("SUP_RESET")?>" />
 <input type="hidden" value="Y" name="apply" />
 
-<script type="text/javascript">
+<script>
 BX.ready(function(){
 	var buttons = BX.findChildren(document.forms['support_edit'], {attr:{type:'submit'}});
 	for (i in buttons)

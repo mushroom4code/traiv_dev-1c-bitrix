@@ -1,17 +1,17 @@
-<?
+<?php
 $MESS["SALE_SLSS_AJAX_LOADING"] = "Ładowanie ...";
-$MESS["SALE_SLSS_AJAX_LOAD_MORE"] = "Wyświetlić więcej ...";
+$MESS["SALE_SLSS_AJAX_LOAD_MORE"] = "Wyświetl więcej...";
 $MESS["SALE_SLSS_AJAX_RETRY"] = "Spróbuj ponownie";
-$MESS["SALE_SLSS_AND_N_LOCATIONS_TO_GO"] = "#CNT# więcej #PLURAL_FORM#";
+$MESS["SALE_SLSS_AND_N_LOCATIONS_TO_GO"] = "#CNT# więcej #PLURAL_FORM# ";
 $MESS["SALE_SLSS_APPLY_FILTER"] = "Szukaj";
-$MESS["SALE_SLSS_CHOICE_DO"] = "wybierz";
+$MESS["SALE_SLSS_CHOICE_DO"] = "Wybierz";
 $MESS["SALE_SLSS_CHOICE_REDO"] = "Wybierz ponownie";
-$MESS["SALE_SLSS_FIND_LOCATION"] = "Znajdź Lokalizację";
-$MESS["SALE_SLSS_LOCATION"] = "Zasób";
+$MESS["SALE_SLSS_FIND_LOCATION"] = "Znajdź lokalizację";
+$MESS["SALE_SLSS_LOCATION"] = "Lokalizacja";
 $MESS["SALE_SLSS_LOCATIONS"] = "Lokalizacje";
 $MESS["SALE_SLSS_LOCATION_AVAILABLE"] = "Dostępne lokalizacje";
-$MESS["SALE_SLSS_LOCATION_ELEMENT"] = "Zasób";
-$MESS["SALE_SLSS_LOCATION_ELEMENTA"] = "Lokalizacje";
+$MESS["SALE_SLSS_LOCATION_ELEMENT"] = "lokalizacja";
+$MESS["SALE_SLSS_LOCATION_ELEMENTA"] = "lokalizacje";
 $MESS["SALE_SLSS_LOCATION_ELEMENTOV"] = "Lokalizacje";
 $MESS["SALE_SLSS_LOCATION_GROUPS"] = "Grupy lokalizacji";
 $MESS["SALE_SLSS_LOCATION_SELECTOR_BUTTON_CANCEL"] = "Anuluj";
@@ -22,15 +22,14 @@ $MESS["SALE_SLSS_LOCATION_SELECTOR_ERROR_OCCURED"] = "Wystąpił błąd";
 $MESS["SALE_SLSS_LOCATION_SELECTOR_GRP_TOTAL_SELECTED"] = "Wybrane grupy";
 $MESS["SALE_SLSS_LOCATION_SELECTOR_LOC_TOTAL_SELECTED"] = "Wybrane lokalizacje";
 $MESS["SALE_SLSS_LOCATION_SELECTOR_NOTHING_FOUND"] = "Niestety wyszukiwanie nie przyniosło rezultatów";
-$MESS["SALE_SLSS_LOCATION_SELECTOR_NOTHING_SELECTED"] = "Nie wybrano lokalizacji";
-$MESS["SALE_SLSS_LOCATION_SELECTOR_SELECT_PROMPT"] = "Proszę wybrać lokalizację z drzewa lokalizacji lub z użyciem okienka wyszukiwania.";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_NOTHING_SELECTED"] = "Nie wybrano lokalizacji.";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_SELECT_PROMPT"] = "Wybierz lokalizacje z drzewa lokalizacji lub za pomocą pola wyszukiwania.";
 $MESS["SALE_SLSS_LOCATION_SELECTOR_SURE_CLEAN"] = "Na pewno chcesz wyczyścić listę?";
 $MESS["SALE_SLSS_LOCATION_SELECTOR_TITLE"] = "Wybierz lokalizację";
-$MESS["SALE_SLSS_LOCATION_SELECTOR_UNCHOOSE"] = "Nie wybrano";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_UNCHOOSE"] = "Usuń zaznaczone lokalizacje";
 $MESS["SALE_SLSS_NAME_COLUMN"] = "Nazwa";
 $MESS["SALE_SLSS_NONE_IS_SELECTED"] = "Nie wybrano lokalizacji";
-$MESS["SALE_SLSS_NO_LOCATIONS"] = "Baza danych lokalizacji jest pusta. #ANCHOR_IMPORT#Import locations now#ANCHOR_END#";
+$MESS["SALE_SLSS_NO_LOCATIONS"] = "Baza danych lokalizacji jest pusta. #ANCHOR_IMPORT#Importuj lokalizacje#ANCHOR_END#";
 $MESS["SALE_SLSS_RESET_FILTER"] = "Wyczyść filtr";
 $MESS["SALE_SLSS_SELECTED_LOCATIONS"] = "Wybrane lokalizacje";
 $MESS["SALE_SLSS_TYPE_NOT_SELECTED"] = "nie wybrano typu";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_ALL"] = "(n'importe lesquel(el)s)";
 $MESS["IBLOCK_NO"] = "Non";
 $MESS["IBLOCK_YES"] = "Oui";
@@ -23,8 +23,7 @@ $MESS["IBP_ADM_TO_ADD_TITLE"] = "Ajouter un nouveau propriété";
 $MESS["IBP_ADM_WITH_DESCRIPTION"] = "A une description";
 $MESS["IBP_ADM_XML_ID"] = "ID externe";
 $MESS["MAIN_ADMIN_LIST_ACTIVATE"] = "activer";
-$MESS["MAIN_ADMIN_LIST_CHECKED"] = "Coché:";
+$MESS["MAIN_ADMIN_LIST_CHECKED"] = "Coché :";
 $MESS["MAIN_ADMIN_LIST_DEACTIVATE"] = "Désactiver";
 $MESS["MAIN_ADMIN_LIST_DELETE"] = "supprimer";
-$MESS["MAIN_ADMIN_LIST_SELECTED"] = "Sélectionné:";
-?>
+$MESS["MAIN_ADMIN_LIST_SELECTED"] = "Sélectionné :";

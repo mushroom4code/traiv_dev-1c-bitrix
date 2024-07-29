@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BITRIXTV_GROUP_PREVIEW_TV"] = "Réglages du player";
 $MESS["BITRIXTV_GROUP_PREVIEW_TV_PLAYER"] = "Paramètres de la liste";
 $MESS["BITRIXTV_GROUP_SETTINGS"] = "Réglages généraux du composant";
@@ -15,7 +15,7 @@ $MESS["BITRIXTV_SETTING_PREVIEW_TV_ELEMENT"] = "Elément";
 $MESS["BITRIXTV_SETTING_PREVIEW_TV_SECTION"] = "Section";
 $MESS["BITRIXTV_SETTING_PREVIEW_WIDTH"] = "Largeur de la zone player";
 $MESS["BITRIXTV_SETTING_SHOW_COUNTER_EVENT"] = "Faire progresser le compteur d'affichages de l'élément";
-$MESS["BITRIXTV_SETTING_STAT"] = "Vues statistiques";
+$MESS["BITRIXTV_SETTING_STAT"] = "Statistiques des vues";
 $MESS["BITRIXTV_SETTING_STAT_EVENT"] = "Prendre en compte les évènements dans le module des statistiques";
 $MESS["BITRIXTV_SETTING_STAT_EVENT1"] = "event1";
 $MESS["BITRIXTV_SETTING_STAT_EVENT2"] = "event2";
@@ -29,4 +29,3 @@ $MESS["T_IBLOCK_DESC_FSORT"] = "Classification";
 $MESS["T_IBLOCK_DESC_FTSAMP"] = "Date de la dernière modification";
 $MESS["T_IBLOCK_DESC_IBBY1"] = "Direction pour le premier tri d'actualités";
 $MESS["T_IBLOCK_DESC_IBORD1"] = "Champ pour le premier triage des nouvelles";
-?>

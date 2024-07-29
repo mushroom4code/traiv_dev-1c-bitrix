@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["REPORT_IGNORE_FILTER_VALUE"] = "Ignorar";
 $MESS["REPORT_sale_SaleBasket_FUSER.USER.UserGroup:USER.GROUP.ID"] = "ID";
 $MESS["REPORT_sale_SaleBasket_ORDER"] = "Data do pedido";
@@ -13,6 +13,7 @@ $MESS["REPORT_sale_SaleOrder_USER.UserGroup:USER.GROUP.ID"] = "ID";
 $MESS["REPORT_sale_SaleProduct_PRICE_SITECURR"] = "Preço";
 $MESS["REPORT_sale_SaleProduct_SUMM_SITECURR"] = "Total de produtos";
 $MESS["REPORT_sale_SaleProduct_StoreProduct:SALE_PRODUCT"] = "Depósito";
+$MESS["REPORT_sale_User_Bitrix\\Sale\\Internals\\Order:USER"] = "Pedido";
 $MESS["REPORT_sale_User_LID"] = "Loja web";
 $MESS["REPORT_sale_User_UserGroup:USER.GROUP.ID"] = "ID";
 $MESS["SALE_REPORT_CONSTRUCT_CATALOG_NAME_LABEL"] = "Catálogo";
@@ -106,4 +107,3 @@ $MESS["SALE_REPORT_HELPER_NAME_sale_User"] = "Cliente";
 $MESS["SALE_REPORT_USER_NOT_AUTH"] = "<não logado>";
 $MESS["USER_FEMALE"] = "Feminino";
 $MESS["USER_MALE"] = "Masculino";
-?>

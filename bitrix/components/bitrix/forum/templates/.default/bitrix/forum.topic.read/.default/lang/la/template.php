@@ -1,7 +1,7 @@
-<?
+<?php
 $MESS["F_CLOSED"] = "Cerrado";
 $MESS["F_CLOSE_TOPIC"] = "Cerrar tema";
-$MESS["F_COLLAPSE"] = "Oculto";
+$MESS["F_COLLAPSE"] = "Ocultar";
 $MESS["F_DELETE_CONFIRM"] = "El mensaje será irreversiblemente borrado. ¿Continuar?";
 $MESS["F_DELETE_MESSAGES"] = "Borrar mensajes";
 $MESS["F_DELETE_MESSAGES_CONFIRM"] = "Esto borrará irreversiblemente los mensajes. ¿Continuar?";
@@ -32,4 +32,3 @@ $MESS["F_WAIT"] = "Por favor espere...";
 $MESS["JQOUTE_AUTHOR_WRITES"] = "escribió";
 $MESS["JS_NO_ACTION"] = "No hay acción seleccionada. Por favor, seleccione una acción.";
 $MESS["JS_NO_MESSAGES"] = "No hay mensajes seleccionados. Por favor seleccionar mensajes.";
-?>

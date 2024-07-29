@@ -1,7 +1,8 @@
-<?
+<?php
 $MESS["ACTIONS"] = "Acciones";
 $MESS["ADD_GROUP"] = "Agregar";
 $MESS["BASE"] = "Base";
+$MESS["BASE_NO"] = "No";
 $MESS["BASE_YES"] = "Si";
 $MESS["BT_CAT_GROUP_ADM_LANG_MESS"] = "#LANG#: #VALUE#";
 $MESS["BT_CAT_GROUP_ADM_TITLE_CREATED_BY"] = "Creado por";
@@ -26,4 +27,3 @@ $MESS["RESET"] = "Resetear";
 $MESS["SAVE"] = "Guardar";
 $MESS["SORT"] = "Ordenar";
 $MESS["group_admin_nav"] = "Tipos";
-?>

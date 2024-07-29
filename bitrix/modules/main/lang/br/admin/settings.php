@@ -1,4 +1,5 @@
-<?
+<?php
+$MESS["MAIN_ADMIN_ADD_SITE_SELECTOR_1"] = "Adicionar par de site / acordo";
 $MESS["MAIN_ADMIN_SET_CONTROLLER_ALT"] = "Anulado pelo Controlador";
 $MESS["MAIN_BY_DEFAULT"] = "Permissão de acesso padrão:";
 $MESS["MAIN_DEFAULT"] = "< padrão >";
@@ -14,4 +15,3 @@ $MESS["MAIN_TAB_TITLE_RIGHTS"] = "Permissões de acesso do módulo";
 $MESS["MAIN_TAB_TITLE_SET"] = "Parâmetros Gerais";
 $MESS["MAIN_TITLE"] = "Configurações do módulo";
 $MESS["MAIN_USER_GROUP_TITLE"] = "Visualizar parâmetros de grupos de usuários";
-?>

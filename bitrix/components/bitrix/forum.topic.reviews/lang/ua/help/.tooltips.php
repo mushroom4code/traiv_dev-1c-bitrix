@@ -16,5 +16,4 @@ $MESS["CACHE_TIME_TIP"] = "Час кешування (сек.)";
 $MESS["EDITOR_CODE_DEFAULT_TIP"] = "За умовчанням показувати невізуальних режим редактора";
 $MESS["SHOW_AVATAR_TIP"] = "Показувати аватари користувачів";
 $MESS["SHOW_RATING_TIP"] = "Виводити рейтинг";
-$MESS["SHOW_MINIMIZED_TIP"] = "Звертати форму додавання відкликання";
 ?>

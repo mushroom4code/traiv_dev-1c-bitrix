@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["COMP_GROUP_ADDITIONAL_SETTINGS"] = "Propriedades estendidas";
 $MESS["COMP_GROUP_AJAX_SETTINGS"] = "Configurações do modo AJAX";
 $MESS["COMP_GROUP_BASE"] = "Parâmetros gerais";
@@ -23,7 +23,7 @@ $MESS["COMP_NAME_TEMPLATE_SMITH_JOHN_LLOYD"] = "Smith John Lloyd";
 $MESS["COMP_NAME_TEMPLATE_SMITH_J_L"] = "Smith J.L.";
 $MESS["COMP_PARAM_CACHE_AUTO_OFF"] = "<span style=\"color:red\">desligado</span>";
 $MESS["COMP_PARAM_CACHE_AUTO_ON"] = "em";
-$MESS["COMP_PARAM_CACHE_MAN"] = "#NOME?";
+$MESS["COMP_PARAM_CACHE_MAN"] = "+ Gerenciado";
 $MESS["COMP_PARAM_CACHE_MANAGED_OFF"] = "<span style=\"color:red\">desligado</span>";
 $MESS["COMP_PARAM_CACHE_MANAGED_ON"] = "em";
 $MESS["COMP_PARAM_DATETIME_FORMAT_SITE"] = "Formato de data e hora no site";
@@ -69,9 +69,6 @@ $MESS["VRT_COMP_CAT_E-STORE"] = "e-Store";
 $MESS["VRT_COMP_CAT_SERVICE"] = "Serviços";
 $MESS["VRT_COMP_CAT_UTILITY"] = "Utilitários";
 $MESS["comp_util_err1"] = "Nome do componente vazio";
-$MESS["comp_util_err10"] = "O Modelo para o local de destino não for especificado";
-$MESS["comp_util_err11"] = "O Modelo de componente não podem ser copiado para o mesmo modelo de site com o mesmo nome";
-$MESS["comp_util_err12"] = "O modelo '#NAME#' já existe";
 $MESS["comp_util_err2"] = "#NAME#' não é um componente";
 $MESS["comp_util_err3"] = "Nome incorreto para o espaço '#NAME#'";
 $MESS["comp_util_err4"] = "Novo nome incorreto do componente '#NAME#'";
@@ -80,4 +77,6 @@ $MESS["comp_util_err6"] = "O componente '#NAME#' já existe";
 $MESS["comp_util_err7"] = "Nome não permitido para o modelo '#NAME#'";
 $MESS["comp_util_err8"] = "Modelo de site com o nome '#NAME#' não foi encontrado";
 $MESS["comp_util_err9"] = "O modelo com o nome '#T_NAME#' para o componente '#C_NAME#' não foi encontrado";
-?>
+$MESS["comp_util_err10"] = "O Modelo para o local de destino não for especificado";
+$MESS["comp_util_err11"] = "O Modelo de componente não podem ser copiado para o mesmo modelo de site com o mesmo nome";
+$MESS["comp_util_err12"] = "O modelo '#NAME#' já existe";

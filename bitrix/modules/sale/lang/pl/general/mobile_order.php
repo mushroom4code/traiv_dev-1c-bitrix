@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SMOB_ADDRESS"] = "Adres dostawy";
 $MESS["SMOB_ALLOWED"] = "Dozwolone";
 $MESS["SMOB_ALL_ORDERS"] = "Wszystkie zamówienia";
@@ -48,7 +48,7 @@ $MESS["SMOB_MARK"] = "Problem";
 $MESS["SMOB_MARK_NO_DESCRIPTION"] = "brak";
 $MESS["SMOB_NONE"] = "Nie dostarczone";
 $MESS["SMOB_NOT_PAYED"] = "Nieopłacone";
-$MESS["SMOB_ORDER"] = "Zamów";
+$MESS["SMOB_ORDER"] = "Zamówienie";
 $MESS["SMOB_ORDERS_FILTER"] = "Filtr zamówień";
 $MESS["SMOB_ORDERS_LIST"] = "Zamówienia";
 $MESS["SMOB_ORDERS_MANAGEMENT"] = "Zarządzaj zamówieniami";
@@ -91,4 +91,3 @@ $MESS["SMOB_WAITING_FOR_DELIVERY"] = "Wciąż niewysłane";
 $MESS["SMOB_WAITING_FOR_PAY"] = "Wciąż nieopłacone";
 $MESS["SMOB_WEIGHT"] = "Waga całkowita";
 $MESS["SMOB_ZIP"] = "Kod pocztowy";
-?>

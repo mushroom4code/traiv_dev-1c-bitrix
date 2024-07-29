@@ -1,8 +1,26 @@
-<?
+<?php
 $MESS["BLOG_BLOG_TO_YOU_DESC"] = "#BLOG_ID# - ID do Blog\\r\\n#BLOG_NAME# - Nome do Blog\\r\\n#BLOG_URL# - Nome do Blog, somente letras\\r\\n#BLOG_ADR# - Endereço do Blog\\r\\n#USER_ID# - ID do Usuário \\r\\n#USER# - Usuário\\r\\n#USER_URL# - URL do Usuário\\r\\n#EMAIL_FROM# - Remetente de e-mail\\r\\n#EMAIL_TO# - Destinatário do e-mail";
 $MESS["BLOG_BLOG_TO_YOU_MESSAGE"] = "Mensagem de #SITE_NAME#\\r\\n------------------------------------------\\r\\n\\r\\n O blog \"#BLOG_NAME#\" foi adicionado aos seus amigos.\\r\\n\\r\\n O endereço do blog: #BLOG_ADR#\\r\\n\\r\\n Seu perfil:  #USER_URL#\\r\\n\\r\\n Esta mensagem foi gerada automaticamente.\\r\\n";
 $MESS["BLOG_BLOG_TO_YOU_NAME"] = "Um blog foi adicionado aos seus amigos";
 $MESS["BLOG_BLOG_TO_YOU_SUBJECT"] = "#SITE_NAME#: [B] O blog \"#BLOG_NAME#\" foi adicionado aos seus amigos.";
+$MESS["BLOG_POST_BROADCAST_MESSAGE"] = "Nova atividade em #SITE_NAME#
+------------------------------------------
+
+Uma nova publicação foi adicionada desde a sua última visita.
+
+Assunto:
+#MESSAGE_TITLE#
+
+Autor: #AUTHOR#
+
+Texto da publicação:
+#MESSAGE_TEXT#
+
+Endereço da publicação:
+#MESSAGE_PATH#
+
+Essa mensagem foi gerada automaticamente.";
+$MESS["BLOG_POST_BROADCAST_SUBJECT"] = "#SITE_NAME#: #MESSAGE_TITLE#";
 $MESS["BLOG_USER_TO_YOUR_BLOG_DESC"] = "#BLOG_ID# - Blog ID\\r\\n#BLOG_NAME# - Blog name\\r\\n#BLOG_URL# - Blog name, Latin letters only\\r\\n#BLOG_ADR# - Blog address\\r\\n#USER_ID# - User ID\\r\\n#USER# - User\\r\\n#USER_URL# - User URL\\r\\n#EMAIL_FROM# - Sender E-mail\\r\\n#EMAIL_TO# - Recipient E-mail";
 $MESS["BLOG_USER_TO_YOUR_BLOG_MESSAGE"] = "Mensagem de #SITE_NAME#\\r\\n------------------------------------------\\r\\n\\r\\n Um amigo #USER# foi adicionado ao seu blog \"#BLOG_NAME#\".\\r\\n\\r\\n Perfil do usuário #USER_URL# Página do seu blog: #BLOG_ADR#\\r\\n\\r\\n Esta mensagem foi gerada automaticamente.\\r\\n";
 $MESS["BLOG_USER_TO_YOUR_BLOG_NAME"] = "Um amigo foi adicionado ao seu blog";
@@ -159,4 +177,3 @@ URL da Mensagem:
 Mensagem gerada automaticamente.";
 $MESS["NEW_BLOG_MESSAGE_NAME"] = "Nova mensagem de blog";
 $MESS["NEW_BLOG_MESSAGE_SUBJECT"] = "#SITE_NAME#: [B] #BLOG_NAME# : #MESSAGE_TITLE#";
-?>

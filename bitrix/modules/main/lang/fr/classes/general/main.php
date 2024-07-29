@@ -1,6 +1,6 @@
-<?
+<?php
 $MESS["AUTH_TITLE"] = "Autorisation";
-$MESS["AUTH_TITLE_CHANGE_PASSWORD"] = "Aller vers le formulaire pour changer le mot de passe";
+$MESS["AUTH_TITLE_CHANGE_PASSWORD"] = "Réinitialisation du mot de passe";
 $MESS["AUTH_TITLE_CONFIRM"] = "Confirmation de l'inscription";
 $MESS["AUTH_TITLE_OTP"] = "Mots de passe à une seule utilisation";
 $MESS["AUTH_TITLE_REGISTER"] = "Enregistrement";
@@ -108,4 +108,3 @@ $MESS["main_incl_file_sec"] = "dès";
 $MESS["main_incl_file_sql"] = "Requêtes : ";
 $MESS["main_incl_file_sql_stat"] = "Afficher les statistiques de la requête";
 $MESS["main_save_file_handler_error"] = "Erreur de sauvegarde du fichier (gestionnaire #HANDLER#).";
-?>

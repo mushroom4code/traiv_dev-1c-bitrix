@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["B24NET_ERROR_INCORRECT_PARAMS"] = "Parámetros suministrados incorrectos.";
 $MESS["B24NET_NETWORK_IN_NOT_ENABLED"] = "Bitrix24.Network 2.0 no está habilitado en el portal.";
 $MESS["B24NET_POPUP_CONNECT"] = "Conectar";
@@ -8,5 +8,5 @@ $MESS["B24NET_POPUP_TITLE"] = "Bitrix24 - Autenticación única";
 $MESS["B24NET_SEARCH_STRING_TO_SHORT"] = "Cadena de búsqueda es demasiado corto.";
 $MESS["B24NET_SEARCH_USER_NOT_FOUND"] = "Usuario no encontrado";
 $MESS["B24NET_SOCSERV_NOT_INSTALLED"] = "El módulo \"Social Services\" no está instalado.";
-$MESS["B24NET_SOCSERV_TRANSPORT_ERROR"] = "Autenticación de error en Bitrix24.Network. Por favor, ingrese de nuevo.";
-?>
+$MESS["B24NET_SOCSERV_TRANSPORT_ERROR"] = "Error de autenticación en Bitrix24 Network. Inicie sesión nuevamente.";
+$MESS["B24NET_SOCSERV_TRANSPORT_ERROR_MSGVER_1"] = "Error de autenticación en Bitrix24 Network. Inicie sesión nuevamente.";

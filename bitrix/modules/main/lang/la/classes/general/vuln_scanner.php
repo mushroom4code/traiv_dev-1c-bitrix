@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["VULNSCAN_CODE_HELP"] = "Un atacante puede inyectar y ejecutar código PHP arbitrario. Leer más: <a href=\"http://cwe.mitre.org/data/definitions/78.html\">http://cwe.mitre.org/data/definitions/78.html</a>";
 $MESS["VULNSCAN_CODE_HELP_SAFE"] = "Filtro de entrada de usuario <b>EscapePHPString</b>.";
 $MESS["VULNSCAN_CODE_NAME"] = "Ejecución de código arbitrario";
@@ -16,7 +16,7 @@ $MESS["VULNSCAN_HEADER_HELP"] = "Un atacante puede utilizar el encabezado de la 
 $MESS["VULNSCAN_HEADER_HELP_SAFE"] = "Nuevas líneas se recomienda para ser filtrados antes de agregar texto al encabezado.";
 $MESS["VULNSCAN_HEADER_NAME"] = "División de respuesta HTTP";
 $MESS["VULNSCAN_HELP_FUNCTION"] = "Función/método";
-$MESS["VULNSCAN_HELP_INPUT"] = "Fuente";
+$MESS["VULNSCAN_HELP_INPUT"] = "Origen";
 $MESS["VULNSCAN_HELP_SAFE"] = "No se arriesgue!";
 $MESS["VULNSCAN_HELP_VULNTYPE"] = "Tipo de vulnerabilidad";
 $MESS["VULNSCAN_INCLUDE_HELP"] = "Un atacante puede montar sistemas de ficheros locales y / o remotas, o leer archivos de página web. Se recomienda dar formato canónico a la ruta de los datos del usuario antes de usarlos. Leer más:<a href=\"https://rdot.org/forum/showthread.php?t=343\">https://rdot.org/forum/showthread.php?t=343</a>";
@@ -35,4 +35,3 @@ $MESS["VULNSCAN_VULNCOUNTS"] = "Problemas potenciales que se encuentran:";
 $MESS["VULNSCAN_XSS_HELP"] = "Un atacante puede ejecutar malintencionado o arbitraria HTML/JS el código en el contexto del explorador de la víctima. Es recomendable filtrar las variables antes del de salida a HTML/JS.<br>Leer más: <a href=\"https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)\">https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)</a>";
 $MESS["VULNSCAN_XSS_HELP_SAFE"] = "Use <b>htmlspecialcharsbx</b>. Los valores de las etiquetas siempre en doble comilla. Obligatorio especificar el protocolo (http) en los valores de los atributos href y src cuando sea requerido.";
 $MESS["VULNSCAN_XSS_NAME"] = "Cruzar Secuencias de comandos";
-?>

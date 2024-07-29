@@ -1,7 +1,8 @@
-<?
+<?php
 $MESS["DELIVERY_CHANGE_WARNING"] = "Premier service de livraison disponible sélectionné";
 $MESS["INFO_REQ"] = "Vous êtes bien inscrit.";
 $MESS["INNER_PAYMENT_BALANCE_ERROR"] = "Fonds insuffisants sur le compte interne";
+$MESS["ORDER_CONSISTENCY_CHANGED"] = "La commande a été modifiée lors de l'enregistrement.";
 $MESS["P2D_CALCULATE_ERROR"] = "Erreur lors du calcul de la commande";
 $MESS["PAY_SYSTEM_CHANGE_WARNING"] = "Premier système de paiement disponible sélectionné";
 $MESS["SALE_DELIV_PERIOD"] = "Délai de livraison ";
@@ -9,7 +10,7 @@ $MESS["SESSID_ERROR"] = "Votre session a expiré. Veuillez actualiser la page.";
 $MESS["SOA_CURRENCY_MODULE_NOT_INSTALL"] = "Le module Devise n'est pas installé.";
 $MESS["SOA_DAY"] = "jours";
 $MESS["SOA_DELIVERY_CALCULATE_ERROR"] = "Impossible de calculer le coût de livraison.";
-$MESS["SOA_DISCOUNT_DEFAULT_COLUMN"] = "Réduction";
+$MESS["SOA_DISCOUNT_DEFAULT_COLUMN"] = "Desconto";
 $MESS["SOA_ERROR_EMAIL"] = "L'adresse e-mail spécifiée est incorrecte.";
 $MESS["SOA_ERROR_ORDER"] = "Erreur lors de la création d'une commande.";
 $MESS["SOA_ERROR_PAY_SYSTEM"] = "Aucun système de paiement détecté.";
@@ -19,7 +20,7 @@ $MESS["SOA_FROM"] = "de";
 $MESS["SOA_HOUR"] = "heures";
 $MESS["SOA_MODULE_NOT_INSTALL"] = "Le module e-Store n'est pas installé.";
 $MESS["SOA_MONTH"] = "mois";
-$MESS["SOA_N"] = "Non";
+$MESS["SOA_N"] = "Nie";
 $MESS["SOA_NAME_COLUMN_DETAIL_PICTURE"] = "Image détaillée";
 $MESS["SOA_NAME_COLUMN_PREVIEW_PICTURE"] = "Image";
 $MESS["SOA_NAME_COLUMN_PREVIEW_TEXT"] = "Courte description";
@@ -39,6 +40,7 @@ $MESS["SOA_TO"] = "à";
 $MESS["SOA_VAT"] = "TVA";
 $MESS["SOA_VAT_INCLUDED"] = "incluse";
 $MESS["SOA_WEIGHT_DEFAULT_COLUMN"] = "Poids";
+$MESS["SOA_WRONG_SMS_CODE"] = "Le code de confirmation par SMS est incorrect.";
 $MESS["SOA_Y"] = "Oui";
 $MESS["STOF_AUTH"] = "Autorisation";
 $MESS["STOF_ERROR_AUTH"] = "Erreur d'autorisation";
@@ -50,8 +52,7 @@ $MESS["STOF_ERROR_REG_BAD_EMAIL"] = "Erreur d'inscription : veuillez vérifier q
 $MESS["STOF_ERROR_REG_CONFIRM"] = "Vous êtes bien inscrit. Le message de confirmation d'inscription a été envoyé à votre adresse e-mail.";
 $MESS["STOF_ERROR_REG_EMAIL"] = "Erreur d'inscription : veuillez saisir votre adresse e-mail";
 $MESS["STOF_ERROR_REG_FLAG"] = "Erreur d'inscription : veuillez saisir l'identifiant désiré pour laisser le système le générer automatiquement";
-$MESS["STOF_ERROR_REG_FLAG1"] = "Erreur d'inscription : veuillez saisir le mot de passe désiré ou laisser le système le générer automatiquement";
+$MESS["STOF_ERROR_REG_FLAG1"] = "Erreur d'inscription : veuillez saisir l'identifiant désiré pour laisser le système le générer automatiquement";
 $MESS["STOF_ERROR_REG_LASTNAME"] = "Erreur d'inscription : veuillez saisir votre nom";
 $MESS["STOF_ERROR_REG_NAME"] = "Erreur d'inscription : veuillez saisir votre prénom";
 $MESS["STOF_ERROR_REG_PASS"] = "Erreur d'inscription : la confirmation de mot de passe ne correspond pas au mot de passe";
-?>

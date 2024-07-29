@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SMOB_ADDRESS"] = "Adresse de la livraison";
 $MESS["SMOB_ALLOWED"] = "Autorisé";
 $MESS["SMOB_ALL_ORDERS"] = "Toutes les commandes";
@@ -39,7 +39,7 @@ $MESS["SMOB_FILTER_PRICE_TO"] = "Coût jusqu'à";
 $MESS["SMOB_FILTER_SITE"] = "Site web";
 $MESS["SMOB_FILTER_STATUS_ID"] = "Statut";
 $MESS["SMOB_FILTER_USER_ID"] = "Code de l'acheteur";
-$MESS["SMOB_FIO"] = "Accès à la lecture et écriture sans restrictions";
+$MESS["SMOB_FIO"] = "Nom du fournisseur";
 $MESS["SMOB_FROM"] = "de";
 $MESS["SMOB_HISTORY"] = "Historique";
 $MESS["SMOB_LOCATION"] = "Emplacement";
@@ -48,7 +48,7 @@ $MESS["SMOB_MARK"] = "Problème";
 $MESS["SMOB_MARK_NO_DESCRIPTION"] = "Absent";
 $MESS["SMOB_NONE"] = "Non établi";
 $MESS["SMOB_NOT_PAYED"] = "Non payé";
-$MESS["SMOB_ORDER"] = "Ordre";
+$MESS["SMOB_ORDER"] = "Commande";
 $MESS["SMOB_ORDERS_FILTER"] = "Filtre de commandes";
 $MESS["SMOB_ORDERS_LIST"] = "Commandes";
 $MESS["SMOB_ORDERS_MANAGEMENT"] = "Gestion de commandes";
@@ -92,4 +92,3 @@ $MESS["SMOB_WAITING_FOR_DELIVERY"] = "En attente de livraison";
 $MESS["SMOB_WAITING_FOR_PAY"] = "Attendent le paiement";
 $MESS["SMOB_WEIGHT"] = "Poids total";
 $MESS["SMOB_ZIP"] = "Code Postal";
-?>

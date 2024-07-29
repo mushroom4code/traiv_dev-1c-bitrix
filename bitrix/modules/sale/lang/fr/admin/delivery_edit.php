@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_DELIVERY"] = "Erreur d'ajout du service de livraison.";
 $MESS["ERROR_EDIT_DELIVERY"] = "Erreur modifier le service de livraison.";
 $MESS["ERROR_NO_CURRENCY"] = "Prix de monnaie est pas spécifié.";
@@ -6,7 +6,7 @@ $MESS["ERROR_NO_LID"] = "Site du service de livraison est pas spécifié.";
 $MESS["ERROR_NO_LOCATION"] = "Ni l'emplacement, ni groupe d'emplacements du service de livraison indiquée.";
 $MESS["ERROR_NO_NAME"] = "Nom du service de livraison est pas spécifié.";
 $MESS["ERROR_NO_PRICE"] = "Prix ??est pas spécifié.";
-$MESS["ERROR_PRICE_NO_CUR"] = "Le prix de l'ordre a été spécifié alors la monnaie n'a pas.";
+$MESS["ERROR_PRICE_NO_CUR"] = "Le prix de la commande a été renseigné mais pas la devise.";
 $MESS["FP_PARAMS"] = "Paramètres";
 $MESS["F_ACTIVE"] = "Actif(ve)";
 $MESS["F_DESCRIPTION"] = "Description";
@@ -33,7 +33,7 @@ $MESS["SALE_SAVE"] = "Enregistrer";
 $MESS["SALE_TO"] = "jusqu'à";
 $MESS["SDEN_2FLIST"] = "Liste des services de livraison";
 $MESS["SDEN_DELETE_DELIVERY"] = "Supprimer le service de livraison";
-$MESS["SDEN_DELETE_DELIVERY_CONFIRM"] = "tes-vous sûr de vouloir supprimer ce service de livraison ? Ce service de livraison ne sera pas supprimé si il ya des ordres qui lui sont liées.";
+$MESS["SDEN_DELETE_DELIVERY_CONFIRM"] = "Êtes-vous sûr de vouloir supprimer ce service de livraison ? Ce service de livraison ne sera pas supprimé si il ya des commandes liées.";
 $MESS["SDEN_ERROR"] = "Erreur de sauvegarde";
 $MESS["SDEN_LOGOTIP"] = "Logo de livraison";
 $MESS["SDEN_LOGOTIP_DEL"] = "Suppression du fichier";
@@ -48,4 +48,3 @@ $MESS["SDEN_TAB_PAYSYSTEM_DESCR"] = "Systèmes du paiement liés à la livraison
 $MESS["SDE_TO_LIST"] = "Services de livraison";
 $MESS["SDE_UNSET"] = "Annuler";
 $MESS["WEIGHT_G"] = "g";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ELVL001_SIZE_ERROR"] = "Hubo un error mientras descargaba las actualizaciones. Por favor intente nuevamente.";
 $MESS["HINT_WIND_EXEC"] = "Descripción de actualizaciones";
 $MESS["HINT_WIND_EXEC_ALT"] = "Descripción de actualizaciones";
@@ -149,7 +149,7 @@ $MESS["SUP_CHECK_PROMT"] = "Usted puede crear no más de #NUM# sitio(s) web basa
 $MESS["SUP_CHECK_PROMT_1"] = "Usted puede extender su período de soporte técnico, compra de sitios web adicionales, cambie su licencia a otra.";
 $MESS["SUP_CHECK_PROMT_2"] = "Usted puede crear ilimitado número de sitios web usando esta instalación del producto.";
 $MESS["SUP_CHECK_PROMT_21"] = "Puede añadir un número ilimitado de usuarios para la copia actual del producto.";
-$MESS["SUP_COLLAPSE"] = "Colapsó";
+$MESS["SUP_COLLAPSE"] = "Contraer";
 $MESS["SUP_DELETE_FROM_LOAD"] = "Quitar";
 $MESS["SUP_EDITION"] = "Edición de productos:";
 $MESS["SUP_EMPTY_HELP_LANG"] = "Usted tiene que especificar el idioma de sección de ayuda para descargar";
@@ -307,4 +307,3 @@ $MESS["SUP_WORD_YAZIK_END3"] = " ";
 $MESS["SUP_WORD_YAZIK_END4"] = "s";
 $MESS["SUP_ZLIB"] = "Módulo PHP zlib está instalado. Compresión de los datos podrá ser usada.";
 $MESS["SUP_ZLIB_RECOM"] = "Por favor instale el módulo Zlib desde PHP para intensificar el proceso de actualización, Usted puede obtener más información en el módulo Zlib <a href=\"#ZLIB_URL#\" target=\"_blank\">#ZLIB_URL#</a>  ";
-?>

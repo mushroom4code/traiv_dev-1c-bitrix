@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FMST_ADD"] = "ajouter";
 $MESS["FMST_CLOSE"] = "Annuler";
 $MESS["FMST_CLOSE_CONFIRM"] = "Cet autocollant a été collé par #USER_NAME# Êtes-vous sûr de le vouloir décoller ?";
@@ -29,7 +29,7 @@ $MESS["FMST_LIST_DEL"] = "supprimer";
 $MESS["FMST_LIST_DEL_CONFIRM"] = "tes-vous sûr de vouloir supprimer étiquettes sélectionnées ?";
 $MESS["FMST_LIST_HIDE"] = "Fermer";
 $MESS["FMST_LIST_MY"] = "Mes";
-$MESS["FMST_LIST_NEXT"] = "en avant";
+$MESS["FMST_LIST_NEXT"] = "suivant";
 $MESS["FMST_LIST_OPENED"] = "Aller";
 $MESS["FMST_LIST_PAGE"] = "Page";
 $MESS["FMST_LIST_PREV"] = "précédente";
@@ -41,8 +41,8 @@ $MESS["FMST_LIST_TEXT"] = "inscription (texte)";
 $MESS["FMST_NO_ITEMS_WARN"] = "Aucun élément sélectionné.";
 $MESS["FMST_NO_STICKERS"] = "- Pas d'autocollant -";
 $MESS["FMST_PANEL_ALL_STICKER_LIST"] = "Liste de tous les autocollants";
-$MESS["FMST_PANEL_ALL_STICKER_LIST_TITLE"] = "Voir Web-it sur le site Web";
-$MESS["FMST_PANEL_CUR_STICKER_LIST"] = "Voir Web-it pour cette page";
+$MESS["FMST_PANEL_ALL_STICKER_LIST_TITLE"] = "Afficher les stickers disponibles sur le site Web";
+$MESS["FMST_PANEL_CUR_STICKER_LIST"] = "Afficher les stickers pour cette page";
 $MESS["FMST_PANEL_CUR_STICKER_LIST_TITLE"] = "Afficher la liste de tous les stickers à la page courante";
 $MESS["FMST_PANEL_STICKERS"] = "Coller#BR#un stiker";
 $MESS["FMST_PANEL_STICKERS_1"] = "Montrer#BR#les autocollants";
@@ -54,7 +54,7 @@ $MESS["FMST_PANEL_STICKERS_TOOLTIP"] = "Coller le nouveau sticker sur la page.";
 $MESS["FMST_PANEL_STICKERS_TOOLTIP_TITLE"] = "Stickers";
 $MESS["FMST_PANEL_STICKER_ADD"] = "Coller un sticker";
 $MESS["FMST_PANEL_STICKER_ADD_TITLE"] = "Coller le nouveau sticker sur la page.";
-$MESS["FMST_PANEL_STICKER_LIST"] = "Voir Web-it";
+$MESS["FMST_PANEL_STICKER_LIST"] = "Afficher les stickers";
 $MESS["FMST_REQ_ERROR"] = "Une erreur est survenue pendant l'exécution de la demande.";
 $MESS["FMST_SET_MARKER_AREA"] = "Lier à une zone sur la page";
 $MESS["FMST_SET_MARKER_ELEMENT"] = "Attacher à un élément sur la page";
@@ -67,4 +67,3 @@ $MESS["FMST_TYPE_PUBLIC_TITLE"] = "Ce sticker peut être vu par les autres. Cliq
 $MESS["FMST_UNCOLLAPSE"] = "Agrandir";
 $MESS["FMST_UNCOLLAPSE_TITLE"] = "Double-clique pour restaurer autocollant";
 $MESS["FMST_UPDATED"] = "Modifié";
-?>

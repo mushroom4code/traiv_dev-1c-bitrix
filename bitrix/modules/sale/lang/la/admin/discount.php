@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BT_SALE_DISCOUNT_ADM_TITLE_NAME"] = "Nombre";
 $MESS["BT_SALE_DISCOUNT_LIST_ERR_DELETE_DISCOUNT"] = "Error al eliminar la regla";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_ACTIVATE_DISCOUNT_SHORT"] = "Activado";
@@ -7,7 +7,7 @@ $MESS["BT_SALE_DISCOUNT_LIST_MESS_DEACTIVATE_DISCOUNT_SHORT"] = "Desactivado";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_DELETE_DISCOUNT_CONFIRM"] = "¿Está seguro que desea eliminar esta regla?";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_DELETE_DISCOUNT_SHORT"] = "Eliminar";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_EDIT_DISCOUNT"] = "Cambiar los parámetros de la regla";
-$MESS["BT_SALE_DISCOUNT_LIST_MESS_EDIT_DISCOUNT_SHORT"] = "Cambio";
+$MESS["BT_SALE_DISCOUNT_LIST_MESS_EDIT_DISCOUNT_SHORT"] = "Editar";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_NEW_DISCOUNT"] = "Agregar regla";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_NEW_DISCOUNT_TITLE"] = "Agregar regla";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_TITLE"] = "Reglas del carrito de compras";
@@ -44,7 +44,6 @@ $MESS["SDSN_MODIFIED_BY_NEW"] = "Modificado por";
 $MESS["SDSN_PRESET_ID"] = "Programar";
 $MESS["SDSN_PRIORITY"] = "Prioridad de la aplicación";
 $MESS["SDSN_SHOW_IN_CATALOG"] = "Mostrar en el catálogo comercial";
-$MESS["SDSN_TIMESTAMP_X"] = "Modificado";
+$MESS["SDSN_TIMESTAMP_X"] = "Modificado el";
 $MESS["SDSN_USE_COUPONS"] = "Cupones";
-$MESS["SDSN_XML_ID"] = "ID ";
-?>
+$MESS["SDSN_XML_ID"] = "ID externo";

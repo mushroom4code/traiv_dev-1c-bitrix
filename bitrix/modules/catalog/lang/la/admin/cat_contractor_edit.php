@@ -1,13 +1,11 @@
-<?
+<?php
 $MESS["CONTRACTOR_ADDRESS"] = "Dirección";
-$MESS["CONTRACTOR_ADDRESS_JURIDICAL"] = "Domicilio legal";
+$MESS["CONTRACTOR_ADDRESS_JURIDICAL"] = "Dirección legal";
 $MESS["CONTRACTOR_COMPANY"] = "Nombre de la compañía";
 $MESS["CONTRACTOR_DELETE"] = "Eliminar";
 $MESS["CONTRACTOR_DELETE_CONFIRM"] = "¿Está seguro que desea eliminar este proveedor?";
 $MESS["CONTRACTOR_EMAIL"] = "Correo electrónico";
-$MESS["CONTRACTOR_INDIVIDUAL"] = "Persona particular";
 $MESS["CONTRACTOR_INN"] = "ID del contribuyente";
-$MESS["CONTRACTOR_JURIDICAL"] = "Persona Jurídica";
 $MESS["CONTRACTOR_KPP"] = " ";
 $MESS["CONTRACTOR_LAST_NAME"] = "Apelldio";
 $MESS["CONTRACTOR_LIST"] = "Proveedores";
@@ -24,4 +22,3 @@ $MESS["CONTRACTOR_TITLE_JURIDICAL"] = "Persona de contacto";
 $MESS["CONTRACTOR_TITLE_UPDATE"] = "Editar proveedor #ID#";
 $MESS["CONTRACTOR_TYPE"] = "Tipo de proveedor";
 $MESS["CVAT_SORT"] = "Clasificar";
-?>

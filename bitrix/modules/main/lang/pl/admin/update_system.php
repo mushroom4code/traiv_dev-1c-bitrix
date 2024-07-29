@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SUP_ACTIVE"] = "Aktualizacje są dostępne:";
 $MESS["SUP_ACTIVE_PERIOD"] = "Od #DATE_FROM# do #DATE_TO#";
 $MESS["SUP_APPLY"] = "Zastosuj";
@@ -76,7 +76,9 @@ $MESS["SUP_SUBA_RI_PHONE"] = "Numer telefonu właściciela kopii produktu";
 $MESS["SUP_SUBA_RI_PHONE1"] = "Numer telefonu właściciela kopii produktu (firmy lub osoby)";
 $MESS["SUP_SUBA_RI_URI"] = "Adres strony";
 $MESS["SUP_SUBA_RI_URI1"] = "Wszystkie domeny, które będzie uruchamiać ta strona, włącznie ze znajdującymi się w budowie";
-$MESS["SUP_SUBA_UI_CREATE"] = "Utwórz użytkownika na www.bitrixsoft.com";
+$MESS["SUP_SUBA_UI_CREATE"] = "Utwórz użytkownika na <a href=\"https://store.bitrix24.com/profile/index.php?register=yes\" target=\"_blank\">www.bitrixsoft.com</a>";
+$MESS["SUP_SUBA_UI_EXIST"] = "Mam już konto użytkownika.";
+$MESS["SUP_SUBA_UI_HINT"] = "Jeśli nie masz konta na <a href=\"https://store.bitrix24.com\" target=\"_blank\">store.bitrix24.com</a>, zaznacz opcję „Utwórz użytkownika” i wprowadź swoje dane (imię i nazwisko, login i hasło) w polach formularza. Rejestracja na store.bitrix24.com umożliwia korzystanie z usługi pomocy technicznej na naszej <a href=\"https://helpdesk.bitrix24.com/ticket.php\" target=\"_blank\">stronie</a> lub za pośrednictwem czatu wsparcia wewnątrz własnego systemu.";
 $MESS["SUP_SUBA_UI_LASTNAME"] = "Nazwisko";
 $MESS["SUP_SUBA_UI_LOGIN"] = "Login (co najmniej 3 znaki)";
 $MESS["SUP_SUBA_UI_LOGIN_EXIST"] = "Login użytkownika istnieje";
@@ -174,4 +176,3 @@ $MESS["SUP_TAB_UPDATES_LIST_ALT"] = "Wybierz aktualizacje do zainstalowania";
 $MESS["SUP_TITLE_BASE"] = "AktualizacjaStrony";
 $MESS["SUP_USERS"] = "Ilość użytkowników:";
 $MESS["SUP_USERS_IS_NOT_LIMITED"] = "Licencja nie ma maksymalnego limitu użytkowników.";
-?>

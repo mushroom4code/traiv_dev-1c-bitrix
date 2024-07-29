@@ -1,10 +1,12 @@
-<?
+<?php
 $MESS["MARKETPLACE_APP_BUY"] = "Comprar";
+$MESS["MARKETPLACE_APP_BY_SUBSCRIPTION"] = "Suscripción";
 $MESS["MARKETPLACE_APP_DELETE"] = "Eliminar";
 $MESS["MARKETPLACE_APP_DELETE_CONFIRM"] = "¿Está seguro de que quiere eliminar la aplicación?";
 $MESS["MARKETPLACE_APP_DELETE_ERROR"] = "¡Error! La aplicación no se ha instalado.";
 $MESS["MARKETPLACE_APP_DEMO"] = "Demo";
 $MESS["MARKETPLACE_APP_DESCR_TAB"] = "Descripción";
+$MESS["MARKETPLACE_APP_DEVELOPER"] = "Desarrollador:";
 $MESS["MARKETPLACE_APP_FREE"] = "Gratis";
 $MESS["MARKETPLACE_APP_FROM"] = "desde";
 $MESS["MARKETPLACE_APP_FROM1"] = "por #VENDOR#";
@@ -27,21 +29,14 @@ $MESS["MARKETPLACE_APP_UPDATE_DATE"] = "Actualizado: #DATE#";
 $MESS["MARKETPLACE_APP_VERSION"] = "Versión: #VER#";
 $MESS["MARKETPLACE_APP_VERSIONS_TAB"] = "Versiones";
 $MESS["MARKETPLACE_APP_VERSION_MESS"] = "Versión";
+$MESS["MARKETPLACE_CONFIGURATION_INSTALL_SETTING_BTN"] = "Configurar";
+$MESS["MARKETPLACE_HIDDEN_BUY"] = "Incluye compras dentro de la aplicación";
 $MESS["MARKETPLACE_LICENSE_ERROR"] = "Debe leer y aceptar la Política de privacidad para instalar la aplicación";
-$MESS["PAYMENT_MESSAGE_D_N_Y"] = "Algunas de las características de la aplicación no están disponibles. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_D_N_Y_A"] = "Algunas de las características de la aplicación no están disponibles. Por favor, comprar la versión completa.";
-$MESS["PAYMENT_MESSAGE_D_Y_Y"] = "Su aplicación de suscripción ha caducado. Algunas de las características de la aplicación no están disponibles. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_D_Y_Y_A"] = "Su aplicación de suscripción ha caducado. Algunas de las características de la aplicación no están disponibles.";
-$MESS["PAYMENT_MESSAGE_P_N_Y"] = "Su aplicación de suscripción expirará el <b>#DAYS#</b> días. Por favor, póngase en contacto con el administrador para renovar la suscripción.";
-$MESS["PAYMENT_MESSAGE_P_N_Y_A"] = "Su aplicación de suscripción expirará el <b>#DAYS#</b> días.";
-$MESS["PAYMENT_MESSAGE_P_Y_N"] = "La aplicación ya no está disponible debido a que su suscripción ha caducado. Por favor, póngase en contacto con el administrador para renovar la suscripción.";
-$MESS["PAYMENT_MESSAGE_P_Y_N_A"] = "La aplicación ya no está disponible debido a que su suscripción ha caducado.";
-$MESS["PAYMENT_MESSAGE_P_Y_Y"] = "Su aplicación de suscripción ha caducado. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_P_Y_Y_A"] = "Su aplicación de suscripción ha caducado.";
-$MESS["PAYMENT_MESSAGE_T_N_Y"] = "El periodo de prueba expirará el <b>#DAYS#</b> días. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_T_N_Y_A"] = "El periodo de prueba expirará el <b>#DAYS#</b> días.";
-$MESS["PAYMENT_MESSAGE_T_Y_N"] = "El período de prueba ha caducado. Por favor, póngase en contacto con el administrador para instalar la versión completa.";
-$MESS["PAYMENT_MESSAGE_T_Y_N_A"] = "El período de prueba ha caducado. Por favor, comprar la versión completa.";
+$MESS["MARKETPLACE_LICENSE_TOS_ERROR_2"] = "Debe aceptar los Términos de Uso de Bitrix24.Market para instalar la aplicación";
+$MESS["MARKETPLACE_MORE_BUTTON"] = "Más...";
+$MESS["REST_MARKETPLACE_EXTERNAL_PAYMENT"] = "requiere servicios externos de pago";
+$MESS["REST_MARKETPLACE_HIDDEN_BUY"] = "contiene compras dentro de la aplicación";
+$MESS["REST_MARKETPLACE_SUBSCRIPTION_EXPANDS"] = "funciones avanzadas disponibles cuando se suscriba a Bitrix24.Market";
+$MESS["REST_MARKETPLACE_SUBSCRIPTION_REQUIRED"] = "requiere suscripción";
 $MESS["REST_MP_APP_INSTALL_REQUEST"] = "Enviar";
 $MESS["REST_MP_INSTALL_REQUEST_CONFIRM"] = "Permisos insuficientes para instalar esta aplicación.<br/>¿Quieres enviar una solicitud a los administradores para que la instalen?";
-?>

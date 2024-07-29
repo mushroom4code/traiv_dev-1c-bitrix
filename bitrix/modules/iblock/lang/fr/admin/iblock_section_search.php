@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_SECSEARCH_ACTIVE"] = "Actif(ve)";
 $MESS["IBLOCK_SECSEARCH_ALL_PARENTS"] = "(n'importe)";
 $MESS["IBLOCK_SECSEARCH_CHOOSE_IBLOCK"] = "Veuillez choisir le bloc d'information";
@@ -21,5 +21,4 @@ $MESS["IBLOCK_SECSEARCH_SORT"] = "Trier";
 $MESS["IBLOCK_SECSEARCH_TIMESTAMP"] = "Modifié";
 $MESS["IBLOCK_SECSEARCH_TITLE"] = "Section de recherche";
 $MESS["IBLOCK_SECSEARCH_USERINFO"] = "Voir les paramètres utilisateur";
-$MESS["IBLOCK_SECSEARCH_XML_ID"] = "Code externe";
-?>
+$MESS["IBLOCK_SECSEARCH_XML_ID_MSGVER_1"] = "ID externe";

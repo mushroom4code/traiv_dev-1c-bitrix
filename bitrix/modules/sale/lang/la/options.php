@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ARCHIVE_BLOCKED_ORDER_ACCEPT"] = "Permitir el archivado de pedidos bloqueados";
 $MESS["BX_SALE_SETTINGS_OPTION_DISCOUNT_APPLY_MODE"] = "Comportamiento de las reglas del carrito si otros módulos también tienen descuentos";
 $MESS["BX_SALE_SETTINGS_OPTION_PERCENT_FROM_BASE_PRICE"] = "Utilice el precio completo del producto para calcular el porcentaje en base al descuento/marca";
@@ -73,7 +73,7 @@ $MESS["SALE_ORDER_ARCHIVE_ALL"] = "(todo)";
 $MESS["SALE_ORDER_ARCHIVE_CANCELED"] = "Estado del pedido \"Cancelado\"";
 $MESS["SALE_ORDER_ARCHIVE_DEDUCTED"] = "Estado del pedido \"Enviado\"";
 $MESS["SALE_ORDER_ARCHIVE_FIRST_START_NOTE"] = "Antes de habilitar el archivado periódicamente, intente ejecutarlo manualmente.";
-$MESS["SALE_ORDER_ARCHIVE_LIMIT_BY_HIT"] = "Máx. de pedidos para archivar a la vez:";
+$MESS["SALE_ORDER_ARCHIVE_LIMIT_BY_HIT"] = "Máx. de pedidos para archivar a la vez";
 $MESS["SALE_ORDER_ARCHIVE_MAX_TIME_BY_HIT"] = "Tiempo máx. de ejecución asignado para el agente de archivo";
 $MESS["SALE_ORDER_ARCHIVE_NO"] = "no";
 $MESS["SALE_ORDER_ARCHIVE_PAYED"] = "Estado del pedido \"Pagado\"";
@@ -223,4 +223,3 @@ $MESS["SMO_VALUE_PRECISION_2"] = ".00";
 $MESS["SMO_VALUE_PRECISION_3"] = ".000";
 $MESS["SMO_VALUE_PRECISION_4"] = ".0000";
 $MESS["SMO_VALUE_PRECISION_TITLE"] = "Precisión de redondeo";
-?>

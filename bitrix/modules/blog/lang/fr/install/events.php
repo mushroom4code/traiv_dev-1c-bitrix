@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_BLOG_TO_YOU_DESC"] = "#BLOG_ID# - ID du blog
 #BLOG_NAME# - Nom du blog
 #BLOG_URL# - Nom du blog en lettres latines
@@ -29,17 +29,17 @@ $MESS["BLOG_POST_BROADCAST_DESC"] = "
 $MESS["BLOG_POST_BROADCAST_MESSAGE"] = "Nouvelle activité sur #SITE_NAME#
 ------------------------------------------
 
-Un nouveau message a été publié depuis votre dernière visite.
+Un nouveau message a été ajouté depuis votre dernière visite.
 
-Objet :
+Sujet :
 #MESSAGE_TITLE#
 
 Auteur : #AUTHOR#
 
-Texte du message :
+Texte de la publication :
 #MESSAGE_TEXT#
 
-Adresse du message :
+Adresse de la publication :
 #MESSAGE_PATH#
 
 Ce message a été généré automatiquement.";
@@ -269,4 +269,3 @@ Adresse du message:
 Ce message a été généré automatiquement.";
 $MESS["NEW_BLOG_MESSAGE_NAME"] = "Nouveau message de blog";
 $MESS["NEW_BLOG_MESSAGE_SUBJECT"] = "#SITE_NAME# : [B] #BLOG_NAME# : #MESSAGE_TITLE#";
-?>

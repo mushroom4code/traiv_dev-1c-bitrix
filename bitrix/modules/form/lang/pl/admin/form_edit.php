@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FORM_ANSWER_VAL"] = "wartości odpowiedzi";
 $MESS["FORM_ANS_ADD"] = "Dodaj odpowiedź";
 $MESS["FORM_ANS_DEL"] = "Usuń odpowiedź";
@@ -41,8 +41,8 @@ $MESS["FORM_DELETE_TITLE"] = "Usuń formularz sieciowy";
 $MESS["FORM_DESCRIPTION"] = "Opis";
 $MESS["FORM_EDIT_RECORD"] = "Parametry dla formularza ##ID#: #NAME#";
 $MESS["FORM_EDIT_RESULT_TEMPLATE"] = "Aby edytować wyniki:";
-$MESS["FORM_EVENT12"] = "wydarzenie1, wydarzenie2: identyfikatory typu wydarzeń";
 $MESS["FORM_EVENT3"] = "wydarzenie3: parametr pomocniczy";
+$MESS["FORM_EVENT12"] = "wydarzenie1, wydarzenie2: identyfikatory typu wydarzeń";
 $MESS["FORM_FIELD_CRM"] = "CRM";
 $MESS["FORM_FIELD_CRM_FIELDS"] = "Połączone pola";
 $MESS["FORM_FIELD_CRM_FIELDS_CRM"] = "Pole CRM";
@@ -70,7 +70,6 @@ $MESS["FORM_FORM_NAME"] = "Formularz:";
 $MESS["FORM_GENERATE"] = "generuj";
 $MESS["FORM_IMAGE"] = "Obraz:";
 $MESS["FORM_MAIL_TEMPLATE"] = "Szablon E-mail:";
-$MESS["FORM_MENU"] = "Menu elementów<br>w sekcji administratora:";
 $MESS["FORM_METHOD_HAS_NO_PARAMS"] = "Element nie ma żadnych właściwości";
 $MESS["FORM_NAME"] = "Nazwa:";
 $MESS["FORM_NEW_RECORD"] = "Nowy formularz";
@@ -161,4 +160,3 @@ $MESS["F_TYPES_RADIO"] = "Przyciski Opcji";
 $MESS["F_TYPES_TEXT"] = "Tekst";
 $MESS["F_TYPES_TEXTAREA"] = "Obszar tekstu";
 $MESS["F_TYPES_URL"] = "Adres WWW";
-?>

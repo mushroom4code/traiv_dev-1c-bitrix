@@ -1,8 +1,8 @@
-<?
+<?php
 $MESS["CASHBOX_CREATE_ZREPORT_WINDOW_INFO"] = "Sélectionnez la caisse enregistreuse pour ajouter un nouveau rapport Z";
 $MESS["CASHBOX_CREATE_ZREPORT_WINDOW_TITLE"] = "Nouveau rapport Z";
 $MESS["SALE_ACCESS_DENIED"] = "Accès refusé.";
-$MESS["SALE_CASHBOX_ACTIVE"] = "Actif";
+$MESS["SALE_CASHBOX_ACTIVE"] = "Activité";
 $MESS["SALE_CASHBOX_ADD_NEW_ZREPORT"] = "Ajouter un nouveau rapport Z";
 $MESS["SALE_CASHBOX_CALCULATE_SUM"] = "Total journalier";
 $MESS["SALE_CASHBOX_CUMULATIVE_SUM"] = "Total en cours";
@@ -34,4 +34,3 @@ $MESS["SALE_ZREPORT_FRAME_TITLE_1"] = "Total en cours par rapport Z";
 $MESS["SALE_ZREPORT_FRAME_TITLE_2"] = "Total des reçus d'espèces (aujourd'hui)";
 $MESS["SALE_ZREPORT_FRAME_TITLE_3"] = "Total des reçus de cartes de crédit (aujourd'hui)";
 $MESS["SALE_Z_REPORT_CREATE"] = "Date de création";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SEO_AUTH_CANCEL"] = "changer d'utilisateur";
 $MESS["SEO_AUTH_CODE"] = "Saisissez le code d'authentification";
 $MESS["SEO_AUTH_CODE_SUBMIT"] = "Envoyer";
@@ -48,7 +48,7 @@ $MESS["SEO_DETAIL_TOP_QUERIES"] = "Requêtes populaires";
 $MESS["SEO_DETAIL_TOP_QUERIES_TITLE"] = "Requêtes de recherche populaires pour : #DOMAIN#";
 $MESS["SEO_DETAIL_TOP_SHOWS"] = "Requêtes populaires";
 $MESS["SEO_DETAIL_TOP_SHOWS_COUNT"] = "vues de page";
-$MESS["SEO_DETAIL_TOP_SHOWS_PERCENT"] = "Part totale de vues de page pour les requêtes populaires";
+$MESS["SEO_DETAIL_TOP_SHOWS_PERCENT"] = "Part totale des pages vues pour les requêtes populaires";
 $MESS["SEO_DETAIL_TOTAL_CLICKS_COUNT"] = "Total des clics";
 $MESS["SEO_DETAIL_TOTAL_SHOWS_COUNT"] = "Total des vues de page pour la requête";
 $MESS["SEO_DOMAIN"] = "Domaine";
@@ -83,7 +83,7 @@ $MESS["SEO_KEYWORDS_EMPTY"] = "aucune donnée";
 $MESS["SEO_LOADING"] = "Chargement...";
 $MESS["SEO_NEED_AUTH"] = "Authentificaiton requise";
 $MESS["SEO_SITE"] = "Site internet";
-$MESS["SEO_SITE_ACTIVE"] = "Actif";
+$MESS["SEO_SITE_ACTIVE"] = "Activité";
 $MESS["SEO_VERIFIED"] = "Accès confirmé";
 $MESS["SEO_VERIFY"] = "confirmer";
 $MESS["SEO_VERIFY_STATUS_INTERNAL_ERROR"] = "Erreur inconnue lors de la confirmation des permissions d'accès.";
@@ -110,4 +110,3 @@ $MESS["SEO_YANDEX_TITLE"] = "Optimisation du moteur de recherche : Yandex";
 $MESS["SEO_YANDEX_URL_COUNT"] = "Pages téléchargées";
 $MESS["SEO_YANDEX_URL_ERRORS"] = "Pages bloquées";
 $MESS["SEO_YANDEX_WEBMASTER_TOOLS_LINK"] = "Gérer un site avec Yandex.Webmaster";
-?>

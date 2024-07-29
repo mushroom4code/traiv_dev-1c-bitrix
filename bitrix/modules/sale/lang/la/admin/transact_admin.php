@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["STAN_ADD_NEW"] = "Agregar una nueva transacción";
 $MESS["STAN_ADD_NEW_ALT"] = "Haga clic para agregar una nueva transacción";
 $MESS["STA_ADD_NEW"] = "Agregar";
 $MESS["STA_AF_VIP"] = "Pago del afiliado";
 $MESS["STA_ALL"] = "(todo)";
-$MESS["STA_CURRENCY"] = "Moneda:";
+$MESS["STA_CURRENCY"] = "Moneda";
 $MESS["STA_DELETE"] = "Eliminar el pedido";
 $MESS["STA_DELETE_ACT"] = "Eliminar";
 $MESS["STA_DELETE_ALL"] = "Marcar para cambiar la eliminación de transacciones";
@@ -36,9 +36,8 @@ $MESS["STA_TRETURN"] = "Reembolso del pedido";
 $MESS["STA_TTRANSF_EXCESS_SUM_PAID"] = "Transferir importe de pago en exceso";
 $MESS["STA_TYPE"] = "Tipo";
 $MESS["STA_UNSET"] = "Reiniciar";
-$MESS["STA_USER"] = "Usuario.";
+$MESS["STA_USER"] = "Usuario";
 $MESS["STA_USER1"] = "Usuario";
-$MESS["STA_USER_ID"] = "ID del usuario:";
+$MESS["STA_USER_ID"] = "ID del usuario";
 $MESS["STA_USER_INFO"] = "Perfil del usuario";
-$MESS["STA_USER_LOGIN"] = "Login del usuraio:";
-?>
+$MESS["STA_USER_LOGIN"] = "Login del usuraio";

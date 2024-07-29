@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["OP_DESC_CACHE_CONTROL"] = "Gérer les paramètres de cache et cache";
 $MESS["OP_DESC_EDIT_ALL_USERS"] = "Gérer tous les utilisateurs exceptés les administrateurs";
 $MESS["OP_DESC_EDIT_GROUPS"] = "Gérer les groupes d'utilisateurs";
@@ -26,7 +26,7 @@ $MESS["OP_NAME_EDIT_OWN_PROFILE"] = "Modifier le profil personnel";
 $MESS["OP_NAME_EDIT_PHP"] = "Changer le code PHP";
 $MESS["OP_NAME_EDIT_RATINGS"] = "Gestion de cotes de popularité";
 $MESS["OP_NAME_EDIT_SUBORDINATE_USERS"] = "Gérer les utilisateurs de groupes autorisés";
-$MESS["OP_NAME_EDIT_TASKS"] = "Gérer les autorisations d'accès pour les éléments de flux de travail et des sections";
+$MESS["OP_NAME_EDIT_TASKS"] = "Gérer les droits d'accès";
 $MESS["OP_NAME_FM_ADD_TO_MENU"] = "Ajouter une page au menu";
 $MESS["OP_NAME_FM_CREATE_NEW_FILE"] = "Création d'un nouveau fichier";
 $MESS["OP_NAME_FM_CREATE_NEW_FOLDER"] = "Créer un nouveau dossier";
@@ -54,4 +54,3 @@ $MESS["OP_NAME_VIEW_OTHER_SETTINGS"] = "Voir d'autres paramètres du module noya
 $MESS["OP_NAME_VIEW_OWN_PROFILE"] = "Voir le profil personnel";
 $MESS["OP_NAME_VIEW_SUBORDINATE_USERS"] = "Voir les utilisateurs de groupes autorisés";
 $MESS["OP_NAME_VIEW_TASKS"] = "Voir autorisations d'accès";
-?>

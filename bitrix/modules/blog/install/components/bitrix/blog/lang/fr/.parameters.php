@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BB_NAV_TEMPLATE"] = "Nom du modèle pour navigation page par page";
 $MESS["BC_BLOG_COUNT"] = "Blogs par page";
 $MESS["BC_BLOG_COUNT_MAIN"] = "Nombre de blogues affichés sur la page principale des blogues.";
@@ -72,7 +72,7 @@ $MESS["BPE_USE_GOOGLE_CODE"] = "Utiliser un service extérieur pour transmettre 
 $MESS["COMMENT_PROPERTY"] = "Afficher les qualités d'utilisateur du commentaire";
 $MESS["POST_PROPERTY"] = "Afficher les propriétés d'utilisateur du message";
 $MESS["POST_PROPERTY_LIST"] = "Afficher les propriétés supplémentaires du message";
-$MESS["RATING_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_TYPE_LIKE_GRAPHIC"] = "J'aime (graphique)";
 $MESS["RATING_TYPE_LIKE_TEXT"] = "J'aime (textuel)";
@@ -81,4 +81,3 @@ $MESS["RATING_TYPE_STANDART_TEXT"] = "J'aime / Je n'aime pas (textuel)";
 $MESS["SHOW_RATING"] = "Activer le classement";
 $MESS["SHOW_RATING_CONFIG"] = "ordinaire";
 $MESS["USER_PROPERTY"] = "Voir d'autres propriétés dans le profil";
-?>

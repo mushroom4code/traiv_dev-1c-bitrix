@@ -1,5 +1,6 @@
-<?
+<?php
 $MESS["MOBILE_LOG_POST_FORM_DISK"] = "Bitrix24.Drive";
+$MESS["MOBILE_LOG_POST_FORM_DISK_MSGVER_1"] = "Drive";
 $MESS["MOBILE_LOG_POST_FORM_DISK_TITLE"] = "Fichiers";
 $MESS["MOBILE_LOG_POST_FORM_PHOTO_CAMERA"] = "Prendre une photo";
 $MESS["MOBILE_LOG_POST_FORM_PHOTO_GALLERY"] = "Sélectionner dans la galerie";
@@ -10,4 +11,3 @@ $MESS["MPF_PHOTO_CAMERA"] = "Prendre une photo";
 $MESS["MPF_PHOTO_GALLERY"] = "Sélectionner dans la galerie";
 $MESS["MPF_PLACEHOLDER"] = "Ajouter un commentaire...";
 $MESS["MPF_SEND"] = "Envoyer";
-?>

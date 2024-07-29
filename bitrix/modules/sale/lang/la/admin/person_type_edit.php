@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["F_ACTIVE"] = "Activo";
 $MESS["PROPS_GROUP_DEFAULT_NAME"] = "Propiedades del pedido";
 $MESS["SPTEN_2FLIST"] = "Tipos de pagador";
@@ -34,4 +34,4 @@ $MESS["SPTEN_TAB_PERSON_TYPE_DESCR"] = "Parámetros de tipos de pagador";
 $MESS["SPTEN_TIMESTAMP"] = "Fecha de última modifcación:";
 $MESS["SPTEN_TO_LIST"] = "Tipos de pagador";
 $MESS["SPTEN_UPDATING"] = "Editar parámetros del tipo de pagador";
-?>
+$MESS["SPTEN_XML_ID"] = "ID externo";

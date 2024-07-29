@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_SLI_ADDITIONAL_PARAMS"] = "Sélectionnez les paramètres d'importation d'emplacement";
 $MESS["SALE_SLI_AP_DROP_STRUCTURE"] = "Supprimer tous les emplacements existants";
 $MESS["SALE_SLI_AP_PRESERVE_INTEGRITY"] = "Préserver l'intégrité de la structure";
@@ -13,6 +13,7 @@ $MESS["SALE_SLI_DROP_INDEXES"] = "indice de base de données de suppression";
 $MESS["SALE_SLI_ERROR"] = "Erreur";
 $MESS["SALE_SLI_EXCLUDE_AREAS"] = "Exclure des zones";
 $MESS["SALE_SLI_EXTRA_DATA"] = "Sélectionnez des données supplémentaires";
+$MESS["SALE_SLI_EXTRA_EXTERNAL_ISO_3166_NUMERIC"] = "Codes de pays à trois chiffres (ISO 3166-1)";
 $MESS["SALE_SLI_EXTRA_EXTERNAL_ZIP"] = "Index";
 $MESS["SALE_SLI_EXTRA_GEOCOORDS"] = "Coordonnées de localisation géo";
 $MESS["SALE_SLI_FILE_IS_BEING_UPLOADED"] = "Téléchargement de fichier";
@@ -48,7 +49,7 @@ $MESS["SALE_SLI_STAGE_RESTORE_INDEXES"] = "la restauration des données de base 
 $MESS["SALE_SLI_START"] = "Commencer à Importer";
 $MESS["SALE_SLI_STATUS"] = "Statut";
 $MESS["SALE_SLI_STAT_REFRESH"] = "Recalculer";
-$MESS["SALE_SLI_STAT_TITLE"] = "les statistiques de base de données de localisation";
+$MESS["SALE_SLI_STAT_TITLE"] = "Statistiques de base de données d'emplacement ";
 $MESS["SALE_SLI_STAT_TOTAL"] = "Nombre de lieux";
 $MESS["SALE_SLI_STAT_TOTAL_GROUPS"] = "Nombre de groupes de localisation";
 $MESS["SALE_SLI_STOP"] = "Arrêter l'importation";
@@ -56,4 +57,3 @@ $MESS["SALE_SLI_STOPPING"] = "Arrêter maintenant...";
 $MESS["SALE_SLI_TAB_CLEANUP_TITLE"] = "Retirez tous les endroits";
 $MESS["SALE_SLI_TAB_IMPORT_TITLE"] = "Importer des emplacements";
 $MESS["SALE_SLI_UPLOAD_FILE_AND_PROCEED"] = "S'il vous plaît télécharger un fichier des localisations et cliquez sur '#START#'";
-?>

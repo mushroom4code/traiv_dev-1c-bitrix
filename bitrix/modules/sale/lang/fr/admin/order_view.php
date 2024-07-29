@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_CONFIRM_ARCHIVE_MESSAGE"] = "Voulez-vous vraiment archiver cette commande ? Cette action est irréversible.";
 $MESS["SALE_OVIEW_BLOCK_TITLE_ADDITIONAL"] = "Informations supplémentaires";
 $MESS["SALE_OVIEW_BLOCK_TITLE_BASKET"] = "Contenus de la commande";
@@ -15,7 +15,7 @@ $MESS["SALE_OVIEW_ORDER_COPY"] = "Copier la commande";
 $MESS["SALE_OVIEW_ORDER_COPY_TITLE"] = "Copier la commande";
 $MESS["SALE_OVIEW_TAB_ANALYSIS"] = "Analyse de la commande";
 $MESS["SALE_OVIEW_TAB_HISTORY"] = "Historique des modifications";
-$MESS["SALE_OVIEW_TAB_ORDER"] = "Commander";
+$MESS["SALE_OVIEW_TAB_ORDER"] = "Commande";
 $MESS["SALE_OVIEW_TITLE"] = "ID de la commande (#ID#), # #NUM#, créée le #DATE#";
 $MESS["SALE_OVIEW_TO_ACTION"] = "Actions";
 $MESS["SALE_OVIEW_TO_ACTION_TITLE"] = "Sélectionner l'action dans la liste";
@@ -28,4 +28,3 @@ $MESS["SALE_OVIEW_TO_LIST_TITLE"] = "Aller à la liste de la commande";
 $MESS["SALE_OVIEW_TO_PRINT"] = "Imprimer la commande";
 $MESS["SALE_OVIEW_TO_PRINT_TITLE"] = "Imprimer la commande";
 $MESS["SALE_OVIEW_UNLOCK"] = "Débloquer la commande";
-?>

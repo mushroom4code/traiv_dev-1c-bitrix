@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_XML2_AMOUNT"] = "Dans le montant de";
 $MESS["IBLOCK_XML2_ANONS"] = "Annonce";
 $MESS["IBLOCK_XML2_ARTICLE"] = "Article";
@@ -101,7 +101,7 @@ $MESS["IBLOCK_XML2_METADATA_ID"] = "MetadonnéestaId";
 $MESS["IBLOCK_XML2_MODULE_CATALOG_IS_ABSENT"] = "Le module de catalogue commercial n'est pas installé. Vous ne pouvez pas importer de devis et de prix.";
 $MESS["IBLOCK_XML2_MULTIPLE"] = "Multiple";
 $MESS["IBLOCK_XML2_NAME"] = "Titre";
-$MESS["IBLOCK_XML2_OFFER"] = "Action";
+$MESS["IBLOCK_XML2_OFFER"] = "Devis";
 $MESS["IBLOCK_XML2_OFFERS"] = "Conseiller";
 $MESS["IBLOCK_XML2_OFFERS_CHANGE"] = "Modifications du Paquet des Offres";
 $MESS["IBLOCK_XML2_OFFER_LIST"] = "Paquet d'offres";
@@ -121,6 +121,7 @@ $MESS["IBLOCK_XML2_PRICE_TYPE"] = "PrixType";
 $MESS["IBLOCK_XML2_PRICE_TYPES"] = "PrixTypes";
 $MESS["IBLOCK_XML2_PRICE_TYPE_ID"] = "PrixTypeId";
 $MESS["IBLOCK_XML2_PRODUCTS_SETS"] = "Gammes de produits";
+$MESS["IBLOCK_XML2_PRODUCT_MAPPING"] = "VisibilitéProduit";
 $MESS["IBLOCK_XML2_PRODUCT_SET"] = "Ensemble";
 $MESS["IBLOCK_XML2_PRODUCT_SETS"] = "Gammes de produits";
 $MESS["IBLOCK_XML2_PRODUCT_SET_ITEM"] = "lément du lot";
@@ -173,7 +174,7 @@ $MESS["IBLOCK_XML2_TYPE"] = "Entité";
 $MESS["IBLOCK_XML2_TYPE_ADD_ERROR"] = "Erreur de création du type des blocs d'information";
 $MESS["IBLOCK_XML2_TYPE_LIST"] = "Liste";
 $MESS["IBLOCK_XML2_TYPE_NUMBER"] = "Chiffre";
-$MESS["IBLOCK_XML2_TYPE_STRING"] = "Ligne";
+$MESS["IBLOCK_XML2_TYPE_STRING"] = "Chaîne";
 $MESS["IBLOCK_XML2_UF_ERROR"] = "Erreur d'importation d'un paramètre personnalisé (xml_id: #XML_ID#) : #ERROR_TEXT#";
 $MESS["IBLOCK_XML2_UPDATE_ONLY"] = "ContientSeulementChangements";
 $MESS["IBLOCK_XML2_VALUE"] = "Valeur";
@@ -183,4 +184,3 @@ $MESS["IBLOCK_XML2_VALUE_ID"] = "ID de la valeur";
 $MESS["IBLOCK_XML2_VERSION"] = "Numéro Version";
 $MESS["IBLOCK_XML2_VIEW"] = "Affichage";
 $MESS["IBLOCK_XML2_WEIGHT"] = "Poids";
-?>

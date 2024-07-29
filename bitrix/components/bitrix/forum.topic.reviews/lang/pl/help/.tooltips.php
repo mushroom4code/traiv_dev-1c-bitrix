@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CACHE_TIME_TIP"] = "Żywotność pamięci podręcznej (sek.)";
 $MESS["CACHE_TYPE_TIP"] = "Typ pamięci podręcznej";
 $MESS["DATE_TIME_FORMAT_TIP"] = "Format daty i godziny";
@@ -11,10 +11,8 @@ $MESS["MESSAGES_PER_PAGE_TIP"] = "Liczba Wiadomości na stronę";
 $MESS["PAGE_NAVIGATION_TEMPLATE_TIP"] = "Szablon Nawigacji Ścieżki";
 $MESS["PREORDER_TIP"] = "Pokaż Najpierw Najwcześniejsze Posty";
 $MESS["SHOW_AVATAR_TIP"] = "Pokaż awatary";
-$MESS["SHOW_MINIMIZED_TIP"] = "Zwiń formularz odpowiedzi";
 $MESS["SHOW_RATING_TIP"] = "Pokaż Oceny";
 $MESS["URL_TEMPLATES_DETAIL_TIP"] = "Strona elementu bloku informacji";
 $MESS["URL_TEMPLATES_PROFILE_VIEW_TIP"] = "Strona profilu użytkownika";
 $MESS["URL_TEMPLATES_READ_TIP"] = "Strona widoku tematu forum";
 $MESS["USE_CAPTCHA_TIP"] = "Użyj CAPTCHA";
-?>

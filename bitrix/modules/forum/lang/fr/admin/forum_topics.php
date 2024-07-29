@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FM_ACT_DELETE"] = "Supprimer";
 $MESS["FM_ACT_MOVE"] = "Déplacement";
 $MESS["FM_FROM_TILL_TIMESTAMP"] = "La date de la dernière utilisation 'au' doit être supérieure à la date 'du'.";
@@ -14,7 +14,7 @@ $MESS["FM_TITLE_NAME"] = "Dénomination";
 $MESS["FM_TITLE_SORT"] = "Classification";
 $MESS["FM_TITLE_STATE"] = "Arrondissement";
 $MESS["FM_TITLE_USER_START_ID"] = "ID de l'auteur du thème";
-$MESS["FM_TITLE_VIEWS"] = "vues";
+$MESS["FM_TITLE_VIEWS"] = "Vues";
 $MESS["FM_TOPICS"] = "...messages";
 $MESS["FM_WRONG_DATE_CREATE_FROM"] = "Veuillez saisir dans le filtre ' Date de création' exacte 'du'";
 $MESS["FM_WRONG_DATE_CREATE_TILL"] = "S'il vous plaît corriger la dernière valeur de date pour la date de création.";
@@ -33,4 +33,3 @@ $MESS["F_SHOW"] = "Approuvé";
 $MESS["F_UNPINN"] = "Habituellement";
 $MESS["MAIN_ADMIN_LIST_CHECKED"] = "Coché : ";
 $MESS["MAIN_ADMIN_LIST_SELECTED"] = "Sélectionné : ";
-?>

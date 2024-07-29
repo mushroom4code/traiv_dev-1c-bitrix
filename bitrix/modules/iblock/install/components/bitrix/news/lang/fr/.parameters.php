@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["BN_P_CACHE_FILTER"] = "Mettre en cache si un filtre est installé";
 $MESS["BN_P_IBLOCK"] = "Bloc d'information";
 $MESS["BN_P_IBLOCK_TYPE"] = "Type du bloc d'information";
 $MESS["BN_P_SECTION_ID_DESC"] = "ID de la section";
 $MESS["CN_P_DETAIL_PAGER_SETTINGS"] = "Paramètres de navigation page par page, vue détaillée";
-$MESS["CN_P_DETAIL_SETTINGS"] = "Vue détaillée réglages";
+$MESS["CN_P_DETAIL_SETTINGS"] = "Paramètres de la vue détaillée";
 $MESS["CN_P_LIST_SETTINGS"] = "Paramètres de la liste";
 $MESS["CP_BN_AVERAGE"] = "Valeur moyenne";
 $MESS["CP_BN_BROWSER_TITLE"] = "Entrer l'entête de la fenêtre du navigateur de la propriété";
@@ -85,4 +85,3 @@ $MESS["T_IBLOCK_SEF_PAGE_NEWS_SECTION"] = "Album";
 $MESS["T_IBLOCK_SEF_PAGE_RSS"] = "Page RSS";
 $MESS["T_IBLOCK_SEF_PAGE_RSS_SECTION"] = "RSS page pour une section";
 $MESS["T_IBLOCK_SEF_PAGE_SEARCH"] = "Page de la recherche";
-?>

@@ -890,8 +890,8 @@ abstract class CBPActivity
 			$m = mb_strtolower($m);
 			if (isset($typesMap[$m]))
 			{
-				$typeName = $m;
-				$typeClass = $typesMap[$m];
+				$typeName ??= $m;
+				$typeClass ??= $typesMap[$m];
 			}
 			else
 			{
@@ -1503,6 +1503,11 @@ abstract class CBPActivity
 
 	protected function writeDebugInfo(array $map)
 	{
+		if (!$this->workflow->isDebug())
+		{
+			return;
+		}
+
 		/** @var CBPDocumentService $documentService */
 		$documentService = $this->workflow->GetService("DocumentService");
 

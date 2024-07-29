@@ -1,8 +1,7 @@
-<?
-$MESS["OP_DESC_ELEMENT_BIZPROC_START"] = "Puede utilizar los elementos del procesos de negocio en este bloque de información";
+<?php
 $MESS["OP_DESC_ELEMENT_DELETE"] = "El usuario puede eliminar elemento de bloque de información";
 $MESS["OP_DESC_ELEMENT_EDIT"] = "El usuario puede editar elemento de bloque de información a excepción de los permisos de acceso y enlaces principales";
-$MESS["OP_DESC_ELEMENT_EDIT_ANY_WF_STATUS"] = "El usuario puede editar elementos del bloque de información, en cualquier estado del flujo de trabajo con excepción de los permisos de acceso y enlaces principales";
+$MESS["OP_DESC_ELEMENT_EDIT_ANY_WF_STATUS"] = "El usuario puede editar elementos del bloque de información, en cualquier estado del procesos de negocio con excepción de los permisos de acceso y enlaces principales";
 $MESS["OP_DESC_ELEMENT_EDIT_PRICE"] = "El usuario puede modificar los precios relativos a este elemento (requires element_edit and catalog_price_edit operations)";
 $MESS["OP_DESC_ELEMENT_READ"] = "El usuario puede leer elementos del bloque de información";
 $MESS["OP_DESC_ELEMENT_RIGHTS_EDIT"] = "El usuario puede editar los permisos de acceso del bloque de información del elemento (elemento requerid_editar operación)";
@@ -20,7 +19,7 @@ $MESS["OP_DESC_SECTION_SECTION_BIND"] = "El usuario puede crear secciones de blo
 $MESS["OP_NAME_ELEMENT_BIZPROC_START"] = "Ejecutar procesos de negocio en el elemento";
 $MESS["OP_NAME_ELEMENT_DELETE"] = "Eliminar elemento";
 $MESS["OP_NAME_ELEMENT_EDIT"] = "Editar elemento";
-$MESS["OP_NAME_ELEMENT_EDIT_ANY_WF_STATUS"] = "Editar elemento en cualquier Estado de flujo de trabajo";
+$MESS["OP_NAME_ELEMENT_EDIT_ANY_WF_STATUS"] = "Editar elemento en cualquier Estado de procesos de negocio";
 $MESS["OP_NAME_ELEMENT_EDIT_PRICE"] = "Editar elemento relacionado con los precios";
 $MESS["OP_NAME_ELEMENT_READ"] = "Elemento de lectura";
 $MESS["OP_NAME_ELEMENT_RIGHTS_EDIT"] = "Editar permisos de acceso del elemento";
@@ -35,4 +34,3 @@ $MESS["OP_NAME_SECTION_ELEMENT_BIND"] = "Añadir nuevo elemento a la sección";
 $MESS["OP_NAME_SECTION_READ"] = "Leer los parámetros de la sección";
 $MESS["OP_NAME_SECTION_RIGHTS_EDIT"] = "Editar permisos de acceso de la sección";
 $MESS["OP_NAME_SECTION_SECTION_BIND"] = "Crear pequeña subsección";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_BLOG_TO_YOU_DESC"] = "#BLOG_ID# - ID del Blog \\r\\n#BLOG_NAME# - nombre del Blog\\r\\n#BLOG_URL# - nombre del Blog, sólo letras latinas\\r\\n#BLOG_ADR# - dirección del Blog\\r\\n#USER_ID# -  ID del usuario\\r\\n#USER# - Usuario\\r\\n#USER_URL# - URL del Usuario \\r\\n#EMAIL_FROM# - E-mail del remitente\\r\\n#EMAIL_TO# - E-mail del destinatario";
 $MESS["BLOG_BLOG_TO_YOU_MESSAGE"] = "Mensaje de #SITE_NAME#\\r\\n------------------------------------------\\r\\n\\r\\nYour blog \"#BLOG_NAME#\" ha sido agregado como un amigo del #USUARIO#.\\r\\n\\r\\n Perfil del Usuario: #USUARIO_URL#\\r\\n\\r\\nSu blog URL: #BLOG_ADR#\\r\\n\\r\\nEste mensaje ha sido generado automáticamente.\\r\\n";
 $MESS["BLOG_BLOG_TO_YOU_NAME"] = "Un blog ha sido agregado para sus amigos";
@@ -11,20 +11,20 @@ $MESS["BLOG_POST_BROADCAST_DESC"] = "#MESSAGE_TITLE# - Título del mensaje
 $MESS["BLOG_POST_BROADCAST_MESSAGE"] = "Nueva actividad en #SITE_NAME#
 ------------------------------------------
 
-Una nuevo mensaje ha sido agregado desde el visit.file:///C:/Users/User/AppData/Local/Temp/avg-9c953d2b-f04c-485e-ad62-b62443da414f-toast/back.png
+Una nueva publicación se agregó desde su última visita.
 
-Tema:
+Asunto:
 #MESSAGE_TITLE#
 
 Autor: #AUTHOR#
 
-Texto del mensaje:
+Texto de la publicación:
 #MESSAGE_TEXT#
 
-Dirección postal:
+Dirección de la publicación:
 #MESSAGE_PATH#
 
-Este mensaje se ha generado automáticamente.";
+Este mensaje se generó automáticamente.";
 $MESS["BLOG_POST_BROADCAST_NAME"] = "Agregar nuevo mensaje";
 $MESS["BLOG_POST_BROADCAST_SUBJECT"] = "#SITE_NAME#: #MESSAGE_TITLE#";
 $MESS["BLOG_SONET_NEW_COMMENT_DESC"] = "#EMAIL_TO# - E-mail del destinatario
@@ -207,4 +207,3 @@ url del Mensaje:
 Mensaje generado automáticamente.";
 $MESS["NEW_BLOG_MESSAGE_NAME"] = "Nuevo mensaje de blog";
 $MESS["NEW_BLOG_MESSAGE_SUBJECT"] = "#SITE_NAME#: [B] #BLOG_NAME# : #MESSAGE_TITLE#";
-?>

@@ -1,12 +1,15 @@
-<?
+<?php
 $MESS["MARKETPLACE_APP_BUY"] = "Comprar";
+$MESS["MARKETPLACE_APP_BY_SUBSCRIPTION"] = "Assinatura";
 $MESS["MARKETPLACE_APP_DELETE"] = "Excluir";
 $MESS["MARKETPLACE_APP_DELETE_CONFIRM"] = "Tem certeza de que deseja excluir o aplicativo?";
 $MESS["MARKETPLACE_APP_DELETE_ERROR"] = "Erro! O aplicativo não foi desinstalado.";
 $MESS["MARKETPLACE_APP_DEMO"] = "Demo";
 $MESS["MARKETPLACE_APP_DESCR_TAB"] = "Descrição";
+$MESS["MARKETPLACE_APP_DEVELOPER"] = "Desenvolvedor:";
 $MESS["MARKETPLACE_APP_FREE"] = "Grátis";
 $MESS["MARKETPLACE_APP_FROM"] = "de ";
+$MESS["MARKETPLACE_APP_FROM1"] = "por #VENDOR#";
 $MESS["MARKETPLACE_APP_INSTALL"] = "Instalar";
 $MESS["MARKETPLACE_APP_INSTALL_CANCEL"] = "Cancelar";
 $MESS["MARKETPLACE_APP_INSTALL_REQUEST"] = "Seu pedido para instalar o app foi enviado para </br> os administradores do seu Bitrix24. Obrigado!";
@@ -26,19 +29,14 @@ $MESS["MARKETPLACE_APP_UPDATE_DATE"] = "Atualizado: #DATE#";
 $MESS["MARKETPLACE_APP_VERSION"] = "Versão: #VER#";
 $MESS["MARKETPLACE_APP_VERSIONS_TAB"] = "Versões";
 $MESS["MARKETPLACE_APP_VERSION_MESS"] = "Versão";
+$MESS["MARKETPLACE_CONFIGURATION_INSTALL_SETTING_BTN"] = "Configurar";
+$MESS["MARKETPLACE_HIDDEN_BUY"] = "Contém compras no aplicativo";
 $MESS["MARKETPLACE_LICENSE_ERROR"] = "Você tem que ler e concordar com a Política de Privacidade para instalar o aplicativo";
-$MESS["PAYMENT_MESSAGE_D_N_Y"] = "Alguns dos recursos do aplicativo estão indisponíveis. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_D_N_Y_A"] = "Alguns dos recursos do aplicativo estão indisponíveis. Compre a versão completa.";
-$MESS["PAYMENT_MESSAGE_D_Y_Y"] = "A assinatura do seu aplicativo expirou. Alguns dos recursos do aplicativo estão indisponíveis. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_D_Y_Y_A"] = "A assinatura do seu aplicativo expirou. Alguns dos recursos do aplicativo estão indisponíveis.";
-$MESS["PAYMENT_MESSAGE_P_N_Y"] = "A assinatura do seu aplicativo irá expirar em <b>#DIAS#</b> dias. Entre em contato com o seu administrador para renovar a assinatura.";
-$MESS["PAYMENT_MESSAGE_P_N_Y_A"] = "A assinatura do seu aplicativo irá expirar em <b>#DIAS#</b> dias.";
-$MESS["PAYMENT_MESSAGE_P_Y_N"] = "O aplicativo não está mais disponível porque sua assinatura expirou. Entre em contato com o seu administrador para renovar a assinatura.";
-$MESS["PAYMENT_MESSAGE_P_Y_N_A"] = "O aplicativo não está mais disponível porque sua assinatura expirou.";
-$MESS["PAYMENT_MESSAGE_P_Y_Y"] = "A assinatura do seu aplicativo expirou. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_P_Y_Y_A"] = "A assinatura do seu aplicativo expirou.";
-$MESS["PAYMENT_MESSAGE_T_N_Y"] = "O período de avaliação vai expirar em <b>#DIAS#</b> dias. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_T_N_Y_A"] = "O período de avaliação vai expirar em <b>#DIAS#</b> dias.";
-$MESS["PAYMENT_MESSAGE_T_Y_N"] = "O período de avaliação expirou. Entre em contato com o administrador para instalar a versão completa.";
-$MESS["PAYMENT_MESSAGE_T_Y_N_A"] = "O período de avaliação expirou. Compre a versão completa.";
-?>
+$MESS["MARKETPLACE_LICENSE_TOS_ERROR_2"] = "Você deve concordar com os Termos de Uso do Bitrix24.Market para instalar o aplicativo";
+$MESS["MARKETPLACE_MORE_BUTTON"] = "Mais...";
+$MESS["REST_MARKETPLACE_EXTERNAL_PAYMENT"] = "requer serviços externos pagos";
+$MESS["REST_MARKETPLACE_HIDDEN_BUY"] = "contém compras no aplicativo";
+$MESS["REST_MARKETPLACE_SUBSCRIPTION_EXPANDS"] = "recursos avançados disponíveis ao assinar o Bitrix24.Market";
+$MESS["REST_MARKETPLACE_SUBSCRIPTION_REQUIRED"] = "requer assinatura";
+$MESS["REST_MP_APP_INSTALL_REQUEST"] = "Enviar";
+$MESS["REST_MP_INSTALL_REQUEST_CONFIRM"] = "Permissões insuficientes para instalar este aplicativo.<br/>Deseja enviar um pedido aos administradores para instalá-lo?";

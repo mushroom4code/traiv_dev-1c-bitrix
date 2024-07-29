@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_HPS_BILL_EN_ACC_POS_SUPPLI"] = "Position professionnelle du comptable";
 $MESS["SALE_HPS_BILL_EN_ACC_POS_SUPPLI_DESC"] = "Position professionnelle du comptable (ventes)";
 $MESS["SALE_HPS_BILL_EN_ACC_POS_SUPPLI_VAL"] = "Le comptable";
@@ -47,7 +47,7 @@ $MESS["SALE_HPS_BILL_EN_COLUMN_PRICE_VALUE"] = "Prix unitaire";
 $MESS["SALE_HPS_BILL_EN_COLUMN_QUANTITY_SHOW"] = "Afficher la colonne des quantités";
 $MESS["SALE_HPS_BILL_EN_COLUMN_QUANTITY_TITLE"] = "Intitulé de la colonne des quantités";
 $MESS["SALE_HPS_BILL_EN_COLUMN_QUANTITY_VALUE"] = "Qté";
-$MESS["SALE_HPS_BILL_EN_COLUMN_SHOW"] = "Actif";
+$MESS["SALE_HPS_BILL_EN_COLUMN_SHOW"] = "Activité";
 $MESS["SALE_HPS_BILL_EN_COLUMN_SORT"] = "Trier";
 $MESS["SALE_HPS_BILL_EN_COLUMN_SUM_SHOW"] = "Afficher la colonne des totaux";
 $MESS["SALE_HPS_BILL_EN_COLUMN_SUM_TITLE"] = "Intitulé de la colonne des totaux";
@@ -81,11 +81,11 @@ $MESS["SALE_HPS_BILL_EN_HEADER_VALUE"] = "Facture";
 $MESS["SALE_HPS_BILL_EN_LOGO"] = "Logo du fournisseur (taille recommandée : 80x80&nbsp;px)";
 $MESS["SALE_HPS_BILL_EN_LOGO_DESC"] = "Logo du fournisseur";
 $MESS["SALE_HPS_BILL_EN_LOGO_DPI"] = "Échelle du logo";
+$MESS["SALE_HPS_BILL_EN_LOGO_DPI_72"] = "133% (72 dpi)";
+$MESS["SALE_HPS_BILL_EN_LOGO_DPI_96"] = "100% (96 dpi)";
 $MESS["SALE_HPS_BILL_EN_LOGO_DPI_150"] = "64% (150 dpi)";
 $MESS["SALE_HPS_BILL_EN_LOGO_DPI_300"] = "32% (300 dpi)";
 $MESS["SALE_HPS_BILL_EN_LOGO_DPI_600"] = "16% (600 dpi)";
-$MESS["SALE_HPS_BILL_EN_LOGO_DPI_72"] = "133% (72 dpi)";
-$MESS["SALE_HPS_BILL_EN_LOGO_DPI_96"] = "100% (96 dpi)";
 $MESS["SALE_HPS_BILL_EN_MARGIN_BOTTOM"] = "Marge inférieure (mm)";
 $MESS["SALE_HPS_BILL_EN_MARGIN_LEFT"] = "Marge à gauche (mm)";
 $MESS["SALE_HPS_BILL_EN_MARGIN_RIGHT"] = "Marge à droite (mm)";
@@ -101,4 +101,3 @@ $MESS["SALE_HPS_BILL_EN_SUPPLI"] = "Vendeur";
 $MESS["SALE_HPS_BILL_EN_SUPPLI_DESC"] = "Nom du payeur ou du revendeur";
 $MESS["SALE_HPS_BILL_EN_TITLE"] = "Facture (Anglais)";
 $MESS["SALE_HPS_BILL_EN_TOTAL_SHOW"] = "Afficher le résumé";
-?>

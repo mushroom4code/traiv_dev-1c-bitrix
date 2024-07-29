@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASKET_AVAIBLE"] = "Disponibilidade";
 $MESS["SB_ADD_NEW"] = "Adicionar";
 $MESS["SB_ALL"] = "(todos)";
@@ -25,7 +25,7 @@ $MESS["SB_MAILTO"] = "Enviar mensagem";
 $MESS["SB_NAV"] = "Carrinhos de compras";
 $MESS["SB_NO"] = "Não";
 $MESS["SB_NOT_AUTH"] = "Não está logado";
-$MESS["SB_PRICE_ALL"] = "Preço";
+$MESS["SB_PRICE_ALL"] = "Valor total";
 $MESS["SB_PRODUCT_ID"] = "Produto";
 $MESS["SB_QUANTITY_ALL"] = "Total de produtos";
 $MESS["SB_SET"] = "Instalar";
@@ -47,4 +47,3 @@ $MESS["SB_USER_ID"] = "ID do usuário";
 $MESS["SB_USER_INFO"] = "Perfil do usuário";
 $MESS["SB_USER_LOGIN"] = "Login do cliente";
 $MESS["SB_YES"] = "Sim";
-?>

@@ -1,4 +1,3 @@
-<?
-$MESS["REST_CONFIGURATION_SECTION_LABEL"] = "Wybierz lejki sprzedażowe";
+<?php
+$MESS["REST_CONFIGURATION_SECTION_LABEL"] = "Wybierz lejki";
 $MESS["REST_CONFIGURATION_SECTION_LINK_NAME"] = "Otwórz";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AUTH_CAPTCHA_PROMT"] = "Wpisz litery widoczne na obrazku";
 $MESS["AUTH_CHANGE"] = "Zmień hasło";
 $MESS["AUTH_CHANGE_PASSWORD"] = "Zmień hasło";
@@ -18,6 +18,7 @@ $MESS["AUTH_LOGIN"] = "Login";
 $MESS["AUTH_NEW_PASSWORD"] = "Nowe hasło";
 $MESS["AUTH_NEW_PASSWORD_CONFIRM"] = "Potwierdź hasło";
 $MESS["AUTH_NEW_PASSWORD_CONFIRM_WRONG"] = "Hasła które wpisano nie pasują do siebie.";
+$MESS["AUTH_NW_SECTION"] = "lub zaloguj się za pomocą";
 $MESS["AUTH_OR"] = "lub";
 $MESS["AUTH_OTP_PASS"] = "Jednorazowe hasło";
 $MESS["AUTH_OTP_REMEMBER_ME"] = "Pamiętaj hasło na tym komputerze";
@@ -29,4 +30,3 @@ $MESS["admin_authorize_error"] = "Błąd uwierzytelnienia";
 $MESS["admin_authorize_info"] = "Informacje";
 $MESS["admin_change_password_error"] = "Błąd zmiany hasła!";
 $MESS["admin_forgot_password_error"] = "Błąd odzyskania hasła!";
-?>

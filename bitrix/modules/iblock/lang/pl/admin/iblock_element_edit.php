@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBEL_BIZPROC_DATE"] = "Data aktualnego statusu:";
 $MESS["IBEL_BIZPROC_DESC"] = "Opis procesu biznesowego:";
 $MESS["IBEL_BIZPROC_NA"] = "Nie uruchomiony proces biznesowy.";
@@ -42,6 +42,8 @@ $MESS["IBEL_E_TAB14_TITLE"] = "Edytuj dane SEO";
 $MESS["IBEL_E_TAB_BIZPROC"] = "Proces Biznesowy";
 $MESS["IBEL_E_TAB_DET"] = "Szczegóły";
 $MESS["IBEL_E_TAB_DET_TITLE"] = "Zobacz detale informacji";
+$MESS["IBEL_E_TAB_ELEMENT"] = "Parametry";
+$MESS["IBEL_E_TAB_ELEMENT_TITLE"] = "Ogólne Parametry";
 $MESS["IBEL_E_TAB_PREV"] = "Podgląd";
 $MESS["IBEL_E_TAB_PREV_TITLE"] = "Podgląd informacji";
 $MESS["IBEL_E_TAB_RIGHTS"] = "Uprawnienia";
@@ -62,7 +64,9 @@ $MESS["IBLOCK_ELEMENT_EDIT_ELEMENTS"] = "Elementy";
 $MESS["IBLOCK_ELEMENT_EDIT_LINKED"] = "Połączone elementy:";
 $MESS["IBLOCK_ELEMENT_EDIT_PROP_ADD"] = "Dodawanie";
 $MESS["IBLOCK_ELEMENT_EDIT_TAGS_TIP"] = "(wpisz słowa lub wyrażenia oddzielone przecinkami)";
-$MESS["IBLOCK_ELEMENT_EDIT_VIEW"] = "Wyświetl";
+$MESS["IBLOCK_ELEMENT_FORM_TITLE_EDIT"] = "#IBLOCK_NAME#: #ELEMENT_TYPE#: #NAME# – Edytuj";
+$MESS["IBLOCK_ELEMENT_FORM_TITLE_NEW"] = "#IBLOCK_NAME#: #ELEMENT_TYPE#: Dodaj";
+$MESS["IBLOCK_ELEMENT_FORM_TITLE_VIEW"] = "#IBLOCK_NAME#: #ELEMENT_TYPE#: #NAME# – Wyświetl";
 $MESS["IBLOCK_ELEMENT_PROP_VALUE"] = "Wartość parametru:";
 $MESS["IBLOCK_EL_CANC"] = "Anuluj";
 $MESS["IBLOCK_EL_OFFERS_ACCESS_DENIED"] = "Nie masz uprawnień do edytowania SKU.";
@@ -80,7 +84,7 @@ $MESS["IBLOCK_EL_TAB_WF_TITLE"] = "Ustawienia workflow";
 $MESS["IBLOCK_FIELD_ACTIVE"] = "Aktywne";
 $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_FROM"] = "Rozpoczęcie działania";
 $MESS["IBLOCK_FIELD_ACTIVE_PERIOD_TO"] = "Zakończenie działania";
-$MESS["IBLOCK_FIELD_CODE"] = "Kod podatku";
+$MESS["IBLOCK_FIELD_CODE"] = "Kod symboliczny";
 $MESS["IBLOCK_FIELD_CREATED"] = "Utworzone";
 $MESS["IBLOCK_FIELD_DETAIL_PICTURE"] = "Obraz detali";
 $MESS["IBLOCK_FIELD_DETAIL_TEXT"] = "Uszczegółowiony opis";
@@ -92,10 +96,8 @@ $MESS["IBLOCK_FIELD_SORT"] = "Sortowanie";
 $MESS["IBLOCK_FIELD_STATUS"] = "Status";
 $MESS["IBLOCK_FIELD_TAGS"] = "Tagi";
 $MESS["IBLOCK_LAST_UPDATE"] = "Ostatnia aktualizacja:";
-$MESS["IBLOCK_NEW_TITLE"] = "Nowy Element";
 $MESS["IBLOCK_SECTION"] = "Link (multiple):";
 $MESS["IBLOCK_TCATALOG"] = "Katalog produktów";
 $MESS["IBLOCK_UPPER_LEVEL"] = "Wyższy poziom";
 $MESS["IBLOCK_WRONG_SESSION"] = "Twoja sesja wygasła. Proszę zapisać dokument ponownie.";
 $MESS["IBLOCK_WRONG_WF_STATUS"] = "Błędny status";
-?>

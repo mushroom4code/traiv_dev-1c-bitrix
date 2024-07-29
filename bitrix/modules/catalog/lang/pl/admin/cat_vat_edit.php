@@ -1,7 +1,8 @@
-<?
+<?php
 $MESS["CVAT_ACTIVE"] = "Akt.";
 $MESS["CVAT_DELETE"] = "Usuń";
 $MESS["CVAT_DELETE_CONFIRM"] = "Na pewno chcesz usunąć tę stawkę podatku?";
+$MESS["CVAT_EDIT_FORM_FIELD_XML_ID_MSGVER_1"] = "Zewnętrzne ID:";
 $MESS["CVAT_ERR_ADD"] = "Błąd utworzenia rekordu stawki podatku";
 $MESS["CVAT_ERR_UPDATE"] = "Błąd aktualizacji rekordu stawki podatku ##ID#";
 $MESS["CVAT_LIST"] = "Lista";
@@ -13,4 +14,3 @@ $MESS["CVAT_TAB"] = "Podatek";
 $MESS["CVAT_TAB_DESCR"] = "Stawka podatku";
 $MESS["CVAT_TITLE_ADD"] = "Nowa stawka podatku";
 $MESS["CVAT_TITLE_UPDATE"] = "Edytowanie stawki podatku";
-?>

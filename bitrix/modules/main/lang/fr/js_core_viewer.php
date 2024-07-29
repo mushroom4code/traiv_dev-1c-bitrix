@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JS_CORE_VIEWER_AJAX_ACCESS_DENIED"] = "Autorisation insuffisante pour afficher le fichier. Veuillez actualiser la page.";
 $MESS["JS_CORE_VIEWER_AJAX_CONNECTION_FAILED"] = "Erreur lors de l'ouverture du fichier. Veuillez réessayer plus tard.";
 $MESS["JS_CORE_VIEWER_AJAX_OPEN_NEW_TAB"] = "Ouvrir dans une nouvelle fenêtre";
@@ -52,10 +52,12 @@ $MESS["JS_CORE_VIEWER_OPEN_WITH_GVIEWER"] = "Ouvrir le fichier dans Google Viewe
 $MESS["JS_CORE_VIEWER_SAVE"] = "Enregistrer";
 $MESS["JS_CORE_VIEWER_SAVE_AS"] = "Enregistrer comme";
 $MESS["JS_CORE_VIEWER_SAVE_TO_OWN_FILES"] = "Enregistrer à Bitrix24.Drive";
+$MESS["JS_CORE_VIEWER_SAVE_TO_OWN_FILES_MSGVER_1"] = "Enregistrer dans le Drive";
 $MESS["JS_CORE_VIEWER_SERVICE_B24_DISK"] = "Bitrix24.Drive";
 $MESS["JS_CORE_VIEWER_SERVICE_GOOGLE_DRIVE"] = "Google Docs";
 $MESS["JS_CORE_VIEWER_SERVICE_LOCAL"] = "mon ordinateur";
 $MESS["JS_CORE_VIEWER_SERVICE_LOCAL_INSTALL_DESKTOP"] = "Pour modifier d'une manière efficace les documents sur votre ordinateur, installez l'application bureautique et connectez Bitrix24.Drive";
+$MESS["JS_CORE_VIEWER_SERVICE_LOCAL_INSTALL_DESKTOP_MSGVER_1"] = "Pour gérer plus efficacement les documents sur votre ordinateur et profiter d'une meilleure expérience utilisateur, installez l'application pour ordinateur et connectez le Drive Bitrix24.";
 $MESS["JS_CORE_VIEWER_SERVICE_MYOFFICE"] = "MyOffice";
 $MESS["JS_CORE_VIEWER_SERVICE_OFFICE365"] = "Office 365";
 $MESS["JS_CORE_VIEWER_SERVICE_SKYDRIVE"] = "MS Office Online";
@@ -65,4 +67,3 @@ $MESS["JS_CORE_VIEWER_THROUGH_VERSION"] = "Version #NUMBER#";
 $MESS["JS_CORE_VIEWER_TOO_BIG_FOR_VIEW"] = "Fichier trop volumineux pour être lu.";
 $MESS["JS_CORE_VIEWER_TRANSFORMATION_IN_PROCESS"] = "Le document a été enregistré et est maintenant en cours préparation pour l'affichage.";
 $MESS["JS_CORE_VIEWER_VIEW_ELEMENT"] = "Affichage";
-?>

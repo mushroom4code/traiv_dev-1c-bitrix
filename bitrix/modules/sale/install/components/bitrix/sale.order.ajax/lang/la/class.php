@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["DELIVERY_CHANGE_WARNING"] = "Primer servicio disponible de envío seleccionado";
 $MESS["INFO_REQ"] = "Se ha registrado correctamente.";
 $MESS["INNER_PAYMENT_BALANCE_ERROR"] = "Fondos insuficientes en la cuenta interna";
@@ -14,7 +14,7 @@ $MESS["SOA_DISCOUNT_DEFAULT_COLUMN"] = "Descuento";
 $MESS["SOA_ERROR_EMAIL"] = "La dirección de correo electrónico especificado no es correcta.";
 $MESS["SOA_ERROR_ORDER"] = "Error al crear el pedido.";
 $MESS["SOA_ERROR_PAY_SYSTEM"] = "No se detectaron los sistemas de pago.";
-$MESS["SOA_ERROR_PERSON_TYPE"] = "no se especifica el tipo de pagador.";
+$MESS["SOA_ERROR_PERSON_TYPE"] = "El tipo de pagador no está especificado.";
 $MESS["SOA_ERROR_REQUIRE"] = "El campo es obligatorio:";
 $MESS["SOA_FROM"] = "desde";
 $MESS["SOA_HOUR"] = "horas";
@@ -32,7 +32,7 @@ $MESS["SOA_PRICE_TYPE_DEFAULT_COLUMN"] = "Tipo de precio";
 $MESS["SOA_PROFILE"] = "Perfil";
 $MESS["SOA_PROPS_DEFAULT_COLUMN"] = "Propiedades";
 $MESS["SOA_QUANTITY_DEFAULT_COLUMN"] = "Cantidad";
-$MESS["SOA_SHT"] = "pcs.";
+$MESS["SOA_SHT"] = "piezas";
 $MESS["SOA_SUM_DEFAULT_COLUMN"] = "Total";
 $MESS["SOA_TEMPL_ORDER_PS_ERROR"] = "El método de pago seleccionado ha fallado. Por favor, póngase en contacto con el administrador del sitio web o seleccione otro método.";
 $MESS["SOA_TITLE"] = "Pedido Completo";
@@ -40,6 +40,7 @@ $MESS["SOA_TO"] = "hasta";
 $MESS["SOA_VAT"] = "IVA";
 $MESS["SOA_VAT_INCLUDED"] = "incluido";
 $MESS["SOA_WEIGHT_DEFAULT_COLUMN"] = "Peso";
+$MESS["SOA_WRONG_SMS_CODE"] = "Código de confirmación por SMS incorrecto.";
 $MESS["SOA_Y"] = "Si";
 $MESS["STOF_AUTH"] = "Autorización";
 $MESS["STOF_ERROR_AUTH"] = "Error de Autorización";
@@ -51,8 +52,7 @@ $MESS["STOF_ERROR_REG_BAD_EMAIL"] = "Error de registro: por favor, compruebe si 
 $MESS["STOF_ERROR_REG_CONFIRM"] = "Se ha registrado correctamente. El mensaje de confirmación de registro ha sido enviado a su dirección de correo electrónico.";
 $MESS["STOF_ERROR_REG_EMAIL"] = "Error de registro: por favor, introduzca su e-mail";
 $MESS["STOF_ERROR_REG_FLAG"] = "Error de registro: Por favor, introduzca su usuario o deje que el sistema genere uno automáticamente";
-$MESS["STOF_ERROR_REG_FLAG1"] = "Error de registro: Por favor, introduzca su contraseña o deje que el sistema genere uno automáticamente";
+$MESS["STOF_ERROR_REG_FLAG1"] = "Error de registro: Por favor, introduzca su usuario o deje que el sistema genere uno automáticamente";
 $MESS["STOF_ERROR_REG_LASTNAME"] = "Error de registro: por favor, introduzca su apellido";
 $MESS["STOF_ERROR_REG_NAME"] = "Error de registro: por favor, introduzca su nombre";
 $MESS["STOF_ERROR_REG_PASS"] = "Error de registro: la confirmación de la contraseña no coincide con la contraseña";
-?>

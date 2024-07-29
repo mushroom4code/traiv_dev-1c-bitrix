@@ -29,7 +29,6 @@ $MESS["TR_EXPORT_CSV_PARAM_CONVERT_UTF8"] = "Сконвертувати коду
 $MESS["TR_EXPORT_CSV_PARAM_LANGUAGES"] = "Виберіть мови для вивантаження";
 $MESS["TR_EXPORT_CSV_PARAM_LANGUAGES_ALL"] = "Всі";
 $MESS["TR_EXPORT_CSV_PARAM_UNTRANSLATED"] = "Вивантажити лише неперекладені фрази";
-$MESS["TR_EXPORT_CSV_PROGRESS"] = "Опрацьовано папок";
 $MESS["TR_EXPORT_DLG_CLEAR"] = "Видалити файл експорту";
 $MESS["TR_EXPORT_DLG_DOWNLOAD"] = "Скачати файл експорту";
 $MESS["TR_FILENAME"] = "Файл:";

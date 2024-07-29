@@ -1,9 +1,10 @@
-<?
+<?php
 $MESS["CAT_MEASURE_ADD"] = "Agregar";
 $MESS["CAT_MEASURE_CLASSIFIER_MAIN"] = "Seleccione una sección del registro";
 $MESS["CAT_MEASURE_CLASSIFIER_SUB"] = "Seleccione un registro de la subsección";
 $MESS["CAT_MEASURE_CODE"] = "ID";
 $MESS["CAT_MEASURE_CODE_EMPTY"] = "Especifique el nombre en clave de la unidad de medida";
+$MESS["CAT_MEASURE_CODE_MSGVER_1"] = "Código";
 $MESS["CAT_MEASURE_DEFAULT"] = "Predeterminado";
 $MESS["CAT_MEASURE_DELETE"] = "Eliminar";
 $MESS["CAT_MEASURE_DELETE_CONFIRM"] = "Está seguro que desea eliminar la unidad?";
@@ -23,4 +24,3 @@ $MESS["CAT_MEASURE_TITLE_NEW"] = "Nueva unidad de medida";
 $MESS["CAT_MEASURE_TITLE_OKEI"] = "Agregar la unidad de registro";
 $MESS["CAT_MEASURE_TITLE_ONE"] = "Unidad de medida";
 $MESS["CVAT_SORT"] = "Ordenar";
-?>

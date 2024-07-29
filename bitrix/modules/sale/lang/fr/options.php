@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ARCHIVE_BLOCKED_ORDER_ACCEPT"] = "Autoriser l'archivage des commandes verrouillées";
 $MESS["BX_SALE_SETTINGS_OPTION_DISCOUNT_APPLY_MODE"] = "Comportement de règle de panier si d'autres modules ont des réductions";
 $MESS["BX_SALE_SETTINGS_OPTION_PERCENT_FROM_BASE_PRICE"] = "Utiliser le prix total de marchandise pour calculer le pourcentage de réduction/marge";
@@ -54,7 +54,7 @@ $MESS["SALE_LOCATION_SELECTOR_APPEARANCE"] = "Situation conception sélecteur";
 $MESS["SALE_LOCATION_SELECTOR_APPEARANCE_SEARCH"] = "Boîte de recherche";
 $MESS["SALE_LOCATION_SELECTOR_APPEARANCE_STEPS"] = "Liste déroulante";
 $MESS["SALE_LOCATION_WIDGET_APPEARANCE"] = "Situation de type widget";
-$MESS["SALE_MAX_LOCK_TIME"] = "Temps de blocage maximal de l'ordre (min) : ";
+$MESS["SALE_MAX_LOCK_TIME"] = "Temps de blocage maximal de la commande (min) : ";
 $MESS["SALE_NOTIFY_PRODUCT"] = "Enregistrer les notifications (Nombre de jours) : ";
 $MESS["SALE_NOTIFY_PRODUCT_USE"] = "Utiliser les notifications sur l'entrée de marchandises : ";
 $MESS["SALE_NOT_SET"] = "< non installé >";
@@ -67,7 +67,7 @@ $MESS["SALE_ORDER_ARCHIVE_ALL"] = "(tous)";
 $MESS["SALE_ORDER_ARCHIVE_CANCELED"] = "Statut de commande \"annulée\"";
 $MESS["SALE_ORDER_ARCHIVE_DEDUCTED"] = "Statut de commande \"expédiée\"";
 $MESS["SALE_ORDER_ARCHIVE_FIRST_START_NOTE"] = "Avant d'activer l'archivage périodique, essayez de l'exécuter manuellement.";
-$MESS["SALE_ORDER_ARCHIVE_LIMIT_BY_HIT"] = "Maximum de commandes à archiver en même temps : ";
+$MESS["SALE_ORDER_ARCHIVE_LIMIT_BY_HIT"] = "Maximum de commandes à archiver en même temps";
 $MESS["SALE_ORDER_ARCHIVE_MAX_TIME_BY_HIT"] = "Temps d'exécution max imparti à l'agent d'archivage";
 $MESS["SALE_ORDER_ARCHIVE_NO"] = "non";
 $MESS["SALE_ORDER_ARCHIVE_PAYED"] = "Statut de commande \"payée\"";
@@ -90,7 +90,7 @@ $MESS["SALE_P2P_STATUS_LIST"] = "Liste des statuts dont après l'attribution à 
 $MESS["SALE_P2P_STATUS_PERIOD"] = "Dans combien de jours nettoyer les anciennes données : ";
 $MESS["SALE_PATH2UPSF"] = "Chemin d'accès au système de paiement personnalisé processeur scripts : ";
 $MESS["SALE_PAYED_2_ALLOW_DELIVERY"] = "Approuver la livraison sur le paiement";
-$MESS["SALE_PAY_TO_STATUS"] = "Dès réception du paiement, modifier le statut de l'ordre à : ";
+$MESS["SALE_PAY_TO_STATUS"] = "Dès réception du paiement, modifier le statut de la commande à : ";
 $MESS["SALE_PRODUCT_VIEWED_SAVE"] = "Enregistrer les produits vus dans le catalogue : ";
 $MESS["SALE_PS_FAIL_PATH"] = "Chemin d'accès à la page qui s'affiche lors d'une erreur de paiement : ";
 $MESS["SALE_PS_SUCCESS_PATH"] = "Chemin d'accès à la page qui est affichée en cas de paiement réussi : ";
@@ -196,7 +196,7 @@ $MESS["SMO_PAR_WEIGHT_UNIT_GRAMM"] = "g";
 $MESS["SMO_PATH2CRYPT_FILE"] = "Chemin absolu vers le fichier avec la clé";
 $MESS["SMO_PAYMENT_FLAG"] = "Paiement";
 $MESS["SMO_PRODUCT_SUBSCRIBE"] = "Abonnement aux marchandises";
-$MESS["SMO_SALE_PATH2ORDER"] = "Vue afin formulaire personnalisé : ";
+$MESS["SMO_SALE_PATH2ORDER"] = "Formulaire d'affichage des commandes personnalisé :";
 $MESS["SMO_SHOW_ORDER_PRODUCT_XML_ID"] = "Indiquer le XML_ID du produit dans une fiche de la commande";
 $MESS["SMO_SHOW_ORDER_SUM"] = "Voir les commandes montant total à tous les directeurs des ventes";
 $MESS["SMO_SHOW_PAYSYSTEM_ACTION_ID"] = "Afficher le ID du gestionnaire du système de paiement";
@@ -208,4 +208,3 @@ $MESS["SMO_STATUS"] = "Ne pas changer";
 $MESS["SMO_STATUS1"] = "Statut";
 $MESS["SMO_USE_SECURE_COOKIES"] = "Utiliser le stockage de cookies sécurisé";
 $MESS["SMO_VALUE_PRECISION_TITLE"] = "Précision de l'arrondi";
-?>

@@ -1,3 +1,3 @@
 <?
-$MESS["RATING_COMPONENT_DESC"] = "Votos -% s (% sim(s) e % Não(s))";
+$MESS["RATING_COMPONENT_DESC"] = "Votos - %s (%s sim(s) e %s não(s))";
 ?>

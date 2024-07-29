@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["ADDITIONAL_SIGHTS_TIP"] = "Choisissez les types pour les esquisses, dans lesquels les photos seront accessibles pour l'aperçu.";
 $MESS["CACHE_TIME_TIP"] = "Veuillez indiquer la période de temps durant laquelle la mémoire cache reste valide.";
 $MESS["CACHE_TYPE_TIP"] = "<i>Auto</i> : cache est valide pendant un temps prédéterminé dans les paramètres;<br /><i>Mettre en cache</i> : pour la mise en cache il faut déterminer seulement le temps de la mise en cache;<br /><i>Ne pas mettre en cache</i> : pas de mise en cache en tout cas.";
 $MESS["COMMENTS_TYPE_TIP"] = "Veuillez choisir le module d'enregistrement des avis clients";
 $MESS["DATE_TIME_FORMAT_TIP"] = "Choisissez le format d'affichage pour la date.";
-$MESS["DETAIL_URL_TIP"] = "Coordonnées de la page de vue détaillée de l'album.";
+$MESS["DETAIL_URL_TIP"] = "Spécifie l'adresse de la page vue détaillée de l'album.";
 $MESS["ELEMENTS_LAST_COUNT_TIP"] = "Déterminez le nombre de photos à afficher. Cela permet d'afficher les photos les plus récentes par la date ajoutée à l'album.";
 $MESS["ELEMENTS_LAST_TIME_FROM_TIP"] = "Indiquez la date à partir de laquelle le choix des photos s'effectue.";
 $MESS["ELEMENTS_LAST_TIME_TIP"] = "Nombre des derniers jours pendant lesquels le choix des photos s'effectue.";
@@ -22,4 +22,3 @@ $MESS["SECTION_ID_TIP"] = "Le champ comprend le code avec ID de la section (albu
 $MESS["SET_TITLE_TIP"] = "Avec une option marquée, il sera mis comme le titre de la page 'Liste des photos'.";
 $MESS["USE_DESC_PAGE_TIP"] = "Avec une option marquée il sera utilisé la navigation par page inverse pour la liste des photos.";
 $MESS["USE_PERMISSIONS_TIP"] = "L'option permet de limiter l'accès à l'album photos.";
-?>

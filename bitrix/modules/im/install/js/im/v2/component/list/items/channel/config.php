@@ -8,7 +8,6 @@ return [
 	'css' => 'dist/channel-list.bundle.css',
 	'js' => 'dist/channel-list.bundle.js',
 	'rel' => [
-		'main.core.events',
 		'main.date',
 		'im.v2.component.elements',
 		'im.v2.lib.utils',

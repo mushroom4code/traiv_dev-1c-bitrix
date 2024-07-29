@@ -1,7 +1,8 @@
-<?
+<?php
 $MESS["MAIN_ADMIN_GROUP_DESC"] = "Pełny dostęp.";
 $MESS["MAIN_ADMIN_GROUP_NAME"] = "Administratorzy";
 $MESS["MAIN_DEFAULT_LANGUAGE_AM_VALUE"] = "am";
+$MESS["MAIN_DEFAULT_LANGUAGE_CODE"] = "pl";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_MONTH_FORMAT"] = "j F";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_OF_WEEK_MONTH_FORMAT"] = "l, j F";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_SHORT_MONTH_FORMAT"] = "j M";
@@ -27,7 +28,7 @@ $MESS["MAIN_DEFAULT_SITE_FORMAT_DATETIME"] = "DD.MM.YYYY HH:MI:SS";
 $MESS["MAIN_DEFAULT_SITE_FORMAT_NAME"] = "#NAME# #LAST_NAME#";
 $MESS["MAIN_DEFAULT_SITE_NAME"] = "Strona domyślna";
 $MESS["MAIN_DESKTOP_CREATEDBY_KEY"] = "Utworzony przez";
-$MESS["MAIN_DESKTOP_CREATEDBY_VALUE"] = "Bitrix, Inc.";
+$MESS["MAIN_DESKTOP_CREATEDBY_VALUE"] = "Bitrix24";
 $MESS["MAIN_DESKTOP_EMAIL_KEY"] = "E-mail";
 $MESS["MAIN_DESKTOP_EMAIL_VALUE"] = "<a href=\"mailto:info@bitrixsoft.com\">info@bitrixsoft.com</a>";
 $MESS["MAIN_DESKTOP_INFO_TITLE"] = "Informacja o stronie";
@@ -40,7 +41,19 @@ $MESS["MAIN_DESKTOP_URL_KEY"] = "adres strony";
 $MESS["MAIN_DESKTOP_URL_VALUE"] = "<a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a>";
 $MESS["MAIN_EVERYONE_GROUP_DESC"] = "Wszyscy użykownicy (razem z niezarejestrowanymi).";
 $MESS["MAIN_EVERYONE_GROUP_NAME"] = "Wszyscy użytkownicy (z niezarejestrowanymi)";
-$MESS["MAIN_INSTALL_DB_ERROR"] = "Nie można połączyć z bazą danych. Proszę sprawdzić parametry.";
+$MESS["MAIN_INSTALL_EVENT_MESSAGE_NEW_DEVICE_LOGIN"] = "Cześć #NAME#,
+
+nowe urządzenie właśnie zalogowało się przy użyciu Twojego loginu #LOGIN#.
+ 
+Urządzenie: #DEVICE# 
+Przeglądarka: #BROWSER#
+Platforma: #PLATFORM#
+Lokalizacja: #LOCATION# (przybliżona)
+Data: #DATE#
+
+Jeśli to nie Ty lub logowanie nie było w Twoim imieniu wówczas zalecamy natychmiastową zmianę hasła.
+";
+$MESS["MAIN_INSTALL_EVENT_MESSAGE_NEW_DEVICE_LOGIN_SUBJECT"] = "Nowe urządzenie zalogowane";
 $MESS["MAIN_INSTALL_EVENT_MESS_USER_CODE_REQUEST"] = "#SITE_NAME#: Poproś o kod weryfikacyjny";
 $MESS["MAIN_INSTALL_EVENT_MESS_USER_CODE_REQUEST_MESS"] = "Użyj następującego kodu, aby się zalogować:
 
@@ -55,6 +68,23 @@ Status konta: #STATUS#
 Zaloguj się: #LOGIN#
 
 Ta wiadomość została utworzona automatycznie.";
+$MESS["MAIN_INSTALL_EVENT_TYPE_NEW_DEVICE_LOGIN"] = "Nowe urządzenie zalogowane";
+$MESS["MAIN_INSTALL_EVENT_TYPE_NEW_DEVICE_LOGIN_DESC"] = "#USER_ID# – Identyfikator użytkownika
+#EMAIL# – Adres e-mail użytkownika:
+#LOGIN# – Login użytkownika
+#NAME# – Imię użytkownika
+#LAST_NAME# – Nazwisko użytkownika
+#DEVICE# – Urządzenie
+#BROWSER# – Przeglądarka
+#PLATFORM# – Platforma
+#USER_AGENT# – Agent użytkownika
+#IP# – Adres IP
+#DATE# – Data
+#COUNTRY# – Kraj
+#REGION# – Region
+#CITY# – Miasto
+#LOCATION# – Pełna lokalizacja (miasto, region, kraj)
+";
 $MESS["MAIN_INSTALL_EVENT_TYPE_USER_CODE_REQUEST"] = "Poproś o kod weryfikacyjny";
 $MESS["MAIN_INSTALL_EVENT_TYPE_USER_CODE_REQUEST_DESC"] = "#USER_ID# - identyfikator użytkownika
 #STATUS# - Status logowania
@@ -65,7 +95,7 @@ $MESS["MAIN_INSTALL_EVENT_TYPE_USER_CODE_REQUEST_DESC"] = "#USER_ID# - identyfik
 #EMAIL# - E-mail użytkownika
 ";
 $MESS["MAIN_MODULE_DESC"] = "The product kernel";
-$MESS["MAIN_MODULE_NAME"] = "Mój moduł";
+$MESS["MAIN_MODULE_NAME"] = "Moduł główny";
 $MESS["MAIN_NEW_USER_CONFIRM_EVENT_NAME"] = "#SITE_NAME#: Potwierdzenie rejestracji nowego użytkownika";
 $MESS["MAIN_NEW_USER_CONFIRM_TYPE_NAME"] = "Potwierdzenie rejestracji nowego użytkownika";
 $MESS["MAIN_NEW_USER_EVENT_NAME"] = "#SITE_NAME#: Nowy użytkownik zarejestrował się na stronie";
@@ -104,4 +134,3 @@ $MESS["main_install_sms_event_restore_name"] = "Odzyskaj hasło za pomocą wiado
 $MESS["main_install_sms_template_confirm_mess"] = "Kod potwierdzenia: #CODE#";
 $MESS["main_install_sms_template_notification_mess"] = "#NAME#: #ADDITIONAL_TEXT# (wydarzenia: #EVENT_COUNT#)";
 $MESS["main_install_sms_template_restore_mess"] = "Kod odzyskiwania hasła: #CODE#";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADDITIONAL_SIGHTS_TIP"] = "Choisissez les types de modèles des photos qui doivent être affichées.";
 $MESS["ALBUM_PHOTO_SIZE_TIP"] = "Indique la taille de la couverture de l'album.";
 $MESS["ALBUM_PHOTO_THUMBS_SIZE_TIP"] = "Indiquez la taille de l'annonce de la photo.";
@@ -32,7 +32,7 @@ $MESS["SECTION_SORT_BY_TIP"] = "Indique le champ pour trier albums.";
 $MESS["SECTION_SORT_ORD_TIP"] = "Sélectionnez le mode de tri : par ordre croissant ou par ordre décroissant.";
 $MESS["SEF_FOLDER_TIP"] = "Le chemin jusqu'au dossier avec lequel travaille le composant. Ce chemin peut exister ou non sous forme physique.";
 $MESS["SEF_MODE_TIP"] = "Active le mode SEF.";
-$MESS["SEF_URL_TEMPLATES_detail_TIP"] = "Indique l'adresse de la page d'affichage de l'image.";
+$MESS["SEF_URL_TEMPLATES_detail_TIP"] = "Spécifie l'adresse de la page d'affichage de l'image.";
 $MESS["SEF_URL_TEMPLATES_detail_edit_TIP"] = "Indique l'adresse de la page des paramètres de photo.";
 $MESS["SEF_URL_TEMPLATES_detail_list_TIP"] = "Indique l'adresse de la page de photos de l'album.";
 $MESS["SEF_URL_TEMPLATES_detail_slide_show_TIP"] = "Chemin vers la page avec diapofilm de photos.";
@@ -55,7 +55,7 @@ $MESS["TAGS_SHOW_CHAIN_TIP"] = "L'option étant sélectionnée, la chaîne de na
 $MESS["THUMBNAIL_SIZE_TIP"] = "Indiquez la taille de l'annonce de la photo.";
 $MESS["UPLOAD_MAX_FILE_SIZE_TIP"] = "Indique la taille maximale de l'image autorisé à uploader.";
 $MESS["UPLOAD_MAX_FILE_TIP"] = "Indiquer le nombre de fichiers qui peuvent être expédiés par un billet.";
-$MESS["URL_TEMPLATES_READ_TIP"] = "L'adresse de la page vue forum sujet.";
+$MESS["URL_TEMPLATES_READ_TIP"] = "L'adresse de la page d'affichage du sujet du forum.";
 $MESS["USE_CAPTCHA_TIP"] = "Indique d'afficher et d'utiliser CAPTCHA lors de l'ajout d'un nouveau commentaire.";
 $MESS["USE_COMMENTS_TIP"] = "Permet la configuration personnalisée de commentaires.";
 $MESS["USE_LIGHT_VIEW_TIP"] = "L'option étant sélectionnée, le régime simple de réglage de la galerie de photos sera appliqué (valeurs de paramètres par défaut).";
@@ -67,4 +67,3 @@ $MESS["VARIABLE_ALIASES_PAGE_NAME_TIP"] = "Il convient d'indiquer la variable da
 $MESS["VARIABLE_ALIASES_SECTION_ID_TIP"] = "On affiche le nom de la variable dans laquelle sera transmis l'ID de la section, par exemple, <b>SECTION_ID</b>.";
 $MESS["VOTE_NAMES_TIP"] = "Les champs sont proposés pour les remarques aux points, par exemple, parfait, bien etc. au lieu de 5 et 4. Si les remarques existent, elles seront affichées au lieu de notes-chiffres.";
 $MESS["WATERMARK_MIN_PICTURE_SIZE_TIP"] = "Indiquez la taille minimale des photos qui seront marquées par votre marque d'auteur. La marque ne sera pas ajoutée sur les photos de plus petite taille.";
-?>

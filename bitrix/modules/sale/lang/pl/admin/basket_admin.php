@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASKET_AVAIBLE"] = "Dostępność";
 $MESS["SB_ADD_NEW"] = "Dodawanie";
 $MESS["SB_ALL"] = "(Wszystko)";
@@ -6,7 +6,7 @@ $MESS["SB_BASKET"] = "Produkt";
 $MESS["SB_BASKET_NAME"] = "Nazwa produktu";
 $MESS["SB_BASKET_PRICE"] = "Cena produktu";
 $MESS["SB_BASKET_QUANTITY"] = "Ilość";
-$MESS["SB_BASKET_TYPE"] = "dostępny w magazynie";
+$MESS["SB_BASKET_TYPE"] = "Dostępny w magazynie";
 $MESS["SB_CNT"] = "Unikalne produkty";
 $MESS["SB_CREATE_ORDER"] = "Sprawdź";
 $MESS["SB_CURRENCY"] = "Waluta";
@@ -25,7 +25,7 @@ $MESS["SB_MAILTO"] = "Wyślij wiadomość";
 $MESS["SB_NAV"] = "Koszyki";
 $MESS["SB_NO"] = "Nie";
 $MESS["SB_NOT_AUTH"] = "Nie zalogowany";
-$MESS["SB_PRICE_ALL"] = "Cena";
+$MESS["SB_PRICE_ALL"] = "Kwota łączna";
 $MESS["SB_PRODUCT_ID"] = "Produkt";
 $MESS["SB_QUANTITY_ALL"] = "Łącznie produktów";
 $MESS["SB_SET"] = "Instaluj";
@@ -47,4 +47,3 @@ $MESS["SB_USER_ID"] = "ID Użytkownika";
 $MESS["SB_USER_INFO"] = "Profil Użytkownika";
 $MESS["SB_USER_LOGIN"] = "Login klienta";
 $MESS["SB_YES"] = "Tak";
-?>

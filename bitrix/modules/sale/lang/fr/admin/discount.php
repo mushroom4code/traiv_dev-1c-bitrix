@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BT_SALE_DISCOUNT_ADM_TITLE_NAME"] = "Dénomination";
 $MESS["BT_SALE_DISCOUNT_LIST_ERR_DELETE_DISCOUNT"] = "Erreur de suppression de la règle";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_ACTIVATE_DISCOUNT_SHORT"] = "Activer";
@@ -12,8 +12,10 @@ $MESS["BT_SALE_DISCOUNT_LIST_MESS_NEW_DISCOUNT"] = "Ajouter une règle";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_NEW_DISCOUNT_TITLE"] = "Ajouter une règle";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_TITLE"] = "Règles du panier";
 $MESS["BT_SALE_DISCOUNT_LIST_MESS_TITLE_CATALOG_ID"] = "depuis le catalogue";
+$MESS["BX_SALE_ADM_DSC_HEADER_TITLE_ACTIVE_FROM"] = "Actif(ve) du";
+$MESS["BX_SALE_ADM_DSC_HEADER_TITLE_ACTIVE_TO"] = "Actif(ve) jusqu'au";
 $MESS["BX_SALE_ADM_DSC_HEADER_TITLE_PRESET_ID"] = "Configuration d'une règle aidée d'un préréglage";
-$MESS["BX_SALE_DISCOUNT_LIST_FILTER_DATE"] = "Actif";
+$MESS["BX_SALE_DISCOUNT_LIST_FILTER_DATE"] = "Activité";
 $MESS["BX_SALE_DISCOUNT_LIST_FILTER_LAST_DISCOUNT"] = "Arrêter l'application des prochaines règles";
 $MESS["BX_SALE_DISCOUNT_LIST_FILTER_LAST_LEVEL_DISCOUNT"] = "Désactiver les niveaux de priorité";
 $MESS["BX_SALE_DISCOUNT_LIST_FILTER_NAME"] = "Nom";
@@ -42,7 +44,6 @@ $MESS["SDSN_MODIFIED_BY_NEW"] = "Modifié(e)s par";
 $MESS["SDSN_PRESET_ID"] = "Préréglage";
 $MESS["SDSN_PRIORITY"] = "Priorité de l'applicabilité";
 $MESS["SDSN_SHOW_IN_CATALOG"] = "Afficher dans le catalogue commercial";
-$MESS["SDSN_TIMESTAMP_X"] = "Modifié";
+$MESS["SDSN_TIMESTAMP_X"] = "Date de modification";
 $MESS["SDSN_USE_COUPONS"] = "Coupons des rabais";
-$MESS["SDSN_XML_ID"] = "ID";
-?>
+$MESS["SDSN_XML_ID"] = "ID externe";

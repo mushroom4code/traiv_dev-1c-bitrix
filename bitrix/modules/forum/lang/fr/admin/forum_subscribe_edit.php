@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FM_ACT_DELETE"] = "Supprimer";
 $MESS["FM_ACT_DEL_CONFIRM"] = "tes-vous sûr de vouloir supprimer l'abonnement ?";
 $MESS["FM_ALL_MESSAGE"] = "Tous les messages du forum";
@@ -9,12 +9,12 @@ $MESS["FM_FLT_START_DATE"] = "Abonnement date de début";
 $MESS["FM_FLT_START_DATE_ALT"] = "Abonnement date de début";
 $MESS["FM_FLT_SUBSCR_TYPE"] = "Type d'abonnement";
 $MESS["FM_FLT_SUBSCR_TYPE_ALT"] = "Type d'abonnement";
-$MESS["FM_FLT_TOPIC"] = "D'après les sujets";
+$MESS["FM_FLT_TOPIC"] = "Sujet";
 $MESS["FM_HEAD_FORUM"] = "Forum";
 $MESS["FM_HEAD_ID"] = "ID";
 $MESS["FM_HEAD_LAST_SEND"] = "Dernier message";
 $MESS["FM_HEAD_START_DATE"] = "Abonnement date de début";
-$MESS["FM_HEAD_TOPIC"] = "D'après les sujets";
+$MESS["FM_HEAD_TOPIC"] = "Sujet";
 $MESS["FM_LIST_USER"] = "Liste des utilisateurs";
 $MESS["FM_NEW_TOPIC_ONLY"] = "Seuls les nouveaux sujets";
 $MESS["FM_SPACE"] = "Non sélectionné";
@@ -26,4 +26,3 @@ $MESS["FM_WRONG_DATE_TO"] = "Veuillez saisir dans le filtre une 'Date de créati
 $MESS["FM_WRONG_PERIOD"] = "Période est spécifié de manière incorrecte";
 $MESS["FM_WRONG_USER_ID"] = "Mauvais ID de l'utilisateur";
 $MESS["FSUBSC_NO_SPERMS"] = "Vous ne disposez pas des droits nécessaires pour modifier l'abonnement.";
-?>

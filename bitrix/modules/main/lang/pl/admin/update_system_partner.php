@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SUPP_SUBR_BUTTON"] = "Zarejestruj moduły";
 $MESS["SUPP_SUBR_ERR"] = "Błąd rejestracji";
 $MESS["SUPP_SUBR_HINT"] = "Licencji pozwala na uzyskanie w pełni funkcjonalne wersje następujących modułów:";
@@ -71,7 +71,9 @@ $MESS["SUP_SUBA_RI_PHONE"] = "Numer telefonu właściciela kopii produktu (firmy
 $MESS["SUP_SUBA_RI_PHONE1"] = "Numer telefonu właściciela kopii produktu (firmy lub osoby)";
 $MESS["SUP_SUBA_RI_URI"] = "Wszystkie domeny, które będą zasilane przez Bitrix Site Manager w tym domena testoowa";
 $MESS["SUP_SUBA_RI_URI1"] = "Wszystkie domeny, które będą zasilane przez Bitrix Site Manager w tym domena testoowa";
-$MESS["SUP_SUBA_UI_EXIST"] = "Mam już konto i chcesz go użyć do uzyskania dostępu do witryny Helpdesku i sekcji Pobierz";
+$MESS["SUP_SUBA_UI_CREATE"] = "Nie posiadam konta na <a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a>, ale chcę je utworzyć.";
+$MESS["SUP_SUBA_UI_EXIST"] = "Mam już konto użytkownika i chcę za jego pośrednictwem uzyskać dostęp do działu pomocy i strony pobierania.";
+$MESS["SUP_SUBA_UI_HINT"] = "Możesz uzyskać dostęp do <a href=\"http://www.bitrixsoft.com/support/\">usługi pomocy technicznej</a>, <a href=\"http://www.bitrixsoft.com/support/forum/forum7/\">forum dla klientów prywatnych</a> i <a href=\"http://www.bitrixsoft.com/download/private/index.php\">pobrać kod źródłowy systemu</a>, tworząc konto na <a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a>:";
 $MESS["SUP_SUBA_UI_LASTNAME"] = "Twoje nazwisko";
 $MESS["SUP_SUBA_UI_LOGIN"] = "Login (3 lub więcej znaków)";
 $MESS["SUP_SUBA_UI_LOGIN_EXIST"] = "Login użytkownika istnieje";
@@ -164,4 +166,3 @@ $MESS["SUP_TAB_UPDATES_LIST"] = "Aktualizacje";
 $MESS["SUP_TAB_UPDATES_LIST_ALT"] = "Proszę wybrać, aby zainstalować aktualizacje";
 $MESS["SUP_TITLE_BASE"] = "Moduł aktualizacji partnera";
 $MESS["SUP_USERS"] = "Ilość użytkowników:";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASE_CURRENCY"] = "Devise du prix de base";
 $MESS["BASE_PRICE"] = "Prix de base";
 $MESS["BASE_QUANTITY_RESERVED"] = "Quantité réservée";
@@ -22,6 +22,7 @@ $MESS["C2IT_BOUND_WRONG"] = "Quantité limites sont incorrectes : ";
 $MESS["C2IT_CAN_BUY_NULL_EXT"] = "Permet d'acheter sans produit disponible, y compris des valeurs négatives ";
 $MESS["C2IT_COST_CURRENCY"] = "La devise de l'achat";
 $MESS["C2IT_COST_PRICE"] = "Prix d'achat";
+$MESS["C2IT_COST_PRICE_EXT"] = "Prix d'achat : ";
 $MESS["C2IT_CURRENCY"] = "Devises";
 $MESS["C2IT_DEFAULT_NEGATIVE"] = "ordinaire";
 $MESS["C2IT_DISCOUNTS"] = "La liste des réductions";
@@ -76,6 +77,8 @@ $MESS["C2IT_PRICES_USEEXT"] = "Utilisez le mode d'édition étendue de prix";
 $MESS["C2IT_PRICE_TYPE"] = "Type de prix";
 $MESS["C2IT_PROD_AMOUNT"] = "Quantité";
 $MESS["C2IT_REGULAR"] = "Régulière";
+$MESS["C2IT_SERVICE_COST_PRICE"] = "Coût du service :";
+$MESS["C2IT_SERVICE_SIMPLE_AVAILABLE"] = "Disponibilité :";
 $MESS["C2IT_SINGLE"] = "Pour une seule utilisation";
 $MESS["C2IT_SITE"] = "Site";
 $MESS["C2IT_STORE"] = "Entrepôts";
@@ -92,6 +95,7 @@ $MESS["C2IT_SUBSCR_PARAMS"] = "Paramètres Abonnement";
 $MESS["C2IT_TO"] = "Dans";
 $MESS["C2IT_TRIAL"] = "Période d'essai";
 $MESS["C2IT_TRIAL_FOR"] = "Procès pour (seulement pour les essais) : ";
+$MESS["C2IT_UF_SYSTEM_FIELDS"] = "Préférences du système";
 $MESS["C2IT_USERS_GROUP"] = "Groupe d'utilisateurs";
 $MESS["C2IT_VKL"] = "Incl.";
 $MESS["C2IT_WITHOUT_ORDER"] = "Renouvellement sans commande : ";
@@ -121,4 +125,3 @@ $MESS["SET_NOTICE_QUANTITY"] = "Disponible quantité d'un faisceau est dérivé 
 $MESS["SET_NOTICE_WEIGHT"] = "Le poids de faisceau est auto calculé en utilisant le poids de tous les produits dans un paquet.";
 $MESS["VAL_BASE"] = "< base >";
 $MESS["VAL_NOT_SET"] = "< non installé >";
-?>

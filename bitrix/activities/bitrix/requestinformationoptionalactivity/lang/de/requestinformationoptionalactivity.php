@@ -1,5 +1,5 @@
 <?php
-$MESS["BPAR_PD_TASK_BUTTON_CANCEL_MESSAGE"] = "Text für \"Ablehnen\"-Schaltfläche in der Aufgabe";
+$MESS["BPAR_PD_TASK_BUTTON_CANCEL_MESSAGE_MSGVER_1"] = "Text für die Schaltfläche \"Ablehnen\" in der Aufgabe";
 $MESS["BPRIA_PD_CANCEL_TYPE"] = "Kann abgelehnt werden von";
 $MESS["BPRIA_PD_CANCEL_TYPE_ALL"] = "Allen Mitarbeitern";
 $MESS["BPRIA_PD_CANCEL_TYPE_ANY"] = "Jedem Mitarbeiter";

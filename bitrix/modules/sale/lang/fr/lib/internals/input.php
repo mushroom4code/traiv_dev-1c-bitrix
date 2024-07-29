@@ -1,5 +1,6 @@
-<?
+<?php
 $MESS["INPUT_ADD"] = "Ajouter";
+$MESS["INPUT_ADDRESS"] = "Adresse";
 $MESS["INPUT_DATE"] = "Date";
 $MESS["INPUT_DATE_SELECT"] = "Sélectionner la date";
 $MESS["INPUT_DATE_TIME"] = "Temps";
@@ -36,6 +37,8 @@ $MESS["INPUT_NUMBER_STEP"] = "Étape";
 $MESS["INPUT_NUMBER_STEP_ERROR"] = "ne correspond pas à l'étape #NUM#";
 $MESS["INPUT_REQUIRED"] = "Obligatoire";
 $MESS["INPUT_REQUIRED_ERROR"] = "Ce champ est obligatoire";
+$MESS["INPUT_REQUIRED_ERROR_MSGVER_1"] = "Le champ \"#NAME#\" doit être obligatoirement rempli.";
+$MESS["INPUT_REQUIRED_ERROR_WITHOUT_FIELD_TITLE"] = "Ce champ est obligatoire.";
 $MESS["INPUT_STRING"] = "Chaîne";
 $MESS["INPUT_STRING_MAXLENGTH"] = "Longueur maximum de chaîne";
 $MESS["INPUT_STRING_MAXLENGTH_ERROR"] = "la longueur est supérieure à #NUM# caractèress";
@@ -48,4 +51,3 @@ $MESS["INPUT_STRING_ROWS"] = "Nombre de lignes visibles";
 $MESS["INPUT_STRING_SIZE"] = "Nombre de caractères visibles";
 $MESS["INPUT_TYPE"] = "Type";
 $MESS["INPUT_VALUE"] = "Valeur";
-?>

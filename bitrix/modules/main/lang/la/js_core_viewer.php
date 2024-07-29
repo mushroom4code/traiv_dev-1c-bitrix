@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JS_CORE_VIEWER_ACTIONPANEL_MORE"] = "Más...";
 $MESS["JS_CORE_VIEWER_AJAX_ACCESS_DENIED"] = "Permiso insuficiente para ver el archivo. Por favor actualice la página.";
 $MESS["JS_CORE_VIEWER_AJAX_CONNECTION_FAILED"] = "Error al abrir el file. Por favor intente después.";
@@ -53,10 +53,12 @@ $MESS["JS_CORE_VIEWER_OPEN_WITH_GVIEWER"] = "Ver el archivo en Google Viewer";
 $MESS["JS_CORE_VIEWER_SAVE"] = "Guardar";
 $MESS["JS_CORE_VIEWER_SAVE_AS"] = "Guardar como";
 $MESS["JS_CORE_VIEWER_SAVE_TO_OWN_FILES"] = "Guardar en Bitrix24.Drive";
+$MESS["JS_CORE_VIEWER_SAVE_TO_OWN_FILES_MSGVER_1"] = "Guardar en Drive";
 $MESS["JS_CORE_VIEWER_SERVICE_B24_DISK"] = "Bitrix24.Drive";
 $MESS["JS_CORE_VIEWER_SERVICE_GOOGLE_DRIVE"] = "Google Docs";
 $MESS["JS_CORE_VIEWER_SERVICE_LOCAL"] = "mi computador";
 $MESS["JS_CORE_VIEWER_SERVICE_LOCAL_INSTALL_DESKTOP"] = "Para habilitar el mejor método de edición y acceso a los documentos desde el computador, instale la aplicación de escritorio y habilite Bitrix24.Drive.";
+$MESS["JS_CORE_VIEWER_SERVICE_LOCAL_INSTALL_DESKTOP_MSGVER_1"] = "Para habilitar el mejor método de edición y acceso a los documentos desde la computadora, instale la aplicación de escritorio y habilite Bitrix24 Drive.";
 $MESS["JS_CORE_VIEWER_SERVICE_MYOFFICE"] = "Mi oficina";
 $MESS["JS_CORE_VIEWER_SERVICE_OFFICE365"] = "Oficina 365";
 $MESS["JS_CORE_VIEWER_SERVICE_SKYDRIVE"] = "MS Office Online";
@@ -66,4 +68,3 @@ $MESS["JS_CORE_VIEWER_THROUGH_VERSION"] = "Versión #NUMBER#";
 $MESS["JS_CORE_VIEWER_TOO_BIG_FOR_VIEW"] = "Este archivo es demasiado grande para la vista preliminar.";
 $MESS["JS_CORE_VIEWER_TRANSFORMATION_IN_PROCESS"] = "El documento se ha guardado y se está preparando para su visualización.";
 $MESS["JS_CORE_VIEWER_VIEW_ELEMENT"] = "Ver";
-?>

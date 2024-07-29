@@ -1,9 +1,10 @@
-<?
+<?php
 $MESS["ACCOUNT_INFO_SENT"] = "Um código para modificar a sua senha e suas informações de registro foram enviados para o seu endereço de e-mail. Por favor, verifique o seu e-mail. Note que um novo código para modificação de senha é gerado a cada pedido.";
 $MESS["BAD_GROUP_NAME"] = "Por favor, insira o nome.";
 $MESS["CHANGE_PASS_SUCC"] = "Sua senha foi alterada com sucesso.";
 $MESS["CHECKWORD_EXPIRE"] = "O período de validade da palavra de verificação expirou. Você precisa requisitá-la novamente.";
 $MESS["CHECKWORD_INCORRECT"] = "Palavra de verificação incorreta para login \"#LOGIN#\"";
+$MESS["CHECKWORD_INCORRECT1"] = "Palavra de verificação incorreta.";
 $MESS["DATA_NOT_FOUND1"] = "O perfil do usuário não foi encontrado.";
 $MESS["FORGOT_NAME"] = "Nome e sobrenome obrigatórios";
 $MESS["FORMATNAME_NONAME"] = "Sem título";
@@ -21,6 +22,7 @@ $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_DIGITS"] = "A senha deve conter dígitos 
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_LENGTH"] = "A senha deve conter pelo menos #LENGTH# símbolos";
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_LOWERCASE"] = "A senha deve conter letras minúsculas (a-z).";
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_PUNCTUATION"] = "A senha deve conter sinais de pontuação (,.<>/?;:'\"[]{}\\|`~!@#\$%^&*()-_+=).";
+$MESS["MAIN_FUNCTION_REGISTER_PASSWORD_UNIQUE"] = "Sua senha não deve ser igual às senhas usadas recentemente.";
 $MESS["MAIN_FUNCTION_REGISTER_PASSWORD_UPPERCASE"] = "A senha deve conter letras maiúsculas (A-Z).";
 $MESS["MAIN_FUNCTION_SIMPLEREGISTER_NA_INADMIN"] = "Você não pode usar a função CUser :: Registre-se em ADMIN_SECTION!";
 $MESS["MAIN_GP_PASSWORD_DIGITS"] = "contém dígitos (0-9)";
@@ -28,6 +30,7 @@ $MESS["MAIN_GP_PASSWORD_LENGTH"] = "A senha deve conter pelo menos #LENGTH# sím
 $MESS["MAIN_GP_PASSWORD_LOWERCASE"] = "contém letras minúsculas (a-z)";
 $MESS["MAIN_GP_PASSWORD_PUNCTUATION"] = "contém sinais de pontuação (,.<>/?;:'\"[]{}\\|`~!@#\$%^&*()-_+=)";
 $MESS["MAIN_GP_PASSWORD_UPPERCASE"] = "contém letras maiúsculas (A-Z)";
+$MESS["MAIN_LOGIN_CHANGE_PASSWORD"] = "Sua senha expirou, você tem que alterá-la.";
 $MESS["MAIN_LOGIN_EMAIL_CONFIRM"] = "Você ainda não confirmou seu cadastro (a mensagem de confirmação foi enviada para #EMAIL#) Use o formulário de recuperação de senha para enviar a mensagem de confirmação novamento caso necessário.";
 $MESS["MAIN_SEND_PASS_CONFIRM"] = "Você ainda não confirmou seu cadastro. Outra mensagem de confirmação foi enviada para o seu endereço de e-mail.";
 $MESS["MAIN_TASK_WRONG_LETTER"] = "Apenas uma letra pode ser usada como a abreviatura do nível de acesso";
@@ -65,7 +68,10 @@ $MESS["WRONG_USER_DATE_ACTIVE_FROM"] = "Data incorreta do primeiro período ativ
 $MESS["WRONG_USER_DATE_ACTIVE_TO"] = "Data incorreta último período ativo para o usuário # #USER_ID#";
 $MESS["main_change_pass_changed"] = "A senha foi alterada com sucesso.";
 $MESS["main_change_pass_code_error"] = "Código de confirmação incorreto ou expirado. Você pode solicitar outro código.";
+$MESS["main_change_pass_empty_checkword"] = "O código de verificação ou a senha atual não foram especificados.";
 $MESS["main_change_pass_error"] = "Erro ao alterar a senha.";
+$MESS["main_change_pass_incorrect_pass"] = "A senha atual que você forneceu está incorreta.";
+$MESS["main_check_password_weak"] = "A senha é muito fraca (encontrada na lista de senhas fracas).";
 $MESS["main_login_need_phone_confirmation"] = "Você ainda não confirmou seu cadastro (seu número de telefone: #PHONE#). Por favor, use o formulário de recuperação de senha para solicitar outro SMS de confirmação.";
 $MESS["main_register_no_user"] = "Usuário não encontrado.";
 $MESS["main_register_sms_sent"] = "Um código para alterar sua senha foi enviado para o seu telefone.";
@@ -78,4 +84,3 @@ $MESS["main_user_pass_request_sent"] = "O código de confirmação foi enviado p
 $MESS["user_email_not_set"] = "O e-mail do usuário não foi especificado.";
 $MESS["user_login_not_set"] = "O Login do usuário não foi especificado.";
 $MESS["user_pass_not_set"] = "A senha do usuário não foi especificada.";
-?>

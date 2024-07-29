@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_IBLOCK"] = "Bloc d'information";
 $MESS["IBLOCK_INDEX_URL"] = "Liste d'albums";
 $MESS["IBLOCK_SECTION_ID"] = "ID de la section";
@@ -7,9 +7,6 @@ $MESS["IBLOCK_TYPE"] = "Type du bloc d'information";
 $MESS["P_ADDITIONAL_SIGHTS"] = "Vignettes supplémentaires";
 $MESS["P_ALBUM_PHOTO_THUMBS_WIDTH"] = "Taille d'une image-annonce de l'album photos (px)";
 $MESS["P_ALBUM_PHOTO_WIDTH"] = "Taille de l'image de l'album photo (px)";
-$MESS["P_APPLET_LAYOUT"] = "Schéma du chargeur multiple";
-$MESS["P_APPLET_LAYOUT_EXTENDED"] = "Modèle standard";
-$MESS["P_APPLET_LAYOUT_SIMPLE"] = "Modèle du chargeur simplifiée";
 $MESS["P_JPEG_QUALITY"] = "Qualité photo d'origine (%)";
 $MESS["P_MODERATION"] = "Prémodération obligatoire des photos";
 $MESS["P_ORIGINAL"] = "Original";
@@ -18,10 +15,6 @@ $MESS["P_PATH_TO_FONT"] = "Fichier de police de caractères pour la marque d'aut
 $MESS["P_PHOTO_SETTINGS"] = "Galerie de photos Paramètres";
 $MESS["P_PREVIEW"] = "Affichage";
 $MESS["P_SIZE"] = "Taille de la photo annonce (px)";
-$MESS["P_UPLOADER_TYPE"] = "Type du chargeur";
-$MESS["P_UPLOADER_TYPE_APPLET"] = "Chargeur multiple (Java/ActiveX)";
-$MESS["P_UPLOADER_TYPE_FLASH"] = "Chargeur Flash multiple";
-$MESS["P_UPLOADER_TYPE_FORM_SIMPLE"] = "Chargement unique via le formulaire";
 $MESS["P_UPLOAD_MAX_FILE"] = "Nombre maximal de fichiers envoyés par un post";
 $MESS["P_UPLOAD_MAX_FILE_SIZE"] = "Taille maximale du fichier (MB)";
 $MESS["P_USE_WATERMARK"] = "Appliquer la amrque d'auteur";
@@ -55,4 +48,3 @@ $MESS["P_WATERMARK_TYPE_BOTH"] = "A choisir : un texte ou une image";
 $MESS["P_WATERMARK_TYPE_PICTURE"] = "Image";
 $MESS["P_WATERMARK_TYPE_TEXT"] = "inscription (texte)";
 $MESS["T_IBLOCK_DESC_NEWS_PANEL"] = "Ajouter les boutons au panneau admin. Pour ce composant";
-?>

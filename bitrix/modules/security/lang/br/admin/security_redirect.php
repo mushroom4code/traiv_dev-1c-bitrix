@@ -1,14 +1,13 @@
-<?
+<?php
 $MESS["SEC_REDIRECT_ACTIONS"] = "Ações de proteção de pishing";
 $MESS["SEC_REDIRECT_ACTIONS_HEADER"] = "Ações";
 $MESS["SEC_REDIRECT_ACTION_REDIRECT"] = "Redirecionar para a URL especificada";
 $MESS["SEC_REDIRECT_ACTION_REDIRECT_URL"] = "URL:";
-$MESS["SEC_REDIRECT_ACTION_SHOW_MESSAGE"] = "Mostrar uma mensagem de notificação e redirecionar a outro site após o atraso.";
 $MESS["SEC_REDIRECT_ADD"] = "Adicionar";
 $MESS["SEC_REDIRECT_BUTTON_OFF"] = "Desabilitar o redirecionamento de proteção contra ataques de phishing.";
 $MESS["SEC_REDIRECT_BUTTON_ON"] = "Desabilitar o redirecionamento de proteção contra ataques de phishing";
 $MESS["SEC_REDIRECT_HREF_SIGN"] = "Adicionar uma assinatura digital as seguintes URL's:";
-$MESS["SEC_REDIRECT_LOG"] = "Adicionar tentativa de pishing para E412<a href=\"#HREF#\">log</a>";
+$MESS["SEC_REDIRECT_LOG"] = "Adicionar tentativa de pishing para log";
 $MESS["SEC_REDIRECT_MAIN_TAB"] = "Redirecionar proteção";
 $MESS["SEC_REDIRECT_MAIN_TAB_TITLE"] = "Habilitar o redirecionamento de proteção contra ataques de phishing.";
 $MESS["SEC_REDIRECT_MESSAGE"] = "Mensagem.";
@@ -35,10 +34,7 @@ $MESS["SEC_REDIRECT_PARAMETER_NAME"] = "Parâmetros do Nome:";
 $MESS["SEC_REDIRECT_REFERER_CHECK"] = "Verificar a presença de um cabeçalho HTTP descrevendo a referencia da página.";
 $MESS["SEC_REDIRECT_REFERER_SITE_CHECK"] = "O cabeçalho HTTP \"Referrer\" deve conter o domínio do site atual.";
 $MESS["SEC_REDIRECT_SYSTEM"] = "Sistema";
-$MESS["SEC_REDIRECT_TIMEOUT"] = "Atraso.";
-$MESS["SEC_REDIRECT_TIMEOUT_SEC"] = "sec.";
 $MESS["SEC_REDIRECT_TITLE"] = "Redirecionar proteção contra ataques de phishing";
 $MESS["SEC_REDIRECT_URL"] = "URL:";
 $MESS["SEC_REDIRECT_URLS"] = "URL's assinadas";
 $MESS["SEC_REDIRECT_USER"] = "Usuários";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FORUM_NEW_MESSAGE_MAIL_DESC"] = "#FORUM_NAME# - Nom du forum
 #AUTHOR# - Auteur du message
 #FROM_EMAIL# - Adresse emailpour le champ From du message
@@ -86,7 +86,7 @@ $MESS["F_PRIVATE_MESSAGE_LINK"] = "Référence au message";
 $MESS["F_PRIVATE_RECIPIENT_EMAIL"] = "Adresse email du destinataire";
 $MESS["F_PRIVATE_RECIPIENT_ID"] = "ID du destinataire";
 $MESS["F_PRIVATE_RECIPIENT_NAME"] = "Nom du récipient";
-$MESS["F_PRIVATE_SUBJECT"] = "D'après les sujets";
+$MESS["F_PRIVATE_SUBJECT"] = "Sujet";
 $MESS["F_PRIVATE_TEXT"] = "Message d'information à partir de #SITE_NAME#
 ------------------------------------------
 
@@ -122,7 +122,6 @@ Ce message a été généré automatiquement.";
 $MESS["F_PRIV_RECIPIENT_EMAIL"] = "Adresse email du destinataire";
 $MESS["F_PRIV_RECIPIENT_NAME"] = "Nom du récipient";
 $MESS["F_PRIV_TEXT"] = "Lettre";
-$MESS["F_PRIV_TITLE"] = "D'après les sujets";
+$MESS["F_PRIV_TITLE"] = "Sujet";
 $MESS["F_TOPIC_ID"] = "Code du sujet";
 $MESS["F_TOPIC_TITLE"] = "Sujet";
-?>

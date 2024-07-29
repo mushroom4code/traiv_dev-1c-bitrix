@@ -3,6 +3,7 @@ $MESS["CLO_STORAGE_FILE_CANCEL_BTN"] = "Скасувати";
 $MESS["CLO_STORAGE_FILE_COUNT"] = "Кількість";
 $MESS["CLO_STORAGE_FILE_DELETE"] = "Видалити";
 $MESS["CLO_STORAGE_FILE_DELETE_CONF"] = "Видалити файл без можливості відновлення?";
+$MESS["CLO_STORAGE_FILE_DELETE_PROGRESS"] = "Останній видалений файл: <b>#last_deleted#</b>.";
 $MESS["CLO_STORAGE_FILE_EXISTS_ERROR"] = "Файл з такою назвою вже завантажений в хмарне сховище.";
 $MESS["CLO_STORAGE_FILE_LISTING"] = "Отримання списку файлів із хмарного сховища.";
 $MESS["CLO_STORAGE_FILE_LIST_ERROR"] = "Помилка отримання списку файлів";

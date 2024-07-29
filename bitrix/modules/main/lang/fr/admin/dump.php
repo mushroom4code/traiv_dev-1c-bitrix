@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AUTO_EXEC_FROM_BITRIX"] = "via le service cloud &quot;Bitrix&quot;";
 $MESS["AUTO_EXEC_FROM_CRON"] = "avec des agents dans cron";
 $MESS["AUTO_EXEC_FROM_MAN"] = "par démarrage direct #SCRIPT#";
@@ -68,7 +68,7 @@ $MESS["DUMP_NO_PERMS"] = "Il n'y a pas de droits sur le serveur pour la créatio
 $MESS["DUMP_NO_PERMS_READ"] = "Erreur d'ouverture de l'archive pour la lecture.";
 $MESS["DUMP_RETRY"] = "Réessayer";
 $MESS["DUMP_RM_BY_CNT"] = "si le nombre total de copies est supérieur à #CNT#";
-$MESS["DUMP_RM_BY_SIZE"] = "si la taille totale des copies de sauvegarde est supérieure à #SIZE# GB";
+$MESS["DUMP_RM_BY_SIZE"] = "si la taille totale des copies de sauvegarde est supérieure à #SIZE# Go";
 $MESS["DUMP_RM_BY_TIME"] = "si #TIME# jours sont passés depuis la création";
 $MESS["DUMP_SAVED_DISABLED"] = "Le démarrage automatique de la sauvegarde de réserve est désactivé.<br>La copie de réserve sera créée seulement après un lancement direct du script /bitrix/modules/main/tools/backup.php.";
 $MESS["DUMP_TABLE_BROKEN"] = "La table #TABLE# a été détruite par une erreur MySQL interne. Utilisez <a href=\"/bitrix/admin/site_checker.php?tabControl_active_tab=edit1\" target=_blank>Site Checker</a> pour complètement récupérer la table, ou pour juste restaurer la structure de la table.";
@@ -121,7 +121,7 @@ $MESS["MAIN_DUMP_FILE_FINISH"] = "Sauvegarde terminée";
 $MESS["MAIN_DUMP_FILE_KERNEL"] = "Enregistrer des fichiers du noyau : ";
 $MESS["MAIN_DUMP_FILE_MAX_SIZE"] = "Ne pas inclure des fichiers qui dépasse la taille (0 - pas de limite) : ";
 $MESS["MAIN_DUMP_FILE_MAX_SIZE_b"] = "B";
-$MESS["MAIN_DUMP_FILE_MAX_SIZE_gb"] = "GB ";
+$MESS["MAIN_DUMP_FILE_MAX_SIZE_gb"] = "Go";
 $MESS["MAIN_DUMP_FILE_MAX_SIZE_kb"] = "kb";
 $MESS["MAIN_DUMP_FILE_MAX_SIZE_mb"] = "Mémos et règlements";
 $MESS["MAIN_DUMP_FILE_NAME"] = "Nom du fichier";
@@ -167,13 +167,13 @@ $MESS["MAIN_DUMP_PAGE_TITLE"] = "Sauvegarde";
 $MESS["MAIN_DUMP_PARTS"] = "parties : ";
 $MESS["MAIN_DUMP_PERIODITY"] = "Fréquence : ";
 $MESS["MAIN_DUMP_PER_1"] = "chaque jour";
-$MESS["MAIN_DUMP_PER_14"] = "toutes les deux semaines";
 $MESS["MAIN_DUMP_PER_2"] = "dans un jour";
-$MESS["MAIN_DUMP_PER_21"] = "toutes les trois semaines";
 $MESS["MAIN_DUMP_PER_3"] = "tous les 3 jours";
-$MESS["MAIN_DUMP_PER_30"] = "mensuel";
 $MESS["MAIN_DUMP_PER_5"] = "tous les 5 jours";
 $MESS["MAIN_DUMP_PER_7"] = "chaque semaine";
+$MESS["MAIN_DUMP_PER_14"] = "toutes les deux semaines";
+$MESS["MAIN_DUMP_PER_21"] = "toutes les trois semaines";
+$MESS["MAIN_DUMP_PER_30"] = "mensuel";
 $MESS["MAIN_DUMP_RENAME"] = "Renommer";
 $MESS["MAIN_DUMP_RESTORE"] = "Extraire";
 $MESS["MAIN_DUMP_SAVE_PASS"] = "Attention ! Le mot de passe n'est sauvegardé nulle part. Notez-le dans un endroit sûr, la restauration de la copie de réserve est impossible sans la connaissance de ce mot de passe.";
@@ -200,4 +200,3 @@ $MESS["TIME_LEFT"] = ", env. temps restant #TEME#";
 $MESS["TIME_M"] = "m";
 $MESS["TIME_S"] = "a";
 $MESS["TIME_SPENT"] = "Temps de création d'une copie de réserve : ";
-?>

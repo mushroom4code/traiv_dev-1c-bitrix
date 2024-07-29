@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_COMMENT"] = "Dodaj komentarz";
 $MESS["ADD_COMMENT_TITLE"] = "Dodaj komentarz ( Ctrl + Enter )";
 $MESS["BLOG_CATEGORY_NAME"] = "Nazwa tagu";
@@ -29,7 +29,7 @@ $MESS["BPC_MES_SHOW"] = "Pokaż";
 $MESS["BPC_MES_SPAM"] = "Spam?";
 $MESS["BPC_MES_SPAM_TITLE"] = "Zarządzanie wszystkimi komentarzami użytkownika";
 $MESS["BPC_PAGE"] = "Strony:";
-$MESS["BPC_QUOTE"] = "Oferta";
+$MESS["BPC_QUOTE"] = "Cytat";
 $MESS["BPC_SMILE"] = "Wszystkie Emotikony";
 $MESS["BPC_STRIKE"] = "Strike";
 $MESS["BPC_SUBJECT"] = "Temat";
@@ -52,4 +52,3 @@ $MESS["B_B_MS_SAVE"] = "Zapisz";
 $MESS["B_B_MS_SEND"] = "Wyślij";
 $MESS["FPF_VIDEO"] = "Wstaw wideo";
 $MESS["SHOW_MORE_COMMENTS"] = "Pokaż poprzednie komentarze";
-?>

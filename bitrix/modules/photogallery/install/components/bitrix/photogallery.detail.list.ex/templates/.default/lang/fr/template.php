@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["P_ACTIVATE"] = "Approuver";
 $MESS["P_CREATED"] = "Ajouté(e)s";
 $MESS["P_DEFAULT_TEMPLATE"] = "ordinaire";
@@ -45,10 +45,9 @@ $MESS["P_SLIDER_SLIDESHOW"] = "Diaporama";
 $MESS["P_SLIDER_SLIDESHOW_TITLE"] = "Démarrer le diaporama";
 $MESS["P_SLIDER_SMALL_PHOTO"] = "Diminuer";
 $MESS["P_SLIDER_TAGS"] = "Tags";
-$MESS["P_SLIDER_VIEWS"] = "vues";
+$MESS["P_SLIDER_VIEWS"] = "Vues";
 $MESS["P_SOURCE_IMAGE"] = "Original";
 $MESS["P_SQUARE_TEMPLATE"] = "carré";
 $MESS["P_SQUARE_TEMPLATE_TITLE"] = "Esquisses carrées des photos";
 $MESS["P_UNKNOWN_ERROR"] = "Erreur de sauvegarde";
 $MESS["START_DRAG_TO_SORT"] = "glisser pour trier";
-?>

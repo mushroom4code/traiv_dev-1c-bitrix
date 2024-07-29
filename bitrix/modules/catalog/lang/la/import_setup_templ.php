@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATI_ACTIVATE_PROD"] = "activado";
 $MESS["CATI_ADDIT_SETTINGS"] = "Configuración adicional";
 $MESS["CATI_ADD_CODE_TRANSLIT"] = "Uso de transcripción al crear un bloque de información";
@@ -180,7 +180,6 @@ $MESS["CML_R_ADD"] = "adición";
 $MESS["CML_R_EDIT"] = "editando";
 $MESS["CML_R_IBLOCK"] = "Error #ACT# del block de información #NAME#: #ERROR#";
 $MESS["CML_R_MIN"] = "min";
-$MESS["CML_R_MYSQL_ONLY"] = "En la <b>MySql</b> versión, esta importación de guiones de datos desde el formato CommerceML. Si tiene preguntas con respecto a otras versiones del producto, por favor dirigirse a la Helpdesk en <a href=\"mailto:support@bitrixsoft.com\">support@bitrixsoft.com</a>";
 $MESS["CML_R_NCATA"] = "Catálogos procesados: #NUM#";
 $MESS["CML_R_NGRP"] = "Grupos procesados: #NUM#";
 $MESS["CML_R_NOFF"] = "Ofertas procesadas: #NUM#";
@@ -202,4 +201,3 @@ $MESS["DIN_QUANTITY_FROM"] = "Cantidad de";
 $MESS["DIN_QUANTITY_TO"] = "Cantidad para";
 $MESS["EST_PRICE_TYPE"] = "Tipo de precio \"#TYPE#\"";
 $MESS["EST_PRICE_TYPE2"] = "Tipo de precio: \"#NAME#\" (#TYPE#)";
-?>

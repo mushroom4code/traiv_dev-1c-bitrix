@@ -1,16 +1,16 @@
-<?
+<?php
 $MESS["COPY_FOLDER"] = "Le dossier où des fichiers seront copiés : ";
 $MESS["COPY_PUBLIC_FILES"] = "Copier les fichiers publiques";
 $MESS["INSTALL_PUBLIC_REW"] = "Remplacer les fichiers existants";
 $MESS["MOD_ACTION"] = "Action";
 $MESS["MOD_BACK"] = "Cliquez ici pour revenir à la liste";
-$MESS["MOD_DATE_UPDATE"] = "Date de la mise à jour";
+$MESS["MOD_DATE_UPDATE"] = "Date de mise à jour";
 $MESS["MOD_DELETE"] = "Annuler";
 $MESS["MOD_DEMO_DIR"] = "Vous pouvez contrôler le fonctionnement du composant dans la partie publique à l'aide des liens ci-dessous : ";
 $MESS["MOD_DEMO_LINK"] = "Lien au commentaire";
 $MESS["MOD_DEMO_SITE"] = "Site";
 $MESS["MOD_INSTALL"] = "Installation";
-$MESS["MOD_INSTALLED"] = "Désuet";
+$MESS["MOD_INSTALLED"] = "Installé";
 $MESS["MOD_INSTALL_BUTTON"] = "Installation";
 $MESS["MOD_INST_ERR"] = "Problèmes d'installation : ";
 $MESS["MOD_INST_OK"] = "Installation du module achevée avec accès";
@@ -32,4 +32,3 @@ $MESS["MOD_VERSION"] = "Version";
 $MESS["RESET"] = "Annuler";
 $MESS["SAVE"] = "Enregistrer les modifications";
 $MESS["TITLE"] = "Gestion des modules";
-?>

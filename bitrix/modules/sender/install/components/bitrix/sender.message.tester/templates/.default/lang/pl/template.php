@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_CAT_LAST"] = "Ostatnie elementy";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_EMPTY"] = "Nie określono odbiorców";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_HINT"] = "Użyj trybu testowego, aby upewnić się, że twoje wiadomości są wyświetlane poprawnie. Wybierz odbiorców, do których chcesz wysłać testowe wiadomości e-mail.";
@@ -11,4 +11,5 @@ $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_SUCCESS"] = "Sukces! Sprawdź wiadomość
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_SUCCESS_PHONE"] = "Wiadomość wysłano poprawnie! Sprawdź swój telefon.";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_TITLE_MAIL"] = "Adresy e-mail";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_TITLE_PHONE"] = "Numery telefonu";
-?>
+$MESS["SENDER_MESSAGE_TESTER_TMPL_VALIDATION_TEST_SEND"] = "Wyślij zgodę na newsletter";
+$MESS["SENDER_MESSAGE_TESTER_TMPL_VALIDATION_TEST_SUCCESS"] = "Zgoda na newsletter została wysłana! Sprawdź pocztę.";

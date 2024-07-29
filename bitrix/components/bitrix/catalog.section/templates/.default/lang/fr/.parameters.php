@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Propriétés des images supplémentaires d'une marchandise";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Ajouter au panier";
 $MESS["ADD_TO_BASKET_ACTION_BUY"] = "Acheter Maintenant";
@@ -7,7 +7,6 @@ $MESS["CP_BCS_TPL_ADD_TO_BASKET_ACTION"] = "Voir 'Ajouter au panier' ou 'Acheter
 $MESS["CP_BCS_TPL_BESTSELLERS"] = "Meilleures ventes";
 $MESS["CP_BCS_TPL_BRAND_PROPERTY"] = "Propriété de la marque";
 $MESS["CP_BCS_TPL_COMPARE_NAME"] = "Nom unique pour le tableau de comparaison";
-$MESS["CP_BCS_TPL_CUSTOM_FILTER"] = "Filtre de produit";
 $MESS["CP_BCS_TPL_DATA_LAYER_NAME"] = "Nom du conteneur de données";
 $MESS["CP_BCS_TPL_DISCOUNT_PERCENT_POSITION"] = "Position du pourcentage de réduction";
 $MESS["CP_BCS_TPL_DML_EXT"] = "largi";
@@ -35,6 +34,8 @@ $MESS["CP_BCS_TPL_MESS_BTN_SUBSCRIBE"] = "Texte du bouton \"Notifier en cas d'ar
 $MESS["CP_BCS_TPL_MESS_BTN_SUBSCRIBE_DEFAULT"] = "Notifier en cas d'arrivage";
 $MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE"] = "Message sur l'absence de la marchandise";
 $MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Pas disponible";
+$MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Message de service indisponible";
+$MESS["CP_BCS_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "Absents";
 $MESS["CP_BCS_TPL_MESS_RELATIVE_QUANTITY_FEW"] = "Texte pour les valeurs inférieures à ce qui a été calculé";
 $MESS["CP_BCS_TPL_MESS_RELATIVE_QUANTITY_FEW_DEFAULT"] = "seulement quelques restant";
 $MESS["CP_BCS_TPL_MESS_RELATIVE_QUANTITY_MANY"] = "Texte pour les valeurs supérieures à ce qui a été calculé";
@@ -62,7 +63,6 @@ $MESS["CP_BCS_TPL_PROP_EMPTY"] = "pas sélectionné";
 $MESS["CP_BCS_TPL_RAND"] = "Toute recommandation";
 $MESS["CP_BCS_TPL_RELATIVE_QUANTITY_FACTOR"] = "Remplacer la valeur du stock si elle dépasse";
 $MESS["CP_BCS_TPL_SETTINGS_DELETE"] = "Supprimer";
-$MESS["CP_BCS_TPL_SETTINGS_INVALID_CONDITION"] = "La condition est incorrecte";
 $MESS["CP_BCS_TPL_SETTINGS_QUANTITY"] = "Produits par page";
 $MESS["CP_BCS_TPL_SETTINGS_QUANTITY_BIG_DATA"] = "Produits BigData par page";
 $MESS["CP_BCS_TPL_SETTINGS_VARIANT"] = "Option";
@@ -107,4 +107,3 @@ $MESS["SHOW_DISCOUNT_PERCENT_TIP"] = "Affichage du pourcentage du rabais, si ce 
 $MESS["SHOW_OLD_PRICE_TIP"] = "Afficher l'ancien prix, s'il y a un rabais";
 $MESS["TEMPLATE_THEME_TIP"] = "Palette de couleurs à afficher. Utiliser le thème bleu par défaut.";
 $MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Cela nécessite que les options Enhanced Ecommerce de Google Analytics soient configurées";
-?>

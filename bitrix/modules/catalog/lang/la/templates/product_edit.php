@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASE_CURRENCY"] = "Divisa base del precio";
 $MESS["BASE_PRICE"] = "Precio base";
 $MESS["BASE_QUANTITY_RESERVED"] = "Temas reservados";
@@ -22,6 +22,7 @@ $MESS["C2IT_BOUND_WRONG"] = "Límites de cantidad incorrectos: ";
 $MESS["C2IT_CAN_BUY_NULL_EXT"] = "Permitir la compra de productos no disponibles, incluidos los valores negativos";
 $MESS["C2IT_COST_CURRENCY"] = "Moneda del precio de compra";
 $MESS["C2IT_COST_PRICE"] = "Precio de compra";
+$MESS["C2IT_COST_PRICE_EXT"] = "Precio de compra:";
 $MESS["C2IT_CURRENCY"] = "Divisa";
 $MESS["C2IT_DEFAULT_NEGATIVE"] = "por defecto";
 $MESS["C2IT_DISCOUNTS"] = "Descuentos";
@@ -76,6 +77,8 @@ $MESS["C2IT_PRICES_USEEXT"] = "Use modo de edición extendido de precios";
 $MESS["C2IT_PRICE_TYPE"] = "Tipo de precio";
 $MESS["C2IT_PROD_AMOUNT"] = "Cantidad";
 $MESS["C2IT_REGULAR"] = "Recurrente";
+$MESS["C2IT_SERVICE_COST_PRICE"] = "Costo del servicio:";
+$MESS["C2IT_SERVICE_SIMPLE_AVAILABLE"] = "Disponibilidad:";
 $MESS["C2IT_SINGLE"] = "Una sola vez";
 $MESS["C2IT_SITE"] = "Sitio web";
 $MESS["C2IT_STORE"] = "Almacenes";
@@ -92,6 +95,7 @@ $MESS["C2IT_SUBSCR_PARAMS"] = "Parámetros de suscripción";
 $MESS["C2IT_TO"] = "Para";
 $MESS["C2IT_TRIAL"] = "De prueba";
 $MESS["C2IT_TRIAL_FOR"] = "Pruebapara (sólo para pruebas)";
+$MESS["C2IT_UF_SYSTEM_FIELDS"] = "Preferencias del sistema";
 $MESS["C2IT_USERS_GROUP"] = "Grupo de usuario";
 $MESS["C2IT_VKL"] = "Incl.";
 $MESS["C2IT_WITHOUT_ORDER"] = "Renovación sin nueva orden:";
@@ -120,4 +124,3 @@ $MESS["SET_NOTICE_MEASURE"] = "Los parámetros \"Unidad de medida\" y \"Relació
 $MESS["SET_NOTICE_QUANTITY"] = "La cantidad disponible de un paquete se deriva del estado actual de stock del prodcuto que tenga activado el seguimiento de stock y no este disponibles para la compra si está fuera de stock. Si no hay productos en el paquete que coincida con estos criterios, la cantidad disponible se deriva de todos los productos incluidos.";
 $MESS["SET_NOTICE_WEIGHT"] = "El peso del paquete se calcula automáticamente utilizando el peso de todos los productos en un paquete.";
 $MESS["VAL_NOT_SET"] = "< no fijado >";
-?>

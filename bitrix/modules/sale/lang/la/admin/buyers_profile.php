@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BUYERS_DETAIL_DESCR"] = "Ver detalles del pedido";
 $MESS["BUYERS_FROM"] = "de";
 $MESS["BUYERS_H_ALL_PRODUCT"] = "Productos";
@@ -11,7 +11,7 @@ $MESS["BUYERS_H_SUM"] = "Total";
 $MESS["BUYERS_ORDER_DETAIL_PAGE"] = "Detalles del pedido";
 $MESS["BUYERS_ORDER_EDIT"] = "Haga doble clic para ver los detalles del pedido";
 $MESS["BUYERS_ORDER_LIST"] = "Pedidos";
-$MESS["BUYERS_PAY_ALL"] = "Todo";
+$MESS["BUYERS_PAY_ALL"] = "todo";
 $MESS["BUYERS_PAY_NO"] = "No";
 $MESS["BUYERS_PAY_YES"] = "Si";
 $MESS["BUYERS_PREF"] = "Nro.";
@@ -25,7 +25,7 @@ $MESS["BUYER_BASKET_DESC"] = "Carrito de compras de los clientes";
 $MESS["BUYER_BASKET_F_LID"] = "Sitioweb";
 $MESS["BUYER_BASKET_F_NAME"] = "Nombre";
 $MESS["BUYER_BASKET_F_STATUS"] = "Estados";
-$MESS["BUYER_BASKET_F_STATUS_ALL"] = "Todo";
+$MESS["BUYER_BASKET_F_STATUS_ALL"] = "todo";
 $MESS["BUYER_BASKET_F_STATUS_AVAIL"] = "En stock";
 $MESS["BUYER_BASKET_F_STATUS_DELAY"] = "Guarda para más tarde";
 $MESS["BUYER_BASKET_F_STATUS_NO"] = "Fuera de stock";
@@ -56,6 +56,7 @@ $MESS["BUYER_DONT_CAN_BUY"] = "fuera de stock";
 $MESS["BUYER_EDIT"] = "Editar cliente";
 $MESS["BUYER_FILED_ADRES"] = "Dirección";
 $MESS["BUYER_FILED_FIO"] = "Nombre completo";
+$MESS["BUYER_FILED_GROUP1"] = "Grupos de usuarios";
 $MESS["BUYER_FILED_LAST_LOGIN"] = "Última conexión";
 $MESS["BUYER_FILED_LOGIN"] = "Iniciar sesión";
 $MESS["BUYER_FILED_MAIL"] = "E-mail";
@@ -138,7 +139,7 @@ $MESS["BUYER_VIEWED_BASKET_ERROR_TO_ORDER"] = "Carrito de compras contiene produ
 $MESS["BUYER_VIEWED_ERROR_PRODUCT_FAIL"] = "Producto está fuera de stock.";
 $MESS["BUYER_VIEWED_MESS_BASKET"] = "Agregar a su carrito de compras";
 $MESS["BUYER_VIEW_ALL_ORDERS"] = "Ver todos los pedidos";
-$MESS["BUYER_VIEW_F_ALL"] = "Todo";
+$MESS["BUYER_VIEW_F_ALL"] = "todo";
 $MESS["BUYER_VIEW_F_DATE"] = "Consultados el";
 $MESS["BUYER_VIEW_F_LID"] = "Sitioweb";
 $MESS["BUYER_VIEW_PRODUCT"] = "Productos consultados";
@@ -187,4 +188,3 @@ $MESS["SOB_SHIPMENTS_DEDUCTED"] = "Enviado";
 $MESS["SOB_SHIPMENTS_MARKED"] = "Marcado";
 $MESS["SOB_SHIPMENTS_NOT_ALLOW_DELIVERY"] = "Envío no aprobado";
 $MESS["SOB_SHIPMENTS_STATUS"] = "Estados";
-?>

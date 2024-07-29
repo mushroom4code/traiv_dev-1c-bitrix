@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SENDER_B24_LICENSE_AD_TEXT1"] = "Cette fonctionnalité est réservée aux offres commerciales. Passez maintenant à une offre supérieure et profitez d'encore plus d'outils marketing CRM :
 <br><br>
 1) Gestions des publicités
@@ -27,8 +27,6 @@ Vous profiterez également :
 <br><br>
 et de bien d'autres outils et fonctionnalités de productivité !
 <br><br>
-Retrouvez <a href=\"https://www.bitrix24.com/prices/\">ici</a> plus d'informations sur les offres en générales et choisissez celle qui vous correspond le mieux.
-";
+Retrouvez <a href=\"https://www.bitrix24.fr/prices/\">ici</a> plus d'informations sur les offres en générales et choisissez celle qui vous correspond le mieux.";
 $MESS["SENDER_B24_LICENSE_MAIL_LIMIT_TITLE"] = "Limite d'envoi quotidienne";
 $MESS["SENDER_B24_LICENSE_RC_TITLE"] = "Augmentation des ventes";
-?>

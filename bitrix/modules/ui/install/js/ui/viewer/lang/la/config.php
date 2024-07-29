@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JS_UI_VIEWER_DEFAULT_ERROR_TITLE"] = "Eso es un error.";
 $MESS["JS_UI_VIEWER_IMAGE_VIEW_FULL_SIZE"] = "Ver en tamaño completo";
 $MESS["JS_UI_VIEWER_ITEM_ACTION_DELETE"] = "Eliminar";
@@ -14,4 +14,4 @@ $MESS["JS_UI_VIEWER_ITEM_TRANSFORMATION_TIMEOUT"] = "Ocurrió un error en la con
 $MESS["JS_UI_VIEWER_ITEM_UNKNOWN_DOWNLOAD_ACTION"] = "Descargar archivo";
 $MESS["JS_UI_VIEWER_ITEM_UNKNOWN_NOTICE"] = "Puede verlo en su computadora";
 $MESS["JS_UI_VIEWER_ITEM_UNKNOWN_TITLE"] = "El formato de este archivo no es compatible";
-?>
+$MESS["JS_UI_VIEWER_SINGLE_DOCUMENT_LISTING_PAGES"] = "Página #CURRENT#<div class=\"ui-viewer-single-document-listing-pages-all\">/#ALL#</div>";

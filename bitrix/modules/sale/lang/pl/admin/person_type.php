@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_REC"] = "Błąd dodawania rekordu";
 $MESS["ERROR_UPDATE_REC"] = "Błąd aktualizacji rekordu";
 $MESS["LANG_ALL"] = "Wszystkie strony";
@@ -8,7 +8,7 @@ $MESS["PERSON_TYPE_TITLE"] = "Rodzaj płatnika";
 $MESS["PERS_ACTIVE"] = "Aktywne";
 $MESS["PERS_PROPS"] = "Właściwości";
 $MESS["PERS_TYPE_DEL"] = "Usuń";
-$MESS["PERS_TYPE_DEL_CONF"] = "Usunięcie typu płatnika spowoduje usunięcie wszystkich jego własciwości i ustawień. Jeżeli ten typ płatnika zawiera zamówienia, nie zostanie usunięty.";
+$MESS["PERS_TYPE_DEL_CONF"] = "Usunięcie typu płatnika spowoduje usunięcie jego wszystkich właściwości i ustawień. Jeżeli ten typ płatnika zawiera zamówienia, nie zostanie usunięty.";
 $MESS["PERS_TYPE_ID"] = "ID";
 $MESS["PERS_TYPE_LID"] = "Strona";
 $MESS["PERS_TYPE_NAME"] = "Nazwa";
@@ -32,4 +32,3 @@ $MESS["SPTAN_UPDATE_ALT"] = "Edytuj typ płatnika";
 $MESS["SPTAN_VIEW_PROPS"] = "Przejdź do listy właściwości";
 $MESS["SPT_ALL"] = "(Wszystko)";
 $MESS["SPT_UNSET"] = "Wyczyść";
-?>

@@ -1,20 +1,34 @@
-<?
+<?php
 $MESS["BT_CAT_ADM_TOOLS_ADD_EXT"] = "Créer d'autres types de marchandise";
 $MESS["BT_CAT_ADM_TOOLS_ADD_EXT_TITLE"] = "Cliquez pour créer d'autres types de marchandises";
 $MESS["BT_CAT_ADM_TOOLS_ADD_GROUP"] = "Ajouter un ensemble de marchandises";
+$MESS["BT_CAT_ADM_TOOLS_ADD_GROUP_MSGVER_1"] = "Ensemble";
 $MESS["BT_CAT_ADM_TOOLS_ADD_GROUP_TITLE"] = "Cliquez pour ajouter un ensemble de marchandises";
 $MESS["BT_CAT_ADM_TOOLS_ADD_INSTAGRAM_IMPORT"] = "Importation Instagram";
+$MESS["BT_CAT_ADM_TOOLS_ADD_INSTAGRAM_IMPORT_2"] = "Importer depuis Instagram";
 $MESS["BT_CAT_ADM_TOOLS_ADD_INSTAGRAM_IMPORT_TITLE"] = "Cliquez pour ajouter des marchandises en utilisant Instagram";
-$MESS["BT_CAT_ADM_TOOLS_ADD_PROD"] = "Ajouter une marchandise simple";
+$MESS["BT_CAT_ADM_TOOLS_ADD_PRODUCT"] = "Produit";
+$MESS["BT_CAT_ADM_TOOLS_ADD_PROD_EXT"] = "Créer un produit";
+$MESS["BT_CAT_ADM_TOOLS_ADD_PROD_EXT_2"] = "Créer";
 $MESS["BT_CAT_ADM_TOOLS_ADD_PROD_TITLE"] = "Cliquez pour ajouter une marchandise sans UGS";
+$MESS["BT_CAT_ADM_TOOLS_ADD_SERVICE"] = "Service";
 $MESS["BT_CAT_ADM_TOOLS_ADD_SET"] = "Ajouter un ensemble de marchandises";
+$MESS["BT_CAT_ADM_TOOLS_ADD_SET_MSGVER_1"] = "Lot";
+$MESS["BT_CAT_ADM_TOOLS_ADD_SET_MSGVER_2"] = "Lot";
 $MESS["BT_CAT_ADM_TOOLS_ADD_SET_TITLE"] = "Cliquez pour ajouter un ensemble de marchandises";
 $MESS["BT_CAT_ADM_TOOLS_ADD_SKU"] = "Ajouter une marchandise avec UGS";
+$MESS["BT_CAT_ADM_TOOLS_ADD_SKU_2"] = "Produit avec UGS";
 $MESS["BT_CAT_ADM_TOOLS_ADD_SKU_TITLE"] = "Cliquez pour ajouter une marchandise avec UGS";
+$MESS["BT_CAT_ADM_TOOLS_DELETE_GROUP_LOCKED"] = "Enregistrer les modifications avant de supprimer le bundle de produits";
 $MESS["BT_CAT_ADM_TOOLS_TAB_CATALOG"] = "Catalogue commercial";
 $MESS["BT_CAT_ADM_TOOLS_TAB_GROUP"] = "Ensemble";
+$MESS["BT_CAT_ADM_TOOLS_TAB_GROUP_MSGVER_1"] = "Ensemble";
+$MESS["BT_CAT_ADM_TOOLS_TAB_PRODUCT"] = "Paramètres du produit";
+$MESS["BT_CAT_ADM_TOOLS_TAB_SERVICE"] = "Service";
 $MESS["BT_CAT_ADM_TOOLS_TAB_SET"] = "Ensemble";
+$MESS["BT_CAT_ADM_TOOLS_TAB_SET_MSGVER_1"] = "Lot";
 $MESS["BT_CAT_ADM_TOOLS_TAB_SKU"] = "Unités de gestion des stocks";
+$MESS["BT_CAT_ADM_TOOLS_TAB_TITLE_PRODUCT"] = "Préférences du système de produits";
 $MESS["BT_CAT_SET_HEADER_ACTIVE"] = "Actif(ve)";
 $MESS["BT_CAT_SET_HEADER_DISCOUNT_PERCENT_EXT"] = "Pourcentage de distribution des réductions";
 $MESS["BT_CAT_SET_HEADER_QUANTITY"] = "Quantité";
@@ -34,8 +48,9 @@ $MESS["BT_CAT_SET_PRODUCT_TYPE_GROUP_DELETE"] = "Supprimer l'ensemble";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_GROUP_DELETE_CONFIRM"] = "Voulez-vous vraiment supprimer l'ensemble ?";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SELECTOR"] = "Paramètres des marchandises";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SELECTOR_TITLE"] = "Modifier les paramètres de marchandise";
+$MESS["BT_CAT_SET_PRODUCT_TYPE_SERVICE"] = "Service";
+$MESS["BT_CAT_SET_PRODUCT_TYPE_SERVICE_FROM_SKU"] = "Supprimer tous les devis et enregistrer l'élément pour le convertir en service.";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SET"] = "Ensemble";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SET_DELETE_CONFIRM"] = "Voulez-vous vraiment supprimer l'ensemble de cette marchandise ?";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SET_FROM_SKU"] = "Supprimez tous les UGS associés et enregistrez l'élément pour le convertir en ensemble";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SKU"] = "Marchandise avec UGS";
-?>

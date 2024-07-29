@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BB_BLOG_URL"] = "Adresse du blogue à afficher";
 $MESS["BB_BLOG_VAR"] = "Nom de la variable pour l'identificateur de l'utilisateur";
 $MESS["BB_CACHE_TIME_LONG"] = "Temps de la mise en cache des pages restantes";
@@ -24,7 +24,7 @@ $MESS["BPC_IMAGE_MAX_HEIGHT"] = "Hauteur maximale de l'image";
 $MESS["BPC_IMAGE_MAX_WIDTH"] = "Largeur maximale de l'image";
 $MESS["B_VARIABLE_ALIASES"] = "Alias des variables";
 $MESS["POST_PROPERTY_LIST"] = "Afficher les propriétés supplémentaires du message";
-$MESS["RATING_TYPE"] = "Vue des boutons de rating";
+$MESS["RATING_TYPE"] = "Vue des boutons d'évaluation";
 $MESS["RATING_TYPE_CONFIG"] = "ordinaire";
 $MESS["RATING_TYPE_LIKE_GRAPHIC"] = "J'aime (graphique)";
 $MESS["RATING_TYPE_LIKE_TEXT"] = "J'aime (textuel)";
@@ -32,4 +32,3 @@ $MESS["RATING_TYPE_STANDART_GRAPHIC"] = "J'aime / Je n'aime pas (graphique)";
 $MESS["RATING_TYPE_STANDART_TEXT"] = "J'aime / Je n'aime pas (textuel)";
 $MESS["SHOW_RATING"] = "Activer le classement";
 $MESS["SHOW_RATING_CONFIG"] = "ordinaire";
-?>

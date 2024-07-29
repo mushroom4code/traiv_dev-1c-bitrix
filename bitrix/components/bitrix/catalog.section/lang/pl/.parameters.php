@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION_VARIABLE_TIP"] = "Nazwa zmiennej, w której wymagane działanie będzie przekazywane: ADD_TO_COMPARE_LIST, ADD2BASKET etc. Domyślną wartością jest <i>działanie</i>.";
 $MESS["ADD_PROPERTIES_TO_BASKET_TIP"] = "Wybierz właściwości, które chcesz przekazać do koszyka i zamówienia. Wymagane właściwości mogą wpływać na wybór klienta lub mogą być zmienione w koszyku (dla SKU). Właściwości, które będą wpływać na wypełnienie zamówienia (np. kolor pozycji) również są wymagane.";
 $MESS["AJAX_MODE_TIP"] = "Włącz AJAX w komponentach.";
@@ -11,6 +11,7 @@ $MESS["CACHE_TIME_TIP"] = "W tym miejscu określ okres czasu, w trakcie którego
 $MESS["COMPARE_PATH_TIP"] = "Określa ścieżkę do strony, która zawiera komponent porównywania produktów. Jeżeli puste, zostanie użyta bieżąca strona.";
 $MESS["CP_BCS_ADD_PROPERTIES_TO_BASKET"] = "Przekaż przedmiot i właściwości SKU do koszyka";
 $MESS["CP_BCS_ADD_SECTIONS_CHAIN"] = "Dodaj nazwę Sekcji do nawigacji ścieżki";
+$MESS["CP_BCS_ALLOW_SEO_DATA"] = "Ustaw wartości tagów SEO i tytuł strony";
 $MESS["CP_BCS_BROWSER_TITLE"] = "Ustaw tytuł okna przeglądarki z własności wartości";
 $MESS["CP_BCS_CACHE_GROUPS"] = "Respektuj prawa dostępu";
 $MESS["CP_BCS_COMPARE_PATH"] = "Strona porównywania produktu";
@@ -18,6 +19,13 @@ $MESS["CP_BCS_CONVERT_CURRENCY"] = "Użyj tylko jednej waluty do pokazywania cen
 $MESS["CP_BCS_CURRENCY_ID"] = "Konwertuj wszystkie ceny do waluty";
 $MESS["CP_BCS_DISPLAY_COMPARE"] = "Włącz porównywanie produktu";
 $MESS["CP_BCS_HIDE_NOT_AVAILABLE"] = "Ukryj przedmioty, których nie ma na magazynie";
+$MESS["CP_BCS_HIDE_NOT_AVAILABLE_HIDE"] = "nie pokazuj";
+$MESS["CP_BCS_HIDE_NOT_AVAILABLE_LAST"] = "przenieś na dół";
+$MESS["CP_BCS_HIDE_NOT_AVAILABLE_OFFERS"] = "Niedostępne SKU";
+$MESS["CP_BCS_HIDE_NOT_AVAILABLE_OFFERS_HIDE"] = "nie pokazuj";
+$MESS["CP_BCS_HIDE_NOT_AVAILABLE_OFFERS_SHOW"] = "pokaż wszystkie";
+$MESS["CP_BCS_HIDE_NOT_AVAILABLE_OFFERS_SUBSCRIBE"] = "pokaż jako opcję zasubskrybuj";
+$MESS["CP_BCS_HIDE_NOT_AVAILABLE_SHOW"] = "pokaż jako zwykłe";
 $MESS["CP_BCS_INCLUDE_SUBSECTIONS"] = "Pokaż elementy dla subsekcji";
 $MESS["CP_BCS_INCLUDE_SUBSECTIONS_ACTIVE"] = "aktywne podsekcje";
 $MESS["CP_BCS_INCLUDE_SUBSECTIONS_ALL"] = "wszystkie podsekcje";
@@ -97,4 +105,3 @@ $MESS["T_IBLOCK_DESC_DESCRIPTION"] = "Umieszczony opis strony od własności";
 $MESS["T_IBLOCK_DESC_KEYWORDS"] = "Umieszczone słowa kluczowe strony od własności";
 $MESS["T_IBLOCK_DESC_PAGER_CATALOG"] = "Produkty";
 $MESS["USE_PRICE_COUNT_TIP"] = "Jeżeli zaznaczone, wszystkie istniejące przedziały cenowe zostaną wybrane.";
-?>

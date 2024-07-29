@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["HK_ADD"] = "Agregar";
 $MESS["HK_ADD_TITLE"] = "Haga clic para agregar un nuevo atajo de teclado";
 $MESS["HK_CLASS_NAME"] = "nombre de clase";
@@ -46,5 +46,4 @@ $MESS["HK_PRM_URL_T"] = "Redirección de URL";
 $MESS["HK_SELECT"] = "Seleccione";
 $MESS["HK_TITLE_OBJ"] = "Objeto de título";
 $MESS["HK_UPDATE_ERROR"] = "No se puede actualizar métodos abreviados de teclado";
-$MESS["HK_URL"] = "Uso en URL:";
-?>
+$MESS["HK_URL"] = "Uso en URL";

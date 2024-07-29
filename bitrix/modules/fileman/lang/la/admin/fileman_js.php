@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FILEMAN_JS_ADD_INSERT"] = "Adicionalmente";
 $MESS["FILEMAN_JS_Actions"] = "Acciones";
 $MESS["FILEMAN_JS_AddSnippet"] = "Agregar Snippet";
@@ -58,7 +58,7 @@ $MESS["FILEMAN_JS_MoveComponent"] = "Mover componetes";
 $MESS["FILEMAN_JS_NoVal"] = "Ninguno";
 $MESS["FILEMAN_JS_Optimize"] = "Optimizar código-HTML";
 $MESS["FILEMAN_JS_PAGE_BREAK"] = "Insertar corte de página (para imprimir)";
-$MESS["FILEMAN_JS_PATH2SWF"] = "Fuente";
+$MESS["FILEMAN_JS_PATH2SWF"] = "Origen";
 $MESS["FILEMAN_JS_PHP_CODE"] = "Código arbitrario PHP";
 $MESS["FILEMAN_JS_Paste"] = "Pegar";
 $MESS["FILEMAN_JS_PasteAsText"] = "Pegar como texto plano";
@@ -170,7 +170,7 @@ $MESS["FILEMAN_JS_TPropImgAlt"] = "Alt";
 $MESS["FILEMAN_JS_TPropImgBorder"] = "Borde";
 $MESS["FILEMAN_JS_TPropImgHSpace"] = "H Espacio:";
 $MESS["FILEMAN_JS_TPropImgPath"] = "Fuente:";
-$MESS["FILEMAN_JS_TPropImgPath2"] = "Fuente";
+$MESS["FILEMAN_JS_TPropImgPath2"] = "Origen";
 $MESS["FILEMAN_JS_TPropImgTitle"] = "Título";
 $MESS["FILEMAN_JS_TPropImgVSpace"] = "V Espacio:";
 $MESS["FILEMAN_JS_TPropName"] = "Nombre Anchor:";
@@ -190,4 +190,3 @@ $MESS["FILEMAN_JS_TPropW"] = "Ancho";
 $MESS["FILEMAN_JS_Template"] = "Plantilla";
 $MESS["FILEMAN_JS_Undo"] = "Deshacer";
 $MESS["FILEMAN_JS_WrapTitle"] = "Envolver";
-?>

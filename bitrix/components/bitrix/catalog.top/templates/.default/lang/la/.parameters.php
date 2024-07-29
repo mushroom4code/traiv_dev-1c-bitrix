@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Imágenes adicionales para la propiedad del producto";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Agregar al carrito";
 $MESS["ADD_TO_BASKET_ACTION_BUY"] = "Comprar ahora";
@@ -31,6 +31,8 @@ $MESS["CP_BCT_TPL_MESS_BTN_DETAIL"] = "Texto del botón \"Detalles\"";
 $MESS["CP_BCT_TPL_MESS_BTN_DETAIL_DEFAULT"] = "Detalles";
 $MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE"] = "Mensaje de elemento no disponible";
 $MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Elemento no disponible";
+$MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Mensaje de servicio no disponible";
+$MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "No disponible";
 $MESS["CP_BCT_TPL_MESS_RELATIVE_QUANTITY_FEW"] = "Texto para valores inferiores a los calculados";
 $MESS["CP_BCT_TPL_MESS_RELATIVE_QUANTITY_FEW_DEFAULT"] = "sólo quedan unos pocos";
 $MESS["CP_BCT_TPL_MESS_RELATIVE_QUANTITY_MANY"] = "Texto para valores mayores que los calculados";
@@ -98,4 +100,3 @@ $MESS["SHOW_PAGINATION_TIP"] = "Muestra una tira de película de un slider para 
 $MESS["TEMPLATE_THEME_TIP"] = "Define los colores para representar el texto de sitio web y gráficos. Tema Azul es la opción predeterminada.";
 $MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Esto requiere que las opciones oogle Analytics Enhanced Ecommerce se configuren";
 $MESS["VIEW_MODE_TIP"] = "Esta opción define la forma en que los elementos se muestran en una página";
-?>

@@ -1,4 +1,9 @@
-<?
+<?php
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_MENU_HAS_ANY_VALUE"] = "Non vide";
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_MENU_IS_EMPTY"] = "Vide";
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_PLACEHOLDER_HAS_ANY_VALUE"] = "Non vide, toute valeur";
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_PLACEHOLDER_HOW"] = "Comment fonctionne ce champ ?";
+$MESS["MAIN_UI_FILTER__ADDITIONAL_FILTER_PLACEHOLDER_IS_EMPTY"] = "Vide";
 $MESS["MAIN_UI_FILTER__ADD_FIELD"] = "Ajouter un champ";
 $MESS["MAIN_UI_FILTER__ADD_FILTER"] = "Enregistrer le filtre";
 $MESS["MAIN_UI_FILTER__BUTTON_CANCEL"] = "Annuler";
@@ -9,6 +14,11 @@ $MESS["MAIN_UI_FILTER__CONFIRM_RESET_CANCEL"] = "Annuler";
 $MESS["MAIN_UI_FILTER__CONFIRM_RESET_MESSAGE"] = "Ceci va restaurer les filtres prédéfinis, mais ne modifiera pas vos propres filtres.";
 $MESS["MAIN_UI_FILTER__DRAG_TITLE"] = "Tirer pour trier la liste de filtres";
 $MESS["MAIN_UI_FILTER__EDIT_PRESET_TITLE"] = "Modifier le nom du filtre";
+$MESS["MAIN_UI_FILTER__FIELDS_SETTINGS_TITLE"] = "Paramètres du champ de filtre";
+$MESS["MAIN_UI_FILTER__FIELD_ALL_SECTIONS_DISABLED"] = "Sélectionnez les éléments pour afficher les champs.";
+$MESS["MAIN_UI_FILTER__FIELD_EMPTY_STATE_DESCRIPTION"] = "Assurez-vous de l'épeler correctement.";
+$MESS["MAIN_UI_FILTER__FIELD_EMPTY_STATE_TITLE"] = "Champ introuvable";
+$MESS["MAIN_UI_FILTER__FIELD_SEARCH_PLACEHOLDER"] = "Rechercher un champ";
 $MESS["MAIN_UI_FILTER__FILTER"] = "Filtres";
 $MESS["MAIN_UI_FILTER__FILTER_NAME_PLACEHOLDER"] = "Nom du filtre";
 $MESS["MAIN_UI_FILTER__FILTER_SETTINGS_TITLE"] = "Configurer le filtre";
@@ -24,4 +34,3 @@ $MESS["MAIN_UI_FILTER__RESET_LINK"] = "Revenir aux réglages par défaut";
 $MESS["MAIN_UI_FILTER__RESTORE_FIELDS"] = "Restaurer les champs par défaut";
 $MESS["MAIN_UI_FILTER__RESTORE_PRESET"] = "Restaurer le filtre";
 $MESS["MAIN_UI_FILTER__SET_AS_DEFAULT_PRESET"] = "Définir comme filtre par défaut";
-?>

@@ -1,5 +1,5 @@
-<?
-$MESS["SUP_SUAC_LOAD_M_BUTTON_CONF"] = "Atención! Bitrix Inc. No es responsable por el software desarrollado por los socios. Usted tendrá que contactar con el desarrollador directamente cada vez que tenga preguntas acerca de la funcionalidad del módulo o los posibles problemas del módulo pueden causar a su sitio web. Descargue el módulo?";
+<?php
+$MESS["SUP_SUAC_LOAD_M_BUTTON_CONF"] = "Atención! Bitrix24 No es responsable por el software desarrollado por los socios. Usted tendrá que contactar con el desarrollador directamente cada vez que tenga preguntas acerca de la funcionalidad del módulo o los posibles problemas del módulo pueden causar a su sitio web. Descargue el módulo?";
 $MESS["USMP_BACK"] = "Atrás";
 $MESS["USMP_CATEGORY"] = "Categoría";
 $MESS["USMP_DATE_CREATE"] = "Creado";
@@ -19,4 +19,3 @@ $MESS["USMP_TAB_2"] = "Módulo '#NAME#'";
 $MESS["USMP_TITLE"] = "Módulo #ID#";
 $MESS["USMP_TYPE"] = "Tipo";
 $MESS["USMP_YES"] = "Si";
-?>

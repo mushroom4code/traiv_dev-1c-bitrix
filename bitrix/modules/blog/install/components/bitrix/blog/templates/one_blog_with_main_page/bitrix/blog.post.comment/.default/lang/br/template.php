@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_CATEGORY_NAME"] = "Nome da Tag";
 $MESS["BLOG_P_INSERT_IMAGE_LINK"] = "Inserir link para a imagem";
 $MESS["BPC_BOLD"] = "Negrito";
@@ -17,7 +17,7 @@ $MESS["BPC_LIST_PROMPT"] = "Digite a lista de itens. Clique em 'Cancelar' ou tec
 $MESS["BPC_MES_DELETE_POST_CONFIRM"] = "Você tem certeza que deseja deletar este comentário?";
 $MESS["BPC_PAGE"] = "Página:";
 $MESS["BPC_PAGE_OF"] = "de";
-$MESS["BPC_QUOTE"] = "Citar";
+$MESS["BPC_QUOTE"] = "Citação";
 $MESS["BPC_TEXT_ENTER_IMAGE"] = "Digite o endereço da imagem completa (URL)";
 $MESS["BPC_TEXT_ENTER_URL"] = "Digite o endereço completo (URL)";
 $MESS["BPC_TEXT_ENTER_URL_NAME"] = "Digite o nome do site";
@@ -34,4 +34,3 @@ $MESS["B_B_MS_PREVIEW_TITLE"] = "Pré-Visualização";
 $MESS["B_B_MS_REPLY"] = "Responder";
 $MESS["B_B_MS_SEND"] = "Enviar";
 $MESS["B_B_MS_SUBJECT"] = "Assunto:";
-?>

@@ -1,8 +1,7 @@
-<?
+<?php
 $MESS["IBLOCK_ADM_ACTIVE"] = "Aktywne";
 $MESS["IBLOCK_ADM_CONFIRM_DEL_MESSAGE"] = "Wszelkie informacje dotyczące tego zapisu zostanie usunięta! W dalszym ciągu?";
 $MESS["IBLOCK_ADM_DELETE_ERROR"] = "Błąd podczas usuwania. Powiązany/e objekt(y) w miarę możliwości istnieją.";
-$MESS["IBLOCK_ADM_ELEMENTS"] = "Elementy";
 $MESS["IBLOCK_ADM_FILT_ACT"] = "Aktywne";
 $MESS["IBLOCK_ADM_FILT_NAME"] = "Nazwa:";
 $MESS["IBLOCK_ADM_FILT_SITE"] = "Strona";
@@ -20,7 +19,6 @@ $MESS["IBLOCK_ADM_MENU_BIZPROC"] = "Proces Biznesowy";
 $MESS["IBLOCK_ADM_MENU_PROPERTIES"] = "Właściwości";
 $MESS["IBLOCK_ADM_NAME"] = "Nazwa";
 $MESS["IBLOCK_ADM_SAVE_ERROR"] = "Błąd zapisu rekordu ##ID#: #ERROR_TEXT#";
-$MESS["IBLOCK_ADM_SECTIONS"] = "Sekcje";
 $MESS["IBLOCK_ADM_SORT"] = "Sort.";
 $MESS["IBLOCK_ADM_TIMESTAMP"] = "Modyf.";
 $MESS["IBLOCK_ADM_TITLE"] = "#IBLOCK_TYPE#: Bloki informacji";
@@ -32,7 +30,7 @@ $MESS["IBLOCK_ADM_TO_EL_LIST"] = "Otwórz listę elementu";
 $MESS["IBLOCK_ADM_TO_SECTLIST"] = "Otwórz listę sekcji";
 $MESS["IBLOCK_ADM_UPD_ERROR"] = "Błąd aktualizacji rekordu:";
 $MESS["IBLOCK_ALL"] = "(jakikolwiek)";
-$MESS["IBLOCK_FIELD_CODE"] = "Kod podatku";
+$MESS["IBLOCK_FIELD_CODE"] = "Kod symboliczny";
 $MESS["IBLOCK_NO"] = "Nie";
 $MESS["IBLOCK_YES"] = "Tak";
 $MESS["MAIN_ADMIN_LIST_ACTIVATE"] = "aktywuj";
@@ -42,4 +40,3 @@ $MESS["MAIN_ADMIN_LIST_DELETE"] = "Usuń";
 $MESS["MAIN_ADMIN_LIST_SELECTED"] = "Wybrany:";
 $MESS["MAIN_ADMIN_MENU_DELETE"] = "Usuń";
 $MESS["MAIN_ADMIN_MENU_EDIT"] = "Edytuj";
-?>

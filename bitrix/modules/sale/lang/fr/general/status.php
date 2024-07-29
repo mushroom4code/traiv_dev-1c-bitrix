@@ -1,8 +1,8 @@
-<?
+<?php
 $MESS["SIM_ACCEPTED"] = "Accepté";
 $MESS["SIM_ACCEPTED_DESCR"] = "Ordre a été acceptée, mais ne sont pas en cours de traitement encore (par exemple: pour peut-être vient d'être créé, ou en attente de paiement)";
 $MESS["SIM_FINISHED"] = "Achevé(e)s";
-$MESS["SIM_FINISHED_DESCR"] = "Ordre a été livré et payé";
+$MESS["SIM_FINISHED_DESCR"] = "La commande a été livrée et payée";
 $MESS["SKGS_CHANGING_SHIPMENT_STATUS_TO"] = "Modifier le statut d'expédition pour ";
 $MESS["SKGS_CHANGING_STATUS_TO"] = "Modification de l'état de la commande à";
 $MESS["SKGS_ERROR_ARCHIVED_DELETE"] = "Impossible de supprimer le statut, car il existe des commandes archivées dans ce statut.";
@@ -16,9 +16,9 @@ $MESS["SKGS_ORDER_ALLOW_PAY_STATUS_MAIL_BODY4"] = "Pour voir les détails de la 
 
 Merci !";
 $MESS["SKGS_ORDER_ALLOW_PAY_STATUS_MAIL_SUBJ"] = "#SERVER_NAME# : commande ##ORDER_ID# mise en paiement";
-$MESS["SKGS_ORDER_DATE"] = "date de l'ordre";
+$MESS["SKGS_ORDER_DATE"] = "Date de la commande";
 $MESS["SKGS_ORDER_EMAIL"] = "e-mail de l'utilisateur";
-$MESS["SKGS_ORDER_ID"] = "ID de l'ordre";
+$MESS["SKGS_ORDER_ID"] = "ID de la commande";
 $MESS["SKGS_ORDER_PUBLIC_LINK"] = "lien d'affichage de la commande pour les utilisateurs non autorisés (nécessite une configuration dans les paramètres du module e-Store)";
 $MESS["SKGS_ORDER_STATUS"] = "statut de la commande";
 $MESS["SKGS_SALE_EMAIL"] = "Service commercial e-mail";
@@ -46,4 +46,3 @@ $MESS["SKGS_STATUS_MAIL_BODY4"] = "Pour plus d'informations sur la commande, all
 Nous vous remercions de votre choix !";
 $MESS["SKGS_STATUS_MAIL_SUBJ"] = "#SERVER_NAME# : modification du statut de la commande N° #ORDER_ID#";
 $MESS["SKGS_STATUS_TEXT"] = "inscription (texte)";
-?>

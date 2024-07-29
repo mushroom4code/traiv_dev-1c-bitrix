@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_EDIT"] = "Éditer";
 $MESS["USER_TYPE_ADD_ALREADY_ERROR"] = "Le champ #FIELD_NAME# pour l'entité #ENTITY_ID# existe déjà.";
 $MESS["USER_TYPE_ADD_ERROR"] = "Erreur d'ajout de #FIELD_NAME# pour l'objet #ENTITY_ID#.";
@@ -13,6 +13,7 @@ $MESS["USER_TYPE_FIELD_NAME_INVALID"] = "Le nom du champ contient des caractère
 $MESS["USER_TYPE_FIELD_NAME_MISSING"] = "Le nom de domaine est pas défini.";
 $MESS["USER_TYPE_FIELD_NAME_NOT_UF"] = "Le nom du champ ne commence pas par UF_";
 $MESS["USER_TYPE_FIELD_NAME_TOO_LONG"] = "Le nom du champ est trop long (plus de 20 symboles).";
+$MESS["USER_TYPE_FIELD_NAME_TOO_LONG1"] = "Le nom du champ est trop long (plus de 50 symboles).";
 $MESS["USER_TYPE_FIELD_NAME_TOO_SHORT"] = "Le nom du champ est trop court (moins de 4 caractères).";
 $MESS["USER_TYPE_FIELD_VALUE_IS_MISSING"] = "Le champ obligatoire #FIELD_NAME# est manquant.";
 $MESS["USER_TYPE_PROP_ADD"] = "Ajouter";
@@ -21,4 +22,3 @@ $MESS["USER_TYPE_UPDATE_ERROR"] = "Erreur de modification de #FIELD_NAME# pour l
 $MESS["USER_TYPE_USER_TYPE_ID_INVALID"] = "Le type de mesure est invalide.";
 $MESS["USER_TYPE_USER_TYPE_ID_MISSING"] = "Le type de mesure est manquant.";
 $MESS["USER_TYPE_XML_ID_UNIQ"] = "Un élément de la liste de valeur XML_ID=#XML_ID#  existe déjà.";
-?>

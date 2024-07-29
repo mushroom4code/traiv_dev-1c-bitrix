@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_ADD_NEW_REC"] = "Błąd dodawania nowego statusu";
 $MESS["ERROR_ADD_REC"] = "Błąd dodawania statusu";
 $MESS["ERROR_DELETE"] = "Błąd usuwania statusu";
@@ -19,6 +19,7 @@ $MESS["SSAN_ADD_NEW"] = "Nowy status";
 $MESS["SSAN_ADD_NEW_ALT"] = "Kliknij, aby dodać nowy status";
 $MESS["SSAN_NOTIFY_N"] = "Nie";
 $MESS["SSAN_NOTIFY_Y"] = "Tak";
+$MESS["SSEN_TYPE_O"] = "Zamówienie";
 $MESS["STATUS_DEL"] = "Usuń";
 $MESS["STATUS_DEL_CONF"] = "Na pewno chcesz usunąć ten status? Jeżeli ten status ma dołączone zamówienia, nie zostanie usunięty.";
 $MESS["STATUS_F_DESCR"] = "Opis:";
@@ -29,4 +30,3 @@ $MESS["STATUS_RESET"] = "Anuluj";
 $MESS["STATUS_SORT"] = "Sort.";
 $MESS["STATUS_TITLE"] = "Statusy zamówień";
 $MESS["STATUS_UPD"] = "Zapisz";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_ACCESS"] = "Acesso:";
 $MESS["BLOG_ADDRESSES"] = "Endereço do link de retorno:";
 $MESS["BLOG_ALLOW_TRACKBACK"] = "Permitir links de retorno para esta mensagem";
@@ -60,8 +60,7 @@ $MESS["FPF_HYPERLINK"] = "Hyperlink";
 $MESS["FPF_IMAGE"] = "Cor";
 $MESS["FPF_ITALIC"] = "Itálico";
 $MESS["FPF_LIST"] = "Criar lista";
-$MESS["FPF_QUOTE"] = "Citar";
+$MESS["FPF_QUOTE"] = "Citação";
 $MESS["FPF_UNDER"] = "Sublinhado";
 $MESS["FPF_VIDEO"] = "Inserir vídeo";
 $MESS["STOF_REQUIED_FIELDS_NOTE"] = "Campos obrigatórios estão marcados com asterisco (<span style=\"color:#FF0000\">*</span>).";
-?>

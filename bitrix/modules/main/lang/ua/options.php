@@ -229,9 +229,17 @@ $MESS["main_option_mail_period"] = "Скільки днів зберігати �
 $MESS["main_option_qrcode_auth"] = "Дозволити аутентифікацію за QR-кодом:";
 $MESS["main_options_block_inactive"] = "Деактивувати коричтувачів, які давно не заходили (днів):";
 $MESS["main_options_control_diplicates"] = "Контролювати завантаження дублікатів файлів:";
+$MESS["main_options_device_geoip"] = "Збирати IP-геодані для історії входів:";
+$MESS["main_options_device_history"] = "Зберігати історію входів із пристроїв користувача:";
+$MESS["main_options_device_history_days"] = "Скільки днів зберігати історію входів:";
+$MESS["main_options_device_history_note"] = "Для кращого визначення пристроїв налаштуйте <a href=\"https://www.php.net/manual/en/function.get-browser.php\" target = \"_blank\">browscap</a> у PHP. Використовуйте останню версію файлу ini з <a href=\"http://browscap.org\" target=\"_blank\">Browser Capabilities Project</a>.";
+$MESS["main_options_device_history_notify"] = "Сповіщати користувачів про вхід із нового пристрою (<a href=\"#EMAIL_TEMPLATES_URL#\">поштові шаблони</a>):";
+$MESS["main_options_device_history_title"] = "Історія входів і пристроїв";
 $MESS["main_options_diplicates_max_size"] = "Максимальний розмір файлу для контролю дублікатів (Мб):";
 $MESS["main_options_email_register"] = "Реєструвати користувачів за email адресою:";
 $MESS["main_options_files"] = "Файли кеша очищені.";
+$MESS["main_options_geo"] = "Геолокація";
+$MESS["main_options_geo_collect_names"] = "Зберігати назви розташування Geonames в локальну БД:";
 $MESS["main_options_mail"] = "Пошта";
 $MESS["main_options_mail_sms"] = "Пошта та СМС";
 $MESS["main_options_mail_sms_title"] = "Налаштування параметрів email і СМС";

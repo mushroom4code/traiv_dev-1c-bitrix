@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MARKETPLACE_ALL_APPS"] = "Todas las aplicaciones";
 $MESS["MARKETPLACE_APP_FREE"] = "Gratis";
 $MESS["MARKETPLACE_APP_NEW"] = "Nuevo";
@@ -15,4 +15,4 @@ $MESS["MARKETPLACE_FILTER_INSTALLS_10000"] = "más de 10000";
 $MESS["MARKETPLACE_FILTER_MOBILE_COMPATIBLE"] = "Compatible con Bitrix24 móvil";
 $MESS["MARKETPLACE_FILTER_PAID"] = "Comercial";
 $MESS["MARKETPLACE_FILTER_PRICE"] = "Precio";
-?>
+$MESS["MARKETPLACE_FILTER_SALE_OUT"] = "Descuento";

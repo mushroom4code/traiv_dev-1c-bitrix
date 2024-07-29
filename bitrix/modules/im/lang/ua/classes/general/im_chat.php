@@ -1,4 +1,6 @@
 <?php
+$MESS["IM_CHAT_ACCESS_DENIED_EXTEND_USERS"] = "Недостатньо прав на додавання учасників до чату.";
+$MESS["IM_CHAT_ACCESS_DENIED_KICK_USERS"] = "Недостатньо прав на виключення учасників із чату.";
 $MESS["IM_CHAT_CHANGE_COLOR_F"] = "#USER_NAME# змінила колір чату на \"#CHAT_COLOR#\"";
 $MESS["IM_CHAT_CHANGE_COLOR_M"] = "#USER_NAME# змінив колір чату на \"#CHAT_COLOR#\"";
 $MESS["IM_CHAT_CHANGE_TITLE"] = "Нова тема чату \"#CHAT_TITLE#\"";
@@ -16,6 +18,8 @@ $MESS["IM_CHAT_JOIN_F"] = "#USER_1_NAME# запросила в чат #USER_2_NA
 $MESS["IM_CHAT_JOIN_M"] = "#USER_1_NAME# запросив в чат #USER_2_NAME#";
 $MESS["IM_CHAT_KICK_F"] = "#USER_1_NAME# виключила #USER_2_NAME# з чату";
 $MESS["IM_CHAT_KICK_M"] = "#USER_1_NAME# виключив #USER_2_NAME# з чату";
+$MESS["IM_CHAT_KICK_NOTIFICATION_F"] = "Користувач #USER_NAME# виключив вас із чату";
+$MESS["IM_CHAT_KICK_NOTIFICATION_M"] = "Користувач #USER_NAME# виключив вас із чату";
 $MESS["IM_CHAT_LEAVE_F"] = "#USER_NAME# покинула чат";
 $MESS["IM_CHAT_LEAVE_M"] = "#USER_NAME# покинув чат";
 $MESS["IM_CHAT_NAME_FORMAT"] = "#COLOR# чат №#NUMBER#";

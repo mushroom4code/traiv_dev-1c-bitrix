@@ -1,4 +1,8 @@
-<?
+<?php
+$MESS["SENDER_CONTACT_CONSENT_APPLY"] = "O contato confirmou o consentimento, boletim informativo programado";
+$MESS["SENDER_CONTACT_CONSENT_REJECT"] = "O contato rejeitou o consentimento";
+$MESS["SENDER_CONTACT_CONSENT_WAIT"] = "Consentimento pendente";
+$MESS["SENDER_CONTACT_DELETED"] = "Contato excluído";
 $MESS["SENDER_LETTER_RCP_LIST_TITLE"] = "Destinatários";
 $MESS["SENDER_LETTER_RCP_LIST_TITLE_CONTACT"] = "Boletins informativos enviados";
 $MESS["SENDER_LETTER_RCP_UI_COLUMN_CLICK"] = "Clicados";
@@ -12,11 +16,12 @@ $MESS["SENDER_LETTER_RCP_UI_COLUMN_STATUS"] = "Status";
 $MESS["SENDER_LETTER_RCP_UI_COLUMN_UNSUB"] = "Descadastrados";
 $MESS["SENDER_LETTER_RCP_UI_NO"] = "Não";
 $MESS["SENDER_LETTER_RCP_UI_PRESET_ALL"] = "Todas";
+$MESS["SENDER_LETTER_RCP_UI_PRESET_APPLY"] = "Consentimento confirmado";
 $MESS["SENDER_LETTER_RCP_UI_PRESET_CLICK"] = "Clicados";
 $MESS["SENDER_LETTER_RCP_UI_PRESET_ERROR"] = "Erros";
 $MESS["SENDER_LETTER_RCP_UI_PRESET_READ"] = "Lido";
+$MESS["SENDER_LETTER_RCP_UI_PRESET_REJECT"] = "Consentimento rejeitado";
 $MESS["SENDER_LETTER_RCP_UI_PRESET_SENT"] = "Enviado";
 $MESS["SENDER_LETTER_RCP_UI_PRESET_UNSENT"] = "Não enviado";
 $MESS["SENDER_LETTER_RCP_UI_PRESET_UNSUB"] = "Descadastrados";
 $MESS["SENDER_LETTER_RCP_UI_YES"] = "Sim";
-?>

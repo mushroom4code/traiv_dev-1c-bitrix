@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["FILEMAN_ALIGN_BOTTOM"] = "fundo";
 $MESS["FILEMAN_ALIGN_LEFT"] = "esquerda";
 $MESS["FILEMAN_ALIGN_MIDDLE"] = "meio";
@@ -56,7 +56,6 @@ $MESS["FILEMAN_ED_LINK_ACH"] = "ncora:";
 $MESS["FILEMAN_ED_LINK_ATITLE"] = "Tooltip:";
 $MESS["FILEMAN_ED_LINK_DOC"] = "URL do link";
 $MESS["FILEMAN_ED_LINK_NOINDEX"] = "Negar motores de busca (nofollow, noindex)";
-$MESS["FILEMAN_ED_LINK_STAT"] = "Registrar os cliques nas estatísticas";
 $MESS["FILEMAN_ED_LINK_TITLE"] = "ncora com nome";
 $MESS["FILEMAN_ED_LINK_TYPE"] = "Tipo:";
 $MESS["FILEMAN_ED_LINK_TYPE1"] = "Link para documento no servidor";
@@ -130,4 +129,3 @@ $MESS["FILEMAN_NO_VAL"] = "Nenhum";
 $MESS["FILEMAN_REL"] = "Atributo REL";
 $MESS["FILEMAN_SAVE_PROPORTIONS"] = "Manter proporções";
 $MESS["FILEMAN_SIZES"] = "Tamanho (L / A)";
-?>

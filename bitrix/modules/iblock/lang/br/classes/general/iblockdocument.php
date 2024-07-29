@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BPCGHLP_PROP_BOOL"] = "Sim/Não";
 $MESS["BPCGHLP_PROP_DATA"] = "Data";
 $MESS["BPCGHLP_PROP_DATETIME"] = "Data/hora";
@@ -7,7 +7,7 @@ $MESS["BPCGHLP_PROP_FILE"] = "Arquivo";
 $MESS["BPCGHLP_PROP_INT"] = "Número inteiro";
 $MESS["BPCGHLP_PROP_SELECT"] = "Lista";
 $MESS["BPCGHLP_PROP_SELECT_INTERNAL"] = "Vincular às listas de documento";
-$MESS["BPCGHLP_PROP_STRING"] = "String";
+$MESS["BPCGHLP_PROP_STRING"] = "Série";
 $MESS["BPCGHLP_PROP_TEXT"] = "Texto de múltiplas linhas";
 $MESS["BPCGHLP_PROP_USER"] = "Usuários";
 $MESS["BPVDX_NO"] = "Não";
@@ -33,7 +33,7 @@ $MESS["IBD_FIELD_DETAIL_TEXT"] = "Texto completo";
 $MESS["IBD_FIELD_DETAIL_TEXT_TYPE"] = "Tipo de texto completo";
 $MESS["IBD_FIELD_IBLOCK_ID"] = "ID do Bloco de informações";
 $MESS["IBD_FIELD_ID"] = "ID do elemento";
-$MESS["IBD_FIELD_MODIFIED_BY_USER_PRINTABLE"] = "Editado por";
+$MESS["IBD_FIELD_MODIFIED_BY_USER_PRINTABLE"] = "Editado por (nome)";
 $MESS["IBD_FIELD_MODYFIED"] = "Elemento Última Modificação Por";
 $MESS["IBD_FIELD_NAME"] = "Título do elemento";
 $MESS["IBD_FIELD_PREVIEW_PICTURE"] = "Imagem de visualização";
@@ -45,4 +45,3 @@ $MESS["IBD_FIELD_USERNAME_PROPERTY"] = " (nome)";
 $MESS["IBD_FIELD_XML_ID"] = "ID Externo";
 $MESS["IBD_OPERATION_READ"] = "Ler";
 $MESS["IBD_OPERATION_WRITE"] = "Gravar";
-?>

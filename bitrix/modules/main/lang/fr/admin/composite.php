@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["COMPOSITE_BANNER_TEXT"] = "Vite avec Bitrix";
 $MESS["COMPOSITE_BANNER_URL"] = "http://www.bitrixsoft.com/composite/";
 $MESS["MAIN_ADD"] = "Ajouter";
@@ -27,7 +27,7 @@ $MESS["MAIN_COMPOSITE_AUTO_OFF"] = "Mode autocomposite désactivé";
 $MESS["MAIN_COMPOSITE_AUTO_ON"] = "Mode autocomposite activé";
 $MESS["MAIN_COMPOSITE_BANNER_BGCOLOR"] = "Modifier la couleur du fond";
 $MESS["MAIN_COMPOSITE_BANNER_DISCLAIMER"] = "L'activation de la technologie <b>Site Composite</b> ajoute automatiquement le bouton dans le coin droit en bas des pages qui utilisent cette technologie. Vous pouvez personnaliser les options d'affichage du bouton. Si vous voulez délacer alors sélectionnez dans la bonne positon du site le domaine <b>id = &quot; bx-composite-banner&quot;</b>.";
-$MESS["MAIN_COMPOSITE_BANNER_SELECT_STYLE"] = "Vue de la touche";
+$MESS["MAIN_COMPOSITE_BANNER_SELECT_STYLE"] = "Vue de bouton";
 $MESS["MAIN_COMPOSITE_BANNER_SEP"] = "Bouton";
 $MESS["MAIN_COMPOSITE_BANNER_STYLE"] = "Modifier la couleur du logo et de l'entrée";
 $MESS["MAIN_COMPOSITE_BANNER_STYLE_WHITE"] = "Fonds blanc";
@@ -50,7 +50,7 @@ $MESS["MAIN_COMPOSITE_CHECK_CONNECTION_OK"] = "Connexion établie";
 $MESS["MAIN_COMPOSITE_CLEAR_CACHE"] = "Vider le cache";
 $MESS["MAIN_COMPOSITE_CLUSTER_HINT"] = "Les paramètres de la connexion à memcached sont réglés sur la page du module #A_START#Groupe Web#A_END#.";
 $MESS["MAIN_COMPOSITE_COMPOSITE_SWITCH_DESC1"] = "Migrer un site vers la nouvelle technologie n'est pas compliqué. Il faut cependant du temps si le projet est important et ancien.";
-$MESS["MAIN_COMPOSITE_COMPOSITE_SWITCH_DESC2"] = "D'après notre expérience, un projet aussi important que le site Bitrix Inc. peut être migré en quatre jours si un seul développeur est impliqué.";
+$MESS["MAIN_COMPOSITE_COMPOSITE_SWITCH_DESC2"] = "D'après notre expérience, un projet aussi important que le site Bitrix24 peut être migré en quatre jours si un seul développeur est impliqué.";
 $MESS["MAIN_COMPOSITE_COMPOSITE_SWITCH_DESC3"] = "Procédez de la sorte pour migrer votre projet vers la technologie autocomposite : ";
 $MESS["MAIN_COMPOSITE_COMPOSITE_SWITCH_ON"] = "Activez la technologie autocomposite !";
 $MESS["MAIN_COMPOSITE_COMPOSITE_SWITCH_TASK1"] = "Une documentation complète sera bientôt disponible.";
@@ -105,4 +105,3 @@ $MESS["MAIN_COMPOSITE_TITLE"] = "Site composite";
 $MESS["MAIN_COMPOSITE_VOTING_TITLE"] = "Vote du mode composite";
 $MESS["MAIN_COMPOSITE_WARNING"] = "La mise en cache statique a été activé. Désactivez.";
 $MESS["MAIN_COMPOSITE_WARNING_EDUCATION"] = "-";
-?>

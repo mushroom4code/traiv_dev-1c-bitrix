@@ -1,9 +1,11 @@
-<?
+<?php
 $MESS["ADS_CLIENT_VIEW"] = "Ver destinatarios del anuncio";
 $MESS["ADS_CONNECT_CABINET"] = "Conectar cuentas publicitarias";
 $MESS["ADS_FB_INSTAGRAM_EDIT"] = "Administrar Anuncios de Facebook + Instagram";
-$MESS["ADS_GOOGLE_EDIT"] = "Administrar Google AdWords";
+$MESS["ADS_GOOGLE_EDIT_MSGVER_1"] = "Administrar Google Ads";
 $MESS["ADS_LOOK_ALIKE_FB_EDIT"] = "Administre Anuncios similares de Facebook + Instagram";
+$MESS["ADS_MARKETING_FB_EDIT"] = "Administrar anuncios de Facebook";
+$MESS["ADS_MARKETING_INSTAGRAM_EDIT"] = "Administrar anuncios de Instagram";
 $MESS["ADS_PAUSE_START_STOP"] = "Ejecutar, detener y pausar anuncios";
 $MESS["ADS_VIEW"] = "Ver campañas publicitarias";
 $MESS["BLACKLIST_EDIT"] = "Editar lista negra";
@@ -20,7 +22,7 @@ $MESS["RC_EDIT"] = "Crear reglas de Generador de ventas";
 $MESS["RC_PAUSE_START_STOP"] = "Ejecutar, detener y pausar Generador de ventas";
 $MESS["RC_VIEW"] = "Ver reglas de Generador de ventas";
 $MESS["SEGMENT_CLIENT_EDIT"] = "Editar clientes";
-$MESS["SEGMENT_CLIENT_OWN_CATEGORY"] = "Ver clientes de pipeline actual";
+$MESS["SEGMENT_CLIENT_OWN_CATEGORY"] = "Ver los clientes del pipeline actual";
 $MESS["SEGMENT_CLIENT_PERSONAL_EDIT"] = "Subir direcciones personalizadas";
 $MESS["SEGMENT_CLIENT_VIEW"] = "Ver clientes del segmento";
 $MESS["SEGMENT_EDIT"] = "Crear y editar segmentos";
@@ -31,4 +33,3 @@ $MESS["SETTINGS_VIEW"] = "Ver configuraciones";
 $MESS["START_VIEW"] = "Ver página de inicio";
 $MESS["TEMPLATE_EDIT"] = "Editar plantillas";
 $MESS["TEMPLATE_VIEW"] = "Ver plantillas";
-?>

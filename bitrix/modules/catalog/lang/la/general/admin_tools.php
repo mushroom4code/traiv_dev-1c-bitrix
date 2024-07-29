@@ -1,20 +1,34 @@
-<?
+<?php
 $MESS["BT_CAT_ADM_TOOLS_ADD_EXT"] = "Agregar otros tipos de productos";
 $MESS["BT_CAT_ADM_TOOLS_ADD_EXT_TITLE"] = "Haga clic para agregar otros tipos de productos";
 $MESS["BT_CAT_ADM_TOOLS_ADD_GROUP"] = "Agregar paquete de productos";
+$MESS["BT_CAT_ADM_TOOLS_ADD_GROUP_MSGVER_1"] = "Conjunto";
 $MESS["BT_CAT_ADM_TOOLS_ADD_GROUP_TITLE"] = "Haga clic para agregar paquete de productos";
 $MESS["BT_CAT_ADM_TOOLS_ADD_INSTAGRAM_IMPORT"] = "Importación Instagram";
+$MESS["BT_CAT_ADM_TOOLS_ADD_INSTAGRAM_IMPORT_2"] = "Importar de Instagram";
 $MESS["BT_CAT_ADM_TOOLS_ADD_INSTAGRAM_IMPORT_TITLE"] = "Haga clic para agregar productos usando Instagram";
-$MESS["BT_CAT_ADM_TOOLS_ADD_PROD"] = "Agregar producto simple";
+$MESS["BT_CAT_ADM_TOOLS_ADD_PRODUCT"] = "Producto";
+$MESS["BT_CAT_ADM_TOOLS_ADD_PROD_EXT"] = "Crear producto";
+$MESS["BT_CAT_ADM_TOOLS_ADD_PROD_EXT_2"] = "Crear";
 $MESS["BT_CAT_ADM_TOOLS_ADD_PROD_TITLE"] = "Haga clic para agregar un producto sin SKU";
+$MESS["BT_CAT_ADM_TOOLS_ADD_SERVICE"] = "Servicio";
 $MESS["BT_CAT_ADM_TOOLS_ADD_SET"] = "Agregar conjunto de productos";
+$MESS["BT_CAT_ADM_TOOLS_ADD_SET_MSGVER_1"] = "Paquete";
+$MESS["BT_CAT_ADM_TOOLS_ADD_SET_MSGVER_2"] = "Paquete";
 $MESS["BT_CAT_ADM_TOOLS_ADD_SET_TITLE"] = "Haga clic para agregar conjunto de productos";
 $MESS["BT_CAT_ADM_TOOLS_ADD_SKU"] = "Agregar producto con SKU";
+$MESS["BT_CAT_ADM_TOOLS_ADD_SKU_2"] = "Producto con SKU";
 $MESS["BT_CAT_ADM_TOOLS_ADD_SKU_TITLE"] = "Haga clic para agregar un producto con SKU";
+$MESS["BT_CAT_ADM_TOOLS_DELETE_GROUP_LOCKED"] = "Guardar los cambios antes de eliminar el paquete de productos";
 $MESS["BT_CAT_ADM_TOOLS_TAB_CATALOG"] = "Catálogo comercial";
 $MESS["BT_CAT_ADM_TOOLS_TAB_GROUP"] = "Paquete";
+$MESS["BT_CAT_ADM_TOOLS_TAB_GROUP_MSGVER_1"] = "Conjunto";
+$MESS["BT_CAT_ADM_TOOLS_TAB_PRODUCT"] = "Parámetros del producto";
+$MESS["BT_CAT_ADM_TOOLS_TAB_SERVICE"] = "Servicio";
 $MESS["BT_CAT_ADM_TOOLS_TAB_SET"] = "Conjunto";
+$MESS["BT_CAT_ADM_TOOLS_TAB_SET_MSGVER_1"] = "Paquete";
 $MESS["BT_CAT_ADM_TOOLS_TAB_SKU"] = "SKU's";
+$MESS["BT_CAT_ADM_TOOLS_TAB_TITLE_PRODUCT"] = "Preferencias del sistema de productos";
 $MESS["BT_CAT_SET_HEADER_ACTIVE"] = "Activo";
 $MESS["BT_CAT_SET_HEADER_DISCOUNT_PERCENT_EXT"] = "Porcentaje de distribución de descuento";
 $MESS["BT_CAT_SET_HEADER_QUANTITY"] = "Cantidad";
@@ -34,8 +48,9 @@ $MESS["BT_CAT_SET_PRODUCT_TYPE_GROUP_DELETE"] = "Eliminar producto";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_GROUP_DELETE_CONFIRM"] = "¿Está seguro que desea eliminar el paquete?";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SELECTOR"] = "Parámetros de producto";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SELECTOR_TITLE"] = "Editar parámetros de producto";
+$MESS["BT_CAT_SET_PRODUCT_TYPE_SERVICE"] = "Servicio";
+$MESS["BT_CAT_SET_PRODUCT_TYPE_SERVICE_FROM_SKU"] = "Eliminar todas las cotizaciones y guardar el elemento para convertirlo en un servicio.";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SET"] = "Conjunto";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SET_DELETE_CONFIRM"] = "Está seguro que desea eliminar el conjunto para este producto?";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SET_FROM_SKU"] = "Elimine todos los archivos asociados de SKU y guarde el elemento para convertirlo en conjunto";
 $MESS["BT_CAT_SET_PRODUCT_TYPE_SKU"] = "Producto con SKU's";
-?>

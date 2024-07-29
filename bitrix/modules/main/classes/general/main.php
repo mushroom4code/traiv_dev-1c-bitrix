@@ -236,7 +236,7 @@ abstract class CAllMain
 			}
 		}
 
-		if (mb_substr($this->GetCurDir(), 0, mb_strlen(BX_ROOT . "/admin/")) == BX_ROOT . "/admin/" || (defined("ADMIN_SECTION") && ADMIN_SECTION === true))
+		if (str_starts_with($this->GetCurDir(), BX_ROOT . "/admin/") || (defined("ADMIN_SECTION") && ADMIN_SECTION === true))
 		{
 			$isAdmin = "_admin";
 		}
@@ -1077,7 +1077,7 @@ abstract class CAllMain
 
 	public function GetTemplatePath($rel_path)
 	{
-		if (mb_substr($rel_path, 0, 1) != "/")
+		if (!str_starts_with($rel_path, "/"))
 		{
 			if (defined("SITE_TEMPLATE_ID"))
 			{
@@ -1343,7 +1343,7 @@ abstract class CAllMain
 
 		$sType = "TEMPLATE";
 		$bComponent = false;
-		if (mb_substr($rel_path, 0, 1) != "/")
+		if (!str_starts_with($rel_path, "/"))
 		{
 			$bComponent = true;
 			$path = getLocalPath("templates/" . SITE_TEMPLATE_ID . "/" . $rel_path, BX_PERSONAL_ROOT);
@@ -1373,17 +1373,18 @@ abstract class CAllMain
 			$path = $rel_path;
 		}
 
-		if ($arFunctionParams["WORKFLOW"] && !IsModuleInstalled("workflow"))
+		if (isset($arFunctionParams["WORKFLOW"]) && $arFunctionParams["WORKFLOW"] && !IsModuleInstalled("workflow"))
 		{
 			$arFunctionParams["WORKFLOW"] = false;
 		}
-		elseif ($sType != "TEMPLATE" && $arFunctionParams["WORKFLOW"])
+		elseif ($sType != "TEMPLATE" && isset($arFunctionParams["WORKFLOW"]) && $arFunctionParams["WORKFLOW"])
 		{
 			$arFunctionParams["WORKFLOW"] = false;
 		}
 
 		$bDrawIcons = (
-			$arFunctionParams["SHOW_BORDER"] !== false && $APPLICATION->GetShowIncludeAreas()
+			(!isset($arFunctionParams["SHOW_BORDER"]) || $arFunctionParams["SHOW_BORDER"] !== false)
+			&& $APPLICATION->GetShowIncludeAreas()
 			&& (
 				$USER->CanDoFileOperation('fm_edit_existent_file', [SITE_ID, $path])
 				|| ($arFunctionParams["WORKFLOW"] && $USER->CanDoFileOperation('fm_edit_in_workflow', [SITE_ID, $path]))
@@ -2063,12 +2064,12 @@ abstract class CAllMain
 			return (!$task_mode ? 'X' : [CTask::GetIdByLetter('X', 'main', 'file')]);
 		}
 
-		if (mb_substr($path, -12) == "/.access.php")
+		if (str_ends_with($path, "/.access.php"))
 		{
 			return (!$task_mode ? 'D' : [CTask::GetIdByLetter('D', 'main', 'file')]);
 		}
 
-		if (mb_substr($path, -10) == "/.htaccess")
+		if (str_ends_with($path, "/.htaccess"))
 		{
 			return (!$task_mode ? 'D' : [CTask::GetIdByLetter('D', 'main', 'file')]);
 		}
@@ -2165,9 +2166,9 @@ abstract class CAllMain
 
 					if ($task_mode)
 					{
-						if (mb_substr($perm, 0, 2) == 'T_')
+						if (str_starts_with($perm, 'T_'))
 						{
-							$tid = intval(mb_substr($perm, 2));
+							$tid = intval(substr($perm, 2));
 						}
 						elseif (($tid = CTask::GetIdByLetter($perm, 'main', 'file')) === false)
 						{
@@ -2178,9 +2179,9 @@ abstract class CAllMain
 					}
 					else
 					{
-						if (mb_substr($perm, 0, 2) == 'T_')
+						if (str_starts_with($perm, 'T_'))
 						{
-							$tid = intval(mb_substr($perm, 2));
+							$tid = intval(substr($perm, 2));
 							$perm = CTask::GetLetter($tid);
 							if ($perm == '')
 							{
@@ -2401,7 +2402,7 @@ abstract class CAllMain
 	{
 		$cur_dir = $this->GetCurDir();
 		$cur_page = $this->GetCurPage();
-		$bAdmin = (mb_substr($cur_dir, 0, mb_strlen(BX_ROOT . "/admin/")) == BX_ROOT . "/admin/");
+		$bAdmin = (str_starts_with($cur_dir, BX_ROOT . "/admin/"));
 
 		$path_without_lang = $path_without_lang_tmp = "";
 
@@ -3047,7 +3048,7 @@ abstract class CAllMain
 						$bGood = true;
 						foreach ($arrDomain2 as $domain2)
 						{
-							if (mb_strlen($domain1) > mb_strlen($domain2) && mb_substr($domain1, -(mb_strlen($domain2) + 1)) == "." . $domain2)
+							if (mb_strlen($domain1) > mb_strlen($domain2) && str_ends_with($domain1, "." . $domain2))
 							{
 								$bGood = false;
 								break;

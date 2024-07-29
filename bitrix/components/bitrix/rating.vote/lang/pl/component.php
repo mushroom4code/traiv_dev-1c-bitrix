@@ -1,5 +1,5 @@
 <?
-$MESS["RATING_COMPONENT_DESC"] = "Głosów ? %s (%s tak i %s nie)";
+$MESS["RATING_COMPONENT_DESC"] = "Głosów - %s (%s tak i %s nie)";
 $MESS["RATING_COMPONENT_NO_VOTES"] = "brak głosów";
 $MESS["RATING_TEXT_A"] = "Lubisz to?";
 $MESS["RATING_TEXT_D"] = "Podoba mi się:";

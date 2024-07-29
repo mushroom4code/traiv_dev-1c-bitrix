@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_MENU_AGENT"] = "Agentes";
 $MESS["MAIN_MENU_AGENT_ALT"] = "Administrador de Agentes";
 $MESS["MAIN_MENU_CACHE"] = "Herramientas de caché";
@@ -82,6 +82,8 @@ $MESS["MAIN_MENU_SMILE_GALLERY_LIST"] = "Galerías y packs";
 $MESS["MAIN_MENU_SMILE_GALLERY_LIST_ALT"] = "Administrar galerías de emoticonos y packs";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST"] = "Importar los emoticonos";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST_ALT"] = "Importaciones de emoticonos desde archivos externos";
+$MESS["MAIN_MENU_SMTP_CONFIG"] = "Configuración de SMTP";
+$MESS["MAIN_MENU_SMTP_CONFIG_TITLE"] = "Configuración de SMTP";
 $MESS["MAIN_MENU_SQL"] = "Consulta SQL";
 $MESS["MAIN_MENU_SQL_ALT"] = "Ejecuta consula SQL en la base de datos";
 $MESS["MAIN_MENU_SYSTEM_CHECKER"] = "Revisión del sistema";
@@ -114,6 +116,7 @@ $MESS["MAIN_MENU_URLREWRITE_ALT"] = "Configuración de reglas de procesamiento d
 $MESS["MAIN_MENU_USERS"] = "Usuarios";
 $MESS["MAIN_MENU_USERS_ALT"] = "Administrar el perfil de usuario";
 $MESS["MAIN_MENU_USER_CONSENT"] = "Consentimiento";
+$MESS["MAIN_MENU_USER_CONSENT_1"] = "Acuerdos y consentimientos";
 $MESS["MAIN_MENU_USER_FIELD"] = "Campos personalizados";
 $MESS["MAIN_MENU_USER_FIELD_TITLE"] = "Campos personalizados";
 $MESS["MAIN_MENU_USER_GROUPS_ALT"] = "Grupos de usuarios";
@@ -122,6 +125,8 @@ $MESS["MAIN_MENU_USER_IMPORT_ALT"] = "Importación de usuarios";
 $MESS["MAIN_MENU_USER_LIST"] = "Lista de usuarios";
 $MESS["MAIN_MENU_WIZARDS"] = "Lista de asistentes";
 $MESS["MAIN_MENU_WIZARDS_TITLE"] = "Administrador de asistentes";
+$MESS["main_admin_menu_devices"] = "Dispositivos del usuario";
+$MESS["main_admin_menu_devices_title"] = "Dispositivos del usuario";
 $MESS["main_menu_diag"] = "Administración del sistema";
 $MESS["main_menu_diag_title"] = "Herramientas de administración";
 $MESS["main_menu_interface"] = "Preferencias personales";
@@ -131,4 +136,3 @@ $MESS["main_menu_lang_param_title"] = "Configurar interfaces de usuario y parám
 $MESS["main_menu_reg_sett"] = "Opciones regionales y culturales";
 $MESS["main_menu_reg_sett_title"] = "Fijar formato de salida de datos, codificación y otros parámetros";
 $MESS["main_menu_urlrewrite_title"] = "Configuración de URL´s amigables";
-?>

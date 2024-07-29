@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASKET_AVAIBLE"] = "Disponibilité";
 $MESS["SB_ADD_NEW"] = "Ajouter";
 $MESS["SB_ALL"] = "(partout)";
@@ -6,6 +6,8 @@ $MESS["SB_BASKET"] = "Article";
 $MESS["SB_BASKET_NAME"] = "Dénomination des marchandises";
 $MESS["SB_BASKET_PRICE"] = "De produits au total";
 $MESS["SB_BASKET_QUANTITY"] = "Quantité";
+$MESS["SB_BASKET_TYPE"] = "En stock";
+$MESS["SB_CNT"] = "Produits uniques";
 $MESS["SB_CREATE_ORDER"] = "Accéder à la présentation";
 $MESS["SB_CURRENCY"] = "Devises";
 $MESS["SB_DATE_INSERT"] = "Créé le";
@@ -23,7 +25,7 @@ $MESS["SB_MAILTO"] = "Écrire un message";
 $MESS["SB_NAV"] = "Nombre de paniers";
 $MESS["SB_NO"] = "Non";
 $MESS["SB_NOT_AUTH"] = "Non connecté";
-$MESS["SB_PRICE_ALL"] = "Prix";
+$MESS["SB_PRICE_ALL"] = "Montant total";
 $MESS["SB_PRODUCT_ID"] = "Article";
 $MESS["SB_QUANTITY_ALL"] = "Total des produits";
 $MESS["SB_SET"] = "Installation";
@@ -44,4 +46,3 @@ $MESS["SB_USER_ID"] = "Identifiant de l'utilisateur";
 $MESS["SB_USER_INFO"] = "Evènements du profil utilisateur";
 $MESS["SB_USER_LOGIN"] = "Identifiant d'acheteur";
 $MESS["SB_YES"] = "Oui";
-?>

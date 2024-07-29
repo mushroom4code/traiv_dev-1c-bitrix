@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SMOH_ALLOW_DELIVERY"] = "Wysyłka zatwierdzona";
 $MESS["SMOH_CANCELED"] = "Anuluowane";
 $MESS["SMOH_DELIVERY_ID"] = "Usługa dostawy";
@@ -34,7 +34,7 @@ $MESS["SMOH_HISTORY"] = "Historia";
 $MESS["SMOH_HISTORY_EMPTY"] = "Nie znaleziono rekordu";
 $MESS["SMOH_NO"] = "Nie";
 $MESS["SMOH_OPERATION"] = "Operacja";
-$MESS["SMOH_ORDER"] = "Zamów";
+$MESS["SMOH_ORDER"] = "Zamówienie";
 $MESS["SMOH_ORDER_FROM"] = "od";
 $MESS["SMOH_ORDER_N"] = "Rozkaz #";
 $MESS["SMOH_PAYED"] = "Zapłacone";
@@ -47,4 +47,3 @@ $MESS["SMOH_TAX_VALUE"] = "Podatek";
 $MESS["SMOH_TRANSACT"] = "Transakcje";
 $MESS["SMOH_USER"] = "Użytkownik";
 $MESS["SMOH_YES"] = "Tak";
-?>

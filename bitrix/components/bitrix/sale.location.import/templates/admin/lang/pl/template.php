@@ -1,21 +1,27 @@
-<?
+<?php
 $MESS["SALE_SLI_ADDITIONAL_PARAMS"] = "Wybierz parametry lokalizacji importu";
 $MESS["SALE_SLI_AP_DROP_STRUCTURE"] = "Usuń wszystkie istniejące lokalizacje";
 $MESS["SALE_SLI_AP_PRESERVE_INTEGRITY"] = "Zachowaj integralność struktury";
 $MESS["SALE_SLI_AP_TIMELIMIT"] = "Czas trwania etapu, sek.";
+$MESS["SALE_SLI_CHECK_ITEMS_AND_PROCEED"] = "Wybierz lokalizacje, które chcesz zaimportować, i kliknij \"#START#\"";
 $MESS["SALE_SLI_COMPLETE_REMOVE_ALL"] = "baza danych lokalizacji wyczyszczona";
 $MESS["SALE_SLI_DELETE_ALL"] = "Usuń wszystkie lokalizacje";
 $MESS["SALE_SLI_DELETE_ALL_CONFIRM"] = "Na pewno chcesz usunąć wszystkie lokalizacjie?";
+$MESS["SALE_SLI_DELETE_ALL_CONFIRM_RELIC"] = "Usunięcie starych lokalizacji spowoduje usunięcie ich z istniejących zamówień; identyfikator będzie widoczny zamiast lokalizacji. Teraz możesz zaimportować nowe lokalizacje lub zrobić to później, po uprzednim zaktualizowaniu tych zamówień. Przełożyć bieżący import i zapisać istniejące lokalizacje?";
 $MESS["SALE_SLI_DONT_LIMIT_LOCATION_DEPTH"] = "Wszystkie";
 $MESS["SALE_SLI_DROP_INDEXES"] = "usuwanie indeksu bazy danych";
 $MESS["SALE_SLI_ERROR"] = "Błąd";
 $MESS["SALE_SLI_EXTRA_DATA"] = "Wybierz dodatkowe dane";
+$MESS["SALE_SLI_EXTRA_EXTERNAL_ISO_3166_NUMERIC"] = "Trzycyfrowe kody krajów (ISO 3166-1)";
 $MESS["SALE_SLI_EXTRA_EXTERNAL_ZIP"] = "Kody pocztowe";
 $MESS["SALE_SLI_EXTRA_GEOCOORDS"] = "Geo współrzędne lokalizacji";
 $MESS["SALE_SLI_FILE_IS_BEING_UPLOADED"] = "Ładowanie pliku";
 $MESS["SALE_SLI_FILE_UPLOADED"] = "Załadowany plik";
 $MESS["SALE_SLI_FILE_UPLOAD_ERROR"] = "Błąd ładowania pliku.";
+$MESS["SALE_SLI_HEAVY_DUTY_HOST_NOTICE"] = "Importowanie lokalizacji może na krótko zwiększyć obciążenie bazy danych i serwera WWW. Przed importowaniem dużych partii lokalizacji zalecamy skonsultowanie się z działem obsługi technicznej.";
 $MESS["SALE_SLI_HEAVY_DUTY_NOTICE"] = "Importowanie lokalizacji z dokładnością do ulicy zajmie co najmniej pół godziny lub kilka godzin dla rozległych lokalizacji (w zależności od preferencji strony i sprzętu serwera).";
+$MESS["SALE_SLI_LOAD_LOCATIONS_TILL_INCLUSIVELY"] = "Zaimportuj lokalizacje do (wł.)";
+$MESS["SALE_SLI_LOCATION_PACK"] = "Pakiet lokalizacji";
 $MESS["SALE_SLI_LOCATION_PACK_EXTENDED"] = "Rozszerzone";
 $MESS["SALE_SLI_LOCATION_PACK_STANDARD"] = "standardowe";
 $MESS["SALE_SLI_LOCATION_SOURCE"] = "Źródło lokalizacji";
@@ -45,8 +51,8 @@ $MESS["SALE_SLI_STAT_REFRESH"] = "Odśwież";
 $MESS["SALE_SLI_STAT_TITLE"] = "Statystyki bazy danych lokalizacji";
 $MESS["SALE_SLI_STAT_TOTAL"] = "Suma lokalizacji";
 $MESS["SALE_SLI_STAT_TOTAL_GROUPS"] = "Suma grup lokalizacji";
-$MESS["SALE_SLI_STOP"] = "Zatrzymaj import.";
+$MESS["SALE_SLI_STOP"] = "Zatrzymaj import";
 $MESS["SALE_SLI_STOPPING"] = "Zatrzymywanie…";
 $MESS["SALE_SLI_TAB_CLEANUP_TITLE"] = "Usuń wszystkie lokalizacje";
 $MESS["SALE_SLI_TAB_IMPORT_TITLE"] = "Import Lokalizacji";
-?>
+$MESS["SALE_SLI_UPLOAD_FILE_AND_PROCEED"] = "Prześlij plik lokalizacji i kliknij \"#START#\"";

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_MENU_AGENT"] = "Agents";
 $MESS["MAIN_MENU_AGENT_ALT"] = "Management des agent";
 $MESS["MAIN_MENU_CACHE"] = "Paramètres du cache";
@@ -80,6 +80,8 @@ $MESS["MAIN_MENU_SMILE_GALLERY_LIST"] = "Galeries et packs";
 $MESS["MAIN_MENU_SMILE_GALLERY_LIST_ALT"] = "Gérer les galeries et packs d'émoticônes";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST"] = "Importer des smileys";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST_ALT"] = "Importer des smileys à partir de fichiers externes";
+$MESS["MAIN_MENU_SMTP_CONFIG"] = "Paramètres SMTP";
+$MESS["MAIN_MENU_SMTP_CONFIG_TITLE"] = "Paramètres SMTP";
 $MESS["MAIN_MENU_SQL"] = "Requête SQL";
 $MESS["MAIN_MENU_SQL_ALT"] = "Exécutez la requête base de données SQL";
 $MESS["MAIN_MENU_SYSTEM_CHECKER"] = "La vérification du système";
@@ -112,6 +114,7 @@ $MESS["MAIN_MENU_URLREWRITE_ALT"] = "Définition de règles pour le traitement d
 $MESS["MAIN_MENU_USERS"] = "Utilisateurs";
 $MESS["MAIN_MENU_USERS_ALT"] = "Gérer les profils utilisateur";
 $MESS["MAIN_MENU_USER_CONSENT"] = "Consentements";
+$MESS["MAIN_MENU_USER_CONSENT_1"] = "Accords et consentements";
 $MESS["MAIN_MENU_USER_FIELD"] = "Champs d'utilisateur";
 $MESS["MAIN_MENU_USER_FIELD_TITLE"] = "Champs d'utilisateur";
 $MESS["MAIN_MENU_USER_GROUPS_ALT"] = "Les utilisateurs du groupe";
@@ -120,6 +123,8 @@ $MESS["MAIN_MENU_USER_IMPORT_ALT"] = "Importation des utilisateurs";
 $MESS["MAIN_MENU_USER_LIST"] = "Liste des utilisateurs";
 $MESS["MAIN_MENU_WIZARDS"] = "Assistant liste";
 $MESS["MAIN_MENU_WIZARDS_TITLE"] = "gestion des Sorciers";
+$MESS["main_admin_menu_devices"] = "Appareils des utilisateurs";
+$MESS["main_admin_menu_devices_title"] = "Appareils des utilisateurs";
 $MESS["main_menu_diag"] = "Diagnostique";
 $MESS["main_menu_diag_title"] = "Les outils de l'administrateur";
 $MESS["main_menu_interface"] = "Paramètres personnels";
@@ -129,4 +134,3 @@ $MESS["main_menu_lang_param_title"] = "Langues de l'interface et des paramètres
 $MESS["main_menu_reg_sett"] = "Réglages régionaux";
 $MESS["main_menu_reg_sett_title"] = "Formats, codages et autres réglages";
 $MESS["main_menu_urlrewrite_title"] = "Gestion des adresses de pages";
-?>

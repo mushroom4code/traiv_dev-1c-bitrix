@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_ADMIN_LIST_CHECKED"] = "Zaznaczone:";
 $MESS["MAIN_ADMIN_LIST_SELECTED"] = "Wybrany:";
 $MESS["MAIN_ADMIN_MENU_DELETE"] = "Usuń";
@@ -6,6 +6,7 @@ $MESS["MAIN_ADMIN_MENU_EDIT"] = "Edytuj";
 $MESS["VOTE_ACTIVATE"] = "aktywuj";
 $MESS["VOTE_ACTIVE"] = "Aktywne";
 $MESS["VOTE_ACTIVE_RED_LAMP"] = "Ankieta wygasła.";
+$MESS["VOTE_ACTIVE_RED_LAMP_UPCOMING"] = "Ankieta jest nadal przeprowadzana.";
 $MESS["VOTE_ADD_LIST"] = "Dodaj ankietę";
 $MESS["VOTE_ALL"] = "(Wszystko)";
 $MESS["VOTE_CHANNEL"] = "kanał";
@@ -53,4 +54,3 @@ $MESS["VOTE_TILL"] = "do";
 $MESS["VOTE_TITLE"] = "Tytuł";
 $MESS["VOTE_VOTES_TITLE"] = "idź do listy głosów";
 $MESS["VOTE_YES"] = "Tak";
-?>

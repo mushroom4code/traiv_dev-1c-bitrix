@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BASE_CURRENCY_NO"] = "não";
 $MESS["BASE_CURRENCY_YES"] = "sim";
 $MESS["BT_CURRENCY_EDIT_ERR_ADD"] = "Erro desconhecido ao adicionar moeda";
@@ -10,10 +10,12 @@ $MESS["CURRENCY_CODES_ISO_STANDART"] = "Consulte o <a target= \"_blank\" href= \
 $MESS["CURRENCY_DEC_POINT_DESC"] = "Ponto decimal na saída";
 $MESS["CURRENCY_EDIT_TITLE"] = "Editar moeda";
 $MESS["CURRENCY_FORMAT_DESC"] = "Sequência de formato de moeda";
-$MESS["CURRENCY_FORMAT_TEMPLATE"] = "Modelo de formato";
+$MESS["CURRENCY_FORMAT_TEMPLATE_EXT"] = "Formatos comuns";
+$MESS["CURRENCY_FORMAT_TEMPLATE_HINT"] = "Use os modelos nesta lista para preencher os campos com os valores do modelo. Em seguida, você pode editar os campos como desejar; esta opção não é permanente.";
 $MESS["CURRENCY_FULL_NAME"] = "Nome";
 $MESS["CURRENCY_FULL_NAME_DESC"] = "Nome completo da moeda";
 $MESS["CURRENCY_NEW_TITLE"] = "Nova moeda";
+$MESS["CURRENCY_SELECT_TEMPLATE_EXT"] = "selecione um formato";
 $MESS["CURRENCY_THOUSANDS_VARIANT_O"] = "Outro valor";
 $MESS["DECIMALS_COMMENTS"] = "<span class= \"requered\" style= \"vertical-align: super; font-size: smaller;\">1</span> - o número de dígitos da parte fracionária afeta somente a forma como os preços são exibidos. Os cálculos sempre consideram valores não arredondados. Isso pode causar inconsistências visuais ao exibir totais, moedas e descontos convertidos. Considere este exemplo. O preço do produto é USD 98,01. Se você configurar o número de dígitos em parte fracionais para zero, será mostrado USD 98 como preço do produto. No entanto, o total para 100 itens deste produto no carrinho de compras será USD 9801.";
 $MESS["DECIMALS_DESC"] = "Número de dígitos decimais";
@@ -29,4 +31,3 @@ $MESS["currency_numcode"] = "Código numérico";
 $MESS["currency_rate"] = "Taxa padrão";
 $MESS["currency_rate_cnt"] = "Quantidade";
 $MESS["currency_sort_ex"] = "Índice de Classificação";
-?>

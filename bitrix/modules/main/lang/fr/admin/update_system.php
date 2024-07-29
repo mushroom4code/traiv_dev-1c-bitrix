@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SUP_ACTIVE"] = "Mises à jour disponibles : ";
 $MESS["SUP_ACTIVE_PERIOD"] = "partir de #DATE_FROM# jusqu'à #DATE_TO#";
 $MESS["SUP_APPLY"] = "Appliquer";
@@ -38,8 +38,8 @@ $MESS["SUP_SETTINGS"] = "Modifier les paramètres";
 $MESS["SUP_SITES"] = "Quantité des sites : ";
 $MESS["SUP_STABLE_OFF_PROMT"] = "Sur votre site l'installation des versions beta des mises à jour du produit est activée. Si vous voulez installer uniquement les versions stables des mises à jour, veuillez désactiver s'il vous plaît, l'installation des versions beta dans les paramètres du système de mise à jour.";
 $MESS["SUP_STABLE_ON_PROMT"] = "Sur votre site seule l'installation des mises à jour des versions stables du produit est activée. Si vous voulez installer les versions beta des mises à jour, veuillez activer s'il vous plaît, l'installation des versions beta dans les paramètres du système de mise à jour.";
-$MESS["SUP_SUAC_BUTTON"] = "Activater le coupon";
-$MESS["SUP_SUAC_COUP"] = "Activater le coupon";
+$MESS["SUP_SUAC_BUTTON"] = "Activer le coupon";
+$MESS["SUP_SUAC_COUP"] = "Activer le coupon";
 $MESS["SUP_SUAC_COUP1"] = "Activer votre coupon";
 $MESS["SUP_SUAC_ERROR"] = "Erreur d'activation du coupon";
 $MESS["SUP_SUAC_HINT"] = "Activer votre coupon pour prolonger la durée de l'assistance technique, d'activer d'autres sites ou de passer à un autre éditeur.";
@@ -75,7 +75,7 @@ $MESS["SUP_SUBA_RI_CONTACT1"] = "Adresse et autres informations de contact du pr
 $MESS["SUP_SUBA_RI_CONTACT_EMAIL"] = "Adresse emailde la personne de contact";
 $MESS["SUP_SUBA_RI_CONTACT_EMAIL1"] = "Adresse email de la personne à contacter pour l'envoi d'information au sujet inscriptions et des rappels sur l'allongement de la période d'assistance technique, ainsi que pour toute question d'ordre technique";
 $MESS["SUP_SUBA_RI_CONTACT_PERSON"] = "Le représentant responsable de l'utilisation de cette copie";
-$MESS["SUP_SUBA_RI_CONTACT_PERSON1"] = "Nom et prénom de la personne responsable de l'utilisation de cette copie du produit";
+$MESS["SUP_SUBA_RI_CONTACT_PERSON1"] = "Nom et prénom du responsable de l'utilisation de cette copie du produit";
 $MESS["SUP_SUBA_RI_CONTACT_PHONE"] = "Téléphone de la personne à joindre";
 $MESS["SUP_SUBA_RI_CONTACT_PHONE1"] = "Téléphone de la personne à joindre";
 $MESS["SUP_SUBA_RI_EMAIL"] = "Adresse emaildu propriétaire pour traiter des questions de licences et d'utilisation du logiciel";
@@ -88,7 +88,7 @@ $MESS["SUP_SUBA_RI_URI"] = "Adresse du site";
 $MESS["SUP_SUBA_RI_URI1"] = "Tous les domaines à utiliser pour le site y compris des domaines de test";
 $MESS["SUP_SUBA_UI_CREATE"] = "Créer un utilisateur sur le site www.bitrixsoft.com";
 $MESS["SUP_SUBA_UI_EXIST"] = "Je suis inscrit sur le site et je voudrai pouvoir accèder au support technique et télécharger la version complète;";
-$MESS["SUP_SUBA_UI_HINT"] = "Si vous n'êtes pas inscrit au <a href='http://www.bitrixsoft.com' target='_blank'>www.bitrixsoft.com</a>, s'il vous plaît assurer que l'option 'Créer un utilisateur' est cochée, et entrez vos informations (noms et prénoms, login et mot de passe) dans les champs de formulaire. Ayant enregistré au www.bitrixsoft.com vous permet d'utiliser le <a href='http://www.bitrixsoft.com/support/' target='_blank'>l'assistance technique</a> et le <a href='http://www.bitrixsoft.com/support/forum/' target='_blank'>private forum</a> pour résoudre vos problèmes et obtenir des réponses à vos questions.";
+$MESS["SUP_SUBA_UI_HINT"] = "Si vous n'êtes pas inscrit sur <a href=\"https://store.bitrix24.com\" target=\"_blank\">store.bitrix24.com</a>, veuillez vous assurer que l'option \"Créer un utilisateur\" est cochée et saisissez vos informations (vos nom, prénom, identifiant et mot de passe) dans les champs du formulaire. L'inscription à store.bitrix24.com vous permet d'utiliser le service Assistance technique sur notre <a href=\"https://helpdesk.bitrix24.com/ticket.php\" target=\"_blank\">site</a>, ou via le chat d'assistance de votre système.";
 $MESS["SUP_SUBA_UI_LASTNAME"] = "Nom";
 $MESS["SUP_SUBA_UI_LOGIN"] = "Nom d'utilisateur (3 symboles, au moins)";
 $MESS["SUP_SUBA_UI_LOGIN_EXIST"] = "Quitter éditeur sans enregistrer";
@@ -191,4 +191,3 @@ $MESS["SUP_TAB_UPDATES_LIST_ALT"] = "Sélectionnez les mises à jour que vous so
 $MESS["SUP_TITLE_BASE"] = "Page principale du système des mises à jour";
 $MESS["SUP_USERS"] = "Nombre d'utilisateurs : ";
 $MESS["SUP_USERS_IS_NOT_LIMITED"] = "La procédure d'agrément selon utilisateur n'est pas réalisée.";
-?>

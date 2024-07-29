@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["PRESET_CANCELED_ORDER_DESC"] = "Ces e-mails sont envoyés à un client qui a presque terminé l'ordre, mais n'a jamais payé pour cela. Dans une situation comme ça, il est plus probable qu'un client a tendance à remplir le bon de commande mais s'est heurté à un obstacle inconnu. Ces déclenché e-mails visant à révéler la raison de leur choix et d'amener le client vers le magasin.";
 $MESS["PRESET_CANCELED_ORDER_DESC_USER"] = "Automated e-mail déclenchée";
 $MESS["PRESET_CANCELED_ORDER_LETTER_1_MESSAGE"] = "Bonjour !<br><br>Nous avons remarqué que vous étiez l'un clic de souris à partir de terminer votre commande, mais a décidé de quitter.
@@ -11,14 +11,14 @@ $MESS["PRESET_CANCELED_ORDER_LETTER_2_MESSAGE"] = "Bonjour !<br><br>Vous avez r�
 <br>Votre commande est maintenant à quelques clics de vous !
 <br><br>si vous avez une question à propos de votre commande ou de processus de commande, s'il vous plaît n'hésitez pas à nous contacter.";
 $MESS["PRESET_CANCELED_ORDER_LETTER_2_SUBJECT"] = "Votre panier vous est réservée";
-$MESS["PRESET_CANCELED_ORDER_LETTER_3_MESSAGE"] = "Bonjour !<br><br>il y a Quelques semaines vous avez été shopping dans notre magasin, mais jamais achevé l'ordre.
-<br>Les produits de votre commande sont toujours réservées pour vous, même maintenant.
-<br>aujourd'Hui est le dernier jour pour les obtenir tout de suite sans backordering. Pour vous aider à vous décider, nous vous offrons un mindblowing de réduction !
-<br>Terminer votre commande aujourd'hui. Demain il aura disparu !
+$MESS["PRESET_CANCELED_ORDER_LETTER_3_MESSAGE"] = "Bonjour !<br><br>Il y a quelques semaines vous avez fait du shopping sur notre boutique en ligne, mais, vous n'avez pas validé votre commande.
+<br>Les produits de votre commande sont toujours réservés pour vous.
+<br>Aujourd'hui, c'est le dernier ou vous pouvez obtenir vos articles sans recréer une commande. En plus de cela, nous vous offrons une réduction !
+<br>Validez votre commande aujourd'hui avant qu'elle ne soit supprimée !
 <br><br>
 <br><a href=\"http://#SERVER_NAME#\">voir votre panier</a> aujourd'hui.
-<br>les personnels de Votre coupon de réduction : <b>%COUPON%</b>.
-<br>si vous avez une question à propos de votre commande ou de processus de commande, s'il vous plaît n'hésitez pas à nous contacter.";
+<br>Votre coupon de réduction personnel : <b>%COUPON%</b>.
+<br>N'hésitez pas à nout contacter pour toute question concernant votre commande ou le processus de commande.";
 $MESS["PRESET_CANCELED_ORDER_LETTER_3_SUBJECT"] = "Caché de réduction pour ceux qui peuvent attendre !";
 $MESS["PRESET_CANCELED_ORDER_NAME"] = "Commande annulée";
 $MESS["PRESET_DONT_AUTH_DESC"] = "Un drôle déclenché e-mail prétendument envoyé par le web store, e-mail robot. Un personnage virtuel dupant autour.";
@@ -49,10 +49,14 @@ $MESS["PRESET_DONT_AUTH_LETTER_4_MESSAGE"] = "C'est la fin.
 <br><br>Le Désespéré Robot.";
 $MESS["PRESET_DONT_AUTH_LETTER_4_SUBJECT"] = "Qu'avez-vous fait...";
 $MESS["PRESET_DONT_AUTH_NAME"] = "Blague";
+$MESS["PRESET_DONT_BUY_DESC_90"] = "Ces e-mails sont envoyés après qu'un client a été inactif pendant trois mois, afin de clarifier la raison de l'inactivité. Un coupon de réduction est offert au client.";
 $MESS["PRESET_DONT_BUY_DESC_180"] = "Déclenché les messages envoyés à un client après qu'ils ont été inactifs pendant un an et demi.";
 $MESS["PRESET_DONT_BUY_DESC_360"] = "Ces e-mails sont envoyés après qu'un client a été inactif pendant une année. C'est la dernière tentative. Un coupon de réduction est offert au client.";
-$MESS["PRESET_DONT_BUY_DESC_90"] = "Ces e-mails sont envoyés après qu'un client a été inactif pendant trois mois, afin de clarifier la raison de l'inactivité. Un coupon de réduction est offert au client.";
 $MESS["PRESET_DONT_BUY_DESC_USER"] = "Automated e-mail déclenchée";
+$MESS["PRESET_DONT_BUY_LETTER_1_MESSAGE_90"] = "Bonjour !<br><br>Nous avons remarqué que ça fait trois mois depuis votre dernière visite.
+<br>Nous avons terriblement vous manquer ! Nous avons de nouveaux produits susceptibles de vous intéresser.
+<br>Voir <a href=\"http://#SERVER_NAME#\">#SITE_NAME#</a> maintenant !
+<br>Si vous avez la moindre question, n'hésitez pas à nous contacter.";
 $MESS["PRESET_DONT_BUY_LETTER_1_MESSAGE_180"] = "Nous avons le souvenir et l'amour de tous nos clients. Même ceux qui n'ont pas de boutique avec nous pour la moitié de l'année. Nous ne perdons pas l'espoir de vous voir à nouveau.
 <br>reviens nous ! Nous avons maintenant encore plus de nouveaux produits excitants ! Ne prenez pas notre mot pour lui : allez-y maintenant : <a href=\"http://#SERVER_NAME#\">#SITE_NAME#</a>!
 <br>si vous avez la moindre question, n'hésitez pas à nous contacter.";
@@ -60,13 +64,15 @@ $MESS["PRESET_DONT_BUY_LETTER_1_MESSAGE_360"] = "La terre vu de 365 jours et des
 <br>Honnêtement, ça fait mal un peu, mais nous avons encore l'amour de vous.
 <br>Nous sommes toujours en attente pour vous et nous croyons que nous allons voir à nouveau ! Reviens nous !
 <br>si vous avez la moindre question, n'hésitez pas à nous contacter.";
-$MESS["PRESET_DONT_BUY_LETTER_1_MESSAGE_90"] = "Bonjour !<br><br>Nous avons remarqué que ça fait trois mois depuis votre dernière visite.
-<br>Nous avons terriblement vous manquer ! Nous avons de nouveaux produits susceptibles de vous intéresser.
-<br>Voir <a href=\"http://#SERVER_NAME#\">#SITE_NAME#</a> maintenant !
-<br>Si vous avez la moindre question, n'hésitez pas à nous contacter.";
+$MESS["PRESET_DONT_BUY_LETTER_1_SUBJECT_90"] = "Vous nous manquez ! Ça fait trois mois !";
 $MESS["PRESET_DONT_BUY_LETTER_1_SUBJECT_180"] = "Six mois de silence...";
 $MESS["PRESET_DONT_BUY_LETTER_1_SUBJECT_360"] = "a fait un an...";
-$MESS["PRESET_DONT_BUY_LETTER_1_SUBJECT_90"] = "Vous nous manquez ! Ça fait trois mois !";
+$MESS["PRESET_DONT_BUY_LETTER_2_MESSAGE_90"] = "Bonjour !<br><br>Il a été un long temps depuis que vous avez visité notre magasin. Vous nous manquez !
+<br>A la commande de processus est trop compliqué, ou peut-être vous ne trouvez pas votre préféré la prestation de service ?
+<br>Consultez-nous maintenant !
+<br>Nous avons eu trois mois, afin d'améliorer notre magasin en ligne - et nous l'avons fait ! Nous avons maintenant encore plus de produits et d'offres.
+<br>Voir <a href=\"http://#SERVER_NAME#\">#SITE_NAME#</a>maintenant !
+<br><br>Pour sucrer le pot, voici votre personnel coupon de réduction : <b>%COUPON_3%</b>";
 $MESS["PRESET_DONT_BUY_LETTER_2_MESSAGE_180"] = "C'est la moitié de l'année, nous n'avons pas entendu parler de vous. Nous sommes inquiets.
 <br>s'il vous Plaît laissez nous savoir que vous êtes OK ! Oh, en passant, nous avons une remise de 7%, juste pour vous !
 <br>Voici votre coupon de réduction : <b>%COUPON_7%</b>
@@ -77,15 +83,13 @@ $MESS["PRESET_DONT_BUY_LETTER_2_MESSAGE_360"] = "Ça fait tellement longtemps qu
 <br>s'il vous Plaît revenir ! Voici petit quelque chose pour montrer notre amour pour vous : un rabais de 15%.
 <br><br>les personnels de Votre coupon de réduction : <b>%COUPON_15%</b>
 <br><br>si vous avez la moindre question, n'hésitez pas à nous contacter.";
-$MESS["PRESET_DONT_BUY_LETTER_2_MESSAGE_90"] = "Bonjour !<br><br>Il a été un long temps depuis que vous avez visité notre magasin. Vous nous manquez !
-<br>A la commande de processus est trop compliqué, ou peut-être vous ne trouvez pas votre préféré la prestation de service ?
-<br>Consultez-nous maintenant !
-<br>Nous avons eu trois mois, afin d'améliorer notre magasin en ligne - et nous l'avons fait ! Nous avons maintenant encore plus de produits et d'offres.
-<br>Voir <a href=\"http://#SERVER_NAME#\">#SITE_NAME#</a>maintenant !
-<br><br>Pour sucrer le pot, voici votre personnel coupon de réduction : <b>%COUPON_3%</b>";
+$MESS["PRESET_DONT_BUY_LETTER_2_SUBJECT_90"] = "tait-ce de notre faute ?";
 $MESS["PRESET_DONT_BUY_LETTER_2_SUBJECT_180"] = "Il y a encore de l'espoir";
 $MESS["PRESET_DONT_BUY_LETTER_2_SUBJECT_360"] = "Avant-dernier appel !";
-$MESS["PRESET_DONT_BUY_LETTER_2_SUBJECT_90"] = "tait-ce de notre faute ?";
+$MESS["PRESET_DONT_BUY_LETTER_3_MESSAGE_90"] = "Soyons honnêtes. Nous avons fait de notre mieux pour éviter ce message. Nous pouvons maintenant voir que nous n'avons pas été assez convaincant.
+<br><a href=\"http://#SERVER_NAME#\">revenir</a> et bénéficiez d'un escompte ÉNORME !<br>Oh oui, nous sommes prêts à aller à l'extrême - tout pour vous rendre heureux !
+<br><br>Voici spéciale de votre coupon de réduction : <b>%COUPON%</b>
+<br>Si vous avez la moindre question, n'hésitez pas à nous contacter.";
 $MESS["PRESET_DONT_BUY_LETTER_3_MESSAGE_180"] = "Pssst ! Comment aimez-vous ce que c'est ? N'est-il pas grand ? C'est un secret, ne le dites à personne !
 <br>Cette offre est seulement pour vous - simplement parce que nous avons terriblement vous manquer et voudrais vous voir à nouveau.
 <br><br>Vous personnels coupon de réduction : <b>%COUPON_10%</b>
@@ -96,13 +100,9 @@ $MESS["PRESET_DONT_BUY_LETTER_3_MESSAGE_360"] = "Ça a été une année depuis q
 <br>revenir <a href=\"http://#SERVER_NAME#\">#SITE_NAME#</a>!
 <br><br>spéciale de Votre coupon de réduction : <b>%COUPON_20%</b>
 <br><br>si vous avez la moindre question, n'hésitez pas à nous contacter.";
-$MESS["PRESET_DONT_BUY_LETTER_3_MESSAGE_90"] = "Soyons honnêtes. Nous avons fait de notre mieux pour éviter ce message. Nous pouvons maintenant voir que nous n'avons pas été assez convaincant.
-<br><a href=\"http://#SERVER_NAME#\">revenir</a> et bénéficiez d'un escompte ÉNORME !<br>Oh oui, nous sommes prêts à aller à l'extrême - tout pour vous rendre heureux !
-<br><br>Voici spéciale de votre coupon de réduction : <b>%COUPON%</b>
-<br>Si vous avez la moindre question, n'hésitez pas à nous contacter.";
+$MESS["PRESET_DONT_BUY_LETTER_3_SUBJECT_90"] = "a fait trois mois !";
 $MESS["PRESET_DONT_BUY_LETTER_3_SUBJECT_180"] = "Laissez-nous vous montrer comment nous vous aimons !";
 $MESS["PRESET_DONT_BUY_LETTER_3_SUBJECT_360"] = "Est-ce la fin ?";
-$MESS["PRESET_DONT_BUY_LETTER_3_SUBJECT_90"] = "a fait trois mois !";
 $MESS["PRESET_DONT_BUY_NAME"] = "Alarme-%DAYS%";
 $MESS["PRESET_FORGOTTEN_BASKET_DESC"] = "C'est une pratique courante pour le web les clients à mettre quelque chose dans le panier, juste pour voir comment la caisse va ou afficher les options de livraison, puis de le laisser sans remplissant le bon de commande. Ces e-mails objectif de parler à un client potentiel en reprendre et d'achever leur commande.";
 $MESS["PRESET_FORGOTTEN_BASKET_DESC_USER"] = "Automated e-mail déclenchée";
@@ -116,14 +116,14 @@ $MESS["PRESET_FORGOTTEN_BASKET_LETTER_2_MESSAGE"] = "Bonjour !<br><br>Vous avez 
 <br>Votre commande est maintenant à quelques clics de vous !
 <br><br>Si vous avez une question à propos de votre commande ou de processus de commande, s'il vous plaît n'hésitez pas à nous contacter.";
 $MESS["PRESET_FORGOTTEN_BASKET_LETTER_2_SUBJECT"] = "Votre panier vous est réservée";
-$MESS["PRESET_FORGOTTEN_BASKET_LETTER_3_MESSAGE"] = "Bonjour !<br><br>il y a Quelques semaines vous avez été shopping dans notre magasin, mais jamais achevé l'ordre.
-<br>Les produits de votre commande sont toujours réservées pour vous, même maintenant.
-<br>aujourd'Hui est le dernier jour pour les obtenir tout de suite sans backordering. Pour vous aider à vous décider, nous vous offrons un mindblowing de réduction !
-<br>Terminer votre commande aujourd'hui. Demain il aura disparu !
+$MESS["PRESET_FORGOTTEN_BASKET_LETTER_3_MESSAGE"] = "Bonjour !<br><br>Il y a quelques semaines vous avez fait du shopping sur notre boutique en ligne, mais, vous n'avez pas validé votre commande.
+<br>Les produits de votre commande sont toujours réservés pour vous.
+<br>Aujourd'hui, c'est le dernier ou vous pouvez obtenir vos articles sans recréer une commande. En plus de cela, nous vous offrons une réduction !
+<br>Validez votre commande aujourd'hui avant qu'elle ne soit supprimée !
 <br><br>
 <br><a href=\"http://#SERVER_NAME#\">voir votre panier</a> aujourd'hui.
-<br>les personnels de Votre coupon de réduction : <b>%COUPON%</b>.
-<br>Si vous avez une question à propos de votre commande ou de processus de commande, s'il vous plaît n'hésitez pas à nous contacter.";
+<br>Votre coupon de réduction personnel : <b>%COUPON%</b>.
+<br>N'hésitez pas à nout contacter pour toute question concernant votre commande ou le processus de commande.";
 $MESS["PRESET_FORGOTTEN_BASKET_LETTER_3_SUBJECT"] = "Caché de réduction pour ceux qui peuvent attendre !";
 $MESS["PRESET_FORGOTTEN_BASKET_NAME"] = "Paniers abandonnés";
 $MESS["PRESET_MAIL_TEMPLATE_HELLO"] = "Bonjour !";
@@ -157,4 +157,3 @@ $MESS["PRESET_PAID_ORDER_LETTER_5_SUBJECT"] = "Réduction pour les clients impor
 $MESS["PRESET_PAID_ORDER_NAME"] = "Suivi des e-mails";
 $MESS["PRESET_TYPE_BASKET"] = "Pour le panier";
 $MESS["PRESET_TYPE_ORDER"] = "Pour les commandes";
-?>

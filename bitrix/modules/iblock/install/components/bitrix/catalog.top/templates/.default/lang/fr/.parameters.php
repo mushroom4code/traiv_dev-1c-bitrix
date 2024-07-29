@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ADD_PICT_PROP_TIP"] = "Propriétés des images supplémentaires d'une marchandise";
 $MESS["ADD_TO_BASKET_ACTION_ADD"] = "Ajouter au panier";
 $MESS["ADD_TO_BASKET_ACTION_BUY"] = "Acheter Maintenant";
@@ -31,6 +31,8 @@ $MESS["CP_BCT_TPL_MESS_BTN_DETAIL"] = "Texte du bouton 'Détails'";
 $MESS["CP_BCT_TPL_MESS_BTN_DETAIL_DEFAULT"] = "Détails";
 $MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE"] = "Message sur l'absence de la marchandise";
 $MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_DEFAULT"] = "Pas disponible";
+$MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_SERVICE"] = "Message de service indisponible";
+$MESS["CP_BCT_TPL_MESS_NOT_AVAILABLE_SERVICE_DEFAULT"] = "Absents";
 $MESS["CP_BCT_TPL_MESS_RELATIVE_QUANTITY_FEW"] = "Texte pour les valeurs inférieures à ce qui a été calculé";
 $MESS["CP_BCT_TPL_MESS_RELATIVE_QUANTITY_FEW_DEFAULT"] = "seulement quelques restant";
 $MESS["CP_BCT_TPL_MESS_RELATIVE_QUANTITY_MANY"] = "Texte pour les valeurs supérieures à ce qui a été calculé";
@@ -98,4 +100,3 @@ $MESS["SHOW_PAGINATION_TIP"] = "Afficher la barre de navigation de diapositives"
 $MESS["TEMPLATE_THEME_TIP"] = "Palette de couleurs à afficher. Utiliser le thème bleu par défaut.";
 $MESS["USE_ENHANCED_ECOMMERCE_TIP"] = "Cela nécessite que les options Enhanced Ecommerce de Google Analytics soient configurées";
 $MESS["VIEW_MODE_TIP"] = "Le paramètre détermine l'aspect de la liste d'éléments sur la page";
-?>

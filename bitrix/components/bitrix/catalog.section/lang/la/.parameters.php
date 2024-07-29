@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION_VARIABLE_TIP"] = "El nombre de una variable en la que la acción requerida será aprobada:
 ADD_TO_COMPARE_LIST, ADD2BASKET etc. The default value is <i>action</i>.";
 $MESS["ADD_PROPERTIES_TO_BASKET_TIP"] = "Seleccione las propiedades que desea pasar al carrito de compras y el pedido. Las propiedades requeridas son aquellas que pueden afectar la elección del cliente o pueden cambiarse en el carrito de compras (por SKU). También se requieren las propiedades que afectarán al cumplimiento del pedido (por ejemplo, color del elemento).";
@@ -17,6 +17,7 @@ $MESS["COMPARE_PATH_TIP"] = "Especifica la ruta de acceso a una página que incl
 $MESS["COMPATIBLE_MODE_TIP"] = "Esta opción es necesaria para las plantillas personalizadas creadas para su uso con la versión del módulo iblock anterior a 16.6.2. Se recomienda migrar la plantilla al nuevo formato. Consulte la documentación para obtener más información.";
 $MESS["CP_BCS_ADD_PROPERTIES_TO_BASKET"] = "Pasar elemento y SKU de propiedades al carrito de compras";
 $MESS["CP_BCS_ADD_SECTIONS_CHAIN"] = "Agregar nombre de la sección de la ruta de navegación";
+$MESS["CP_BCS_ALLOW_SEO_DATA"] = "Establecer los valores de la etiqueta SEO y el título de la página";
 $MESS["CP_BCS_BROWSER_TITLE"] = "Establecer título de la ventana del navegador desde el valor de la propiedad";
 $MESS["CP_BCS_CACHE_GROUPS"] = "Respetar permisos de acceso";
 $MESS["CP_BCS_COMPARE_PATH"] = "Página de comparación de productos";
@@ -129,4 +130,3 @@ $MESS["T_IBLOCK_DESC_DESCRIPTION"] = "Fije la descripcción de la página desde 
 $MESS["T_IBLOCK_DESC_KEYWORDS"] = "Fije las palabras clave de la página desde la propiedad";
 $MESS["T_IBLOCK_DESC_PAGER_CATALOG"] = "Productos";
 $MESS["USE_PRICE_COUNT_TIP"] = "Muestra los precios y todos los tipos de precios.";
-?>

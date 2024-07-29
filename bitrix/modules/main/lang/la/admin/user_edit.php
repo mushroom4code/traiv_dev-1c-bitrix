@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACCOUNT_INSERT"] = "El administrador lo ha registrado en el sitio web";
 $MESS["ACCOUNT_UPDATE"] = "El administrador a actualizado su información personal dentro del sitio web.";
 $MESS["ACTIVE"] = "Activo:";
@@ -100,6 +100,14 @@ $MESS["USER_WWW"] = "Página WEB:";
 $MESS["USER_ZIP"] = "Zip:";
 $MESS["main_profile_decode_err"] = "Error en la descripción de la contraseña (#ERRCODE#).";
 $MESS["main_profile_sess_expired"] = "Su sesión ha expirado. Por favor intente de nuevo.";
+$MESS["main_user_edit_devices"] = "Dispositivos";
+$MESS["main_user_edit_devices_title"] = "Historial del inicio de sesión y dispositivos";
+$MESS["main_user_edit_pass_expired"] = "Solicitar cambio de contraseña en el próximo inicio de sesión:";
+$MESS["main_user_edit_policy"] = "Seguridad";
+$MESS["main_user_edit_policy_field"] = "Políticas de seguridad";
+$MESS["main_user_edit_policy_no"] = "No";
+$MESS["main_user_edit_policy_title"] = "Políticas de seguridad del grupo";
+$MESS["main_user_edit_policy_yes"] = "Sí";
 $MESS["user_edit_form_groups"] = "Grupos de usuario";
 $MESS["user_edit_form_settings"] = "Configuraciones";
 $MESS["user_edit_form_settings_title"] = "Parámetros del campo Firma";
@@ -111,4 +119,3 @@ $MESS["user_edit_time_zones_auto_def"] = "(predeterminado)";
 $MESS["user_edit_time_zones_auto_no"] = "No, seleccionar de la lista";
 $MESS["user_edit_time_zones_auto_yes"] = "Si, configuraciones del navegador del usuario";
 $MESS["user_edit_time_zones_zones"] = "Zona Horario:";
-?>

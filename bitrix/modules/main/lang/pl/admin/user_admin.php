@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ACTION"] = "Działania";
 $MESS["ACTIVE"] = "Aktywne";
 $MESS["CHANGE"] = "Modyfikuj";
@@ -48,12 +48,18 @@ $MESS["MAIN_FLT_SEARCH"] = "Szukaj:";
 $MESS["MAIN_FLT_SEARCH_TITLE"] = "Wprowadź teks,t aby wyszukać";
 $MESS["MAIN_FLT_USER_GROUP"] = "Grupa użytkownika";
 $MESS["MAIN_FLT_USER_ID"] = "ID Użytkownika";
+$MESS["MAIN_FROM_TILL_LAST_LOGIN"] = "Data ostatniej autoryzacji „do” musi być większa niż data \"od\"";
+$MESS["MAIN_FROM_TILL_TIMESTAMP"] = "Data modyfikacji \"do\" musi być większa niż \"od\" w filtrze ";
 $MESS["MAIN_F_EMAIL"] = "E-mail";
 $MESS["MAIN_F_ID"] = "ID";
 $MESS["MAIN_F_KEYWORDS"] = "Pola profilu";
 $MESS["MAIN_F_LAST_LOGIN"] = "Ostatnia autoryzacja";
 $MESS["MAIN_F_TIMESTAMP"] = "Zmodyfikowany";
 $MESS["MAIN_USER_ADMIN_FIELD_ID"] = "ID";
+$MESS["MAIN_WRONG_LAST_LOGIN_FROM"] = "Wprowadź poprawną datę ostatniej autoryzacji \"od\" ";
+$MESS["MAIN_WRONG_LAST_LOGIN_TILL"] = "Wprowadź poprawną datę ostatniej autoryzacji \"do\" ";
+$MESS["MAIN_WRONG_TIMESTAMP_FROM"] = "Wprowadź poprawną datę modyfikacji \"od\"";
+$MESS["MAIN_WRONG_TIMESTAMP_TILL"] = "Wprowadź poprawną datę modyfikacji \"do\" ";
 $MESS["MAIN_YES"] = "Tak";
 $MESS["NAME"] = "Imię";
 $MESS["PAGES"] = "Użytkownicy";
@@ -78,4 +84,3 @@ $MESS["WORK_PHONE"] = "Telefon firmowy";
 $MESS["WORK_POSITION"] = "Stanowisko";
 $MESS["WORK_WWW"] = "Strona firmowa";
 $MESS["XML_ID"] = "Kod zewnętrzny";
-?>

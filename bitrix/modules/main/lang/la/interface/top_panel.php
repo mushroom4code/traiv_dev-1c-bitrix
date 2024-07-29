@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_ADD_PAGE_TO_FAVORITES"] = "Agregar página a favoritos";
 $MESS["MAIN_HELP"] = "Ayuda contextual";
 $MESS["TOP_ADMIN_ENTER"] = "Sección administrativa";
@@ -21,7 +21,7 @@ $MESS["button_settings"] = "Configuración del módulo";
 $MESS["select_lang"] = "--- Idioma ---";
 $MESS["top_panel_add_fav"] = "Agregar a favoritos...";
 $MESS["top_panel_bizproc_tasks"] = "Usted tiene asignaciones";
-$MESS["top_panel_bizproc_title"] = "Usted tiene tareas pendientes en el Módulo Business Processes";
+$MESS["top_panel_bizproc_title"] = "Usted tiene asignaciones pendientes en el módulo Procesos de negocios";
 $MESS["top_panel_edit"] = "Contenido";
 $MESS["top_panel_edit_title"] = "Cambiar al modo de edición de contenido";
 $MESS["top_panel_fav"] = "Favoritos";
@@ -48,4 +48,3 @@ $MESS["top_panel_updates_close"] = "Cerrar";
 $MESS["top_panel_updates_hint"] = "Tiene actualizaciones disponibles";
 $MESS["top_panel_user"] = "Usuario actual";
 $MESS["top_panel_view"] = "Explorar";
-?>

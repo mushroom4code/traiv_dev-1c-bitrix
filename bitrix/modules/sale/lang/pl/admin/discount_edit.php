@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BT_CAT_DISCOUNT_EDIT_TAB_TITLE_ACTIONS"] = "Działania do wykonania i warunki aplikacji";
 $MESS["BT_SALE_DISCOUNT_EDIT_CALENDARE_PERIOD_EMPTY"] = "Bez ograniczeń";
 $MESS["BT_SALE_DISCOUNT_EDIT_CALENDARE_PERIOD_INTERVAL"] = "Odstęp";
@@ -7,10 +7,12 @@ $MESS["BT_SALE_DISCOUNT_EDIT_ERR_UPDATE"] = "Błąd w zmianie zasady z ID #ID#";
 $MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_COND_ADD"] = "Dodatkowe warunki";
 $MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_GROUPS"] = "Użytkownicy grup, do których stosują się zasady";
 $MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_LAST_DISCOUNT"] = "Zatrzymaj stosowanie dalszych zasad";
+$MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_LAST_LEVEL_DISCOUNT"] = "Nie stosuj rabatów wykraczających poza obecny poziom priorytetu";
 $MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_NAME"] = "Nazwa";
 $MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_PRIORITY"] = "Priorytet aplikacji";
 $MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_PRIORITY_DESCR"] = "(jako pierwsze zastosuj upsty z wyższym priorytetem)";
 $MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_SORT"] = "Indeks sortowania (dla zasad z równym priorytetem)";
+$MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_SORT_2"] = "Sortuj indeks wewnątrz poziomu priorytetu";
 $MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_SORT_DESCR"] = "(jako pierwsze zastosuj upsty z niższym indeksem)";
 $MESS["BT_SALE_DISCOUNT_EDIT_FIELDS_XML_ID"] = "Zewnętrzne ID";
 $MESS["BT_SALE_DISCOUNT_EDIT_MESS_ADD_DISCOUNT"] = "Utwórz nową zasadę";
@@ -30,6 +32,7 @@ $MESS["BT_SALE_DISCOUNT_EDIT_TAB_TITLE_GROUPS"] = "Zasady ograniczenia";
 $MESS["BT_SALE_DISCOUNT_EDIT_TAB_TITLE_MISC"] = "Parametry dodatkowych zasad";
 $MESS["BT_SALE_DISCOUNT_SECTIONS_APP"] = "Działania";
 $MESS["BT_SALE_DISCOUNT_SECTIONS_COND_ADD"] = "Dodatkowe warunki";
+$MESS["BT_SALE_DISCOUNT_SECTION_PRIORITY"] = "Ustawienia priorytetów";
 $MESS["BX_SALE_DISCOUNT_COUPON_PERIOD_EMPTY"] = "nieograniczony";
 $MESS["BX_SALE_DISCOUNT_COUPON_PERIOD_INTERVAL"] = "Przedział czasu";
 $MESS["BX_SALE_DISCOUNT_EDIT_ERR_COUPONS_COUNT"] = "Liczba kuponów do utworzenia nie jest określona";
@@ -44,4 +47,3 @@ $MESS["BX_SALE_DISCOUNT_EDIT_TAB_TITLE_COUPONS"] = "Kupony powiązane z zasadą"
 $MESS["SDEN_ACTIVE"] = "Aktywne";
 $MESS["SDEN_PERIOD"] = "Okres aktywności";
 $MESS["SDEN_SITE"] = "Strona";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["STEN_2FLIST"] = "Lista transakcji";
 $MESS["STEN_2FLIST_TITLE"] = "Wyświetl listę transakcji";
 $MESS["STEN_TAB_TRANSACT"] = "Transakcja";
@@ -7,9 +7,15 @@ $MESS["STE_APPLY"] = "Zastosuj";
 $MESS["STE_CANCEL"] = "Anuluj";
 $MESS["STE_CANCEL1"] = "Anuluj";
 $MESS["STE_CURRENCY"] = "Waluta:";
+$MESS["STE_DEBET"] = "zasil konto użytkownika";
 $MESS["STE_DESCR"] = "Opis:";
+$MESS["STE_EMPTY_CURRENCY"] = "Pole \"Waluta\" jest puste";
+$MESS["STE_EMPTY_DATE"] = "Pole \"Data transakcji\" jest puste";
+$MESS["STE_EMPTY_SUM"] = "Pole \"Kwota\" jest puste";
+$MESS["STE_EMPTY_USER"] = "Pole \"Użytkownik\" jest puste";
 $MESS["STE_ERROR"] = "Błąd zapisu!";
 $MESS["STE_ERROR_SAVE_ACCOUNT"] = "Błąd zapisywania konta";
+$MESS["STE_KREDIT"] = "obciąż konto użytkownika";
 $MESS["STE_NOTES"] = "Uwagi:";
 $MESS["STE_ORDER_ID"] = "ID zamówienia (dla transakcji powiązanych z zamówieniem)";
 $MESS["STE_SAVE"] = "Zapisz";
@@ -19,4 +25,3 @@ $MESS["STE_TO_LIST"] = "Transakcje";
 $MESS["STE_TYPE"] = "Typ rekordu:";
 $MESS["STE_USER"] = "Użytkownik:";
 $MESS["STE_USER_PROFILE"] = "Profil Użytkownika";
-?>

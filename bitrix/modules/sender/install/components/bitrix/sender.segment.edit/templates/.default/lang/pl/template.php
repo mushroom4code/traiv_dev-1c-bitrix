@@ -1,4 +1,5 @@
-<?
+<?php
+$MESS["SENDER_SEGMENT_CREATED"] = "Segment został utworzony. Kliknij Zapisz po wybraniu warunków (dla segmentu dynamicznego) lub po rozpoczęciu ładowania (dla segmentu statycznego). Segment będzie nadal wypełniany danymi.";
 $MESS["SENDER_SEGMENT_EDIT_BUTTON_SELECT_CONTACT"] = "Wybierz listę odbiorców";
 $MESS["SENDER_SEGMENT_EDIT_CONTACT_SEARCHER_TITLE"] = "Statyczne listy odbiorców";
 $MESS["SENDER_SEGMENT_EDIT_TMPL_BTN_ADD"] = "Dodaj filtr";
@@ -25,4 +26,5 @@ $MESS["SENDER_SEGMENT_EDIT_TMPL_SET_FILTER"] = "Konfiguruj filtr";
 $MESS["SENDER_SEGMENT_EDIT_TMPL_SUM"] = "Łącznie wybranych odbiorców";
 $MESS["SENDER_SEGMENT_EDIT_TMPL_SUM_OF"] = "z tego";
 $MESS["SENDER_SEGMENT_EDIT_TMPL_VIEW"] = "Widok";
-?>
+$MESS["SENDER_SEGMENT_NOT_PREPARED"] = "<strong>Uwaga!</strong> Segment jest nadal tworzony. Informacje o odbiorcach będą aktualizowane";
+$MESS["SENDER_SEGMENT_SEARCH_INFORMATION"] = "Dane są teraz ładowane. Informacje będą dostępne po zakończeniu procesu.";

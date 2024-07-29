@@ -1,5 +1,4 @@
-<?
-$MESS["LANDING_BLOCK_FORM_33.1"] = "Formulário com texto à esquerda em um fundo escuro";
+<?php
 $MESS["LANDING_BLOCK_FORM_33.1_NODE_BGIMG"] = "Imagem de fundo";
 $MESS["LANDING_BLOCK_FORM_33.1_NODE_CARD_CONTACT"] = "Contato";
 $MESS["LANDING_BLOCK_FORM_33.1_NODE_CONTACT_ICON"] = "Ícone";
@@ -9,4 +8,5 @@ $MESS["LANDING_BLOCK_FORM_33.1_NODE_FORM"] = "Formulário";
 $MESS["LANDING_BLOCK_FORM_33.1_NODE_SUBTITLE"] = "Legenda";
 $MESS["LANDING_BLOCK_FORM_33.1_NODE_TEXT"] = "Texto";
 $MESS["LANDING_BLOCK_FORM_33.1_NODE_TITLE"] = "Título";
-?>
+$MESS["LANDING_BLOCK_FORM_33_1"] = "Formulário em imagem de fundo esmaecida com texto à esquerda";
+$MESS["LANDING_BLOCK_FORM_33_1_NODE_BLOCK"] = "Bloco";

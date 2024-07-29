@@ -1,6 +1,7 @@
-<?
+<?php
 $MESS["MAIN_KANBAN_CANCEL_BUTTON"] = "Annuler";
 $MESS["MAIN_KANBAN_COLUMN_TITLE_PLACEHOLDER"] = "Nom";
+$MESS["MAIN_KANBAN_COLUMN_TITLE_PLACEHOLDER2"] = "Titre";
 $MESS["MAIN_KANBAN_DROPZONE_CANCEL"] = "Annuler";
 $MESS["MAIN_KANBAN_ERROR"] = "Erreur";
 $MESS["MAIN_KANBAN_ERROR_CLOSE"] = "Fermer";
@@ -11,4 +12,3 @@ $MESS["MAIN_KANBAN_RELOAD"] = "Recharger la page";
 $MESS["MAIN_KANBAN_REMOVE_BUTTON"] = "Supprimer";
 $MESS["MAIN_KANBAN_REMOVE_COLUMN_CONFIRM_DESC"] = "Voulez-vous vraiment supprimer la colonne ?";
 $MESS["MAIN_KANBAN_REMOVE_COLUMN_CONFIRM_TITLE"] = "Confirmer la suppression";
-?>

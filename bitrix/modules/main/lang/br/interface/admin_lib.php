@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["JSPOPUP_CANCEL_CAPTION"] = "Cancelar";
 $MESS["JSPOPUP_CANCEL_TITLE"] = "Cancelar alterações";
 $MESS["JSPOPUP_CLOSE_CAPTION"] = "Fechar";
@@ -79,6 +79,7 @@ $MESS["admin_lib_less_buttons"] = "Usar botões pequenos no menu";
 $MESS["admin_lib_list_act"] = "Ações";
 $MESS["admin_lib_list_actions"] = "- ações -";
 $MESS["admin_lib_list_actions_title"] = "Opções";
+$MESS["admin_lib_list_all_title"] = "Total";
 $MESS["admin_lib_list_apply"] = "Aplicar";
 $MESS["admin_lib_list_check"] = "Marcar/Desmarcar";
 $MESS["admin_lib_list_check_all"] = "Marcar Todos/Desmarcar Todos";
@@ -95,11 +96,13 @@ $MESS["admin_lib_list_edit_save"] = "Salvar";
 $MESS["admin_lib_list_edit_save_title"] = "Salvar alterações e sair do editor";
 $MESS["admin_lib_list_for_all"] = "Para todos";
 $MESS["admin_lib_list_no"] = "Não";
+$MESS["admin_lib_list_show_row_count_title"] = "Mostrar quantidade";
 $MESS["admin_lib_list_yes"] = "Sim";
 $MESS["admin_lib_loading"] = "Carregando...";
 $MESS["admin_lib_loading_title"] = "Carregando itens de menu...";
 $MESS["admin_lib_menu_content"] = "Conteúdo";
 $MESS["admin_lib_menu_content_title"] = "Gerenciamento de Conteúdo do Site";
+$MESS["admin_lib_menu_landing"] = "Sites";
 $MESS["admin_lib_menu_loading"] = "Carregando...";
 $MESS["admin_lib_menu_marketing"] = "Marketing";
 $MESS["admin_lib_menu_marketplace"] = "Marketplace";
@@ -223,4 +226,3 @@ $MESS["calend_th"] = "Qui";
 $MESS["calend_title"] = "Calendário";
 $MESS["calend_tu"] = "Ter";
 $MESS["calend_we"] = "Qua";
-?>

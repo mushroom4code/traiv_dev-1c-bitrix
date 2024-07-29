@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["UI_USERFIELD_ADD"] = "Dodaj";
 $MESS["UI_USERFIELD_CANCEL"] = "Anuluj";
 $MESS["UI_USERFIELD_FACTORY_BOOLEAN_TITLE"] = "Tak/Nie";
@@ -6,13 +6,18 @@ $MESS["UI_USERFIELD_FACTORY_CONFIGURATOR_FIELD_TITLE"] = "Nazwa pola";
 $MESS["UI_USERFIELD_FACTORY_FIELD_MULTIPLE"] = "Wielokrotne";
 $MESS["UI_USERFIELD_FACTORY_FIELD_REQUIRED"] = "Wymagane";
 $MESS["UI_USERFIELD_FACTORY_UF_ADDRESS_LEGEND"] = "Określa dane adresu i zapewnia możliwość pokazania go w usłudze Mapy Google.";
+$MESS["UI_USERFIELD_FACTORY_UF_ADDRESS_LEGEND_2"] = "Dane adresowe sklepów.";
 $MESS["UI_USERFIELD_FACTORY_UF_ADDRESS_TITLE"] = "Adres w usłudze Mapy Google";
+$MESS["UI_USERFIELD_FACTORY_UF_ADDRESS_TITLE_2"] = "Adres";
 $MESS["UI_USERFIELD_FACTORY_UF_BOOLEAN_LEGEND"] = "Tego pola można używać w szybkich ankietach lub wówczas, gdy wymagana jest jedna z dwóch odpowiedzi (tak albo nie).";
 $MESS["UI_USERFIELD_FACTORY_UF_CUSTOM_LEGEND"] = "Więcej typów pół: liczba całkowita; powiąż z użytkownikiem; powiąż z jednostką CRM itd.";
 $MESS["UI_USERFIELD_FACTORY_UF_CUSTOM_TITLE"] = "Dodatkowe pola...";
 $MESS["UI_USERFIELD_FACTORY_UF_DATETIME_LABEL"] = "Nowa data";
 $MESS["UI_USERFIELD_FACTORY_UF_DATETIME_LEGEND"] = "Umożliwia użytkownikowi określenie daty i godziny za pomocą wbudowanego kalendarza.";
 $MESS["UI_USERFIELD_FACTORY_UF_DATETIME_TITLE"] = "Data/godzina";
+$MESS["UI_USERFIELD_FACTORY_UF_DATE_LABEL"] = "Nowa data";
+$MESS["UI_USERFIELD_FACTORY_UF_DATE_LEGEND"] = "Wybiera datę używając wbudowanego kalendarza.";
+$MESS["UI_USERFIELD_FACTORY_UF_DATE_TITLE"] = "Data";
 $MESS["UI_USERFIELD_FACTORY_UF_DOUBLE_LABEL"] = "Nowy numer";
 $MESS["UI_USERFIELD_FACTORY_UF_DOUBLE_LEGEND"] = "Zawiera dane liczbowe, które mogą zostać użyte w raportach analitycznych.";
 $MESS["UI_USERFIELD_FACTORY_UF_DOUBLE_TITLE"] = "Liczba";
@@ -32,8 +37,7 @@ $MESS["UI_USERFIELD_FACTORY_UF_MONEY_LEGEND"] = "Określa kwoty pieniędzy z opc
 $MESS["UI_USERFIELD_FACTORY_UF_MONEY_TITLE"] = "Pieniądze";
 $MESS["UI_USERFIELD_FACTORY_UF_STRING_LABEL"] = "Nowy tekst";
 $MESS["UI_USERFIELD_FACTORY_UF_STRING_LEGEND"] = "Pola tekstowe mogą zawierać dowolne informacje: tekst, cyfry, znaki specjalne itd.";
-$MESS["UI_USERFIELD_FACTORY_UF_STRING_TITLE"] = "Ciąg";
+$MESS["UI_USERFIELD_FACTORY_UF_STRING_TITLE"] = "String";
 $MESS["UI_USERFIELD_FACTORY_UF_URL_LEGEND"] = "Określa linki internetowe.";
 $MESS["UI_USERFIELD_FACTORY_UF_URL_TITLE"] = "Link";
 $MESS["UI_USERFIELD_SAVE"] = "Zapisz";
-?>

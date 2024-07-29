@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SALE_EBAY_W_BACK"] = "Retour";
 $MESS["SALE_EBAY_W_CLEAN_CACHE"] = "Mettre à jour les données";
 $MESS["SALE_EBAY_W_CONTENTS"] = "Contenus";
@@ -14,7 +14,7 @@ $MESS["SALE_EBAY_W_STEP_ACCOUNT_CONFIRM"] = "Confirmer le compte eBay";
 $MESS["SALE_EBAY_W_STEP_ACCOUNT_PP"] = "Compte PayPal";
 $MESS["SALE_EBAY_W_STEP_ACCOUNT_REGISTER"] = "Si vous n'avez pas de compte eBay, vous pouvez en #R1#créer un#R2#. Lisez les instructions #I2#ici#I2#";
 $MESS["SALE_EBAY_W_STEP_ACCOUNT_SET"] = "Indiquez le compte eBay";
-$MESS["SALE_EBAY_W_STEP_ACTIVE"] = "actif";
+$MESS["SALE_EBAY_W_STEP_ACTIVE"] = "Activité";
 $MESS["SALE_EBAY_W_STEP_CATALOG"] = "Catalogue de produits à exporter vers eBay";
 $MESS["SALE_EBAY_W_STEP_CATALOG_ADD"] = "Ajouter";
 $MESS["SALE_EBAY_W_STEP_CATALOG_DESCR"] = "Sélectionnez un catalogue commercial (bloc d'information) contenant les produits à exporter vers eBay. Puis sélectionnez les propriétés contenant les images de produits supplémentaires.";
@@ -94,4 +94,3 @@ $MESS["SALE_EBAY_W_STEP_VERIFIED"] = "vérifié";
 $MESS["SALE_EBAY_W_STEP_WELCOME"] = "Bienvenue dans l'assistant de connexion à eBay ! Il vous guidera le temps des étapes de configuration indépendante. La durée de ces étapes dépend directement des services eBay et PayPal. Vous pouvez fermer l'assistant à tout moment si vous voulez configurer plus tard.";
 $MESS["SALE_EBAY_W_TITLE"] = "Assistant de connexion à eBay";
 $MESS["SALE_EBAY_W_USER_INFO_ERROR"] = "Impossible de récupérer les données d'utilisateur d'eBay.";
-?>

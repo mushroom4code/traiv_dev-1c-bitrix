@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ELVL001_SIZE_ERROR"] = "Échec du téléchargement de la mise à jour. Essayez de répéter la procédure de téléchargement.";
 $MESS["HINT_WIND_EXEC"] = "Description de la mise à jour";
 $MESS["HINT_WIND_EXEC_ALT"] = "Description de la mise à jour";
@@ -122,7 +122,7 @@ $MESS["SUP_ACT_NO_USER_LAST_NAME"] = "Le nom d'utilisateur pour qui le profil es
 $MESS["SUP_ACT_NO_USER_LOGIN"] = "Le nom d'utilisateur n'est pas indiqué sur le site <a href='http://www.bitrixsoft.com' target='_blank'>www.bitrixsoft.com</a>";
 $MESS["SUP_ACT_NO_USER_NAME"] = "Le nom d'utilisateur pour lequel le profil est créé sur le site n'est pas indiqué <a href='http://www.bitrixsoft.com' target='_blank'>www.bitrixsoft.com</a>";
 $MESS["SUP_ACT_NO_USER_PASSWORD"] = "Le mot de passe sur le site <a href='http://www.bitrixsoft.com' target='_blank'>www.bitrixsoft.com</a> n'est pas indiqué.";
-$MESS["SUP_ACT_NO_USER_PASSWORD_CONFIRM"] = "Le mot de passe sur le site <a href='http://www.bitrixsoft.com'>www.bitrixsoft.com</a> ne coïncide pas avec la confirmation du mot de passe.";
+$MESS["SUP_ACT_NO_USER_PASSWORD_CONFIRM"] = "Le mot de passe sur le site <a href='https://store.bitrix24.eu'>store.bitrix24.eu</a> ne coïncide pas avec la confirmation du mot de passe.";
 $MESS["SUP_ACT_SHORT_USER_LOGIN"] = "L'identifiant sur le site <a href='http://www.bitrixsoft.com' target='_blank'>www.bitrixsoft.com</a> ne peut pas être inférieur à trois caractères";
 $MESS["SUP_ACT_TAB"] = "Activation";
 $MESS["SUP_ACT_TAB_TITLE"] = "Activation de la clé de licence";
@@ -308,4 +308,3 @@ $MESS["SUP_WORD_YAZIK_END3"] = "E";
 $MESS["SUP_WORD_YAZIK_END4"] = "a";
 $MESS["SUP_ZLIB"] = "Module PHP zlib installé. On va utiliser la compression de données.";
 $MESS["SUP_ZLIB_RECOM"] = "Pour le fonctionnement effectif du système des mises à jour il faut installer le module PHP zlib (la description du module est disponible à cette adresse <a href='#ZLIB_URL#' target='_blank'>#ZLIB_URL#</a>).";
-?>

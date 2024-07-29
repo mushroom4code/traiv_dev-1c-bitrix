@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SOPD_TPL_RESTRICTED_PAID_MESSAGE"] = "<b>Avis : </b> cette commande peut être payée une fois vérifiée par un agent de vente";
 $MESS["SPOD_ACCOUNT"] = "Compte";
 $MESS["SPOD_ACCOUNT_DATA"] = "Les informations de votre compte";
@@ -17,7 +17,7 @@ $MESS["SPOD_FROM"] = "de";
 $MESS["SPOD_GO_BACK"] = "Précédent";
 $MESS["SPOD_HIDE_MAP"] = "Cacher la carte";
 $MESS["SPOD_LIST_FIO"] = "Nom complet";
-$MESS["SPOD_LIST_LESS"] = "masquer";
+$MESS["SPOD_LIST_LESS"] = "cacher";
 $MESS["SPOD_LIST_MORE"] = "plus";
 $MESS["SPOD_LIST_MY_ORDER"] = "Ma commande ##ACCOUNT_NUMBER#, créée le #DATE_ORDER_CREATE#";
 $MESS["SPOD_LIST_ORDER_INFO"] = "Information sur la commande";
@@ -27,7 +27,7 @@ $MESS["SPOD_NAME"] = "Dénomination";
 $MESS["SPOD_NO"] = "Non";
 $MESS["SPOD_NONE"] = "non établi";
 $MESS["SPOD_NUM_SIGN"] = "#";
-$MESS["SPOD_ORDER"] = "Ordre";
+$MESS["SPOD_ORDER"] = "Commande";
 $MESS["SPOD_ORDER_BASKET"] = "Contenu de commande";
 $MESS["SPOD_ORDER_CANCEL"] = "Annuler";
 $MESS["SPOD_ORDER_CANCELED"] = "Annulé";
@@ -83,4 +83,3 @@ $MESS["SPOD_TPL_SUMOF"] = "total";
 $MESS["SPOD_TPL_TWO_GOODS"] = "produit";
 $MESS["SPOD_USER_INFORMATION"] = "Information de l'utilisateur";
 $MESS["SPOD_YES"] = "Oui";
-?>

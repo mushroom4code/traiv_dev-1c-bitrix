@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["ERROR_DEDUCT_ORDER"] = "Błąd anulowania zamówienia";
 $MESS["ERROR_MARK_ORDER"] = "Błąd dodawania opisu problemu z zamówieniem";
 $MESS["NEWO_ADD_COLUMN"] = "Dodaj kolumnę";
@@ -92,7 +92,7 @@ $MESS["NEWO_SUBTAB_RECOMENET"] = "Oferty";
 $MESS["NEWO_SUBTAB_RECOM_REQUEST"] = "Sugestie klienta";
 $MESS["NEWO_TITLE_ADD"] = "Dodaj zamówienie do srony  #LID#";
 $MESS["NEWO_TITLE_BUYER"] = "Klient";
-$MESS["NEWO_TITLE_DEFAULT"] = "Zamów";
+$MESS["NEWO_TITLE_DEFAULT"] = "Zamówienie";
 $MESS["NEWO_TITLE_EDIT"] = "Edytuj zamówienie ##ID#";
 $MESS["NEWO_TITLE_ORDER"] = "Zawartość zamówienia";
 $MESS["NEWO_TITLE_STATUS"] = "Parametry zamówienia";
@@ -145,7 +145,7 @@ $MESS["SALE_SUBTAB_BASKET_TABLE"] = "Produkty";
 $MESS["SOD_NO_PERMS2DEDUCT"] = "Nie masz uprawnień do wysłania zamówienia.";
 $MESS["SOD_NO_PERMS2MARK"] = "Nie masz uprawnień do opóźniania lub zatrzymania wypełnienia.";
 $MESS["SOD_PAY_ACCOUNT_BACK"] = "Przesuń pieniądze spowrotem na wewnętrzne konto";
-$MESS["SOEN_TAB_ORDER"] = "Zamów";
+$MESS["SOEN_TAB_ORDER"] = "Zamówienie";
 $MESS["SOEN_TAB_ORDER_NEW_TITLE"] = "Nowe zamówienie";
 $MESS["SOEN_TAB_ORDER_TITLE"] = "Edytuj zamówienie";
 $MESS["SOE_ADDITIONAL"] = "Dodatkowe Informacje";
@@ -211,7 +211,7 @@ $MESS["SOE_NEW_ERR_PROD_NAME"] = "Brakuje nazwy produktu.";
 $MESS["SOE_NEW_ITEMS"] = "Nowy produkt…";
 $MESS["SOE_NO"] = "Nie";
 $MESS["SOE_NO_ORDER"] = "Nie znaleziono zamówienia";
-$MESS["SOE_ORDER_HEAD"] = "Zamów";
+$MESS["SOE_ORDER_HEAD"] = "Zamówienie";
 $MESS["SOE_ORDER_LOCKED"] = "Zamówienie zostało tymczasowo wstrzymane przez klienta ##ID# (#DATE#).";
 $MESS["SOE_ORDER_LOCKED2"] = "Zamówienie zostało czasowo wstrzymane przez klienta #ID# (#DATE#)";
 $MESS["SOE_ORDER_PAID"] = "Zamówienie zapłacone";
@@ -227,7 +227,7 @@ $MESS["SOE_PROPERTY_MORE"] = "Dodawanie";
 $MESS["SOE_PROP_COUNT_LIMIT"] = "Wybrano zbyt wiele właściwości. Tylko pierwsze 20 właściwości będzie widocznych.";
 $MESS["SOE_SAVE_ERROR"] = "Błąd zapisu zamówienia.";
 $MESS["SOE_SELECT"] = "wybierz";
-$MESS["SOE_SHOW_SET"] = "Rozwinięcie";
+$MESS["SOE_SHOW_SET"] = "Rozwiń";
 $MESS["SOE_SITE"] = "Strona internetowa";
 $MESS["SOE_STATUS"] = "Status zamówienia";
 $MESS["SOE_SUM"] = "Kwota";
@@ -242,4 +242,3 @@ $MESS["SOE_VOUCHER_NUM"] = "Rachunek #";
 $MESS["SOE_WEIGHT"] = "Waga";
 $MESS["SO_NO"] = "Nie";
 $MESS["SO_YES"] = "Tak";
-?>

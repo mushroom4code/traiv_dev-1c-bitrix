@@ -1,3 +1,2 @@
-<?
-$MESS["LANDING_NODE_CMP_STYLE_BLOCK"] = "Ver configuraciones";
-?>
+<?php
+$MESS["LANDING_NODE_CMP_STYLE_BLOCK"] = "Configuraciones de visualización";

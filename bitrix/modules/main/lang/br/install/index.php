@@ -1,7 +1,8 @@
-<?
+<?php
 $MESS["MAIN_ADMIN_GROUP_DESC"] = "Acesso total.";
 $MESS["MAIN_ADMIN_GROUP_NAME"] = "Administradores";
 $MESS["MAIN_DEFAULT_LANGUAGE_AM_VALUE"] = "am";
+$MESS["MAIN_DEFAULT_LANGUAGE_CODE"] = "pt-BR";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_MONTH_FORMAT"] = "j \\d\\e F";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_OF_WEEK_MONTH_FORMAT"] = "l, j \\d\\e F";
 $MESS["MAIN_DEFAULT_LANGUAGE_DAY_SHORT_MONTH_FORMAT"] = "j \\d\\e M";
@@ -27,7 +28,7 @@ $MESS["MAIN_DEFAULT_SITE_FORMAT_DATETIME"] = "DD/MM/YYYY HH:MI:SS";
 $MESS["MAIN_DEFAULT_SITE_FORMAT_NAME"] = "#NAME# #LAST_NAME#";
 $MESS["MAIN_DEFAULT_SITE_NAME"] = "Site padrão";
 $MESS["MAIN_DESKTOP_CREATEDBY_KEY"] = "Criado por";
-$MESS["MAIN_DESKTOP_CREATEDBY_VALUE"] = "Bitrix, Inc.  ";
+$MESS["MAIN_DESKTOP_CREATEDBY_VALUE"] = "Bitrix24";
 $MESS["MAIN_DESKTOP_EMAIL_KEY"] = "E-mail";
 $MESS["MAIN_DESKTOP_EMAIL_VALUE"] = "<a href=\"mailto:info@bitrixsoft.com\">info@bitrixsoft.com</a>";
 $MESS["MAIN_DESKTOP_INFO_TITLE"] = "Informações do site";
@@ -40,7 +41,19 @@ $MESS["MAIN_DESKTOP_URL_KEY"] = "URL do site";
 $MESS["MAIN_DESKTOP_URL_VALUE"] = "<a href=\"http://www.bitrixsoft.com\">www.bitrixsoft.com</a>";
 $MESS["MAIN_EVERYONE_GROUP_DESC"] = "Todos os usuários (incluindo usuários não-autorizados).";
 $MESS["MAIN_EVERYONE_GROUP_NAME"] = "Todos os usuários (com usuários não-autorizados)";
-$MESS["MAIN_INSTALL_DB_ERROR"] = "Não é possível conectar ao banco de dados. Por favor, verifique os parâmetros.";
+$MESS["MAIN_INSTALL_EVENT_MESSAGE_NEW_DEVICE_LOGIN"] = "Olá #NAME#,
+
+um novo dispositivo acabou de iniciar sessão com o seu login #LOGIN#.
+ 
+Dispositivo: #DEVICE# 
+Navegador: #BROWSER#
+Plataforma: #PLATFORM#
+Localização: #LOCATION# (aproximado)
+Data: #DATE#
+
+Recomendamos que você altere sua senha imediatamente se não foi você ou se o acesso não foi em seu nome.
+";
+$MESS["MAIN_INSTALL_EVENT_MESSAGE_NEW_DEVICE_LOGIN_SUBJECT"] = "Novo dispositivo conectado";
 $MESS["MAIN_INSTALL_EVENT_MESS_USER_CODE_REQUEST"] = "#SITE_NAME#: Solicitação de código de verificação";
 $MESS["MAIN_INSTALL_EVENT_MESS_USER_CODE_REQUEST_MESS"] = "Use o seguinte código para efetuar login:
 
@@ -53,6 +66,23 @@ Status da conta: #STATUS#
 Login: #LOGIN#
 
 Esta mensagem foi criada automaticamente.";
+$MESS["MAIN_INSTALL_EVENT_TYPE_NEW_DEVICE_LOGIN"] = "Novo dispositivo conectado";
+$MESS["MAIN_INSTALL_EVENT_TYPE_NEW_DEVICE_LOGIN_DESC"] = "#USER_ID# - ID do usuário
+#EMAIL# - E-mail do usuário:
+#LOGIN# - Login do usuário
+#NAME# - Nome do usuário
+#LAST_NAME# - Sobrenome do usuário
+#DEVICE# - Dispositivo
+#BROWSER# - Navegador
+#PLATFORM# - Plataforma
+#USER_AGENT# - Agente do usuário
+#IP# - Endereço IP
+#DATE# - Data
+#COUNTRY# - País
+#REGION# - Região
+#CITY# - Cidade
+#LOCATION# - Localização completa (city, região, país)
+";
 $MESS["MAIN_INSTALL_EVENT_TYPE_USER_CODE_REQUEST"] = "Solicitação de código de verificação";
 $MESS["MAIN_INSTALL_EVENT_TYPE_USER_CODE_REQUEST_DESC"] = "#USER_ID# - ID do usuário
 #STATUS# - Status do login
@@ -243,4 +273,3 @@ $MESS["main_install_sms_event_restore_name"] = "Recupere a senha usando o SMS";
 $MESS["main_install_sms_template_confirm_mess"] = "Código de confirmação: #CODE#";
 $MESS["main_install_sms_template_notification_mess"] = "#NAME#: #ADDITIONAL_TEXT# (eventos: #EVENT_COUNT#)";
 $MESS["main_install_sms_template_restore_mess"] = "Código para recuperar a senha: #CODE#";
-?>

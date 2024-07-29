@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CATI_ACTIVATE_PROD"] = "activer";
 $MESS["CATI_ADDIT_SETTINGS"] = "Paramètres avancés";
 $MESS["CATI_AUTO_REFRESH"] = "Si la page n'est pas renouvelée automatiquement, appuyez sur le lien";
@@ -44,9 +44,9 @@ $MESS["CATI_INACTIVE_PRODS"] = "Produits inactifs / catégories";
 $MESS["CATI_INFOBLOCK"] = "Bloc de l'information : ";
 $MESS["CATI_INFOBLOCK_SELECT"] = "- Sélectionner -";
 $MESS["CATI_KEEP_AS_IS"] = "laisser tel quel";
-$MESS["CATI_LINE_NO"] = "Ligne";
+$MESS["CATI_LINE_NO"] = "Chaîne";
 $MESS["CATI_LOADSCHEME"] = "Système de charge : ";
-$MESS["CATI_NEXT_STEP"] = "En avant";
+$MESS["CATI_NEXT_STEP"] = "Suivant";
 $MESS["CATI_NEXT_STEP_F"] = "Charger les données";
 $MESS["CATI_NOIDNAME"] = "Impossible d'identifier le produit parce que le Nom et Unique ID ne sont pas spécifiés.";
 $MESS["CATI_NOMAME"] = "<nom vide>";
@@ -83,4 +83,3 @@ $MESS["CATI_TOTAL_COR2"] = "d'entrées.";
 $MESS["CATI_TOTAL_ERRS"] = "Total d'entrées contenant des erreurs : ";
 $MESS["CATI_TZP"] = "point-virgule";
 $MESS["CATI_ZPT"] = "virgule";
-?>

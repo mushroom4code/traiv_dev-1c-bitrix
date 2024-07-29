@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_CATEGORY_NAME"] = "Nome da tag";
 $MESS["BLOG_P_IMAGE_LINK"] = "Inserir link da imagem";
 $MESS["BLOG_P_INSERT_IMAGE_LINK"] = "Inserir link para a imagem";
@@ -25,7 +25,7 @@ $MESS["BPC_MES_SHOW"] = "Exibir";
 $MESS["BPC_MES_SPAM"] = "Spam?";
 $MESS["BPC_MES_SPAM_TITLE"] = "Gerenciar todos os comentários de usuários";
 $MESS["BPC_PAGE"] = "Páginas:";
-$MESS["BPC_QUOTE"] = "Citar";
+$MESS["BPC_QUOTE"] = "Citação";
 $MESS["BPC_SMILE"] = "Todos os smileys";
 $MESS["BPC_STRIKE"] = "Colisão";
 $MESS["BPC_SUBJECT"] = "Assunto";
@@ -47,4 +47,3 @@ $MESS["B_B_MS_REPLY"] = "Responder";
 $MESS["B_B_MS_SAVE"] = "Salvar";
 $MESS["B_B_MS_SEND"] = "Enviar";
 $MESS["FPF_VIDEO"] = "Inserir vídeo";
-?>

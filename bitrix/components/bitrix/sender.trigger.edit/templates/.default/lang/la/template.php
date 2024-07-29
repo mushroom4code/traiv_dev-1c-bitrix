@@ -1,10 +1,10 @@
-<?
+<?php
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_CONDITION_NOTIFY"] = "notificar, enviar todos los mensajes";
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_FIELD_ACTIVE"] = "Activo";
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_FIELD_COND_END"] = "Objetivo";
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_FIELD_COND_END_DESC"] = "Cualquier cosa que quieras lograr contactando a un usuario";
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_FIELD_COND_START"] = "Condición inicial";
-$MESS["SENDER_CAMPAIGN_EDIT_TMPL_FIELD_COND_START_DESC"] = "Una acción que un usuario debe realizar para activar el boletín";
+$MESS["SENDER_CAMPAIGN_EDIT_TMPL_FIELD_COND_START_DESC"] = "Una acción que el usuario debe realizar para disparar el boletín";
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_FIELD_DESC"] = "Descripción";
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_FIELD_IS_PUBLIC"] = "Mostrar en área pública";
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_FIELD_NAME"] = "Nombre";
@@ -16,4 +16,3 @@ $MESS["SENDER_CAMPAIGN_EDIT_TMPL_RUN_FOR_OLD_DATA_HINT"] = "Con esta opción mar
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_RUN_FOR_OLD_DATA_STATE"] = "completado";
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_RUN_TIME"] = "Hora de inicio";
 $MESS["SENDER_CAMPAIGN_EDIT_TMPL_SELECT_COND"] = "Seleccionar condición";
-?>

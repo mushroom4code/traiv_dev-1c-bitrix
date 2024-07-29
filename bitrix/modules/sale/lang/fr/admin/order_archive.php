@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBEL_A_UNLOCK"] = "Déverrouiller";
 $MESS["IBLOCK_UNLOCK_ALT"] = "Déverrouiller l'enregistrement";
 $MESS["IBLOCK_UNLOCK_CONFIRM"] = "Voulez-vous vraiment déverrouiller l'enregistrement ?";
@@ -168,7 +168,7 @@ $MESS["SOA_SHIPMENTS_DEDUCTED"] = "Expédié";
 $MESS["SOA_SHIPMENTS_MARKED"] = "Marqué";
 $MESS["SOA_SHIPMENTS_NOT_ALLOW_DELIVERY"] = "Expédition non approuvée";
 $MESS["SOA_SHIPMENTS_STATUS"] = "Statut";
-$MESS["SOA_SHOW_SET"] = "Agrandir";
+$MESS["SOA_SHOW_SET"] = "Développer";
 $MESS["SOA_TRACKING_NUMBER"] = "Numéro de suivi";
 $MESS["SOE_ORDER_LOCKED"] = "La commande a été temporairement verrouillée par ##ID# (#DATE#)";
 $MESS["SO_AFFILIATE_ID"] = "Affiliation";
@@ -197,4 +197,3 @@ $MESS["SO_S_DATE_STATUS"] = "Date de modification du statut";
 $MESS["SO_UNSUCCESS"] = "Échec";
 $MESS["SO_XML_ID"] = "ID de commande externe";
 $MESS["SO_YES"] = "Oui";
-?>

@@ -1,4 +1,5 @@
-<?
+<?php
+$MESS["BUYER_ADD_USER"] = "Adicionar cliente";
 $MESS["BUYER_BASKET_LAST_UPDATE"] = "Última atualização do carrinho de compras em";
 $MESS["BUYER_ERR_LAST_LOGIN_FROM"] = "A primeira data de login está incorreta.";
 $MESS["BUYER_ERR_LAST_LOGIN_TILL"] = "A última data de login está incorreta.";
@@ -17,9 +18,12 @@ $MESS["BUYER_F_LOGIN"] = "Login";
 $MESS["BUYER_F_MAIL"] = "E-mail";
 $MESS["BUYER_F_MOBILE"] = "Celular";
 $MESS["BUYER_F_NAME"] = "Primeiro nome";
+$MESS["BUYER_F_PAID_ALL"] = "Valor recebido";
 $MESS["BUYER_F_PHONE"] = "Telefone";
 $MESS["BUYER_F_PRICE_ALL"] = "Soma total dos pedidos";
 $MESS["BUYER_F_QUANTITY_ALL"] = "Total dos pedidos";
+$MESS["BUYER_F_QUANTITY_FULL"] = "Pedidos pagos integralmente";
+$MESS["BUYER_F_QUANTITY_PART"] = "Pedidos pagos parcialmente";
 $MESS["BUYER_F_SECOND"] = "Nome do meio";
 $MESS["BUYER_F_TO"] = "até";
 $MESS["BUYER_F_UNIVERSAL"] = "Filtro universal";
@@ -27,11 +31,12 @@ $MESS["BUYER_LID"] = "Website";
 $MESS["BUYER_ORDERS_LID"] = "Pedidos";
 $MESS["BUYER_ORDER_LAST"] = "Data do último pedido";
 $MESS["BUYER_PRLIST"] = "Clientes";
-$MESS["BUYER_PROFILE"] = "Perfil do usuário";
 $MESS["BUYER_ROW_BUYER"] = "Cliente";
 $MESS["BUYER_ROW_COUNTRY"] = "País";
+$MESS["BUYER_ROW_COUNT_FULL_PAID_ORDER"] = "Pedidos pagos integralmente";
 $MESS["BUYER_ROW_COUNT_ORDER"] = "Pedidos pagos";
 $MESS["BUYER_ROW_COUNT_ORDERS"] = "Pedidos pagos";
+$MESS["BUYER_ROW_COUNT_PART_PAID_ORDER"] = "Pedidos pagos parcialmente";
 $MESS["BUYER_ROW_DATE_REGISTER"] = "Registrado em";
 $MESS["BUYER_ROW_GROUP"] = "Grupos de clientes";
 $MESS["BUYER_ROW_LAST"] = "Sobrenome";
@@ -47,9 +52,10 @@ $MESS["BUYER_ROW_SECOND"] = "Nome do meio";
 $MESS["BUYER_ROW_STATE"] = "Estado";
 $MESS["BUYER_ROW_STREET"] = "Endereço";
 $MESS["BUYER_ROW_SUM_ORDER"] = "Total de pedidos";
+$MESS["BUYER_ROW_SUM_PAID"] = "Valor total recebido";
 $MESS["BUYER_ROW_TOWN"] = "Cidade";
 $MESS["BUYER_ROW_ZIP"] = "CEP";
+$MESS["BUYER_SUB_ACTION_EDIT_PROFILE"] = "Editar cliente";
 $MESS["BUYER_SUB_ACTION_ORDER"] = "Criar um pedido";
-$MESS["BUYER_SUB_ACTION_PROFILE"] = "Perfis de usuários";
+$MESS["BUYER_SUB_ACTION_PROFILE"] = "Perfis dos clientes";
 $MESS["BUYER_TITLE"] = "Clientes";
-?>

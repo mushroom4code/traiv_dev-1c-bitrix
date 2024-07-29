@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SEC_ANTIVIRUS_ACTION"] = "Acción a tomar cuando se detecta un virus";
 $MESS["SEC_ANTIVIRUS_ACTION_NOTIFY_ONLY"] = "Registrar usuario y notificar al administrador";
 $MESS["SEC_ANTIVIRUS_ACTION_REPLACE"] = "Cortar el objeto desde el código del sitio web";
@@ -9,7 +9,7 @@ $MESS["SEC_ANTIVIRUS_LEVEL"] = "La activación es recomendada para un alto nivel
 $MESS["SEC_ANTIVIRUS_MAIN_TAB"] = "Antivirus web";
 $MESS["SEC_ANTIVIRUS_MAIN_TAB_TITLE"] = "Activar Antivirus web.";
 $MESS["SEC_ANTIVIRUS_NOTE"] = "<p><b>antivirus Web</b></p>
-<p><a href=\"http://www.bitrixsoft.com/products/cms/features/proactive.php\">Antivirus web</a> - un sistema que contrarresta la infección de sitios web. El antivirus identifica el código html web potencialmente peligroso y \"corta\" el objeto sospechoso en el código del sitio, impidiendo la infección del ordenador del usuario.</p>
+<p><a href=\"https://training.bitrix24.com/support/training/course/?COURSE_ID=178&LESSON_ID=1639#antivirus\">Antivirus web</a> - un sistema que contrarresta la infección de sitios web. El antivirus identifica el código html web potencialmente peligroso y \"corta\" el objeto sospechoso en el código del sitio, impidiendo la infección del ordenador del usuario.</p>
 <p>Atención! El antivirus web no es un sustituto de un programa antivirus tradicional.</p>";
 $MESS["SEC_ANTIVIRUS_OFF"] = "Antivirus web desactivado";
 $MESS["SEC_ANTIVIRUS_ON"] = "Antivirus web activado";
@@ -25,4 +25,3 @@ $MESS["SEC_ANTIVIRUS_WHITE_LIST"] = "Excepciones:";
 $MESS["SEC_ANTIVIRUS_WHITE_LIST_SET_TAB"] = "Excepciones (listado)";
 $MESS["SEC_ANTIVIRUS_WHITE_LIST_TAB"] = "Excepciones ";
 $MESS["SEC_ANTIVIRUS_WHITE_LIST_TAB_TITLE"] = "La filtración no se realizará en bloques HTML que contengan los siguientes extractos de código.";
-?>

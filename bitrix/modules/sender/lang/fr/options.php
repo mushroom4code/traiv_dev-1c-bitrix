@@ -1,5 +1,7 @@
-<?
+<?php
 $MESS["MAIN_RESTORE_DEFAULTS"] = "Par défaut";
+$MESS["mail_max_consent_requests"] = "Nombre maximal de demandes de consentement pour l'envoi d'une lettre d'information par e-mail";
+$MESS["mail_need_consent"] = "Nécessite le consentement à la lettre d'information par e-mail";
 $MESS["opt_address_from"] = "Des adresses pour une utilisation dans le champ De : ";
 $MESS["opt_address_send_to_me"] = "Les adresses pour envoyer des messages de test : ";
 $MESS["opt_auto_agent_interval"] = "Délai entre l'envoi ultérieur d'emplois (sec., 0 - ne pas attendre) : ";
@@ -17,4 +19,3 @@ $MESS["opt_reiterate_method"] = "Vérifier de manière récurrente à des bullet
 $MESS["opt_sender_cron_support"] = "Cron ne peuvent pas être utilisés. Il est supporté depuis la version du Noyau 15.0.9. La version de votre Noyau est";
 $MESS["opt_sub_link"] = "Personnalisé la page d'abonnement : ";
 $MESS["opt_unsub_link"] = "La coutume de désabonnement de la page : ";
-?>

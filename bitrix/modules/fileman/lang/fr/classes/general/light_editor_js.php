@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AddLI"] = "Ajouter un point";
 $MESS["AddLITitle"] = "Ajouter un élément à la liste (Enter)";
 $MESS["Anchor"] = "Ancre";
@@ -60,7 +60,7 @@ $MESS["LinkTarget_self"] = "cette fenêtre";
 $MESS["LinkTarget_top"] = "plus à l'extérieur";
 $MESS["LinkText"] = "Texte du lien";
 $MESS["LinkTitle"] = "Infobulle pop-up";
-$MESS["ListItems"] = "Eléments de la liste";
+$MESS["ListItems"] = "Éléments de la liste";
 $MESS["Normal"] = "Moyen";
 $MESS["Off"] = "débranché";
 $MESS["On"] = ":";
@@ -88,4 +88,3 @@ $MESS["VideoPreviewPath"] = "Chemin vers l'image d'aperçu";
 $MESS["VideoProps"] = "Paramètres vidéo";
 $MESS["VideoVolume"] = "Niveau de volume";
 $MESS["Width"] = "Largeur";
-?>

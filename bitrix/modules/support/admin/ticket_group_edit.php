@@ -19,7 +19,7 @@ $ID = intval($ID);
 
 $message = false;
 
-if (($save <> '' || $apply <> '') && $REQUEST_METHOD=='POST' && $bAdmin && check_bitrix_sessid())
+if (($save <> '' || $apply <> '') && $_SERVER['REQUEST_METHOD']=='POST' && $bAdmin && check_bitrix_sessid())
 {
 	$obSUG = new CSupportUserGroup();
 	$bOK = false;
@@ -219,7 +219,7 @@ $tabControl = new CAdminTabControl('tabControl', $aTabs, true, true);
 		</tr>
 		</table>
 		
-		<script type="text/javascript">
+		<script>
 		
 		var rowCounter = <?=intval($i)?>;
 		var UIDS = new Array();

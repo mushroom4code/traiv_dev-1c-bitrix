@@ -69,16 +69,14 @@ class DeleteService
 
 	public function __construct(Message $message)
 	{
-		$this->message = $message;
-		Chat::cleanCache($this->message->getChatId());
-		$this->chat = Chat\ChatFactory::getInstance()->getChatById($this->message->getChatId());
+		$this->setMessage($message);
 	}
 
 	public function setMessage(Message $message): self
 	{
 		$this->message = $message;
-		Chat::cleanCache($this->message->getChatId());
-		$this->chat = Chat\ChatFactory::getInstance()->getChatById($this->message->getChatId());
+		Chat::cleanCache($this->message->getChatId() ?? 0);
+		$this->chat = Chat\ChatFactory::getInstance()->getChatById($this->message->getChatId() ?? 0);
 
 		return $this;
 	}
@@ -109,6 +107,11 @@ class DeleteService
 	 */
 	public function delete(): Result
 	{
+		if (!$this->message->getId() || $this->chat instanceof Chat\NullChat)
+		{
+			return new Result();
+		}
+
 		$message = $this->getMessageForEvent();
 		if (!$this->mode)
 		{
@@ -240,7 +243,10 @@ class DeleteService
 
 	protected function isOwnMessage(): bool
 	{
-		return $this->getContext()->getUserId() === $this->message->getAuthorId();
+		return
+			$this->getContext()->getUserId() === $this->message->getAuthorId()
+			&& !$this->message->isSystem()
+		;
 	}
 
 	private function deleteSoft(): Result
@@ -325,7 +331,7 @@ class DeleteService
 			}
 			if ($this->chat->getType() === Chat::IM_TYPE_OPEN_CHANNEL && $this->needUpdateRecent)
 			{
-				Chat\OpenChannelChat::sendSharedPull($pullMessage, $this->chat->getId());
+				Chat\OpenChannelChat::sendSharedPull($pullMessage);
 			}
 		}
 
@@ -771,6 +777,6 @@ class DeleteService
 		$this->message->setContext($context);
 		$this->chat->setContext($context);
 
-		return $this;
+		return $this->defaultSetContext($context);
 	}
 }

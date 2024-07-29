@@ -1,9 +1,9 @@
-<?
+<?php
 $MESS["EXPORT_ERROR"] = "Erreur de l'exportation";
 $MESS["MAIN_ADD_TEMPL"] = "Ajouter un modèle";
 $MESS["MAIN_ADD_TEMPL_THEME"] = "Ajouter un sujet";
 $MESS["MAIN_ADD_TEMPL_TITLE"] = "Ajouter un nouveau modèle";
-$MESS["MAIN_ADMIN_LIST_EXPORT"] = "télécharger";
+$MESS["MAIN_ADMIN_LIST_EXPORT"] = "Télécharger";
 $MESS["MAIN_ADMIN_MENU_COPY"] = "Copie";
 $MESS["MAIN_ADMIN_MENU_EDIT"] = "Éditer";
 $MESS["MAIN_ADMIN_MENU_VIEW"] = "Affichage";
@@ -28,4 +28,3 @@ $MESS["MAIN_T_LOAD"] = "Chargement &gt;&gt;";
 $MESS["PAGES"] = "Liste de modèles";
 $MESS["site_templ_edit_screen"] = "Capture d'écran";
 $MESS["site_templ_edit_sort"] = "Classification";
-?>

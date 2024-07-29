@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["F_ANCHOR"] = "Odnośnik do tego postu";
 $MESS["F_ATTACH_FILES"] = "Załączone Pliki";
 $MESS["F_AUTHOR_PROFILE"] = "Profil Użytkownika";
@@ -22,7 +22,7 @@ $MESS["F_NUM_MESS"] = "Posty:";
 $MESS["F_POINTS"] = "Punkty:";
 $MESS["F_PRIVATE_MESSAGE"] = "Wiadomość";
 $MESS["F_PRIVATE_MESSAGE_TITLE"] = "Wyślij wiadomość prywatną";
-$MESS["F_QUOTE"] = "Oferta";
+$MESS["F_QUOTE"] = "Cytuj";
 $MESS["F_QUOTE_HINT"] = "Aby Zacytować Wiadomość w formularzu Odpowiedzi zaznacz tekst i kliknij tutaj";
 $MESS["F_REAL_IP"] = "/ real";
 $MESS["F_REPLY"] = "Odpowiedź";
@@ -31,4 +31,3 @@ $MESS["F_SHOW_TOPIC"] = "Pokaż temat";
 $MESS["F_USER_ID"] = "ID gościa";
 $MESS["F_USER_ID_USER"] = "ID użytkownika";
 $MESS["F_USER_PROFILE"] = "Profil Użytkownika";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_ACCESS"] = "Uprawnienia";
 $MESS["BLOG_ALL_USERS"] = "Wszyscy użytkownicy";
 $MESS["BLOG_APPLY"] = "Zastosuj";
@@ -69,8 +69,7 @@ $MESS["FPF_HYPERLINK"] = "Hiperłącze";
 $MESS["FPF_IMAGE"] = "Kolor";
 $MESS["FPF_ITALIC"] = "Kursywa";
 $MESS["FPF_LIST"] = "Stwórz listę";
-$MESS["FPF_QUOTE"] = "Oferta";
+$MESS["FPF_QUOTE"] = "Cytat";
 $MESS["FPF_STRIKE"] = "Treść wyniku";
 $MESS["FPF_UNDER"] = "Podkreślenie";
 $MESS["FPF_VIDEO"] = "Wstaw wideo";
-?>

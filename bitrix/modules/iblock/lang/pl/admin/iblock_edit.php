@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["IBLOCK_BACK_TO_ADMIN"] = "Powrót do listy bloku informacji";
 $MESS["IB_E_ACCESS_D"] = "odmowa";
 $MESS["IB_E_ACCESS_R"] = "Odczyt";
@@ -18,7 +18,7 @@ $MESS["IB_E_BP_CHANGED"] = "Ostatni zmodyfikowany";
 $MESS["IB_E_BP_NAME"] = "Nazwa";
 $MESS["IB_E_CATALOG_TITLE"] = "Ustawienia Ogólne";
 $MESS["IB_E_CAT_SUBSCRIPTION"] = "Funkcja sprzedażowa nie jest dodana do tej edycji. Ta opcja zostanie wyłączona przy zapisie ustawień modułu.";
-$MESS["IB_E_CODE"] = "Kod podatku";
+$MESS["IB_E_CODE"] = "Kod symboliczny";
 $MESS["IB_E_COMMON_STORAGE"] = "wspólne tabele (przez domyślne)";
 $MESS["IB_E_CONVERT_CONTINUE"] = "w oddzielnych tabelach dla tego bloku informacyjnego";
 $MESS["IB_E_CONVERT_START"] = "zamień magazyn na własności";
@@ -228,8 +228,6 @@ $MESS["IB_E_SITES"] = "Strony:";
 $MESS["IB_E_SKU_TITLE"] = "SKU";
 $MESS["IB_E_SORT"] = "Sortowanie";
 $MESS["IB_E_TAB1"] = "Detale własności";
-$MESS["IB_E_TAB10"] = "Optymizacja dla silników wyszukiwania (SEO)";
-$MESS["IB_E_TAB10_T"] = "Edytuj dane SEO";
 $MESS["IB_E_TAB1_T"] = "Ustawienia właściwości bloku informacji";
 $MESS["IB_E_TAB2"] = "Inf. blok";
 $MESS["IB_E_TAB2_T"] = "Blok informacji";
@@ -248,6 +246,8 @@ $MESS["IB_E_TAB8"] = "Pola sekcji";
 $MESS["IB_E_TAB8_T"] = "Pola sekcji bloku informacji";
 $MESS["IB_E_TAB9"] = "Katalog produktów";
 $MESS["IB_E_TAB9_T"] = "Parametry katalogu produktów";
+$MESS["IB_E_TAB10"] = "Optymizacja dla silników wyszukiwania (SEO)";
+$MESS["IB_E_TAB10_T"] = "Edytuj dane SEO";
 $MESS["IB_E_TAB_LOG"] = "Dziennik Wydarzeń";
 $MESS["IB_E_TAB_LOG_TITLE"] = "Parametry loga wydarzenia";
 $MESS["IB_E_URL_PRODUCT_ID"] = "Ścieżka do elementu katalog produktów";
@@ -260,4 +260,3 @@ $MESS["IB_E_WF_TYPE_WORKFLOW"] = "Workflow";
 $MESS["IB_E_WORKFLOW"] = "Inkluduj w workflow:";
 $MESS["IB_E_XML_ID"] = "Kod źródła zewnętrznego DB";
 $MESS["IB_E_YANDEX_EXPORT"] = "Eksport do Yandex.Products";
-?>

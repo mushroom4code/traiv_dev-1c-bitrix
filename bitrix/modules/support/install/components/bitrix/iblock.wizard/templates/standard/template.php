@@ -166,13 +166,14 @@ if (!empty($arHelp))
 ?>
 	<br>
 	<table cellspacing=4 cellpadding=2 style="background-color:#FFFFEF;border:1px solid #d7d7be;" width="100%">
-<?
-	foreach($arHelp as $i=>$help)
-		echo '<tr><td valign=top><font class=smalltext><b>'.$i.'.</b></font></td><td><font class=smalltext><a name="note'.$i.'"></a> ' . $help . '</font></td></tr>';
+<?php
+	foreach($arHelp as $i => $help)
+	{
+		echo '<tr><td valign=top><font class=smalltext><b>' . $i . '.</b></font></td><td><font class=smalltext><a name="note' . $i . '"></a> ' . $help . '</font></td></tr>';
+	}
 ?>
 	</table>
-<?
+<?php
 }
 ?>
 </div>
-

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BLOG_ACCESS"] = "Acceso";
 $MESS["BLOG_ALL_USERS"] = "todos los usuarios";
 $MESS["BLOG_APPLY"] = "Aplicar";
@@ -69,9 +69,8 @@ $MESS["FPF_HYPERLINK"] = "Hipervínculo";
 $MESS["FPF_IMAGE"] = "Color";
 $MESS["FPF_ITALIC"] = "Cursiva";
 $MESS["FPF_LIST"] = "Lista creada";
-$MESS["FPF_QUOTE"] = "Cotización";
+$MESS["FPF_QUOTE"] = "Cita";
 $MESS["FPF_STRIKE"] = "Golpe de Texto";
 $MESS["FPF_UNDER"] = "Subrayado";
 $MESS["FPF_VIDEO"] = "Insertar video";
 $MESS["STOF_REQUIED_FIELDS_NOTE"] = "Campos Requeridos están marcados con asterisco (<span style=\"color:#FF0000\">*</span>).";
-?>

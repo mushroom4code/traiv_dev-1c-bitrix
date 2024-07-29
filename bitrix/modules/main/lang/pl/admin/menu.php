@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["MAIN_MENU_AGENT"] = "Agenci";
 $MESS["MAIN_MENU_AGENT_ALT"] = "Zarządzanie agentem";
 $MESS["MAIN_MENU_CACHE"] = "Ustawienia schowka";
@@ -70,6 +70,8 @@ $MESS["MAIN_MENU_SITE_CHECKER_ALT"] = "Test parametrów strony i raport błędó
 $MESS["MAIN_MENU_SMILE"] = "Emotikony";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST"] = "Importuj emotikony";
 $MESS["MAIN_MENU_SMILE_IMPORT_LIST_ALT"] = "Importuj emotikony z pliku zewnętrznego";
+$MESS["MAIN_MENU_SMTP_CONFIG"] = "Ustawienia SMTP";
+$MESS["MAIN_MENU_SMTP_CONFIG_TITLE"] = "Ustawienia SMTP";
 $MESS["MAIN_MENU_SQL"] = "Zapytania SQL";
 $MESS["MAIN_MENU_SQL_ALT"] = "Wykonaj zapytania SQL do bazy";
 $MESS["MAIN_MENU_SYSTEM_CHECKER"] = "Sprawdzanie systemu";
@@ -101,6 +103,7 @@ $MESS["MAIN_MENU_URLREWRITE"] = "Przetwarzanie adresów URL";
 $MESS["MAIN_MENU_URLREWRITE_ALT"] = "Ustawienia przetwarzania URLi";
 $MESS["MAIN_MENU_USERS"] = "Użytkownicy";
 $MESS["MAIN_MENU_USERS_ALT"] = "Zarządzaj profilami użytkowników";
+$MESS["MAIN_MENU_USER_CONSENT_1"] = "Umowy i zgody";
 $MESS["MAIN_MENU_USER_FIELD"] = "Pola dodatkowe formularzy";
 $MESS["MAIN_MENU_USER_FIELD_TITLE"] = "Pola dodatkowe formularzy";
 $MESS["MAIN_MENU_USER_GROUPS_ALT"] = "Użytkownicy grupy";
@@ -109,6 +112,8 @@ $MESS["MAIN_MENU_USER_IMPORT_ALT"] = "Import użytkowników";
 $MESS["MAIN_MENU_USER_LIST"] = "Lista użytkowników";
 $MESS["MAIN_MENU_WIZARDS"] = "Lista instalatorów";
 $MESS["MAIN_MENU_WIZARDS_TITLE"] = "Zarządzanie instalatorami";
+$MESS["main_admin_menu_devices"] = "Urządzenia użytkownika";
+$MESS["main_admin_menu_devices_title"] = "Urządzenia użytkownika";
 $MESS["main_menu_diag"] = "Zarządzanie systemem";
 $MESS["main_menu_diag_title"] = "Narzędzia administracyjne";
 $MESS["main_menu_interface"] = "Ustawienia osobiste";
@@ -118,4 +123,3 @@ $MESS["main_menu_lang_param_title"] = "Ustaw język interfejsu oraz parametry re
 $MESS["main_menu_reg_sett"] = "Opcje regionalne i kulturowe";
 $MESS["main_menu_reg_sett_title"] = "Ustaw format daty, kodowanie i inne parametry";
 $MESS["main_menu_urlrewrite_title"] = "Przyjazne ustawienia adresu URL";
-?>

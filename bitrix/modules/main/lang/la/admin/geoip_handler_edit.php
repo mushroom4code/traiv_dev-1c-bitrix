@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["GEOIP_EDIT_DELETE"] = "Eliminar";
 $MESS["GEOIP_EDIT_DELETE_CONFIRM"] = "¿Está seguro que desea eliminar la configuración del manejador?";
 $MESS["GEOIP_EDIT_DELETE_T"] = "Eliminar controlador de geolocalización";
@@ -32,4 +32,8 @@ $MESS["GEOIP_EDIT_SPECIFIC_ABSENT"] = "Ninguno";
 $MESS["GEOIP_EDIT_SPECIFIC_SETTINGS"] = "Adicional";
 $MESS["GEOIP_EDIT_SPECIFIC_SETTINGS_T"] = "Ajustes específicos del manejador";
 $MESS["GEOIP_EDIT_TITLE"] = "Configuración del Controlador de Geolocalización";
-?>
+$MESS["geoip_edit_asn_org"] = "Organización ASN:";
+$MESS["geoip_edit_continent_code"] = "Código del continente:";
+$MESS["geoip_edit_continent_name"] = "Nombre del continente:";
+$MESS["geoip_edit_geonames"] = "Código de la ciudad de GeoNombes:";
+$MESS["geoip_edit_subregion_code"] = "Código de la subregión:";

@@ -1,9 +1,8 @@
-<?
+<?php
 $MESS["SEC_REDIRECT_ACTIONS"] = "Działania anty phishngowe";
 $MESS["SEC_REDIRECT_ACTIONS_HEADER"] = "Działania";
 $MESS["SEC_REDIRECT_ACTION_REDIRECT"] = "Przekierowanie do określonego adresu URL.";
 $MESS["SEC_REDIRECT_ACTION_REDIRECT_URL"] = "Adres URL:";
-$MESS["SEC_REDIRECT_ACTION_SHOW_MESSAGE"] = "Pokaż powiadomienie i przekierowanie do innej witryny po zwłoce.";
 $MESS["SEC_REDIRECT_ADD"] = "Dodawanie";
 $MESS["SEC_REDIRECT_BUTTON_OFF"] = "Wyłącz przekierowanie ochrony przed phishingiem";
 $MESS["SEC_REDIRECT_BUTTON_ON"] = "Włącz przekierowanie ochrony przed phishingiem";
@@ -21,10 +20,7 @@ $MESS["SEC_REDIRECT_PARAMETERS_TAB_TITLE"] = "Ustawienia parametru przekierowane
 $MESS["SEC_REDIRECT_PARAMETER_NAME"] = "Nazawa parametru:";
 $MESS["SEC_REDIRECT_REFERER_CHECK"] = "Sprawdzić obecność nagłówka HTTP opisującego odniesienia do strony";
 $MESS["SEC_REDIRECT_SYSTEM"] = "system";
-$MESS["SEC_REDIRECT_TIMEOUT"] = "Opóźnienie:";
-$MESS["SEC_REDIRECT_TIMEOUT_SEC"] = "sek.";
 $MESS["SEC_REDIRECT_TITLE"] = "Przekierować ochronę przed phishingiem";
 $MESS["SEC_REDIRECT_URL"] = "Adres URL:";
 $MESS["SEC_REDIRECT_URLS"] = "Wyznaczone URL";
 $MESS["SEC_REDIRECT_USER"] = "Użytkownicy";
-?>

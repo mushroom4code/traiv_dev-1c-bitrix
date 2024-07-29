@@ -305,7 +305,7 @@ $MESS["SC_HELP_CHECK_MBSTRING"] = "Модуль mbstring необхідний д
 
 Для сайту в UTF-8 необхідно встановити в <i>/bitrix/php_interface/dbconn.php</i> код:
 <code>define('BX_UTF', true);</code>
-а в <i>/bitrix/settings.php</i> код:
+а в <i>/bitrix/.settings.php</i> код:
 <code>'utf_mode' => 
   array (
     'value' => true,
@@ -465,7 +465,6 @@ $MESS["SC_MOD_GD"] = "Бібліотека GD";
 $MESS["SC_MOD_GD_JPEG"] = "Підтримка jpeg в GD";
 $MESS["SC_MOD_JSON"] = "Підтримка JSON";
 $MESS["SC_MOD_MBSTRING"] = "Підтримка mbstring";
-$MESS["SC_MOD_PERL_REG"] = "підтримка регулярних виразів (Perl-Compatible)";
 $MESS["SC_MOD_XML"] = "підтримка XML";
 $MESS["SC_MYSQL_ERR_VER"] = "Встановлено MySQL версії #CUR#, потрібно #REQ#";
 $MESS["SC_NOT_FILLED"] = "Не введено опис проблеми";

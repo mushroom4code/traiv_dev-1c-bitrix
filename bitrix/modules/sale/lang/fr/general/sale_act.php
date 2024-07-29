@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["BT_MOD_SALE_ACT_BASKET_PRODUCT_ID_LABEL"] = "Produit dans le panier";
 $MESS["BT_MOD_SALE_ACT_BASKET_PRODUCT_ID_PREFIX"] = "Produit dans le domaine panier";
 $MESS["BT_MOD_SALE_ACT_BASKET_PRODUCT_NAME_LABEL"] = "Nom du produit dans le panier";
@@ -34,6 +34,7 @@ $MESS["BT_SALE_ACT_GIFT_LABEL"] = "Suggérer un cadeau";
 $MESS["BT_SALE_ACT_GIFT_SELECT_TYPE_SELECT_ALL"] = "tous";
 $MESS["BT_SALE_ACT_GIFT_SELECT_TYPE_SELECT_DEF"] = "...";
 $MESS["BT_SALE_ACT_GIFT_SELECT_TYPE_SELECT_ONE"] = "n'importe de";
+$MESS["BT_SALE_ACT_GROUP_ADD_CONTROL"] = "Ajouter une action";
 $MESS["BT_SALE_ACT_GROUP_BASKET_DEF_TEXT"] = "Prix des marchandises dans le panier";
 $MESS["BT_SALE_ACT_GROUP_BASKET_DESCR_EXT"] = "aux produits pour lesquels";
 $MESS["BT_SALE_ACT_GROUP_BASKET_LABEL"] = "Modifier le prix des marchandises dans le panier";
@@ -46,10 +47,12 @@ $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_DEF"] = "...";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_FALSE"] = "est/sont fausse(s)";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_PERCENT"] = "%";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_TRUE"] = "est/sont vraie(s)";
+$MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_TYPE_CLOSEOUT_EXT"] = "prix de vente fixe";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_TYPE_DEF"] = "...";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_TYPE_DISCOUNT"] = "...la remise";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_TYPE_EXTRA"] = "...remise";
 $MESS["BT_SALE_ACT_GROUP_BASKET_SELECT_UNIT_DEF"] = "...";
+$MESS["BT_SALE_ACT_GROUP_DELETE_CONTROL"] = "Supprimer l'action";
 $MESS["BT_SALE_ACT_GROUP_GIFTS_DEF_TEXT"] = "Marchandises gratuites";
 $MESS["BT_SALE_ACT_GROUP_GIFTS_LABEL"] = "Ajouter les produit gratuits";
 $MESS["BT_SALE_ACT_GROUP_GIFTS_PREFIX"] = "Ajouter au panier sans paiement les produits suivants";
@@ -58,10 +61,10 @@ $MESS["BT_SALE_ACT_GROUP_LOGIC_AND"] = "ET";
 $MESS["BT_SALE_ACT_GROUP_LOGIC_NOT_AND"] = "PAS ET";
 $MESS["BT_SALE_ACT_GROUP_LOGIC_NOT_OR"] = "PAS OU";
 $MESS["BT_SALE_ACT_GROUP_LOGIC_OR"] = "OU";
+$MESS["BT_SALE_ACT_GROUP_SELECT_CONTROL"] = "Choisissez une action";
 $MESS["BT_SALE_ACT_MAX_DISCOUNT_GROUP_BASKET_DESCR"] = ", mais non supérieur à";
 $MESS["BT_SALE_ACT_MAX_DISCOUNT_ON_GROUP_BASKET_ERROR_CONDITION"] = "Impossible de définir la restriction de réduction maximum pour le montant total de la commande.";
 $MESS["BT_SALE_GIFT_DISCOUNT_DESCR"] = "Cadeau";
 $MESS["BT_SALE_SUBACT_ADD_CONTROL"] = "Ajouter une condition";
 $MESS["BT_SALE_SUBACT_DELETE_CONTROL"] = "Supprimer la condition";
 $MESS["BT_SALE_SUBACT_SELECT_CONTROL"] = "Sélectionnez une condition";
-?>

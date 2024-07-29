@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CACHE_TIME_TIP"] = "Temps de mise en cache (s).";
 $MESS["CACHE_TYPE_TIP"] = "Type de la mise en cache";
 $MESS["DATE_TIME_FORMAT_TIP"] = "Format d'affichage de la date et de l'heure";
@@ -11,10 +11,8 @@ $MESS["MESSAGES_PER_PAGE_TIP"] = "Nombre de messages sur une page";
 $MESS["PAGE_NAVIGATION_TEMPLATE_TIP"] = "Modèle de pagination";
 $MESS["PREORDER_TIP"] = "Afficher les messages en ordre direct";
 $MESS["SHOW_AVATAR_TIP"] = "Afficher les avatars des utilisateurs";
-$MESS["SHOW_MINIMIZED_TIP"] = "Pliez la forme d'ajout d'une opinion";
 $MESS["SHOW_RATING_TIP"] = "Afficher le classement";
 $MESS["URL_TEMPLATES_DETAIL_TIP"] = "lément de bloc de l'information n'a pas été trouvé";
 $MESS["URL_TEMPLATES_PROFILE_VIEW_TIP"] = "Modèle d'un lien au profil d'utilisateur";
 $MESS["URL_TEMPLATES_READ_TIP"] = "Page de lecture du sujet du forum";
 $MESS["USE_CAPTCHA_TIP"] = "Utiliser CAPTCHA";
-?>

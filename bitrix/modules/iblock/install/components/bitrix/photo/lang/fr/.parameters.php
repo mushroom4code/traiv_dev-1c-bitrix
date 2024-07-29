@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CP_BP_BROWSER_TITLE"] = "Entrer l'entête de la fenêtre du navigateur de la propriété";
 $MESS["CP_BP_CACHE_GROUPS"] = "Prendre en compte les droits d'accès";
 $MESS["CP_BP_LIST_BROWSER_TITLE"] = "Entrer l'entête de la fenêtre du navigateur de la propriété";
@@ -41,7 +41,7 @@ $MESS["SECTIONS_TOP_PAGE"] = "Liste d'albums";
 $MESS["SECTION_ID_DESC"] = "ID de la section";
 $MESS["SECTION_PAGE"] = "Album";
 $MESS["T_IBLOCK_DESC_DESCRIPTION"] = "Installer la description de la page à partir des qualités";
-$MESS["T_IBLOCK_DESC_DETAIL_SETTINGS"] = "Vue détaillée réglages";
+$MESS["T_IBLOCK_DESC_DETAIL_SETTINGS"] = "Paramètres de la vue détaillée";
 $MESS["T_IBLOCK_DESC_FILTER_SETTINGS"] = "Paramètres de Filtre";
 $MESS["T_IBLOCK_DESC_GROUP_PERMISSIONS"] = "Groupes d'utilisateurs ayant accès à l'information détaillée";
 $MESS["T_IBLOCK_DESC_KEYWORDS"] = "Tablir les mots-clés de la page à partir de la propriété";
@@ -56,4 +56,3 @@ $MESS["T_IBLOCK_DESC_USE_RATING"] = "Activez la Notation";
 $MESS["T_IBLOCK_DESC_USE_REVIEW"] = "Autoriser des avis";
 $MESS["T_IBLOCK_FILTER"] = "Filtre";
 $MESS["T_IBLOCK_PROPERTY"] = "Propriétés";
-?>

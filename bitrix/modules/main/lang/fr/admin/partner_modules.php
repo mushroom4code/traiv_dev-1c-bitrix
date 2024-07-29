@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["COPY_FOLDER"] = "Le dossier où des fichiers seront copiés : ";
 $MESS["COPY_PUBLIC_FILES"] = "Copier les fichiers publiques";
 $MESS["INSTALL_PUBLIC_REW"] = "Remplacer les fichiers existants";
@@ -14,7 +14,7 @@ $MESS["MOD_DEMO_END"] = "La période démo a expiré.";
 $MESS["MOD_DEMO_LINK"] = "Lien au commentaire";
 $MESS["MOD_DEMO_SITE"] = "Site web";
 $MESS["MOD_INSTALL"] = "Installer le Module";
-$MESS["MOD_INSTALLED"] = "Désuet";
+$MESS["MOD_INSTALLED"] = "Installé";
 $MESS["MOD_INSTALL_BUTTON"] = "Installation";
 $MESS["MOD_INSTALL_ERROR"] = "Erreur d'installation de la solution #CODE#";
 $MESS["MOD_INST_ERR"] = "Problèmes d'installation : ";
@@ -63,4 +63,3 @@ $MESS["MOD_VERSION"] = "Version";
 $MESS["RESET"] = "Annuler";
 $MESS["SAVE"] = "Enregistrer les modifications";
 $MESS["TITLE"] = "Solutions disponibles";
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_CAT_LAST"] = "Itens recentes";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_EMPTY"] = "Nenhum destinatário especificado";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_HINT"] = "Use o modo de teste para garantir que suas mensagens sejam exibidas corretamente. Selecione destinatários para enviar e-mails de teste.";
@@ -11,4 +11,5 @@ $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_SUCCESS"] = "Sucesso! Verifique o e-mail.
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_SUCCESS_PHONE"] = "Mensagem enviada com sucesso! Por favor, verifique seu telefone.";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_TITLE_MAIL"] = "Endereços de e-mail";
 $MESS["SENDER_MESSAGE_TESTER_TMPL_TEST_TITLE_PHONE"] = "Números de telefone";
-?>
+$MESS["SENDER_MESSAGE_TESTER_TMPL_VALIDATION_TEST_SEND"] = "Enviar consentimento de boletim informativo";
+$MESS["SENDER_MESSAGE_TESTER_TMPL_VALIDATION_TEST_SUCCESS"] = "O consentimento do boletim informativo foi enviado com sucesso! Verifique seu e-mail.";

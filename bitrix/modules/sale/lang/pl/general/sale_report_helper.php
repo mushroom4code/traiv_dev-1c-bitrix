@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["REPORT_IGNORE_FILTER_VALUE"] = "Ignoruj";
 $MESS["REPORT_sale_SaleBasket_FUSER.USER.UserGroup:USER.GROUP"] = "Grupa klientów";
 $MESS["REPORT_sale_SaleBasket_FUSER.USER.UserGroup:USER.GROUP.ID"] = "ID";
@@ -11,7 +11,7 @@ $MESS["REPORT_sale_SaleBasket_PRODUCT.GoodsSection:PRODUCT.SECT"] = "Kategoria p
 $MESS["REPORT_sale_SaleBasket_PRODUCT.GoodsSection:PRODUCT.SECT.ID"] = "ID";
 $MESS["REPORT_sale_SaleBasket_PRODUCT.GoodsSection:PRODUCT.SECT.NAME"] = "Nazwa";
 $MESS["REPORT_sale_SaleFuser_Basket:FUSER"] = "zawartość koszyka";
-$MESS["REPORT_sale_SaleFuser_Order:FUSER"] = "Zamów";
+$MESS["REPORT_sale_SaleFuser_Order:FUSER"] = "Zamówienie";
 $MESS["REPORT_sale_SaleFuser_USER"] = "Data rejestracji";
 $MESS["REPORT_sale_SaleFuser_USER.UserGroup:USER.GROUP"] = "Grupa klientów";
 $MESS["REPORT_sale_SaleFuser_USER.UserGroup:USER.GROUP.NAME"] = "Nazwa";
@@ -26,6 +26,7 @@ $MESS["REPORT_sale_SaleProduct_IBLOCK.SectionElement:IBLOCK_ELEMENT.IBLOCK_SECTI
 $MESS["REPORT_sale_SaleProduct_PRICE_SITECURR"] = "Cena";
 $MESS["REPORT_sale_SaleProduct_SUMM_SITECURR"] = "Suma produktu";
 $MESS["REPORT_sale_SaleProduct_StoreProduct:SALE_PRODUCT"] = "Magazyn";
+$MESS["REPORT_sale_User_Bitrix\\Sale\\Internals\\Order:USER"] = "Zamówienie";
 $MESS["REPORT_sale_User_LID"] = "Sklep internetowy";
 $MESS["REPORT_sale_User_UserGroup:USER.GROUP"] = "Grupa klientów";
 $MESS["REPORT_sale_User_UserGroup:USER.GROUP.ID"] = "ID";
@@ -113,10 +114,9 @@ $MESS["SALE_REPORT_DEFAULT_SALES_ALIAS_13"] = "Ilość";
 $MESS["SALE_REPORT_DEFAULT_SALES_DESCR"] = "Ten raport wyświetla sprzedaż dla okresu raportowania podzielony według dni, tygodni, miesięcy, kwartałów lub lat pokazując informacje o zamówieniu, zysk i inne finansowe informacje, co jest kluczowe dla podejmowania decyzji.";
 $MESS["SALE_REPORT_GROUP_NOT_FOUND"] = "Nie znaleziono grupy";
 $MESS["SALE_REPORT_HELPER_NAME_sale_SaleBasket"] = "Koszyk";
-$MESS["SALE_REPORT_HELPER_NAME_sale_SaleOrder"] = "Zamów";
+$MESS["SALE_REPORT_HELPER_NAME_sale_SaleOrder"] = "Zamówienie";
 $MESS["SALE_REPORT_HELPER_NAME_sale_SaleProduct"] = "Produkt";
 $MESS["SALE_REPORT_HELPER_NAME_sale_User"] = "Klient";
 $MESS["SALE_REPORT_USER_NOT_AUTH"] = "<nie zalogowany>";
 $MESS["USER_FEMALE"] = "Kobieta";
 $MESS["USER_MALE"] = "Mężczyzna";
-?>

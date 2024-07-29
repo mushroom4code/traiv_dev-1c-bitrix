@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["AddLI"] = "Ajouter un élément de la liste";
 $MESS["AddLITitle"] = "Ajouter un élément de la liste (Enter)";
 $MESS["AlignCenter"] = "Centrer";
@@ -27,6 +27,10 @@ $MESS["BXEdContMenuJavascript"] = "Changer le code Javascript";
 $MESS["BXEdContMenuObject"] = "Modifier le Contenu multimédia";
 $MESS["BXEdContMenuPhpCode"] = "Changer le code PHP";
 $MESS["BXEdContMenuStyle"] = "Changer les styles (STYLE)";
+$MESS["BXEdCopilotButtonText"] = "COPILOT";
+$MESS["BXEdCopilotPlaceholder"] = "Saisissez @ pour mentionner quelqu'un ou un espace pour invoquer l'IA";
+$MESS["BXEdCopilotPlaceholderWithoutMention_MSGVER_1"] = "Appuyez sur Espace pour utiliser CoPilot";
+$MESS["BXEdCopilotPlaceholder_MSGVER_2"] = "Saisissez @ pour mentionner quelqu'un ou appuyez sur Espace pour utiliser CoPilot";
 $MESS["BXEdCssClass"] = "Classe CSS";
 $MESS["BXEdDefaultColor"] = "Par défaut";
 $MESS["BXEdDefaultPropDialog"] = "Propriétés: #NODES_LIST#";
@@ -39,6 +43,7 @@ $MESS["BXEdExitConfirm"] = "Attention ! Toutes les données non sauvegardées se
 $MESS["BXEdForeColor"] = "Couleur de la police";
 $MESS["BXEdFullscreen"] = "Plein ecran";
 $MESS["BXEdFullscreenBack"] = "Plein ecran (appuyez sur echap pour quitter le mode plein ecran)";
+$MESS["BXEdHtmlCode"] = "Mode HTML";
 $MESS["BXEdHtmlComment"] = "Le document HTML";
 $MESS["BXEdIframe"] = "Cadre (IFRAME)";
 $MESS["BXEdImgAlign"] = "Aligner";
@@ -74,10 +79,6 @@ $MESS["BXEdLinkInnerHtml"] = "Contenu du lien";
 $MESS["BXEdLinkNoindex"] = "Ne pas inclure le lien trouvé par le moteur de recherche (nofollow, noindex)";
 $MESS["BXEdLinkRel"] = "Attribut Rel";
 $MESS["BXEdLinkSelectAnchor"] = "Sélectionner une ancre";
-$MESS["BXEdLinkStat"] = "Enregistrer le passage dans les statistiques";
-$MESS["BXEdLinkStatEv1"] = "Evènement 'Event1'";
-$MESS["BXEdLinkStatEv2"] = "Evènement 'Event2'";
-$MESS["BXEdLinkStatEv3"] = "Evènement 'Event3'";
 $MESS["BXEdLinkTarget"] = "Ouvrir le lien en";
 $MESS["BXEdLinkTargetBlank"] = "nouvelle fenêtre (_blank)";
 $MESS["BXEdLinkTargetDef"] = "- ne pas indiquer -";
@@ -300,4 +301,3 @@ $MESS["ViewSplitHor"] = "Régime uni (en horizontale)";
 $MESS["ViewSplitVer"] = "Mode uni (en verticale)";
 $MESS["ViewWysiwyg"] = "Mode visuel";
 $MESS["Width"] = "Largeur";
-?>

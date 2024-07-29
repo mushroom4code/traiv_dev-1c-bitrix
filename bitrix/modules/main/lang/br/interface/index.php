@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["admin_index_menu"] = "Menu";
 $MESS["admin_index_perf"] = "Monitor de performance";
 $MESS["admin_index_perf_check"] = "Verificar";
@@ -11,7 +11,7 @@ $MESS["admin_index_perf_no_result"] = "O teste de desempenho não foi realizado.
 $MESS["admin_index_perf_no_result_desc"] = "O módulo analisa e testa o desempenho de seu sistema. Recomenda-se a realizar o teste para o controle máximo sobre o desempenho do seu projeto.";
 $MESS["admin_index_perf_not_installed"] = "Não Instalado";
 $MESS["admin_index_perf_test"] = "Teste";
-$MESS["admin_index_product"] = "Desenvolvido por";
+$MESS["admin_index_product"] = "Fornecido por";
 $MESS["admin_index_product_name_1c_bitrix"] = "1C-Bitrix Gerenciador de Site";
 $MESS["admin_index_product_name_1c_bitrix_eduportal"] = "1C-Bitrix Portal Educação";
 $MESS["admin_index_product_name_1c_bitrix_gosportal"] = "1C-Bitrix Portal de Governança";
@@ -33,4 +33,3 @@ $MESS["admin_index_sec_module_install"] = "Instalar";
 $MESS["admin_index_sec_off"] = "Desativado";
 $MESS["admin_index_sec_on"] = "Ativado";
 $MESS["admin_index_title"] = "Painel de Controle";
-?>

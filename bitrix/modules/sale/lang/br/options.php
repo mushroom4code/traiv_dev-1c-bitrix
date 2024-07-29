@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["CO_PAR_NAME"] = "Nome do parâmetro";
 $MESS["CO_PAR_VAL"] = "Valor do parâmetro";
 $MESS["SALE_ADDRESS_POST"] = "Valor 1";
@@ -49,6 +49,7 @@ $MESS["SALE_TAB_3"] = "Moeda & Acesso do Pedido";
 $MESS["SALE_TAB_3_TITLE"] = "Controle de Acesso do pedido. Moeda do pedido";
 $MESS["SALE_TAB_ADDRESS"] = "Endereço de Compra";
 $MESS["SALE_TAB_ADDRESS_TITLE"] = "Endereço de Compra";
+$MESS["SALE_TAB_AUTO"] = "Automação";
 $MESS["SALE_TAB_WEIGHT"] = "Unidades de peso";
 $MESS["SALE_TAB_WEIGHT_TITLE"] = "Unidades de peso para uso no Catálogo Comercial";
 $MESS["SALE_VIEWED_COUNT"] = "Máximo de produtos recentemente visualizados:";
@@ -108,4 +109,3 @@ $MESS["SMO_STATE_TITLE"] = "Permissões para modificar o status do pedido";
 $MESS["SMO_STATUS"] = "Não modificar";
 $MESS["SMO_STATUS1"] = "Status";
 $MESS["SMO_USE_SECURE_COOKIES"] = "Utilizar cookies seguros";
-?>

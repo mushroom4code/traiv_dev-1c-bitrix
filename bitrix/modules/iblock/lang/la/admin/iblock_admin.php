@@ -1,8 +1,7 @@
-<?
+<?php
 $MESS["IBLOCK_ADM_ACTIVE"] = "Activar";
 $MESS["IBLOCK_ADM_CONFIRM_DEL_MESSAGE"] = "Toda la información relacionada a la presente acta será eliminado! ¿Desea continuar?";
 $MESS["IBLOCK_ADM_DELETE_ERROR"] = "Error al borrar. Refiriéndose objeto (s) posiblemente existe.";
-$MESS["IBLOCK_ADM_ELEMENTS"] = "Elementos";
 $MESS["IBLOCK_ADM_FILT_ACT"] = "Activo";
 $MESS["IBLOCK_ADM_FILT_NAME"] = "Nombre:";
 $MESS["IBLOCK_ADM_FILT_SITE"] = "Sitio web";
@@ -21,7 +20,6 @@ $MESS["IBLOCK_ADM_MENU_BIZPROC"] = "Proceso de negocio";
 $MESS["IBLOCK_ADM_MENU_PROPERTIES"] = "Propiedades";
 $MESS["IBLOCK_ADM_NAME"] = "Nombre";
 $MESS["IBLOCK_ADM_SAVE_ERROR"] = "Error al guardar el registro ##ID#: #ERROR_TEXT#";
-$MESS["IBLOCK_ADM_SECTIONS"] = "Secciones";
 $MESS["IBLOCK_ADM_SORT"] = "Ordenamiento";
 $MESS["IBLOCK_ADM_TIMESTAMP"] = "Modif.";
 $MESS["IBLOCK_ADM_TITLE"] = "#IBLOCK_TYPE#: Blocks de información";
@@ -43,4 +41,3 @@ $MESS["MAIN_ADMIN_LIST_DELETE"] = "eliminar";
 $MESS["MAIN_ADMIN_LIST_SELECTED"] = "Seleccionado:";
 $MESS["MAIN_ADMIN_MENU_DELETE"] = "Eliminar";
 $MESS["MAIN_ADMIN_MENU_EDIT"] = "Editar";
-?>

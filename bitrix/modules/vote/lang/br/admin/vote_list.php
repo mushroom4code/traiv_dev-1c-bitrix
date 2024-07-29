@@ -1,7 +1,8 @@
-<?
+<?php
 $MESS["VOTE_ACTIVATE"] = "ativar";
 $MESS["VOTE_ACTIVE"] = "Ativo";
 $MESS["VOTE_ACTIVE_RED_LAMP"] = "A pesquisa está expirada.";
+$MESS["VOTE_ACTIVE_RED_LAMP_UPCOMING"] = "A enquete ainda está chegando.";
 $MESS["VOTE_ADD_LIST"] = "Adicionar uma enquete";
 $MESS["VOTE_ALL"] = "(Todos)";
 $MESS["VOTE_CHANNEL"] = "Canal";
@@ -55,4 +56,3 @@ $MESS["VOTE_WRONG_START_DATE_FROM"] = "Por favor insira o correto \"from\" data 
 $MESS["VOTE_WRONG_START_DATE_TILL"] = "Por favor insira o \"till\" correto no filtro da \"data de início\"";
 $MESS["VOTE_WRONG_START_FROM_TILL"] = "O \"till\" deve ser maior que a data \"from\" no filtro para a \"Data de início\"";
 $MESS["VOTE_YES"] = "Sim";
-?>
