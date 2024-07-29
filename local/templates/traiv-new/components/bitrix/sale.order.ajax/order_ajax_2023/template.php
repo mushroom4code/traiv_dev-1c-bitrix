@@ -520,7 +520,7 @@ else
 </div>
 					 
 					
-					<div class="btn-group-blue"><a href="javascript:void(0)" class="btn-blue" data-save-button="true"><span><i class="fa fa-cart"></i> <?=$arParams['MESS_ORDER']?></span></a></div>
+					<div class="btn-group-blue btn-order-save-second"><a href="javascript:void(0)" class="btn-blue" data-save-button="true"><span><i class="fa fa-cart"></i> <?=$arParams['MESS_ORDER']?></span></a></div>
 					
 					</div>
 					

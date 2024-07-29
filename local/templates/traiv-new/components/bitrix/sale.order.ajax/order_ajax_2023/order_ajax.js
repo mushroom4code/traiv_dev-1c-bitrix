@@ -8193,7 +8193,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			{
 				this.totalInfoBlockNode.appendChild(
 					BX.create('DIV', {
-						props: {className: 'btn-group-blue-w' + (!showOrderButton ? ' visible-xs' : '') + (this.result.TOTAL.ORDER_PRICE < 5000) ? ' d-none' : ''},
+						props: {className: 'btn-group-blue-w' + (!showOrderButton ? ' visible-xs' : '') + ((this.result.TOTAL.ORDER_PRICE < 5000) ? ' d-none' : '')},
 						children: [
 							BX.create('A', {
 								props: {
@@ -8216,6 +8216,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					
 					this.buttonOrder = this.totalBlockNode.querySelector('.btn-order-save');
 					this.buttonOrder.style.display = "none";
+					document.querySelector('.btn-order-save-second').style.display = "none";
 					
 					this.totalInfoBlockNode.appendChild(
 						BX.create('DIV', {
