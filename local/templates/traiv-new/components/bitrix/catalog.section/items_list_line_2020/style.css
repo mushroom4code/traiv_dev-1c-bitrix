@@ -69,6 +69,11 @@ margin-right: 10px;
 .new-item-line__price span{
 	font-size: small;
 }
+@media screen and (min-width: 1200px) {
+	.new-item-line__price span {
+		text-wrap: nowrap;
+	}
+}
 .new-item-line input{
 	width: 66%;
 }

@@ -104,6 +104,10 @@ a.np_link_dashed_gray:hover {
 	position: relative;
 }
 
+.np-main-item-portfolio.bordered:hover {
+    transform: scale3d(1.05, 1.05, 1);
+}
+
 .np-main-item-portfolio.bordered.b1{
 	border: 0px solid #2C53A1;
 }
@@ -199,7 +203,7 @@ position: absolute;
 
 .np-callback-area-in {
 	top: 50%;
-    transform: translateY(-50%);
+    /*transform: translateY(-50%);*/
     position: relative;
 }
 
@@ -215,7 +219,8 @@ position: absolute;
 
 @media (min-width: 768px) {
     .np-callback-area {
-        height: 480px;
+        /*height: 555px;*/
+        height: 100%;
         background-image: url(/local/templates/traiv-new/images/np/np_callback_image.jpg);
         position: relative;
     }
@@ -414,6 +419,10 @@ position: absolute;
   box-shadow .25s linear;
 	border-radius: 1.5rem;
 	position: relative;
+}
+
+a.np-direction-item.bordered:hover {
+    transform: scale3d(1.05, 1.05, 1)
 }
 
 .np-direction-item.bordered::before{

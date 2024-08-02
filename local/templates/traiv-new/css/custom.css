@@ -541,7 +541,7 @@ background: linear-gradient(180deg, rgba(30,164,215,1) 0%, rgba(1,69,142,1) 100%
 }
 
 .btn-blue-big:hover {
-	color:#ffffff;
+	color: var(--bBlueLight);
 	background: #283890;
 }
 
@@ -3001,6 +3001,36 @@ button::-moz-focus-inner {
 	
 }
 
+.slam-easyform.form-label-white .control-label {
+	font-size: 14px;
+	font-weight: 700 ;
+	color: #ffffff;
+}
+
+.slam-easyform.form-label-white .has-success .control-label {
+	color: #ffffff !important;
+}
+
+.slam-easyform.form-label-white .has-error .control-label {
+	color: #ffffff !important;
+}
+
+.slam-easyform.form-label-white .has-success .form-control {
+	border-color: #ccc !important;
+}
+
+.slam-easyform.form-label-white .has-error .form-control {
+	border-color: #ccc !important;
+}
+
+.slam-easyform.form-label-white .has-error .help-block {
+	color: #ffffff !important;
+}
+
+.slam-easyform.form-label-white .has-error .help-block {
+	color: #ffffff !important;
+}
+
 .slam-easyform .form-control {
 	font: 500 16px/20px 'Gilroy',sans-serif !important;
 	padding: 12px 12px !important;
@@ -3041,6 +3071,8 @@ button::-moz-focus-inner {
 }
 
 .w-form__popup, .w-form__popup-one-click {
+	max-height: 95%;
+	overflow-y: scroll;
     background-color: #fff;
     /*border: 3px solid #fff;*/
     display: inline-block;
@@ -3152,6 +3184,13 @@ color:#ea5b5b;
 }
 .btn.show-more-btn{
     width: 100%;
+}
+
+@media (max-width: 768px) {
+	.w-form__popup, .w-form__popup-one-click {
+		max-width: 88%;
+		width: max-content;
+	}
 }
 
 /*----------------------------------

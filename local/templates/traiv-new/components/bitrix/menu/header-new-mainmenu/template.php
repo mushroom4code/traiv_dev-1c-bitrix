@@ -14,7 +14,7 @@ foreach($arResult as $arItem):?>
 	<?if ($arItem["IS_PARENT"]):?>
 
 		<?if ($arItem["DEPTH_LEVEL"] == 1):?>
-			<li rel="1" class="col"><a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>root-item-selected<?else:?>root-item<?endif?>" data-link-text="<?=$arItem["TEXT"]?>"><?=$arItem["TEXT"]?></a><!-- <div class='main_menu_arrow'></div>-->
+			<li rel="1" class="col"><a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>root-item-selected<?else:?>root-item<?endif?>" data-link-text="<?=$arItem["TEXT"]?>"><span><?=$arItem["TEXT"]?></span><i class="fa fa-arrow-right header-menu-icon"></i></a><!-- <div class='main_menu_arrow'></div>-->
 				<div class="root_back">
 				    <div class="container">
       <div class="row g-0">

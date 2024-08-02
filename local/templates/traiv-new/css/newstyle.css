@@ -578,13 +578,15 @@ color: var(--bBlueLight);
 	background-color:var(--bBlueLightHover);
 	color:var(--aWhite);
 	z-index:1000;
-	padding-bottom:60px;
+	/*padding-bottom:60px;*/
 	-webkit-border-bottom-left-radius: 10px;
 -moz-border-radius-bottomleft: 10px;
 border-bottom-left-radius: 10px;
 overflow:auto;
 margin-top:10px;
 display:none;
+    overflow-y: auto;
+    max-height: 85vh;
 }
 
 .header-new-catarea.width-fixed {
@@ -592,20 +594,21 @@ display:none;
 }
 
 .header-new-catarea-bottom {
-	display: block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 38px;
-	position: absolute;
+	/*position: absolute;*/
     bottom: 0;
     left: 0;
     text-align: left;
-    padding: 0px 55px;
+    /*padding: 0px 55px;*/
     background-color:var(--bBlueLight);
     color:var(--bBlueLightHover);
 }
 
 .header-new-catarea .header-new-catarea-btlink-left {
-	position: absolute;
+	/*position: absolute;*/
     bottom: 0;
     left: 0;
     font: 800 12px/38px 'Gilroy',sans-serif;
@@ -619,7 +622,7 @@ display:none;
 }
 
 .header-new-catarea .header-new-catarea-btlink-right {
-	position: absolute;
+	/*position: absolute;*/
     bottom: 0;
     right: 0;
     font: 800 12px/38px 'Gilroy',sans-serif;
@@ -630,6 +633,10 @@ display:none;
 
 .header-new-catarea .header-new-catarea-btlink-right:hover {
 	color:var(--bBlueLightHover);
+}
+
+.header-new-catarea .hn-list-item-container {
+    height: 664px;
 }
 
 .header-new-catarea .hn-list-item-parent {
@@ -1116,19 +1123,28 @@ font-size: 18px;
 
 /*BUTTON*/
 
+@media screen and (max-width: 1199px) {
+    .header-new-catlink.w-auto{
+        min-width: 100px;
+    }
+
+    .btn-group-new-nav {
+        min-width:100px;
+        padding: 0.4rem 1rem;
+    }
+}
+
+@media  screen and (max-width: 1399px) {
+    div.middle-screen-extended {
+        width: 75%;
+        margin-left: 0;
+    }
+}
 
 @media  screen and (max-width: 1366px) {
+
 	.btn-group-new {
 		padding: 0.4rem 1rem;
-	}
-	
-	.btn-group-new-nav {
-		min-width:100px;
-		padding: 0.4rem 1rem;
-	}
-	
-	.header-new-catlink.w-auto{
-		min-width: 100px;
 	}
 	
 		.fixed-icon-item {

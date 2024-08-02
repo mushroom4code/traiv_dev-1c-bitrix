@@ -17,7 +17,7 @@ if (!empty($arParams["FORM_NAME"])) {
 }
 ?>
 
-<div class="slam-easyform<?=$arParams['HIDE_FORMVALIDATION_TEXT'] == 'Y' ? ' hide-formvalidation' : ''?>" <?=$WITH_FORM?>>
+<div class="slam-easyform <?= $arParams['USE_WHITE_LABELS'] ? ' form-label-white' : ''?> <?=$arParams['HIDE_FORMVALIDATION_TEXT'] == 'Y' ? ' hide-formvalidation' : ''?>" <?=$WITH_FORM?>>
     <form id="<?=$FORM_ID?>"
           enctype="multipart/form-data"
           method="POST"

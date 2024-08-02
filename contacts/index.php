@@ -708,7 +708,7 @@ while($ob = $res->GetNextElement())
 		),
 		"FIELDS_ORDER" => "TITLE,EMAIL,PHONE,MESSAGE,CUR_URL",
 		"FORM_AUTOCOMPLETE" => "Y",
-		"HIDE_FIELD_NAME" => "Y",
+		"HIDE_FIELD_NAME" => "N",
 		"HIDE_ASTERISK" => "N",
 		"FORM_SUBMIT_VALUE" => "Отправить",
 		"SEND_AJAX" => "Y",

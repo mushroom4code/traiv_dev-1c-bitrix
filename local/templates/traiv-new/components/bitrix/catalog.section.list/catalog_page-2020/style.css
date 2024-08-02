@@ -25,10 +25,22 @@
 	top: 50%;
     transform: translateY(-50%);
     padding:10px;
-    display:block;
+    /*display:block;*/
     width:100%;
     text-align:center;
     overflow-wrap: break-word;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-item-fullname-text span {
+    color: #373d54;
+}
+
+.category-item-fullname-text span:hover {
+    color: #024dbc;
 }
 
 .grey-tag-word{

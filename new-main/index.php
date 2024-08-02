@@ -907,13 +907,13 @@ $is_mobile = $detect->isMobile();
                             <div class='np-callback-area-title'><span>Контакты</span></div>
                             <div class='np-callback-area-note'><span>Отправьте заявку и мы свяжемся с вами.
 Проконсультируем. Это бесплатно.</span></div>
-                            <div class="btn-group-blue mt-5"><a href="/about-company/" class="btn-blue-big"><span>Подробнее</span><i
-                                            class="fa fa-long-arrow-right" style="padding-left:10px;"></i></a></div>
+<!--                            <div class="btn-group-blue mt-5"><a href="/about-company/" class="btn-blue-big"><span>Подробнее</span><i-->
+<!--                                            class="fa fa-long-arrow-right" style="padding-left:10px;"></i></a></div>-->
                         </div>
                     </div>
                     <?php endif; ?>
 
-                    <div class="col-lg-4 col-md-12 text-md-left text-center position-relative h-100">
+                    <div class="col-lg-4 col-md-12 text-left position-relative h-100">
                         <?php
                         $APPLICATION->IncludeComponent(
                             "slam:easyform",
@@ -935,7 +935,7 @@ $is_mobile = $detect->isMobile();
                                 ),
                                 "FIELDS_ORDER" => "TITLE,PHONE,EMAIL",
                                 "FORM_AUTOCOMPLETE" => "Y",
-                                "HIDE_FIELD_NAME" => "Y",
+                                "HIDE_FIELD_NAME" => "N",
                                 "HIDE_ASTERISK" => "N",
                                 "FORM_SUBMIT_VALUE" => "Получить консультацию",
                                 "SEND_AJAX" => "Y",
@@ -1018,7 +1018,8 @@ $is_mobile = $detect->isMobile();
                                 "CATEGORY_HIDDEN_TITLE" => "Скрытое поле",
                                 "CATEGORY_HIDDEN_TYPE" => "hidden",
                                 "CATEGORY_HIDDEN_VALUE" => "",
-                                "CATEGORY_HIDDEN_IBLOCK_FIELD" => "FORM_HIDDEN"
+                                "CATEGORY_HIDDEN_IBLOCK_FIELD" => "FORM_HIDDEN",
+                                "USE_WHITE_LABELS" => "Y"
                             ),
                             false
                         );

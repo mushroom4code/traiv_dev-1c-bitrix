@@ -52,7 +52,7 @@
     <?endif;?>
     
     <div class="form-control-row">
-        <button class="btn btn--submit btn-blue submit-button submit-big-text w100">Отправить</button>
+        <button class="btn btn--submit btn-blue submit-button submit-big-text w100">Оформить заказ</button>
     </div>
 
     <button class="w-form__close mfp-close" title="Закрыть"><i class="fa fa-close" tabindex="0"></i></button>

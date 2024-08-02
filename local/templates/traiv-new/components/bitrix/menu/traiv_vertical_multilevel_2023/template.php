@@ -14,7 +14,7 @@ if ( $USER->IsAuthorized() )
 }
 //die;
 ?>
-
+    <div class="hn-list-item-container">
 <div class="hn-list-item-parent">
 <ul class="list-item">
 <?php 
@@ -93,12 +93,12 @@ If  (in_array($arItem["PARAMS"]["SECTION_ID"], $block3)) {
                            <li class="col"><a href="/actions/" class="root-item <?= ('/actions/' == $cur_page || strpos($cur_page,'/actions/')!==false) ? 'vertical-multilevel-selected' : ''?>"><i class="spriten-hn-right-menu rm-1"></i>Наши акции</a></li>
                        </ul>
 </div>
+</div>
 
 <div class="header-new-catarea-bottom">
 	<a href="/catalog/" class="header-new-catarea-btlink-left">Перейти в полный каталог</a>
 	<a href="/katalog-standartnogo-krepezha/" class="header-new-catarea-btlink-right">Каталог стандартного крепежа</a>
 </div>
-                          
 <?
 if(CSite::InDir('/catalog/')){
     //echo "<div class='stf_filter' rel='1'><i class='icofont icofont-filter'></i><span class='stf_filter_title'>Показать фильтр</span></div>";

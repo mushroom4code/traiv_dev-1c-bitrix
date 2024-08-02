@@ -128,7 +128,7 @@ if($APPLICATION->GetCurPage() == '/catalog/categories/shaiby/' && $j == 1){
                 } else {
                     $link = $arSection['SECTION_PAGE_URL'];
                 }?>
-                <a href="<?=$link?>" class="category-item-fullname-text"><?php echo $arSection['NAME'];?></a>
+                <a href="<?=$link?>" class="category-item-fullname-text"><span><?php echo $arSection['NAME'];?></span></a>
                 </div>
             <a href="<?=$link?>" class="category-item-link">
             <div class="category-item">

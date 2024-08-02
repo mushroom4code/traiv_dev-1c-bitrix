@@ -200,7 +200,7 @@ if (!empty($arParams["FORM_NAME"])) {
                 </div>
                 
                 <div class="col-xs-12 pt-2 pb-2 text-center">
-                <button type="submit" class="btn-blue submit-button submit-big-text w100" data-default="<?=$arParams['FORM_SUBMIT_VALUE']?>" rel="1"><?=$arParams['FORM_SUBMIT_VALUE']?></button>
+                <button type="submit" class="btn-blue submit-button submit-big-text w100" data-default="<?=$arParams['FORM_SUBMIT_VALUE']?>" rel="1"><?= ($arParams['FORM_ID'] === 'FORM4') ? 'Узнать цену' : (($arParams['FORM_ID'] === 'FORM3' || $arParams['FORM_ID'] === 'FORM5') ? 'Оставить заявку' : $arParams['FORM_SUBMIT_VALUE'])?></button>
                 </div>
                 
                 <div class="col-xs-12 text-center">

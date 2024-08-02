@@ -228,7 +228,7 @@ if ( $USER->IsAuthorized() )
             	</div>
             	
             	<div class="col-6 col-xl-2 col-lg-2 col-md-2 text-center">
-            		<div class="newphone position-relative">
+            		<div class="newphone position-relative text-nowrap">
             			<span class="topnew-social-new"><a href="https://api.whatsapp.com/send?phone=+7 901 328-44-31&text=Добрый день, меня интересует" target="_blank" onclick="ym(18248638,'reachGoal','clickWa'); return true;"><i class="fa fa-whatsapp whatsapp-icon"></i></a></span>
             			<span class="topnew-social-new"><a href="https://web.telegram.org/k/#@gktraiv" target="_blank" style="position:relative;bottom:2px;">
             			<div class="telegram-circle"></div>
@@ -490,7 +490,7 @@ if ( $USER->IsAuthorized() )
                 	<span class="header-new-description">Производитель и дистрибьютор крепежа и метизов с 2006 года</span>
                 </div>
                 
-                <div class="col-6 col-xl-8 col-lg-8 col-md-8 offset-xl-1 offset-lg-1 offset-md-1 text-center text-sm-left">
+                <div class="col-6 col-xl-8 col-lg-8 col-md-8 offset-xl-1 offset-lg-1 offset-md-1 text-center text-sm-left middle-screen-extended">
             		<div class="row position-relative" id="header-new-catarea-copy-parent">
             			<div class="col-6 col-xl-3 col-lg-3 col-md-3 text-left" id="header-new-catarea-copy">
             				<div class="btn-group">
@@ -1466,7 +1466,7 @@ if ( $USER->IsAuthorized() )
 		),
 		"FIELDS_ORDER" => "TITLE,EMAIL,PHONE,ИНН (для юридических лиц),DOCS,MESSAGE,CUR_URL",
 		"FORM_AUTOCOMPLETE" => "Y",
-		"HIDE_FIELD_NAME" => "Y",
+		"HIDE_FIELD_NAME" => "N",
 		"HIDE_ASTERISK" => "N",
 		"FORM_SUBMIT_VALUE" => "Отправить",
 		"SEND_AJAX" => "Y",
