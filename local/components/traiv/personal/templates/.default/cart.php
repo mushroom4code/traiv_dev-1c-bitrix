@@ -25,8 +25,8 @@
 
 
     <? if (count($arResult["ITEMS"]) > 0): ?>
-
-        <div class="row g-0 mt-4" id="lk-cart-list-shadow">
+        <div class="d-flex mt-4" style="gap: 23px;">
+        <div class="g-0" id="lk-cart-list-shadow">
             <div class="col-12 d-none d-lg-block" id="catalog-list-line-th">
                 <div class="row g-0">
                     <div class="col-1 col-xl-1 col-lg-1 col-md-1 text-center">Фото</div>
@@ -111,50 +111,47 @@
 
             </div>
         </div>
-
-        <div class="row g-0 pb-3">
-            <div class="col-12 mt-4">
-                <div class="row d-flex align-items-center">
-                    <div class="col-12 col-xl-2 col-lg-2 col-md-2 text-left">
-                        <span class="lk-cart-list-total">Итого: <span><?= $arResult["TOTAL"] ?></span></span>
+        <div id="bx-soa-total" class="col-sm-3 bx-soa-sidebar">
+            <div class="bx-soa-cart-total-ghost"></div>
+            <div class="bx-soa-cart-total">
+                <div class="bx-soa-cart-total-line">
+                    <span class="bx-soa-cart-t">Товаров на:</span>
+                    <span class="bx-soa-cart-d"><?= $arResult["TOTAL"] ?></span>
+                </div>
+                <div class="bx-soa-cart-total-line">
+                    <span class="bx-soa-cart-t">Общий вес:</span>
+                    <span class="bx-soa-cart-d"><?= $arResult["WEIGHT"] * 1000 ?> г</span>
+                </div>
+                <div class="bx-soa-cart-total-line">
+                    <span class="bx-soa-cart-t">Корзина:</span>
+                    <span class="bx-soa-cart-d"><?= $arResult["TOTAL"] ?></span>
+                </div>
+                <div class="bx-soa-cart-total-line bx-soa-cart-total-line-total">
+                    <span class="bx-soa-cart-t">Итого:</span>
+                    <span class="bx-soa-cart-d" style="font-size: 28px;"><?= $arResult["TOTAL"] ?></span>
+                </div>
+                <div class="btn-group-blue-w mb-3 <?= ($arResult['TOTAL_UNFORMATED'] < 5000) ? 'd-none' : ''?>">
+                    <div class="btn-group-blue" style="width: 100%;">
+                        <a href="/personal/order/make/" class="btn-404" style="width:100%;">
+                            <span> Оформить заказ</span>
+                        </a>
                     </div>
-                    <div class="col-12 col-xl-3 col-lg-3 col-md-3 text-left">
-                        <span class="lk-cart-list-weight">Общий вес: <?= $arResult["WEIGHT"] * 1000 ?> г</span>
+                </div>
+                <div class="btn-group-blue-w <?= ($arResult['TOTAL_UNFORMATED'] < 5000) ? 'd-none' : ''?>">
+                    <div class="btn-group-blue" style="width: 100%;">
+                        <a href="#buy-one-click" class="btn-blue-contour btn-blue btn-one-click" style="width: 100%;" rel="nofollow">
+                            <span>Купить в 1 клик</span>
+                        </a>
                     </div>
-
-                    <div class="col-12 col-xl-5 col-lg-5 col-md-5 text-center text-lg-right">
-                        <div class="btn-group-blue <?= ($arResult['TOTAL_UNFORMATED'] < 5000) ? 'd-none' : ''?>"><a href="#buy-one-click"
-                                                       class="btn-blue-contour btn-blue btn-one-click"
-                                                       rel="nofollow"><span>Купить в 1 клик</span></a></div>
-                    </div>
-
-                    <div class="col-12 col-xl-2 col-lg-2 col-md-2 text-center text-lg-right">
-
-                        <div class="btn-group-blue <?= ($arResult['TOTAL_UNFORMATED'] < 5000) ? 'd-none' : ''?>">
-                            <a href="/personal/order/make/" class="btn-404">
-                                <span> Оформить заказ</span>
-                            </a>
-                        </div>
-
-                    </div>
-
-
+                </div>
+                <div class="check_type_pack_basket <?= ($arResult['TOTAL_UNFORMATED'] < 5000) ? '' : 'd-none'?>">
+                    <i class="fa fa-info-circle"></i>
+                    <span>Минимальная сумма заказа 5 000 рублей</span>
                 </div>
             </div>
         </div>
-
-        <div class="cart_condition_block row g-0 pb-3 <?= ($arResult['TOTAL_UNFORMATED'] < 5000) ? '' : 'd-none'?>">
-            <div class="col-12">
-                <div class="row d-flex align-items-center">
-                    <div class="check_type_pack_basket cart_condition">
-                        <i class="fa fa-info-circle"></i>
-                        <span>Минимальная сумма заказа 5 000 рублей</span>
-                    </div>
-                </div>
-            </div>
         </div>
-
-
+    
     <? else: ?>
 
         <div class="row g-0">

@@ -121,11 +121,11 @@ function updatePersonalBasket(sender) {
                 }
             });
             if (data.TOTAL_UNFORMATED < 5000) {
-                $('#lk-cart-list .btn-group-blue').addClass('d-none');
-                $('.cart_condition_block').removeClass('d-none');
+                $('.btn-group-blue-w').addClass('d-none');
+                $('.check_type_pack_basket').removeClass('d-none');
             } else {
-                $('#lk-cart-list .btn-group-blue').removeClass('d-none');
-                $('.cart_condition_block').addClass('d-none');
+                $('.btn-group-blue-w').removeClass('d-none');
+                $('.check_type_pack_basket').addClass('d-none');
             }
             
             //$(".total", sender).text(data["TOTAL_PRICE"]);

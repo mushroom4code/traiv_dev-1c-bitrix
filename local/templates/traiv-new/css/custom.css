@@ -6478,7 +6478,7 @@ border-radius: 5px;
 }
 
 .ami-lazy:not(cart-item__image) {
-	padding: 0px 20px 0px 0px;
+	/*padding: 0px 20px 0px 0px;*/
 }
 
 .ami-lazy.chatbot-bann-contact{
