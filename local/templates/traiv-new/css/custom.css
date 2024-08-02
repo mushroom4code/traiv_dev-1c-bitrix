@@ -4727,6 +4727,16 @@ padding: 24px 0;
 .vertical-multilevel-selected i.spriten-hn-right-menu {
 	background-position-x: -30px !important;
 }
+
+@media screen and (max-width: 1399px) {
+	#header-new-catarea-copy {
+		width: 42%;
+		padding-right: 0;
+	}
+	#header-new-catarea-copy .btn-group-new-nav.btn-group-new-nav-dark.header-new-catlink {
+		min-width: 0;
+	}
+}
 /*Меню производства*/
 
 .left_prod_area {
