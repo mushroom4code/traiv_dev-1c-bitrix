@@ -9,4 +9,5 @@ $MESS["REST_UF_TYPE_CRM_STATUS"] = "Powiąż ze słownikami CRM";
 $MESS["REST_UF_TYPE_DATE"] = "Data";
 $MESS["REST_UF_TYPE_ENUMERATION"] = "Lista";
 $MESS["REST_UF_TYPE_FILE"] = "Plik";
+$MESS["REST_UF_TYPE_MONEY"] = "Pieniądze";
 $MESS["REST_UF_TYPE_STRING"] = "String";

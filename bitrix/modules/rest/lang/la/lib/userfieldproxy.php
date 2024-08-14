@@ -1,4 +1,4 @@
-<?
+<?php
 $MESS["REST_UF_ACTIVE_FILTER"] = "Mostrar sólo activos";
 $MESS["REST_UF_CRM_COMPANY"] = "Compañía";
 $MESS["REST_UF_CRM_CONTACT"] = "Contacto";
@@ -44,10 +44,9 @@ $MESS["REST_UF_TYPE_FILE"] = "Archivo";
 $MESS["REST_UF_TYPE_IBLOCK_ELEMENT"] = "Enlace a los elementos del block de información";
 $MESS["REST_UF_TYPE_IBLOCK_SECTION"] = "Enlace a secciones de block de información";
 $MESS["REST_UF_TYPE_INTEGER"] = "Entero";
-$MESS["REST_UF_TYPE_MONEY"] = "Moneda";
+$MESS["REST_UF_TYPE_MONEY"] = "Dinero";
 $MESS["REST_UF_TYPE_STRING"] = "Cadena";
 $MESS["REST_UF_TYPE_URL"] = "Link";
 $MESS["REST_UF_USER_TYPE_ID"] = "Tipo de datos";
 $MESS["REST_UF_VALUE"] = "Valor";
 $MESS["REST_UF_XML_ID"] = "ID externo (XML ID)";
-?>

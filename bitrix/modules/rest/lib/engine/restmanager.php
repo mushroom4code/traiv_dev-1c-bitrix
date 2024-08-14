@@ -158,7 +158,8 @@ class RestManager extends \IRestService
 
 		if ($result instanceof Engine\Response\File)
 		{
-			return $result->send();
+			$result->send();
+			return;
 		}
 
 		if ($result instanceof HttpResponse)

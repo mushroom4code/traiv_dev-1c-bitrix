@@ -571,26 +571,29 @@ class CRestUtil
 	{
 		global $USER;
 
-		$hasAccess = \CRestUtil::isAdmin();
+		$hasAccess = false;
+
+		if($appInfo === null)
+		{
+			$appInfo = \Bitrix\Rest\AppTable::getByClientId($appId);
+		}
+
+		if($appInfo)
+		{
+			if(!empty($appInfo["ACCESS"]))
+			{
+				$rights = explode(",", $appInfo["ACCESS"]);
+				$hasAccess = $USER->CanAccess($rights);
+			}
+			else
+			{
+				$hasAccess = true;
+			}
+		}
+
 		if(!$hasAccess)
 		{
-			if($appInfo === null)
-			{
-				$appInfo = \Bitrix\Rest\AppTable::getByClientId($appId);
-			}
-
-			if($appInfo)
-			{
-				if(!empty($appInfo["ACCESS"]))
-				{
-					$rights = explode(",", $appInfo["ACCESS"]);
-					$hasAccess = $USER->CanAccess($rights);
-				}
-				else
-				{
-					$hasAccess = true;
-				}
-			}
+			$hasAccess = \CRestUtil::isAdmin();
 		}
 
 		return $hasAccess;

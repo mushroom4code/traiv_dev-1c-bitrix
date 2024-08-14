@@ -28,6 +28,7 @@ $MESS["REST_UF_SETTINGS"] = "Propriétés supplémentaires (en fonction du type)
 $MESS["REST_UF_SHOW_FILTER"] = "Afficher dans les filtres";
 $MESS["REST_UF_SHOW_IN_LIST"] = "Afficher en liste";
 $MESS["REST_UF_SORT"] = "Trier";
+$MESS["REST_UF_TYPE_MONEY"] = "Argent";
 $MESS["REST_UF_TYPE_STRING"] = "Chaîne";
 $MESS["REST_UF_USER_TYPE_ID"] = "Type de donnée";
 $MESS["REST_UF_VALUE"] = "Valeur";

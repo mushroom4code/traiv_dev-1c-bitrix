@@ -11,7 +11,6 @@ $MESS["SAPS_CAT_VAT_ADMIN"] = "Die Seite der Steuersätze wurde ins Bitrix24 ver
 $MESS["SAPS_SALE_ACCOUNT_ADMIN"] = "Die Seite der internen Kunden-Acounts wurde ins Bitrix24 verschoben";
 $MESS["SAPS_SALE_BASKET"] = "Die Seite der verlassenen Warenkörbe wurde ins Bitrix24 verschoben";
 $MESS["SAPS_SALE_BUYERS"] = "Die Seite der Kunden wurde ins Bitrix24 verschoben";
-$MESS["SAPS_SALE_CASHBOX"] = "Kassenapparat verbinden";
 $MESS["SAPS_SALE_CASHBOX_CHECK"] = "Die Seite der Kassenbons ist jetzt in Bitrix24 verfügbar";
 $MESS["SAPS_SALE_CASHBOX_LIST"] = "Die Seite des Kassenapparats ist jetzt in Bitrix24 verfügbar";
 $MESS["SAPS_SALE_DELIVERY_SERVICE_LIST"] = "Die Seite der Lieferservices ist jetzt in Bitrix24 verfügbar";
