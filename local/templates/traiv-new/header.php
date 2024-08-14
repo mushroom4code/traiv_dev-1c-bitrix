@@ -296,12 +296,12 @@ if ( $USER->IsAuthorized() )
             			
             		</div>
             		
-            		<div class="col-6 col-xl-4 col-lg-4 col-md-4 text-center text-sm-left top-fixed" id="catalog-copy-area-parent">
+            		<div class="col-6 col-xl-4 col-lg-4 text-center text-lg-left top-fixed" id="catalog-copy-area-parent">
             		<div class="row position-relative" id="catalog-copy-area">
             		</div>
             		</div>
             		
-            		<div class="col-6 col-xl-5 col-lg-5 col-md-5 offset-xl-1 offset-lg-1 offset-md-1 text-center" id="header-new-top-search">
+            		<div class="col-6 col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 text-center" id="header-new-top-search">
             		        <?
         $APPLICATION->IncludeComponent(
 	"arturgolubev:search.title", 
@@ -849,14 +849,14 @@ if ( $USER->IsAuthorized() )
 <section id="topbottom" <?php echo $m_check;?>>
     <div class="container">
       <div class="row topbottom_scroll">
-        <div class="col-6 col-xl-3 col-lg-3 col-md-3 pt-2 pt-sm-0 text-left">
+        <div class="col-6 col-xl-3 col-lg-3 pt-2 pt-lg-0 text-left">
              <a href="/" class="logotype" alt="«Трайв» - поставки крепежа и метизов из Европы и Азии"><img src="<?=SITE_TEMPLATE_PATH?>/images/logo_new_tk2023.png" class="logotype_img"/></a>
 
               <div class="logotype-description">Производство и продажа крепежа и метизов с 2006 года</div>
 
         </div>
         
-	  <div class="col-6 col-xl-2 col-lg-2 col-md-2 text-center text-sm-right pt-2 pb-2 pt-sm-0 pb-sm-0 d-block d-sm-none">
+	  <div class="col-6 col-xl-2 col-lg-2 text-center text-lg-right pt-2 pb-2 pt-lg-0 pb-lg-0 d-block d-lg-none">
       <div class="top_location">
         	<span>
       <div class="btn-group-blue">
@@ -885,7 +885,7 @@ if ( $USER->IsAuthorized() )
         </div>
     </div>
         
-        <div class="col-12 col-xl-5 col-lg-5 col-md-5 p-2 p-sm-0">
+        <div class="col-12 col-xl-5 col-lg-5 p-2 p-lg-0">
         <?
         $APPLICATION->IncludeComponent(
 	"arturgolubev:search.title", 
@@ -969,7 +969,7 @@ if ( $USER->IsAuthorized() )
             
         </div>
         
-	<div class="col-5 col-xl-4 col-lg-4 col-md-4 text-center text-sm-left pb-2 pb-sm-0 d-block d-sm-none" id="mob_location">
+	<div class="col-5 col-xl-4 col-lg-4 text-center text-lg-left pb-2 pb-lg-0 d-block d-lg-none" id="mob_location">
                 <div class="top_location">
         	<!-- <i class="fa fa-map-marker"></i><span class="top_location_text">Ваш город:</span>-->
         	<div class="menu_tips_area">
@@ -988,7 +988,7 @@ if ( $USER->IsAuthorized() )
         </div>
     </div>
         
-            <div class="col-12 col-xl-2 col-lg-2 col-md-2 text-center text-sm-right pt-2 pb-2 pt-sm-0 pb-sm-0" id="scroll-to-fixed-button">
+            <div class="col-12 col-xl-2 col-lg-2 text-center text-lg-right pt-2 pb-2 pt-lg-0 pb-lg-0" id="scroll-to-fixed-button">
       <div class="top_location">
         	<span>
       <div class="btn-group-blue">
@@ -1000,7 +1000,7 @@ if ( $USER->IsAuthorized() )
         </div>
     </div>
         
-        <div class="col-7 col-xl-2 col-lg-2 col-md-2 text-center pb-2 pb-sm-0">
+        <div class="col-7 col-xl-2 col-lg-2 text-center pb-2 pb-lg-0">
         	<div class="top-phone">
         		<a href="tel:88007072598" id="loc_rus_phone" rel="nofollow" style="display:block;"><i class="fa fa-phone"></i><span>8 (800) 707-25-98</span></a>
         		<a href="tel:83432887940" id="loc_eka_phone" rel="nofollow" style="display:none;"><i class="fa fa-phone"></i><span>8 (343) 288-79-40</span></a>
@@ -1014,7 +1014,7 @@ if ( $USER->IsAuthorized() )
         </div>
         
         
-        <div class="col-6 col-xl-2 col-lg-2 col-md-2 text-center pb-2 pb-sm-0 d-none d-lg-block">
+        <div class="col-6 col-xl-2 col-lg-2 text-center pb-2 pb-lg-0 d-none d-lg-block">
         	<div id="ajax_basket">
         	
 
@@ -1152,7 +1152,7 @@ if ( $USER->IsAuthorized() )
 
 <section id="mainmenu" <?php echo $m_check;?>>
 
-   <div class="container d-block d-sm-none sm-nopadding" id="modil_cont_catalog_menu">
+   <div class="container d-none main-menu-container nopadding" id="modil_cont_catalog_menu">
   
    
       <div class="row g-0">
@@ -1183,9 +1183,17 @@ if ( $USER->IsAuthorized() )
       </div>
       
       <div class="col-2 text-center" id="cart_item">
-      <a href="/personal/order/make/" class="cart_link">
-      <i class="fa fa-shopping-cart"></i>
-      <span></span></a>
+          <a href="/personal/order/make/" class="cart_link">
+              <i class="fa fa-shopping-cart position-relative">
+                 <span id="decodeCardNums">
+        		    	<div id="cart_total_count_mobile"
+                             class="header-new-cart-count header-new-cart-count-mobile rounded-circle">0</div>
+                </span>
+              </i>
+              <script>
+                  $('#cart_total_count_mobile').text($('#cart_total_count').text());
+              </script>
+              <span></span></a>
       </div>
       
       

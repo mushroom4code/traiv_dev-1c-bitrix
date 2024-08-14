@@ -37,6 +37,13 @@
 .btn.new-item-line-buy.opt:hover{
 	background-color: #386aaa;
 }
+
+.new-item-line__price-container {
+	text-wrap: nowrap;
+	/*margin-right : 50px;*/
+	min-width: fit-content;
+}
+
 .new-item-line__price{
 display: inline-block;
 font-size: 1.2em;

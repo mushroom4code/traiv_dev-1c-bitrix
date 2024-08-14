@@ -155,7 +155,7 @@ if (!empty($res)){ ?>
 <?$pack = $upakovka ? $upakovka : 1;?>
 
  <div class="catalog-list-quantity-area">
-                                <input type="text" name="QUANTITY" class="quantity section_list" id="<?= $_GET['elementid']?>-item-quantity" size="5" value="<?=$pack?>" step="<?=$pack?>" min="<?=$pack?>">
+                                <input type="number" name="QUANTITY" class="quantity section_list" id="<?= $_GET['elementid']?>-item-quantity" size="5" value="<?=$pack?>" step="<?=$pack?>" min="<?=$pack?>">
                 <a href="#" class="quantity_link quantity_link_plus" rel="<?= $_GET['elementid']?>"><span><i class="fa fa-plus"></i></span></a>
                 <a href="#" class="quantity_link quantity_link_minus" rel="<?= $_GET['elementid']?>"><span><i class="fa fa-minus"></i></span></a>
                 </div>   

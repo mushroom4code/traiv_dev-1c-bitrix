@@ -104,15 +104,15 @@ if($APPLICATION->GetCurPage() == '/catalog/categories/shaiby/' && $j == 1){
 	    	<?if(!$sectionsToShow--) break?>
 
         <? (CSite::InDir('/catalog/index.php')) ? $flag = 'x1d7' : $flag = 'x1d6'?>
-        
-        <?php 
+
+        <?php
         /*if ( $USER->IsAuthorized() )
         {
             if ($USER->GetID() == '3092') {*/
                 if ( $arSection['ID'] == '948') {
                     ?>
                     
-                    <li class="col-2 check-data-search" id="bx_4145281613_5130" data-find="Шайбы NORD-LOCK/2fix"><a href="/catalog/categories/shaiby/din-25201-shaiba-nord-lock/shayby_nord_lock_2fix/" class="category-item-link"><div class="category-item"><div class="category-item__image"><img src="/upload/adwex.minified/webp/e24/100/e24871238f1953daab0c23a19ce333d6.webp" loading="lazy" alt="Шайбы NORD-LOCK/2fix"></div><div class="category-item__title_mp"><span class="v-aligner">
+                    <li class="category-item-col check-data-search" id="bx_4145281613_5130" data-find="Шайбы NORD-LOCK/2fix"><a href="/catalog/categories/shaiby/din-25201-shaiba-nord-lock/shayby_nord_lock_2fix/" class="category-item-link"><div class="category-item"><div class="category-item__image"><img src="/upload/adwex.minified/webp/e24/100/e24871238f1953daab0c23a19ce333d6.webp" loading="lazy" alt="Шайбы NORD-LOCK/2fix"></div><div class="category-item__title_mp"><span class="v-aligner">
 									Шайбы NORD-LOCK/2fix																	</span></div><div class="category-item-nums"> 15 </div></div></a></li>
                     
                     <?php 
@@ -121,7 +121,7 @@ if($APPLICATION->GetCurPage() == '/catalog/categories/shaiby/' && $j == 1){
         }*/
         ?>
         
-        <li class="col-2 check-data-search" id="<?=$this->GetEditAreaId($arSection['ID'])?>" data-find="<?=$arSection['NAME']?>" rel="1">
+        <li class="category-item-col check-data-search" id="<?=$this->GetEditAreaId($arSection['ID'])?>" data-find="<?=$arSection['NAME']?>" rel="1">
                 <div class="category-item-fullname">
                 <?php if ($arSection['NAME'] == 'Режущий инструмент') {
                     $link = "/cutting/";

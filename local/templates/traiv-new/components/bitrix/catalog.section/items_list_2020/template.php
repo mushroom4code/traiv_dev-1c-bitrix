@@ -245,7 +245,7 @@ if (!empty($props_array["UF_CANONICAL"])) {
 <div class="row g-0">
 <div class="col-6 catalog-item-tile-quantity text-center">                    
                     <div class="catalog-list-quantity-area">
-                                <input type="text" name="QUANTITY" class="quantity section_list" id="<?= $item["ID"]?>-item-quantity" size="5" value="<?=$pack?>" step="<?=$pack?>" min="<?=$pack?>">
+                                <input type="number" name="QUANTITY" class="quantity section_list" id="<?= $item["ID"]?>-item-quantity" size="5" value="<?=$pack?>" step="<?=$pack?>" min="<?=$pack?>">
                 <a href="#" class="quantity_link quantity_link_plus" rel="<?= $item["ID"]?>"><span><i class="fa fa-plus"></i></span></a>
                 <a href="#" class="quantity_link quantity_link_minus" rel="<?= $item["ID"]?>"><span><i class="fa fa-minus"></i></span></a>
                 </div>

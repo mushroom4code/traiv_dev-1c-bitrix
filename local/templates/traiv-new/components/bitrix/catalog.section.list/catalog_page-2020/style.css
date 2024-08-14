@@ -6,6 +6,23 @@
 	position:relative;
 }
 
+.category-item-col {
+    flex: 0 0 auto;
+    width: 16.666667%;
+}
+
+@media (max-width: 1399px) {
+    .category-item-col {
+        width: 25%
+    }
+}
+
+@media (max-width: 991px) {
+    .category-item-col {
+        width: 33.333333%;
+    }
+}
+
 .category-item-fullname {
 	position:absolute;
 	top:0px;

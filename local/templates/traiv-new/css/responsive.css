@@ -481,3 +481,10 @@ and ServicePage
 ----------------------------------*/
 
 }
+
+@media (max-width: 991px) {
+	div.main-menu-container {
+		display: block !important;
+		max-width: 100%;
+	}
+}

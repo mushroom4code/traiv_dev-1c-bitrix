@@ -157,7 +157,7 @@
         BX.addCustomEvent(window, 'OnBasketChange', function(){
             $('#cart_total_summ').html('на сумму ' + $('#allSum_FORMATED').html() + ' руб.');
             $('#cart_total_count').html($('#basket-content tr').length);
-
+            $('#cart_total_count_mobile').html($('#basket-content tr').length);
 
             var $p = $("td.cart__col.cart-item__price");
 

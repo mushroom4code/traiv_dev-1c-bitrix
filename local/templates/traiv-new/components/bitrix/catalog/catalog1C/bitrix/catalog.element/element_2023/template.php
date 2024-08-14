@@ -1851,7 +1851,7 @@ endif;
 	        <div class='prod-qnt'>
 	        
 	        <a href="#" class="prod-qnt-button prod-minus"><i class="icofont icofont-minus-square"></i></a>
-	        <input type='text' name='QUANTITY' value='<?=$pack?>' min="<?=$pack?>" step="<?=$pack?>" class="quantity prod-qnt-input" id="<?= $arResult["ID"]?>-item-quantity">
+	        <input type='number' name='QUANTITY' value='<?=$pack?>' min="<?=$pack?>" step="<?=$pack?>" class="quantity prod-qnt-input" id="<?= $arResult["ID"]?>-item-quantity">
 	        <a href="#" class="prod-qnt-button prod-plus"><i class="icofont icofont-plus-square"></i></a>
 	        
 	        </div>
@@ -1861,7 +1861,7 @@ endif;
 	        <div class="row justify-content-center align-self-center">
 	        <div class="col-5 text-center">
                 <div class="catalog-list-quantity-area">
-                    <input type="text" name='QUANTITY' value='<?=$pack?>' min="<?=$pack?>" step="<?=$pack?>" class="quantity prod-qnt-input" id="<?= $arResult["ID"]?>-item-quantity">
+                    <input type="number" name='QUANTITY' value='<?=$pack?>' min="<?=$pack?>" step="<?=$pack?>" class="quantity prod-qnt-input" id="<?= $arResult["ID"]?>-item-quantity">
                     <a href="#" class="prod-plus-new-link prod-plus-new"><span><i class="fa fa-plus"></i></span></a>
                     <a href="#" class="prod-plus-new-link prod-minus-new"><span><i class="fa fa-minus"></i></span></a>
                 </div>

@@ -84,7 +84,7 @@
                                     $ymarket = $item["PROPERTIES"]["YMARKET"]["VALUE"];
                                     !$ymarket ? $pack = $item["PROPERTIES"]["KRATNOST_UPAKOVKI"]["VALUE"] : $pack = 1;
                                     !$pack && $pack = 1; ?>
-                                    <input type="text" name='QUANTITY' class="quantity section_list"
+                                    <input type="number" name='QUANTITY' class="quantity section_list"
                                            id="<?= $item["ID"] ?>-item-quantity" size="5"
                                            value="<?= $arItem["QUANTITY"] ?>" step="<?= $arItem["PACK"] ?>"
                                            min="<?= $arItem["PACK"] ?>">

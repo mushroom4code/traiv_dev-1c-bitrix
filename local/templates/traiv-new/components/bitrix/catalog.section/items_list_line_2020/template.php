@@ -139,7 +139,7 @@ if(!empty($item['DETAIL_PICTURE']['SRC']))
             <div class="col-2 col-xl-2 col-lg-2 col-md-2 text-center"><span><?php echo $item["PROPERTIES"]["CML2_ARTICLE"]["VALUE"];?></span></div>
             <div class="col-1 col-xl-1 col-lg-1 col-md-1 text-center d-none d-lg-block"><span><?=$dlina ? '<div style="display: inline-block">M </div> ' . $diametr.' x '.$dlina : $diametr?></span></div>
             <div class="col-1 col-xl-1 col-lg-1 col-md-1 text-center d-none d-lg-block"><span><nobr><?=$material?></nobr></span></div>
-            <div class="col-4 col-xl-2 col-lg-2 col-md-2 text-center"><span class="new-item-line__price"><span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+            <div class="col-4 col-xl-2 col-lg-2 col-md-2 text-center <?= $printPriceValue == 'по запросу' ? 'new-item-line__price-container' : ''?>"><span class="new-item-line__price"><span itemprop="offers" itemscope itemtype="https://schema.org/Offer">
 <?if ($printPriceValue !== '0 руб.'){
 
 if ($printPriceValue == 'по запросу') {
@@ -178,7 +178,7 @@ else {
                 <?
                 $ymarket = $item["PROPERTIES"]["YMARKET"]["VALUE"];
                 !$ymarket ? $pack = $item["PROPERTIES"]["KRATNOST_UPAKOVKI"]["VALUE"] : $pack = 1;!$pack && $pack = 1;?>
-                <input type="text" name='QUANTITY' class="quantity section_list" id="<?= $item["ID"]?>-item-quantity"  size="5" value="<?=$pack?>" step="<?=$pack?>" min="<?=$pack?>">
+                <input type="number" name='QUANTITY' class="quantity section_list" id="<?= $item["ID"]?>-item-quantity"  size="5" value="<?=$pack?>" step="<?=$pack?>" min="<?=$pack?>">
                 <a href="#" class="quantity_link quantity_link_plus" rel="<?= $item["ID"]?>"><span><i class="fa fa-plus"></i></span></a>
                 <a href="#" class="quantity_link quantity_link_minus" rel="<?= $item["ID"]?>"><span><i class="fa fa-minus"></i></span></a>
                 </div>

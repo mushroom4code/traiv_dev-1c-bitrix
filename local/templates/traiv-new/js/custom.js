@@ -15,6 +15,11 @@ function copyToClipboard(element) {
 }
 
 $(document).ready(function () {
+    console.log('here it goes');
+    console.log($('#cart_total_count'));
+    console.log($('#cart_total_count').val());
+
+
     $(window).on('hashchange', function (e) {
         if ($('.w-form__overlay:target').length || $('.w-form__overlay-one-click:target').length) {
             // $('html').css('margin-right', '17px');
@@ -1389,7 +1394,10 @@ setTimeout(function(){
                         searchControlProvider: 'yandex#search'
                     }),
                     menu = $('<ul class="office_menu_mp"/>');
-                myMap.behaviors.disable('scrollZoom')
+                myMap.behaviors.disable('scrollZoom');
+                if (screen.width < 577) {
+                    myMap.behaviors.disable('drag');
+                }
 
                 for (var i = 0, l = offices.length; i < l; i++) {
                     createMenuGroup(offices[i]);
@@ -1635,6 +1643,7 @@ setTimeout(function(){
             mobileDetect = true;
         }
         ;
+        console.log(mobileDetect)
     }
 
     checkMobile();
@@ -1669,16 +1678,16 @@ setTimeout(function(){
             $('#topbottom .topbottom_scroll').css('min-height', '110px');
             $('#title-search').parent()
                 .removeClass('col-xl-3 col-lg-3 col-md-3')
-                .addClass('col-xl-5 col-lg-5 col-md-5');
+                .addClass('col-xl-5 col-lg-5');
             $('#scroll-to-fixed-button').css('display', 'none');
         },
-        minWidth: 576,
+        minWidth: 992,
         zIndex: 1003
     });
 
 
     if (!mobileDetect) {
-
+        console.log('no mobile');
         if ($('#topbottom').hasClass('scroll-to-fixed-fixed') == true) {
             setTimeout(function () {
                 var topbottomH = $('#topbottom').outerHeight();
@@ -1691,6 +1700,7 @@ setTimeout(function(){
             $('#mainmenu').scrollToFixed({marginTop: topbottomH - topnavH});
         }
     } else {
+        console.log('mobile');
         $('#mainmenu').scrollToFixed();
     }
 
