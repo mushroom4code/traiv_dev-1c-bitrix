@@ -5390,7 +5390,6 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 
 		editActiveDeliveryBlock: function(activeNodeMode)
 		{
-			console.log('editActiveDeliveryBlock');
 			var node = activeNodeMode ? this.deliveryBlockNode : this.deliveryHiddenBlockNode,
 				deliveryContent, deliveryNode;
 
