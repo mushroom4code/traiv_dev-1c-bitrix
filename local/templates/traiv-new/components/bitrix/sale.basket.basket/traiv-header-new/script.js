@@ -7,6 +7,7 @@ function declOfNum(number, titles) {
 //Замена суммы с нулем
 window.onload = function(){
 	if (!$('#bx-soa-order').length) {
+		console.log('yep it is');
 		if (
 			(
 				document.documentElement.textContent || document.documentElement.innerText

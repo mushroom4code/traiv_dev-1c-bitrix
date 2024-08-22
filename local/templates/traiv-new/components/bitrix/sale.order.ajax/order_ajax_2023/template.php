@@ -338,7 +338,7 @@ else
 		<input type="hidden" name="BUYER_STORE" id="BUYER_STORE" value="<?=$arResult['BUYER_STORE']?>">
 		<div id="bx-soa-order" class="row bx-<?=$arParams['TEMPLATE_THEME']?>" style="opacity: 0">
 			<!--	MAIN BLOCK	-->
-			<div class="col-sm-9 bx-soa">
+			<div class="col-lg-9 bx-soa">
 				<!-- <div id="bx-soa-main-notifications">
 				
 				<div style="" class="alert alert-success">
@@ -367,12 +367,12 @@ else
 				<? if ($arParams['BASKET_POSITION'] === 'before'): ?>
 					<!--	BASKET ITEMS BLOCK	-->
 					<div id="bx-soa-basket" data-visited="false" class="bx-soa-section bx-active">
-						<div class="bx-soa-section-title-container">
-							<h2 class="bx-soa-section-title col-sm-9 d-flex align-items-center">
+						<div class="bx-soa-section-title-container d-sm-flex">
+							<h2 class="bx-soa-section-title col-sm-8 d-flex align-items-center">
                                 <?php $basketItemsCount = count($arResult['BASKET_ITEMS']);?>
 								<span class="bx-soa-section-title-count"></span><span><?=$arParams['MESS_BASKET_BLOCK_NAME']?></span><span class="order-basket-count"><?= $basketItemsCount ?> <?= ($basketItemsCount === 1) ? 'товар' : (($basketItemsCount < 5) ? 'товара' : 'товаров') ?></span>
 							</h2>
-							<div class="col-xs-12 col-sm-3 text-right">
+							<div class="col-sm-4 text-right">
 	        <div class="btn-group-blue-small"><a href="/personal/cart/" class="btn-blue-contour btn-blue-small"><span><i class="fa fa-shopping-cart"></i> Вернуться в корзину</span></a></div>
 							</div>
 						</div>
@@ -541,7 +541,7 @@ else
 			</div>
 
 			<!--	SIDEBAR BLOCK	-->
-			<div id="bx-soa-total" class="col-sm-3 bx-soa-sidebar">
+			<div id="bx-soa-total" class="col-lg-3 bx-soa-sidebar">
 				<div class="bx-soa-cart-total-ghost"></div>
 				<div class="bx-soa-cart-total"></div>
 			</div>

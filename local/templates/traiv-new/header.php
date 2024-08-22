@@ -1181,20 +1181,22 @@ if ( $USER->IsAuthorized() )
       <i class="fa fa-calculator"></i>
       <span></span></a>
       </div>
-      
-      <div class="col-2 text-center" id="cart_item">
-          <a href="/personal/order/make/" class="cart_link">
-              <i class="fa fa-shopping-cart position-relative">
+
+          <div class="col-2 text-center" id="cart_item">
+              <a href="/personal/order/make/" class="cart_link">
+                  <i class="fa fa-shopping-cart position-relative">
                  <span id="decodeCardNums">
-        		    	<div id="cart_total_count_mobile"
-                             class="header-new-cart-count header-new-cart-count-mobile rounded-circle">0</div>
+                     <?php if ($APPLICATION->GetCurPage() !== '/personal/cart/' && $APPLICATION->GetCurPage() !== '/personal/order/make/'): ?>
+                         <div id="cart_total_count_mobile"
+                              class="header-new-cart-count header-new-cart-count-mobile rounded-circle">0</div>
+                     <?php endif; ?>
                 </span>
-              </i>
-              <script>
-                  $('#cart_total_count_mobile').text($('#cart_total_count').text());
-              </script>
-              <span></span></a>
-      </div>
+                  </i>
+                  <script>
+                      $('#cart_total_count_mobile').text($('#cart_total_count').text());
+                  </script>
+                  <span></span></a>
+          </div>
       
       
       </div>

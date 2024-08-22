@@ -476,3 +476,12 @@ background-color:#e3e9ee;
 }
 
 /*custom total*/
+
+@media (max-width: 1199px) {
+    .cart-list-total-container {
+        flex-wrap: wrap;
+    }
+    .cart-total-container {
+        width: 100%;
+    }
+}

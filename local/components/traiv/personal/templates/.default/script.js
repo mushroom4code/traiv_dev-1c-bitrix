@@ -127,8 +127,10 @@ function updatePersonalBasket(sender) {
                 $('.btn-group-blue-w').removeClass('d-none');
                 $('.check_type_pack_basket').addClass('d-none');
             }
-            
-            //$(".total", sender).text(data["TOTAL_PRICE"]);
+
+
+            $(".total").text(data["TOTAL"]);
+            // $(".total", sender).text(data["TOTAL"]);
             //$(".albatros-right-button-default .button-basket > span").html(data.MESSAGE);
         }
     )

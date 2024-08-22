@@ -1485,6 +1485,22 @@ p {
 	z-index:1001;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+	.btn-cart-roundw {
+		margin-left: -10px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+	.btn-cart-roundw span {
+		font-size: 0;
+	}
+	.btn-cart-roundw i {
+		font-size: 14px;
+		padding-right: 0;
+	}
+}
+
 /*mp photogallery*/
 .mp-photo-item {
   display: block;

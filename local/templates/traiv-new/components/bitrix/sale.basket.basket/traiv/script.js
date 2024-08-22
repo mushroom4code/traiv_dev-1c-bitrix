@@ -6,20 +6,22 @@ function declOfNum(number, titles) {
 
 //Замена суммы с нулем
 window.onload = function(){
-	if (
-		(
-			document.documentElement.textContent || document.documentElement.innerText
-		).indexOf('Запросить цену') > -1
-	) {
+	if (!$('#bx-soa-order').length) {
+		if (
+			(
+				document.documentElement.textContent || document.documentElement.innerText
+			).indexOf('Запросить цену') > -1
+		) {
 
-		$("#allSum_FORMATED").text("будет сформирована для вас менеджером");
+			$("#allSum_FORMATED").text("будет сформирована для вас менеджером");
 
-		$('.rubls').hide();
-	};
+			$('.rubls').hide();
+		}
+		;
 
 
-	recalcBasketAjax({});
-
+		recalcBasketAjax({});
+	}
 };
 
 

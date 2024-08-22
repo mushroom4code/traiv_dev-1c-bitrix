@@ -1717,7 +1717,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			{
 				this.changeVisibleContent();
 			}
-/*для вывода верхнего уведомления uncomment*/
+			/*для вывода верхнего уведомления uncomment*/
 			//this.checkNotifications();
 
 			/*
@@ -2507,10 +2507,10 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			var active = section.id == this.activeSectionId,
 				titleNode = section.querySelector('.bx-soa-section-title-container'),
 				editButton, errorContainer;*/
-			
+
 			var active = true,
-			titleNode = section.querySelector('.bx-soa-section-title-container'),
-			editButton, errorContainer;
+				titleNode = section.querySelector('.bx-soa-section-title-container'),
+				editButton, errorContainer;
 
 			/*
 			 * dkv
@@ -3728,17 +3728,17 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				logotype, img;
 
 			/*dkv*/
-			
+
 			if (data.PRICE == 0){
 				this.basketBlockNode.appendChild(BX.create('DIV', {props: {className: 'checkZeroPrice'}, text: ''}));
 			}
-			
+
 			/*dkv*/
-			
+
 			if (column.id === 'PRICE_FORMATED')
 			{
 				textNode.appendChild(BX.create('STRONG', {props: {className: 'bx-price'}, html: data.PRICE_FORMATED}));
-				
+
 				if (parseFloat(data.DISCOUNT_PRICE) > 0)
 				{
 					textNode.appendChild(BX.create('BR'));
@@ -3773,7 +3773,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			else if (column.id === 'DETAIL_PICTURE')
 			{
 				logotype = this.getImageSources(allData.data, column.id),
-				img = BX.create('IMG', {props: {src: logotype && logotype.src_1x || this.defaultBasketItemLogo}});
+					img = BX.create('IMG', {props: {src: logotype && logotype.src_1x || this.defaultBasketItemLogo}});
 
 				if (logotype && logotype.src_1x && logotype.src_orig)
 				{
@@ -3837,8 +3837,8 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				}
 			}
 
-			
-			
+
+
 			return BX.create('DIV', {
 				props: {className: 'bx-soa-item-td bx-soa-item-properties' + (toRight ? ' bx-text-right' : '')},
 				children: [
@@ -3910,7 +3910,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			else if (column.id === 'DETAIL_PICTURE' || column.id === 'PREVIEW_PICTURE')
 			{
 				logotype = this.getImageSources(allData.data, column.id),
-				img = BX.create('IMG', {props: {src: logotype && logotype.src_1x || this.defaultBasketItemLogo}, style: {maxWidth: '50%'}});
+					img = BX.create('IMG', {props: {src: logotype && logotype.src_1x || this.defaultBasketItemLogo}, style: {maxWidth: '50%'}});
 
 				if (logotype && logotype.src_1x && logotype.src_orig)
 				{
@@ -4775,11 +4775,11 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 									attrs: {checked: currentType.CHECKED == 'Y'},
 									props: {type: 'radio', name: 'PERSON_TYPE', value: currentType.ID}
 								}),
-								
+
 								BX.create('SPAN', {props: {className: 'bx-person-name-span'}, text: currentType.NAME})
-								
-								
-								
+
+
+
 								//BX.util.htmlspecialchars(currentType.NAME)
 							],
 							events: {change: BX.proxy(this.sendRequest, this)}
@@ -5383,19 +5383,20 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				this.editFadeDeliveryBlock();
 
 			this.checkPickUpShow();
-/*было true, добавлено 28022023*/
+			/*было true, добавлено 28022023*/
 			this.initialized.delivery = false;
-/*end было true, добавлено 28022023*/
+			/*end было true, добавлено 28022023*/
 		},
 
 		editActiveDeliveryBlock: function(activeNodeMode)
 		{
+			console.log('editActiveDeliveryBlock');
 			var node = activeNodeMode ? this.deliveryBlockNode : this.deliveryHiddenBlockNode,
 				deliveryContent, deliveryNode;
-			
+
 			if (this.initialized.delivery)
 			{
-				
+
 				BX.remove(BX.lastChild(node));
 				node.appendChild(BX.firstChild(this.deliveryHiddenBlockNode));
 			}
@@ -5449,7 +5450,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			if (!this.result.DELIVERY)
 				return;
 
-			var deliveryInfoContainer = BX.create('DIV', {props: {className: 'col-sm-4 bx-soa-pp-desc-container'}}),
+			var deliveryInfoContainer = BX.create('DIV', {props: {className: 'col-md-4 bx-soa-pp-desc-container'}}),
 				currentDelivery, logotype, name, logoNode,
 				subTitle, label, title, price, period,
 				clear, infoList, extraServices, extraServicesNode;
@@ -5541,46 +5542,50 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					children: [subTitle, label, title, clear, extraServicesNode, infoList]
 				})
 			);
-			deliveryNode.appendChild(deliveryInfoContainer);
-
+			if (window.screen.width < 768) {
+				// this.deliveryBlockNode.querySelector('input[type=checkbox][name=DELIVERY_ID]:checked').closest()
+				deliveryNode.querySelector('.bx-soa-pp-company.bx-selected').append(deliveryInfoContainer)
+			} else {
+				deliveryNode.appendChild(deliveryInfoContainer);
+			}
 			if (this.params.DELIVERY_NO_AJAX != 'Y')
 				this.deliveryCachedInfo[currentDelivery.ID] = currentDelivery;
-			
-			
+
+
 			/*
 			 * dkv
 			 * */
-			
+
 			var deliveryItemsContainer = BX.create('DIV', {props: {className: 'col-sm-12 bx-soa-delivery', id:'del_address_true'}}),
-			group, property, groupIterator = this.propertyCollection.getGroupIterator(), propsIterator;
+				group, property, groupIterator = this.propertyCollection.getGroupIterator(), propsIterator;
 
-		if (!deliveryItemsContainer)
-			deliveryItemsContainer = this.propsBlockNode.querySelector('.col-sm-12.bx-soa-delivery');
+			if (!deliveryItemsContainer)
+				deliveryItemsContainer = this.propsBlockNode.querySelector('.col-sm-12.bx-soa-delivery');
 
-		while (group = groupIterator())
-		{
-			propsIterator =  group.getIterator();
-			while (property = propsIterator())
+			while (group = groupIterator())
 			{
-				if (property.getName()=='Адрес доставки') { //Если свойство совпадает с названием поля адреса в вашей системе
+				propsIterator =  group.getIterator();
+				while (property = propsIterator())
+				{
+					if (property.getName()=='Адрес доставки') { //Если свойство совпадает с названием поля адреса в вашей системе
 
-					this.getPropertyRowNode(property, deliveryItemsContainer, false); //вставляем свойство в подготовленный контейнер
-					deliveryNode.appendChild(deliveryItemsContainer); //контейнер вместе со свойством в нём добавляем в конце блока с описанием (deliveryInfoContainer)
+						this.getPropertyRowNode(property, deliveryItemsContainer, false); //вставляем свойство в подготовленный контейнер
+						deliveryNode.appendChild(deliveryItemsContainer); //контейнер вместе со свойством в нём добавляем в конце блока с описанием (deliveryInfoContainer)
 
+					}
 				}
 			}
-		}
-			
-			
-		
-		if (currentDelivery.ID == 3){
-			document.getElementById('del_address_true').remove();
-		}
-		
-		/*
-		 * dkv end
-		 * */
-			
+
+
+
+			if (currentDelivery.ID == 3){
+				document.getElementById('del_address_true').remove();
+			}
+
+			/*
+             * dkv end
+             * */
+
 		},
 
 		getDeliveryPriceNodes: function(delivery)
@@ -5626,7 +5631,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				{
 					serviceName = BX.create('LABEL', {
 						html: BX.util.htmlspecialchars(currentService.name)
-						+ (currentService.price ? ' (' + currentService.priceFormatted + ')' : '')
+							+ (currentService.price ? ' (' + currentService.priceFormatted + ')' : '')
 					});
 
 					if (i == 0)
@@ -5635,9 +5640,9 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					serviceNode = BX.create('DIV', {
 						props: {className: 'form-group bx-soa-pp-field'},
 						html: currentService.editControl
-						+ (currentService.description && currentService.description.length
-							? '<div class="bx-soa-service-small">' + BX.util.htmlspecialchars(currentService.description) + '</div>'
-							: '')
+							+ (currentService.description && currentService.description.length
+								? '<div class="bx-soa-service-small">' + BX.util.htmlspecialchars(currentService.description) + '</div>'
+								: '')
 					});
 
 					BX.prepend(serviceName, serviceNode);
@@ -5655,10 +5660,10 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						children: [
 							BX.create('LABEL', {
 								html: currentService.editControl + BX.util.htmlspecialchars(currentService.name)
-								+ (currentService.price ? ' (' + currentService.priceFormatted + ')' : '')
-								+ (currentService.description && currentService.description.length
-									? '<div class="bx-soa-service-small">' + BX.util.htmlspecialchars(currentService.description) + '</div>'
-									: '')
+									+ (currentService.price ? ' (' + currentService.priceFormatted + ')' : '')
+									+ (currentService.description && currentService.description.length
+										? '<div class="bx-soa-service-small">' + BX.util.htmlspecialchars(currentService.description) + '</div>'
+										: '')
 							})
 						]
 					});
@@ -5734,44 +5739,57 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			{
 				/*dkv*/
 				if(item.ID === '3') {
-				labelNodes.push(
-					BX.create('DIV', {
-						props: {className: 'bx-soa-pp-delivery-cost'},
-						html: typeof item.DELIVERY_DISCOUNT_PRICE !== 'undefined'
-							? item.DELIVERY_DISCOUNT_PRICE_FORMATED
-							: 'Бесплатно'}),
-					
-					BX.create('DIV', {
-						props: {className: 'bx-soa-pp-delivery-new-name'},
-						text: this.params.SHOW_DELIVERY_PARENT_NAMES != 'N' ? item.NAME : item.OWN_NAME})
-				);
-				}
-				else if(item.ID === '2' || item.ID === '16') {
 					labelNodes.push(
 						BX.create('DIV', {
-							props: {className: 'bx-soa-pp-delivery-cost'},
-							html: typeof item.DELIVERY_DISCOUNT_PRICE !== 'undefined'
-								? item.DELIVERY_DISCOUNT_PRICE_FORMATED
-								: 'По запросу'}),
-						
-						BX.create('DIV', {
-							props: {className: 'bx-soa-pp-delivery-new-name'},
-							text: this.params.SHOW_DELIVERY_PARENT_NAMES != 'N' ? item.NAME : item.OWN_NAME})
+							children: [
+								BX.create('DIV', {
+									props: {className: 'bx-soa-pp-delivery-new-name'},
+									text: this.params.SHOW_DELIVERY_PARENT_NAMES != 'N' ? item.NAME : item.OWN_NAME}),
+
+								BX.create('DIV', {
+									props: {className: 'bx-soa-pp-delivery-cost'},
+									html: typeof item.DELIVERY_DISCOUNT_PRICE !== 'undefined'
+										? item.DELIVERY_DISCOUNT_PRICE_FORMATED
+										: 'Бесплатно'})
+							]
+						})
 					);
-					}
+				} else if (item.ID === '2' || item.ID === '16') {
+					labelNodes.push(
+						BX.create('DIV', {
+							children: [
+								BX.create('DIV', {
+									props: {className: 'bx-soa-pp-delivery-new-name'},
+									text: this.params.SHOW_DELIVERY_PARENT_NAMES != 'N' ? item.NAME : item.OWN_NAME
+								}),
+								BX.create('DIV', {
+									props: {className: 'bx-soa-pp-delivery-cost'},
+									html: typeof item.DELIVERY_DISCOUNT_PRICE !== 'undefined'
+										? item.DELIVERY_DISCOUNT_PRICE_FORMATED
+										: 'По запросу'
+								})
+							]
+						})
+					);
+				}
 				else {
 					labelNodes.push(
 						BX.create('DIV', {
-							props: {className: 'bx-soa-pp-delivery-cost'},
-							html: typeof item.DELIVERY_DISCOUNT_PRICE !== 'undefined'
-								? item.DELIVERY_DISCOUNT_PRICE_FORMATED
-								: item.PRICE_FORMATED}),
-						
-						BX.create('DIV', {
-							props: {className: 'bx-soa-pp-delivery-new-name'},
-							text: this.params.SHOW_DELIVERY_PARENT_NAMES != 'N' ? item.NAME : item.OWN_NAME})
+							children: [
+								BX.create('DIV', {
+									props: {className: 'bx-soa-pp-delivery-new-name'},
+									text: this.params.SHOW_DELIVERY_PARENT_NAMES != 'N' ? item.NAME : item.OWN_NAME}),
+
+								BX.create('DIV', {
+									props: {className: 'bx-soa-pp-delivery-cost'},
+									html: typeof item.DELIVERY_DISCOUNT_PRICE !== 'undefined'
+										? item.DELIVERY_DISCOUNT_PRICE_FORMATED
+										: item.PRICE_FORMATED
+								})
+							]
+						})
 					);
-					}
+				}
 				/*dkv*/
 			}
 			else if (deliveryCached && (deliveryCached.PRICE >= 0 || typeof deliveryCached.DELIVERY_DISCOUNT_PRICE !== 'undefined'))
@@ -5782,7 +5800,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						html: typeof deliveryCached.DELIVERY_DISCOUNT_PRICE !== 'undefined'
 							? deliveryCached.DELIVERY_DISCOUNT_PRICE_FORMATED
 							: deliveryCached.PRICE_FORMATED}),
-					
+
 					BX.create('DIV', {
 						props: {className: 'bx-soa-pp-delivery-new-name'},
 						text: this.params.SHOW_DELIVERY_PARENT_NAMES != 'N' ? item.NAME : item.OWN_NAME})
@@ -5791,8 +5809,8 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 
 			label = BX.create('DIV', {
 				props: {
-					className: 'bx-soa-pp-company-graf-container'
-					+ (item.CALCULATE_ERRORS || deliveryCached && deliveryCached.CALCULATE_ERRORS ? ' bx-bd-waring' : '')},
+					className: 'bx-soa-pp-company-graf-container d-flex align-items-baseline'
+						+ (item.CALCULATE_ERRORS || deliveryCached && deliveryCached.CALCULATE_ERRORS ? ' bx-bd-waring' : '')},
 				children: labelNodes
 			});
 
@@ -6836,17 +6854,17 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						|| this.deliveryLocationInfo.zip == property.getId()
 						|| this.deliveryLocationInfo.city == property.getId()
 					)*/
-					
+
 					/*
 					 * dkv
 					 * */
 					if (
-							this.deliveryLocationInfo.loc == property.getId()
-							|| this.deliveryLocationInfo.zip == property.getId()
-							|| this.deliveryLocationInfo.city == property.getId()
-							|| property.getName()=='Адрес доставки' //где property.getName() приравниваем к названию поля адреса в вашей системе
-						)
-					
+						this.deliveryLocationInfo.loc == property.getId()
+						|| this.deliveryLocationInfo.zip == property.getId()
+						|| this.deliveryLocationInfo.city == property.getId()
+						|| property.getName()=='Адрес доставки' //где property.getName() приравниваем к названию поля адреса в вашей системе
+					)
+
 						continue;
 
 					this.getPropertyRowNode(property, propsItemsContainer, false);
@@ -6871,9 +6889,9 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 			else
 			{
 				if (property.getId() == 33) {
-				BX.addClass(propsItemNode, "form-group bx-soa-customer-field needcallopercheck");
+					BX.addClass(propsItemNode, "form-group bx-soa-customer-field needcallopercheck");
 				} else {
-					BX.addClass(propsItemNode, "form-group bx-soa-customer-field");	
+					BX.addClass(propsItemNode, "form-group bx-soa-customer-field");
 				}
 
 				if (property.isRequired())
@@ -7120,7 +7138,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				if (prop)
 				{
 					values = [];
-					inputs = prop.querySelectorAll('input[type=text]');
+					inputs = prop.querySelectorAll('input[type=text], input[type=tel]');
 					if (inputs.length == 0)
 						inputs = prop.querySelectorAll('textarea');
 
@@ -7265,7 +7283,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				}
 			}
 
-			textNode = propContainer.querySelector('input[type=text]');
+			textNode = propContainer.querySelector('input[type=text], input[type=tel]');
 			if (!textNode)
 				textNode = propContainer.querySelector('textarea');
 
@@ -7278,8 +7296,10 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					textNode.setAttribute('autocomplete', 'email');
 				if (settings.IS_PAYER == 'Y')
 					textNode.setAttribute('autocomplete', 'name');
-				if (settings.IS_PHONE == 'Y')
+				if (settings.IS_PHONE == 'Y') {
+					textNode.setAttribute('type', 'tel');
 					textNode.setAttribute('autocomplete', 'tel');
+				}
 
 				if (settings.PATTERN && settings.PATTERN.length)
 				{
@@ -7287,7 +7307,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				}
 			}
 
-			inputs = propContainer.querySelectorAll('input[type=text]');
+			inputs = propContainer.querySelectorAll('input[type=text], input[type=tel]');
 			for (i = 0; i < inputs.length; i++)
 			{
 				inputs[i].placeholder = settings.DESCRIPTION;
@@ -7355,7 +7375,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						targetContainer = BX.findParent(target, {tagName: 'div', className: 'soa-property-container'}),
 						del = targetContainer.querySelector('label'),
 						add = targetContainer.querySelectorAll('input[type=button]'),
-						textInputs = targetContainer.querySelectorAll('input[type=text]'),
+						textInputs = targetContainer.querySelectorAll('input[type=text], input[type=tel]'),
 						textAreas = targetContainer.querySelectorAll('textarea'),
 						divs = BX.findChildren(targetContainer, {tagName: 'DIV'});
 
@@ -7604,7 +7624,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						return this.validateString(input, arProperty, fieldName);
 					}, this);
 
-					inputs = propContainer.querySelectorAll('input[type=text]');
+					inputs = propContainer.querySelectorAll('input[type=text], input[type=tel]');
 					if (inputs.length)
 					{
 						data.inputs = inputs;
@@ -7686,7 +7706,6 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					}, this);
 					break;
 			}
-
 			return data;
 		},
 
@@ -8181,7 +8200,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 				//this.totalInfoBlockNode.appendChild(this.createTotalUnit(BX.message('SOA_SUM_IT'), total.ORDER_TOTAL_PRICE_FORMATED, {total: true}));
 				/*dkv*/
 				this.totalInfoBlockNode.appendChild(this.createTotalUnit(BX.message('SOA_SUM_IT'), total.ORDER_TOTAL_PRICE_FORMATED, {total: true}));
-				
+
 			}
 
 			if (parseFloat(total.PAY_SYSTEM_PRICE) >= 0 && this.result.DELIVERY.length)
@@ -8210,14 +8229,14 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					})
 				);
 
-				
+
 				if (this.result.TOTAL.ORDER_PRICE < 5000) {
-					
-					
+
+
 					this.buttonOrder = this.totalBlockNode.querySelector('.btn-order-save');
 					this.buttonOrder.style.display = "none";
 					document.querySelector('.btn-order-save-second').style.display = "none";
-					
+
 					this.totalInfoBlockNode.appendChild(
 						BX.create('DIV', {
 							props: {className: 'check_type_pack_basket'},
@@ -8238,7 +8257,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					);
 				}
 				//this.totalInfoBlockNode.appendChild('<div class="check_type_pack"><i class="icofont icofont-warning-alt"></i>Внимание: продажа осуществляется кратно упаковкам.</div>');
-				
+
 			}
 
 			this.editMobileTotalBlock();
@@ -8303,23 +8322,23 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 
 			/*dkv*/
 			if (params.total){
-				
+
 				var checkZeroPrice = this.basketBlockNode.querySelector('.checkZeroPrice');
-				
+
 				if (checkZeroPrice)
 				{
-					
-					return BX.create('DIV', {
-								props: {className: 'checkZeroPriceText'},
-								text: 'Сумма заказа будет сформирована для вас менеджером!',
-								children: [
-									BX.create('span', {
-										text:'Сумма заказа будет сформирована для вас менеджером!'
-									})
 
-								]
-							});
-					
+					return BX.create('DIV', {
+						props: {className: 'checkZeroPriceText'},
+						text: 'Сумма заказа будет сформирована для вас менеджером!',
+						children: [
+							BX.create('span', {
+								text:'Сумма заказа будет сформирована для вас менеджером!'
+							})
+
+						]
+					});
+
 					/*
 					return BX.create('DIV', {
 						props: {className: className},
@@ -8334,11 +8353,11 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						]
 					});
 					*/
-					
+
 				}
 				else
-					{
-					
+				{
+
 					return BX.create('DIV', {
 						props: {className: className},
 						children: [
@@ -8351,15 +8370,15 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 							})
 						]
 					});
-					
-					}
-				
 
-				
-					
+				}
+
+
+
+
 			}
 			else {
-				
+
 				return BX.create('DIV', {
 					props: {className: className},
 					children: [
@@ -8372,12 +8391,12 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 						})
 					]
 				});
-				
+
 			}
-			
+
 			/*dkv*/
-			
-			
+
+
 		},
 
 		basketBlockScrollCheckEvent: function(e)

@@ -15,9 +15,6 @@ function copyToClipboard(element) {
 }
 
 $(document).ready(function () {
-    console.log('here it goes');
-    console.log($('#cart_total_count'));
-    console.log($('#cart_total_count').val());
 
 
     $(window).on('hashchange', function (e) {
@@ -854,7 +851,6 @@ setTimeout(function(){
     }
 
     if ($('#map_service').length > 0) {
-        console.log('this');
         var map_service_point = [
             {
                 style: "islands#redIcon",
@@ -872,11 +868,9 @@ setTimeout(function(){
         ];
 
         setTimeout(function () {
-            console.log('this');
             ymaps.ready(init_service_map);
 
             function init_service_map() {
-                console.log('this');
                 var myMap = new ymaps.Map('map_service', {
                     center: [59.82477806431605, 30.52483449999998],
                     zoom: 15
@@ -1643,7 +1637,6 @@ setTimeout(function(){
             mobileDetect = true;
         }
         ;
-        console.log(mobileDetect)
     }
 
     checkMobile();
@@ -1687,7 +1680,6 @@ setTimeout(function(){
 
 
     if (!mobileDetect) {
-        console.log('no mobile');
         if ($('#topbottom').hasClass('scroll-to-fixed-fixed') == true) {
             setTimeout(function () {
                 var topbottomH = $('#topbottom').outerHeight();
@@ -1700,7 +1692,6 @@ setTimeout(function(){
             $('#mainmenu').scrollToFixed({marginTop: topbottomH - topnavH});
         }
     } else {
-        console.log('mobile');
         $('#mainmenu').scrollToFixed();
     }
 
@@ -2281,7 +2272,6 @@ setTimeout(function(){
     if ($('.subcategory-area-shadow').length > 0) {
         $('#subcategory-area').css('height', '400px');
         $('.subcategory-link-more').on('click', function (e) {
-            console.log('sdfsdf');
             e.preventDefault();
             var state = $('#subcategory-area').attr('rel');
             if (state == 0) {

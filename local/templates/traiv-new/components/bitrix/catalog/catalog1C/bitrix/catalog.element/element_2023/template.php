@@ -117,7 +117,7 @@ endif;
     
     <div class="col-12 col-xl-12 col-lg-12 col-md-12">
     <div class="row">
-        <div class="col-12 col-xl-9 col-lg-9 col-md-9">
+        <div class="col-12 col-xl-9 col-lg-8 col-md-12">
         <?php
         
          if (!empty($arResult["PROPERTIES"]["CML2_ARTICLE"]["VALUE"])) {
@@ -1486,7 +1486,7 @@ endif;
             </div>
         </div>
 
-<div class="col-12 col-xl-3 col-lg-3 col-md-3" id="prod-price-block-area">
+<div class="col-12 col-xl-3 col-lg-4 col-md-12" id="prod-price-block-area">
 
 
 <a data-fancybox="iframe" onclick="ym(18248638,'reachGoal','getVideoItem'); return true;" class="prod-video-link-serv" href="https://www.youtube.com/embed/qW58I63D1LY">  

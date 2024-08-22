@@ -25,7 +25,7 @@
 
 
     <? if (count($arResult["ITEMS"]) > 0): ?>
-        <div class="d-flex mt-4" style="gap: 23px;">
+        <div class="d-flex mt-4 cart-list-total-container" style="gap: 23px;">
         <div class="g-0" id="lk-cart-list-shadow">
             <div class="col-12 d-none d-lg-block" id="catalog-list-line-th">
                 <div class="row g-0">
@@ -111,12 +111,12 @@
 
             </div>
         </div>
-        <div id="bx-soa-total" class="col-sm-3 bx-soa-sidebar">
+        <div id="bx-soa-total" class="col-sm-3 bx-soa-sidebar cart-total-container">
             <div class="bx-soa-cart-total-ghost"></div>
             <div class="bx-soa-cart-total">
                 <div class="bx-soa-cart-total-line">
                     <span class="bx-soa-cart-t">Товаров на:</span>
-                    <span class="bx-soa-cart-d"><?= $arResult["TOTAL"] ?></span>
+                    <span class="bx-soa-cart-d total"><?= $arResult["TOTAL"] ?></span>
                 </div>
                 <div class="bx-soa-cart-total-line">
                     <span class="bx-soa-cart-t">Общий вес:</span>
@@ -124,11 +124,11 @@
                 </div>
                 <div class="bx-soa-cart-total-line">
                     <span class="bx-soa-cart-t">Корзина:</span>
-                    <span class="bx-soa-cart-d"><?= $arResult["TOTAL"] ?></span>
+                    <span class="bx-soa-cart-d total"><?= $arResult["TOTAL"] ?></span>
                 </div>
                 <div class="bx-soa-cart-total-line bx-soa-cart-total-line-total">
                     <span class="bx-soa-cart-t">Итого:</span>
-                    <span class="bx-soa-cart-d" style="font-size: 28px;"><?= $arResult["TOTAL"] ?></span>
+                    <span class="bx-soa-cart-d total" style="font-size: 28px;"><?= $arResult["TOTAL"] ?></span>
                 </div>
                 <div class="btn-group-blue-w mb-3 <?= ($arResult['TOTAL_UNFORMATED'] < 5000) ? 'd-none' : ''?>">
                     <div class="btn-group-blue" style="width: 100%;">
