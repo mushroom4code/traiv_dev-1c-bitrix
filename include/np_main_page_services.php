@@ -1,5 +1,5 @@
 <div class="container">
-<div class="row d-flex align-items-center">
+<div class="row d-flex">
 	
 	<div class="col-12 col-lg-4 col-md-4 text-md-left text-center">
     	<!-- <div class='np-services-item bordered' style='background: url(/local/templates/traiv-new/images/np/services11.jpg) no-repeat center center;background-size:cover;'>-->
@@ -16,7 +16,7 @@
                 <div class="np-services-button-area">
                 	<div class="btn-group-blue">
                         <a href="/services/proizvodstvo-metizov/" class="btn-wborder textup">
-                            <span>Подробнее</span> <span class="icons"><i class="fa fa-long-arrow-right"></i></span>
+                            <span>К услуге</span> <span class="icons"><i class="fa fa-long-arrow-right"></i></span>
                         </a>
                     </div>
 				</div>
@@ -37,7 +37,7 @@
                 <div class="np-services-button-area">
                 	<div class="btn-group-blue">
                         <a href="/services/coatings/" class="btn-wborder textup">
-                            <span>Подробнее</span> <span class="icons"><i class="fa fa-long-arrow-right"></i></span>
+                            <span>К услуге</span> <span class="icons"><i class="fa fa-long-arrow-right"></i></span>
                         </a>
                     </div>
 				</div>
@@ -58,7 +58,7 @@
                 <div class="np-services-button-area">
                 	<div class="btn-group-blue">
                         <a href="/services/coatings/" class="btn-wborder textup">
-                            <span>Подробнее</span> <span class="icons"><i class="fa fa-long-arrow-right"></i></span>
+                            <span>К услуге</span> <span class="icons"><i class="fa fa-long-arrow-right"></i></span>
                         </a>
                     </div>
 				</div>

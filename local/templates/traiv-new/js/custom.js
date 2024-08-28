@@ -435,7 +435,8 @@ setTimeout(function(){
                 $('#bottom-header').css('display', 'none');
                 $('.right-button-form').removeClass('top-fixed').addClass('text-right');
                 $('.w-form-recall-area').addClass('top-fixed');
-                $('#header-new-catarea-copy').removeClass('col-xl-3 col-lg-3 col-md-3').addClass('col-xl-6 col-lg-6 col-md-6');
+                $('#header-new-catarea-copy-parent').css('display', 'none');
+                $('#header-new-catarea-copy').addClass('col-xl-6 col-lg-6 col-md-6');
                 $('#header-new-catarea-copy').appendTo('#catalog-copy-area');
 
                 $('#header-new-servarea-copy').removeClass('col-xl-3 col-lg-3 col-md-3').addClass('col-xl-6 col-lg-6 col-md-6');
@@ -444,7 +445,7 @@ setTimeout(function(){
                 //$('.header-new-catlink').css('min-width','100px');
                 $('.header-new-catlink').removeClass('w-auto');
                 $('#catalog-copy-area-parent').removeClass('top-fixed');
-                $('#header-new-top-search').removeClass('col-xl-5 col-lg-5 col-md-5 offset-xl-1 offset-lg-1 offset-md-1').addClass('col-xl-3 col-lg-3 col-md-3');
+                $('#header-new-top-search').removeClass('col-xl-5 col-lg-5 col-md-5').addClass('col-xl-3 col-lg-3 col-md-3');
                 $('#header-new-provo-top').addClass('fixed');
                 $('#header-new-basket-line').addClass('top-fixed');
                 $('#header-new-fixed-icon-area').removeClass('top-fixed');
@@ -464,14 +465,15 @@ setTimeout(function(){
                 $('.header-new-catlink').addClass('w-auto');
                 $('#catalog-copy-area-parent').addClass('top-fixed');
 
-                $('#header-new-servarea-copy').prependTo('#header-new-catarea-copy-parent');
+                $('#header-new-servarea-copy').prependTo('#header-new-servarea-copy-parent');
                 $('#header-new-servarea-copy').removeClass('col-xl-6 col-lg-6 col-md-6').addClass('col-xl-3 col-lg-3 col-md-3');
 
+                $('#header-new-catarea-copy-parent').css('display', 'block');
                 $('#header-new-catarea-copy').prependTo('#header-new-catarea-copy-parent');
-                $('#header-new-catarea-copy').removeClass('col-xl-6 col-lg-6 col-md-6').addClass('col-xl-3 col-lg-3 col-md-3');
+                $('#header-new-catarea-copy').removeClass('col-xl-6 col-lg-6 col-md-6');
 
                 $('#header-new-provo-top').removeClass('fixed');
-                $('#header-new-top-search').removeClass('col-xl-3 col-lg-3 col-md-3').addClass('col-xl-5 col-lg-5 col-md-5 offset-xl-1 offset-lg-1 offset-md-1');
+                $('#header-new-top-search').removeClass('col-xl-3 col-lg-3 col-md-3').addClass('col-xl-5 col-lg-5 col-md-5');
                 $('#header-new-basket-line').removeClass('top-fixed');
                 $('#header-new-fixed-icon-area').addClass('top-fixed');
                 $('.header-new-catarea').removeClass('width-fixed');

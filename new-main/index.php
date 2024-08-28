@@ -30,15 +30,15 @@ $is_mobile = $detect->isMobile();
             <div class="row">
 
                 <?php if (!$is_mobile): ?>
-                <div class="col-12 col-lg-6 col-md-6 text-md-left text-center h-100 d-none d-md-block">
+                <div class="col-12 col-lg-6 text-lg-left text-center h-100 d-none d-lg-block">
                     <div class="row d-flex align-items-center h-100">
 
-                        <div class="col-12 col-lg-12 col-md-12 text-md-left text-center mb-4">
-                            <div class='np-main-item bordered slogan-area position-relative' style='height:250px;'>
+                        <div class="col-12 col-lg-12 col-md-12 text-lg-left text-center">
+                            <div class='np-main-item bordered slogan-area position-relative' style='height:451px;'>
                                 <div class="np-slogan-shape"></div>
                                 <div class="row d-flex align-items-center h-100 position-relative" style="z-index:25;">
 
-                                    <div class="col-8 col-lg-8 col-md-8 offset-lg-1 text-md-left text-center">
+                                    <div class="col-8 col-lg-8 col-md-8 offset-lg-1 text-lg-left text-center">
                                         <div class='np-slogan-title pb-2'><span>Трайв</span></div>
                                         <div class='np-slogan-title'><span>Производство и комплексные услуги для промышленных предприятий</span>
                                         </div>
@@ -48,38 +48,11 @@ $is_mobile = $detect->isMobile();
 
                             </div>
                         </div>
-
-                        <div class="col-12 col-lg-12 col-md-12 text-md-left text-center">
-                            <div class='np-main-item bordered b1 position-relative'
-                                 style='background: url(/local/templates/traiv-new/images/np/np_edu_center_bann1.jpg) no-repeat center center;background-size:cover;height:250px;'>
-                                <div class="np-edu-center-shape"></div>
-                                <div class="row d-flex align-items-center h-100 position-relative" style="z-index:25;">
-
-                                    <div class="col-7 col-lg-7 col-md-7 offset-lg-5 text-md-left text-center">
-                                        <div class="d-flex align-items-center position-relative mb-2"><img
-                                                    src="<?= SITE_TEMPLATE_PATH ?>/images/np/np-edu-book1.png"
-                                                    style="width:75px;"/>
-                                            <div class="np-edu-name">УЧЕБНЫЙ ЦЕНТР «ТРАЙВ»</div>
-                                        </div>
-                                        <div class='np-edu-htitle'><span>ОБУЧЕНИЕ И ТРУДОУСТРОЙСТВО</span></div>
-                                        <div class='np-edu-htitle blue'><span>ОПЕРАТОР СТАНКОВ С ЧПУ</span></div>
-
-                                        <div class="btn-group-blue mt-4">
-                                            <a href="/about-company/" class="btn-blue-big">
-                                                <span>Подробнее</span><i class="fa fa-long-arrow-right"
-                                                                         style="padding-left:10px;"></i>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <?php endif; ?>
 
-                <div class="col-12 col-lg-6 col-md-6 text-md-left text-center">
+                <div class="col-12 col-lg-6 text-lg-left text-center">
                     <div class='np-main-item bordered b1'
                          style='background: url(/local/templates/traiv-new/images/np/back_main.jpg) no-repeat center center;background-size:cover;height:100%;'>
 
@@ -98,7 +71,7 @@ $is_mobile = $detect->isMobile();
                                 </div>
                             </div>
 
-                            <div class="col-12 col-lg-12 col-md-12 text-md-left text-center">
+                            <div class="col-12 col-lg-12 col-md-12 text-lg-left text-center">
                                 <ul class="import-title-cloud-item-area-main">
                                     <li><span class="import-title-cloud-item-main"><i class="fa fa-check-square-o"></i>Продукты металлообработки</span>
                                     </li>
@@ -113,9 +86,9 @@ $is_mobile = $detect->isMobile();
                                 </ul>
                             </div>
 
-                            <div class="col-12 col-lg-12 col-md-12 text-md-left text-center"
+                            <div class="col-12 col-lg-12 col-md-12 text-g-left text-center"
                                  style="padding-left: 30px;">
-                                <div class="btn-group-blue mt-2"><a href="/about-company/" class="btn-blue-big"><span>Подробнее</span><i
+                                <div class="btn-group-blue mt-2"><a href="/catalog/" class="btn-blue-big"><span>В каталог</span><i
                                                 class="fa fa-long-arrow-right" style="padding-left:10px;"></i></a></div>
                             </div>
 
@@ -198,7 +171,7 @@ $is_mobile = $detect->isMobile();
                             Будущее в деталях!</p></div>
 
                     <div class="btn-group-blue mt-4"><a href="/about-company/"
-                                                        class="btn-blue-big"><span>Подробнее</span><i
+                                                        class="btn-blue-big"><span>Узнать больше</span><i
                                     class="fa fa-long-arrow-right" style="padding-left:10px;"></i></a></div>
 
                 </div>
@@ -342,7 +315,7 @@ $is_mobile = $detect->isMobile();
         </div>
     </section>
     <?php else: ?>
-    <section id="main_page_category_photogallery_mobile" class="d-block d-md-none">
+    <section id="main_page_category_photogallery_mobile" class="d-block d-lg-none">
         <div class="container big-buttons-container">
             <a href="#" id="main_page_category_mobile" class="big-button d-flex justify-content-center align-items-center">
                 <span>Изделия и покрытия в деталях</span>
@@ -372,7 +345,7 @@ $is_mobile = $detect->isMobile();
 
                     <div class="btn-group-blue mt-4">
                         <a href="/about-company/" class="btn-blue-big">
-                            <span>Подробнее</span><i class="fa fa-long-arrow-right" style="padding-left:10px;"></i>
+                            <span>В учебный центр</span><i class="fa fa-long-arrow-right" style="padding-left:10px;"></i>
                         </a>
                     </div>
 
@@ -382,7 +355,7 @@ $is_mobile = $detect->isMobile();
         </div>
     </section>
 
-    <section id="main_page_category" class="d-none d-md-block">
+    <section id="main_page_category" class="d-none d-lg-block">
         <div class="container">
 
             <div class="row d-flex align-items-center">
@@ -512,7 +485,7 @@ $is_mobile = $detect->isMobile();
         <div class="container">
             <div class="row">
                 <?php if (!$is_mobile): ?>
-                <div class="col-12 col-xl-4 col-lg-4 col-md-4">
+                <div class="col-12 col-xl-4 col-lg-4 col-md-4 d-none d-lg-block">
                     <div class="row">
                         <div class="col-12 col-xl-10 col-lg-12 col-md-12">
                             <div class="h1title mb-0"><a href="/news/"><span>Новости</span></a></div>
@@ -583,7 +556,7 @@ $is_mobile = $detect->isMobile();
                     </div>
                 </div>
 
-                <div class="col-12 col-xl-4 col-lg-4 col-md-4">
+                <div class="col-12 col-xl-4 col-lg-4 col-md-4 d-none d-lg-block">
 
                     <div class="row">
                         <div class="col-12 col-xl-10 col-lg-12 col-md-12">
@@ -657,7 +630,7 @@ $is_mobile = $detect->isMobile();
                 </div>
                 <?php endif; ?>
 
-                <div class="col-12 col-xl-4 col-lg-4 col-md-4">
+                <div class="col-12 col-xl-4 col-lg-4">
                     <div class="row">
                         <div class="col-12 col-xl-10 col-lg-12 col-md-12">
                             <div class="<?= !$is_mobile ? 'h1title' : 'np-htitle mt-5'?> mb-0"><a href="/edu-center/"><span>Центр обучения</span></a></div>
@@ -815,27 +788,27 @@ $is_mobile = $detect->isMobile();
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-5 col-md-6 text-md-left text-center">
+                <div class="col-lg-5 text-lg-left text-center">
                     <div class="row h-100">
-                        <div class="col-lg-12 col-md-12 text-md-left text-center">
+                        <div class="col-lg-12 text-lg-left text-center">
                             <a href="/calculator/" class='np-quicklinks-item bordered'>
                                 <div class='np-quicklinks-item-content'>
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/images/quicklinks1.jpg"
                                          class="np-quicklinks-item-content-img"/>
                                     <div class="np-quicklinks-item-title">Калькулятор крепежа и метизов</div>
-                                    <p class="d-none d-md-block">Новейший калькулятор расчета массы крепежа.</p>
+                                    <p class="d-none d-lg-block">Новейший калькулятор расчета массы крепежа.</p>
                                 </div>
                                 <!-- <div class="quicklinks-item-menu"><i class="fa fa-ellipsis-v"></i></div> -->
                             </a>
                         </div>
 
-                        <div class="col-lg-6 col-md-12 text-md-left text-center d-none">
+                        <div class="col-lg-6 text-lg-left text-center d-none">
                             <a href="/price-list/" class='np-quicklinks-item bordered'>
                                 <div class='np-quicklinks-item-content'>
                                     <img src="<?= SITE_TEMPLATE_PATH ?>/images/quicklinks9.jpg"
                                          class="np-quicklinks-item-content-img"/>
                                     <div class="np-quicklinks-item-title">Каталог</div>
-                                    <p class="d-none d-md-block">Наш ассортимент товаров.</p>
+                                    <p class="d-none d-lg-block">Наш ассортимент товаров.</p>
                                 </div>
                             </a>
                         </div>
@@ -843,38 +816,38 @@ $is_mobile = $detect->isMobile();
                     </div>
                 </div>
 
-                <div class="col-lg-7 col-md-6 col-sm-12 mb-30 text-md-left text-center mt-3 mt-md-0">
+                <div class="col-lg-7 col-sm-12 mb-30 text-md-left text-center mt-3 mt-lg-0">
                     <div class="row h-100 np-quicklinks-conatiner-secondary">
 
-                        <div class="col-lg-4 col-md-12 text-md-left text-center">
+                        <div class="col-lg-4 text-lg-left text-center">
                             <a href="/gosti-na-krepezh/" class='np-quicklinks-item bordered'>
-                                <div class='np-quicklinks-item-content d-flex d-md-block justify-content-center'>
+                                <div class='np-quicklinks-item-content d-flex d-lg-block justify-content-center'>
                                     <!-- <img src="<?= SITE_TEMPLATE_PATH ?>/images/quicklinks4.jpg"/> -->
                                     <div class="np-quicklinks-item-title-big">ГОСТ</div>
                                     <div class="np-quicklinks-item-title">ГОСТ на крепеж</div>
-                                    <p class="d-none d-md-block">Весь крепеж по стандарту ГОСТ.</p>
+                                    <p class="d-none d-lg-block">Весь крепеж по стандарту ГОСТ.</p>
                                 </div>
                             </a>
                         </div>
 
-                        <div class="col-lg-4 col-md-12 text-md-left text-center">
+                        <div class="col-lg-4 text-lg-left text-center">
                             <a href="/din-na-krepezh/" class='np-quicklinks-item bordered'>
-                                <div class='np-quicklinks-item-content d-flex d-md-block justify-content-center'>
+                                <div class='np-quicklinks-item-content d-flex d-lg-block justify-content-center'>
                                     <!-- <img src="<?= SITE_TEMPLATE_PATH ?>/images/quicklinks4.jpg"/> -->
                                     <div class="np-quicklinks-item-title-big">DIN</div>
                                     <div class="np-quicklinks-item-title">DIN на крепеж</div>
-                                    <p class="d-none d-md-block">Весь крепеж по стандарту DIN.</p>
+                                    <p class="d-none d-lg-block">Весь крепеж по стандарту DIN.</p>
                                 </div>
                             </a>
                         </div>
 
-                        <div class="col-lg-4 col-md-12 text-md-left text-center">
+                        <div class="col-lg-4 text-lg-left text-center">
                             <a href="/din-na-krepezh/" class='np-quicklinks-item bordered'>
-                                <div class='np-quicklinks-item-content d-flex d-md-block justify-content-center'>
+                                <div class='np-quicklinks-item-content d-flex d-lg-block justify-content-center'>
                                     <!-- <img src="<?= SITE_TEMPLATE_PATH ?>/images/quicklinks4.jpg"/> -->
                                     <div class="np-quicklinks-item-title-big">ОСТ</div>
                                     <div class="np-quicklinks-item-title">ОСТ на крепеж</div>
-                                    <p class="d-none d-md-block">Весь крепеж по стандарту ОСТ.</p>
+                                    <p class="d-none d-lg-block">Весь крепеж по стандарту ОСТ.</p>
                                 </div>
                             </a>
                         </div>
@@ -890,9 +863,9 @@ $is_mobile = $detect->isMobile();
 
     <section id="np_main_page_callback">
         <?php if ($is_mobile): ?>
-            <div class="row d-flex align-items-center d-md-none">
-                <div class="col-12 col-xl-12 col-lg-12 col-md-12 text-center mb-4 mb-md-5">
-                    <div class="np-htitle text-left text-md-center ml-5 ml-md-0">
+            <div class="row d-flex align-items-center d-lg-none">
+                <div class="col-12 col-xl-12 col-lg-12 col-md-12 text-center mb-4 mb-lg-5">
+                    <div class="np-htitle text-left text-lg-center ml-5 ml-lg-0">
                         <span>Оставить заявку</span>
                     </div>
                 </div>
@@ -902,7 +875,7 @@ $is_mobile = $detect->isMobile();
             <div class="container fill">
                 <div class="row d-flex align-items-center h-100 position-relative">
                     <?php if (!$is_mobile): ?>
-                    <div class="col-lg-8 col-md-12 text-md-left text-center position-relative h-100 d-none d-md-block">
+                    <div class="col-lg-8 text-lg-left text-center position-relative h-100 d-none d-lg-block">
                         <div class="np-callback-area-in">
                             <div class='np-callback-area-title'><span>Контакты</span></div>
                             <div class='np-callback-area-note'><span>Отправьте заявку и мы свяжемся с вами.
@@ -913,7 +886,7 @@ $is_mobile = $detect->isMobile();
                     </div>
                     <?php endif; ?>
 
-                    <div class="col-lg-4 col-md-12 text-left position-relative h-100">
+                    <div class="col-lg-4 text-left position-relative h-100">
                         <?php
                         $APPLICATION->IncludeComponent(
                             "slam:easyform",

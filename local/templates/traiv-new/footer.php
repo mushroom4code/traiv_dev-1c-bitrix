@@ -57,7 +57,7 @@
     		</div>
     		
     		
-    		<div class="col-3 col-lg-3 col-md-12 d-none d-md-block d-lg-block">
+    		<div class="col-3 col-lg-3 d-none d-lg-block">
     		                    <?
                     $APPLICATION->IncludeComponent(
 	"bitrix:menu", 
@@ -82,7 +82,7 @@
                     ?>
     		</div>
     		
-<div class="col-2 col-md-6 col-lg-2 pl-3 pl-lg-5 pt-0 pt-md-3 pt-lg-0 d-none d-md-block d-lg-block">
+<div class="col-2 col-lg-2 pl-3 pl-lg-5 pt-0 pt-lg-0 d-none d-lg-block">
 <?
 $APPLICATION->IncludeComponent(
 	"bitrix:menu", 
@@ -222,16 +222,16 @@ $APPLICATION->IncludeComponent(
     		        }
     		?>
     		
-    		<div class="col-lg-4 col-md-6 pt-0 pt-md-3 pt-lg-0">
-    		<div class="footer-catalog-menu-title pb-2 text-center text-lg-left text-md-left">Контакты</div>
+    		<div class="col-lg-4 pt-0 pt-lg-0">
+    		<div class="footer-catalog-menu-title pb-2 text-center text-lg-left">Контакты</div>
     		
     		<div class="row footer-contacts gx-0">
     		
-    		<div class="col-lg-6 col-md-6">
+    		<div class="col-lg-6">
     		<div class="row">
     		
-            	<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_rus.png" class="f_contact_icon"/></div>
-            	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
+            	<div class="col-lg-2 d-lg-block text-center text-lg-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_rus.png" class="f_contact_icon"/></div>
+            	<div class="col-lg-10 text-center text-lg-left gx-0">
             		<span class="footer-contacts-item-title">Поставки по России:</span>
             		<div class="footer-contacts-item-note"><a href="tel:88007072598" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">8 (800) 707-25-98</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="mailto:info@traiv-komplekt.ru" class="footer-contacts-item-mail">info@traiv-komplekt.ru</a></div>
@@ -240,10 +240,10 @@ $APPLICATION->IncludeComponent(
         		</div>
         		</div>
         		
-        		<div class="col-lg-6 col-md-6">
+        		<div class="col-lg-6">
     		<div class="row">
-        		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_spb.png" class="f_contact_icon"/></div>
-            	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
+        		<div class="col-lg-2 d-lg-block text-center text-lg-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_spb.png" class="f_contact_icon"/></div>
+            	<div class="col-lg-10 col-sm-12 text-center text-lg-left gx-0">
             		<span class="footer-contacts-item-title">Санкт-Петербург:</span>
             		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/sankt-peterburg/" class="footer-contacts-item-address">193168, Кудрово, Центральная 41</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+78123132280" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">+7 (812) 313-22-80</a></div>
@@ -252,10 +252,10 @@ $APPLICATION->IncludeComponent(
         		</div>
         		</div>
         		
-        		<div class="col-lg-6 col-md-6">
+        		<div class="col-lg-6 ">
     		<div class="row">
-        		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_msk.png" class="f_contact_icon"/></div>
-            	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
+        		<div class="col-lg-2 d-lg-block text-center text-lg-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_msk.png" class="f_contact_icon"/></div>
+            	<div class="col-lg-10 text-center text-lg-left gx-0">
             		<span class="footer-contacts-item-title">Москва:</span>
             		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/moskva/" class="footer-contacts-item-address">Рязанский проспект, 2с49, БЦ "Карачарово", офис 203</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+74953748270" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">+7 (495) 374-82-70</a></div>
@@ -263,10 +263,10 @@ $APPLICATION->IncludeComponent(
         		</div>
         		</div>
         		
-        		<div class="col-lg-6 col-md-6">
+        		<div class="col-lg-6 ">
     		<div class="row">
-        		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_ekt.png"/ class="f_contact_icon"></div>
-            	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
+        		<div class="col-lg-2 d-lg-block text-center text-lg-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_ekt.png"/ class="f_contact_icon"></div>
+            	<div class="col-lg-10 text-center text-lg-left gx-0">
             		<span class="footer-contacts-item-title">Екатеринбург:</span>
             		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/ekaterinburg/" class="footer-contacts-item-address">620024, Екатеринбург, Елизаветинское шоссе, 39</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+73432887940" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">+7 (343) 288-79-40</a></div>
@@ -274,10 +274,10 @@ $APPLICATION->IncludeComponent(
         		</div>
         		</div>
         		
-        		<div class="col-lg-6 col-md-6">
+        		<div class="col-lg-6">
     		<div class="row">
-        		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_perm.png"/ class="f_contact_icon"></div>
-            	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
+        		<div class="col-lg-2 d-lg-block text-center text-lg-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_perm.png"/ class="f_contact_icon"></div>
+            	<div class="col-lg-10 text-center text-lg-left gx-0">
             		<span class="footer-contacts-item-title">Пермь:</span>
             		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/perm/" class="footer-contacts-item-address">614066, Пермь, шоссе Космонавтов 111И, корпус 1, 2 этаж, офис 36</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+79650605995" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">+7 (965) 060-59-95</a></div>
@@ -285,10 +285,10 @@ $APPLICATION->IncludeComponent(
         		</div>
         		</div>
         		
-        		<div class="col-lg-6 col-md-6">
+        		<div class="col-lg-6">
     		<div class="row">
-        		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_krasnodar.png"/ class="f_contact_icon"></div>
-            	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
+        		<div class="col-lg-2 d-lg-block text-center text-lg-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_krasnodar.png"/ class="f_contact_icon"></div>
+            	<div class="col-lg-10 text-center text-lg-left gx-0">
             		<span class="footer-contacts-item-title">Краснодар:</span>
             		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/krasnodar/" class="footer-contacts-item-address">350024, Краснодар, ул. Московская д.123, оф. 207</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+78003339116" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">8 (800) 333-91-16 доб. 189</a></div>
@@ -296,10 +296,10 @@ $APPLICATION->IncludeComponent(
         		</div>
         		</div>
         		
-        		<div class="col-lg-6 col-md-6">
+        		<div class="col-lg-6">
     		<div class="row">
-        		<div class="col-lg-2 col-md-2 col-sm-12 d-lg-block d-sm-none text-center text-sm-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_kazan.png"/ class="f_contact_icon"></div>
-            	<div class="col-lg-10 col-md-10 col-sm-12 text-center text-sm-left gx-0">
+        		<div class="col-lg-2 d-lg-block text-center text-lg-left"><img src="<?=SITE_TEMPLATE_PATH?>/images/contacts_kazan.png"/ class="f_contact_icon"></div>
+            	<div class="col-lg-10 text-center text-lg-left gx-0">
             		<span class="footer-contacts-item-title">Казань:</span>
             		<div class="footer-contacts-item-note address-hide-mobile"><a href="/contacts/krasnodar/" class="footer-contacts-item-address">420021, Казань, ул. Габдуллы Тукая д. 115, к.3, оф. 502</a></div>
             		<div class="footer-contacts-item-note mb-3"><a href="tel:+78003339116" class="footer-contacts-item-phone" onclick="ym(18248638,'reachGoal','clickPhone'); return true;">8 (800) 333-91-16 доб. 183</a></div>

@@ -264,7 +264,7 @@ if ( $USER->IsAuthorized() )
             	</div>
             	<div class="col-7">
             	<div class="btn-group">
-            		<a href="#w-form" class="btn-group-new btn-group-new-blue" rel="nofollow"><span>Отправить запрос</span></a>
+            		<a href="#w-form" class="btn-group-new btn-group-new-nav-trans" rel="nofollow"><span>Отправить запрос</span></a>
         		</div>
             	</div>
             	</div>
@@ -300,8 +300,73 @@ if ( $USER->IsAuthorized() )
             		<div class="row position-relative" id="catalog-copy-area">
             		</div>
             		</div>
-            		
-            		<div class="col-6 col-xl-5 col-lg-5 offset-xl-1 offset-lg-1 text-center" id="header-new-top-search">
+                    <div class="col-6 col-xl-2 col-lg-2 col-md-2 offset-md-1" id="header-new-catarea-copy-parent">
+                        <div class="text-left" id="header-new-catarea-copy">
+                            <div class="btn-group">
+                                <a href="#" class="btn-group-new-nav btn-group-new-nav-dark header-new-catlink w-auto"><i class="fa fa-bars"></i><span>Каталог</span></a>
+                            </div>
+
+
+                            <div class="header-new-catarea">
+                                <?
+                                $APPLICATION->IncludeComponent(
+                                    "bitrix:menu",
+                                    "traiv_vertical_multilevel_2023",
+                                    array(
+                                        "ALLOW_MULTI_SELECT" => "N",
+                                        "CHILD_MENU_TYPE" => "left",
+                                        "COMPONENT_TEMPLATE" => $left_menu_tpl,
+                                        "DELAY" => "N",
+                                        "MAX_LEVEL" => "2",
+                                        "MENU_CACHE_GET_VARS" => "",
+                                        "MENU_CACHE_TIME" => "3600",
+                                        "MENU_CACHE_TYPE" => "A",
+                                        "MENU_CACHE_USE_GROUPS" => "N",
+                                        "ROOT_MENU_TYPE" => "left",
+                                        "USE_EXT" => "Y",
+                                        "CACHE_SELECTED_ITEMS" => "N",
+                                        "MENU_CACHE_USE_USERS" => "N",
+                                    ),
+                                    false
+                                );
+                                ?>
+
+                            </div>
+
+                            <?php
+                            /*if ( $USER->IsAuthorized() )
+                            {
+                                if ($USER->GetID() == '3092') {
+                                    ?>
+                                    <?php
+                                }
+                                else {
+                                   ?>
+                                   <div class="top-fixed" id="header-new-provo-top">
+                            <div class="btn-group">
+                                <a href="/services/proizvodstvo-metizov/" class="btn-group-new-nav btn-group-new-nav-trans w-150"><span>Производство</span></a>
+                            </div>
+                            </div>
+                                   <?php
+                                }
+                            }
+                            else
+                            {
+                             ?>
+                             <div class="top-fixed" id="header-new-provo-top">
+                            <div class="btn-group">
+                                <a href="/services/proizvodstvo-metizov/" class="btn-group-new-nav btn-group-new-nav-trans w-150"><span>Производство</span></a>
+                            </div>
+                            </div>
+                             <?php
+                            }*/
+                            ?>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-xl-5 col-lg-5 text-center" id="header-new-top-search">
             		        <?
         $APPLICATION->IncludeComponent(
 	"arturgolubev:search.title", 
@@ -391,30 +456,7 @@ if ( $USER->IsAuthorized() )
 );
                             ?>
             		</div>
-            		
-            		<div class="col-6 col-xl-2 col-lg-2 col-md-2 text-center w-form-recall-area">
-                	<div class="btn-group">
-                		<a href="#w-form-recall" class="btn-group-new btn-group-new-gray" rel="nofollow"><span>Нужна консультация</span></a>
-            		</div>
-            	</div>
-            		
-            		<div class="col-6 col-xl-2 col-lg-2 col-md-2 text-center top-fixed" id="header-new-fixed-icon-area">
-            		<div class="fixed-icon-items position-relative">
-            		
-            			<span class="fixed-icon-item"><a href="#w-form-recall" class="newphone-link"><i class="fa fa-phone" style="font-size:20px;"></i></a></span>
-            			<span class="fixed-icon-item"><a href="mailto:info@traiv-komplekt.ru" class="fixed-icon-link"><i class="fa fa-envelope-o headermail" style="font-size:20px;"></i></a></span>
-            			<span class="fixed-icon-item"><a href="https://api.whatsapp.com/send?phone=+7 905 233-81-63&text=Добрый день, меня интересует" target="_blank" onclick="ym(18248638,'reachGoal','clickWa'); return true;"><i class="fa fa-whatsapp whatsapp-icon" style="font-size:20px;"></i></a></span>
-            			<span class="fixed-icon-item"><a href="https://web.telegram.org/k/#@gktraiv" target="_blank" style="position:relative;">
-            			<div class="telegram-circle-small"></div><i class="fa fa-telegram telegram-icon" style="font-size:20px;"></i></a></span>
 
-            			        <span class="fixed-icon-item"><a href="https://t.me/TraivLiveBot" target="_blank" class="fixed-icon-link" alt="Умный бот">
-            			        <img src="<?=SITE_TEMPLATE_PATH?>/images/chatbot-header-temp.png" class="chat-bot-img-small" data-amwebp-skip/>
-            			        </a></span>
-
-            			<!-- <span class="fixed-icon-item" style="position:relative;top:2px;"><a href="/personal/cart/"><img src="<?=SITE_TEMPLATE_PATH?>/images/cart_icon_new_small.png"></a></span> -->
-            			<span class="fixed-icon-item" style="position:relative;top:2px;" id="ajax-basket-copy-parent"></span>
-            		</div>
-            	</div>
             		
             		        <div class="col-6 col-xl-1 col-lg-1 col-md-1 text-center pb-2 pb-sm-0" id="header-new-basket-line">
         	<div id="ajax_basket">
@@ -474,12 +516,29 @@ if ( $USER->IsAuthorized() )
         
         <div class="col-2 col-xl-2 col-lg-2 col-md-2 right-button-form top-fixed">
             	<div class="btn-group">
-            		<a href="#w-form" class="btn-group-new btn-group-new-blue"><span>Отправить запрос</span></a>
+            		<a href="#w-form" class="btn-group-new btn-group-new-nav-trans"><span>Отправить запрос</span></a>
         		</div>
             	</div>
-        
-            		
+
+                    <div class="col-6 col-xl-2 col-lg-2 col-md-2 text-center top-fixed" id="header-new-fixed-icon-area">
+                        <div class="fixed-icon-items position-relative">
+
+                            <span class="fixed-icon-item"><a href="#w-form-recall" class="newphone-link"><i class="fa fa-phone" style="font-size:20px;"></i></a></span>
+                            <span class="fixed-icon-item"><a href="mailto:info@traiv-komplekt.ru" class="fixed-icon-link"><i class="fa fa-envelope-o headermail" style="font-size:20px;"></i></a></span>
+                            <span class="fixed-icon-item"><a href="https://api.whatsapp.com/send?phone=+7 905 233-81-63&text=Добрый день, меня интересует" target="_blank" onclick="ym(18248638,'reachGoal','clickWa'); return true;"><i class="fa fa-whatsapp whatsapp-icon" style="font-size:20px;"></i></a></span>
+                            <span class="fixed-icon-item"><a href="https://web.telegram.org/k/#@gktraiv" target="_blank" style="position:relative;">
+            			<div class="telegram-circle-small"></div><i class="fa fa-telegram telegram-icon" style="font-size:20px;"></i></a></span>
+
+                            <span class="fixed-icon-item"><a href="https://t.me/TraivLiveBot" target="_blank" class="fixed-icon-link" alt="Умный бот">
+            			        <img src="<?=SITE_TEMPLATE_PATH?>/images/chatbot-header-temp.png" class="chat-bot-img-small" data-amwebp-skip/>
+            			        </a></span>
+
+                            <!-- <span class="fixed-icon-item" style="position:relative;top:2px;"><a href="/personal/cart/"><img src="<?=SITE_TEMPLATE_PATH?>/images/cart_icon_new_small.png"></a></span> -->
+                            <span class="fixed-icon-item" style="position:relative;top:2px;" id="ajax-basket-copy-parent"></span>
+                        </div>
+                    </div>
             	</div>
+
             </div>
             </div>
             
@@ -491,70 +550,7 @@ if ( $USER->IsAuthorized() )
                 </div>
                 
                 <div class="col-6 col-xl-8 col-lg-8 col-md-8 offset-xl-1 offset-lg-1 offset-md-1 text-center text-sm-left middle-screen-extended">
-            		<div class="row position-relative" id="header-new-catarea-copy-parent">
-            			<div class="col-6 col-xl-3 col-lg-3 col-md-3 text-left" id="header-new-catarea-copy">
-            				<div class="btn-group">
-                        		<a href="#" class="btn-group-new-nav btn-group-new-nav-dark header-new-catlink w-auto"><i class="fa fa-bars"></i><span>Каталог</span></a>
-                    		</div>
-                    		
-                    		
-                    		<div class="header-new-catarea">
-                    		   <? 
-                        $APPLICATION->IncludeComponent(
-                            "bitrix:menu",
-                            "traiv_vertical_multilevel_2023",
-                            array(
-                                "ALLOW_MULTI_SELECT" => "N",
-                                "CHILD_MENU_TYPE" => "left",
-                                "COMPONENT_TEMPLATE" => $left_menu_tpl,
-                                "DELAY" => "N",
-                                "MAX_LEVEL" => "2",
-                                "MENU_CACHE_GET_VARS" => "",
-                                "MENU_CACHE_TIME" => "3600",
-                                "MENU_CACHE_TYPE" => "A",
-                                "MENU_CACHE_USE_GROUPS" => "N",
-                                "ROOT_MENU_TYPE" => "left",
-                                "USE_EXT" => "Y",
-                                "CACHE_SELECTED_ITEMS" => "N",
-                                "MENU_CACHE_USE_USERS" => "N",
-                            ),
-                            false
-                            );
-                        ?>
-                        
-                    		</div>
-                    		
-                    		<?php 
-                    		/*if ( $USER->IsAuthorized() )
-                    		{
-                    		    if ($USER->GetID() == '3092') {
-                    		        ?>
-                    		        <?php 
-                    		    }
-                    		    else {
-                    		       ?>
-                    		       <div class="top-fixed" id="header-new-provo-top">
-            				<div class="btn-group">
-                        		<a href="/services/proizvodstvo-metizov/" class="btn-group-new-nav btn-group-new-nav-trans w-150"><span>Производство</span></a>
-                    		</div>
-                    		</div>
-                    		       <?php  
-                    		    }
-                    		}
-                    		else
-                    		{
-                    		 ?>
-                    		 <div class="top-fixed" id="header-new-provo-top">
-            				<div class="btn-group">
-                        		<a href="/services/proizvodstvo-metizov/" class="btn-group-new-nav btn-group-new-nav-trans w-150"><span>Производство</span></a>
-                    		</div>
-                    		</div>
-                    		 <?php    
-                    		}*/
-                    		?>
-            			
-                    		
-            			</div>		
+            		<div class="row position-relative" id="header-new-servarea-copy-parent">
             			
             			<?php 
             			
@@ -565,7 +561,7 @@ if ( $USER->IsAuthorized() )
             			 <div class="col-6 col-xl-3 col-lg-3 col-md-3 text-center" id="header-new-servarea-copy">
             				<div class="btn-group">
                         		<!-- <a href="/services/proizvodstvo-metizov/" class="btn-group-new-nav btn-group-new-nav-trans"><span>Производство</span></a> -->
-                        		<a href="#" class="btn-group-new-nav btn-group-new-nav-dark header-new-servlink w-auto"><i class="fa fa-bars"></i><span>Производство</span></a>
+                        		<a href="#" class="btn-group-new-nav btn-group-new-nav-trans header-new-servlink w-auto"><i class="fa fa-bars"></i><span>Производство</span></a>
                     		</div>
                              <?php $cur_page = $APPLICATION->GetCurPage(false); ?>
                     		<div class="header-new-servarea">                    		
@@ -618,8 +614,14 @@ if ( $USER->IsAuthorized() )
                         		<a href="/contacts/" class="btn-group-new-nav btn-group-new-nav-trans"><span>Контакты</span></a>
                     		</div>
             			</div>
-            			
-            		</div>    	
+
+                        <div class="col-6 col-xl-3 col-lg-3 col-md-3 text-center w-form-recall-area">
+                            <div class="btn-group">
+                                <a href="#w-form-recall" class="btn-group-new btn-group-new-gray" rel="nofollow"><span>Нужна консультация</span></a>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
                 
             </div>

@@ -1864,6 +1864,7 @@ end AUTH
 	font-size: 14px;
 	text-align: left;
 	color: gray;
+	padding-right: 8px;
 }
 .np-services-item-arrow {
 	position: absolute;

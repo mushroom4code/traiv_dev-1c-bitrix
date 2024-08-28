@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row d-flex align-items-center">
 
-        <div class="np-services-service col-12 col-lg-4 col-md-4 text-md-left text-center d-flex">
+        <div class="np-services-service col-12 col-lg-4 text-lg-left text-center d-flex">
             <div class="d-flex justify-content-center align-items-center np-services-header"><i class="np-services-item-icon"></i></div>
             <div class="np-services-content">
                 <div class="np-services-item-title-mobile">Производство по чертежам</div>
@@ -11,7 +11,7 @@
 
         </div>
 
-        <div class="np-services-service col-12 col-lg-4 col-md-4 text-md-left text-center d-flex pt-lg-0 pt-md-0 pt-4">
+        <div class="np-services-service col-12 col-lg-4 text-lg-left text-center d-flex pt-lg-0 pt-4">
             <div class="d-flex justify-content-center align-items-center np-services-header"><i class="np-services-item-icon"></i></div>
             <div class="np-services-content">
                 <div class="np-services-item-title-mobile">Нанесение покрытий</div>
@@ -21,7 +21,7 @@
 
         </div>
 
-        <div class="np-services-service col-12 col-lg-4 col-md-4 text-md-left text-center d-flex pt-lg-0 pt-md-0 pt-4">
+        <div class="np-services-service col-12 col-lg-4 text-lg-left text-center d-flex pt-lg-0 pt-4">
             <div class="d-flex justify-content-center align-items-center np-services-header"><i class="np-services-item-icon"></i></div>
             <div class="np-services-content">
                 <div class="np-services-item-title-mobile">Производство по стандартам</div>

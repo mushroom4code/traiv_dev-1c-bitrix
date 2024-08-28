@@ -1,7 +1,7 @@
 <div class="container">
-    <div class="row d-flex align-items-center flex-column flex-md-row directions-container">
+    <div class="row d-flex align-items-center flex-column flex-lg-row directions-container">
 
-        <div class="col-lg-4 col-md-6 text-md-left text-center">
+        <div class="col-lg-4 text-lg-left text-center">
 
             <a href="/services/proizvodstvo-metizov/" class='np-direction-item bordered'
                style='background: url(/local/templates/traiv-new/images/direction2-new.jpg) no-repeat center center;background-size:cover;'>
@@ -23,7 +23,7 @@
             </a>
         </div>
 
-        <div class="col-lg-4 col-md-12 text-md-left text-center pt-lg-0 pt-md-0">
+        <div class="col-lg-4 text-lg-left text-center pt-lg-0">
 
 
             <a href="/industry-solutions/" class='np-direction-item bordered'
@@ -36,7 +36,7 @@
             </a>
         </div>
 
-        <div href="/oborudovanie-na-nashem-proizvodstve/" class="col-lg-4 col-md-6 text-md-left text-center">
+        <div href="/oborudovanie-na-nashem-proizvodstve/" class="col-lg-4 text-lg-left text-center">
             <a class='np-direction-item bordered'
                style='background: url(/local/templates/traiv-new/images/direction6_otr11.jpg) no-repeat center center;background-size:cover;'>
                 <div class="np-direction-item-area">
@@ -47,7 +47,7 @@
             </a>
         </div>
 
-        <div class="col-lg-7 col-md-6 text-md-left text-center pt-lg-0 pt-md-0 pt-4 d-none">
+        <div class="col-lg-7 text-lg-left text-center pt-lg-0 pt-md-0 pt-4 d-none">
             <a href="/about-company/" class='np-direction-item bordered'
                style='background: url(/local/templates/traiv-new/images/direction3_otr11.jpg) no-repeat center center;background-size:cover;'>
 
@@ -65,7 +65,7 @@
     <div class="row d-flex align-items-center">
 
 
-        <div class="col-lg-3 col-md-12 text-md-left text-center pt-lg-0 pt-md-0 pt-4">
+        <div class="col-lg-3 text-lg-left text-center pt-lg-0 pt-4">
             <a href="/industry-solutions/" class='np-direction-item bordered'
                style='background: url(/local/templates/traiv-new/images/direction1_otr11.jpg) no-repeat center center;background-size:cover;'>
                 <div class="np-direction-item-area">
@@ -79,7 +79,7 @@
             </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 text-md-left text-center">
+        <div class="col-lg-3 text-lg-left text-center">
             <a href="/oborudovanie-na-nashem-proizvodstve/" class='np-direction-item bordered'
                style='background: url(/local/templates/traiv-new/images/direction6_otr11.jpg) no-repeat center center;background-size:cover;'>
 
@@ -94,7 +94,7 @@
             </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 text-md-left text-center">
+        <div class="col-lg-3 text-lg-left text-center">
             <a href="/hr/" class='np-direction-item bordered'
                style='background: url(/local/templates/traiv-new/images/direction4_otr3.jpg) no-repeat center center;background-size:cover;'>
 
@@ -109,7 +109,7 @@
             </a>
         </div>
 
-        <div class="col-lg-3 col-md-6 text-md-left text-center pt-lg-0 pt-md-0 pt-4">
+        <div class="col-lg-3 text-lg-left text-center pt-lg-0 pt-4">
             <a href="/sotrudnichestvo/" class='np-direction-item bordered' data-amwebp-skip
                style='background: url(/local/templates/traiv-new/images/direction5_otr11.jpg) no-repeat center center;background-size:cover;'>
                 <div class="np-direction-item-area">

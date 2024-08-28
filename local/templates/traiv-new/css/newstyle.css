@@ -458,7 +458,7 @@ position:relative;
 display:block;
 }
 
-.header-new-servlink.active {
+.header-new-servlink.active, .header-new-servlink.active:hover {
 -webkit-border-radius: 20px;
 -webkit-border-bottom-right-radius: 0px !important;
 -webkit-border-bottom-left-radius: 0px !important;
@@ -468,17 +468,22 @@ display:block;
 border-radius: 20px;
 border-bottom-right-radius: 0px !important;
 border-bottom-left-radius: 0px !important;
-color: var(--bBlueLight);
+/*color: var(--bBlueLight);*/
+/*    border-color: var(--aBlack);*/
+    border: 1px solid var(--bBlueLightHover);
+    color: var(--bBlueLightHover);
 }
 
 .header-new-servlink.active::before{
     position: absolute;
-    width: 100%;
+    width: 205px;
     height: 20px;
     content: "";
-    left: 0;
+    left: -1px;
     bottom: -20px;
-    background-color: var(--bBlueLightHover);
+    background-color: var(--aWhite);
+    border-right: 1px solid var(--bBlueLightHover);
+    border-left: 1px solid var(--bBlueLightHover);
 }
 
 .header-new-servlink.w-auto{
@@ -486,11 +491,12 @@ color: var(--bBlueLight);
 }
 
 .header-new-servarea {
-	border:0px green solid;
+	border: 1px solid var(--bBlueLightHover);
+    border-top-width: 0;
 	position:absolute;
 	width:205px;
-	background-color:var(--bBlueLightHover);
-	color:var(--aWhite);
+	background-color:var(--aWhite);
+	color: var(--aBlack);
 	z-index:1000;
 	padding-bottom:30px;
 	-webkit-border-bottom-left-radius: 10px;
@@ -499,6 +505,7 @@ border-bottom-left-radius: 10px;
 overflow:auto;
 margin-top:10px;
 display:none;
+    overflow-x: hidden;
 }
 
 .header-new-servarea .hn-serv-menu {
@@ -525,7 +532,7 @@ display:none;
     padding: 11px 18px 3px 0px;
     display: block;
     font: 400 12px/14px 'Gilroy',sans-serif;
-    color: var(--aWhite);
+    color: var(--aBlack);
     background: none;
     position: relative;
     border: 0px solid #e1e7eb;
@@ -1103,7 +1110,7 @@ position: absolute;
 
 
 
-.btn-group-new-nav-dark i {
+.btn-group-new-nav-dark i, .btn-group-new-nav-trans i {
 font-size: 18px;
     position: relative;
     top: 50%;
