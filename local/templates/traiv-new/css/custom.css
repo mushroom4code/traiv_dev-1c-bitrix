@@ -9207,6 +9207,21 @@ overflow:hidden;
     bottom:0px;
 }
 
+div.new-item-line__image {
+	position: relative;
+}
+
+.section-price-discount-percent {
+	position: absolute;
+	bottom: 0%;
+	right: 7%;
+	color: white;
+	background: #e5181d;
+	font-size: 10px;
+	border-radius: 7px;
+	padding: 2px;
+}
+
 
 
 /*----------------------------------
@@ -9276,8 +9291,40 @@ end CatalogSectionList
 	padding:5px 0px;
 }
 
+.new-item__price_val_discount, .new-item__price_val_old_price_container {
+	display: flex;
+	justify-content: center;
+}
+
+.new-item__price_val_discount_inner {
+	width: fit-content;
+}
+
+.old-price-section {
+	position: relative;
+	color: grey;
+	width: fit-content;
+}
+
+.old-price-section::before {
+	content: '';
+	width: 100%;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	border-bottom: 1px solid grey;
+}
+
+.new-item__price_val_discount_inner span.price-discount-percent-section {
+	margin-left: 10px;
+	border-radius: 7px;
+	color: white;
+	background: #e5181d;
+	padding: 4px;
+}
+
 .new-item__price_val span {
-	padding:0px 5px 0px 0px;
+    padding:0px 5px 0px 0px;
 }
 
 .new-item__price_val i {
@@ -9290,7 +9337,7 @@ end CatalogSectionList
 }
 
 .catalog-item-tile-quantity {
-	padding:0px 10px;
+    padding:0px 10px;
 }
 
 /*----------------------------------
@@ -10570,6 +10617,11 @@ end New Filter
 /* end order make */
 
 /* catalog.element */
+
+.prod-summary-block {
+	position: sticky;
+	top: 125px;
+}
 
 @media (max-width: 768px) {
 	.prod-tabs-wrap-new p {

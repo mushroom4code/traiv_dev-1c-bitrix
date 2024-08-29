@@ -227,12 +227,34 @@ if (!empty($props_array["UF_CANONICAL"])) {
 <?
                     else:
                     ?>
-                    <span itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
-                    <?php     
-                    echo "<div class='new-item__price_val'>".$item["ITEM_PRICES"]['0']["PRINT_PRICE"]. '<i class="fa fa-rub d-none" aria-hidden="true"></i></div>';?>
-                    <meta itemprop="price" content="<?php echo floatval($item["ITEM_PRICES"]['0']["PRINT_PRICE"]);?>"><meta itemprop="priceCurrency" content="RUB">
-                    </span>
-
+                        <span itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
+                            <?php if ($item["PROPERTIES"]['ACTION']['VALUE']): ?>
+                                <div class='new-item__price_val new-item__price_val_discount'>
+                                    <div class="new-item__price_val_discount_inner">
+                                        <div>
+                                            <?= $item["ITEM_PRICES"]['0']["PRINT_PRICE"] ?>
+                                            <i class="fa fa-rub d-none" aria-hidden="true"></i>
+                                            <span class="price-discount-percent-section">
+                                                -30%
+                                            </span>
+                                        </div>
+                                        <div class="new-item__price_val_old_price_container">
+                                            <div class="old-price-section">
+                                                <?= round(((($item["ITEM_PRICES"]['0']["BASE_PRICE"] / 70) * 30) + $item["ITEM_PRICES"]['0']["BASE_PRICE"]), 2)." руб." ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php else: ?>
+                                <div class='new-item__price_val'>
+                                    <?= $item["ITEM_PRICES"]['0']["PRINT_PRICE"] ?>
+                                    <i class="fa fa-rub d-none" aria-hidden="true"></i>
+                                </div>
+                            <?php endif; ?>
+                            <meta itemprop="price"
+                                  content="<?php echo floatval($item["ITEM_PRICES"]['0']["PRINT_PRICE"]); ?>">
+                            <meta itemprop="priceCurrency" content="RUB">
+                        </span>
                     <?endif?></div>
 
                 <div class="new-item__footer">

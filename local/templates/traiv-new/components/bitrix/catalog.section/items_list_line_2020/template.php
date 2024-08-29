@@ -131,7 +131,11 @@ if(!empty($item['DETAIL_PICTURE']['SRC']))
             }
         }
     }
-    $rsElement1 = CIBlockSection::GetList(array(), array('ID' => $sect_id), false, array('ID', 'IBLOCK_SECTION_ID', 'PICTURE'));if($arElement1 = $rsElement1->Fetch()) {$pict = $arElement1['DETAIL_PICTURE']?$arElement['DETAIL_PICTURE']:$arElement1['PICTURE'];}$picturl = CFile::ResizeImageGet($pict,array('width'=>35, 'height'=>35), BX_RESIZE_IMAGE_PROPORTIONAL, true);?><img  src="<?= $picturl['src']?>" alt="<?= $formatedname?>" width="35" height="35" title="<?=$formatedname?>" id="<?=$item["ID"]?>" itemprop="image"/><?}?></a></div>
+    $rsElement1 = CIBlockSection::GetList(array(), array('ID' => $sect_id), false, array('ID', 'IBLOCK_SECTION_ID', 'PICTURE'));if($arElement1 = $rsElement1->Fetch()) {$pict = $arElement1['DETAIL_PICTURE']?$arElement['DETAIL_PICTURE']:$arElement1['PICTURE'];}$picturl = CFile::ResizeImageGet($pict,array('width'=>35, 'height'=>35), BX_RESIZE_IMAGE_PROPORTIONAL, true);?><img  src="<?= $picturl['src']?>" alt="<?= $formatedname?>" width="35" height="35" title="<?=$formatedname?>" id="<?=$item["ID"]?>" itemprop="image"/><?}?></a>
+    <?php if($item["PROPERTIES"]['ACTION']['VALUE']):?>
+        <span class="section-price-discount-percent">-30%</span>
+    <?php endif; ?>
+</div>
             
             </div>
             <div class="col-7 col-xl-3 col-lg-3 col-md-3" rel="<?php echo $sect_id;?>"><a href="<?= $item['DETAIL_PAGE_URL'] ?>" style="font-size:14px;padding-right:20px;"><!-- <span class="test-quan"><?php echo $item['CATALOG_QUANTITY'];?></span>--></span><span itemprop="name"><?=$formatedname?>

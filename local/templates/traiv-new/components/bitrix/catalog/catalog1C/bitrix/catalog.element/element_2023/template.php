@@ -1683,6 +1683,7 @@ endif;
         </div>
 <!-- this -->
 
+<div class="prod-summary-block">
 
 <div class="prod-price-info">
 <div class="prod-info">
@@ -1714,8 +1715,14 @@ endif;
             				<b class="item_current_price">
             				<? echo str_replace(' ','',str_replace('руб.','',$printPrice)).'<i class="fa fa-rub"></i>';?>
             				</b>
+                            <?php if($arResult["PROPERTIES"]['ACTION']['VALUE']):?>
+                                <span class="prod-discount-percent">-30%</span>
+                            <?php endif;?>
             			</p>
-			            <?php 
+                        <?php if($arResult["PROPERTIES"]['ACTION']['VALUE']):?>
+                            <p class="prod-old-price"><?=round(((($BASE_PRICE['BASE_PRICE'] / 70) * 30) + $BASE_PRICE['BASE_PRICE']), 2)?> <i class="fa fa-rub"></i></p>
+			            <?php endif;?>
+                            <?php
 			        }
 			        
 			        ?>
@@ -2176,7 +2183,7 @@ endif;
         
 		</ul>
         </div>
- 
+</div>
  <?php       
         }
                 ?>

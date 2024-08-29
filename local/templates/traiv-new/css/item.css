@@ -1208,10 +1208,34 @@ border-radius: 5px;
 .prod-price-info .prod-price {
 	position: relative;
 	color: #373d54;
-	display: block;
+	/*display: block;*/
+	display: flex;
+	align-items: center;
 	margin: 0;
 	text-align: left;
 	padding:5px 0px 20px 0px;
+}
+.prod-discount-percent {
+	color: white;
+	margin-left: 12px;
+	padding: 3px;
+	border-radius: 7px;
+	background: #e5181d;
+}
+.prod-old-price {
+	position: relative;
+	width: fit-content;
+	color: grey;
+	margin-top: -25px;
+	margin-bottom: 20px
+}
+.prod-old-price::before {
+	content: '';
+	width: 100%;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	border-bottom: 1px solid grey;
 }
 .prod-price-info .prod-price b {
 font-weight: 900;

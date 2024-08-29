@@ -35,10 +35,10 @@
 
 /*for 1366 * 768*/
 @media  screen and (max-width: 1366px) {
-    html,body {
-    overflow-x:hidden;
+    /*html,body {*/
+    /*overflow-x:hidden;*/
     /*background-color: #f1f1f1;*/
-    }
+    /*}*/
     
     .top-phone i.fa {
     display:none;
