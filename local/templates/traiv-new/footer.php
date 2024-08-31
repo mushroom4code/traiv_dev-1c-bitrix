@@ -522,7 +522,7 @@ $APPLICATION->IncludeComponent(
 
             <div class="col-3 text-center" id="menu_item">
                 <a href="#" class="mv_menu_link">
-                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-cog"></i>
                     <span>Меню</span></a>
             </div>
 
@@ -654,6 +654,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . "/js/jquery.rateit.js");
 $asset->addJs(SITE_TEMPLATE_PATH . "/js/isotope.min.js");
 $asset->addJs(SITE_TEMPLATE_PATH . "/js/hc-offcanvas-nav.js");
 $asset->addJs(SITE_TEMPLATE_PATH . "/js/slick.min.js");
+$asset->addJs(SITE_TEMPLATE_PATH . "/js/ruplayer.js");
 $asset->addJs(SITE_TEMPLATE_PATH . "/js/jquery.mb.YTPlayer.min.js");
 $asset->addJs(SITE_TEMPLATE_PATH . "/js/custom.js");
 if ($APPLICATION->GetCurPage() != '/personal/order/make/')
@@ -683,7 +684,8 @@ $asset->addJs('https://www.google.com/recaptcha/api.js?render=' . RECAPTCHA_KEY)
 
 
 
-<?php 
+<?php
+$asset->addJs(SITE_TEMPLATE_PATH . "/js/apicalc_ws.js");
 if ( $USER->IsAuthorized() )
 {
     if ($USER->GetID() == '3092' || $USER->GetID() == '2743' || $USER->GetID() == '4677' || $USER->GetID() == '552' || $USER->GetID() == '1788')  {

@@ -561,7 +561,7 @@ if ( $USER->IsAuthorized() )
             			 <div class="col-6 col-xl-3 col-lg-3 col-md-3 text-center" id="header-new-servarea-copy">
             				<div class="btn-group">
                         		<!-- <a href="/services/proizvodstvo-metizov/" class="btn-group-new-nav btn-group-new-nav-trans"><span>Производство</span></a> -->
-                        		<a href="#" class="btn-group-new-nav btn-group-new-nav-trans header-new-servlink w-auto"><i class="fa fa-bars"></i><span>Производство</span></a>
+                        		<a href="#" class="btn-group-new-nav btn-group-new-nav-trans header-new-servlink w-auto"><i class="fa fa-cog"></i><span>Производство</span></a>
                     		</div>
                              <?php $cur_page = $APPLICATION->GetCurPage(false); ?>
                     		<div class="header-new-servarea">                    		
