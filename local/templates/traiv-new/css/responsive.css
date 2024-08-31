@@ -486,5 +486,9 @@ and ServicePage
 	div.main-menu-container {
 		display: block !important;
 		max-width: 100%;
+		position: fixed;
+		bottom:0;
+		z-index: 1000;
+
 	}
 }

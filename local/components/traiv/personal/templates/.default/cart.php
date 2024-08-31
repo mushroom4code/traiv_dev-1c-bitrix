@@ -195,4 +195,24 @@
 
 </div>
 
+<?php if (count($arResult["ITEMS"]) > 0): ?>
+<div id="cart-total-mobile">
+    <div class="cart-total-mobile-container">
+        <span class="cart-total-mobile-title">Итого(<?= count($arResult["ITEMS"]) ?>)</span>
+        <span class="cart-total-mobile-total total"><?= $arResult["TOTAL"] ?></span>
+    </div>
+    <div class="btn-group-blue-w mb-3 <?= ($arResult['TOTAL_UNFORMATED'] < 5000) ? 'd-none' : ''?>">
+        <div class="btn-group-blue">
+            <a href="/personal/order/make/" class="btn-404">
+                <span> Оформить заказ</span>
+            </a>
+        </div>
+    </div>
+    <div class="check_type_pack_basket_mobile <?= ($arResult['TOTAL_UNFORMATED'] < 5000) ? '' : 'd-none'?>">
+        <i class="fa fa-info-circle"></i>
+        <span>Минимальная сумма заказа 5 000 рублей</span>
+    </div>
+</div>
+<?php endif; ?>
+
 <? include_once 'bottom.php'; ?>

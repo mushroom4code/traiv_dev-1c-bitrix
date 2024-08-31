@@ -1500,7 +1500,11 @@ padding: 10px 0px 11px;
     font-size: 12px;
 }
 
-.check_type_pack_basket i {
+.check_type_pack_basket_mobile {
+	font-weight: bold;
+}
+
+.check_type_pack_basket i, .check_type_pack_basket_mobile i {
 	color:#e5181d;
 	padding-right:5px;
 }

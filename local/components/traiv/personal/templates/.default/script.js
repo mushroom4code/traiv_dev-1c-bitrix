@@ -123,9 +123,11 @@ function updatePersonalBasket(sender) {
             if (data.TOTAL_UNFORMATED < 5000) {
                 $('.btn-group-blue-w').addClass('d-none');
                 $('.check_type_pack_basket').removeClass('d-none');
+                $('.check_type_pack_basket_mobile').removeClass('d-none');
             } else {
                 $('.btn-group-blue-w').removeClass('d-none');
                 $('.check_type_pack_basket').addClass('d-none');
+                $('.check_type_pack_basket_mobile').addClass('d-none');
             }
 
 

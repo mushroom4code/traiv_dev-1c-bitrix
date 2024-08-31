@@ -849,16 +849,16 @@ if ( $USER->IsAuthorized() )
 </section>
 
 <section id="topbottom" <?php echo $m_check;?>>
-    <div class="container">
+    <div class="container topbottom-container">
       <div class="row topbottom_scroll">
-        <div class="col-6 col-xl-3 col-lg-3 pt-2 pt-lg-0 text-left">
+        <div class="col-4 col-xl-3 col-lg-3 pt-2 pt-lg-0 text-left">
              <a href="/" class="logotype" alt="«Трайв» - поставки крепежа и метизов из Европы и Азии"><img src="<?=SITE_TEMPLATE_PATH?>/images/logo_new_tk2023.png" class="logotype_img"/></a>
 
-              <div class="logotype-description">Производство и продажа крепежа и метизов с 2006 года</div>
+              <div class="logotype-description d-none d-lg-block">Производство и продажа крепежа и метизов с 2006 года</div>
 
         </div>
         
-	  <div class="col-6 col-xl-2 col-lg-2 text-center text-lg-right pt-2 pb-2 pt-lg-0 pb-lg-0 d-block d-lg-none">
+	  <div class="col-6 col-xl-2 col-lg-2 text-center text-lg-right pt-2 pb-2 pt-lg-0 pb-lg-0 d-none">
       <div class="top_location">
         	<span>
       <div class="btn-group-blue">
@@ -887,7 +887,7 @@ if ( $USER->IsAuthorized() )
         </div>
     </div>
         
-        <div class="col-12 col-xl-5 col-lg-5 p-2 p-lg-0">
+        <div class="col-8 col-xl-5 col-lg-5 p-2 p-lg-0">
         <?
         $APPLICATION->IncludeComponent(
 	"arturgolubev:search.title", 
@@ -971,7 +971,7 @@ if ( $USER->IsAuthorized() )
             
         </div>
         
-	<div class="col-5 col-xl-4 col-lg-4 text-center text-lg-left pb-2 pb-lg-0 d-block d-lg-none" id="mob_location">
+	<div class="col-5 col-xl-4 col-lg-4 text-center text-lg-left pb-2 pb-lg-0 d-none" id="mob_location">
                 <div class="top_location">
         	<!-- <i class="fa fa-map-marker"></i><span class="top_location_text">Ваш город:</span>-->
         	<div class="menu_tips_area">
@@ -1002,7 +1002,7 @@ if ( $USER->IsAuthorized() )
         </div>
     </div>
         
-        <div class="col-7 col-xl-2 col-lg-2 text-center pb-2 pb-lg-0">
+        <div class="col-7 col-xl-2 col-lg-2 text-center pb-2 pb-lg-0 d-none d-lg-block">
         	<div class="top-phone">
         		<a href="tel:88007072598" id="loc_rus_phone" rel="nofollow" style="display:block;"><i class="fa fa-phone"></i><span>8 (800) 707-25-98</span></a>
         		<a href="tel:83432887940" id="loc_eka_phone" rel="nofollow" style="display:none;"><i class="fa fa-phone"></i><span>8 (343) 288-79-40</span></a>
@@ -1152,174 +1152,7 @@ if ( $USER->IsAuthorized() )
     </div>
 </section>
 
-<section id="mainmenu" <?php echo $m_check;?>>
 
-   <div class="container d-none main-menu-container nopadding" id="modil_cont_catalog_menu">
-  
-   
-      <div class="row g-0">
-      
-      <div class="col-4 text-center" id="mv_catalog_item">
-      <a href="#" class="mv_catalog_link">
-      <i class="fa fa-bars"></i>
-      <span>Каталог</span></a>
-      </div>
-      
-       
-      <div class="col-3 text-center" id="menu_item">
-      <a href="#" class="mv_menu_link">
-      <i class="fa fa-bars"></i>
-      <span>Меню</span></a>
-      </div>
-      
-      <div class="col-2 text-center" id="user_item">
-      <a href="<?php echo $m_user_link;?>" class="user_link">
-      <i class="fa fa-user-circle"></i>
-      <span></span></a>
-      </div>
-      
-      <div class="col-1 text-center" id="user_item">
-      <a href="/calculator/" class="user_link">
-      <i class="fa fa-calculator"></i>
-      <span></span></a>
-      </div>
-
-          <div class="col-2 text-center" id="cart_item">
-              <a href="/personal/order/make/" class="cart_link">
-                  <i class="fa fa-shopping-cart position-relative">
-                 <span id="decodeCardNums">
-                     <?php if ($APPLICATION->GetCurPage() !== '/personal/cart/' && $APPLICATION->GetCurPage() !== '/personal/order/make/'): ?>
-                         <div id="cart_total_count_mobile"
-                              class="header-new-cart-count header-new-cart-count-mobile rounded-circle">0</div>
-                     <?php endif; ?>
-                </span>
-                  </i>
-                  <script>
-                      $('#cart_total_count_mobile').text($('#cart_total_count').text());
-                  </script>
-                  <span></span></a>
-          </div>
-      
-      
-      </div>
-      
-       <?
-                            $APPLICATION->IncludeComponent(
-	"bitrix:menu", 
-	"main_right_menu_mobil", 
-	array(
-		"ROOT_MENU_TYPE" => "main_right_menu",
-		"MENU_CACHE_TYPE" => "A",
-		"MENU_CACHE_TIME" => "3600",
-		"MENU_CACHE_USE_GROUPS" => "Y",
-		"MENU_CACHE_GET_VARS" => array(
-		),
-		"MAX_LEVEL" => "2",
-		"CHILD_MENU_TYPE" => "podmenu",
-		"USE_EXT" => "N",
-		"DELAY" => "N",
-		"ALLOW_MULTI_SELECT" => "N",
-		"COMPONENT_TEMPLATE" => "main_right_menu"
-	),
-	false
-);
-                            ?>      
-            <? $APPLICATION->IncludeComponent(
-                            "bitrix:menu",
-                            "traiv_vertical_multilevel_2021_mobil",
-                            array(
-                                "ALLOW_MULTI_SELECT" => "N",
-                                "CHILD_MENU_TYPE" => "left",
-                                "COMPONENT_TEMPLATE" => $left_menu_tpl,
-                                "DELAY" => "N",
-                                "MAX_LEVEL" => "2",
-                                "MENU_CACHE_GET_VARS" => "",
-                                "MENU_CACHE_TIME" => "3600",
-                                "MENU_CACHE_TYPE" => "A",
-                                "MENU_CACHE_USE_GROUPS" => "N",
-                                "ROOT_MENU_TYPE" => "left",
-                                "USE_EXT" => "Y",
-                                "CACHE_SELECTED_ITEMS" => "N",
-                                "MENU_CACHE_USE_USERS" => "N",
-                            ),
-                            false
-                            );
-                        ?>
-      
-	</div>
-
-   <div class="container d-none d-lg-block" id="cont_catalog_menu">
-   <? 
-                        $APPLICATION->IncludeComponent(
-                            "bitrix:menu",
-                            "traiv_vertical_multilevel_2021",
-                            array(
-                                "ALLOW_MULTI_SELECT" => "N",
-                                "CHILD_MENU_TYPE" => "left",
-                                "COMPONENT_TEMPLATE" => $left_menu_tpl,
-                                "DELAY" => "N",
-                                "MAX_LEVEL" => "2",
-                                "MENU_CACHE_GET_VARS" => "",
-                                "MENU_CACHE_TIME" => "3600",
-                                "MENU_CACHE_TYPE" => "A",
-                                "MENU_CACHE_USE_GROUPS" => "N",
-                                "ROOT_MENU_TYPE" => "left",
-                                "USE_EXT" => "Y",
-                                "CACHE_SELECTED_ITEMS" => "N",
-                                "MENU_CACHE_USE_USERS" => "N",
-                            ),
-                            false
-                            );
-                        ?>
-   
-      <div class="row g-0">
-      <div class="col-2 text-center" id="catalog_item">
-      <a href="#" class="catalog_link">
-      <i class="fa fa-bars"></i>
-      <span>Каталог</span></a>
-      </div>
-      
-      <?php 
-      $col = "col-10";
-      ?>
-      
-      <div class="<?php echo $col;?> text-center">
-      
-                       <ul id="horizontal-multilevel-menu-open-cat" class="row">
-                           <li class="col"><a href="/actions/" class="root-item">Наши<br> акции</a></li>
-                           <li class="col"><a href="/catalog/po-svoistvam/vysokoprochnyi-krepezh/" class="root-item">Высокопрочный крепеж</a></li>
-                           <li class="col"><a href="/catalog/po-svoistvam/nerzhavejushchii-krepezh/" class="root-item">Нержавеющий крепеж</a></li>
-                           <li class="col"><a href="/catalog/po-vidy-materialov/poliamidnyi-krepezh/" class="root-item">Полиамидный крепеж</a></li>
-                           <li class="col"><a href="/catalog/po-vidy-materialov/latynnyi-krepezh/" class="root-item">Латунный<br> крепеж</a></li>
-                           <li class="col"><a href="/catalog/po-svoistvam/djuimovyi-krepezh/" class="root-item">Дюймовый<br> крепеж</a></li>
-                           <li class="col"><a href="/catalog/categories/shaiby/din-25201-shaiba-nord-lock/shayby_nord_lock_2fix/" class="root-item">Шайбы<br> 2fix</a></li>
-                       </ul>   
-      
-      <?
-                            $APPLICATION->IncludeComponent(
-	"bitrix:menu", 
-	"main_right_menu", 
-	array(
-		"ROOT_MENU_TYPE" => "main_right_menu",
-		"MENU_CACHE_TYPE" => "A",
-		"MENU_CACHE_TIME" => "3600",
-		"MENU_CACHE_USE_GROUPS" => "Y",
-		"MENU_CACHE_GET_VARS" => array(
-		),
-		"MAX_LEVEL" => "2",
-		"CHILD_MENU_TYPE" => "podmenu",
-		"USE_EXT" => "N",
-		"DELAY" => "N",
-		"ALLOW_MULTI_SELECT" => "N",
-		"COMPONENT_TEMPLATE" => "main_right_menu"
-	),
-	false
-);
-                            ?>
-      </div>
-      </div>
-	</div>
-</section>
         
         <?php 
         }

@@ -2843,6 +2843,25 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22);
 	padding: 15px 0px 0px 0px;
 }
 
+@media (max-width: 991px) {
+	#topbottom .topbottom-container {
+		max-width: 100%;
+	}
+	#topbottom .logotype_img {
+		padding-right: 0;
+		width: auto;
+	}
+	#topbottom {
+		max-height: 66px;
+		border: 1px solid var(--th-border);
+		box-shadow: 0 10px 20px rgba(3, 27, 78, 8%);
+	}
+	#topbottom .row {
+		min-height: 61px !important;
+		padding-bottom: 4px;
+	}
+}
+
 /*----------------------------------
 @ Popup
 ----------------------------------*/
@@ -3391,7 +3410,8 @@ end GostDinOstMenu
 
 .left_catalog_menu_content_mobil {
 	width: 100%;
-    height: 650px;
+    /*height: 650px;*/
+	height: 92%;
     transform: translateZ(0);
 }
 
@@ -4550,6 +4570,39 @@ position:relative;
 	font: 700 16px / 28px 'Gilroy', sans-serif;
 	margin: 0;
 }
+
+#cart-total-mobile {
+	position: fixed;
+	bottom: 66px;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 30px;
+	background: #fff;
+	z-index: 1004;
+	box-shadow: 0 -10px 20px rgba(3, 27, 78, 15%);
+	gap: 32px;
+}
+
+#cart-total-mobile .cart-total-mobile-container {
+	text-wrap: nowrap;
+}
+
+#cart-total-mobile .cart-total-mobile-title {
+	font-weight: 500;
+}
+
+#cart-total-mobile .cart-total-mobile-total {
+	margin-left: 10px;
+	font-weight: 700;
+}
+
+#cart-total-mobile .btn-group-blue-w {
+	margin-bottom: 0 !important;
+}
+
 /*end LK cart*/
 
 /*----------------------------------

@@ -1658,15 +1658,19 @@ setTimeout(function(){
             $('#title-search').parent()
                 .removeClass('col-xl-5 col-lg-5 col-md-5 ')
                 .addClass('col-xl-3 col-lg-3 col-md-3');
-            $('#scroll-to-fixed-button').css('display', 'block');
-            $('.logotype').children('img').stop().animate({'width': '70%'}, 100);
+            if (!mobileDetect) {
+                $('#scroll-to-fixed-button').css('display', 'block');
+                $('.logotype').children('img').stop().animate({'width': '70%'}, 100);
+            }
             $('.logotype-description').css('display', 'none');
             //$('.logotype').children('img').css('width','70%');
             //$('.logotype').children('img').stop().animate({'width':'70%'},100);
         },
         postFixed: function () {
             //$('.logotype').children('img').css('width','100%');
-            $('.logotype').children('img').stop().animate({'width': '80%'}, 100);
+            if (!mobileDetect) {
+                $('.logotype').children('img').stop().animate({'width': '80%'}, 100);
+            }
             $('.logotype-description').css('display', 'block');
         },
         preUnfixed: function () {
@@ -1676,7 +1680,8 @@ setTimeout(function(){
                 .addClass('col-xl-5 col-lg-5');
             $('#scroll-to-fixed-button').css('display', 'none');
         },
-        minWidth: 992,
+        spacerClass: 'topbottom-spacer',
+        // minWidth: 992,
         zIndex: 1003
     });
 
@@ -1694,8 +1699,54 @@ setTimeout(function(){
             $('#mainmenu').scrollToFixed({marginTop: topbottomH - topnavH});
         }
     } else {
-        $('#mainmenu').scrollToFixed();
+        $('#mainmenu').scrollToFixed({bottom: 0, zIndex: 1004});
+
+        var lastScrollTop = 0;
+
+        window.addEventListener("scroll", function(){
+            console.log('on scroll');
+            var st = window.pageYOffset || document.documentElement.scrollTop;
+            if (st > lastScrollTop) {
+                $('.topbottom-spacer').css('display', 'none');
+                $('#topbottom').css('position', 'static');
+            } else if (st < lastScrollTop) {
+                $('.topbottom-spacer').css('display', 'block');
+                $('#topbottom').css('position', 'fixed');
+            }
+            lastScrollTop = st <= 0 ? 0 : st;
+
+
+            var cart_total_mobile =  $('#cart-total-mobile');
+            if (cart_total_mobile) {
+                console.log('cart_total_mobile');
+                if (isInViewport(document.querySelector('#bx-soa-total'))) {
+                    console.log('is in viewport');
+                    cart_total_mobile.css('display', 'none');
+                    $('.general-nav-spacer-mobile').css('height', '0');
+                } else {
+                    console.log('not in viewport');
+                    cart_total_mobile.css('display', 'flex');
+                    $('.general-nav-spacer-mobile').css('height', cart_total_mobile.outerHeight() + 'px');
+                }
+            }
+        }, false);
     }
+
+    function isInViewport(el) {
+        const rect = el.getBoundingClientRect();
+
+        var isinview = (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+
+        );
+
+        // returns true or false based on whether or not the element is in viewport
+        return isinview;
+    }
+
 
 
     //$('#mainmenu').scrollToFixed();
