@@ -159,6 +159,10 @@
 	color:#fff;
 }
 
+#horizontal-multilevel-menu .root_back.header-new-main-menu {
+	height: auto;
+	padding: 0;
+}
 
 #horizontal-multilevel-menu .root_back
 {
@@ -183,9 +187,9 @@ padding:10px 0px;
 }
 
 /*Sub-menu box*/
-#horizontal-multilevel-menu li ul
+#horizontal-multilevel-menu li ul.header-new-mainmenu-ul
 {
-	/*position:absolute;*/
+	position: relative;
 	/*top:-999em;*/
 	top:0px;
 	display:none;

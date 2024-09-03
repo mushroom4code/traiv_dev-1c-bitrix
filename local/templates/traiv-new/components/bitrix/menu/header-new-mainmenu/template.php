@@ -15,12 +15,12 @@ foreach($arResult as $arItem):?>
 
 		<?if ($arItem["DEPTH_LEVEL"] == 1):?>
 			<li rel="1" class="col"><a href="<?=$arItem["LINK"]?>" class="<?if ($arItem["SELECTED"]):?>root-item-selected<?else:?>root-item<?endif?>" data-link-text="<?=$arItem["TEXT"]?>"><span><?=$arItem["TEXT"]?></span><i class="fa fa-arrow-right header-menu-icon"></i></a><!-- <div class='main_menu_arrow'></div>-->
-				<div class="root_back">
+				<div class="root_back header-new-main-menu">
 				    <div class="container">
       <div class="row g-0">
       
         
-				<ul rel="ul1">
+				<ul class="header-new-mainmenu-ul" rel="ul1">
 		<?else:?>
 			<li<?if ($arItem["SELECTED"]):?> class="item-selected"<?endif?> rel="li1"><a href="<?=$arItem["LINK"]?>" class="parent"><?=$arItem["TEXT"]?></a>
 				<ul>
