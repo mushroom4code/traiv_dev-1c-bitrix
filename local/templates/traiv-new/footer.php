@@ -539,7 +539,7 @@ $APPLICATION->IncludeComponent(
             </div>
 
             <div class="col-2 text-center" id="cart_item">
-                <a href="/personal/order/make/" class="cart_link">
+                <a href="/personal/cart/" class="cart_link">
                     <i class="fa fa-shopping-cart position-relative">
                  <span id="decodeCardNums">
                      <?php if ($APPLICATION->GetCurPage() !== '/personal/cart/' && $APPLICATION->GetCurPage() !== '/personal/order/make/'): ?>

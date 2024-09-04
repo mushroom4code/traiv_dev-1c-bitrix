@@ -5,18 +5,27 @@ use Bitrix\Main\ModuleManager;
 
 $this->setFrameMode(true);
 
+require_once $_SERVER["DOCUMENT_ROOT"] .'/local/php_interface/include/Mobile_Detect.php';
+$detect = new Mobile_Detect;
+
 ?>
 
 <section id="content">
 	<div class="container">
-		<?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "traiv.detail", Array(
-      "COMPONENT_TEMPLATE" => ".default",
-        "START_FROM" => "0",
-        "PATH" => "",
-        "SITE_ID" => "zf",
-      ),
-      false
-    );?>
+        <?php if (!$detect->isMobile() && !$detect->isTablet()): ?>
+            <?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "traiv.detail", Array(
+            "COMPONENT_TEMPLATE" => ".default",
+            "START_FROM" => "0",
+            "PATH" => "",
+            "SITE_ID" => "zf",
+            ),
+          false
+            );?>
+        <?php else: ?>
+            <div class="back-to-previous-mobile-container">
+                <a href="/catalog/" class="back-to-previous-mobile"><i class="fa fa-angle-left"></i></a>
+            </div>
+        <?php endif; ?>
 				<?
 				
 				/*if ( $USER->IsAuthorized() )

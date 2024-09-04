@@ -8089,6 +8089,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 
 		editTotalBlock: function()
 		{
+			console.log('editTotalBlock');
 			if (!this.totalInfoBlockNode || !this.result.TOTAL)
 				return;
 
@@ -8228,6 +8229,45 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 					})
 				);
 
+				var cart_total_mobile_node = document.getElementById('cart-total-mobile');
+				cart_total_mobile_node.innerHTML = '';
+
+				cart_total_mobile_node.appendChild(
+					BX.create('DIV', {
+						props: {className: 'cart-total-mobile-container'},
+						html: '<span class="cart-total-mobile-title">Итого</span>' +
+							'<span class="cart-total-mobile-total total">' + this.result.TOTAL.ORDER_PRICE + ' руб.</span>'
+					})
+				);
+
+				if (this.result.TOTAL.ORDER_PRICE >= 5000) {
+					cart_total_mobile_node.appendChild(
+						BX.create('DIV', {
+							props: {className: 'btn-group-blue btn-order-save-second'},
+							children: [
+								BX.create('A', {
+									props: {
+										href: 'javascript:void(0)',
+										className: 'btn-blue'
+									},
+									html: '<span><i class="fa fa-cart"></i> Оформить заказ</span>',
+									events: {
+										click: BX.proxy(this.clickOrderSaveAction, this)
+									}
+								})
+
+							]
+						})
+					);
+				} else {
+					cart_total_mobile_node.appendChild(
+						BX.create('DIV', {
+							props: {className: 'check_type_pack_basket_mobile'},
+							html: '<i class="fa fa-info-circle"></i>' +
+								'<span>Минимальная сумма заказа 5 000 рублей</span>'
+						})
+					);
+				}
 
 				if (this.result.TOTAL.ORDER_PRICE < 5000) {
 
@@ -8279,6 +8319,7 @@ BX.namespace('BX.Sale.OrderAjaxComponent');
 
 		createTotalUnit: function(name, value, params)
 		{
+			console.log('create total unit');
 			var totalValue, className = 'bx-soa-cart-total-line';
 
 			name = name || '';

@@ -1655,10 +1655,10 @@ setTimeout(function(){
         preFixed: function () {
             //$('#mainmenu').scrollToFixed();
             $('#topbottom .topbottom_scroll').css('min-height', '60px');
-            $('#title-search').parent()
-                .removeClass('col-xl-5 col-lg-5 col-md-5 ')
-                .addClass('col-xl-3 col-lg-3 col-md-3');
             if (!mobileDetect) {
+                $('#title-search').parent()
+                    .removeClass('col-xl-5 col-lg-5 col-md-5 ')
+                    .addClass('col-xl-3 col-lg-3 col-md-3');
                 $('#scroll-to-fixed-button').css('display', 'block');
                 $('.logotype').children('img').stop().animate({'width': '70%'}, 100);
             }
@@ -1675,14 +1675,17 @@ setTimeout(function(){
         },
         preUnfixed: function () {
             $('#topbottom .topbottom_scroll').css('min-height', '110px');
-            $('#title-search').parent()
-                .removeClass('col-xl-3 col-lg-3 col-md-3')
-                .addClass('col-xl-5 col-lg-5');
+            if (!mobileDetect) {
+                $('#title-search').parent()
+                    .removeClass('col-xl-3 col-lg-3 col-md-3')
+                    .addClass('col-xl-5 col-lg-5');
+            }
             $('#scroll-to-fixed-button').css('display', 'none');
         },
         spacerClass: 'topbottom-spacer',
+        dontSetWidth: true,
         // minWidth: 992,
-        zIndex: 1003
+        zIndex: 1005
     });
 
 
@@ -1699,12 +1702,11 @@ setTimeout(function(){
             $('#mainmenu').scrollToFixed({marginTop: topbottomH - topnavH});
         }
     } else {
-        $('#mainmenu').scrollToFixed({bottom: 0, zIndex: 1004});
+        $('#mainmenu').scrollToFixed({bottom: 0, zIndex: 1006});
 
         var lastScrollTop = 0;
 
         window.addEventListener("scroll", function(){
-            console.log('on scroll');
             var st = window.pageYOffset || document.documentElement.scrollTop;
             if (st > lastScrollTop) {
                 $('.topbottom-spacer').css('display', 'none');
@@ -1713,38 +1715,62 @@ setTimeout(function(){
                 $('.topbottom-spacer').css('display', 'block');
                 $('#topbottom').css('position', 'fixed');
             }
-            lastScrollTop = st <= 0 ? 0 : st;
 
 
             var cart_total_mobile =  $('#cart-total-mobile');
             if (cart_total_mobile) {
-                console.log('cart_total_mobile');
                 if (isInViewport(document.querySelector('#bx-soa-total'))) {
-                    console.log('is in viewport');
                     cart_total_mobile.css('display', 'none');
                     $('.general-nav-spacer-mobile').css('height', '0');
                 } else {
-                    console.log('not in viewport');
                     cart_total_mobile.css('display', 'flex');
                     $('.general-nav-spacer-mobile').css('height', cart_total_mobile.outerHeight() + 'px');
                 }
             }
+
+            var detail_bottom_mobile = $('#detail-bottom-mobile');
+            if (detail_bottom_mobile) {
+                if (isInViewport(document.querySelector('.prod-summary-block .prod-price-info.mobile-marked'))) {
+                    detail_bottom_mobile.css('display', 'none');
+                    $('.general-nav-spacer-mobile').css('height', '0');
+                } else {
+                    detail_bottom_mobile.css('display', 'flex');
+                    $('.general-nav-spacer-mobile').css('height', detail_bottom_mobile.outerHeight() + 'px');
+                }
+            }
+
+            var top_menu_catalog_mobile = $('.top-menu-catalog-mobile');
+            if (top_menu_catalog_mobile) {
+                if (st > lastScrollTop) {
+                    $('.top-menu-catalog-mobile-spacer').css('display', 'none');
+                    $('.top-menu-catalog-mobile').css('display', 'none');
+                } else if (st < lastScrollTop) {
+
+                    $('.top-menu-catalog-mobile-spacer').css('display', 'block');
+                    $('.top-menu-catalog-mobile').css('display', 'block');
+                }
+            }
+            lastScrollTop = st <= 0 ? 0 : st;
         }, false);
     }
 
     function isInViewport(el) {
-        const rect = el.getBoundingClientRect();
+        if (el) {
+            const rect = el.getBoundingClientRect();
 
-        var isinview = (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            var isinview = (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
 
-        );
+            );
 
-        // returns true or false based on whether or not the element is in viewport
-        return isinview;
+            // returns true or false based on whether or not the element is in viewport
+            return isinview;
+        } else {
+            return false;
+        }
     }
 
 
@@ -2259,6 +2285,7 @@ setTimeout(function(){
             $(this).next('.section-filter-cont').slideToggle();
             if ($(this).hasClass('opened')) {
                 $(this).removeClass("opened").find('span').text($(this).data("open"));
+                $('#modef').css('display', 'none');
             } else {
                 $(this).addClass('opened').find('span').text($(this).data("close"));
             }
@@ -2469,10 +2496,10 @@ setTimeout(function(){
             $('.sub_item_content_help').css('display', 'none');
 
             $('.item').removeClass('active');
-            $('.item').children('.active_icon').removeClass('active_icon').addClass('spriten');
+            // $('.item').children('.active_icon').removeClass('active_icon').addClass('spriten');
 
             $(this).addClass('active');
-            $(this).children('.spriten').removeClass('spriten').addClass('active_icon');
+            // $(this).children('.spriten').removeClass('spriten').addClass('active_icon');
             e.preventDefault();
             let rel = $(this).attr('rel');
             if (rel) {

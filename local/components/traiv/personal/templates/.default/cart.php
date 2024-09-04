@@ -1,6 +1,11 @@
 <? if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die(); ?>
 <? include_once 'top.php'; ?>
 
+<?php
+require_once $_SERVER["DOCUMENT_ROOT"] .'/local/php_interface/include/Mobile_Detect.php';
+$detect = new Mobile_Detect;
+?>
+
 <div class="row g-0 pb-3" id="lk-cart-list">
 
     <? if (count($arResult["ITEMS"]) > 0): ?>
@@ -195,6 +200,7 @@
 
 </div>
 
+<?php if ($detect->isMobile() || $detect->isTablet()): ?>
 <?php if (count($arResult["ITEMS"]) > 0): ?>
 <div id="cart-total-mobile">
     <div class="cart-total-mobile-container">
@@ -213,6 +219,7 @@
         <span>Минимальная сумма заказа 5 000 рублей</span>
     </div>
 </div>
+<?php endif; ?>
 <?php endif; ?>
 
 <? include_once 'bottom.php'; ?>

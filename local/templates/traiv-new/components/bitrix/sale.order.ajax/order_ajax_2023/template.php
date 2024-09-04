@@ -601,6 +601,12 @@ else
 		);
 		?>
 	</div>
+
+    <?php if (count($arResult["BASKET_ITEMS"]) > 0): ?>
+        <div id="cart-total-mobile">
+        </div>
+<?php endif; ?>
+
 	<?
 	$signer = new Main\Security\Sign\Signer;
 	$signedParams = $signer->sign(base64_encode(serialize($arParams)), 'sale.order.ajax');

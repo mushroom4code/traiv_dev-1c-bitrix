@@ -2,6 +2,9 @@
         
 $this->setFrameMode(true);
 
+require_once $_SERVER["DOCUMENT_ROOT"] .'/local/php_interface/include/Mobile_Detect.php';
+$detect = new Mobile_Detect;
+
 $BASE_PRICE = $arResult['ITEM_PRICES']['0'];
 
 $productId = $arResult["ID"];
@@ -1728,129 +1731,7 @@ endif;
 			        ?>
 			        
 			        
-			        <a href="#x" class="w-form__overlay-one-click" id="w-form-one-click-zp"></a>
-                        <div class="w-form__popup-one-click">
-			        <? $APPLICATION->IncludeComponent(
-			        "slam:easyform",
-			        "traiv",
-			        array(
-			        "COMPONENT_TEMPLATE" => "traiv",
-			        "FORM_ID" => "FORM88",
-			        "FORM_NAME" => "Запросить цену",
-			        "WIDTH_FORM" => "500px",
-			        "DISPLAY_FIELDS" => array(
-			        0 => "TITLE",
-			        1 => "EMAIL",
-			        2 => "PHONE",
-			        3 => "MESSAGE",
-			        4 => "HIDDEN",
-			        5 => "",
-			        ),
-			        "REQUIRED_FIELDS" => array(
-			        0 => "TITLE",
-			        1 => "EMAIL",
-			        2 => "PHONE",
-			        3 => "MESSAGE",
-			        ),
-			        "FIELDS_ORDER" => "TITLE,EMAIL,PHONE,MESSAGE,HIDDEN",
-			        "FORM_AUTOCOMPLETE" => "Y",
-			        "HIDE_FIELD_NAME" => "N",
-			        "HIDE_ASTERISK" => "N",
-			        "FORM_SUBMIT_VALUE" => "Отправить",
-			        "SEND_AJAX" => "Y",
-			        "SHOW_MODAL" => "N",
-			        "_CALLBACKS" => "",
-			        "TITLE_SHOW_MODAL" => "Спасибо!",
-			        "OK_TEXT" => "Ваше сообщение отправлено. Мы свяжемся с вами в течение ближайшего рабочего часа",
-			        "ERROR_TEXT" => "Произошла ошибка. Сообщение не отправлено.",
-			        "ENABLE_SEND_MAIL" => "Y",
-			        "CREATE_SEND_MAIL" => "",
-			        "EVENT_MESSAGE_ID" => array(
-			        ),
-			        "EMAIL_TO" => "info@traiv-komplekt.ru",
-			        "EMAIL_BCC" => "dmitrii.kozlov@traiv.ru",
-			        "MAIL_SUBJECT_ADMIN" => "#SITE_NAME#: Сообщение из формы обратной связи ЗАПРОСИТЬ ЦЕНУ",
-			        "EMAIL_FILE" => "Y",
-			        "EMAIL_SEND_FROM" => "N",
-			        "CREATE_SEND_MAIL_SENDER" => "",
-			        "EVENT_MESSAGE_ID_SENDER" => array(
-			        0 => "121",
-			        ),
-			        "EMAIL_BCC_SENDER" => "dmitrii.kozlov@traiv.ru",
-			        "MAIL_SUBJECT_SENDER" => "#SITE_NAME#: Сообщение из формы обратной связи",
-			        "USE_IBLOCK_WRITE" => "Y",
-			        "CATEGORY_TITLE_TITLE" => "Ваше имя",
-			        "CATEGORY_TITLE_TYPE" => "text",
-			        "CATEGORY_TITLE_PLACEHOLDER" => "",
-			        "CATEGORY_TITLE_VALUE" => "",
-			        "CATEGORY_TITLE_VALIDATION_MESSAGE" => "Обязательное поле",
-			        "CATEGORY_TITLE_VALIDATION_ADDITIONALLY_MESSAGE" => "maxlength=\"400\"",
-			        "CATEGORY_EMAIL_TITLE" => "Ваш E-mail",
-			        "CATEGORY_EMAIL_TYPE" => "email",
-			        "CATEGORY_EMAIL_PLACEHOLDER" => "example@example.com",
-			        "CATEGORY_EMAIL_VALUE" => "",
-			        "CATEGORY_EMAIL_VALIDATION_MESSAGE" => "Обязательное поле",
-			        "CATEGORY_EMAIL_VALIDATION_ADDITIONALLY_MESSAGE" => "data-bv-emailaddress-message=\"E-mail введен некорректно\"",
-			        "CATEGORY_PHONE_TITLE" => "Мобильный телефон",
-			        "CATEGORY_PHONE_TYPE" => "tel",
-			        "CATEGORY_PHONE_PLACEHOLDER" => "+7(999)999-99-99",
-			        "CATEGORY_PHONE_VALUE" => "",
-			        "CATEGORY_PHONE_VALIDATION_MESSAGE" => "Обязательное поле",
-			        "CATEGORY_PHONE_VALIDATION_ADDITIONALLY_MESSAGE" => "",
-			        "CATEGORY_PHONE_INPUTMASK" => "Y",
-			        "CATEGORY_PHONE_INPUTMASK_TEMP" => "+7 (999) 999-9999",
-			        "CATEGORY_MESSAGE_TITLE" => "Сообщение",
-			        "CATEGORY_MESSAGE_TYPE" => "textarea",
-			        "CATEGORY_MESSAGE_PLACEHOLDER" => "",
-			        "CATEGORY_MESSAGE_VALUE" => "",
-			        "CATEGORY_MESSAGE_VALIDATION_ADDITIONALLY_MESSAGE" => "",
-			        "USE_CAPTCHA" => "Y",
-			        "USE_MODULE_VARNING" => "N",
-			        "USE_FORMVALIDATION_JS" => "Y",
-			        "HIDE_FORMVALIDATION_TEXT" => "N",
-			        "INCLUDE_BOOTSRAP_JS" => "Y",
-			        "USE_JQUERY" => "N",
-			        "USE_BOOTSRAP_CSS" => "Y",
-			        "USE_BOOTSRAP_JS" => "N",
-			        "CUSTOM_FORM" => "",
-			        "CAPTCHA_TITLE" => "",
-			        "CATEGORY_DOCS_TITLE" => "Вложение",
-			        "CATEGORY_DOCS_TYPE" => "file",
-			        "CATEGORY_DOCS_FILE_EXTENSION" => "doc, docx, xls, xlsx, txt, rtf, pdf, png, jpeg, jpg, gif",
-			        "CATEGORY_DOCS_FILE_MAX_SIZE" => "20971520",
-			        "CATEGORY_DOCS_DROPZONE_INCLUDE" => "N",
-			        "USE_INPUTMASK_JS" => "Y",
-			        "CATEGORY_______________________________________________TITLE" => "ИНН (для юридических лиц)",
-			        "CATEGORY_______________________________________________TYPE" => "text",
-			        "CATEGORY_______________________________________________PLACEHOLDER" => "",
-			        "CATEGORY_______________________________________________VALUE" => "",
-			        "CATEGORY_______________________________________________VALIDATION_ADDITIONALLY_MESSAGE" => "^[a-zA-Z0-9_]+\$",
-			        "CREATE_IBLOCK" => "",
-			        "IBLOCK_TYPE" => "-",
-			        "IBLOCK_ID" => "37",
-			        "ACTIVE_ELEMENT" => "N",
-			        "CATEGORY_TITLE_IBLOCK_FIELD" => "NAME",
-			        "CATEGORY_EMAIL_IBLOCK_FIELD" => "FORM_EMAIL",
-			        "CATEGORY_PHONE_IBLOCK_FIELD" => "FORM_PHONE",
-			        "CATEGORY_MESSAGE_IBLOCK_FIELD" => "PREVIEW_TEXT",
-			        "CATEGORY_DOCS_IBLOCK_FIELD" => "FORM_DOCS",
-			        "CATEGORY_______________________________________________IBLOCK_FIELD" => "FORM_ИНН (для юридических лиц)",
-			        "FORM_SUBMIT_VARNING" => "Нажимая на кнопку \"#BUTTON#\", вы даете согласие на обработку <a target=\"_blanc\" href=\"/politika-konfidentsialnosti/\">персональных данных</a>",
-			        "COMPOSITE_FRAME_MODE" => "A",
-			        "COMPOSITE_FRAME_TYPE" => "AUTO",
-			        "ELEMENT_ID" => $arResult["ID"],
-			        "FORMATED_NAME" => $formatedname,
-			        "CATEGORY_MESSAGE_VALIDATION_MESSAGE" => "Обязательное поле",
-			        "CATEGORY_HIDDEN_TITLE" => "Скрытое поле",
-			        "CATEGORY_HIDDEN_TYPE" => "hidden",
-			        "CATEGORY_HIDDEN_VALUE" => "",
-			        "CATEGORY_HIDDEN_IBLOCK_FIELD" => "FORM_HIDDEN"
-					                    ),
-					                    false
-					                    );
-			     ?>
-			     <a class="w-form__close" title="Закрыть" href="#w-form__close"><i class="fa fa-close"></i></a>
-                        </div>
+
 			 
 
 			<!-- for mobil -->
@@ -1930,7 +1811,7 @@ endif;
 		        <?php 
 		        if ($pack > 1){
 		        ?>
-		        <div class="prod-price-info">
+		        <div class="prod-price-info mobile-marked">
         <div class="check_type_pack"><i class="fa fa-exclamation-circle"></i>Внимание: продажа осуществляется кратно упаковкам.</div>
         </div>
         <?php 
@@ -2438,6 +2319,158 @@ echo "</div>";
     false
 );?>
 </div>
+        <?php if ($detect->isMobile() || $detect->isTablet()): ?>
+        <div id="detail-bottom-mobile">
+            <div class="detail-bottom-mobile-container">
+                <?php if (is_null($printPrice) || $printPrice === '0 руб.'): ?>
+                    <div class="prod-addwrap-opt text-center mb-1">
+                        <div class="btn-group-blue">
+                            <a href="#w-form-one-click-zp" class="btn-blue-round" rel="nofollow">
+                                <span>Запросить цену</span>
+                            </a>
+                        </div>
+                    </div>
+                <?php else: ?>
+                    <span class="detail-bottom-mobile-title">Цена</span>
+                    <span class="detail-bottom-mobile-total total"><?= $printPrice ?></span>
+                <?php endif; ?>
+            </div>
+            <a data-href="/catalog/product/din_916_45_h_vint_ustanovochnyy_s_zasverlennym_kontsom_m_10_x_10_kitay/?action=ADD2BASKET&amp;id=245896&amp;QUANTITY="
+               id="buy"
+               class="btn-cart-roundw new-item-line-buy"
+               data-ajax-order-detail=""
+               onclick="ym(18248638,'reachGoal','addToBasketItem'); return true;"
+               rel="nofollow">
+                <span>
+                    <i class="fa fa-shopping-cart"></i> В корзину
+                </span>
+            </a>
+        </div>
+        <?php endif; ?>
+
+        <a href="#x" class="w-form__overlay-one-click" id="w-form-one-click-zp"></a>
+        <div class="w-form__popup-one-click">
+            <? $APPLICATION->IncludeComponent(
+                "slam:easyform",
+                "traiv",
+                array(
+                    "COMPONENT_TEMPLATE" => "traiv",
+                    "FORM_ID" => "FORM88",
+                    "FORM_NAME" => "Запросить цену",
+                    "WIDTH_FORM" => "500px",
+                    "DISPLAY_FIELDS" => array(
+                        0 => "TITLE",
+                        1 => "EMAIL",
+                        2 => "PHONE",
+                        3 => "MESSAGE",
+                        4 => "HIDDEN",
+                        5 => "",
+                    ),
+                    "REQUIRED_FIELDS" => array(
+                        0 => "TITLE",
+                        1 => "EMAIL",
+                        2 => "PHONE",
+                        3 => "MESSAGE",
+                    ),
+                    "FIELDS_ORDER" => "TITLE,EMAIL,PHONE,MESSAGE,HIDDEN",
+                    "FORM_AUTOCOMPLETE" => "Y",
+                    "HIDE_FIELD_NAME" => "N",
+                    "HIDE_ASTERISK" => "N",
+                    "FORM_SUBMIT_VALUE" => "Отправить",
+                    "SEND_AJAX" => "Y",
+                    "SHOW_MODAL" => "N",
+                    "_CALLBACKS" => "",
+                    "TITLE_SHOW_MODAL" => "Спасибо!",
+                    "OK_TEXT" => "Ваше сообщение отправлено. Мы свяжемся с вами в течение ближайшего рабочего часа",
+                    "ERROR_TEXT" => "Произошла ошибка. Сообщение не отправлено.",
+                    "ENABLE_SEND_MAIL" => "Y",
+                    "CREATE_SEND_MAIL" => "",
+                    "EVENT_MESSAGE_ID" => array(
+                    ),
+                    "EMAIL_TO" => "info@traiv-komplekt.ru",
+                    "EMAIL_BCC" => "dmitrii.kozlov@traiv.ru",
+                    "MAIL_SUBJECT_ADMIN" => "#SITE_NAME#: Сообщение из формы обратной связи ЗАПРОСИТЬ ЦЕНУ",
+                    "EMAIL_FILE" => "Y",
+                    "EMAIL_SEND_FROM" => "N",
+                    "CREATE_SEND_MAIL_SENDER" => "",
+                    "EVENT_MESSAGE_ID_SENDER" => array(
+                        0 => "121",
+                    ),
+                    "EMAIL_BCC_SENDER" => "dmitrii.kozlov@traiv.ru",
+                    "MAIL_SUBJECT_SENDER" => "#SITE_NAME#: Сообщение из формы обратной связи",
+                    "USE_IBLOCK_WRITE" => "Y",
+                    "CATEGORY_TITLE_TITLE" => "Ваше имя",
+                    "CATEGORY_TITLE_TYPE" => "text",
+                    "CATEGORY_TITLE_PLACEHOLDER" => "",
+                    "CATEGORY_TITLE_VALUE" => "",
+                    "CATEGORY_TITLE_VALIDATION_MESSAGE" => "Обязательное поле",
+                    "CATEGORY_TITLE_VALIDATION_ADDITIONALLY_MESSAGE" => "maxlength=\"400\"",
+                    "CATEGORY_EMAIL_TITLE" => "Ваш E-mail",
+                    "CATEGORY_EMAIL_TYPE" => "email",
+                    "CATEGORY_EMAIL_PLACEHOLDER" => "example@example.com",
+                    "CATEGORY_EMAIL_VALUE" => "",
+                    "CATEGORY_EMAIL_VALIDATION_MESSAGE" => "Обязательное поле",
+                    "CATEGORY_EMAIL_VALIDATION_ADDITIONALLY_MESSAGE" => "data-bv-emailaddress-message=\"E-mail введен некорректно\"",
+                    "CATEGORY_PHONE_TITLE" => "Мобильный телефон",
+                    "CATEGORY_PHONE_TYPE" => "tel",
+                    "CATEGORY_PHONE_PLACEHOLDER" => "+7(999)999-99-99",
+                    "CATEGORY_PHONE_VALUE" => "",
+                    "CATEGORY_PHONE_VALIDATION_MESSAGE" => "Обязательное поле",
+                    "CATEGORY_PHONE_VALIDATION_ADDITIONALLY_MESSAGE" => "",
+                    "CATEGORY_PHONE_INPUTMASK" => "Y",
+                    "CATEGORY_PHONE_INPUTMASK_TEMP" => "+7 (999) 999-9999",
+                    "CATEGORY_MESSAGE_TITLE" => "Сообщение",
+                    "CATEGORY_MESSAGE_TYPE" => "textarea",
+                    "CATEGORY_MESSAGE_PLACEHOLDER" => "",
+                    "CATEGORY_MESSAGE_VALUE" => "",
+                    "CATEGORY_MESSAGE_VALIDATION_ADDITIONALLY_MESSAGE" => "",
+                    "USE_CAPTCHA" => "Y",
+                    "USE_MODULE_VARNING" => "N",
+                    "USE_FORMVALIDATION_JS" => "Y",
+                    "HIDE_FORMVALIDATION_TEXT" => "N",
+                    "INCLUDE_BOOTSRAP_JS" => "Y",
+                    "USE_JQUERY" => "N",
+                    "USE_BOOTSRAP_CSS" => "Y",
+                    "USE_BOOTSRAP_JS" => "N",
+                    "CUSTOM_FORM" => "",
+                    "CAPTCHA_TITLE" => "",
+                    "CATEGORY_DOCS_TITLE" => "Вложение",
+                    "CATEGORY_DOCS_TYPE" => "file",
+                    "CATEGORY_DOCS_FILE_EXTENSION" => "doc, docx, xls, xlsx, txt, rtf, pdf, png, jpeg, jpg, gif",
+                    "CATEGORY_DOCS_FILE_MAX_SIZE" => "20971520",
+                    "CATEGORY_DOCS_DROPZONE_INCLUDE" => "N",
+                    "USE_INPUTMASK_JS" => "Y",
+                    "CATEGORY_______________________________________________TITLE" => "ИНН (для юридических лиц)",
+                    "CATEGORY_______________________________________________TYPE" => "text",
+                    "CATEGORY_______________________________________________PLACEHOLDER" => "",
+                    "CATEGORY_______________________________________________VALUE" => "",
+                    "CATEGORY_______________________________________________VALIDATION_ADDITIONALLY_MESSAGE" => "^[a-zA-Z0-9_]+\$",
+                    "CREATE_IBLOCK" => "",
+                    "IBLOCK_TYPE" => "-",
+                    "IBLOCK_ID" => "37",
+                    "ACTIVE_ELEMENT" => "N",
+                    "CATEGORY_TITLE_IBLOCK_FIELD" => "NAME",
+                    "CATEGORY_EMAIL_IBLOCK_FIELD" => "FORM_EMAIL",
+                    "CATEGORY_PHONE_IBLOCK_FIELD" => "FORM_PHONE",
+                    "CATEGORY_MESSAGE_IBLOCK_FIELD" => "PREVIEW_TEXT",
+                    "CATEGORY_DOCS_IBLOCK_FIELD" => "FORM_DOCS",
+                    "CATEGORY_______________________________________________IBLOCK_FIELD" => "FORM_ИНН (для юридических лиц)",
+                    "FORM_SUBMIT_VARNING" => "Нажимая на кнопку \"#BUTTON#\", вы даете согласие на обработку <a target=\"_blanc\" href=\"/politika-konfidentsialnosti/\">персональных данных</a>",
+                    "COMPOSITE_FRAME_MODE" => "A",
+                    "COMPOSITE_FRAME_TYPE" => "AUTO",
+                    "ELEMENT_ID" => $arResult["ID"],
+                    "FORMATED_NAME" => $formatedname,
+                    "CATEGORY_MESSAGE_VALIDATION_MESSAGE" => "Обязательное поле",
+                    "CATEGORY_HIDDEN_TITLE" => "Скрытое поле",
+                    "CATEGORY_HIDDEN_TYPE" => "hidden",
+                    "CATEGORY_HIDDEN_VALUE" => "",
+                    "CATEGORY_HIDDEN_IBLOCK_FIELD" => "FORM_HIDDEN"
+                ),
+                false
+            );
+            ?>
+            <a class="w-form__close" title="Закрыть" href="#w-form__close"><i class="fa fa-close"></i></a>
+        </div>
 <?php 
 if (!empty($arResult["IBLOCK_SECTION_ID"])) {
 ?>

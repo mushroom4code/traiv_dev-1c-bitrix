@@ -144,7 +144,7 @@ while($UFResult = $rsResult->GetNext())
                 );?>
         	</div>
         	<!-- end Catalog Left Menu -->
-        	
+                <?php if(!$detect->isMobile() && !$detect->isTablet()): ?>
         	<!-- Start Filter -->
         	        <?  
 	        $APPLICATION->IncludeComponent(
@@ -212,7 +212,8 @@ while($UFResult = $rsResult->GetNext())
 	        
 ?>
         	<!-- end Filter -->
-        	
+        	<?php endif; ?>
+
         	</div>
         	<div class="col-12 col-xl-9 col-lg-9 col-md-9">
         	<!-- <div class="row"> -->
@@ -519,6 +520,7 @@ while($UFResult = $rsResult->GetNext())
                             $_SESSION['method'] = $_GET['method'];
                         }
                         ?>
+                        <?php if(!$detect->isMobile() && !$detect->isTablet()): ?>
                     <p class="prodlist-i-info">
                     <span class="sort_title">Сортировать:</span>
                         <span class="sort_link_area">
@@ -569,6 +571,144 @@ while($UFResult = $rsResult->GetNext())
                          }else {echo "asc";}?>"></i> по цене</a>-->
                         </span>
                     </p>
+                        <?php else: ?>
+                        <div class="top-menu-catalog-mobile">
+                            <div class="top-menu-catalog-mobile-container">
+                            <div class="sort-container-mobile prodlist-i-info">
+                                <span class="sort_title">Сортировать <i class="fa fa-angle-down"></i></span>
+                                <span class="sort_link_area">
+                         <a href="<?=$arResult["SECTION_PAGE_URL"]?>?sort=PROPERTY_1208&method=<?php if($_SESSION['sort'] == 'PROPERTY_1208'){
+                             if($_SESSION['method'] == 'desc'){
+                                 echo "asc";
+                             }
+                             else {
+                                 echo "desc";
+                             }
+                         }else {echo "asc";}?>" class="prodlist-i-favorites <?if($_SESSION['sort'] == 'PROPERTY_1208'){echo 'active';} ?>"><i class="fa fa-sort-amount-<?php if($_SESSION['sort'] == 'PROPERTY_1208'){
+                                 if($_SESSION['method'] == 'desc'){
+                                     echo "desc";
+                                 }
+                                 else {
+                                     echo "asc";
+                                 }
+                             }else {echo "desc";}?>"></i> по наличию</a>
+                        <a href="<?=$arResult["SECTION_PAGE_URL"]?>?sort=PROPERTY_613&method=<?php if($_SESSION['sort'] == 'PROPERTY_613'){
+                            if($_SESSION['method'] == 'desc'){
+                                echo "asc";
+                            }
+                            else {
+                                echo "desc";
+                            }
+                        }else {echo "asc";}?>" class="prodlist-i-favorites <?if($_SESSION['sort'] == 'PROPERTY_613'){echo 'active';} ?>"><i class="fa fa-sort-amount-<?php if($_SESSION['sort'] == 'PROPERTY_613'){
+                                if($_SESSION['method'] == 'desc'){
+                                    echo "asc";
+                                }
+                                else {
+                                    echo "desc";
+                                }
+                            }else {echo "asc";}?>"></i> по размеру</a>
+                                    <!-- <a href="<?=$arResult["SECTION_PAGE_URL"]?>?sort=catalog_PRICE_2&method=<?php if($_SESSION['sort'] == 'catalog_PRICE_2'){
+                                        if($_SESSION['method'] == 'desc'){
+                                            echo "asc";
+                                        }
+                                        else {
+                                            echo "desc";
+                                        }
+                                    }else {echo "asc";}?>" class="prodlist-i-favorites <?if($_SESSION['sort'] == 'catalog_PRICE_2'){echo 'active';} ?>" class="prodlist-i-favorites <?if($_SESSION['sort'] == 'catalog_PRICE_2'){echo 'active';} ?>"><i class="fa fa-sort-amount-<?php if($_SESSION['sort'] == 'catalog_PRICE_2'){
+                                        if($_SESSION['method'] == 'desc'){
+                                            echo "asc";
+                                        }
+                                        else {
+                                            echo "desc";
+                                        }
+                                    }else {echo "asc";}?>"></i> по цене</a>-->
+                        </span>
+                            </div>
+                                <!-- Start Filter -->
+                                <?
+                                $APPLICATION->IncludeComponent(
+                                    "kombox:filter",
+                                    "vertical_left",
+                                    array(
+                                        "IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
+                                        "IBLOCK_ID" => $arParams["IBLOCK_ID"],
+                                        "FILTER_NAME" => $arParams["FILTER_NAME"],
+                                        "SECTION_ID" => $arResult["VARIABLES"]["SECTION_ID"],
+                                        "SECTION_CODE" => $arResult["VARIABLES"]["SECTION_CODE"],
+                                        "HIDE_NOT_AVAILABLE" => "N",
+                                        "CACHE_TYPE" => "A",
+                                        "CACHE_TIME" => $arParams["CACHE_TIME"],
+                                        "CACHE_GROUPS" => "N",
+                                        "SAVE_IN_SESSION" => "N",
+                                        "INCLUDE_JQUERY" => "Y",
+                                        "MESSAGE_ALIGN" => "LEFT",
+                                        "MESSAGE_TIME" => "0",
+                                        "IS_SEF" => "N",
+                                        "CLOSED_PROPERTY_CODE" => array(
+                                            0 => "",
+                                            1 => "",
+                                        ),
+                                        "CLOSED_OFFERS_PROPERTY_CODE" => array(
+                                            0 => "",
+                                            1 => "",
+                                        ),
+                                        "SORT" => "N",
+                                        "FIELDS" => array(
+                                        ),
+                                        "PRICE_CODE" => array(
+                                        ),
+                                        "CONVERT_CURRENCY" => "N",
+                                        "CURRENCY_ID" => $arParams["CURRENCY_ID"],
+                                        "XML_EXPORT" => "Y",
+                                        "SECTION_TITLE" => "NAME",
+                                        "SECTION_DESCRIPTION" => "DESCRIPTION",
+                                        "PAGER_PARAMS_NAME" => $arParams["PAGER_PARAMS_NAME"],
+                                        "COMPONENT_TEMPLATE" => "vertical_left",
+                                        "PAGE_URL" => "",
+                                        "COLUMNS" => "1",
+                                        "STORES_ID" => array(
+                                        ),
+                                        "THEME" => "red",
+                                        "COMPOSITE_FRAME_MODE" => "A",
+                                        "COMPOSITE_FRAME_TYPE" => "AUTO"
+                                    ),
+                                    false
+                                );
+                                //if ($USER->GetID() == '3092' || $USER->GetID() == '2743') {
+                                //sotbit seometa component start
+                                /*$APPLICATION->IncludeComponent(
+                                "sotbit:seo.meta",
+                                ".default",
+                                Array(
+                                "FILTER_NAME" => $arParams["FILTER_NAME"],
+                                "SECTION_ID" => $arResult["VARIABLES"]["SECTION_ID"],
+                                "CACHE_TYPE" => $arParams["CACHE_TYPE"],
+                                "CACHE_TIME" => $arParams["CACHE_TIME"],
+                                )
+                                );*/
+                                //}
+                                //sotbit seometa component end
+
+                                ?>
+                                <!-- end Filter -->
+                                </div>
+                            </div>
+                            <script>
+                                $(function() {
+                                    var topbottom = $('#topbottom');
+                                    var top_menu_catalog_mobile = $('.top-menu-catalog-mobile');
+                                    topbottom.css('box-shadow', '0 1px 20px rgba(3, 27, 78, 15%)');
+                                    top_menu_catalog_mobile.css('top', topbottom.outerHeight() + 'px');
+                                    $('.top-menu-catalog-mobile-spacer').css('height', top_menu_catalog_mobile.outerHeight() + 'px');
+
+                                    $('.top-menu-catalog-mobile .sort_title').click(function () {
+                                        $('.top-menu-catalog-mobile span.sort_title i').toggleClass('active');
+                                        $('.top-menu-catalog-mobile .sort_link_area').toggleClass('flexbox');
+                                    })
+                                });
+                            </script>
+                            <?php endif; ?>
+
                     
                     <?php 
                     }

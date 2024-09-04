@@ -738,7 +738,7 @@ if ( $USER->IsAuthorized() )
         } else {
             ?>
         
-        <section id="topnav" <?php echo $m_check;?>>
+        <section class="d-none d-lg-block" id="topnav" <?php echo $m_check;?>>
 <div class="container d-none d-lg-block">
   <div class="row">
     <div class="col-6 col-xl-3 col-lg-3 col-md-3 text-center text-sm-left">
@@ -847,8 +847,8 @@ if ( $USER->IsAuthorized() )
   </div>
 </div>
 </section>
-
-<section id="topbottom" <?php echo $m_check;?>>
+<section id="topbottom" <?php echo $m_check;?> style="position: relative; z-index: 1005;">
+    <?php if ($APPLICATION->GetCurPage() !== '/personal/order/make/'):?>
     <div class="container topbottom-container">
       <div class="row topbottom_scroll">
         <div class="col-4 col-xl-3 col-lg-3 pt-2 pt-lg-0 text-left">
@@ -1150,7 +1150,17 @@ if ( $USER->IsAuthorized() )
                                         </div>
       </div>
     </div>
+    <?php else: ?>
+        <div class="order-make-header">
+            <a href="/personal/cart/" class="order-make-header-back">
+                <i class="fa fa-arrow-left"></i>
+                <span>В корзину</span>
+            </a>
+            <h2>Оформление заказа</h2>
+        </div>
+    <?php endif; ?>
 </section>
+            <div class="top-menu-catalog-mobile-spacer"></div>
 
 
         

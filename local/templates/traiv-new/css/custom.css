@@ -2427,6 +2427,7 @@ end Topnav
 @ TopBottom
 ----------------------------------*/
 #topbottom {
+	width: 100% !important;
 	background-color:#ffffff;
 }
 
@@ -2852,9 +2853,9 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.22);
 		width: auto;
 	}
 	#topbottom {
-		max-height: 66px;
+		/*max-height: 66px;*/
 		border: 1px solid var(--th-border);
-		box-shadow: 0 10px 20px rgba(3, 27, 78, 8%);
+		box-shadow: 0 10px 20px rgba(3, 27, 78, 15%);
 	}
 	#topbottom .row {
 		min-height: 61px !important;
@@ -5851,6 +5852,41 @@ border-radius: 5px;
 /*----------------------------------
 end InfoItem
 ----------------------------------*/
+
+/* catalog element */
+.back-to-previous-mobile-container .back-to-previous-mobile {
+	color: var(--th-title-color) !important;
+}
+
+#detail-bottom-mobile {
+	position: fixed;
+	bottom: 66px;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 30px;
+	background: #fff;
+	z-index: 1004;
+	box-shadow: 0 -10px 20px rgba(3, 27, 78, 15%);
+	gap: 32px;
+}
+
+#detail-bottom-mobile .detail-bottom-mobile-container {
+	text-wrap: nowrap;
+}
+
+#detail-bottom-mobile .detail-bottom-mobile-title {
+	font-weight: 500;
+}
+
+#detail-bottom-mobile .detail-bottom-mobile-total {
+	margin-left: 10px;
+	font-weight: 700;
+}
+
+/* end catalog element */
 
 /*----------------------------------
 @ MainPageCatalog
@@ -9050,7 +9086,7 @@ font: 500 14px/26px 'Gilroy',sans-serif!important;
 
 .prodlist-i-info .active {
 	background-color: #fafafa;
-	  box-shadow: 0 10px 20px rgba(3,27,78,8%);
+	  box-shadow: 0 10px 20px rgba(3,27,78,15%);
   
     -webkit-transition: background .25s ease,
   border-color .25s ease,
@@ -9797,6 +9833,28 @@ End Filex List
 @ New Filter
 ----------------------------------*/
 
+.top-menu-catalog-mobile {
+	z-index: 1003;
+	position: fixed;
+	top: 67px;
+	left: 0;
+	height: 59px;
+	background: #fff;
+	width: 100%;
+	border: 1px solid var(--th-border);
+	box-shadow: 0 10px 14px rgba(3, 27, 78, 15%);
+}
+
+.top-menu-catalog-mobile-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	position: relative;
+	padding: 10px 15px;
+}
+
+
 /*.section-sb {
 		  border: 0px solid #fff;
   padding: 24px;
@@ -10296,6 +10354,64 @@ border-color: rgba(250,150,62,0);
 	#ys_filter_bitronic .checkbox, #ys_filter_bitronic .lvl2 {
 		font: 500 14px/14px 'Gilroy',sans-serif !important;
 	}
+	.section-sb .section-filter button.section-filter-toggle {
+		min-width: 162px;
+		margin: 0;
+		display: block;
+	}
+	.section-sb div.section-filter {
+		margin: 0;
+	}
+	.section-sb .section-filter div.section-filter-cont {
+		display: none;
+		position: absolute;
+	}
+	div.section-sb {
+		position: static;
+	}
+	div#ys_filter_bitronic {
+		position: static;
+	}
+	.section-sb .section-filter div.section-filter-cont {
+		width: 100%;
+		left: 0;
+		top: 59px;
+	}
+	.top-menu-catalog-mobile span.sort_link_area {
+		background: white;
+		display: flex;
+		gap: 10px;
+		position: absolute;
+		top: 63px;
+		left: 0;
+		padding: 17px;
+		box-shadow: 0 10px 14px rgba(3, 27, 78, 15%);
+		transition: opacity 0.15s;
+		opacity: 0;
+		pointer-events: none;
+	}
+	div.prodlist-i-info .prodlist-i-favorites {
+		margin: 0;
+	}
+	.top-menu-catalog-mobile span.sort_link_area.flexbox {
+		opacity: 1;
+		pointer-events: all;
+	}
+
+	.top-menu-catalog-mobile span.sort_title {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.top-menu-catalog-mobile span.sort_title i {
+		font-size: 18px;
+		transition: transform 0.15s;
+	}
+
+	.top-menu-catalog-mobile span.sort_title i.active {
+		transform: rotate(-180deg);
+	}
 }
 
 /*end */
@@ -10650,6 +10766,28 @@ end New Filter
 
 /* order make */
 
+.order-make-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 32px;
+	padding: 10px 30px;
+}
+
+.order-make-header h2 {
+	padding-top: 10px;
+	font-size: 22px;
+}
+
+.order-make-header-back {
+	color: #7c7c7c;
+	font-size: 18px;
+}
+
+.order-make-header-back span {
+	margin-left: 10px;
+}
+
 .order-basket-count {
 	margin-left: 6px;
 	line-height: 20px;
@@ -10665,6 +10803,15 @@ end New Filter
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+@media (max-width: 575px) {
+	.order-make-header-back {
+		font-size: 15px;
+	}
+	.order-make-header h2 {
+		font-size: 18px;
+	}
 }
 
 /* end order make */
